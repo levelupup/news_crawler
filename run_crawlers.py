@@ -272,7 +272,16 @@ _HTML_STYLE = """\
   body  { font-family: Arial, sans-serif; background: #f4f4f9; margin: 0; padding: 20px; }
   h1    { color: #333; margin-bottom: 4px; }
   p.meta{ color: #666; font-size: .9em; margin-top: 0; }
-  table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+  .filter-bar { margin: 12px 0 8px; display: flex; flex-wrap: wrap; gap: 6px; }
+  .filter-btn {
+    padding: 4px 12px; border: 1px solid #bbb; border-radius: 14px;
+    background: #fff; cursor: pointer; font-size: .85em; color: #444;
+    transition: background .15s, color .15s;
+  }
+  .filter-btn:hover { background: #e0e0f0; }
+  .filter-btn.active { background: #4466cc; color: #fff; border-color: #4466cc; }
+  p.count { font-size: .85em; color: #666; margin: 4px 0 8px; }
+  table { width: 100%; border-collapse: collapse; margin-top: 4px; }
   th    { background: #e8e8f0; padding: 10px; text-align: left;
           border-bottom: 2px solid #ccc; white-space: nowrap; }
   td    { padding: 7px 10px; border-bottom: 1px solid #eee; vertical-align: top; }
@@ -284,17 +293,43 @@ _HTML_STYLE = """\
   .ts      { font-size: .78em; color: #888; white-space: nowrap; }
 </style>"""
 
+_FILTER_JS = """\
+<script>
+(function(){
+  var current = 'all';
+  function applyFilter(domain) {
+    current = domain;
+    document.querySelectorAll('.filter-btn').forEach(function(btn){
+      btn.classList.toggle('active', btn.dataset.domain === domain);
+    });
+    var rows = document.querySelectorAll('tbody tr');
+    var visible = 0;
+    rows.forEach(function(tr){
+      var show = domain === 'all' || tr.dataset.domain === domain;
+      tr.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+    document.getElementById('row-count').textContent = visible.toLocaleString() + ' articles';
+  }
+  document.querySelectorAll('.filter-btn').forEach(function(btn){
+    btn.addEventListener('click', function(){ applyFilter(btn.dataset.domain); });
+  });
+  applyFilter('all');
+})();
+</script>"""
+
 
 def _html_rows(records: list[dict]) -> str:
     rows = []
     for r in records:
-        label   = DOMAINS.get(r.get("domain", ""), r.get("domain", ""))
+        domain  = r.get("domain", "")
+        label   = DOMAINS.get(domain, domain)
         company = r.get("company", "")
         title   = r.get("title", "").replace("<", "&lt;").replace(">", "&gt;")
         url     = r.get("url", "")
         ts      = r.get("crawled_at", "")
         rows.append(
-            f'<tr>'
+            f'<tr data-domain="{domain}">'
             f'<td class="domain">{label}</td>'
             f'<td class="company">{company}</td>'
             f'<td><a href="{url}" target="_blank">{title}</a></td>'
@@ -304,7 +339,28 @@ def _html_rows(records: list[dict]) -> str:
     return "\n".join(rows)
 
 
-def write_html(path: Path, heading: str, records: list[dict]) -> None:
+def _filter_buttons(records: list[dict]) -> str:
+    seen = []
+    for r in records:
+        d = r.get("domain", "")
+        if d and d not in seen:
+            seen.append(d)
+    buttons = ['<button class="filter-btn active" data-domain="all">All</button>']
+    for d in seen:
+        label = DOMAINS.get(d, d)
+        buttons.append(f'<button class="filter-btn" data-domain="{d}">{label}</button>')
+    return "\n  ".join(buttons)
+
+
+def write_html(path: Path, heading: str, records: list[dict], filterable: bool = False) -> None:
+    filter_section = ""
+    if filterable and records:
+        filter_section = f"""
+  <div class="filter-bar">
+  {_filter_buttons(records)}
+  </div>
+  <p class="count"><span id="row-count"></span></p>"""
+
     body = f"""<!DOCTYPE html>
 <html lang="zh">
 <head>
@@ -314,7 +370,7 @@ def write_html(path: Path, heading: str, records: list[dict]) -> None:
 </head>
 <body>
   <h1>{heading}</h1>
-  <p class="meta">Generated: {CRAWLED_AT} &nbsp;|&nbsp; {len(records):,} articles</p>
+  <p class="meta">Generated: {CRAWLED_AT} &nbsp;|&nbsp; {len(records):,} articles</p>{filter_section}
   <table>
     <thead>
       <tr><th>Domain</th><th>Company</th><th>Title</th><th>Crawled At</th></tr>
@@ -323,6 +379,7 @@ def write_html(path: Path, heading: str, records: list[dict]) -> None:
 {_html_rows(records)}
     </tbody>
   </table>
+{_FILTER_JS if filterable else ""}
 </body>
 </html>"""
     path.write_text(body, encoding="utf-8")
@@ -479,13 +536,13 @@ def main() -> None:
 
     if not new_records:
         print("No new articles — refreshing Today HTML.")
-        write_html(HTML_LATEST, "News Crawler — Latest", [])
+        write_html(HTML_LATEST, "News Crawler — Latest", [], filterable=True)
         history_records = load_all_history()
         today_records   = sorted(
             [r for r in history_records if r.get("crawled_at", "")[:10] in {TODAY_DATE, YESTERDAY_DATE}],
             key=lambda r: r.get("crawled_at", ""), reverse=True,
         )
-        write_html(HTML_TODAY, f"News Crawler — 近兩日 ({YESTERDAY_DATE} ~ {TODAY_DATE})", today_records)
+        write_html(HTML_TODAY, f"News Crawler — 近兩日 ({YESTERDAY_DATE} ~ {TODAY_DATE})", today_records, filterable=True)
         return
 
     # Sort new items by crawled_at desc (all same timestamp, so order = fetch order)
@@ -497,14 +554,14 @@ def main() -> None:
 
     # 4. Write HTML files
     print("\nWriting HTML…")
-    write_html(HTML_LATEST, "News Crawler — Latest", new_sorted)
+    write_html(HTML_LATEST, "News Crawler — Latest", new_sorted, filterable=True)
 
     history_records = load_all_history()
     all_sorted      = sorted(history_records, key=lambda r: r.get("crawled_at", ""), reverse=True)
     write_html(HTML_HISTORY, "News Crawler — All History", all_sorted)
 
     today_records = [r for r in all_sorted if r.get("crawled_at", "")[:10] in {TODAY_DATE, YESTERDAY_DATE}]
-    write_html(HTML_TODAY, f"News Crawler — 近兩日 ({YESTERDAY_DATE} ~ {TODAY_DATE})", today_records)
+    write_html(HTML_TODAY, f"News Crawler — 近兩日 ({YESTERDAY_DATE} ~ {TODAY_DATE})", today_records, filterable=True)
 
     print(f"\nDone. {len(new_records)} new articles saved.")
 
