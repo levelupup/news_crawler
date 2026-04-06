@@ -1,0 +1,577 @@
+"""
+run_crawlers.py — Master async news crawler.
+
+Runs all 16 source crawlers concurrently, deduplicates against stored history,
+writes local HTML + per-domain CSV files, and syncs to Google Sheets.
+
+Usage:
+    python run_crawlers.py
+"""
+
+import asyncio
+import csv
+import importlib
+import os
+import re
+import sys
+from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime
+from pathlib import Path
+
+import gspread
+import requests
+from bs4 import BeautifulSoup
+from oauth2client.service_account import ServiceAccountCredentials
+
+# ── Paths ─────────────────────────────────────────────────────────────────────
+BASE_DIR = Path(__file__).parent
+DATA_DIR = BASE_DIR / "data"
+DATA_DIR.mkdir(exist_ok=True)
+sys.path.insert(0, str(BASE_DIR))
+
+HTML_LATEST  = BASE_DIR / "news_crawler_latest.html"
+HTML_TODAY   = BASE_DIR / "today.html"
+HTML_HISTORY = BASE_DIR / "news_history_all.html"
+
+TODAY_DATE = datetime.now().strftime("%Y-%m-%d")
+
+GS_KEY_PATH    = Path(os.environ.get("onedrive", "")) / "automatic" / "newscrawler-492407-e08b0b8abcf7.json"
+GS_SPREADSHEET = "News Crawler"
+
+CRAWLED_AT = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+# ── Domain slug → display name ────────────────────────────────────────────────
+DOMAINS = {
+    "36kr":             "36kr.com",
+    "bloomberg":        "Bloomberg",
+    "c114":             "C114通信網",
+    "chinaflashmarket": "中國閃存市場",
+    "economictimes":    "Economic Times",
+    "einnews":          "EIN News",
+    "ifeng":            "鳳凰網科技",
+    "livemint":         "Livemint",
+    "moneycontrol":     "Moneycontrol",
+    "nikkei":           "Nikkei Asia",
+    "reuters":          "Reuters",
+    "sina_finance":     "新浪財經",
+    "sohu":             "搜狐IT",
+    "techcrunch":       "TechCrunch",
+    "theinformation":   "The Information",
+    "wsj":              "WSJ",
+}
+
+CSV_COLUMNS = ["domain", "company", "title", "url", "crawled_at"]
+
+
+# ── Inline fetchers for legacy scripts (module-level side-effects prevent import) ──
+
+def _fetch_einnews() -> list[dict]:
+    countries    = ["india"]
+    ein_domains  = ["electriccars", "semiconductors", "cellphones", "tech", "solarenergy", "electronics"]
+    articles: list[dict] = []
+    for dm in ein_domains:
+        for ctry in countries:
+            url      = f"https://{dm}.einnews.com/country/{ctry}"
+            root_url = f"https://{dm}.einnews.com"
+            try:
+                r    = requests.get(url, timeout=15)
+                soup = BeautifulSoup(r.text, "lxml")
+                for h in soup.find_all("a", {"class": "title"}):
+                    href  = h.get("href", "")
+                    title = h.text.strip()
+                    if not href or not title:
+                        continue
+                    href = href[: href.find("?")] if "?" in href else href
+                    href = f"{root_url}{href}" if "https://" not in href else href
+                    articles.append({"company": "", "title": title, "url": href})
+            except Exception as exc:
+                print(f"  [einnews] {dm}/{ctry}: {exc}")
+    return articles
+
+
+_SINA_URLS = {
+    "立訊":    "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sz002475.phtml",
+    "歌爾":    "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sz002241.phtml",
+    "聞泰":    "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh600745.phtml",
+    "環旭電子": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh601231.phtml",
+    "華勤技術": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh603296.phtml",
+    "冠捷科技": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sz000727.phtml",
+    "藍思":    "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sz300433.phtml",
+    "摩爾線程": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh688795.phtml",
+    "晶合集成": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh688249.phtml",
+    "中芯國際": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh688981.phtml",
+    "通富微電": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sz002156.phtml",
+    "長電科技": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh600584.phtml",
+    "華天科技": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sz002185.phtml",
+    "格科微":   "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh688728.phtml",
+    "韋爾股份": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh603501.phtml",
+    "豪威集團": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh600460.phtml",
+    "華潤微":   "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh688396.phtml",
+    "華微電子": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh600360.phtml",
+    "國民技術": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sz300077.phtml",
+    "兆易創新": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh603986.phtml",
+    "瀾起科技": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh688008.phtml",
+    "北方華創": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sz002371.phtml",
+    "晶盛機電": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sz300316.phtml",
+    "中微半導體": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh688012.phtml",
+    "至純科技": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh6039690.phtml",
+    "盛美上海": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh688082.phtml",
+    "拓荊科技": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh688072.phtml",
+    "華海清科": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh688120.phtml",
+    "芯源微":   "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh688037.phtml",
+    "納芯微":   "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh688052.phtml",
+    "景嘉微":   "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sz300474.phtml",
+    "海光信息": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh688041.phtml",
+    "太極實業": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh600667.phtml",
+    "深科技":   "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sz000021.phtml",
+    "華大九天": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sz301269.phtml",
+    "中科飛測": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh688361.phtml",
+    "滬矽產業": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh688126.phtml",
+    "概倫電子": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh688206.phtml",
+    "長川科技": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sz300604.phtml",
+    "南大光電": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sz300346.phtml",
+    "安集科技": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh688019.phtml",
+    "華峰測控": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh688200.phtml",
+    "國軒高科": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sz002074.phtml",
+    "寧德時代": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sz300750.phtml",
+    "比亞迪":   "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sz002594.phtml",
+    "億緯鋰能": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sz300014.phtml",
+    "華虹":    "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh688347.phtml",
+    "士蘭微":  "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh600460.phtml",
+}
+
+_SINA_RE_BLOCK = re.compile(r'datelist"><ul>(.*?)</ul>', re.S)
+_SINA_RE_ITEM  = re.compile(r'(\d{4}-\d{2}-\d{2} \d{2}:\d{2}.*?</a>)', re.S)
+_SINA_RE_URL   = re.compile(r"(https?://[^']+)'")
+_SINA_RE_TITLE = re.compile(r">(.*?)<")
+
+
+def _fetch_sina_finance() -> list[dict]:
+    import time
+    session = requests.Session()
+    session.headers.update({"User-Agent": "Mozilla/5.0"})
+    articles: list[dict] = []
+    _blocked = False
+    for company, url in _SINA_URLS.items():
+        if _blocked:
+            break
+        try:
+            r = session.get(url, timeout=10)
+            if r.status_code == 456:
+                print(f"  [sina_finance] IP blocked (HTTP 456) — will retry in ~5 min")
+                _blocked = True
+                break
+            block = _SINA_RE_BLOCK.findall(r.text)
+            if not block:
+                continue
+            text = block[0].replace("&nbsp;", " ").strip()
+            for item in _SINA_RE_ITEM.findall(text):
+                try:
+                    link  = _SINA_RE_URL.findall(item)[0]
+                    title = _SINA_RE_TITLE.findall(item)[0]
+                    articles.append({"company": company, "title": title, "url": link})
+                except Exception:
+                    pass
+        except Exception as exc:
+            print(f"  [sina_finance] {company}: {exc}")
+        time.sleep(1)
+    return articles
+
+
+# ── Normalize raw articles to standard record ──────────────────────────────────
+
+def _wrap(domain: str, raw: list[dict]) -> list[dict]:
+    out = []
+    for a in raw:
+        url   = a.get("url", "").strip()
+        title = a.get("title", "").strip()
+        if not url or not title:
+            continue
+        out.append({
+            "domain":     domain,
+            "company":    a.get("company", ""),
+            "title":      title,
+            "url":        url,
+            "crawled_at": CRAWLED_AT,
+        })
+    return out
+
+
+# ── History helpers ────────────────────────────────────────────────────────────
+
+def _csv_path(domain: str) -> Path:
+    return DATA_DIR / f"{domain}.csv"
+
+
+def load_known_urls() -> set[str]:
+    """Collect all previously saved URLs from all domain CSVs."""
+    known: set[str] = set()
+    for csv_file in DATA_DIR.glob("*.csv"):
+        try:
+            with open(csv_file, encoding="utf-8-sig", newline="") as f:
+                for row in csv.DictReader(f):
+                    if row.get("url"):
+                        known.add(row["url"])
+        except Exception as exc:
+            print(f"  [history] {csv_file.name}: {exc}")
+    return known
+
+
+def load_all_history() -> list[dict]:
+    """Return all historical records from all domain CSVs."""
+    records: list[dict] = []
+    for csv_file in DATA_DIR.glob("*.csv"):
+        try:
+            with open(csv_file, encoding="utf-8-sig", newline="") as f:
+                records.extend(csv.DictReader(f))
+        except Exception as exc:
+            print(f"  [history] {csv_file.name}: {exc}")
+    return records
+
+
+def save_new_records(new_records: list[dict]) -> None:
+    """Append new records to per-domain CSVs, sorted by crawled_at desc."""
+    by_domain: dict[str, list[dict]] = {}
+    for rec in new_records:
+        by_domain.setdefault(rec["domain"], []).append(rec)
+
+    for domain, recs in by_domain.items():
+        path = _csv_path(domain)
+        existing: list[dict] = []
+        if path.exists():
+            with open(path, encoding="utf-8-sig", newline="") as f:
+                existing = list(csv.DictReader(f))
+        combined = existing + recs
+        combined.sort(key=lambda r: r.get("crawled_at", ""), reverse=True)
+        with open(path, "w", encoding="utf-8-sig", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=CSV_COLUMNS)
+            writer.writeheader()
+            writer.writerows(combined)
+        print(f"  [csv] {path.name}: {len(combined)} total rows ({len(recs)} new)")
+
+
+# ── HTML output ────────────────────────────────────────────────────────────────
+
+_HTML_STYLE = """\
+<style>
+  body  { font-family: Arial, sans-serif; background: #f4f4f9; margin: 0; padding: 20px; }
+  h1    { color: #333; margin-bottom: 4px; }
+  p.meta{ color: #666; font-size: .9em; margin-top: 0; }
+  table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+  th    { background: #e8e8f0; padding: 10px; text-align: left;
+          border-bottom: 2px solid #ccc; white-space: nowrap; }
+  td    { padding: 7px 10px; border-bottom: 1px solid #eee; vertical-align: top; }
+  tr:hover { background: #f0f0fa; }
+  a     { color: #0066cc; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .domain  { font-size: .82em; color: #555; white-space: nowrap; }
+  .company { font-size: .88em; color: #333; white-space: nowrap; }
+  .ts      { font-size: .78em; color: #888; white-space: nowrap; }
+</style>"""
+
+
+def _html_rows(records: list[dict]) -> str:
+    rows = []
+    for r in records:
+        label   = DOMAINS.get(r.get("domain", ""), r.get("domain", ""))
+        company = r.get("company", "")
+        title   = r.get("title", "").replace("<", "&lt;").replace(">", "&gt;")
+        url     = r.get("url", "")
+        ts      = r.get("crawled_at", "")
+        rows.append(
+            f'<tr>'
+            f'<td class="domain">{label}</td>'
+            f'<td class="company">{company}</td>'
+            f'<td><a href="{url}" target="_blank">{title}</a></td>'
+            f'<td class="ts">{ts}</td>'
+            f'</tr>'
+        )
+    return "\n".join(rows)
+
+
+def write_html(path: Path, heading: str, records: list[dict]) -> None:
+    body = f"""<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <title>{heading}</title>
+  {_HTML_STYLE}
+</head>
+<body>
+  <h1>{heading}</h1>
+  <p class="meta">Generated: {CRAWLED_AT} &nbsp;|&nbsp; {len(records):,} articles</p>
+  <table>
+    <thead>
+      <tr><th>Domain</th><th>Company</th><th>Title</th><th>Crawled At</th></tr>
+    </thead>
+    <tbody>
+{_html_rows(records)}
+    </tbody>
+  </table>
+</body>
+</html>"""
+    path.write_text(body, encoding="utf-8")
+    print(f"  [html] {path.name} — {len(records):,} rows")
+
+
+# ── Google Sheets ──────────────────────────────────────────────────────────────
+
+_GS_HEADER = ["Domain", "Company", "Title", "URL", "Crawled At"]
+
+
+def _gs_rows(records: list[dict]) -> list[list]:
+    return [
+        [DOMAINS.get(r["domain"], r["domain"]), r["company"], r["title"], r["url"], r["crawled_at"]]
+        for r in records
+    ]
+
+
+def _get_or_create_worksheet(spreadsheet, name: str, rows: int = 50000, cols: int = 5):
+    try:
+        return spreadsheet.worksheet(name)
+    except gspread.exceptions.WorksheetNotFound:
+        ws = spreadsheet.add_worksheet(title=name, rows=rows, cols=cols)
+        ws.append_row(_GS_HEADER)
+        return ws
+
+
+def sync_google_sheets(new_records: list[dict]) -> None:
+    try:
+        scope = [
+            "https://spreadsheets.google.com/feeds",
+            "https://www.googleapis.com/auth/drive",
+        ]
+        creds  = ServiceAccountCredentials.from_json_keyfile_name(str(GS_KEY_PATH), scope)
+        client = gspread.authorize(creds)
+
+        try:
+            spreadsheet = client.open(GS_SPREADSHEET)
+        except gspread.exceptions.SpreadsheetNotFound:
+            spreadsheet = client.create(GS_SPREADSHEET)
+            print(f"  [gsheets] created spreadsheet '{GS_SPREADSHEET}'")
+
+        # ── Latest worksheet: rewrite with this run's new items ───────────
+        ws_latest = _get_or_create_worksheet(spreadsheet, "Latest", rows=5000)
+        ws_latest.clear()
+        ws_latest.append_row(_GS_HEADER)
+        if new_records:
+            ws_latest.append_rows(_gs_rows(new_records))
+        print(f"  [gsheets] Latest: {len(new_records)} rows")
+
+        # ── Today worksheet ───────────────────────────────────────────────
+        # New day → clear and rewrite; same day → insert only unseen URLs.
+        ws_today = _get_or_create_worksheet(spreadsheet, "Today", rows=50000)
+        existing_dates = ws_today.col_values(5)[1:]   # col E = Crawled At, skip header
+        sheet_is_today = any(d.startswith(TODAY_DATE) for d in existing_dates)
+
+        if not sheet_is_today:
+            # First run of the day (or empty sheet): clear stale data and write fresh
+            ws_today.clear()
+            ws_today.append_row(_GS_HEADER)
+            if new_records:
+                ws_today.append_rows(_gs_rows(new_records))
+            print(f"  [gsheets] Today: reset for new day, wrote {len(new_records)} rows")
+        else:
+            # Same day: insert only URLs not already in the sheet
+            existing_urls = set(ws_today.col_values(4)[1:])  # col D = URL, skip header
+            truly_new = [r for r in new_records if r["url"] not in existing_urls]
+            if truly_new:
+                ws_today.insert_rows(_gs_rows(list(reversed(truly_new))), row=2)
+                print(f"  [gsheets] Today: inserted {len(truly_new)} new rows")
+            else:
+                print(f"  [gsheets] Today: no new rows (all already present)")
+
+    except Exception as exc:
+        msg = str(exc)
+        if "quota" in msg.lower() or "storage" in msg.lower():
+            print(f"  [gsheets] Drive storage quota exceeded — free up Google Drive space and retry.")
+        else:
+            print(f"  [gsheets] ERROR: {exc}")
+
+
+# ── Async runner ───────────────────────────────────────────────────────────────
+
+async def _run_all() -> list[dict]:
+    m36kr  = importlib.import_module("36kr")
+    mbl    = importlib.import_module("bloomberg")
+    mc114  = importlib.import_module("c114")
+    mcfm   = importlib.import_module("chinaflashmarket")
+    met    = importlib.import_module("economictimes")
+    mifeng = importlib.import_module("ifeng")
+    mlm    = importlib.import_module("livemint")
+    mmc    = importlib.import_module("moneycontrol")
+    mnk    = importlib.import_module("nikkei")
+    mreu   = importlib.import_module("reuters")
+    msohu  = importlib.import_module("sohu")
+    mtc    = importlib.import_module("techcrunch")
+    mti    = importlib.import_module("theinformation")
+    mwsj   = importlib.import_module("wsj")
+
+    # Map: domain key → zero-arg callable returning raw list[dict]
+    # sohu uses asyncio.run() internally; running in a thread is safe because
+    # each thread gets its own event loop.
+    fetch_tasks: dict[str, object] = {
+        "36kr":             lambda: m36kr.fetch_36kr(50),
+        "bloomberg":        lambda: mbl.fetch_bloomberg(150),
+        "c114":             lambda: mc114.fetch_c114(50),
+        "chinaflashmarket": lambda: mcfm.fetch_chinaflashmarket(50),
+        "economictimes":    lambda: met.fetch_economictimes(50),
+        "einnews":          _fetch_einnews,
+        "ifeng":            lambda: mifeng.fetch_ifeng(50),
+        "livemint":         lambda: mlm.fetch_livemint(50),
+        "moneycontrol":     lambda: mmc.fetch_moneycontrol(50),
+        "nikkei":           lambda: mnk.fetch_nikkei_tech(50),
+        "reuters":          lambda: mreu.fetch_reuters_technology(50),
+        "sina_finance":     _fetch_sina_finance,
+        "sohu":             lambda: msohu.fetch_sohu(50),
+        "techcrunch":       lambda: mtc.fetch_techcrunch(50),
+        "theinformation":   lambda: mti.fetch_theinformation(50),
+        "wsj":              lambda: mwsj.fetch_wsj_technology(50),
+    }
+
+    loop     = asyncio.get_event_loop()
+    executor = ThreadPoolExecutor(max_workers=16)
+
+    # Returns (records, error_info_or_None)
+    async def run_one(domain: str, fn) -> tuple[list[dict], dict | None]:
+        try:
+            print(f"  [{domain}] fetching…")
+            raw = await loop.run_in_executor(executor, fn)
+            normalized = _wrap(domain, raw)
+            print(f"  [{domain}] {len(normalized)} articles")
+            if len(normalized) == 0:
+                return [], {
+                    "domain": domain,
+                    "error": "Returned 0 articles (possible block or empty feed)",
+                    "crawled_at": CRAWLED_AT,
+                }
+            return normalized, None
+        except Exception as exc:
+            print(f"  [{domain}] ERROR: {exc}")
+            return [], {
+                "domain": domain,
+                "error": str(exc),
+                "crawled_at": CRAWLED_AT,
+            }
+
+    results = await asyncio.gather(
+        *[run_one(d, fn) for d, fn in fetch_tasks.items()]
+    )
+    executor.shutdown(wait=False)
+
+    all_records: list[dict] = []
+    errors: list[dict] = []
+    for records, err in results:
+        all_records.extend(records)
+        if err:
+            errors.append(err)
+    return all_records, errors
+
+
+# ── Error HTML ────────────────────────────────────────────────────────────────
+
+HTML_ERRORS = BASE_DIR / "error_list.html"
+
+
+def write_error_html(errors: list[dict]) -> None:
+    if errors:
+        rows = "\n".join(
+            f'<tr>'
+            f'<td class="domain">{DOMAINS.get(e["domain"], e["domain"])}</td>'
+            f'<td class="err">{e["error"]}</td>'
+            f'<td class="ts">{e["crawled_at"]}</td>'
+            f'</tr>'
+            for e in errors
+        )
+        status_badge = f'<span class="badge err-badge">{len(errors)} error(s)</span>'
+    else:
+        rows = '<tr><td colspan="3" style="text-align:center;color:#888;">No errors</td></tr>'
+        status_badge = '<span class="badge ok-badge">All OK</span>'
+
+    body = f"""<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <title>News Crawler — Error List</title>
+  {_HTML_STYLE}
+  <style>
+    .badge      {{ display:inline-block; padding:3px 10px; border-radius:4px;
+                   font-size:.85em; font-weight:bold; margin-left:10px; }}
+    .err-badge  {{ background:#fdd; color:#a00; }}
+    .ok-badge   {{ background:#dfd; color:#060; }}
+    .err        {{ color:#c00; font-size:.9em; }}
+  </style>
+</head>
+<body>
+  <h1>News Crawler — Error List {status_badge}</h1>
+  <p class="meta">Generated: {CRAWLED_AT}</p>
+  <table>
+    <thead>
+      <tr><th>Domain</th><th>Error</th><th>Crawled At</th></tr>
+    </thead>
+    <tbody>
+{rows}
+    </tbody>
+  </table>
+</body>
+</html>"""
+    HTML_ERRORS.write_text(body, encoding="utf-8")
+    print(f"  [html] {HTML_ERRORS.name} — {len(errors)} error(s)")
+
+
+# ── Entry point ────────────────────────────────────────────────────────────────
+
+def main() -> None:
+    print(f"[{CRAWLED_AT}] Starting all crawlers…\n")
+
+    # 1. Fetch concurrently
+    fetched, errors = asyncio.run(_run_all())
+    print(f"\nFetched total: {len(fetched)} articles  |  Errors: {len(errors)}")
+
+    # 2. Deduplicate against stored history
+    known_urls  = load_known_urls()
+    new_records = [r for r in fetched if r["url"] and r["url"] not in known_urls]
+    print(f"New (not in history): {len(new_records)} articles\n")
+
+    # Always write error report
+    print("\nWriting error report…")
+    write_error_html(errors)
+
+    if not new_records:
+        print("No new articles — refreshing Today HTML.")
+        write_html(HTML_LATEST, "News Crawler — Latest", [])
+        history_records = load_all_history()
+        today_records   = sorted(
+            [r for r in history_records if r.get("crawled_at", "").startswith(TODAY_DATE)],
+            key=lambda r: r.get("crawled_at", ""), reverse=True,
+        )
+        write_html(HTML_TODAY, f"News Crawler — Today ({TODAY_DATE})", today_records)
+        return
+
+    # Sort new items by crawled_at desc (all same timestamp, so order = fetch order)
+    new_sorted = sorted(new_records, key=lambda r: r["crawled_at"], reverse=True)
+
+    # 3. Persist to per-domain CSVs
+    print("Saving CSVs…")
+    save_new_records(new_sorted)
+
+    # 4. Write HTML files
+    print("\nWriting HTML…")
+    write_html(HTML_LATEST, "News Crawler — Latest", new_sorted)
+
+    history_records = load_all_history()
+    all_sorted      = sorted(history_records, key=lambda r: r.get("crawled_at", ""), reverse=True)
+    write_html(HTML_HISTORY, "News Crawler — All History", all_sorted)
+
+    today_records = [r for r in all_sorted if r.get("crawled_at", "").startswith(TODAY_DATE)]
+    write_html(HTML_TODAY, f"News Crawler — Today ({TODAY_DATE})", today_records)
+
+    # 5. Sync Google Sheets
+    print("\nSyncing Google Sheets…")
+    sync_google_sheets(new_sorted)
+
+    print(f"\nDone. {len(new_records)} new articles saved.")
+
+
+if __name__ == "__main__":
+    main()
