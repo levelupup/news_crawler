@@ -28,7 +28,6 @@ sys.path.insert(0, str(BASE_DIR))
 
 HTML_LATEST  = BASE_DIR / "news_crawler_latest.html"
 HTML_TODAY   = BASE_DIR / "today.html"
-HTML_HISTORY = BASE_DIR / "news_history_all.html"
 
 TW_TZ = timezone(timedelta(hours=8))
 
@@ -232,6 +231,22 @@ def load_known_urls() -> set[str]:
     return known
 
 
+def load_known_keys() -> set[tuple[str, str]]:
+    """Return set of (domain, normalized_title) for same-domain duplicate detection."""
+    keys: set[tuple[str, str]] = set()
+    for csv_file in DATA_DIR.glob("*.csv"):
+        try:
+            with open(csv_file, encoding="utf-8-sig", newline="") as f:
+                for row in csv.DictReader(f):
+                    d = row.get("domain", "")
+                    t = row.get("title", "").strip().lower()
+                    if d and t:
+                        keys.add((d, t))
+        except Exception as exc:
+            print(f"  [history] {csv_file.name}: {exc}")
+    return keys
+
+
 def load_all_history() -> list[dict]:
     """Return all historical records from all domain CSVs."""
     records: list[dict] = []
@@ -258,6 +273,8 @@ def save_new_records(new_records: list[dict]) -> None:
                 existing = list(csv.DictReader(f))
         combined = existing + recs
         combined.sort(key=lambda r: r.get("crawled_at", ""), reverse=True)
+        cutoff   = (datetime.now(TW_TZ) - timedelta(days=90)).strftime("%Y-%m-%d")
+        combined = [r for r in combined if r.get("crawled_at", "")[:10] >= cutoff]
         with open(path, "w", encoding="utf-8-sig", newline="") as f:
             writer = csv.DictWriter(f, fieldnames=CSV_COLUMNS)
             writer.writeheader()
@@ -527,7 +544,13 @@ def main() -> None:
 
     # 2. Deduplicate against stored history
     known_urls  = load_known_urls()
-    new_records = [r for r in fetched if r["url"] and r["url"] not in known_urls]
+    known_keys  = load_known_keys()
+    new_records = [
+        r for r in fetched
+        if r["url"]
+        and r["url"] not in known_urls
+        and (r["domain"], r.get("title", "").strip().lower()) not in known_keys
+    ]
     print(f"New (not in history): {len(new_records)} articles\n")
 
     # Always write error report
@@ -558,9 +581,7 @@ def main() -> None:
 
     history_records = load_all_history()
     all_sorted      = sorted(history_records, key=lambda r: r.get("crawled_at", ""), reverse=True)
-    write_html(HTML_HISTORY, "News Crawler — All History", all_sorted)
-
-    today_records = [r for r in all_sorted if r.get("crawled_at", "")[:10] in {TODAY_DATE, YESTERDAY_DATE}]
+    today_records   = [r for r in all_sorted if r.get("crawled_at", "")[:10] in {TODAY_DATE, YESTERDAY_DATE}]
     write_html(HTML_TODAY, f"News Crawler — 近兩日 ({YESTERDAY_DATE} ~ {TODAY_DATE})", today_records, filterable=True)
 
     print(f"\nDone. {len(new_records)} new articles saved.")
