@@ -31,22 +31,15 @@ Async news aggregator that crawls 16+ international tech/business sources and sy
 | `news_crawler_latest.html` | Articles from the current run |
 | `today.html` | Articles from today + yesterday |
 | `data/*.csv` | Per-domain history (rolling 90 days) |
-| Google Sheets | "News Crawler" spreadsheet — worksheets: Latest / Today / History |
 
 The two HTML pages have a fixed button in the top-right corner to switch between them.
 
 ## Setup
 
 ```bash
-pip install gspread oauth2client requests beautifulsoup4 feedparser \
+pip install requests beautifulsoup4 feedparser \
             googlenewsdecoder playwright playwright_stealth lxml pandas
 playwright install chromium
-```
-
-Set the `onedrive` environment variable to your OneDrive root directory. The Google Sheets service account key is expected at:
-
-```
-$onedrive/automatic/newscrawler-492407-e08b0b8abcf7.json
 ```
 
 ## Usage
@@ -63,6 +56,6 @@ python sohu.py
 
 ## Architecture
 
-`run_crawlers.py` dynamically imports all crawler modules via `importlib`, runs them concurrently with `asyncio` + `ThreadPoolExecutor` (16 workers), deduplicates against `data/*.csv` history, writes HTML outputs, and syncs to Google Sheets.
+`run_crawlers.py` dynamically imports all crawler modules via `importlib`, runs them concurrently with `asyncio` + `ThreadPoolExecutor` (16 workers), deduplicates against `data/*.csv` history, and writes HTML outputs.
 
 Each crawler module exports a `fetch_<source>()` function returning `list[dict]` with keys: `domain`, `company`, `title`, `url`, `crawled_at`.
