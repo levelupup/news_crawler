@@ -11,17 +11,14 @@ Usage:
 import asyncio
 import csv
 import importlib
-import os
 import re
 import sys
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from pathlib import Path
 
-import gspread
 import requests
 from bs4 import BeautifulSoup
-from oauth2client.service_account import ServiceAccountCredentials
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
 BASE_DIR = Path(__file__).parent
@@ -33,10 +30,10 @@ HTML_LATEST  = BASE_DIR / "news_crawler_latest.html"
 HTML_TODAY   = BASE_DIR / "today.html"
 HTML_HISTORY = BASE_DIR / "news_history_all.html"
 
-TODAY_DATE = datetime.now().strftime("%Y-%m-%d")
+from datetime import timedelta
 
-GS_KEY_PATH    = Path(os.environ.get("onedrive", "")) / "automatic" / "newscrawler-492407-e08b0b8abcf7.json"
-GS_SPREADSHEET = "News Crawler"
+TODAY_DATE     = datetime.now().strftime("%Y-%m-%d")
+YESTERDAY_DATE = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
 
 CRAWLED_AT = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
@@ -314,81 +311,6 @@ def write_html(path: Path, heading: str, records: list[dict]) -> None:
     print(f"  [html] {path.name} — {len(records):,} rows")
 
 
-# ── Google Sheets ──────────────────────────────────────────────────────────────
-
-_GS_HEADER = ["Domain", "Company", "Title", "URL", "Crawled At"]
-
-
-def _gs_rows(records: list[dict]) -> list[list]:
-    return [
-        [DOMAINS.get(r["domain"], r["domain"]), r["company"], r["title"], r["url"], r["crawled_at"]]
-        for r in records
-    ]
-
-
-def _get_or_create_worksheet(spreadsheet, name: str, rows: int = 50000, cols: int = 5):
-    try:
-        return spreadsheet.worksheet(name)
-    except gspread.exceptions.WorksheetNotFound:
-        ws = spreadsheet.add_worksheet(title=name, rows=rows, cols=cols)
-        ws.append_row(_GS_HEADER)
-        return ws
-
-
-def sync_google_sheets(new_records: list[dict]) -> None:
-    try:
-        scope = [
-            "https://spreadsheets.google.com/feeds",
-            "https://www.googleapis.com/auth/drive",
-        ]
-        creds  = ServiceAccountCredentials.from_json_keyfile_name(str(GS_KEY_PATH), scope)
-        client = gspread.authorize(creds)
-
-        try:
-            spreadsheet = client.open(GS_SPREADSHEET)
-        except gspread.exceptions.SpreadsheetNotFound:
-            spreadsheet = client.create(GS_SPREADSHEET)
-            print(f"  [gsheets] created spreadsheet '{GS_SPREADSHEET}'")
-
-        # ── Latest worksheet: rewrite with this run's new items ───────────
-        ws_latest = _get_or_create_worksheet(spreadsheet, "Latest", rows=5000)
-        ws_latest.clear()
-        ws_latest.append_row(_GS_HEADER)
-        if new_records:
-            ws_latest.append_rows(_gs_rows(new_records))
-        print(f"  [gsheets] Latest: {len(new_records)} rows")
-
-        # ── Today worksheet ───────────────────────────────────────────────
-        # New day → clear and rewrite; same day → insert only unseen URLs.
-        ws_today = _get_or_create_worksheet(spreadsheet, "Today", rows=50000)
-        existing_dates = ws_today.col_values(5)[1:]   # col E = Crawled At, skip header
-        sheet_is_today = any(d.startswith(TODAY_DATE) for d in existing_dates)
-
-        if not sheet_is_today:
-            # First run of the day (or empty sheet): clear stale data and write fresh
-            ws_today.clear()
-            ws_today.append_row(_GS_HEADER)
-            if new_records:
-                ws_today.append_rows(_gs_rows(new_records))
-            print(f"  [gsheets] Today: reset for new day, wrote {len(new_records)} rows")
-        else:
-            # Same day: insert only URLs not already in the sheet
-            existing_urls = set(ws_today.col_values(4)[1:])  # col D = URL, skip header
-            truly_new = [r for r in new_records if r["url"] not in existing_urls]
-            if truly_new:
-                ws_today.insert_rows(_gs_rows(list(reversed(truly_new))), row=2)
-                print(f"  [gsheets] Today: inserted {len(truly_new)} new rows")
-            else:
-                print(f"  [gsheets] Today: no new rows (all already present)")
-
-    except Exception as exc:
-        msg = str(exc)
-        if "quota" in msg.lower() or "storage" in msg.lower():
-            print(f"  [gsheets] Drive storage quota exceeded — free up Google Drive space and retry.")
-        else:
-            print(f"  [gsheets] ERROR: {exc}")
-
-
 # ── Async runner ───────────────────────────────────────────────────────────────
 
 async def _run_all() -> list[dict]:
@@ -542,10 +464,10 @@ def main() -> None:
         write_html(HTML_LATEST, "News Crawler — Latest", [])
         history_records = load_all_history()
         today_records   = sorted(
-            [r for r in history_records if r.get("crawled_at", "").startswith(TODAY_DATE)],
+            [r for r in history_records if r.get("crawled_at", "")[:10] in {TODAY_DATE, YESTERDAY_DATE}],
             key=lambda r: r.get("crawled_at", ""), reverse=True,
         )
-        write_html(HTML_TODAY, f"News Crawler — Today ({TODAY_DATE})", today_records)
+        write_html(HTML_TODAY, f"News Crawler — 近兩日 ({YESTERDAY_DATE} ~ {TODAY_DATE})", today_records)
         return
 
     # Sort new items by crawled_at desc (all same timestamp, so order = fetch order)
@@ -563,12 +485,8 @@ def main() -> None:
     all_sorted      = sorted(history_records, key=lambda r: r.get("crawled_at", ""), reverse=True)
     write_html(HTML_HISTORY, "News Crawler — All History", all_sorted)
 
-    today_records = [r for r in all_sorted if r.get("crawled_at", "").startswith(TODAY_DATE)]
-    write_html(HTML_TODAY, f"News Crawler — Today ({TODAY_DATE})", today_records)
-
-    # 5. Sync Google Sheets
-    print("\nSyncing Google Sheets…")
-    sync_google_sheets(new_sorted)
+    today_records = [r for r in all_sorted if r.get("crawled_at", "")[:10] in {TODAY_DATE, YESTERDAY_DATE}]
+    write_html(HTML_TODAY, f"News Crawler — 近兩日 ({YESTERDAY_DATE} ~ {TODAY_DATE})", today_records)
 
     print(f"\nDone. {len(new_records)} new articles saved.")
 
