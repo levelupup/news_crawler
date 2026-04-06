@@ -175,12 +175,30 @@ def _fetch_sina_finance() -> list[dict]:
     return articles
 
 
+# ── URL normalization ──────────────────────────────────────────────────────────
+
+from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
+
+_TRACKING_PARAMS = {
+    "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
+    "fbclid", "gclid", "ref", "source", "from", "cmpid", "cmp",
+}
+
+def _normalize_url(url: str) -> str:
+    parsed = urlparse(url)
+    if not parsed.query:
+        return url
+    params = {k: v for k, v in parse_qs(parsed.query, keep_blank_values=True).items()
+              if k.lower() not in _TRACKING_PARAMS}
+    return urlunparse(parsed._replace(query=urlencode(params, doseq=True)))
+
+
 # ── Normalize raw articles to standard record ──────────────────────────────────
 
 def _wrap(domain: str, raw: list[dict]) -> list[dict]:
     out = []
     for a in raw:
-        url   = a.get("url", "").strip()
+        url   = _normalize_url(a.get("url", "").strip())
         title = a.get("title", "").strip()
         if not url or not title:
             continue
