@@ -1,0 +1,68 @@
+# News Crawler
+
+Async news aggregator that crawls 16+ international tech/business sources and syncs results to Google Sheets.
+
+## Sources
+
+| Module | Display Name | Method |
+|---|---|---|
+| `bloomberg.py` | Bloomberg | Google News RSS |
+| `reuters.py` | Reuters | Google News RSS |
+| `wsj.py` | WSJ | Google News RSS |
+| `techcrunch.py` | TechCrunch | Google News RSS |
+| `theinformation.py` | The Information | Google News RSS |
+| `36kr.py` | 36kr.com | Google News RSS |
+| `nikkei.py` | Nikkei Asia | Google News RSS |
+| `livemint.py` | Livemint | Native RSS |
+| `economictimes.py` | Economic Times | Native RSS |
+| `moneycontrol.py` | Moneycontrol | BeautifulSoup scraping |
+| `chinaflashmarket.py` | 中國閃存市場 | BeautifulSoup scraping |
+| `chinastarmarket.py` | — | BeautifulSoup scraping |
+| `c114.py` | C114通信網 | BeautifulSoup scraping |
+| `ifeng.py` | 鳳凰網科技 | BeautifulSoup scraping |
+| `sina_finance.py` | 新浪財經 | BeautifulSoup scraping |
+| `sohu.py` | 搜狐IT | Playwright + stealth |
+| `einnews.py` | EIN News | BeautifulSoup scraping |
+
+## Outputs
+
+| File | Description |
+|---|---|
+| `news_crawler_latest.html` | Articles from the current run |
+| `today.html` | Articles from today + yesterday |
+| `data/*.csv` | Per-domain history (rolling 90 days) |
+| Google Sheets | "News Crawler" spreadsheet — worksheets: Latest / Today / History |
+
+The two HTML pages have a fixed button in the top-right corner to switch between them.
+
+## Setup
+
+```bash
+pip install gspread oauth2client requests beautifulsoup4 feedparser \
+            googlenewsdecoder playwright playwright_stealth lxml pandas
+playwright install chromium
+```
+
+Set the `onedrive` environment variable to your OneDrive root directory. The Google Sheets service account key is expected at:
+
+```
+$onedrive/automatic/newscrawler-492407-e08b0b8abcf7.json
+```
+
+## Usage
+
+```bash
+# Run all crawlers
+python run_crawlers.py
+
+# Test a single crawler
+python reuters.py
+python sohu.py
+# (any crawler module supports direct execution)
+```
+
+## Architecture
+
+`run_crawlers.py` dynamically imports all crawler modules via `importlib`, runs them concurrently with `asyncio` + `ThreadPoolExecutor` (16 workers), deduplicates against `data/*.csv` history, writes HTML outputs, and syncs to Google Sheets.
+
+Each crawler module exports a `fetch_<source>()` function returning `list[dict]` with keys: `domain`, `company`, `title`, `url`, `crawled_at`.

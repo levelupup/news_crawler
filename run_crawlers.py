@@ -308,6 +308,13 @@ _HTML_STYLE = """\
   .domain  { font-size: .82em; color: #555; white-space: nowrap; }
   .company { font-size: .88em; color: #333; white-space: nowrap; }
   .ts      { font-size: .78em; color: #888; white-space: nowrap; }
+  .peer-link {
+    position: fixed; top: 0.8rem; right: 1rem;
+    background: #4466cc; color: #fff !important;
+    padding: 0.3rem 0.8rem; border-radius: 4px;
+    text-decoration: none !important; font-size: .85em; z-index: 100;
+  }
+  .peer-link:hover { background: #2244aa; }
 </style>"""
 
 _FILTER_JS = """\
@@ -369,7 +376,8 @@ def _filter_buttons(records: list[dict]) -> str:
     return "\n  ".join(buttons)
 
 
-def write_html(path: Path, heading: str, records: list[dict], filterable: bool = False) -> None:
+def write_html(path: Path, heading: str, records: list[dict],
+               filterable: bool = False, peer_link: tuple | None = None) -> None:
     filter_section = ""
     if filterable and records:
         filter_section = f"""
@@ -378,6 +386,11 @@ def write_html(path: Path, heading: str, records: list[dict], filterable: bool =
   </div>
   <p class="count"><span id="row-count"></span></p>"""
 
+    peer_anchor = ""
+    if peer_link:
+        href, label = peer_link
+        peer_anchor = f'\n  <a class="peer-link" href="{href}">{label}</a>'
+
     body = f"""<!DOCTYPE html>
 <html lang="zh">
 <head>
@@ -385,7 +398,7 @@ def write_html(path: Path, heading: str, records: list[dict], filterable: bool =
   <title>{heading}</title>
   {_HTML_STYLE}
 </head>
-<body>
+<body>{peer_anchor}
   <h1>{heading}</h1>
   <p class="meta">Generated: {CRAWLED_AT} &nbsp;|&nbsp; {len(records):,} articles</p>{filter_section}
   <table>
@@ -559,13 +572,15 @@ def main() -> None:
 
     if not new_records:
         print("No new articles — refreshing Today HTML.")
-        write_html(HTML_LATEST, "News Crawler — Latest", [], filterable=True)
+        write_html(HTML_LATEST, "News Crawler — Latest", [], filterable=True,
+                   peer_link=("./today.html", "→ Today"))
         history_records = load_all_history()
         today_records   = sorted(
             [r for r in history_records if r.get("crawled_at", "")[:10] in {TODAY_DATE, YESTERDAY_DATE}],
             key=lambda r: r.get("crawled_at", ""), reverse=True,
         )
-        write_html(HTML_TODAY, f"News Crawler — 近兩日 ({YESTERDAY_DATE} ~ {TODAY_DATE})", today_records, filterable=True)
+        write_html(HTML_TODAY, f"News Crawler — 近兩日 ({YESTERDAY_DATE} ~ {TODAY_DATE})", today_records, filterable=True,
+                   peer_link=("./news_crawler_latest.html", "→ Latest"))
         return
 
     # Sort new items by crawled_at desc (all same timestamp, so order = fetch order)
@@ -577,12 +592,14 @@ def main() -> None:
 
     # 4. Write HTML files
     print("\nWriting HTML…")
-    write_html(HTML_LATEST, "News Crawler — Latest", new_sorted, filterable=True)
+    write_html(HTML_LATEST, "News Crawler — Latest", new_sorted, filterable=True,
+               peer_link=("./today.html", "→ Today"))
 
     history_records = load_all_history()
     all_sorted      = sorted(history_records, key=lambda r: r.get("crawled_at", ""), reverse=True)
     today_records   = [r for r in all_sorted if r.get("crawled_at", "")[:10] in {TODAY_DATE, YESTERDAY_DATE}]
-    write_html(HTML_TODAY, f"News Crawler — 近兩日 ({YESTERDAY_DATE} ~ {TODAY_DATE})", today_records, filterable=True)
+    write_html(HTML_TODAY, f"News Crawler — 近兩日 ({YESTERDAY_DATE} ~ {TODAY_DATE})", today_records, filterable=True,
+               peer_link=("./news_crawler_latest.html", "→ Latest"))
 
     print(f"\nDone. {len(new_records)} new articles saved.")
 
