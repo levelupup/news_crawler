@@ -14,7 +14,7 @@ import importlib
 import re
 import sys
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 import requests
@@ -30,12 +30,12 @@ HTML_LATEST  = BASE_DIR / "news_crawler_latest.html"
 HTML_TODAY   = BASE_DIR / "today.html"
 HTML_HISTORY = BASE_DIR / "news_history_all.html"
 
-from datetime import timedelta
+TW_TZ = timezone(timedelta(hours=8))
 
-TODAY_DATE     = datetime.now().strftime("%Y-%m-%d")
-YESTERDAY_DATE = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
+TODAY_DATE     = datetime.now(TW_TZ).strftime("%Y-%m-%d")
+YESTERDAY_DATE = (datetime.now(TW_TZ) - timedelta(days=1)).strftime("%Y-%m-%d")
 
-CRAWLED_AT = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+CRAWLED_AT = datetime.now(TW_TZ).strftime("%Y-%m-%d %H:%M:%S")
 
 # ── Domain slug → display name ────────────────────────────────────────────────
 DOMAINS = {
