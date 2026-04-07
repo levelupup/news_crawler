@@ -42,6 +42,7 @@ DOMAINS = {
     "bloomberg":        "Bloomberg",
     "c114":             "C114通信網",
     "chinaflashmarket": "中國閃存市場",
+    "chinastarmarket":  "科創板日報",
     "cnbc":             "CNBC",
     "economictimes":    "Economic Times",
     "einnews":          "EIN News",
@@ -439,6 +440,7 @@ async def _run_all() -> list[dict]:
     mbl    = importlib.import_module("bloomberg")
     mc114  = importlib.import_module("c114")
     mcfm   = importlib.import_module("chinaflashmarket")
+    mcsm   = importlib.import_module("chinastarmarket")
     mcnbc  = importlib.import_module("cnbc")
     met    = importlib.import_module("economictimes")
     mifeng = importlib.import_module("ifeng")
@@ -462,6 +464,7 @@ async def _run_all() -> list[dict]:
         "bloomberg":        lambda: mbl.fetch_bloomberg(150),
         "c114":             lambda: mc114.fetch_c114(50),
         "chinaflashmarket": lambda: mcfm.fetch_chinaflashmarket(50),
+        "chinastarmarket":  lambda: mcsm.fetch_chinastarmarket(50),
         "cnbc":             lambda: mcnbc.fetch_cnbc(50),
         "economictimes":    lambda: met.fetch_economictimes(50),
         "einnews":          _fetch_einnews,

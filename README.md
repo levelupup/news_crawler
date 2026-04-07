@@ -21,7 +21,7 @@ Async news aggregator that crawls 20+ international tech/business sources and sy
 | `economictimes.py` | Economic Times | Native RSS |
 | `moneycontrol.py` | Moneycontrol | BeautifulSoup scraping |
 | `chinaflashmarket.py` | 中國閃存市場 | BeautifulSoup scraping |
-| `chinastarmarket.py` | — | BeautifulSoup scraping |
+| `chinastarmarket.py` | 科創板日報 | BeautifulSoup scraping |
 | `c114.py` | C114通信網 | BeautifulSoup scraping |
 | `ifeng.py` | 鳳凰網科技 | BeautifulSoup scraping |
 | `sina_finance.py` | 新浪財經 | BeautifulSoup scraping |
