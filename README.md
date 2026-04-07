@@ -1,6 +1,6 @@
 # News Crawler
 
-Async news aggregator that crawls 16+ international tech/business sources and syncs results to Google Sheets.
+Async news aggregator that crawls 19+ international tech/business sources and syncs results to Google Sheets.
 
 ## Sources
 

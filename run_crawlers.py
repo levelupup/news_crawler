@@ -42,6 +42,7 @@ DOMAINS = {
     "bloomberg":        "Bloomberg",
     "c114":             "C114通信網",
     "chinaflashmarket": "中國閃存市場",
+    "cnbc":             "CNBC",
     "economictimes":    "Economic Times",
     "einnews":          "EIN News",
     "ifeng":            "鳳凰網科技",
@@ -49,9 +50,11 @@ DOMAINS = {
     "moneycontrol":     "Moneycontrol",
     "nikkei":           "Nikkei Asia",
     "reuters":          "Reuters",
+    "scmp":             "SCMP",
     "sina_finance":     "新浪財經",
     "sohu":             "搜狐IT",
     "techcrunch":       "TechCrunch",
+    "thelec":           "The Elec",
     "theinformation":   "The Information",
     "wsj":              "WSJ",
 }
@@ -435,14 +438,17 @@ async def _run_all() -> list[dict]:
     mbl    = importlib.import_module("bloomberg")
     mc114  = importlib.import_module("c114")
     mcfm   = importlib.import_module("chinaflashmarket")
+    mcnbc  = importlib.import_module("cnbc")
     met    = importlib.import_module("economictimes")
     mifeng = importlib.import_module("ifeng")
     mlm    = importlib.import_module("livemint")
     mmc    = importlib.import_module("moneycontrol")
     mnk    = importlib.import_module("nikkei")
     mreu   = importlib.import_module("reuters")
+    mscmp  = importlib.import_module("scmp")
     msohu  = importlib.import_module("sohu")
     mtc    = importlib.import_module("techcrunch")
+    mtle   = importlib.import_module("thelec")
     mti    = importlib.import_module("theinformation")
     mwsj   = importlib.import_module("wsj")
 
@@ -454,6 +460,7 @@ async def _run_all() -> list[dict]:
         "bloomberg":        lambda: mbl.fetch_bloomberg(150),
         "c114":             lambda: mc114.fetch_c114(50),
         "chinaflashmarket": lambda: mcfm.fetch_chinaflashmarket(50),
+        "cnbc":             lambda: mcnbc.fetch_cnbc(50),
         "economictimes":    lambda: met.fetch_economictimes(50),
         "einnews":          _fetch_einnews,
         "ifeng":            lambda: mifeng.fetch_ifeng(50),
@@ -461,9 +468,11 @@ async def _run_all() -> list[dict]:
         "moneycontrol":     lambda: mmc.fetch_moneycontrol(50),
         "nikkei":           lambda: mnk.fetch_nikkei_tech(50),
         "reuters":          lambda: mreu.fetch_reuters_technology(50),
+        "scmp":             lambda: mscmp.fetch_scmp(50),
         "sina_finance":     _fetch_sina_finance,
         "sohu":             lambda: msohu.fetch_sohu(50),
         "techcrunch":       lambda: mtc.fetch_techcrunch(50),
+        "thelec":           lambda: mtle.fetch_thelec(50),
         "theinformation":   lambda: mti.fetch_theinformation(50),
         "wsj":              lambda: mwsj.fetch_wsj_technology(50),
     }
