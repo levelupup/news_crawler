@@ -17,6 +17,7 @@ Async news aggregator that crawls 20+ international tech/business sources and sy
 | `zdkorea.py` | ZDNet Korea | Native RSS |
 | `36kr.py` | 36kr.com | Google News RSS |
 | `nikkei.py` | Nikkei Asia | Native RSS |
+| `nytimes.py` | NYT中文網 | Native RSS |
 | `livemint.py` | Livemint | Native RSS |
 | `economictimes.py` | Economic Times | Native RSS |
 | `moneycontrol.py` | Moneycontrol | BeautifulSoup scraping |

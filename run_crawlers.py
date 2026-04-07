@@ -50,6 +50,7 @@ DOMAINS = {
     "livemint":         "Livemint",
     "moneycontrol":     "Moneycontrol",
     "nikkei":           "Nikkei Asia",
+    "nytimes":          "NYT中文網",
     "reuters":          "Reuters",
     "scmp":             "SCMP",
     "sina_finance":     "新浪財經",
@@ -463,6 +464,7 @@ async def _run_all() -> list[dict]:
     mlm    = importlib.import_module("livemint")
     mmc    = importlib.import_module("moneycontrol")
     mnk    = importlib.import_module("nikkei")
+    mnyt   = importlib.import_module("nytimes")
     mreu   = importlib.import_module("reuters")
     mscmp  = importlib.import_module("scmp")
     msohu  = importlib.import_module("sohu")
@@ -488,6 +490,7 @@ async def _run_all() -> list[dict]:
         "livemint":         lambda: mlm.fetch_livemint(50),
         "moneycontrol":     lambda: mmc.fetch_moneycontrol(50),
         "nikkei":           lambda: mnk.fetch_nikkei_tech(50),
+        "nytimes":          lambda: mnyt.fetch_nytimes(50),
         "reuters":          lambda: mreu.fetch_reuters_technology(50),
         "scmp":             lambda: mscmp.fetch_scmp(50),
         "sina_finance":     _fetch_sina_finance,
