@@ -12,7 +12,7 @@ Async news aggregator that crawls 16+ international tech/business sources and sy
 | `techcrunch.py` | TechCrunch | Native RSS |
 | `theinformation.py` | The Information | Google News RSS |
 | `36kr.py` | 36kr.com | Google News RSS |
-| `nikkei.py` | Nikkei Asia | Google News RSS |
+| `nikkei.py` | Nikkei Asia | Native RSS |
 | `livemint.py` | Livemint | Native RSS |
 | `economictimes.py` | Economic Times | Native RSS |
 | `moneycontrol.py` | Moneycontrol | BeautifulSoup scraping |
