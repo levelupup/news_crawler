@@ -8,7 +8,7 @@ Async news aggregator that crawls 16+ international tech/business sources and sy
 |---|---|---|
 | `bloomberg.py` | Bloomberg | Google News RSS |
 | `reuters.py` | Reuters | Google News RSS |
-| `wsj.py` | WSJ | Google News RSS |
+| `wsj.py` | WSJ | Native RSS |
 | `techcrunch.py` | TechCrunch | Google News RSS |
 | `theinformation.py` | The Information | Google News RSS |
 | `36kr.py` | 36kr.com | Google News RSS |
