@@ -57,6 +57,7 @@ DOMAINS = {
     "thelec":           "The Elec",
     "theinformation":   "The Information",
     "wsj":              "WSJ",
+    "zdkorea":          "ZDNet Korea",
 }
 
 CSV_COLUMNS = ["domain", "company", "title", "url", "crawled_at"]
@@ -65,8 +66,8 @@ CSV_COLUMNS = ["domain", "company", "title", "url", "crawled_at"]
 # ── Inline fetchers for legacy scripts (module-level side-effects prevent import) ──
 
 def _fetch_einnews() -> list[dict]:
-    countries    = ["india"]
-    ein_domains  = ["electriccars", "semiconductors", "cellphones", "tech", "solarenergy", "electronics"]
+    countries    = ["india","vietnam","thailand","malaysia","singapore"]
+    ein_domains  = ["electriccars", "semiconductors", "cellphones", "tech", "electronics"]
     articles: list[dict] = []
     for dm in ein_domains:
         for ctry in countries:
@@ -451,6 +452,7 @@ async def _run_all() -> list[dict]:
     mtle   = importlib.import_module("thelec")
     mti    = importlib.import_module("theinformation")
     mwsj   = importlib.import_module("wsj")
+    mzdk   = importlib.import_module("zdkorea")
 
     # Map: domain key → zero-arg callable returning raw list[dict]
     # sohu uses asyncio.run() internally; running in a thread is safe because
@@ -475,6 +477,7 @@ async def _run_all() -> list[dict]:
         "thelec":           lambda: mtle.fetch_thelec(50),
         "theinformation":   lambda: mti.fetch_theinformation(50),
         "wsj":              lambda: mwsj.fetch_wsj_technology(50),
+        "zdkorea":          lambda: mzdk.fetch_zdkorea(50),
     }
 
     loop     = asyncio.get_event_loop()
