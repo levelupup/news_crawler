@@ -11,6 +11,7 @@ Async news aggregator that crawls 16+ international tech/business sources and sy
 | `wsj.py` | WSJ | Native RSS |
 | `techcrunch.py` | TechCrunch | Native RSS |
 | `theinformation.py` | The Information | Native RSS |
+| `cnbc.py` | CNBC Technology | Native RSS |
 | `36kr.py` | 36kr.com | Google News RSS |
 | `nikkei.py` | Nikkei Asia | Native RSS |
 | `livemint.py` | Livemint | Native RSS |
