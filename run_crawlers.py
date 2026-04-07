@@ -305,9 +305,16 @@ _HTML_STYLE = """\
   p.count { font-size: .85em; color: #666; margin: 4px 0 8px; }
   table { width: 100%; border-collapse: collapse; margin-top: 4px; }
   th    { background: #e8e8f0; padding: 10px; text-align: left;
-          border-bottom: 2px solid #ccc; white-space: nowrap; }
+          border-bottom: 2px solid #ccc; white-space: nowrap;
+          position: sticky; top: 0; z-index: 10; }
   td    { padding: 7px 10px; border-bottom: 1px solid #eee; vertical-align: top; }
-  tr:hover { background: #f0f0fa; }
+  tr:hover { background: #f0f0fa !important; }
+  .gc-0 { background: #ffffff; }
+  .gc-1 { background: #f0f4ff; }
+  .gc-2 { background: #f0fff4; }
+  .gc-3 { background: #fff8f0; }
+  .gc-4 { background: #f9f0ff; }
+  .gc-5 { background: #f0faff; }
   a     { color: #0066cc; text-decoration: none; }
   a:hover { text-decoration: underline; }
   .domain  { font-size: .82em; color: #555; white-space: nowrap; }
@@ -348,7 +355,11 @@ _FILTER_JS = """\
 </script>"""
 
 
-def _html_rows(records: list[dict]) -> str:
+_GC_COUNT = 6
+
+
+def _html_rows(records: list[dict], group_by: str = "crawled_at") -> str:
+    group_colors: dict[str, int] = {}
     rows = []
     for r in records:
         domain  = r.get("domain", "")
@@ -357,8 +368,12 @@ def _html_rows(records: list[dict]) -> str:
         title   = r.get("title", "").replace("<", "&lt;").replace(">", "&gt;")
         url     = r.get("url", "")
         ts      = r.get("crawled_at", "")
+        key     = r.get(group_by, "")
+        if key not in group_colors:
+            group_colors[key] = len(group_colors) % _GC_COUNT
+        gc = group_colors[key]
         rows.append(
-            f'<tr data-domain="{domain}">'
+            f'<tr class="gc-{gc}" data-domain="{domain}">'
             f'<td class="domain">{label}</td>'
             f'<td class="company">{company}</td>'
             f'<td><a href="{url}" target="_blank">{title}</a></td>'
@@ -382,7 +397,8 @@ def _filter_buttons(records: list[dict]) -> str:
 
 
 def write_html(path: Path, heading: str, records: list[dict],
-               filterable: bool = False, peer_link: tuple | None = None) -> None:
+               filterable: bool = False, peer_link: tuple | None = None,
+               group_by: str = "crawled_at") -> None:
     filter_section = ""
     if filterable and records:
         filter_section = f"""
@@ -423,7 +439,7 @@ def write_html(path: Path, heading: str, records: list[dict],
       <tr><th>Domain</th><th>Company</th><th>Title</th><th>Crawled At</th></tr>
     </thead>
     <tbody>
-{_html_rows(records)}
+{_html_rows(records, group_by)}
     </tbody>
   </table>
 {_FILTER_JS if filterable else ""}
@@ -600,7 +616,7 @@ def main() -> None:
     if not new_records:
         print("No new articles — refreshing Today HTML.")
         write_html(HTML_LATEST, "News Crawler — Latest 30 minutes", [], filterable=True,
-                   peer_link=("./today.html", "→ Today"))
+                   peer_link=("./today.html", "→ Today"), group_by="domain")
         history_records = load_all_history()
         today_records   = sorted(
             [r for r in history_records if r.get("crawled_at", "")[:10] in {TODAY_DATE, YESTERDAY_DATE}],
@@ -620,7 +636,7 @@ def main() -> None:
     # 4. Write HTML files
     print("\nWriting HTML…")
     write_html(HTML_LATEST, "News Crawler — Latest 30 minutes", new_sorted, filterable=True,
-               peer_link=("./today.html", "→ Today"))
+               peer_link=("./today.html", "→ Today"), group_by="domain")
 
     history_records = load_all_history()
     all_sorted      = sorted(history_records, key=lambda r: r.get("crawled_at", ""), reverse=True)
