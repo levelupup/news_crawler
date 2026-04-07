@@ -599,7 +599,7 @@ def main() -> None:
 
     if not new_records:
         print("No new articles — refreshing Today HTML.")
-        write_html(HTML_LATEST, "News Crawler — Latest", [], filterable=True,
+        write_html(HTML_LATEST, "News Crawler — Latest 30 minutes", [], filterable=True,
                    peer_link=("./today.html", "→ Today"))
         history_records = load_all_history()
         today_records   = sorted(
@@ -607,7 +607,7 @@ def main() -> None:
             key=lambda r: r.get("crawled_at", ""), reverse=True,
         )
         write_html(HTML_TODAY, f"News Crawler — 近兩日 ({YESTERDAY_DATE} ~ {TODAY_DATE})", today_records, filterable=True,
-                   peer_link=("./news_crawler_latest.html", "→ Latest"))
+                   peer_link=("./news_crawler_latest.html", "→ Latest 30 minutes"))
         return
 
     # Sort new items by crawled_at desc (all same timestamp, so order = fetch order)
@@ -619,14 +619,14 @@ def main() -> None:
 
     # 4. Write HTML files
     print("\nWriting HTML…")
-    write_html(HTML_LATEST, "News Crawler — Latest", new_sorted, filterable=True,
+    write_html(HTML_LATEST, "News Crawler — Latest 30 minutes", new_sorted, filterable=True,
                peer_link=("./today.html", "→ Today"))
 
     history_records = load_all_history()
     all_sorted      = sorted(history_records, key=lambda r: r.get("crawled_at", ""), reverse=True)
     today_records   = [r for r in all_sorted if r.get("crawled_at", "")[:10] in {TODAY_DATE, YESTERDAY_DATE}]
     write_html(HTML_TODAY, f"News Crawler — 近兩日 ({YESTERDAY_DATE} ~ {TODAY_DATE})", today_records, filterable=True,
-               peer_link=("./news_crawler_latest.html", "→ Latest"))
+               peer_link=("./news_crawler_latest.html", "→ Latest 30 minutes"))
 
     print(f"\nDone. {len(new_records)} new articles saved.")
 
