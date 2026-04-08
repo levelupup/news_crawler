@@ -1,9 +1,16 @@
 import os, webbrowser, pandas as pd, collections
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-import requests, re
+import requests, re, html as html_module
 from bs4 import BeautifulSoup
 from datetime import datetime
+
+def fix_title(t):
+    if t is None:
+        return t
+    try:
+        t = t.encode('latin-1').decode('utf-8')
+    except (UnicodeEncodeError, UnicodeDecodeError):
+        pass
+    return html_module.unescape(t)
 
 # countries = ['malaysia','india','indonesia','vietnam','philippines','thailand','singapore']
 countries = ['india']
@@ -22,7 +29,7 @@ def einnews():
             soup = BeautifulSoup(response.text,'lxml')
             h3s = soup.find_all('a',{"class":"title"})
             hrefs = [h.get('href') for h in h3s]
-            titles = [h.text for h in h3s]
+            titles = [fix_title(h.text) for h in h3s]
             adjusted_href = []
             for href in hrefs:
                 href = href[:href.find('?')] if '?' in href else href
@@ -33,96 +40,6 @@ def einnews():
             [media.append('einnews') for h in hrefs]
             [retrieved.append(now) for h in hrefs]
 
-def eetimes_india():
-    url_zero = 'https://www.eetindia.co.in/news/'
-    response = requests.get(url_zero)
-    soup = BeautifulSoup(response.text,'lxml')
-    articles = soup.find_all('h2')
-    hrefs = [article.a.get('href') for article in articles]
-    titles = [article.text for article in articles]
-    [all_titles.append(h) for h in titles]
-    [all_hrefs.append(h) for h in hrefs]
-    [media.append('EE Times') for h in hrefs]
-    [retrieved.append(now) for h in hrefs]
-
-
-def silicon_semiconductor_china():
-     url_zero = 'https://www.siscmag.com'
-     response = requests.get('https://www.siscmag.com/news/3-1.html')
-     soup = BeautifulSoup(response.text,'lxml')
-     articles = soup.find_all('article',{'class':'block_topic_post'})
-     hrefs = [url_zero + article.p.a['href'] for article in articles]
-     titles = [article.p.a.text for article in articles]
-     [all_titles.append(h) for h in titles]
-     [all_hrefs.append(h) for h in hrefs]
-     [media.append('siscmag') for h in hrefs]
-     [retrieved.append(now) for h in hrefs]
-
-
-def chinastarmarket():
-    url_zero = 'https://www.chinastarmarket.cn'
-    response = requests.get('https://www.chinastarmarket.cn/')
-    soup = BeautifulSoup(response.text,'lxml')
-    articles = soup.find_all('a', href=lambda href: 'detail' in href)
-    hrefs = [url_zero + article['href'] for article in articles]
-    titles = [article.text for article in articles]
-    [all_titles.append(h) for h in titles]
-    [all_hrefs.append(h) for h in hrefs]
-    [media.append('China Star Market') for h in hrefs]
-    [retrieved.append(now) for h in hrefs]
-
-
-def edge_markets():
-    url_zero = 'https://www.theedgemarkets.com/'
-    response = requests.get('https://www.theedgemarkets.com/flash-categories/tech')
-    soup = BeautifulSoup(response.text,'lxml')
-    elements = soup.find_all('div',{"class":"views-field views-field-field-image"})
-    children = [e.findChildren("a") for e in elements]
-    hrefs = [url_zero+child[0].get('href') for child in children]
-    titles_children = [e.findChildren('img') for e in elements]
-    titles = [child[0].get('alt') for child in titles_children]
-    [all_titles.append(h) for h in titles]
-    [all_hrefs.append(h) for h in hrefs]
-    [media.append('Edge Markets') for h in hrefs]
-    [retrieved.append(now) for h in hrefs]
-
-    
-def vnexpress():
-    response = requests.get('https://e.vnexpress.net/news/business')
-    soup = BeautifulSoup(response.text,'lxml')
-    articles = soup.find_all("a",{"class":"thumb_news_site thumb_5x3"})
-    hrefs = [h.get('href') for h in articles]
-    titles = [h.get('title') for h in articles]
-    [all_titles.append(h) for h in titles]
-    [all_hrefs.append(h) for h in hrefs]
-    [media.append('VN Express') for h in hrefs]
-    [retrieved.append(now) for h in hrefs]
-
-def techwireasia():
-    response = requests.get('https://techwireasia.com/latest-tech/')
-    soup = BeautifulSoup(response.text,'lxml')
-    articles = soup.find_all('a',{'rel':'bookmark'})
-    titles = [h.get('title') for h in articles]
-    hrefs = [h.get('href') for h in articles]
-    [all_titles.append(h) for h in titles]
-    [all_hrefs.append(h) for h in hrefs]
-    [media.append('Tech Wire Asia') for h in hrefs]
-    [retrieved.append(now) for h in hrefs]
-
-
-def evertiq():
-    response = requests.get('https://evertiq.com/region/Asia-Pacific')
-    soup = BeautifulSoup(response.text,'lxml')
-    url_zero = 'https://evertiq.com'
-    articles = soup.find_all('span',{'class':'header'})
-    titles = [h.string.strip() for h in articles]
-    hrefs = [f"{url_zero}{h.parent.get('href')}" for h in articles]
-    [all_titles.append(h) for h in titles]
-    [all_hrefs.append(h) for h in hrefs]
-    [media.append('Evertiq') for h in hrefs]
-    [retrieved.append(now) for h in hrefs]
-
-    
 commands = [einnews()]
 
 for command in commands:
