@@ -10,7 +10,7 @@ Async news aggregator that crawls 20+ international tech/business sources and sy
 | `reuters.py` | Reuters | Google News RSS |
 | `wsj.py` | WSJ | Native RSS |
 | `techcrunch.py` | TechCrunch | Native RSS |
-| `theinformation.py` | The Information | Native RSS |
+| `theinformation.py` | The Information | Google News RSS |
 | `cnbc.py` | CNBC Technology | Native RSS |
 | `scmp.py` | South China Morning Post | Native RSS |
 | `thelec.py` | The Elec | Native RSS |
