@@ -38,28 +38,36 @@ CRAWLED_AT = datetime.now(TW_TZ).strftime("%Y-%m-%d %H:%M:%S")
 
 # ── Domain slug → display name ────────────────────────────────────────────────
 DOMAINS = {
-    "36kr":             "36kr.com",
-    "bloomberg":        "Bloomberg",
-    "c114":             "C114通信網",
-    "chinaflashmarket": "中國閃存市場",
-    "chinastarmarket":  "科創板日報",
-    "cnbc":             "CNBC",
-    "economictimes":    "Economic Times",
-    "einnews":          "EIN News",
-    "ifeng":            "鳳凰網科技",
-    "livemint":         "Livemint",
-    "moneycontrol":     "Moneycontrol",
-    "nikkei":           "Nikkei Asia",
-    "nytimes":          "NYT中文網",
-    "reuters":          "Reuters",
-    "scmp":             "SCMP",
-    "sina_finance":     "新浪財經",
-    "sohu":             "搜狐IT",
-    "techcrunch":       "TechCrunch",
-    "thelec":           "The Elec",
-    "theinformation":   "The Information",
-    "wsj":              "WSJ",
-    "zdkorea":          "ZDNet Korea",
+    "36kr":                      "36kr.com",
+    "9to5mac":                   "9to5Mac",
+    "bloomberg":                 "Bloomberg",
+    "c114":                      "C114通信網",
+    "chinaflashmarket":          "中國閃存市場",
+    "chinastarmarket":           "科創板日報",
+    "cnbc":                      "CNBC",
+    "economictimes":             "Economic Times",
+    "edge_markets":              "The Edge Markets",
+    "eetimes_india":             "EE Times India",
+    "einnews":                   "EIN News",
+    "electrek":                  "Electrek",
+    "evertiq":                   "Evertiq",
+    "ifeng":                     "鳳凰網科技",
+    "livemint":                  "Livemint",
+    "moneycontrol":              "Moneycontrol",
+    "nikkei":                    "Nikkei Asia",
+    "nytimes":                   "NYT中文網",
+    "reuters":                   "Reuters",
+    "scmp":                      "SCMP",
+    "silicon_semiconductor_china": "Silicon Semiconductor China",
+    "sina_finance":              "新浪財經",
+    "sohu":                      "搜狐IT",
+    "techcrunch":                "TechCrunch",
+    "techwireasia":              "Tech Wire Asia",
+    "thelec":                    "The Elec",
+    "theinformation":            "The Information",
+    "vnexpress":                 "VnExpress",
+    "wsj":                       "WSJ",
+    "zdkorea":                   "ZDNet Korea",
 }
 
 CSV_COLUMNS = ["domain", "company", "title", "url", "crawled_at"]
@@ -453,53 +461,69 @@ def write_html(path: Path, heading: str, records: list[dict],
 # ── Async runner ───────────────────────────────────────────────────────────────
 
 async def _run_all() -> list[dict]:
-    m36kr  = importlib.import_module("36kr")
-    mbl    = importlib.import_module("bloomberg")
-    mc114  = importlib.import_module("c114")
-    mcfm   = importlib.import_module("chinaflashmarket")
-    mcsm   = importlib.import_module("chinastarmarket")
-    mcnbc  = importlib.import_module("cnbc")
-    met    = importlib.import_module("economictimes")
-    mifeng = importlib.import_module("ifeng")
-    mlm    = importlib.import_module("livemint")
-    mmc    = importlib.import_module("moneycontrol")
-    mnk    = importlib.import_module("nikkei")
-    mnyt   = importlib.import_module("nytimes")
-    mreu   = importlib.import_module("reuters")
-    mscmp  = importlib.import_module("scmp")
-    msohu  = importlib.import_module("sohu")
-    mtc    = importlib.import_module("techcrunch")
-    mtle   = importlib.import_module("thelec")
-    mti    = importlib.import_module("theinformation")
-    mwsj   = importlib.import_module("wsj")
-    mzdk   = importlib.import_module("zdkorea")
+    m36kr   = importlib.import_module("36kr")
+    m9t5    = importlib.import_module("9to5mac")
+    mbl     = importlib.import_module("bloomberg")
+    mc114   = importlib.import_module("c114")
+    mcfm    = importlib.import_module("chinaflashmarket")
+    mcsm    = importlib.import_module("chinastarmarket")
+    mcnbc   = importlib.import_module("cnbc")
+    met     = importlib.import_module("economictimes")
+    medge   = importlib.import_module("edge_markets")
+    meetin  = importlib.import_module("eetimes_india")
+    melec   = importlib.import_module("electrek")
+    mevq    = importlib.import_module("evertiq")
+    mifeng  = importlib.import_module("ifeng")
+    mlm     = importlib.import_module("livemint")
+    mmc     = importlib.import_module("moneycontrol")
+    mnk     = importlib.import_module("nikkei")
+    mnyt    = importlib.import_module("nytimes")
+    mreu    = importlib.import_module("reuters")
+    mscmp   = importlib.import_module("scmp")
+    mssc    = importlib.import_module("silicon_semiconductor_china")
+    msohu   = importlib.import_module("sohu")
+    mtc     = importlib.import_module("techcrunch")
+    mtwa    = importlib.import_module("techwireasia")
+    mtle    = importlib.import_module("thelec")
+    mti     = importlib.import_module("theinformation")
+    mvnex   = importlib.import_module("vnexpress")
+    mwsj    = importlib.import_module("wsj")
+    mzdk    = importlib.import_module("zdkorea")
 
     # Map: domain key → zero-arg callable returning raw list[dict]
     # sohu uses asyncio.run() internally; running in a thread is safe because
     # each thread gets its own event loop.
     fetch_tasks: dict[str, object] = {
-        "36kr":             lambda: m36kr.fetch_36kr(50),
-        "bloomberg":        lambda: mbl.fetch_bloomberg(150),
-        "c114":             lambda: mc114.fetch_c114(50),
-        "chinaflashmarket": lambda: mcfm.fetch_chinaflashmarket(50),
-        "chinastarmarket":  lambda: mcsm.fetch_chinastarmarket(50),
-        "cnbc":             lambda: mcnbc.fetch_cnbc(50),
-        "economictimes":    lambda: met.fetch_economictimes(50),
-        "einnews":          _fetch_einnews,
-        "ifeng":            lambda: mifeng.fetch_ifeng(50),
-        "livemint":         lambda: mlm.fetch_livemint(50),
-        "moneycontrol":     lambda: mmc.fetch_moneycontrol(50),
-        "nikkei":           lambda: mnk.fetch_nikkei_tech(50),
-        "nytimes":          lambda: mnyt.fetch_nytimes(50),
-        "reuters":          lambda: mreu.fetch_reuters_technology(50),
-        "scmp":             lambda: mscmp.fetch_scmp(50),
-        "sina_finance":     _fetch_sina_finance,
-        "sohu":             lambda: msohu.fetch_sohu(50),
-        "techcrunch":       lambda: mtc.fetch_techcrunch(50),
-        "thelec":           lambda: mtle.fetch_thelec(50),
-        "theinformation":   lambda: mti.fetch_theinformation(50),
-        "wsj":              lambda: mwsj.fetch_wsj_technology(50),
-        "zdkorea":          lambda: mzdk.fetch_zdkorea(50),
+        "36kr":                      lambda: m36kr.fetch_36kr(50),
+        "9to5mac":                   lambda: m9t5.fetch_9to5mac(50),
+        "bloomberg":                 lambda: mbl.fetch_bloomberg(150),
+        "c114":                      lambda: mc114.fetch_c114(50),
+        "chinaflashmarket":          lambda: mcfm.fetch_chinaflashmarket(50),
+        "chinastarmarket":           lambda: mcsm.fetch_chinastarmarket(50),
+        "cnbc":                      lambda: mcnbc.fetch_cnbc(50),
+        "economictimes":             lambda: met.fetch_economictimes(50),
+        "edge_markets":              lambda: medge.fetch_edge_markets(50),
+        "eetimes_india":             lambda: meetin.fetch_eetimes_india(50),
+        "einnews":                   _fetch_einnews,
+        "electrek":                  lambda: melec.fetch_electrek(50),
+        "evertiq":                   lambda: mevq.fetch_evertiq(50),
+        "ifeng":                     lambda: mifeng.fetch_ifeng(50),
+        "livemint":                  lambda: mlm.fetch_livemint(50),
+        "moneycontrol":              lambda: mmc.fetch_moneycontrol(50),
+        "nikkei":                    lambda: mnk.fetch_nikkei_tech(50),
+        "nytimes":                   lambda: mnyt.fetch_nytimes(50),
+        "reuters":                   lambda: mreu.fetch_reuters_technology(50),
+        "scmp":                      lambda: mscmp.fetch_scmp(50),
+        "silicon_semiconductor_china": lambda: mssc.fetch_silicon_semiconductor_china(50),
+        "sina_finance":              _fetch_sina_finance,
+        "sohu":                      lambda: msohu.fetch_sohu(50),
+        "techcrunch":                lambda: mtc.fetch_techcrunch(50),
+        "techwireasia":              lambda: mtwa.fetch_techwireasia(50),
+        "thelec":                    lambda: mtle.fetch_thelec(50),
+        "theinformation":            lambda: mti.fetch_theinformation(50),
+        "vnexpress":                 lambda: mvnex.fetch_vnexpress(50),
+        "wsj":                       lambda: mwsj.fetch_wsj_technology(50),
+        "zdkorea":                   lambda: mzdk.fetch_zdkorea(50),
     }
 
     loop     = asyncio.get_event_loop()

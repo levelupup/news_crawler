@@ -20,14 +20,22 @@ Async news aggregator that crawls 20+ international tech/business sources and sy
 | `nytimes.py` | NYT中文網 | Native RSS |
 | `livemint.py` | Livemint | Native RSS |
 | `economictimes.py` | Economic Times | Native RSS |
+| `9to5mac.py` | 9to5Mac | Native RSS |
+| `electrek.py` | Electrek | Native RSS |
 | `moneycontrol.py` | Moneycontrol | BeautifulSoup scraping |
 | `chinaflashmarket.py` | 中國閃存市場 | BeautifulSoup scraping |
 | `chinastarmarket.py` | 科創板日報 | BeautifulSoup scraping |
 | `c114.py` | C114通信網 | BeautifulSoup scraping |
 | `ifeng.py` | 鳳凰網科技 | BeautifulSoup scraping |
 | `sina_finance.py` | 新浪財經 | BeautifulSoup scraping |
-| `sohu.py` | 搜狐IT | Playwright + stealth |
 | `einnews.py` | EIN News | BeautifulSoup scraping |
+| `eetimes_india.py` | EE Times India | BeautifulSoup scraping |
+| `silicon_semiconductor_china.py` | Silicon Semiconductor China | BeautifulSoup scraping |
+| `edge_markets.py` | The Edge Markets | BeautifulSoup scraping |
+| `vnexpress.py` | VnExpress | BeautifulSoup scraping |
+| `techwireasia.py` | Tech Wire Asia | BeautifulSoup scraping |
+| `evertiq.py` | Evertiq | BeautifulSoup scraping |
+| `sohu.py` | 搜狐IT | Playwright + stealth |
 
 ## Outputs
 
