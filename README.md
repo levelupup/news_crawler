@@ -50,14 +50,24 @@ The two HTML pages have a fixed button in the top-right corner to switch between
 ## Setup
 
 ```bash
-pip install requests beautifulsoup4 feedparser \
-            googlenewsdecoder playwright playwright_stealth lxml pandas
+python -m venv venv
+
+# Windows
+venv\Scripts\activate
+# macOS / Linux
+source venv/bin/activate
+
+pip install -r requirements.txt
 playwright install chromium
 ```
 
 ## Usage
 
 ```bash
+# Activate venv first (if not already active)
+venv\Scripts\activate          # Windows
+source venv/bin/activate       # macOS / Linux
+
 # Run all crawlers
 python run_crawlers.py
 
