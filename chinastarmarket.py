@@ -19,7 +19,7 @@ def fetch_chinastarmarket(count: int = 20) -> list[dict]:
     if not nd:
         return []
 
-    news_list = re.findall(r'"id":(\d{6}).*?"title":"(.*?)"', nd[0])
+    news_list = re.findall(r'"id":(\d+).*?"title":"(.*?)"', nd[0])
     articles = []
     for article_id, title in news_list:
         articles.append({
