@@ -22,6 +22,11 @@ Async news aggregator that crawls 20+ international tech/business sources and sy
 | `economictimes.py` | Economic Times | Native RSS |
 | `9to5mac.py` | 9to5Mac | Native RSS |
 | `electrek.py` | Electrek | Native RSS |
+| `cna.py` | 中央社 | Native RSS |
+| `businessweekly.py` | 商業周刊 | Native RSS |
+| `cw.py` | 天下雜誌 | Google News RSS |
+| `udn_money.py` | 經濟日報 | Google News RSS |
+| `ctee.py` | 工商時報 | Google News RSS |
 | `moneycontrol.py` | Moneycontrol | BeautifulSoup scraping |
 | `chinaflashmarket.py` | 中國閃存市場 | BeautifulSoup scraping |
 | `chinastarmarket.py` | 科創板日報 | BeautifulSoup scraping |

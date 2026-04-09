@@ -41,10 +41,14 @@ DOMAINS = {
     "36kr":                      "36kr.com",
     "9to5mac":                   "9to5Mac",
     "bloomberg":                 "Bloomberg",
+    "businessweekly":            "商業周刊",
     "c114":                      "C114通信網",
     "chinaflashmarket":          "中國閃存市場",
     "chinastarmarket":           "科創板日報",
     "cnbc":                      "CNBC",
+    "cna":                       "中央社",
+    "ctee":                      "工商時報",
+    "cw":                        "天下雜誌",
     "economictimes":             "Economic Times",
     "edge_markets":              "The Edge Markets",
     "eetimes_india":             "EE Times India",
@@ -65,6 +69,7 @@ DOMAINS = {
     "techwireasia":              "Tech Wire Asia",
     "thelec":                    "The Elec",
     "theinformation":            "The Information",
+    "udn_money":                 "經濟日報",
     "vnexpress":                 "VnExpress",
     "wsj":                       "WSJ",
     "zdkorea":                   "ZDNet Korea",
@@ -464,10 +469,14 @@ async def _run_all() -> list[dict]:
     m36kr   = importlib.import_module("36kr")
     m9t5    = importlib.import_module("9to5mac")
     mbl     = importlib.import_module("bloomberg")
+    mbw     = importlib.import_module("businessweekly")
     mc114   = importlib.import_module("c114")
     mcfm    = importlib.import_module("chinaflashmarket")
     mcsm    = importlib.import_module("chinastarmarket")
     mcnbc   = importlib.import_module("cnbc")
+    mcna    = importlib.import_module("cna")
+    mctee   = importlib.import_module("ctee")
+    mcw     = importlib.import_module("cw")
     met     = importlib.import_module("economictimes")
     medge   = importlib.import_module("edge_markets")
     meetin  = importlib.import_module("eetimes_india")
@@ -486,6 +495,7 @@ async def _run_all() -> list[dict]:
     mtwa    = importlib.import_module("techwireasia")
     mtle    = importlib.import_module("thelec")
     mti     = importlib.import_module("theinformation")
+    mudnm   = importlib.import_module("udn_money")
     mvnex   = importlib.import_module("vnexpress")
     mwsj    = importlib.import_module("wsj")
     mzdk    = importlib.import_module("zdkorea")
@@ -497,10 +507,14 @@ async def _run_all() -> list[dict]:
         "36kr":                      lambda: m36kr.fetch_36kr(50),
         "9to5mac":                   lambda: m9t5.fetch_9to5mac(50),
         "bloomberg":                 lambda: mbl.fetch_bloomberg(150),
+        "businessweekly":            lambda: mbw.fetch_businessweekly(50),
         "c114":                      lambda: mc114.fetch_c114(50),
         "chinaflashmarket":          lambda: mcfm.fetch_chinaflashmarket(50),
         "chinastarmarket":           lambda: mcsm.fetch_chinastarmarket(50),
         "cnbc":                      lambda: mcnbc.fetch_cnbc(50),
+        "cna":                       lambda: mcna.fetch_cna(50),
+        "ctee":                      lambda: mctee.fetch_ctee(50),
+        "cw":                        lambda: mcw.fetch_cw(50),
         "economictimes":             lambda: met.fetch_economictimes(50),
         "edge_markets":              lambda: medge.fetch_edge_markets(50),
         "eetimes_india":             lambda: meetin.fetch_eetimes_india(50),
@@ -521,6 +535,7 @@ async def _run_all() -> list[dict]:
         "techwireasia":              lambda: mtwa.fetch_techwireasia(50),
         "thelec":                    lambda: mtle.fetch_thelec(50),
         "theinformation":            lambda: mti.fetch_theinformation(50),
+        "udn_money":                 lambda: mudnm.fetch_udn_money(50),
         "vnexpress":                 lambda: mvnex.fetch_vnexpress(50),
         "wsj":                       lambda: mwsj.fetch_wsj_technology(50),
         "zdkorea":                   lambda: mzdk.fetch_zdkorea(50),
