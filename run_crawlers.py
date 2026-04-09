@@ -50,7 +50,7 @@ DOMAINS = {
     "ctee":                      "工商時報",
     "cw":                        "天下雜誌",
     "economictimes":             "Economic Times",
-    "edge_markets":              "The Edge Markets",
+    "edge_markets":              "The Edge Malaysia",
     "eetimes_india":             "EE Times India",
     "einnews":                   "EIN News",
     "electrek":                  "Electrek",

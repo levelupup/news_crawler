@@ -36,7 +36,7 @@ Async news aggregator that crawls 20+ international tech/business sources and sy
 | `einnews.py` | EIN News | BeautifulSoup scraping |
 | `eetimes_india.py` | EE Times India | BeautifulSoup scraping |
 | `silicon_semiconductor_china.py` | Silicon Semiconductor China | BeautifulSoup scraping |
-| `edge_markets.py` | The Edge Markets | BeautifulSoup scraping |
+| `edge_markets.py` | The Edge Malaysia | Next.js `__NEXT_DATA__` JSON |
 | `vnexpress.py` | VnExpress | BeautifulSoup scraping |
 | `techwireasia.py` | Tech Wire Asia | BeautifulSoup scraping |
 | `evertiq.py` | Evertiq | BeautifulSoup scraping |
