@@ -1,6 +1,6 @@
 # News Crawler
 
-Async news aggregator that crawls 20+ international tech/business sources and syncs results to Google Sheets.
+Async news aggregator that crawls 35+ international tech/business sources and syncs results to Google Sheets.
 
 ## Sources
 
@@ -23,6 +23,7 @@ Async news aggregator that crawls 20+ international tech/business sources and sy
 | `9to5mac.py` | 9to5Mac | Native RSS |
 | `electrek.py` | Electrek | Native RSS |
 | `cna.py` | 中央社 | Native RSS |
+| `technews.py` | TechNews 科技新報 | Native RSS |
 | `businessweekly.py` | 商業周刊 | Native RSS |
 | `cw.py` | 天下雜誌 | Google News RSS |
 | `udn_money.py` | 經濟日報 | Google News RSS |
