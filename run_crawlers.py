@@ -72,6 +72,7 @@ DOMAINS = {
     "udn_money":                 "經濟日報",
     "vnexpress":                 "VnExpress",
     "wsj":                       "WSJ",
+    "technews":                  "TechNews 科技新報",
     "zdkorea":                   "ZDNet Korea",
 }
 
@@ -498,6 +499,7 @@ async def _run_all() -> list[dict]:
     mudnm   = importlib.import_module("udn_money")
     mvnex   = importlib.import_module("vnexpress")
     mwsj    = importlib.import_module("wsj")
+    mtn     = importlib.import_module("technews")
     mzdk    = importlib.import_module("zdkorea")
 
     # Map: domain key → zero-arg callable returning raw list[dict]
@@ -538,6 +540,7 @@ async def _run_all() -> list[dict]:
         "udn_money":                 lambda: mudnm.fetch_udn_money(50),
         "vnexpress":                 lambda: mvnex.fetch_vnexpress(50),
         "wsj":                       lambda: mwsj.fetch_wsj_technology(50),
+        "technews":                  lambda: mtn.fetch_technews(50),
         "zdkorea":                   lambda: mzdk.fetch_zdkorea(50),
     }
 
