@@ -61,6 +61,7 @@ urls = {
     "億緯鋰能":"https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sz300014.phtml",
     "華虹":"https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh688347.phtml",
     "士蘭微":"https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh600460.phtml",
+    "中科曙光":"https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh603019.phtml",
 }
 
 # File paths
