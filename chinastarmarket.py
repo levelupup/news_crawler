@@ -1,7 +1,7 @@
 """
 科創板日報 (chinastarmarket.cn) news scraper.
 """
-import re
+import json
 import requests
 from lxml import etree
 
@@ -19,9 +19,20 @@ def fetch_chinastarmarket(count: int = 20) -> list[dict]:
     if not nd:
         return []
 
-    news_list = re.findall(r'"id":(\d+).*?"title":"(.*?)"', nd[0])
+    data = json.loads(nd[0])
+    page_data = data.get("props", {}).get("pageProps", {}).get("data", {})
+
+    # top_article and depth_list contain the real article IDs used in /detail/<id> URLs
+    raw = page_data.get("top_article", []) + page_data.get("depth_list", [])
+
     articles = []
-    for article_id, title in news_list:
+    seen = set()
+    for item in raw:
+        article_id = item.get("id")
+        title = item.get("title", "")
+        if not article_id or not title or article_id in seen:
+            continue
+        seen.add(article_id)
         articles.append({
             "title": title,
             "url": f"{ROOT_URL}/detail/{article_id}",
