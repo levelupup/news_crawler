@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <title>News Crawler — Latest 30 minutes</title>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WHBV3BXD');</script>
+  <!-- End Google Tag Manager -->
+  <style>
+  body  { font-family: Arial, sans-serif; background: #f4f4f9; margin: 0; padding: 20px; }
+  h1    { color: #333; margin-bottom: 4px; }
+  p.meta{ color: #666; font-size: .9em; margin-top: 0; }
+  .filter-bar { margin: 12px 0 8px; display: flex; flex-wrap: wrap; gap: 6px; }
+  .filter-btn {
+    padding: 4px 12px; border: 1px solid #bbb; border-radius: 14px;
+    background: #fff; cursor: pointer; font-size: .85em; color: #444;
+    transition: background .15s, color .15s;
+  }
+  .filter-btn:hover { background: #e0e0f0; }
+  .filter-btn.active { background: #4466cc; color: #fff; border-color: #4466cc; }
+  p.count { font-size: .85em; color: #666; margin: 4px 0 8px; }
+  table { width: 100%; border-collapse: collapse; margin-top: 4px; }
+  th    { background: #e8e8f0; padding: 10px; text-align: left;
+          border-bottom: 2px solid #ccc; white-space: nowrap;
+          position: sticky; top: 0; z-index: 10; }
+  td    { padding: 7px 10px; border-bottom: 1px solid #eee; vertical-align: top; }
+  tr:hover { background: #f0f0fa !important; }
+  .gc-0 { background: #ffffff; }
+  .gc-1 { background: #f0f4ff; }
+  .gc-2 { background: #f0fff4; }
+  .gc-3 { background: #fff8f0; }
+  .gc-4 { background: #f9f0ff; }
+  .gc-5 { background: #f0faff; }
+  a     { color: #0066cc; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .domain  { font-size: .82em; color: #555; white-space: nowrap; }
+  .company { font-size: .88em; color: #333; white-space: nowrap; }
+  .ts      { font-size: .78em; color: #888; white-space: nowrap; }
+  .peer-links {
+    position: fixed; top: 0.8rem; right: 1rem;
+    display: flex; gap: 8px; z-index: 100;
+  }
+  .peer-link {
+    background: #4466cc; color: #fff !important;
+    padding: 0.3rem 0.8rem; border-radius: 4px;
+    text-decoration: none !important; font-size: .85em;
+  }
+  .peer-link:hover { background: #2244aa; }
+</style>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WHBV3BXD"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div class="peer-links"><a class="peer-link" href="./today.html">→ Today</a></div>
+  <h1>News Crawler — Latest 30 minutes</h1>
+  <p class="meta">Generated: 2026-06-09 20:00:28 &nbsp;|&nbsp; 47 articles</p>
+  <div class="filter-bar">
+  <button class="filter-btn active" data-domain="all">All</button>
+  <button class="filter-btn" data-domain="36kr">36kr.com</button>
+  <button class="filter-btn" data-domain="bloomberg">Bloomberg</button>
+  <button class="filter-btn" data-domain="c114">C114通信網</button>
+  <button class="filter-btn" data-domain="cnbc">CNBC</button>
+  <button class="filter-btn" data-domain="ctee">工商時報</button>
+  <button class="filter-btn" data-domain="edge_markets">The Edge Malaysia</button>
+  <button class="filter-btn" data-domain="einnews">EIN News</button>
+  <button class="filter-btn" data-domain="electrek">Electrek</button>
+  <button class="filter-btn" data-domain="ifeng">鳳凰網科技</button>
+  <button class="filter-btn" data-domain="moneycontrol">Moneycontrol</button>
+  <button class="filter-btn" data-domain="nikkei">Nikkei Asia</button>
+  <button class="filter-btn" data-domain="sina_finance">新浪財經</button>
+  <button class="filter-btn" data-domain="sohu">搜狐IT</button>
+  <button class="filter-btn" data-domain="sohu_xinzhixun">芯智訊 (搜狐號)</button>
+  <button class="filter-btn" data-domain="techcrunch">TechCrunch</button>
+  <button class="filter-btn" data-domain="udn_money">經濟日報</button>
+  <button class="filter-btn" data-domain="wsj">WSJ</button>
+  </div>
+  <p class="count"><span id="row-count"></span></p>
+  <table>
+    <thead>
+      <tr><th>Domain</th><th>Company</th><th>Title</th><th>Crawled At</th></tr>
+    </thead>
+    <tbody>
+<tr class="gc-0" data-domain="36kr"><td class="domain">36kr.com</td><td class="company"></td><td><a href="https://www.36kr.com/zh/p/3844135183645317" target="_blank">悟空上线！中国硬科技闪耀高光时刻 - 36Kr</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-1" data-domain="bloomberg"><td class="domain">Bloomberg</td><td class="company"></td><td><a href="https://www.bloomberg.com/news/articles/2026-06-09/indonesia-may-hike-rate-again-to-shield-currency-analysts-say" target="_blank">Indonesia May Hike Rate Again to Shield Currency, Analysts Say</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-1" data-domain="bloomberg"><td class="domain">Bloomberg</td><td class="company"></td><td><a href="https://www.bloomberg.com/news/articles/2026-06-08/giant-oil-supertanker-orders-eclipse-record-set-in-2008" target="_blank">Giant Oil Supertanker Orders Eclipse Record Set in 2008</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-1" data-domain="bloomberg"><td class="domain">Bloomberg</td><td class="company"></td><td><a href="https://www.bloomberg.com/news/articles/2026-06-08/wall-street-strategists-see-rally-intact-after-healthy-tech-drop" target="_blank">Wall Street Strategists See Rally Intact After Healthy Tech Drop</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-2" data-domain="c114"><td class="domain">C114通信網</td><td class="company"></td><td><a href="https://www.c114.com.cn/4app/3542/a1311922.html" target="_blank">英特尔获谷歌大单，涉及超300万颗专用AI芯片生产</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-3" data-domain="cnbc"><td class="domain">CNBC</td><td class="company"></td><td><a href="https://www.cnbc.com/2026/06/09/stock-market-sell-off-sp-500-nasdaq-tech-chips-fed-hikes.html" target="_blank">Stocks are recovering from a sell-off — but even bullish investors warn of a bumpy ride ahead</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-4" data-domain="ctee"><td class="domain">工商時報</td><td class="company"></td><td><a href="https://www.ctee.com.tw/news/20260609701548-430701" target="_blank">《韓股》韓股強漲8% 重登8000大關- 國際</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-5" data-domain="edge_markets"><td class="domain">The Edge Malaysia</td><td class="company"></td><td><a href="https://theedgemalaysia.com/node/806403" target="_blank">Taiwan mulling curbs on AI chip exports to China to align with US — Bloomberg</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-0" data-domain="einnews"><td class="domain">EIN News</td><td class="company"></td><td><a href="https://semiconductors.einnews.com/article/918403715" target="_blank">First Thing Today | Grain traders attempt to stop the bleeding</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-0" data-domain="einnews"><td class="domain">EIN News</td><td class="company"></td><td><a href="https://cellphones.einnews.com/article/918401063" target="_blank">Man who took upskirt videos of women while shopping with wife handed 11 weeksâ jail</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-0" data-domain="einnews"><td class="domain">EIN News</td><td class="company"></td><td><a href="https://cellphones.einnews.com/article/918403444" target="_blank">World Cup 2026: How football fans can avoid health red cards during the tournament</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-0" data-domain="einnews"><td class="domain">EIN News</td><td class="company"></td><td><a href="https://tech.einnews.com/article/918397124" target="_blank">Celebal Technologies raises â¹50 crore from BlackSoil Capital</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-0" data-domain="einnews"><td class="domain">EIN News</td><td class="company"></td><td><a href="https://tech.einnews.com/article/918391483" target="_blank">Vietnam, GWEC discuss expanding renewable energy investment opportunities</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-0" data-domain="einnews"><td class="domain">EIN News</td><td class="company"></td><td><a href="https://tech.einnews.com/article/918391663" target="_blank">ASEAN Future Forum reflects Vietnamâs proactive, responsible role within bloc: Chinese expert</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-0" data-domain="einnews"><td class="domain">EIN News</td><td class="company"></td><td><a href="https://tech.einnews.com/article/918391575" target="_blank">Robust dispute resolution framework key to Vietnamâs IFC ambitions</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-0" data-domain="einnews"><td class="domain">EIN News</td><td class="company"></td><td><a href="https://tech.einnews.com/article/918391524" target="_blank">Taiwan job fair links young Vietnamese talent with global labour markets</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-1" data-domain="electrek"><td class="domain">Electrek</td><td class="company"></td><td><a href="https://electrek.co/2026/06/09/ice-car-sales-continue-to-plummet-in-china-the-top-16-cars-are-now-evs/" target="_blank">ICE car sales continue to plummet in China, the top 16 cars are now EVs</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-1" data-domain="electrek"><td class="domain">Electrek</td><td class="company"></td><td><a href="https://electrek.co/2026/06/09/meet-the-electric-aircraft-tug-thats-cutting-ground-emissions-by-80/" target="_blank">Meet the electric aircraft tug that’s cutting ground emissions by 80%</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-2" data-domain="ifeng"><td class="domain">鳳凰網科技</td><td class="company"></td><td><a href="https://tech.ifeng.com/c/8tp051KTxlG" target="_blank">赛豆科技发布AIVA品牌，总裁李博解释品牌命名和LOGO寓意</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-2" data-domain="ifeng"><td class="domain">鳳凰網科技</td><td class="company"></td><td><a href="https://tech.ifeng.com/c/8tp13AhYpWI" target="_blank">AI造假骗单坑哭无数商家 微信警告：后果比你想得严重</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-2" data-domain="ifeng"><td class="domain">鳳凰網科技</td><td class="company"></td><td><a href="https://tech.ifeng.com/c/8tp11Y0mosh" target="_blank">比亚迪股份：被列入中国军工企业名单不会影响本集团正常开展业务</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-3" data-domain="moneycontrol"><td class="domain">Moneycontrol</td><td class="company"></td><td><a href="https://www.moneycontrol.com/news/business/economy/gold-regains-rs-1-6-lakh-10gm-level-as-weak-us-dollar-lifts-sentiment-13945200.html" target="_blank">Gold regains Rs 1.6 lakh/10gm level as weak US dollar lifts sentiment</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-4" data-domain="nikkei"><td class="domain">Nikkei Asia</td><td class="company"></td><td><a href="https://asia.nikkei.com/photos/in-focus-mindanao-reels-from-another-deadly-earthquake" target="_blank">In Focus: Mindanao reels from another deadly earthquake</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-5" data-domain="sina_finance"><td class="domain">新浪財經</td><td class="company">韋爾股份</td><td><a href="https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-06-09/doc-iniavfsr5060841.shtml" target="_blank">Formosa Opportunity Limited增持豪威集团(00501)35.48万股 每股作价约78.1港元</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-5" data-domain="sina_finance"><td class="domain">新浪財經</td><td class="company">中微半導體</td><td><a href="https://finance.sina.com.cn/jjxw/2026-06-09/doc-iniavfst1817877.shtml" target="_blank">汇聚智库与产业力量，浦东民企共探绿色低碳发展新路</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-5" data-domain="sina_finance"><td class="domain">新浪財經</td><td class="company">至純科技</td><td><a href="https://finance.sina.com.cn/wm/2026-06-09/doc-iniavfsr5050160.shtml" target="_blank">±6%！港交所，重大调整！</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-5" data-domain="sina_finance"><td class="domain">新浪財經</td><td class="company">安集科技</td><td><a href="https://finance.sina.com.cn/stock/relnews/cn/2026-06-09/doc-iniauzkt5057099.shtml" target="_blank">公募6月首周调研聚焦电子等行业 TCL科技、京东方A受追捧</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-5" data-domain="sina_finance"><td class="domain">新浪財經</td><td class="company">比亞迪</td><td><a href="https://finance.sina.com.cn/jjxw/2026-06-09/doc-iniavmyp4934304.shtml" target="_blank">王传福预期比亚迪2030年成全球规模第一车企</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-5" data-domain="sina_finance"><td class="domain">新浪財經</td><td class="company">比亞迪</td><td><a href="https://t.cj.sina.cn/articles/view/1826017320/6cd6d02804001li6i" target="_blank">比亚迪回应被美列入军工名单称系错误不影响业务</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-5" data-domain="sina_finance"><td class="domain">新浪財經</td><td class="company">比亞迪</td><td><a href="https://finance.sina.com.cn/roll/2026-06-09/doc-iniavfsq3210542.shtml" target="_blank">比亚迪：美国防部将公司列入中国军工企业名单 不会影响集团正常开展业务</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-5" data-domain="sina_finance"><td class="domain">新浪財經</td><td class="company">億緯鋰能</td><td><a href="https://cj.sina.cn/articles/view/7345208878/1b5cefe2e001019gsy" target="_blank">高特电子核心产品全球市占率稳步增长 实现关键芯片国产替代</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-0" data-domain="sohu"><td class="domain">搜狐IT</td><td class="company"></td><td><a href="https://www.sohu.com/a/1034271597_121719801" target="_blank">Nature Communications：无序马赛克超表面实现可扩展功能密度</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-1" data-domain="sohu_xinzhixun"><td class="domain">芯智訊 (搜狐號)</td><td class="company"></td><td><a href="https://www.sohu.com/a/1034351806_461606" target="_blank">山东男篮官宣4将合同到期后不再续约：感恩相伴 逐梦前行</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-2" data-domain="techcrunch"><td class="domain">TechCrunch</td><td class="company"></td><td><a href="https://techcrunch.com/2026/06/09/how-an-e-scooter-founder-raised-5-million-to-build-space-data-centers/" target="_blank">How an e-scooter founder raised $5 million to build space data centers</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-3" data-domain="udn_money"><td class="domain">經濟日報</td><td class="company"></td><td><a href="https://money.udn.com/money/amp/story/5648/9556045" target="_blank">心臟學家：早上9點前，絕對不做5件事</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-3" data-domain="udn_money"><td class="domain">經濟日報</td><td class="company"></td><td><a href="https://money.udn.com/money/story/5604/9555366" target="_blank">騰訊最早周二定價發行離岸債券 據悉擬籌資規模升至最多45億美元 | 陸股透視 | 兩岸</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-3" data-domain="udn_money"><td class="domain">經濟日報</td><td class="company"></td><td><a href="https://money.udn.com/money/story/5603/9555461/" target="_blank">Oatly中國大陸業務高管據悉正在考慮收購該業務 | 大陸政經 | 兩岸</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-3" data-domain="udn_money"><td class="domain">經濟日報</td><td class="company"></td><td><a href="https://money.udn.com/money/story/7307/9555330" target="_blank">新竹氣爆10戶18人無家可歸 高虹安：緊急安置並啟動代償修繕 | 政經焦點 | 要聞</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-3" data-domain="udn_money"><td class="domain">經濟日報</td><td class="company"></td><td><a href="https://money.udn.com/money/story/5603/9555369" target="_blank">離岸人民幣市場深度明顯改善 掉期點差創新低推動避險成本下降 | 大陸政經 | 兩岸</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-3" data-domain="udn_money"><td class="domain">經濟日報</td><td class="company"></td><td><a href="https://money.udn.com/money/story/5613/9556019" target="_blank">富邦人壽將參與史上最大規模 IPO！擬砸6億美元投資 SpaceX</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-3" data-domain="udn_money"><td class="domain">經濟日報</td><td class="company"></td><td><a href="https://money.udn.com/money/story/5613/9556023" target="_blank">股東認股權價值遭低估　金管會：已轉元大投信處理</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-3" data-domain="udn_money"><td class="domain">經濟日報</td><td class="company"></td><td><a href="https://money.udn.com/money/story/5613/9556023" target="_blank">股東認股權價值遭低估 金管會：已轉元大投信處理 | 金融脈動 | 金融</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-3" data-domain="udn_money"><td class="domain">經濟日報</td><td class="company"></td><td><a href="https://money.udn.com/money/story/5648/9556001" target="_blank">梅雨還沒走！高雄那瑪夏、桃源、甲仙、六龜、茂林５區明天停班課</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-3" data-domain="udn_money"><td class="domain">經濟日報</td><td class="company"></td><td><a href="https://money.udn.com/money/story/5710/9556036" target="_blank">貿聯將發布重訊 10日股票、相關權證及股票期貨暫停交易</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-3" data-domain="udn_money"><td class="domain">經濟日報</td><td class="company"></td><td><a href="https://money.udn.com/money/story/5612/9556020" target="_blank">安聯 00402A ETF 9日掛牌漲幅5.59% 瞄準美國科技股長期潛力 | 基金天地 | 理財</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-4" data-domain="wsj"><td class="domain">WSJ</td><td class="company"></td><td><a href="https://www.wsj.com/tech/ai/openai-ipo-paperwork-eb7bebe1?mod=rss_Technology" target="_blank">OpenAI Files to Go Public in Test of Investor Appetite for Top AI Startups</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+<tr class="gc-4" data-domain="wsj"><td class="domain">WSJ</td><td class="company"></td><td><a href="https://www.wsj.com/tech/ai/openai-ipo-paperwork-eb7bebe1?mod=rss_Technology" target="_blank">OpenAI Files to Go Public in Test of Investor Appetite for Top AI Startups</a></td><td class="ts">2026-06-09 20:00:28</td></tr>
+    </tbody>
+  </table>
+<script>
+(function(){
+  var current = 'all';
+  function applyFilter(domain) {
+    current = domain;
+    document.querySelectorAll('.filter-btn').forEach(function(btn){
+      btn.classList.toggle('active', btn.dataset.domain === domain);
+    });
+    var rows = document.querySelectorAll('tbody tr');
+    var visible = 0;
+    rows.forEach(function(tr){
+      var show = domain === 'all' || tr.dataset.domain === domain;
+      tr.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+    document.getElementById('row-count').textContent = visible.toLocaleString() + ' articles';
+  }
+  document.querySelectorAll('.filter-btn').forEach(function(btn){
+    btn.addEventListener('click', function(){ applyFilter(btn.dataset.domain); });
+  });
+  applyFilter('all');
+})();
+</script>
+</body>
+</html>

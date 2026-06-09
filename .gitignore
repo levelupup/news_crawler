@@ -1,0 +1,25 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+news_history_all.html
+googlesheet.py
+CLAUDE.md
+.claude/settings.local.json
+
+# Full local history — never pushed to GitHub. Only data/recent.csv (the 2-day
+# slice) is tracked; the old per-domain data/*.csv files are removed from git.
+archive/
+data/*.csv
+!data/recent.csv
+
+# Crawler/analysis code stays LOCAL only (Actions removed; repo publishes outputs only).
+*.py
+
+# Machine-specific operational scripts (live only on gx10-4336; contain local paths)
+push_to_github.sh
+setup-root.sh
+setup-git-auth.sh
+backfill_archive.py
+run_analyze.sh
