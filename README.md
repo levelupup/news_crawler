@@ -1,6 +1,6 @@
 # News Crawler
 
-Async news aggregator that crawls 56+ international tech/business sources, deduplicates against a local JSONL archive, and writes HTML outputs. An optional AI analysis layer (`analyze_news.py`) scores and clusters events using local Ollama models.
+Async news aggregator that crawls 58+ international tech/business sources, deduplicates against a local JSONL archive, and writes HTML outputs. An optional AI analysis layer (`analyze_news.py`) scores and clusters events using local Ollama models.
 
 ## Sources
 
@@ -54,9 +54,9 @@ Async news aggregator that crawls 56+ international tech/business sources, dedup
 | `evertiq.py` | Evertiq | BeautifulSoup scraping |
 | `yicai.py` | 第一財經 科創 | BeautifulSoup scraping |
 | `guancha.py` | 觀察者網 經濟 | BeautifulSoup scraping |
-| `icviews.py` | 半導縱橫 | JSON API (messagePool) |
 | `sohu.py` | 搜狐IT | Playwright + stealth |
-| `sohu_xinzhixun.py` | 芯智訊 (搜狐號) | Playwright + stealth |
+| `yonhap.py` | Yonhap News | Native RSS |
+| `chosunbiz.py` | Chosun Biz | Playwright |
 
 ## Outputs
 
@@ -67,7 +67,7 @@ Async news aggregator that crawls 56+ international tech/business sources, dedup
 | `important.html` | AI精選：⚡ past-12h top 30 + 📋 past-2d top 30, scored by Ollama |
 | `grouped.html` | Cross-lingual same-event clusters (≥2 sources) |
 | `analysis.json` | Machine-readable scored event list from the last analysis run |
-| `data/recent.csv` | Git-tracked 2-day slice pushed to GitHub |
+| `data/recent.csv` | Git-tracked 7-day slice pushed to GitHub (feeds analyze_news.py) |
 | `archive/YYYY-MM-DD.jsonl` | Full append-only local archive (git-ignored) |
 
 ## AI Analysis (`analyze_news.py`)
@@ -90,10 +90,15 @@ Reads `data/recent.csv`, clusters headlines by semantic similarity, then scores 
 | **Exclusivity** | +5 if title contains 獨家 / 独家 / exclusive / 首發 |
 | **Event specificity** | +5 for concrete subject+verb events; −5 for pure commentary / outlook |
 | **Company tier** | +5 if involves TSMC / Samsung / NVIDIA / Apple / Intel / Qualcomm / ASML / SK Hynix / Micron / Huawei / MediaTek / AMD / Microsoft / Google / Meta / Amazon / Tesla / BYD / SMIC |
+| **Topic category** | +8 for semiconductor / AI (晶片設計、晶圓廠、封裝、GPU/NPU、LLM、半導體設備/材料、記憶體、AI 基礎設施) |
+| | +4 for electronics manufacturing / assembly / components (EMS/ODM 代工、PCB/基板、MLCC、連接器、鏡頭模組、面板、PMIC、FPC) |
+| | 0 for all other topics (軟體平台、消費 App、一般總經) |
 
-**`important.html` sections:**
-- **⚡ 過去 12 小時最重要新聞 Top 30** — events whose latest article appeared within the past 12 hours, sorted by score desc
-- **📋 近兩日 AI 精選 Top 30** — all scored events from the past 2 days, sorted by score desc
+**`important.html` tabs (default: 近 6 小時):**
+- **⚡ 近 6 小時 Top 15** — events whose latest article appeared within the past 6 hours
+- **🕐 近 12 小時 Top 30** — events from the past 12 hours
+- **📋 近 2 日 Top 30** — events from the past 2 days
+- **📅 近 7 日 Top 30** — all scored events from the past 7 days (full analysis window)
 
 ```bash
 python analyze_news.py

@@ -14,6 +14,13 @@ archive/
 data/*.csv
 !data/recent.csv
 
+# Article body content scraped by content_scraper.py — local only, can be tens of MB.
+# Never pushed (would bloat repo + slow the 30-min push cycle).
+data/content/
+data/ofweek_content.json
+CONTENT_SCRAPER_SPEC.md
+run_content.sh
+
 # Crawler/analysis code stays LOCAL only (Actions removed; repo publishes outputs only).
 *.py
 
@@ -26,3 +33,6 @@ run_analyze.sh
 
 # stale output of the deprecated news_vectorizing.py — not regenerated
 today_clustered.csv
+
+# Local LLM prompt/persona doc — never published
+DIGITIMES reader persona
