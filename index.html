@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>News Crawler</title>
+<style>
+  :root {
+    --bg: #f7f8fa; --card: #ffffff; --fg: #1a1d21; --muted: #5a6472;
+    --border: #e3e6ea; --accent: #2563eb; --accent-bg: #eef3ff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1117; --card: #161b22; --fg: #e6edf3; --muted: #8b949e;
+      --border: #21262d; --accent: #58a6ff; --accent-bg: #12243f;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 2.5rem 1.25rem; background: var(--bg); color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC",
+                 "PingFang TC", "Microsoft JhengHei", sans-serif; line-height: 1.5;
+  }
+  .wrap { max-width: 640px; margin: 0 auto; }
+  h1 { font-size: 1.6rem; margin: 0 0 .25rem; }
+  .sub { color: var(--muted); font-size: .9rem; margin: 0 0 1.75rem; }
+  a.card {
+    display: block; text-decoration: none; color: inherit; background: var(--card);
+    border: 1px solid var(--border); border-radius: 12px; padding: 1rem 1.15rem;
+    margin-bottom: .85rem; transition: border-color .15s, transform .15s;
+  }
+  a.card:hover { border-color: var(--accent); transform: translateY(-1px); }
+  .card .name { font-size: 1.08rem; font-weight: 600; color: var(--accent); }
+  .card .desc { color: var(--muted); font-size: .88rem; margin-top: .2rem; }
+  footer { color: var(--muted); font-size: .8rem; margin-top: 2rem; text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>📰 News Crawler</h1>
+  <p class="sub">國際科技／財經新聞彙整 · 每 30 分鐘更新</p>
+
+  <a class="card" href="important.html">
+    <div class="name">⚡ AI 精選 important.html</div>
+    <div class="desc">過去 12 小時 Top 30 + 過去 2 日 Top 30，由本地 Ollama 評分</div>
+  </a>
+
+  <a class="card" href="today.html">
+    <div class="name">📋 今日全部新聞 today.html</div>
+    <div class="desc">當日所有來源抓取的完整清單</div>
+  </a>
+
+  <a class="card" href="grouped.html">
+    <div class="name">🔗 同事件叢集 grouped.html</div>
+    <div class="desc">跨語言、同一事件（≥2 來源）的新聞歸群</div>
+  </a>
+
+  <a class="card" href="error_list.html">
+    <div class="name">🛠 爬蟲錯誤清單 error_list.html</div>
+    <div class="desc">最近一輪各來源抓取失敗紀錄</div>
+  </a>
+
+  <a class="card" href="analysis.json">
+    <div class="name">🧮 analysis.json</div>
+    <div class="desc">機器可讀的評分事件清單（供程式取用）</div>
+  </a>
+
+  <footer>levelupup.github.io/news_crawler</footer>
+</div>
+</body>
+</html>
