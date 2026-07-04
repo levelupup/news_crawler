@@ -18,7 +18,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -26,5 +26,16 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
+      # GitHub Pages' backend intermittently returns "Deployment failed, try
+      # again later." (~25% of runs, never two in a row). Retry once after a
+      # short pause instead of emitting a spurious failure — the next 30-min
+      # push would redeploy anyway, but the retry clears the red X now.
       - id: deployment
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Wait before retry
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 30
+      - id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v4
