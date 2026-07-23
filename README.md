@@ -44,8 +44,11 @@ Async news aggregator that crawls 58+ international tech/business sources, dedup
 |   | - 顯示網 / 雲計算網 / 鋰電網 |  |
 |   | - 傳感器網 / 新能源汽車網 / 儲能網 |  |
 |   | - 智能硬件網 / 光通訊網 |  |
-| `sina_finance.py` | 新浪財經 | BeautifulSoup scraping |
-| `einnews.py` | EIN News | BeautifulSoup scraping |
+| `stcn.py` | 證券時報 | AJAX JSON（游標分頁，回傳 HTML 片段） |
+| `sina_finance.py` | 新浪財經(個股資訊) | regex scraping（公司清單在 `sina_common.py`，200 家） |
+| `sina_bulletin.py` | 新浪財經(公司公告) | regex scraping（A 股限定 192 家，6h 刷新閘門） |
+| ~~`einnews.py`~~ | ~~EIN News~~ | **停用 2026-07-21** — Cloudflare 硬擋（Turnstile），.105 無法繞過；`_fetch_einnews` 已從 run_crawlers.py dispatch 移除 |
+| `india_electronics.py` | India Electronics | 搜尋聚合（einnews 接替源，非單一站點爬蟲）——`india_search.py` 由獨立 `india_search.timer`（:20/:50）以 GNews RSS／SearXNG／ddgs（＋免費額度內的 Tavily/Brave）搜尋寫入 staging `data/india_electronics.jsonl`，本模組只讀近 48h 條目、不連網 |
 | `eetimes_india.py` | EE Times India | BeautifulSoup scraping |
 | `silicon_semiconductor_china.py` | Silicon Semiconductor China | BeautifulSoup scraping |
 | `edge_markets.py` | The Edge Malaysia | Next.js `__NEXT_DATA__` JSON |
@@ -77,9 +80,9 @@ Reads `data/recent.csv`, clusters headlines by semantic similarity, then scores 
 **Pipeline:**
 
 1. **Stage 1 — Keyword filter**: hard-drop 股價 titles; remove obvious market noise (盤中/漲停/匯率/期貨…)
-2. **Stage 2 — Embed + cluster**: `embeddinggemma:300m` vectors → cosine agglomerative clustering → cross-lingual same-event super-merge
+2. **Stage 2 — Embed + cluster**: `embeddinggemma:300m` vectors → cosine agglomerative clustering → cross-lingual same-event super-merge. (2026-07-04 benchmarked vs qwen3-embedding 0.6b/4b/8b on real bodies: gemma is the only model ranking cross-lingual same-story pairs above same-day different-company pairs — do NOT switch this to qwen.)
 3. **Stage 3 — Prescreen**: `qwen3:8b` tags each cluster as tech/non-tech + coarse score
-4. **Stage 4 — Score + name**: `qwen3.6:35b-a3b` assigns a Traditional Chinese headline and a precise 0–100 importance score
+4. **Stage 4 — Score + name**: `qwen3.6:35b-a3b` assigns a Traditional Chinese headline and a precise 0–100 importance score, then `merge_same_name_events` collapses events named identically/near-identically (fixes the recurring "IBM ranked #6 and #10 with the same headline" false splits — root cause was size-1 clusters missing the merge candidate set, not embedding quality)
 
 **Scoring criteria (applied cumulatively):**
 

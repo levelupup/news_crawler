@@ -36,3 +36,11 @@ today_clustered.csv
 
 # Local LLM prompt/persona doc — never published
 DIGITIMES reader persona
+push_failures.log
+
+# india_search.py 的搜尋聚合 staging（india_electronics.py 讀取）— 本地交換檔，
+# 內容已由 archive/recent.csv 管線正式收錄，不需獨立發布
+data/india_electronics.jsonl
+
+# Login credentials + Playwright session state for paywalled sources — NEVER push
+secrets/
