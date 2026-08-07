@@ -12,7 +12,16 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: false
+  # 2026-08-07: was `false`, which cost 9 hours of stale site. Run 1578 wedged in GitHub's
+  # pending-deployment state (no reviewer, wait_timer 0, current_user_can_approve false — it
+  # could not be approved, only cancelled) and held this group for 15.5h. With `false` only the
+  # RUNNING job is protected: each new push became the sole pending run and evicted the previous
+  # pending one, so 11 consecutive runs were cancelled and the site stayed on run 1577's deploy.
+  # Nothing alarmed — pushes all succeeded. With `true`, a wedged run is cancelled by the next
+  # 30-min push and the site self-heals within one cycle.
+  # Tradeoff accepted: a genuinely in-flight deploy can be cut short, which is harmless here —
+  # today.html is fully regenerated every 30 minutes, so the next run publishes newer content.
+  cancel-in-progress: true
 
 jobs:
   deploy:
