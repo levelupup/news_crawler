@@ -31,6 +31,13 @@ setup-git-auth.sh
 backfill_archive.py
 run_analyze.sh
 
+# All local shell scripts + deps manifest — operational, not published output
+*.sh
+requirements.txt
+
+# Handoff/setup doc for local Windows bridge — not relevant to published repo
+WSJ_WINDOWS_HANDOFF.md
+
 # stale output of the deprecated news_vectorizing.py — not regenerated
 today_clustered.csv
 
