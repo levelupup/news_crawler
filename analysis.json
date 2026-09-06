@@ -1,1394 +1,85 @@
 {
-  "generated": "2026-09-06 22:15:16",
-  "input_titles": 1995,
-  "hard_dropped": 13,
-  "routine_keyword": 220,
-  "substantive": 1762,
-  "events": 104,
+  "generated": "2026-09-07 00:16:09",
+  "input_titles": 894,
+  "hard_dropped": 3,
+  "routine_keyword": 46,
+  "substantive": 845,
+  "events": 117,
   "timings_seconds": {
     "stage1_filter": 0.0,
-    "stage2_cluster": 80.5,
-    "stage3_name_score": 492.1,
-    "total": 572.6
+    "stage2_cluster": 33.1,
+    "stage3_name_score": 424.3,
+    "total": 457.4
   },
   "stories": [
     {
-      "event": "OpenAI發布最新模型並暗示達成AGI",
-      "score": 92,
-      "reader_score": 95,
-      "personas": {
-        "invest": 85,
-        "supply": 90,
-        "policy": 60,
-        "frontier": 95
-      },
-      "reason": "業界定義性事件，直接影響AI基礎設施需求。",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-09-05 21:31:08",
-      "titles": [
-        "OpenAI Rolls Out Its Most Advanced Model Yet",
-        "OpenAI Suggests It's Reached AGI. What Is It Anyway?"
-      ],
-      "urls": [
-        "https://www.bloomberg.com/news/articles/2026-09-04/openai-rolls-out-its-most-advanced-model-yet-video",
-        "https://www.bloomberg.com/news/features/2026-09-04/what-is-agi-openai-anthropic-race-for-artificial-general-intelligence"
-      ],
-      "sources": [
-        "bloomberg",
-        "bloomberg"
-      ]
-    },
-    {
-      "event": "DeepSeek採購16萬顆華為昇騰950DT晶片",
-      "score": 85,
-      "reader_score": 80,
-      "personas": {
-        "invest": 70,
-        "supply": 80,
-        "policy": 60,
-        "frontier": 75
-      },
-      "reason": "具體大額訂單，確認華為AI晶片商業化落地。",
-      "coherent": true,
-      "size": 6,
-      "max_crawled_at": "2026-09-06 17:01:08",
-      "titles": [
-        "DeepSeek，将采购16万颗华为AI芯片",
-        "DeepSeek plans big Huawei AI chip order to power new data centre",
-        "DeepSeek傳採購16萬顆華為昇騰950DT 劍指AI推理算力 | 大陸政經 | 兩岸",
-        "DeepSeek 重金採購 16 萬顆華為晶片，內蒙古建大規模 AI 叢集",
-        "DeepSeek被曝将采购16万颗华为昇腾950DT",
-        "딥시크, 화웨이 AI칩으로 中 최대 데이터센터 구축"
-      ],
-      "urls": [
-        "https://tech.ifeng.com/c/8wCCuh45jgf",
-        "https://economictimes.indiatimes.com/tech/artificial-intelligence/deepseek-plans-big-huawei-ai-chip-order-to-power-new-data-center/articleshow/133776211.cms",
-        "https://money.udn.com/money/story/5603/9737570",
-        "https://technews.tw/2026/09/06/deepseek-prepares-major-huawei-ai-chip-order-for-new-data-center/",
-        "https://www.guancha.cn/economy/2026_09_05_830131.shtml",
-        "https://zdnet.co.kr/view/?no=20260905071613"
-      ],
-      "sources": [
-        "ifeng",
-        "economictimes",
-        "udn_money",
-        "technews",
-        "guancha",
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "美光年底前HBM產能提升至10萬片",
-      "score": 85,
+      "event": "Anthropic簽下5170億美元算力合約",
+      "score": 88,
       "reader_score": 90,
       "personas": {
-        "invest": 80,
-        "supply": 90,
-        "policy": 30,
-        "frontier": 70
-      },
-      "reason": "關鍵AI記憶體供給端具體數據，影響供應鏈定價。",
-      "coherent": false,
-      "size": 5,
-      "max_crawled_at": "2026-09-06 02:31:08",
-      "titles": [
-        "美光年底前將 HBM 產能提升至 10 萬片，正進行新加坡與台灣產線擴產動作",
-        "HBM，生变",
-        "中國記憶體追得上韓國嗎？三星、SK海力士狂擴產韓國央行揭「名義產能」背後差距- 國際 - ctee.com.tw",
-        "長鑫全球 DRAM 市占衝10% - money.udn.com",
-        "\"HBM4가 진짜 승부처\"…삼전·닉스 시장 주도권 가를 변수는"
-      ],
-      "urls": [
-        "https://finance.technews.tw/2026/09/05/micron-will-increase-its-hbm-production-capacity-to-100000-wafers-by-the-end-of-the-year/",
-        "https://www.36kr.com/p/3969913513341185",
-        "https://www.ctee.com.tw/news/20260905700442-430704",
-        "https://money.udn.com/money/amp/story/5604/9736906",
-        "https://www.newsis.com/view/NISX20260904_0003776216"
-      ],
-      "sources": [
-        "technews",
-        "36kr",
-        "ctee",
-        "udn_money",
-        "newsis"
-      ]
-    },
-    {
-      "event": "美中拟于9月中旬举行AI安全对话",
-      "score": 85,
-      "reader_score": 95,
-      "personas": {
-        "invest": 70,
-        "supply": 60,
-        "policy": 95,
-        "frontier": 50
-      },
-      "reason": "独家地缘政治事件，直接决定半导体/AI产业合规环境。",
-      "coherent": true,
-      "size": 4,
-      "max_crawled_at": "2026-09-06 21:00:08",
-      "titles": [
-        "EXCLUSIVE: US, China gear up for mid-September AI safety dialogue",
-        "New reality for China’s entertainment sector as AI drama goes prime time",
-        "Punching above their weight: how China’s AI giants stretch each dollar in compute race",
-        "US, China gear up for mid-September AI safety talks"
-      ],
-      "urls": [
-        "https://www.reuters.com/legal/litigation/us-china-gear-up-mid-september-ai-safety-dialogue-2026-09-04/",
-        "https://www.scmp.com/tech/article/3366335/new-reality-chinas-entertainment-sector-ai-drama-goes-prime-time",
-        "https://www.scmp.com/tech/big-tech/article/3366407/punching-above-their-weight-how-chinas-ai-giants-stretch-each-dollar-compute-race",
-        "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-china-gear-up-for-mid-september-ai-safety-talks/articleshow/133786667.cms"
-      ],
-      "sources": [
-        "reuters",
-        "scmp",
-        "scmp",
-        "economictimes"
-      ]
-    },
-    {
-      "event": "AI晶片散熱需求爆發，液冷訂單排至年底",
-      "score": 85,
-      "reader_score": 90,
-      "personas": {
-        "invest": 70,
-        "supply": 90,
-        "policy": 30,
-        "frontier": 60
-      },
-      "reason": "直接反映AI基礎設施建設現況與關鍵組件（液冷）供需緊繃。",
-      "coherent": true,
-      "size": 3,
-      "max_crawled_at": "2026-09-06 20:31:08",
-      "titles": [
-        "液冷迈入“必选”时代，订单排到年底",
-        "订单排到年底、产线两班倒 芯片“太热”液冷迈入“必选”时代"
-      ],
-      "urls": [
-        "https://t.cj.sina.cn/articles/view/1651428902/626ece2602001jl70",
-        "https://www.chinastarmarket.cn/detail/2475207",
-        "https://t.cj.sina.cn/articles/view/2868676035/aafc85c302001x2h6"
-      ],
-      "sources": [
-        "sina_finance",
-        "chinastarmarket",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "印度加入美國AI供應鏈安全行動",
-      "score": 85,
-      "reader_score": 95,
-      "personas": {
-        "invest": 70,
-        "supply": 90,
-        "policy": 95,
-        "frontier": 40
-      },
-      "reason": "地緣政治重大變動，重塑全球供應鏈。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-06 09:31:08",
-      "titles": [
-        "India to formally join US led effort on AI, supply chain security-Pax Silica today - DD News"
-      ],
-      "urls": [
-        "https://ddnews.gov.in/en/india-to-formally-join-us-led-effort-on-ai-supply-chain-security-pax-silica-today/"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "北方華創宣布3D DRAM刻蝕技術突破",
-      "score": 82,
-      "reader_score": 85,
-      "personas": {
-        "invest": 60,
-        "supply": 75,
-        "policy": 70,
-        "frontier": 85
-      },
-      "reason": "設備商關鍵技術突破，影響DRAM供應鏈自主。",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-09-06 09:01:08",
-      "titles": [
-        "国产半导体设备重大突破！北方华创宣布3D DRAM刻蚀突破：没有EUV也能造先进存储"
-      ],
-      "urls": [
-        "https://tech.ifeng.com/c/8wB8kVMPMJN",
-        "https://finance.sina.com.cn/stock/t/2026-09-05/doc-iniqutzk3471521.shtml"
-      ],
-      "sources": [
-        "ifeng",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "迈威尔指磷化铟短缺，开启硅光子资源争夺",
-      "score": 82,
-      "reader_score": 90,
-      "personas": {
-        "invest": 60,
-        "supply": 90,
-        "policy": 40,
-        "frontier": 75
-      },
-      "reason": "独家供应链关键材料短缺预警，直接影响AI光互联产业。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-05 17:01:08",
-      "titles": [
-        "比記憶體更缺？矽光子戰略資源爭奪戰開打！邁威爾技術長：磷化銦供貨絕對吃緊- 國際"
-      ],
-      "urls": [
-        "https://www.ctee.com.tw/news/20260905700017-430704"
-      ],
-      "sources": [
-        "ctee"
-      ]
-    },
-    {
-      "event": "華為公開麒麟2026晶片測試數據與功耗優化",
-      "score": 80,
-      "reader_score": 85,
-      "personas": {
-        "invest": 65,
-        "supply": 70,
-        "policy": 75,
-        "frontier": 85
-      },
-      "reason": "具體技術數據公開，驗證無EUV下先進製程能力。",
-      "coherent": true,
-      "size": 10,
-      "max_crawled_at": "2026-09-06 20:31:08",
-      "titles": [
-        "Huawei reveals Kirin 2026 chip real test outcomes in updated Tau Law paper",
-        "Huawei reveals Kirin 2026 chip real test outcomes in updated Tau Law paper - huaweicentral.com",
-        "Tau Law Kirin chip can reduce overheating concerns: Huawei",
-        "华为“韬定律”细节再公开：麒麟2026密度暴涨55% 功耗反而大降",
-        "华为半导体负责人何庭波更新韬定律论文",
-        "何庭波最新论文：华为无法获得EUV光刻机，必须另寻出路",
-        "Huawei Kirin 2027 chip to achieve 47% reduced power consumption",
-        "周一！ 华为重磅技术落地！韬定律更新改写国产芯片堆叠发展格局",
-        "Huawei paper shows Tau Scaling Law chip solves overheating ahead of Kirin 2026 launch",
-        "华为何庭波再更新韬定律论文：那颗该烧毁的τ芯片"
-      ],
-      "urls": [
-        "https://www.huaweicentral.com/huawei-reveals-kirin-2026-chip-real-test-outcomes/",
-        "https://www.huaweicentral.com/huawei-reveals-kirin-2026-chip-real-test-outcomes/amp/",
-        "https://www.huaweicentral.com/tau-law-kirin-chip-can-reduce-overheating-concerns-huawei/",
-        "https://www.chinastarmarket.cn/detail/2475140",
-        "https://www.chinastarmarket.cn/detail/2474741",
-        "https://www.guancha.cn/economy/2026_09_05_830086.shtml",
-        "https://www.huaweicentral.com/huawei-kirin-2027-chip-power-consumption/",
-        "https://k.sina.cn/article_7879996580_1d5af34a402001uslk.html",
-        "https://www.scmp.com/tech/big-tech/article/3366543/huawei-paper-shows-tau-scaling-law-chip-solves-overheating-ahead-kirin-2026-launch",
-        "//www.sohu.com/a/1071986144_114986"
-      ],
-      "sources": [
-        "huaweicentral",
-        "huaweicentral",
-        "huaweicentral",
-        "chinastarmarket",
-        "chinastarmarket",
-        "guancha",
-        "huaweicentral",
-        "sina_finance",
-        "scmp",
-        "sohu"
-      ]
-    },
-    {
-      "event": "阿布達比G42考慮美國所有權以確保AI芯片獲取",
-      "score": 80,
-      "reader_score": 95,
-      "personas": {
-        "invest": 65,
-        "supply": 70,
-        "policy": 95,
-        "frontier": 50
-      },
-      "reason": "地緣政治影響AI算力獲取的核心戰略調整。",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-09-05 01:30:08",
-      "titles": [
-        "Abu Dhabi’s G42 Considers US Ownership to Safeguard AI Chip Access",
-        "Abu Dhabi’s G42 Weighs US Ownership to Safeguard AI Chip Access"
-      ],
-      "urls": [
-        "https://www.theinformation.com/briefings/abu-dhabis-g42-considers-ownership-safeguard-ai-chip-access",
-        "https://www.bloomberg.com/news/articles/2026-09-04/abu-dhabi-s-g42-weighs-us-ownership-to-safeguard-ai-chip-access"
-      ],
-      "sources": [
-        "theinformation",
-        "bloomberg"
-      ]
-    },
-    {
-      "event": "馬斯克警告AI電力缺口引發電網投資",
-      "score": 80,
-      "reader_score": 85,
-      "personas": {
-        "invest": 70,
+        "invest": 90,
         "supply": 85,
         "policy": 60,
         "frontier": 75
       },
-      "reason": "AI算力與能源基礎設施之關鍵連結",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-09-05 12:30:08",
-      "titles": [
-        "马斯克预警AI电力缺口！全球掀电网建设潮 算电协同迎投资机遇"
-      ],
-      "urls": [
-        "https://tech.ifeng.com/c/8wAVgLLVXhA",
-        "https://www.chinastarmarket.cn/detail/2474152"
-      ],
-      "sources": [
-        "ifeng",
-        "chinastarmarket"
-      ]
-    },
-    {
-      "event": "券商預測2028記憶體短缺重估三星",
-      "score": 80,
-      "reader_score": 90,
-      "personas": {
-        "invest": 90,
-        "supply": 75,
-        "policy": 20,
-        "frontier": 60
-      },
-      "reason": "明確市場預測，影響半導體估值與產能。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-05 16:01:08",
-      "titles": [
-        "\"2028년까지 메모리 공급난\"…증권가, 삼성전자 '주가 재평가' 전망"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260905121046"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "鴻海Q3營收預增，受惠AI伺服器需求",
-      "score": 78,
-      "reader_score": 90,
-      "personas": {
-        "invest": 85,
-        "supply": 90,
-        "policy": 40,
-        "frontier": 30
-      },
-      "reason": "關鍵EMS廠財測，直接反映AI硬體供應鏈景氣。",
-      "coherent": true,
-      "size": 8,
-      "max_crawled_at": "2026-09-06 21:31:08",
-      "titles": [
-        "Foxconn says third quarter to outperform market expectations on AI strength - electronics.economictimes.indiatimes.com",
-        "Foxconn Says Q3 Will Beat Expectations As AI Demand Surges, August Revenue Hits Record - Dailyhunt",
-        "Nvidia Partner Hon Hai’s Sales Climb 52% With AI Server Momentum",
-        "Foxconn August Revenue Jumps 52% on AI Server Demand - Whalesbook",
-        "AI boom lifts Foxconn August sales to $29.14 billion",
-        "Hon Hai’s Sales Climb 52 Percent As Europe Orders AI Infrastructure - TechnoSports Media Group",
-        "Foxconn says third quarter to outperform market expectations on AI strength"
-      ],
-      "urls": [
-        "https://electronics.economictimes.indiatimes.com/news/components-hardware/foxconn-says-third-quarter-to-outperform-market-expectations-on-ai-strength/133826702",
-        "https://m.dailyhunt.in/news/india/english/benzinga-epaper-benzinga/foxconn+says+q3+will+beat+expectations+as+ai+demand+surges+august+revenue+hits+record-newsid-n725878587",
-        "https://www.bloomberg.com/news/articles/2026-09-05/nvidia-partner-hon-hai-s-sales-climb-52-with-ai-server-momentum",
-        "https://www.thehindubusinessline.com/info-tech/nvidia-partner-hon-hais-sales-climb-52-with-ai-server-momentum/article71431443.ece",
-        "https://www.whalesbook.com/news/English/technology/Foxconn-August-Revenue-Jumps-52percent-on-AI-Server-Demand/6a9bdc4a40007e01b83a8dff",
-        "https://www.thehindubusinessline.com/info-tech/ai-boom-lifts-foxconn-august-sales-to-2914-billion/article71431889.ece",
-        "https://technosports.co.in/hon-hai-sales-climb-europe/",
-        "https://www.reuters.com/world/asia-pacific/foxconn-says-third-quarter-outperform-market-expectations-ai-strength-2026-09-05/"
-      ],
-      "sources": [
-        "india_electronics",
-        "india_electronics",
-        "bloomberg",
-        "hindubusinessline",
-        "india_electronics",
-        "hindubusinessline",
-        "india_electronics",
-        "reuters"
-      ]
-    },
-    {
-      "event": "台灣AI算力中心BOO案公告招標",
-      "score": 78,
-      "reader_score": 90,
-      "personas": {
-        "invest": 85,
-        "supply": 90,
-        "policy": 50,
-        "frontier": 40
-      },
-      "reason": "政府大型採購案，直接帶動伺服器與晶片需求",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-05 22:30:08",
-      "titles": [
-        "算力即國力！AI算力中心促參BOO案公告招標10月初申請截止- 產業"
-      ],
-      "urls": [
-        "https://www.ctee.com.tw/news/20260905700754-430503"
-      ],
-      "sources": [
-        "ctee"
-      ]
-    },
-    {
-      "event": "蘋果發布iPhone 18與新產品路線圖",
-      "score": 75,
-      "reader_score": 70,
-      "personas": {
-        "invest": 70,
-        "supply": 65,
-        "policy": 30,
-        "frontier": 60
-      },
-      "reason": "重大產品發布，影響消費電子與晶片需求預測。",
-      "coherent": true,
-      "size": 14,
-      "max_crawled_at": "2026-09-06 08:31:08",
-      "titles": [
-        "古尔曼：苹果将以史上最大新品阵容开启“特努斯时代”",
-        "Leaked iPhone roadmap reveals plans for larger foldable, ‘biggest overhaul,’ more",
-        "iPhone 18 Pro, smart glasses &amp; more: Apple’s expected launches on Sept 9, late 2026 &amp; 2027 under CEO John Ternus",
-        "While Big Tech chased AI, Apple built something else – Its biggest product wave yet | What’s coming in 2026 and beyond",
-        "iPhone 18、折疊機9月10日同步亮相 特納斯出任蘋果 CEO 後首場發表會",
-        "iPhone 18 Pro And Pro Max Launch Nears: What To Expect From Apple On Sept 9",
-        "消息称苹果首款折叠屏iPhone可能被命名为“iPhone Duo”",
-        "古尔曼：苹果2027发布MacBook Neo 2，升级A19 Pro、12GB内存",
-        "供应链称iPhone Ultra日产量只有几百台：苹果对质量要求严格所致",
-        "Apple still on track for a revolutionary iPhone 20 in 2027",
-        "消息称苹果首款折叠手机iPhone Ultra首发白色和深蓝色",
-        "蘋果將推新機 台積電、鴻海、大立光等積極備貨迎商機",
-        "苹果提前“揭晓”触屏MacBook Pro，我终于能戳同事电脑了"
-      ],
-      "urls": [
-        "https://tech.ifeng.com/c/8w9gkNHZ2vu",
-        "https://9to5mac.com/2026/09/04/leaked-iphone-roadmap-reveals-plans-for-larger-foldable-biggest-overhaul-more/",
-        "https://www.livemint.com/technology/iphone-18-pro-smart-glasses-more-apple-s-launch-checklist-for-september-9-late-2026-and-2027-under-ceo-john-ter-11788535495991.html",
-        "https://www.livemint.com/technology/gadgets/while-big-tech-chased-ai-apple-built-something-else-its-biggest-product-wave-yet-what-s-coming-in-2026-and-beyond-11788606088429.html",
-        "https://money.udn.com/money/amp/story/11162/9736825",
-        "https://www.ndtvprofit.com/technology/iphone-18-pro-and-pro-max-launch-nears-what-to-expect-from-apple-on-sept-9-12002718",
-        "https://tech.ifeng.com/c/8wAA8htpew7",
-        "https://tech.ifeng.com/c/8wAQ24MPwQM",
-        "https://tech.ifeng.com/c/8wAJ22IFEsJ",
-        "https://appleinsider.com/articles/26/09/04/apple-still-on-track-for-a-revolutionary-iphone-20-in-2027",
-        "https://tech.ifeng.com/c/8wAT7R6p3jp",
-        "https://money.udn.com/money/amp/story/5612/9736913",
-        "https://www.36kr.com/p/3969992945955076",
-        "https://tech.ifeng.com/c/8wAa9DzK9lI"
-      ],
-      "sources": [
-        "ifeng",
-        "9to5mac",
-        "livemint",
-        "livemint",
-        "udn_money",
-        "india_electronics",
-        "ifeng",
-        "ifeng",
-        "ifeng",
-        "appleinsider",
-        "ifeng",
-        "udn_money",
-        "36kr",
-        "ifeng"
-      ]
-    },
-    {
-      "event": "Google下一代TPU訂單與台廠深入合作",
-      "score": 75,
-      "reader_score": 80,
-      "personas": {
-        "invest": 60,
-        "supply": 80,
-        "policy": 40,
-        "frontier": 70
-      },
-      "reason": "關鍵AI芯片設計與台灣供應鏈的深度連結。",
+      "reason": "天價算力合約顯示AI基礎設施投資規模空前。",
       "coherent": false,
       "size": 2,
-      "max_crawled_at": "2026-09-06 10:30:08",
+      "max_crawled_at": "2026-09-06 23:30:01",
       "titles": [
-        "구글 \"대만과 어깨 나란히\"…AI 인프라 협력, 발주에서 공동설계로",
-        "Google下一代TPU訂單給誰？核心操盤手避談合作名單 卻揭台廠「已深入AI設計前線」"
+        "How Anthropic Clinched $517 Billion in Compute Deals in 11 Months",
+        "OpenAI Pledges New Rules for Reporting Troubling Behavior by Its AI Agents"
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20260905223908",
-        "https://www.ctee.com.tw/news/20260905700019-430501"
+        "https://www.theinformation.com/articles/anthropic-clinched-517-billion-compute-deals-11-months",
+        "https://www.theinformation.com/briefings/openai-pledges-new-rules-reporting-troubling-behavior-ai-agents"
       ],
       "sources": [
-        "zdkorea",
-        "ctee"
-      ]
-    },
-    {
-      "event": "豪威集團CIS市佔首登全球第二",
-      "score": 75,
-      "reader_score": 80,
-      "personas": {
-        "invest": 80,
-        "supply": 60,
-        "policy": 20,
-        "frontier": 40
-      },
-      "reason": "關鍵競爭格局變化，直接影響半導體設計龍頭地位。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-06 11:31:08",
-      "titles": [
-        "全球CIS竞争格局再生变，豪威集团首度晋升全球第二"
-      ],
-      "urls": [
-        "https://finance.sina.com.cn/stock/t/2026-09-06/doc-iniqvzvc0236742.shtml"
-      ],
-      "sources": [
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "蘋果公開摺疊手機引發矽谷關注",
-      "score": 75,
-      "reader_score": 80,
-      "personas": {
-        "invest": 80,
-        "supply": 60,
-        "policy": 20,
-        "frontier": 70
-      },
-      "reason": "蘋果新品發布，影響供應鏈與消費電子趨勢",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-06 13:01:08",
-      "titles": [
-        "[ZD브리핑] ‘깜짝 빛날 시간’…애플 폴더블폰 공개"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260906121121"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "美光获判长鑫存储专利无效，争议持续",
-      "score": 75,
-      "reader_score": 85,
-      "personas": {
-        "invest": 60,
-        "supply": 70,
-        "policy": 85,
-        "frontier": 40
-      },
-      "reason": "独家专利诉讼结果，直接影响存储芯片供应链格局。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-06 22:00:30",
-      "titles": [
-        "마이크론, YMTC 특허 7번째 무효 판단 받았다...쟁점특허 27건"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260906193737"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "Coatue等籌組百億級晶片融資新基金",
-      "score": 75,
-      "reader_score": 80,
-      "personas": {
-        "invest": 80,
-        "supply": 40,
-        "policy": 30,
-        "frontier": 50
-      },
-      "reason": "科創板日報報導，涉及AI晶片巨額融資，顯示資本對半導體熱情。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-05 01:30:08",
-      "titles": [
-        "Coatue, MatX in Talks on New Multibillion Chip-Financing Venture"
-      ],
-      "urls": [
-        "https://www.theinformation.com/articles/coatue-matx-talks-new-multibillion-chip-financing-venture"
-      ],
-      "sources": [
+        "theinformation",
         "theinformation"
       ]
     },
     {
-      "event": "安得拉邦批准Google關聯AI數據中心",
-      "score": 75,
-      "reader_score": 85,
-      "personas": {
-        "invest": 60,
-        "supply": 85,
-        "policy": 40,
-        "frontier": 30
-      },
-      "reason": "Google進軍印度基建，影響供應鏈佈局。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-06 19:31:08",
-      "titles": [
-        "Andhra Pradesh Cabinet clears Rs 29,021 crore investments, 601 acres for Google-linked AI data centre - The Times of India"
-      ],
-      "urls": [
-        "https://timesofindia.indiatimes.com/city/vijayawada/24_vij_sna_srikanth-cabinet/articleshow/133822130.cms"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "曾毓群發出警告",
-      "score": 75,
-      "reader_score": 80,
-      "personas": {
-        "invest": 80,
-        "supply": 70,
-        "policy": 30,
-        "frontier": 40
-      },
-      "reason": "電池龍頭言論，影響能源與電動車供應鏈。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-05 18:01:08",
-      "titles": [
-        "宁德时代曾毓群发出警告！"
-      ],
-      "urls": [
-        "https://finance.sina.com.cn/roll/2026-09-05/doc-iniquptn3519344.shtml"
-      ],
-      "sources": [
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "AI晶片新創XDOF以12億美元估值募資",
-      "score": 75,
-      "reader_score": 80,
-      "personas": {
-        "invest": 80,
-        "supply": 30,
-        "policy": 10,
-        "frontier": 60
-      },
-      "reason": "高估值融資反映AI硬體投資熱度",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-05 08:01:08",
-      "titles": [
-        "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation"
-      ],
-      "urls": [
-        "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/"
-      ],
-      "sources": [
-        "techcrunch"
-      ]
-    },
-    {
-      "event": "長存控股IPO進入科创板問詢階段",
-      "score": 72,
-      "reader_score": 80,
-      "personas": {
-        "invest": 80,
-        "supply": 65,
-        "policy": 50,
-        "frontier": 45
-      },
-      "reason": "半導體巨頭上市，影響資本市場與設備需求預期。",
-      "coherent": true,
-      "size": 7,
-      "max_crawled_at": "2026-09-06 18:31:08",
-      "titles": [
-        "日赚3.7亿，长存搭末班车冲刺来了",
-        "长存控股IPO新进展！拟募资330亿元",
-        "IPO周报：燧原科技将上市，长存控股进入问询环节",
-        "长江存储科创板IPO进入问询阶段，成功上市到底值多少钱？",
-        "中一签赚30万！腾讯重金押注国产GPU，硬刚英伟达"
-      ],
-      "urls": [
-        "https://finance.sina.com.cn/cj/2026-09-05/doc-iniqsvkn5836315.shtml",
-        "https://finance.sina.com.cn/wm/2026-09-05/doc-iniqtspy0556406.shtml",
-        "https://cj.sina.cn/articles/view/1733360754/6750fc7202001ik16",
-        "https://cj.sina.cn/articles/view/1733360754/6750fc7202001ik16",
-        "https://cj.sina.cn/articles/view/2637695114/9d38088a00101mixk",
-        "https://cj.sina.cn/articles/view/6399193384/17d6bf12800101n7pq",
-        "https://cj.sina.cn/articles/view/6399193384/17d6bf12800101n7pq"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "東京威力科創計畫擴大印度業務",
-      "score": 72,
-      "reader_score": 85,
-      "personas": {
-        "invest": 65,
-        "supply": 85,
-        "policy": 40,
-        "frontier": 30
-      },
-      "reason": "設備大廠擴張，影響全球半導體供應鏈佈局",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-06 08:31:08",
-      "titles": [
-        "Tokyo Electron plans India expansion as PM Modi woos global chipmakers - ascendants.in"
-      ],
-      "urls": [
-        "https://ascendants.in/spotlight/tokyo-electron-plans-india-expansion-amid-pm-modis-chip-push/attachment/tokyo-electron-prepares-for-expansion-in-india/"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "苹果在新CEO领导下押注折叠屏iPhone",
-      "score": 72,
-      "reader_score": 80,
-      "personas": {
-        "invest": 65,
-        "supply": 80,
-        "policy": 30,
-        "frontier": 70
-      },
-      "reason": "独家报道苹果硬件战略转向，直接影响面板与铰链供应链。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-06 01:01:08",
-      "titles": [
-        "Watch Apple Bets on Foldable iPhone Under New CEO"
-      ],
-      "urls": [
-        "https://www.bloomberg.com/news/videos/2026-09-05/apple-bets-on-foldable-iphone-under-new-ceo-video"
-      ],
-      "sources": [
-        "bloomberg"
-      ]
-    },
-    {
-      "event": "地平線CEO目標明年中國自動駕駛芯片市佔超英偉達",
-      "score": 70,
-      "reader_score": 65,
-      "personas": {
-        "invest": 65,
-        "supply": 50,
-        "policy": 40,
-        "frontier": 60
-      },
-      "reason": "明確的市場競爭宣言，挑戰AI芯片龍頭地位。",
-      "coherent": true,
-      "size": 11,
-      "max_crawled_at": "2026-09-06 12:01:08",
-      "titles": [
-        "余凯：地平线明年目标是要在中国高阶自动驾驶芯片市场超过英伟达",
-        "地平线余凯放话：明年大算力自动驾驶芯片国内市占率要超过英伟达",
-        "地平线CEO放话“明年超越英伟达”：目标中国自动驾驶芯片市占率第一",
-        "地平线CEO放话“明年市占率超英伟达”",
-        "地平线余凯：希望明年在国内自动驾驶芯片市场超过英伟达，成为第一",
-        "叫板英伟达！余凯：地平线明年中国自动驾驶芯片市占率要冲第一",
-        "视频丨对话地平线余凯：征程芯片量产突破1500万，高兴2秒钟就翻篇了",
-        "余凯：超越英伟达，地平线目标明年中国自动驾驶芯片市占率第一",
-        "无界动力CEO张玉峰：具身智能5年后有望对标成年人劳动能力"
-      ],
-      "urls": [
-        "https://t.cj.sina.cn/articles/view/1826017320/6cd6d02802001wm2c",
-        "https://cj.sina.cn/articles/view/1733360754/6750fc7202001iiq0",
-        "https://www.yicai.com/news/103351267.html",
-        "https://finance.sina.com.cn/jjxw/2026-09-05/doc-iniquptq0362351.shtml",
-        "https://cj.sina.cn/articles/view/1702925432/6580947801901atnu",
-        "https://finance.sina.com.cn/hy/hyjz/2026-09-05/doc-iniqtwvu3721016.shtml",
-        "https://tech.ifeng.com/c/8wAf2KWLPlJ",
-        "https://finance.sina.com.cn/tech/roll/2026-09-05/doc-iniquccw0438547.shtml",
-        "https://finance.sina.com.cn/roll/2026-09-05/doc-iniquyir0536158.shtml",
-        "https://finance.sina.com.cn/7x24/2026-09-05/doc-iniqtwvu3728956.shtml",
-        "https://tech.ifeng.com/c/8wCAW2AVX8Z"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance",
-        "yicai",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "ifeng",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "ifeng"
-      ]
-    },
-    {
-      "event": "沙特主權AI採用中國MiniMax等大模型底座",
-      "score": 70,
-      "reader_score": 80,
-      "personas": {
-        "invest": 50,
-        "supply": 60,
-        "policy": 80,
-        "frontier": 60
-      },
-      "reason": "涉及AI基礎設施與軟體生態系，反映地緣科技競爭與供應鏈重組。",
-      "coherent": true,
-      "size": 5,
-      "max_crawled_at": "2026-09-06 10:30:08",
-      "titles": [
-        "沙特本土AI拥抱中国基座",
-        "不再只是卖API，沙特王储领衔的大模型，底座竟是中国MiniMax",
-        "中国开源模型，正成为全球 AI 的“度量衡” - 36 Kr",
-        "“沪牌”开源模型“新出海”",
-        "사우디 '소버린 AI' 윤곽…휴메인, 미중 기술 모아 자국 생태계 구축"
-      ],
-      "urls": [
-        "https://t.cj.sina.cn/articles/view/7517400647/1c0126e47059096fo0",
-        "https://finance.sina.com.cn/jjxw/2026-09-05/doc-iniqtnhe0709046.shtml",
-        "https://www.36kr.com/p/3970014644295303",
-        "https://t.cj.sina.cn/articles/view/1737737970/6793c6f202001thpo",
-        "https://zdnet.co.kr/view/?no=20260905160905"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance",
-        "36kr",
-        "sina_finance",
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "苹果硬件负责人Ternus上任引发关注",
-      "score": 70,
-      "reader_score": 75,
-      "personas": {
-        "invest": 65,
-        "supply": 60,
-        "policy": 30,
-        "frontier": 75
-      },
-      "reason": "苹果高层变动影响硬件战略，属核心科技新闻。",
-      "coherent": false,
-      "size": 4,
-      "max_crawled_at": "2026-09-05 03:31:08",
-      "titles": [
-        "What will Apple’s John Ternus era look like?",
-        "Apple’s Ternus era begins as Nvidia bets on the whole AI stack",
-        "New profile of John Ternus offers insight into life and reputation of Apple CEO",
-        "库克退而不休？苹果新掌舵人上任首周的“双重困境” - 36 Kr"
-      ],
-      "urls": [
-        "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/",
-        "https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack/",
-        "https://9to5mac.com/2026/09/04/new-profile-of-john-ternus-offers-insight-into-life-and-reputation-of-apple-ceo/",
-        "https://www.36kr.com/p/3968972381958406"
-      ],
-      "sources": [
-        "techcrunch",
-        "techcrunch",
-        "9to5mac",
-        "36kr"
-      ]
-    },
-    {
-      "event": "美韓半導體談判與三星生產策略關注",
-      "score": 70,
+      "event": "華為發布「韜定律」，麒麟2026密度大增功耗降",
+      "score": 85,
       "reader_score": 90,
       "personas": {
-        "invest": 65,
-        "supply": 85,
-        "policy": 90,
-        "frontier": 40
-      },
-      "reason": "地緣政治談判影響供應鏈佈局，具高重要性。",
-      "coherent": false,
-      "size": 2,
-      "max_crawled_at": "2026-09-05 15:01:08",
-      "titles": [
-        "한·미 협상 테이블 오른 '반도체'…삼전·닉스, 추가 생산거점 여부 관심",
-        "美国点名三星\"不搬厂就交税\"，最慌的却不是中国"
-      ],
-      "urls": [
-        "https://www.newsis.com/view/NISX20260904_0003777152",
-        "https://k.sina.cn/article_7879996919_1d5af35f7020027m6o.html"
-      ],
-      "sources": [
-        "newsis",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "AMD發布驅動1兆參數AI模型之工作站",
-      "score": 70,
-      "reader_score": 85,
-      "personas": {
-        "invest": 60,
-        "supply": 50,
-        "policy": 10,
-        "frontier": 85
-      },
-      "reason": "AMD硬體產品發布，直接關聯AI算力基礎設施",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-06 10:30:08",
-      "titles": [
-        "AMD, 1조 패러미터 AI 모델 구동 위한 워크스테이션 공개"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260905231322"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "廣達緯創搶攻量子計算市場",
-      "score": 70,
-      "reader_score": 80,
-      "personas": {
-        "invest": 80,
-        "supply": 60,
-        "policy": 20,
-        "frontier": 75
-      },
-      "reason": "EMS大廠佈局前沿技術，具產業指標意義。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-06 13:31:08",
-      "titles": [
-        "AI泡沫化後 下一棒是「量子」！廣達、緯創、金寶私下搶卡位 利潤比半導體更恐怖？"
-      ],
-      "urls": [
-        "https://www.ctee.com.tw/news/20260906700009-430501"
-      ],
-      "sources": [
-        "ctee"
-      ]
-    },
-    {
-      "event": "黑芝麻智能A2000量產窗口將至",
-      "score": 70,
-      "reader_score": 75,
-      "personas": {
-        "invest": 65,
-        "supply": 70,
-        "policy": 30,
-        "frontier": 75
-      },
-      "reason": "車規芯片進展，具具體產業意義。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-05 15:31:08",
-      "titles": [
-        "黑芝麻智能(02533.HK)2026半年报点评：营收与毛利高增 A2000量产/C1200扩量窗口临近"
-      ],
-      "urls": [
-        "https://stock.finance.sina.com.cn/hkstock/view/hk_report.php?reportid=841893744327"
-      ],
-      "sources": [
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "華天科技整合併購華羿微電",
-      "score": 70,
-      "reader_score": 80,
-      "personas": {
-        "invest": 75,
-        "supply": 80,
-        "policy": 30,
-        "frontier": 40
-      },
-      "reason": "封測廠併購，改變產業競爭格局",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-05 00:01:08",
-      "titles": [
-        "华天科技：收购完成后将从业务、资产、财务、人员及机构等方面对华羿微电实施整合"
-      ],
-      "urls": [
-        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002io4m"
-      ],
-      "sources": [
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "美國擬審查東南亞AI算力與數據中心",
-      "score": 68,
-      "reader_score": 85,
-      "personas": {
-        "invest": 50,
-        "supply": 75,
-        "policy": 85,
-        "frontier": 30
-      },
-      "reason": "政策風險提示，影響供應鏈佈局但非單一事件。",
-      "coherent": false,
-      "size": 2,
-      "max_crawled_at": "2026-09-06 11:01:08",
-      "titles": [
-        "美国拟封堵中国AI海外算力，东南亚数据中心或受审查",
-        "亚太，不做美国AI的韭菜"
-      ],
-      "urls": [
-        "//www.sohu.com/a/1071966044_354973",
-        "//www.sohu.com/a/1072293511_121375869"
-      ],
-      "sources": [
-        "sohu",
-        "sohu"
-      ]
-    },
-    {
-      "event": "古吉拉特邦Dholera擬建印度矽谷與AI中心",
-      "score": 68,
-      "reader_score": 75,
-      "personas": {
-        "invest": 50,
-        "supply": 75,
-        "policy": 60,
-        "frontier": 40
-      },
-      "reason": "印度半導體聚落發展，屬供應鏈地緣佈局關鍵",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-06 05:31:08",
-      "titles": [
-        "Gujarat's Dholera Set to Become India's 'Semicon City' and AI Hub"
-      ],
-      "urls": [
-        "https://indianmasterminds.com/news/dholera-semiconductor-ai-hub-gujarat-230572/"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "TCS斥資7萬億盧比建1GW AI資料中心",
-      "score": 65,
-      "reader_score": 70,
-      "personas": {
-        "invest": 60,
-        "supply": 70,
-        "policy": 40,
-        "frontier": 30
-      },
-      "reason": "大型AI基礎設施投資，影響伺服器與電源供應鏈。",
-      "coherent": true,
-      "size": 25,
-      "max_crawled_at": "2026-09-06 19:31:08",
-      "titles": [
-        "TCS HyperVault to set up ₹70,000-crore AI data centre campus in Hyderabad",
-        "TCS’s HyperVault to build 1GW AI data centre in Telangana's Hyderabad: Inside  ₹70,000 crore ‘historic’ project",
-        "Hyderabad: Tata’s TCS to build 1GW AI data centre campus; ₹70,000 crore investment - NewsMeter",
-        "TCS’ HyperVault to build 1GW AI data centre campus in Hyderabad with up to Rs 70,000 crore investment - Moneycontrol.com",
-        "TCS Subsidiary HyperVault Plans 1 GW AI Data Centre Campus In Hyderabad With Up To Rs 70,000 Crore Investment - Swarajya",
-        "1GW, 250+ acres, Rs 70,000 crore: Inside TCS-HyperVault's Hyderabad AI campus",
-        "TCS To Invest Rs 70,000 Crore In Hyderabad AI Data Centre - ETV Bharat",
-        "Tata group to build 1GW AI data centre campus in Hyderabad with Rs 70,000 crore investment - dailypioneer.com",
-        "Tata group to build 1GW AI data centre campus in Hyderabad with Rs 70,000 crore investment - Daily Pioneer",
-        "TCS subsidiary HyperVault to invest Rs 70,000 crore in 1 GW AI data centre campus in Hyderabad - The New Indian Express",
-        "Tatas HyperVault to build India’s Largest 1GW AI Data Centre in Hyderabad - Deccan Chronicle",
-        "TCS’ HyperVault to establish large-scale AI data center campus in Telangana - Analytics Insight",
-        "TCS HyperVault to set up ₹70,000 crore AI data center in Telangana - Sahi",
-        "TCS HyperVault to build 1 GW AI data centre campus in Hyderabad - ET Datacenters",
-        "TCS HyperVault to invest ₹70,000 crore in 1GW AI data centre in Hyderabad | Hyderabad News - The Times of India",
-        "TCS-HyperVault signs MoU with Telangana for Rs 70,000 crore AI data centre project - ANI News",
-        "TCS’ HyperVault to establish large-scale AI data center campus in Telangana - tcs.com",
-        "India’s AI data centre race enters the gigawatt era - dqindia.com",
-        "India's TCS unit to invest up to $7.4 billion in AI data center campus - marketscreener.com",
-        "India's TCS unit to invest up to $7.4 billion in AI data center campus",
-        "After Vizag, Hyderabad Getting Massive AI Data Center! - Gulte",
-        "Telangana CM Revanth and TCS announce ₹70,000 crore AI Data Centre in Future City",
-        "TCS unit HyperVault to build 1 GW AI data centre in Hyderabad - Tech Observer Magazine",
-        "Tata To Build India's Largest AI Data Centre In Hyderabad",
-        "India's TCS unit to invest up to $7.4 billion in AI data center campus - reuters.com"
-      ],
-      "urls": [
-        "https://www.thehindubusinessline.com/info-tech/tcs-hypervault-to-set-up-70000-crore-ai-data-centre-campus-in-hyderabad/article71431695.ece",
-        "https://www.livemint.com/companies/tcss-hypervault-to-build-1gw-ai-data-centre-in-telanganas-hyderabad-inside-70-000-crore-historic-project-11788610018101.html",
-        "https://newsmeter.in/top-stories/hyderabad-tatas-tcs-to-build-1gw-ai-data-centre-campus-70000-crore-investment-774950",
-        "https://www.moneycontrol.com/news/business/tcs-hypervault-to-build-1gw-ai-data-centre-campus-in-hyderabad-with-up-to-rs-70-000-crore-investment-14023332.html/amp",
-        "https://swarajyamag.com/infrastructure/tcs-subsidiary-hypervault-plans-1-gw-ai-data-centre-campus-in-hyderabad-with-up-to-rs-70000-crore-investment",
-        "https://english.mathrubhumi.com/technology/tcs-hypervault-rs-70000-crore-ai-data-centre-hyderabad-what-we-know-exl8ohsh",
-        "https://www.etvbharat.com/en/business/tcs-to-invest-rs-70000-crore-in-hyderabad-ai-data-centre-enn26090504883",
-        "https://dailypioneer.com/news/slug-lite/tata-hypervault-1gw-ai-data-centre-hyderabad-70000-crore-?year=2026",
-        "https://dailypioneer.com/news/tata-hypervault-1gw-ai-data-centre-hyderabad-70000-crore-",
-        "https://www.newindianexpress.com/amp/story/states/telangana/2026/Sep/05/tcs-subsidiary-hypervault-to-invest-rs-70000-crore-in-1-gw-ai-data-centre-campus-in-hyderabad",
-        "https://www.deccanchronicle.com/southern-states/telangana/tatas-hypervault-to-build-indias-largest-1gw-ai-data-centre-in-hyderabad-1985077",
-        "https://www.analyticsinsight.net/press-release/tcs-hypervault-to-establish-large-scale-ai-data-center-campus-in-telangana",
-        "https://www.sahi.com/news/tcs-hypervault-to-set-up-70-000-crore-ai-data-center-in-telangana-2185-PE1_COR",
-        "https://datacenters.economictimes.indiatimes.com/news/investments-deals/tcs-hypervault-to-build-1-gw-ai-data-centre-campus-in-hyderabad/133824094",
-        "https://timesofindia.indiatimes.com/city/hyderabad/tcs-hypervault-to-invest-70000-crore-in-1gw-ai-data-centre-in-hyderabad/articleshow/133813336.cms",
-        "https://www.aninews.in/news/national/general-news/tcs-hypervault-signs-mou-with-telangana-for-rs-70000-crore-ai-data-centre-project20260905171224",
-        "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-hypervault-establish-large-scale-ai-data-center-campus-telangana",
-        "https://www.dqindia.com/news/indias-ai-data-centre-race-enters-the-gigawatt-era-12498768",
-        "https://www.marketscreener.com/news/india-s-tcs-unit-to-invest-up-to-7-4-billion-for-ai-data-center-campus-ce785bdbda8bf720",
-        "https://www.reuters.com/world/india/indias-tcs-unit-invest-up-74-billion-ai-data-center-campus-2026-09-05",
-        "https://www.gulte.com/political-news/429983/after-vizag-hyderabad-getting-massive-ai-data-center",
-        "https://www.thehindu.com/news/national/telangana/revanth-and-tcs-announce-70000-crore-ai-data-centre-in-future-city-to-be-completed-by-june-2-2028/article71431767.ece",
-        "https://techobserver.in/news/enterprise-it/data-center/tcs-hypervault-1-gw-ai-data-centre-hyderabad-328642/",
-        "https://www.msn.com/en-in/technology/tech-companies/tata-to-build-india-s-largest-ai-data-centre-in-hyderabad/ar-AA2bD6ia",
-        "https://www.reuters.com/world/india/indias-tcs-unit-invest-up-74-billion-ai-data-center-campus-2026-09-05/"
-      ],
-      "sources": [
-        "hindubusinessline",
-        "livemint",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "reuters"
-      ]
-    },
-    {
-      "event": "特斯拉发布Cybercab并面临监管调查",
-      "score": 65,
-      "reader_score": 80,
-      "personas": {
         "invest": 70,
-        "supply": 40,
-        "policy": 80,
-        "frontier": 60
+        "supply": 65,
+        "policy": 75,
+        "frontier": 90
       },
-      "reason": "单一产品发布及后续合规风险，属AI/汽车交叉热点。",
-      "coherent": true,
-      "size": 11,
-      "max_crawled_at": "2026-09-06 17:31:08",
-      "titles": [
-        "特斯拉Cybercab挑战监管极限：马斯克要借灰色地带强行上路？",
-        "不想造车的马斯克，正式进军网约车领域了",
-        "特斯拉Cybercab上路当天遭NHTSA调查：没方向盘没踏板 自己认证存合规风险",
-        "马斯克没来 特斯拉Cybercab低调发布：盲人坐上直呼Amazing",
-        "特斯拉：预计将于下月实现Robotaxi 24小时全天候运营",
-        "特斯拉无人出租车，为什么偏偏长这样？",
-        "特斯拉Cybercab确认不支持交流充电，仅支持直流快充",
-        "马斯克：特斯拉Cybercab未来可连接PlayStation/Xbox",
-        "马斯克：Cybercab无人车驱动电机稀土用量归零 续航不打折",
-        "特斯拉Robotaxi下月或实现全天候运营 - 36 Kr",
-        "机构：二季度全球半导体设备出货金额405.3亿美元，同比增长23% - 36 Kr"
-      ],
-      "urls": [
-        "https://tech.ifeng.com/c/8wAKb4Gk0L6",
-        "https://tech.ifeng.com/c/8wAIjL3aPyK",
-        "https://tech.ifeng.com/c/8wCEQyOG9ak",
-        "https://tech.ifeng.com/c/8wAjrDeDqpq",
-        "https://tech.ifeng.com/c/8wBtYOo15wY",
-        "https://tech.ifeng.com/c/8wBBxLFva3g",
-        "https://tech.ifeng.com/c/8wCW0oHzt5W",
-        "https://tech.ifeng.com/c/8wCTe33iIbW",
-        "https://tech.ifeng.com/c/8wC5qz8ZBKH",
-        "https://www.36kr.com/newsflashes/3971242674565638",
-        "https://www.36kr.com/newsflashes/3971244762067458"
-      ],
-      "sources": [
-        "ifeng",
-        "ifeng",
-        "ifeng",
-        "ifeng",
-        "ifeng",
-        "ifeng",
-        "ifeng",
-        "ifeng",
-        "ifeng",
-        "36kr",
-        "36kr"
-      ]
-    },
-    {
-      "event": "半導體設備龍頭獲15億訂單排至2028年",
-      "score": 65,
-      "reader_score": 75,
-      "personas": {
-        "invest": 70,
-        "supply": 75,
-        "policy": 20,
-        "frontier": 40
-      },
-      "reason": "具體設備訂單顯示產能擴張與需求強勁。",
-      "coherent": false,
-      "size": 5,
-      "max_crawled_at": "2026-09-05 15:31:08",
-      "titles": [
-        "翻倍芯片龙头股，拟大手笔扩产",
-        "半导体巨头，拟大手笔扩产！多家A股上市公司，发布利好公告",
-        "半导体巨头，拟大手笔扩产！",
-        "翻倍牛股拿下15亿元大单，国产半导体设备订单排到2028年"
-      ],
-      "urls": [
-        "https://cj.sina.cn/articles/view/1651428902/626ece2601901jjyc",
-        "https://cj.sina.cn/articles/view/5993531560/1653e08a801901ogvi",
-        "https://finance.sina.com.cn/stock/zqgd/2026-09-05/doc-iniquccs3636966.shtml",
-        "https://cj.sina.cn/articles/view/1651428902/626ece2601901jjlu",
-        "https://cj.sina.cn/articles/view/1651428902/626ece2601901jjlu"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "LG Uplus與GS建設開發AI資料中心模組",
-      "score": 65,
-      "reader_score": 75,
-      "personas": {
-        "invest": 50,
-        "supply": 75,
-        "policy": 30,
-        "frontier": 40
-      },
-      "reason": "AI基建供應鏈創新，影響硬體需求",
+      "reason": "華為架構創新突破散熱瓶頸，具技術指標意義。",
       "coherent": true,
       "size": 3,
-      "max_crawled_at": "2026-09-06 10:30:08",
+      "max_crawled_at": "2026-09-06 20:31:08",
       "titles": [
-        "GS건설, AI 데이터센터 모듈러 표준모델 개발…공급 속도 높인다",
-        "AIDC도 조립식으로 짓는다…LGU+, GS건설과 표준모델 개발",
-        "LG Uplus forms PMDC alliance to speed South Korea AI data center builds"
+        "华为“韬定律”细节再公开：麒麟2026密度暴涨55% 功耗反而大降",
+        "周一！ 华为重磅技术落地！韬定律更新改写国产芯片堆叠发展格局",
+        "Huawei paper shows Tau Scaling Law chip solves overheating ahead of Kirin 2026 launch"
       ],
       "urls": [
-        "https://www.newsis.com/view/NISX20260906_0003777947",
-        "https://zdnet.co.kr/view/?no=20260906090941",
-        "https://biz.chosun.com/en/en-it/2026/09/06/WZV7EX6MQ5AORHTWQF2FAD24RI/"
+        "https://www.chinastarmarket.cn/detail/2475140",
+        "https://k.sina.cn/article_7879996580_1d5af34a402001uslk.html",
+        "https://www.scmp.com/tech/big-tech/article/3366543/huawei-paper-shows-tau-scaling-law-chip-solves-overheating-ahead-kirin-2026-launch"
       ],
       "sources": [
-        "newsis",
-        "zdkorea",
-        "chosunbiz"
+        "chinastarmarket",
+        "sina_finance",
+        "scmp"
       ]
     },
     {
-      "event": "Anthropic IPO计划推迟至10月中旬",
-      "score": 65,
-      "reader_score": 80,
-      "personas": {
-        "invest": 80,
-        "supply": 40,
-        "policy": 20,
-        "frontier": 50
-      },
-      "reason": "AI独角兽上市动态，影响算力市场资金流向。",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-09-06 02:01:08",
-      "titles": [
-        "EXCLUSIVE: Anthropic IPO launch shifts toward mid-October, sources say",
-        "Bloomberg Tech: Anthropic's Pre-IPO War Chest"
-      ],
-      "urls": [
-        "https://www.reuters.com/world/anthropic-ipo-launch-shifts-toward-mid-october-sources-say-2026-09-04/",
-        "https://www.bloomberg.com/news/audio/2026-09-04/bloomberg-tech-anthropic-s-pre-ipo-war-chest-podcast"
-      ],
-      "sources": [
-        "reuters",
-        "bloomberg"
-      ]
-    },
-    {
-      "event": "智譜疑似推出新AI模型",
-      "score": 65,
-      "reader_score": 80,
+      "event": "台荷矽光子合作發表高速光通訊成果",
+      "score": 85,
+      "reader_score": 90,
       "personas": {
         "invest": 70,
-        "supply": 40,
+        "supply": 80,
         "policy": 30,
-        "frontier": 80
+        "frontier": 90
       },
-      "reason": "AI模型競爭，涉及中國AI產業動態。",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-09-05 10:30:40",
-      "titles": [
-        "匿名AI模型再现：又一Alpha上线OpenCode，线索指向智谱"
-      ],
-      "urls": [
-        "https://t.cj.sina.cn/articles/view/1826017320/6cd6d02802001wl5o",
-        "https://tech.ifeng.com/c/8wAEKapnS7x"
-      ],
-      "sources": [
-        "sina_finance",
-        "ifeng"
-      ]
-    },
-    {
-      "event": "OpenAI空間推理能力突破引發關注",
-      "score": 65,
-      "reader_score": 80,
-      "personas": {
-        "invest": 40,
-        "supply": 30,
-        "policy": 20,
-        "frontier": 80
-      },
-      "reason": "技術進展具體，但影響層面較窄於整體模型發布。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-06 11:31:08",
-      "titles": [
-        "OpenAI应用研究主管：空间推理能力曾是人类远超计算机的最后几个方面之一，有了Astra之后，这种情况将不复存在 - 36 Kr"
-      ],
-      "urls": [
-        "https://www.36kr.com/newsflashes/3971312447795464"
-      ],
-      "sources": [
-        "36kr"
-      ]
-    },
-    {
-      "event": "臺荷合作矽光子成果展聚焦高速光通訊",
-      "score": 65,
-      "reader_score": 80,
-      "personas": {
-        "invest": 40,
-        "supply": 70,
-        "policy": 30,
-        "frontier": 80
-      },
-      "reason": "台荷矽光子技術展示，屬關鍵元件進展",
+      "reason": "矽光子技術，AI基礎設施關鍵組件",
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-09-06 16:31:08",
@@ -1403,585 +94,105 @@
       ]
     },
     {
-      "event": "特斯拉无人出租车发布，当局启动调查",
-      "score": 65,
-      "reader_score": 80,
-      "personas": {
-        "invest": 70,
-        "supply": 40,
-        "policy": 80,
-        "frontier": 60
-      },
-      "reason": "与Story 2内容高度重合，确认为同一事件的不同报道。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-06 10:30:08",
-      "titles": [
-        "테슬라, '핸들·페달' 없는 무인 택시 개시…당국은 조사 착수"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260905214157"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "Micro1競標Spirit Data挑戰Google",
-      "score": 65,
-      "reader_score": 70,
-      "personas": {
-        "invest": 70,
-        "supply": 60,
-        "policy": 40,
-        "frontier": 50
-      },
-      "reason": "AI數據中心關鍵併購案，涉及Google與新創競爭，具產業影響力。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-05 06:30:08",
-      "titles": [
-        "AI Startup Micro1 Seeks to Topple Google’s Bid for Spirit Data"
-      ],
-      "urls": [
-        "https://www.bloomberg.com/news/articles/2026-09-04/ai-startup-micro1-seeks-to-topple-google-s-bid-for-spirit-data"
-      ],
-      "sources": [
-        "bloomberg"
-      ]
-    },
-    {
-      "event": "三星投資AI推論軟體公司Jimet Labs",
-      "score": 65,
-      "reader_score": 70,
-      "personas": {
-        "invest": 70,
-        "supply": 40,
-        "policy": 20,
-        "frontier": 50
-      },
-      "reason": "三星跨足AI軟層，具產業指標意義",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-05 15:01:08",
-      "titles": [
-        "[AI는 지금] \"GPU만으론 부족\"…삼성도 'AI 추론 SW' 짐렛랩스에 베팅"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260905143455"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "聯電8月營收創同期新高",
-      "score": 60,
-      "reader_score": 75,
+      "event": "DeepSeek採購16萬顆華為昇騰晶片建AI叢集",
+      "score": 82,
+      "reader_score": 85,
       "personas": {
         "invest": 75,
-        "supply": 50,
-        "policy": 10,
-        "frontier": 20
+        "supply": 80,
+        "policy": 85,
+        "frontier": 70
       },
-      "reason": "單一公司財報，雖重要但非跨產業大事件",
-      "coherent": false,
-      "size": 32,
-      "max_crawled_at": "2026-09-06 16:31:08",
+      "reason": "大陸AI算力自主化關鍵信號，影響華為供應鏈。",
+      "coherent": true,
+      "size": 3,
+      "max_crawled_at": "2026-09-06 17:01:08",
       "titles": [
-        "聯電合併營收 寫最強8月",
-        "鴻海8月營收創同期新高　看好AI需求第3季續成長",
-        "聯電合併營收 寫最強8月 - money.udn.com",
-        "鴻海營收／8月9,218億元為歷史次高、同期新高 受惠 AI 強勁拉貨",
-        "鴻海營收創最強8月達9,217億 前八月同步攻頂 本季看旺",
-        "鴻海營收創最強8月達9,217億 前八月同步攻頂 本季看旺 - money.udn.com",
-        "鴻海8月營收9,218億元、年增51.98％",
-        "一詮8月營收月增5.1% 寫下新猷",
-        "大立光8月營收重返50億 月增2.7% 近四月最佳 拉貨動能升溫",
-        "聯電8月營收250.44億、衝單月第三高稼動率走升、AI業務成長添動能- 產業",
-        "AI伺服器需求強鴻海上月營收創同期新高- 日報",
-        "信驊釋利多 明年訂單爆發 總量超過今年全年業績",
-        "八貫8月營收年增62% 維持高檔",
-        "一詮8月營收月增5.1% 寫下新猷 - money.udn.com",
-        "信驊釋利多 明年訂單爆發 總量超過今年全年業績 - money.udn.com",
-        "ODM 四雄 高盛喊買進",
-        "大立光營收／8月50億元 月增3% 為4個月來最佳 看好9月拉貨動能向上",
-        "晶技8月營收月增3.6% 漲價效益浮現",
-        "辛耘8月業績月增9.7％ 再創新紀錄",
-        "晶技8月營收月增3.6% 漲價效益浮現 - money.udn.com",
-        "大立光8月營收重返50億 月增2.7% 近四月最佳 拉貨動能升溫 - money.udn.com",
-        "辛耘8月業績月增9.7％ 再創新紀錄 - money.udn.com",
-        "八貫8月營收年增62% 維持高檔 - money.udn.com",
-        "偉詮電8月合併營收月增6.2% 攀上高峰",
-        "聯亞8月營收創新高 月增3.8% 衝上5.2億",
-        "鴻海國泰66購01 活跳跳 - money.udn.com",
-        "鴻海國泰66購01 活跳跳",
-        "軍工需求升溫 航太、無人機迎成長契機",
-        "昔日股王靠CPO翻身？大立光突破9年前天價　光學產業迎來第二次大轉折",
-        "信驊董座林鴻明：AI 助理提升設計生產力",
-        "最牛一輪／大立光有戲 國泰65樂",
-        "最牛一輪／大立光有戲 國泰65樂 - money.udn.com"
+        "DeepSeek傳採購16萬顆華為昇騰950DT 劍指AI推理算力 | 大陸政經 | 兩岸",
+        "DeepSeek 重金採購 16 萬顆華為晶片，內蒙古建大規模 AI 叢集",
+        "DeepSeek，将采购16万颗华为AI芯片"
       ],
       "urls": [
-        "https://money.udn.com/money/amp/story/5710/9735447",
-        "https://www.cna.com.tw/news/afe/202609050121.aspx",
-        "https://money.udn.com/money/story/5710/9735447",
-        "https://money.udn.com/money/story/5710/9736481",
-        "https://money.udn.com/money/story/5612/9736934",
-        "https://money.udn.com/money/amp/story/5612/9736934",
-        "https://www.ctee.com.tw/news/20260905700595-430502",
-        "https://money.udn.com/money/amp/story/5710/9735454",
-        "https://money.udn.com/money/amp/story/5612/9736936",
-        "https://www.ctee.com.tw/news/20260904701615-430502",
-        "https://www.ctee.com.tw/news/20260906700036-439901",
-        "https://money.udn.com/money/amp/story/5612/9735580",
-        "https://money.udn.com/money/amp/story/5710/9735455",
-        "https://money.udn.com/money/story/5710/9735454",
-        "https://money.udn.com/money/story/5612/9735580",
-        "https://money.udn.com/money/story/5607/9735332",
-        "https://money.udn.com/money/story/5710/9735990",
-        "https://money.udn.com/money/amp/story/5710/9735581",
-        "https://money.udn.com/money/amp/story/5710/9735451",
-        "https://money.udn.com/money/story/5710/9735581",
-        "https://money.udn.com/money/story/5612/9736936",
-        "https://money.udn.com/money/story/5710/9735451",
-        "https://money.udn.com/money/story/5710/9735455",
-        "https://money.udn.com/money/story/5710/9735453",
-        "https://money.udn.com/money/story/11074/9735577",
-        "https://money.udn.com/money/story/5739/9736748",
-        "https://money.udn.com/money/amp/story/5739/9736748",
-        "https://money.udn.com/money/story/5612/9737392",
-        "https://money.udn.com/money/story/5607/9730115",
-        "https://money.udn.com/money/story/5612/9735586",
-        "https://money.udn.com/money/amp/story/5739/9735440",
-        "https://money.udn.com/money/story/5739/9735440"
+        "https://money.udn.com/money/story/5603/9737570",
+        "https://technews.tw/2026/09/06/deepseek-prepares-major-huawei-ai-chip-order-for-new-data-center/",
+        "https://tech.ifeng.com/c/8wCCuh45jgf"
       ],
       "sources": [
         "udn_money",
-        "cna",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "ctee",
-        "udn_money",
-        "udn_money",
-        "ctee",
-        "ctee",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money"
+        "technews",
+        "ifeng"
       ]
     },
     {
-      "event": "長鑫存儲全球DRAM市佔達10%",
-      "score": 60,
-      "reader_score": 70,
+      "event": "北方華創突破3D DRAM刻蝕，無需EUV技術",
+      "score": 80,
+      "reader_score": 90,
       "personas": {
-        "invest": 55,
-        "supply": 70,
-        "policy": 30,
-        "frontier": 45
+        "invest": 60,
+        "supply": 75,
+        "policy": 90,
+        "frontier": 85
       },
-      "reason": "多雜訊，聚焦長鑫DRAM市佔突破之具體數據。",
-      "coherent": false,
-      "size": 14,
-      "max_crawled_at": "2026-09-06 22:00:30",
+      "reason": "大陸設備商突破關鍵製程，挑戰ASML壟斷地位。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 09:01:08",
       "titles": [
-        "每周回顾 AI长剧《后西游记》带飞芒果超媒",
-        "突然，暴涨近12%！存储巨头，意外爆发！美联储，加息大消息！七部门最新部署！影响一周市场的十大消息",
-        "机器人、光模块，周末利好",
-        "硬科技早报|Kimi等大模型厂商开网店；长鑫全球市占达10%；苹果折叠屏难产",
-        "硬科技早报|阿里入局千帆星座；麒麟芯片功耗降低；超40%手机涨价",
-        "科技周报|苹果告别库克时代；字节跳动将获得约296亿美元银团贷款",
-        "9点1氪丨大众汽车宣布全球裁员10万；月之暗面据悉计划今年在香港进行IPO；国家统计局：全国打工人周均工作48.2小时 - 36 Kr",
-        "大模型公司决战IPO｜新皮层周报",
-        "美联储，加息大消息！重磅数据来袭",
-        "周末影响市场重要资讯回顾：财政部千亿级注资银行和保险公司，私募行业迎来募集阶段监管新规",
-        "硬科技投向标|工信部：加大智能体、Token等服务采购力度 长存控股科创板IPO已问询",
-        "机构：2026年二季度全球DRAM市场营收同比上升385%",
-        "机构：2026年二季度全球DRAM市场营收同比上升385% - 36 Kr"
+        "国产半导体设备重大突破！北方华创宣布3D DRAM刻蚀突破：没有EUV也能造先进存储"
       ],
       "urls": [
-        "https://cj.sina.cn/articles/view/7537330838/1c1428a9600101c2u4",
-        "https://www.stcn.com/article/detail/4173983.html",
-        "https://finance.sina.com.cn/jjxw/2026-09-06/doc-iniqvvnz9671628.shtml",
-        "https://www.guancha.cn/economy/2026_09_06_830162.shtml",
-        "https://www.guancha.cn/economy/2026_09_05_830076.shtml",
-        "https://www.yicai.com/news/103352603.html",
-        "https://www.36kr.com/p/3969804742111746",
-        "https://t.cj.sina.cn/articles/view/1315591982/4e6a572e01901dknk",
-        "https://cj.sina.cn/articles/view/1664176597/633151d501901m7ru",
-        "https://finance.sina.com.cn/stock/marketresearch/2026-09-06/doc-iniqwsss4138384.shtml",
-        "https://www.chinastarmarket.cn/detail/2474086",
-        "https://36kr.com/newsflashes/3971241600184835",
-        "https://finance.sina.com.cn/7x24/2026-09-06/doc-iniqvvph7006626.shtml",
-        "https://www.36kr.com/newsflashes/3971241600184835"
+        "https://tech.ifeng.com/c/8wB8kVMPMJN"
       ],
       "sources": [
-        "sina_finance",
-        "stcn",
-        "sina_finance",
-        "guancha",
-        "guancha",
-        "yicai",
+        "ifeng"
+      ]
+    },
+    {
+      "event": "機構預測2026年Q2全球DRAM營收大增385%",
+      "score": 78,
+      "reader_score": 80,
+      "personas": {
+        "invest": 80,
+        "supply": 75,
+        "policy": 25,
+        "frontier": 60
+      },
+      "reason": "DRAM市場大幅成長預期，直接影響記憶體產業。",
+      "coherent": false,
+      "size": 5,
+      "max_crawled_at": "2026-09-06 16:01:08",
+      "titles": [
+        "机构：2026年二季度全球DRAM市场营收同比上升385% - 36 Kr",
+        "机构：2026年二季度全球DRAM市场营收同比上升385%",
+        "多位储能业内人士：有关部门正全面摸底产能 企业新建产能项目审批暂缓 - 36 Kr",
+        "韩国出口额破纪录 - 36 Kr"
+      ],
+      "urls": [
+        "https://www.36kr.com/newsflashes/3971241600184835",
+        "https://36kr.com/newsflashes/3971241600184835",
+        "https://finance.sina.com.cn/7x24/2026-09-06/doc-iniqvvph7006626.shtml",
+        "https://www.36kr.com/newsflashes/3971580193911040",
+        "https://www.36kr.com/newsflashes/3971553339535879"
+      ],
+      "sources": [
+        "36kr",
         "36kr",
         "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "chinastarmarket",
         "36kr",
-        "sina_finance",
         "36kr"
       ]
     },
     {
-      "event": "印度公布半導體獎勵計畫2.0",
-      "score": 60,
+      "event": "Tesla Cybercab自動駕駛累計完成超16000人類生命周期當量訓練",
+      "score": 78,
       "reader_score": 85,
       "personas": {
-        "invest": 50,
+        "invest": 65,
         "supply": 70,
-        "policy": 85,
-        "frontier": 20
-      },
-      "reason": "政策變動影響全球供應鏈佈局與投資流向。",
-      "coherent": false,
-      "size": 4,
-      "max_crawled_at": "2026-09-06 15:01:08",
-      "titles": [
-        "印度最大代表團抵台，補助加政策吸引台商投資建構全球半導體韌性鏈",
-        "印度公布「半導體獎勵計畫2.0」，盼提升供應鏈韌性、國家安全",
-        "台積電、日月光帶頭進駐！全台首座先進封裝基地落腳高雄白埔南台灣半導體廊帶震撼升級- 產業",
-        "晶片愈疊愈熱怎麼辦？德國創浦出手：預告 2028 年將微冷卻結構直接打入 3D 晶片"
-      ],
-      "urls": [
-        "https://finance.technews.tw/2026/09/05/indias-largest-delegation-arrives-in-taiwan/",
-        "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=c903c59f-714f-41d3-8267-3cd0dd1e3353",
-        "https://www.ctee.com.tw/news/20260906700011-430501",
-        "https://finance.technews.tw/2026/09/05/trumpf/"
-      ],
-      "sources": [
-        "technews",
-        "india_electronics",
-        "ctee",
-        "technews"
-      ]
-    },
-    {
-      "event": "瑪莎拉蒂傳與華為、江淮合開發電動車",
-      "score": 60,
-      "reader_score": 70,
-      "personas": {
-        "invest": 50,
-        "supply": 70,
-        "policy": 40,
-        "frontier": 50
-      },
-      "reason": "涉及華為車規晶片/解決方案與製造鏈，屬電子硬體應用。",
-      "coherent": true,
-      "size": 3,
-      "max_crawled_at": "2026-09-06 03:31:08",
-      "titles": [
-        "消息称玛莎拉蒂正与华为、江淮洽谈合作，有望联合开发电动汽车",
-        "Stellantis回应玛莎拉蒂与华为、江淮合作传闻：不予置评",
-        "瑪莎拉蒂、華為合作電動車 採雙 logo 銷售策略 最快明年底前量產 - money.udn.com"
-      ],
-      "urls": [
-        "https://tech.ifeng.com/c/8w9aqImSKbF",
-        "https://tech.ifeng.com/c/8wAR0zJII3c",
-        "https://money.udn.com/money/amp/story/5603/9736901"
-      ],
-      "sources": [
-        "ifeng",
-        "ifeng",
-        "udn_money"
-      ]
-    },
-    {
-      "event": "特朗普芯片供应链保护政策在田纳西遇阻",
-      "score": 60,
-      "reader_score": 75,
-      "personas": {
-        "invest": 40,
-        "supply": 50,
-        "policy": 75,
-        "frontier": 20
-      },
-      "reason": "美国本土半导体政策执行层面的具体冲突。",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-09-05 04:30:36",
-      "titles": [
-        "Trump's bid to shield chip supply chain could backfire in Tennessee",
-        "Exclusive-Trumps bid to shield chip supply chain could backfire in Tennessee"
-      ],
-      "urls": [
-        "https://economictimes.indiatimes.com/tech/technology/trumps-bid-to-shield-chip-supply-chain-could-backfire-in-tennessee/articleshow/133769806.cms",
-        "https://www.livemint.com/companies/exclusivetrumps-bid-to-shield-chip-supply-chain-could-backfire-in-tennessee-11788552838402.html"
-      ],
-      "sources": [
-        "economictimes",
-        "livemint"
-      ]
-    },
-    {
-      "event": "印度轉向緬甸採購關鍵礦物",
-      "score": 60,
-      "reader_score": 80,
-      "personas": {
-        "invest": 40,
-        "supply": 80,
-        "policy": 75,
-        "frontier": 20
-      },
-      "reason": "供應鏈重組，影響關鍵材料流向",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-09-06 01:01:08",
-      "titles": [
-        "India looks to Myanmar for critical minerals amid global supply chain pressures",
-        "India turns to Myanmar for supply of critical minerals"
-      ],
-      "urls": [
-        "https://timeskuwait.com/india-looks-to-myanmar-for-critical-minerals-amid-global-supply-chain-pressures/",
-        "https://timesofoman.com/article/176478-india-turns-to-myanmar-for-supply-of-critical-minerals"
-      ],
-      "sources": [
-        "india_electronics",
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "Epic CEO指AI推升記憶體價格",
-      "score": 60,
-      "reader_score": 80,
-      "personas": {
-        "invest": 75,
-        "supply": 80,
-        "policy": 20,
-        "frontier": 30
-      },
-      "reason": "需求端信號，影響記憶體市場預期。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-06 08:01:08",
-      "titles": [
-        "Epic CEO：AI导致内存、存储价格暴涨，游戏行业遭遇第二次崩盘"
-      ],
-      "urls": [
-        "https://tech.ifeng.com/c/8wBK7epeHaG"
-      ],
-      "sources": [
-        "ifeng"
-      ]
-    },
-    {
-      "event": "IFA 2026中國廠商與物理AI展示概況",
-      "score": 55,
-      "reader_score": 65,
-      "personas": {
-        "invest": 40,
-        "supply": 50,
         "policy": 30,
-        "frontier": 65
+        "frontier": 85
       },
-      "reason": "展會觀察，反映產業趨勢但非單一具體事件。",
-      "coherent": true,
-      "size": 11,
-      "max_crawled_at": "2026-09-06 17:31:08",
-      "titles": [
-        "暴走5万步，IFA 2026一手情报：超1000家中国厂商创历史，物理AI狠戳老外兴奋点 - 36 Kr",
-        "暴走5万步，IFA 2026一手情报：超1000家中国厂商创历史，物理AI狠戳老外兴奋点",
-        "观察：中国机器人“登陆”IFA 25号馆",
-        "直击IFA 2026｜别谈具身和AI，欧洲不相信「黑科技」 - 36 Kr",
-        "Robots electrify IFA 2026 as China leads humanoid surge",
-        "저가 공세 끝났다…'기술' 장착하고 K-가전 추격하는 중국[IFA 2026]",
-        "世界来深圳“买AI” ——三天39亿元意向成交，全球买家“用订单投票” - 36 Kr",
-        "具身智能“超级时刻”猜想",
-        "车企的焦虑，都在押注机器人"
-      ],
-      "urls": [
-        "http://www.36kr.com/p/3970553028587779",
-        "https://www.36kr.com/p/3970553028587779",
-        "https://tech.ifeng.com/c/8wBQrlwXhe0",
-        "https://www.chinastarmarket.cn/detail/2475158",
-        "https://www.36kr.com/p/3970179970036225",
-        "https://biz.chosun.com/en/en-it/2026/09/06/3G2VEAVUYRFRRGCBI7IREFTHOA/",
-        "https://www.newsis.com/view/NISX20260905_0003777784",
-        "https://www.36kr.com/p/3962810209877382",
-        "https://finance.sina.com.cn/roll/2026-09-05/doc-iniqtnfy3787935.shtml",
-        "https://tech.ifeng.com/c/8wC7gkpz5K5",
-        "https://finance.sina.com.cn/stock/t/2026-09-06/doc-iniqvzux9603316.shtml"
-      ],
-      "sources": [
-        "36kr",
-        "36kr",
-        "ifeng",
-        "chinastarmarket",
-        "36kr",
-        "chosunbiz",
-        "newsis",
-        "36kr",
-        "sina_finance",
-        "ifeng",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "Anthropic IPO時程延後至10月中旬",
-      "score": 55,
-      "reader_score": 75,
-      "personas": {
-        "invest": 75,
-        "supply": 20,
-        "policy": 30,
-        "frontier": 40
-      },
-      "reason": "AI巨頭資本市場動態，影響估值與資金流向。",
-      "coherent": true,
-      "size": 10,
-      "max_crawled_at": "2026-09-06 18:01:08",
-      "titles": [
-        "Anthropic 2万亿美元IPO生变：招股书推迟公布 中期选举前上市",
-        "Anthropic IPO launch shifts toward mid-October, sources say",
-        "“史上最大IPO”时间表有变 Anthropic据悉最早10月中旬启动路演",
-        "Anthropic IPO 啟動時程調整，延至 10 月中旬推廣",
-        "Anthropic IPO時程傳延後目標11月美國期中選舉前掛牌- 國際",
-        "Anthropic 拚美選舉前掛牌 - money.udn.com",
-        "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
-        "Cloud infrastructure provider Nscale seeks about $3.5 billion pre-IPO funding",
-        "AI 클라우드 엔스케일, IPO 앞두고 35억 달러 조달 추진…엔비디아도 논의",
-        "AI Cloud Firm Nscale Seeking $3.5 Billion in Pre-IPO Financing"
-      ],
-      "urls": [
-        "https://tech.ifeng.com/c/8wAEKapnSA7",
-        "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-ipo-launch-shifts-toward-mid-october-sources-say/articleshow/133786749.cms",
-        "https://www.chinastarmarket.cn/detail/2474873",
-        "https://technews.tw/2026/09/06/anthropic-ipo-launch-shifts-toward-mid-october/",
-        "https://www.ctee.com.tw/news/20260905700275-430704",
-        "https://money.udn.com/money/amp/story/5599/9736911",
-        "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
-        "https://economictimes.indiatimes.com/tech/technology/nscale-seeks-about-3-5-billion-pre-ipo-funding/articleshow/133791341.cms",
-        "https://zdnet.co.kr/view/?no=20260905084246",
-        "https://www.bloomberg.com/news/articles/2026-09-04/ai-cloud-firm-nscale-seeking-3-5-billion-in-pre-ipo-financing"
-      ],
-      "sources": [
-        "ifeng",
-        "economictimes",
-        "chinastarmarket",
-        "technews",
-        "ctee",
-        "udn_money",
-        "techcrunch",
-        "economictimes",
-        "zdkorea",
-        "bloomberg"
-      ]
-    },
-    {
-      "event": "大摩闭门会：国产AI模型ARR爆发式增长",
-      "score": 55,
-      "reader_score": 75,
-      "personas": {
-        "invest": 75,
-        "supply": 40,
-        "policy": 20,
-        "frontier": 65
-      },
-      "reason": "聚焦头部模型商业化数据，具行业风向标意义。",
-      "coherent": false,
-      "size": 10,
-      "max_crawled_at": "2026-09-06 11:01:08",
-      "titles": [
-        "大摩闭门会-AI大模型和互联网大厂更新",
-        "大摩闭门会：MiniMax（00100）、智谱（02513）ARR双双狂奔，模型竞争将进入分层淘汰赛",
-        "智谱与MiniMax专家纪要：ARR爆发式增长，国产算力商业化提速 - 36 Kr",
-        "智谱万亿了，DeepSeek还会远吗？ - 36 Kr",
-        "银行“抢着借钱”，字节贷款近2000亿搞AI？",
-        "字节拿到296亿美元“弹药”：大厂集体为AI找钱，还能烧多久，谁先扛不住？",
-        "快手，被可灵反超"
-      ],
-      "urls": [
-        "https://finance.sina.com.cn/stock/stockzmt/2026-09-05/doc-iniqutzn0264738.shtml",
-        "https://finance.sina.com.cn/stock/stockzmt/2026-09-05/doc-iniqutzn0264738.shtml",
-        "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-09-06/doc-iniqvvpa4533005.shtml",
-        "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-09-06/doc-iniqvvpa4533005.shtml",
-        "https://www.36kr.com/p/3968837441171714",
-        "https://www.36kr.com/p/3864256310786690",
-        "https://tech.ifeng.com/c/8wBtYOo161h",
-        "https://www.36kr.com/p/3969914762670601",
-        "https://cloud.ofweek.com/news/2026-09/ART-178808-12003-30701767.html",
-        "https://tech.ifeng.com/c/8wAa9OEIof3"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "36kr",
-        "36kr",
-        "ifeng",
-        "36kr",
-        "ofweek_cloud",
-        "ifeng"
-      ]
-    },
-    {
-      "event": "拓荆科技董事長回顧中國半導體設備發展",
-      "score": 55,
-      "reader_score": 60,
-      "personas": {
-        "invest": 40,
-        "supply": 60,
-        "policy": 50,
-        "frontier": 60
-      },
-      "reason": "涉及半導體設備關鍵人物與產業自主化，具供應鏈意義。",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-09-05 21:31:08",
-      "titles": [
-        "拓荆科技董事长吕光泉：二十年归国路，他替中国芯片盖起了自己的房子丨【商业人物档案】"
-      ],
-      "urls": [
-        "https://t.cj.sina.cn/articles/view/1393100891/5309085b02001juq2",
-        "https://t.cj.sina.cn/articles/view/1393100891/5309085b02001juq2"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "Cybercab累計完成超1.6萬人類當量訓練",
-      "score": 55,
-      "reader_score": 60,
-      "personas": {
-        "invest": 40,
-        "supply": 30,
-        "policy": 20,
-        "frontier": 60
-      },
-      "reason": "自動駕駛數據累積，屬AI應用層面進展",
+      "reason": "自動駕駛技術里程碑，具產業示範效應。",
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-09-06 11:31:08",
@@ -1996,136 +207,230 @@
       ]
     },
     {
-      "event": "塔塔子公司拟在印度建74亿美元AI数据中心",
-      "score": 55,
-      "reader_score": 70,
+      "event": "IFA 2026中國機器人崛起，LG加速B2B佈局",
+      "score": 75,
+      "reader_score": 80,
       "personas": {
         "invest": 60,
-        "supply": 70,
-        "policy": 50,
-        "frontier": 40
+        "supply": 80,
+        "policy": 40,
+        "frontier": 70
       },
-      "reason": "重大基础设施投资，涉及供应链转移与算力布局。",
+      "reason": "具體產業動態，涉及中國機器人供應鏈與國際競合。",
       "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-06 09:31:08",
+      "size": 7,
+      "max_crawled_at": "2026-09-06 17:31:08",
       "titles": [
-        "塔塔咨询服务子公司拟在印度新建AI数据中心园区，投资规模可达74亿美元 - 36 Kr"
+        "暴走5万步，IFA 2026一手情报：超1000家中国厂商创历史，物理AI狠戳老外兴奋点 - 36 Kr",
+        "暴走5万步，IFA 2026一手情报：超1000家中国厂商创历史，物理AI狠戳老外兴奋点",
+        "Robots electrify IFA 2026 as China leads humanoid surge",
+        "观察：中国机器人“登陆”IFA 25号馆",
+        "LG Electronics pursues big tech robot joint deals, expands B2B to counter China",
+        "LG전자, 로봇용 액추에이터 수주 본격화…\"빅테크와 논의 중\"[IFA 2026]"
       ],
       "urls": [
-        "https://www.36kr.com/newsflashes/3971240440017414"
+        "http://www.36kr.com/p/3970553028587779",
+        "https://www.36kr.com/p/3970553028587779",
+        "https://tech.ifeng.com/c/8wBQrlwXhe0",
+        "https://biz.chosun.com/en/en-it/2026/09/06/3G2VEAVUYRFRRGCBI7IREFTHOA/",
+        "https://www.chinastarmarket.cn/detail/2475158",
+        "https://biz.chosun.com/en/en-it/2026/09/06/JXV5QJN3Y5CPBOU3VUCUN36X5Y/",
+        "https://www.newsis.com/view/NISX20260905_0003777704"
       ],
       "sources": [
-        "36kr"
+        "36kr",
+        "36kr",
+        "ifeng",
+        "chosunbiz",
+        "chinastarmarket",
+        "chosunbiz",
+        "newsis"
       ]
     },
     {
-      "event": "韓國推動物理AI與代理技術",
-      "score": 55,
-      "reader_score": 70,
+      "event": "AI芯片液冷需求爆發訂單排到年底",
+      "score": 75,
+      "reader_score": 85,
       "personas": {
-        "invest": 40,
-        "supply": 50,
-        "policy": 60,
+        "invest": 60,
+        "supply": 85,
+        "policy": 20,
         "frontier": 70
       },
-      "reason": "國家級技術戰略，影響長期產業方向。",
+      "reason": "關鍵散熱技術需求激增，影響供應鏈。",
+      "coherent": true,
+      "size": 4,
+      "max_crawled_at": "2026-09-06 21:31:08",
+      "titles": [
+        "订单排到年底、产线两班倒 芯片“太热”液冷迈入“必选”时代",
+        "液冷迈入“必选”时代，订单排到年底",
+        "AI Chips Face Mounting Heat Challenge as Integration Density Rises"
+      ],
+      "urls": [
+        "https://www.chinastarmarket.cn/detail/2475207",
+        "https://t.cj.sina.cn/articles/view/2868676035/aafc85c302001x2h6",
+        "https://t.cj.sina.cn/articles/view/1651428902/626ece2602001jl70",
+        "https://www.thelec.net/news/articleView.html?idxno=13689"
+      ],
+      "sources": [
+        "chinastarmarket",
+        "sina_finance",
+        "sina_finance",
+        "thelec"
+      ]
+    },
+    {
+      "event": "台積電日月光進駐高雄，首座先進封裝基地落腳",
+      "score": 75,
+      "reader_score": 80,
+      "personas": {
+        "invest": 65,
+        "supply": 80,
+        "policy": 50,
+        "frontier": 70
+      },
+      "reason": "台灣半導體產業版圖擴張，強化先進封裝佈局。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 15:01:08",
+      "titles": [
+        "台積電、日月光帶頭進駐！全台首座先進封裝基地落腳高雄白埔南台灣半導體廊帶震撼升級- 產業"
+      ],
+      "urls": [
+        "https://www.ctee.com.tw/news/20260906700011-430501"
+      ],
+      "sources": [
+        "ctee"
+      ]
+    },
+    {
+      "event": "豪威集團首度晉升全球CIS市場第二，競爭格局生變",
+      "score": 75,
+      "reader_score": 85,
+      "personas": {
+        "invest": 80,
+        "supply": 85,
+        "policy": 30,
+        "frontier": 60
+      },
+      "reason": "CIS龍頭易位，直接衝擊索尼、三星市佔與供應鏈。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 11:31:08",
+      "titles": [
+        "全球CIS竞争格局再生变，豪威集团首度晋升全球第二"
+      ],
+      "urls": [
+        "https://finance.sina.com.cn/stock/t/2026-09-06/doc-iniqvzvc0236742.shtml"
+      ],
+      "sources": [
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "台積電AI產能告急，欣興赴日催料",
+      "score": 72,
+      "reader_score": 85,
+      "personas": {
+        "invest": 65,
+        "supply": 85,
+        "policy": 40,
+        "frontier": 50
+      },
+      "reason": "台積電與欣興供應鏈斷鏈風險，具產業指標意義。",
+      "coherent": false,
+      "size": 10,
+      "max_crawled_at": "2026-09-06 18:01:08",
+      "titles": [
+        "台積電：AI 產能追不上需求 20座晶圓廠同時蓋廠 也不夠應付 - money.udn.com",
+        "AI載板荒還沒完...缺料一路燒到日本！欣興簡山傑首度談供應鏈挑戰：1年半拜訪關鍵供應商逾10次",
+        "欣興董座簡山傑揭 AI 供應鏈隱憂：載板產能告急，攜客戶十度赴日催料",
+        "打破 AI 泡沫傳言，穎崴：真正難關在產能供不應求",
+        "聯發科：創造 AI 時代三贏 CEO 蔡力行喊話「拜託多給一點產能」 - money.udn.com",
+        "永豐金證券看好 AI 供應鏈與景氣回升 第3季聚焦三大產業布局",
+        "AI算力非常飢渴...20座晶圓廠仍填不滿AI胃口！侯永清：這速度30年沒見過- 產業",
+        "PCB「搶料戰」為何越打越兇？高階玻纖布、銅箔、CCL吃緊專家揭真正瓶頸- 產業",
+        "AI泡沫化後 下一棒是「量子」！廣達、緯創、金寶私下搶卡位 利潤比半導體更恐怖？",
+        "AI擴產潮燒進工具機！上銀、大銀等6廠搶單這家過半營收都靠半導體- 日報"
+      ],
+      "urls": [
+        "https://money.udn.com/money/story/5612/9730910",
+        "https://www.ctee.com.tw/news/20260906700012-430502",
+        "https://technews.tw/2026/09/06/unimicron-visits-suppliers-more-than-10-times-to-expand-capacity/",
+        "https://finance.technews.tw/2026/09/06/is-ai-bubble-bursting-winway-answered/",
+        "https://money.udn.com/money/story/5612/9730916",
+        "https://money.udn.com/money/amp/story/5612/9737649",
+        "https://www.ctee.com.tw/news/20260906700013-430501",
+        "https://www.ctee.com.tw/news/20260905700301-430502",
+        "https://www.ctee.com.tw/news/20260906700009-430501",
+        "https://www.ctee.com.tw/news/20260906700039-439901"
+      ],
+      "sources": [
+        "udn_money",
+        "ctee",
+        "technews",
+        "technews",
+        "udn_money",
+        "udn_money",
+        "ctee",
+        "ctee",
+        "ctee",
+        "ctee"
+      ]
+    },
+    {
+      "event": "谷歌深化與台灣AI基礎設施合作，從發包轉向共同設計",
+      "score": 72,
+      "reader_score": 85,
+      "personas": {
+        "invest": 60,
+        "supply": 85,
+        "policy": 40,
+        "frontier": 65
+      },
+      "reason": "Google加大在台投資並深化技術合作，影響供應鏈結構。",
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-09-06 10:30:08",
       "titles": [
-        "\"AI 모델 다음은 산업현장…韓, 피지컬 AI·에이전트 육성해야\""
+        "구글 \"대만과 어깨 나란히\"…AI 인프라 협력, 발주에서 공동설계로"
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20260906074122"
+        "https://zdnet.co.kr/view/?no=20260905223908"
       ],
       "sources": [
         "zdkorea"
       ]
     },
     {
-      "event": "美國開發從煤灰提煉稀土金屬技術",
-      "score": 55,
-      "reader_score": 70,
+      "event": "SEMICON India 2026推動Semicon 2.0政策招商",
+      "score": 70,
+      "reader_score": 90,
       "personas": {
-        "invest": 40,
-        "supply": 70,
-        "policy": 60,
-        "frontier": 50
-      },
-      "reason": "關鍵礦物供應鏈創新，具戰略價值",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-05 11:01:08",
-      "titles": [
-        "煤廢變黃金！美國發展自煤灰堆中提煉價值千億美元稀土金屬技術"
-      ],
-      "urls": [
-        "https://finance.technews.tw/2026/09/05/the-united-states-develops-technology-to-extract-rare-earth-metals-worth-hundreds-of-billions-of-dollars-from-coal-ash-heaps/"
-      ],
-      "sources": [
-        "technews"
-      ]
-    },
-    {
-      "event": "印度半導體發展面臨人才與基礎設施挑戰",
-      "score": 50,
-      "reader_score": 70,
-      "personas": {
-        "invest": 40,
-        "supply": 65,
-        "policy": 70,
+        "invest": 50,
+        "supply": 85,
+        "policy": 90,
         "frontier": 30
       },
-      "reason": "產業趨勢分析，反映供應鏈地緣風險與機會",
-      "coherent": false,
-      "size": 15,
-      "max_crawled_at": "2026-09-06 22:00:30",
+      "reason": "印度半導體政策與供應鏈重組關鍵節點。",
+      "coherent": true,
+      "size": 5,
+      "max_crawled_at": "2026-09-06 20:31:08",
       "titles": [
-        "India’s Chip Ambition Has Weapon Money Cannot Quickly Buy - Pravda EN",
-        "India Semiconductor and AI Ecosystem: Building Tech Leadership",
-        "India’s Chip Ambition Has Weapon Money Cannot Quickly Buy - Pravda USA",
-        "India’s chip ambitions need talent push beyond manufacturing - Communications Today",
-        "India steps up semiconductor push, seeks to turn ‘Make in India’ into ‘Engineer in India’ - The Hans India",
-        "Is India overpaying for its semiconductor dream? - deccanherald.com",
-        "Is India overpaying for its semiconductor dream? - Deccan Herald",
-        "India’s 2026 AI Ambition Now Runs Through Its Odd Semiconductor Bet - Hello Entrepreneurs",
-        "Semicon 2.0: Building India's chip design ecosystem",
-        "India Invests $13B to Power Domestic Semiconductor Growth – ICO Optics",
-        "India's chip push shifts focus to manufacturing talent - the-captable.com",
-        "Beyond smartphones: India turns focus to electronics manufacturing",
-        "The hidden leadership challenge in India’s semiconductor ambition - electronics.economictimes.indiatimes.com",
-        "Semicon 2.0 - C4S Courses",
-        "Five things India must get right to become a semiconductor powerhouse - Manufacturing Today India"
+        "SEMICON India 2026 to host dedicated session on ‘Semicon 2.0 Policy’ - Punjab Kesari English",
+        "SEMICON India 2026 to host dedicated session on 'Semicon 2.0 Policy' - Asianet Newsable",
+        "सेमीकॉन 2026:ताइवान में चमका उत्तर प्रदेश का सेमीकंडक्टर इकोसिस्टम, वैश्विक निवेशकों को लुभाया! - Uttar Pradesh Semiconductor Ecosystem Shines In Taiwan In Semicon 2026 Wooing Global Investors - Amar Ujala Hindi News Live",
+        "SEMICON India 2026 to host dedicated session on 'Semicon 2.0 policy'",
+        "Yogi Govt Invites Taiwanese Tech Companies To Invest In Uttar Pradesh - Free Press Journal"
       ],
       "urls": [
-        "https://news-pravda.com/world/2026/09/04/2566666.html",
-        "https://blitzindiamedia.com/perspective/india-semiconductor-ai-ecosystem/",
-        "https://usa.news-pravda.com/usa/2026/09/04/874365.html",
-        "https://www.communicationstoday.co.in/indias-chip-ambitions-need-talent-push-beyond-manufacturing/",
-        "https://www.thehansindia.com/business/india-steps-up-semiconductor-push-seeks-to-turn-make-in-india-into-engineer-in-india-1118745",
-        "https://www.deccanherald.com/amp/story/technology%2Fis-india-overpaying-for-its-semiconductor-dream-4136602",
-        "https://www.deccanherald.com/technology/is-india-overpaying-for-its-semiconductor-dream-4136602",
-        "https://helloentrepreneurs.com/technology/india-ai-semiconductor-bet-96870/",
-        "https://currentaffairs.chetanbharat.com/semicon-2-0-chip-design/",
-        "https://www.ico-optics.org/india-invests-13b-to-power-domestic-semiconductor-growth/",
-        "https://the-captable.com/2026/09/indias-chip-push-shifts-focus-to-manufacturing-talent/?paymentMethod=international",
-        "https://www.communicationstoday.co.in/beyond-smartphones-india-turns-focus-to-electronics-manufacturing",
-        "http://electronics.economictimes.indiatimes.com/amp/news/semiconductors/the-hidden-leadership-challenge-in-indias-semiconductor-ambition/133725566",
-        "https://c4scourses.in/national-affairs/semicon-2-0/",
-        "https://www.manufacturingtodayindia.com/india-semiconductor-powerhouse"
+        "https://english.punjabkesari.com/business/semicon-india-2026-to-host-dedicated-session-on-semicon-2-0-policy/",
+        "https://newsable.asianetnews.com/business/semicon-india-2026-to-host-dedicated-session-on-semicon-2-0-policy-articleshow-nc0iz69",
+        "https://www.amarujala.com/lucknow/uttar-pradesh-semiconductor-ecosystem-shines-in-taiwan-in-semicon-2026-wooing-global-investors-2026-09-05",
+        "https://www.msn.com/en-in/general/general/semicon-india-2026-to-host-dedicated-session-on-semicon-2-0-policy/ar-AA2bFa87",
+        "https://www.freepressjournal.in/uttar-pradesh/yogi-govt-invites-taiwanese-tech-companies-to-invest-in-uttar-pradesh"
       ],
       "sources": [
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
         "india_electronics",
         "india_electronics",
         "india_electronics",
@@ -2134,61 +439,647 @@
       ]
     },
     {
-      "event": "華為與小米九月發布新款摺疊手機",
-      "score": 50,
-      "reader_score": 45,
+      "event": "AMD發布千億參數AI模型工作站，強化邊緣運算佈局",
+      "score": 70,
+      "reader_score": 80,
       "personas": {
-        "invest": 45,
-        "supply": 35,
+        "invest": 65,
+        "supply": 60,
         "policy": 20,
-        "frontier": 40
+        "frontier": 80
       },
-      "reason": "消費電子新品發布，對半導體影響間接且有限。",
+      "reason": "AMD推出新硬體支援大模型，挑戰NVIDIA生態。",
       "coherent": true,
-      "size": 8,
-      "max_crawled_at": "2026-09-06 19:31:08",
+      "size": 1,
+      "max_crawled_at": "2026-09-06 10:30:08",
       "titles": [
-        "9月手机圈进入神仙打架模式！华为三折叠、小米中折叠明天率先登场",
-        "Huawei’s tri-fold and Xiaomi’s wide-fold will clash tomorrow",
-        "国产手机与苹果密集撞档，9月将出现Pro Max大乱斗",
-        "Huawei September 7 Event: These seven devices launching next week",
-        "Huawei Pura X View could be available for purchase on September 10",
-        "Huawei Mate XT 2’s privacy screen will be better than Galaxy S26 Ultra",
-        "“阔屏手机”风起 厂商纷纷跟进",
-        "苹果华为小米等六大品牌9月大乱斗！Pro Max命名被吐槽泛滥"
+        "AMD, 1조 패러미터 AI 모델 구동 위한 워크스테이션 공개"
       ],
       "urls": [
-        "https://tech.ifeng.com/c/8wC065RtWRi",
-        "https://www.huaweicentral.com/huaweis-tri-fold-and-xiaomis-wide-fold-will-clash-tomorrow/",
-        "https://www.guancha.cn/economy/2026_09_05_830109.shtml",
-        "https://www.huaweicentral.com/huawei-september-7-launching-devices/",
-        "https://www.huaweicentral.com/huawei-pura-x-view-purchase-on-september-10/",
-        "https://www.huaweicentral.com/huawei-mate-xt-2s-privacy-screen-feature/",
-        "https://www.stcn.com/article/detail/4173457.html",
-        "https://tech.ifeng.com/c/8w9heME0Ndo"
+        "https://zdnet.co.kr/view/?no=20260905231322"
       ],
       "sources": [
-        "ifeng",
-        "huaweicentral",
-        "guancha",
-        "huaweicentral",
-        "huaweicentral",
-        "huaweicentral",
-        "stcn",
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "MiniMax上半年營收亮眼，ARR超8億美元",
+      "score": 70,
+      "reader_score": 85,
+      "personas": {
+        "invest": 85,
+        "supply": 60,
+        "policy": 10,
+        "frontier": 45
+      },
+      "reason": "AI大廠財務數據，反映算力需求與商業化。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 23:30:01",
+      "titles": [
+        "MINIMAX-W(0100.HK)26H1业绩点评：TOB业务增速亮眼 ARR超8亿美元"
+      ],
+      "urls": [
+        "https://stock.finance.sina.com.cn/hkstock/view/hk_report.php?reportid=842014908889"
+      ],
+      "sources": [
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "蘋果9月10日發表iPhone 18，台積電鴻海備貨",
+      "score": 68,
+      "reader_score": 75,
+      "personas": {
+        "invest": 70,
+        "supply": 75,
+        "policy": 30,
+        "frontier": 45
+      },
+      "reason": "新機發布帶動供應鏈備貨，影響營收預期。",
+      "coherent": true,
+      "size": 4,
+      "max_crawled_at": "2026-09-06 08:31:08",
+      "titles": [
+        "iPhone 18、折疊機9月10日同步亮相 特納斯出任蘋果 CEO 後首場發表會",
+        "iPhone 18 Pro And Pro Max Launch Nears: What To Expect From Apple On Sept 9",
+        "蘋果將推新機 台積電、鴻海、大立光等積極備貨迎商機",
+        "iPhone 18 Pro灵动岛大瘦身：屏占比创新高 苹果最美正颜"
+      ],
+      "urls": [
+        "https://money.udn.com/money/amp/story/11162/9736825",
+        "https://www.ndtvprofit.com/technology/iphone-18-pro-and-pro-max-launch-nears-what-to-expect-from-apple-on-sept-9-12002718",
+        "https://money.udn.com/money/amp/story/5612/9736913",
+        "https://tech.ifeng.com/c/8wBXjX8fx5y"
+      ],
+      "sources": [
+        "udn_money",
+        "india_electronics",
+        "udn_money",
         "ifeng"
       ]
     },
     {
-      "event": "小米发布增程新车澎程，全系搭载澎湃座舱",
-      "score": 50,
+      "event": "智譜傳秘密赴港IPO，AI模型競爭白熱化",
+      "score": 65,
+      "reader_score": 80,
+      "personas": {
+        "invest": 80,
+        "supply": 40,
+        "policy": 20,
+        "frontier": 50
+      },
+      "reason": "AI大廠資本市場動態，反映產業競爭格局。",
+      "coherent": true,
+      "size": 6,
+      "max_crawled_at": "2026-09-06 22:30:04",
+      "titles": [
+        "Kimi被传秘密赴港IPO！引发行业关注",
+        "智谱万亿了，DeepSeek还会远吗？ - 36 Kr",
+        "大摩闭门会：MiniMax（00100）、智谱（02513）ARR双双狂奔，模型竞争将进入分层淘汰赛",
+        "银行“抢着借钱”，字节贷款近2000亿搞AI？"
+      ],
+      "urls": [
+        "https://finance.sina.com.cn/stock/marketresearch/2026-09-06/doc-iniqxchv1068740.shtml",
+        "https://finance.sina.com.cn/stock/marketresearch/2026-09-06/doc-iniqxchv1068740.shtml",
+        "https://www.36kr.com/p/3864256310786690",
+        "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-09-06/doc-iniqvvpa4533005.shtml",
+        "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-09-06/doc-iniqvvpa4533005.shtml",
+        "https://tech.ifeng.com/c/8wBtYOo161h"
+      ],
+      "sources": [
+        "sina_finance",
+        "sina_finance",
+        "36kr",
+        "sina_finance",
+        "sina_finance",
+        "ifeng"
+      ]
+    },
+    {
+      "event": "鴻海8月營收創新高，Q3受惠AI需求強勁",
+      "score": 65,
+      "reader_score": 75,
+      "personas": {
+        "invest": 75,
+        "supply": 60,
+        "policy": 20,
+        "frontier": 30
+      },
+      "reason": "鴻海營收創紀錄，反映AI基礎設施建設熱潮。",
+      "coherent": true,
+      "size": 3,
+      "max_crawled_at": "2026-09-06 21:31:08",
+      "titles": [
+        "Foxconn Says Q3 Will Beat Expectations As AI Demand Surges, August Revenue Hits Record - Dailyhunt",
+        "Foxconn says third quarter to outperform market expectations on AI strength - electronics.economictimes.indiatimes.com",
+        "Hon Hai’s Sales Climb 52 Percent As Europe Orders AI Infrastructure - TechnoSports Media Group"
+      ],
+      "urls": [
+        "https://m.dailyhunt.in/news/india/english/benzinga-epaper-benzinga/foxconn+says+q3+will+beat+expectations+as+ai+demand+surges+august+revenue+hits+record-newsid-n725878587",
+        "https://electronics.economictimes.indiatimes.com/news/components-hardware/foxconn-says-third-quarter-to-outperform-market-expectations-on-ai-strength/133826702",
+        "https://technosports.co.in/hon-hai-sales-climb-europe/"
+      ],
+      "sources": [
+        "india_electronics",
+        "india_electronics",
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "熔鹽製程突破奈米材料限制",
+      "score": 65,
+      "reader_score": 85,
+      "personas": {
+        "invest": 30,
+        "supply": 45,
+        "policy": 10,
+        "frontier": 85
+      },
+      "reason": "新材料製程技術，具潛在產業影響。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 15:31:08",
+      "titles": [
+        "破解超強鍵結死穴，顛覆常識的「熔鹽製程」讓十多種不可能的奈米材料成真"
+      ],
+      "urls": [
+        "https://technews.tw/2026/09/06/chemists-shrink-gallium-nitride-the-material-behind-led-lighting-into-nanocrystals/"
+      ],
+      "sources": [
+        "technews"
+      ]
+    },
+    {
+      "event": "宏碁深化與輝達、微軟、谷歌合作，陳俊聖稱AI落地端為優勢",
+      "score": 65,
+      "reader_score": 70,
+      "personas": {
+        "invest": 70,
+        "supply": 60,
+        "policy": 20,
+        "frontier": 50
+      },
+      "reason": "Acer強化AI PC生態系合作，具產業指標意義。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 11:31:08",
+      "titles": [
+        "宏碁深化輝達微軟谷歌合作　陳俊聖：AI落地端是優勢主場"
+      ],
+      "urls": [
+        "https://www.cna.com.tw/news/afe/202609060022.aspx"
+      ],
+      "sources": [
+        "cna"
+      ]
+    },
+    {
+      "event": "古吉拉特邦Dholera建印度「半導體城」與AI樞紐",
+      "score": 65,
+      "reader_score": 80,
+      "personas": {
+        "invest": 70,
+        "supply": 80,
+        "policy": 75,
+        "frontier": 40
+      },
+      "reason": "印度半導體產能擴張，供應鏈地緣重組",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 05:31:08",
+      "titles": [
+        "Gujarat's Dholera Set to Become India's 'Semicon City' and AI Hub"
+      ],
+      "urls": [
+        "https://indianmasterminds.com/news/dholera-semiconductor-ai-hub-gujarat-230572/"
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "印度正式加入美國主導AI與供應鏈安全計畫",
+      "score": 65,
+      "reader_score": 85,
+      "personas": {
+        "invest": 40,
+        "supply": 70,
+        "policy": 85,
+        "frontier": 30
+      },
+      "reason": "地緣政治重組，影響全球AI晶片供應鏈佈局。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 09:31:08",
+      "titles": [
+        "India to formally join US led effort on AI, supply chain security-Pax Silica today - DD News"
+      ],
+      "urls": [
+        "https://ddnews.gov.in/en/india-to-formally-join-us-led-effort-on-ai-supply-chain-security-pax-silica-today/"
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "iPhone 18 Pro Max規格與售價預測曝光",
+      "score": 65,
+      "reader_score": 75,
+      "personas": {
+        "invest": 70,
+        "supply": 75,
+        "policy": 10,
+        "frontier": 40
+      },
+      "reason": "Apple旗艦機規格，影響供應鏈預期。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 05:31:08",
+      "titles": [
+        "iPhone 18 Pro Max roundup: Launch date, expected price in India, features, specifications and more"
+      ],
+      "urls": [
+        "https://www.msn.com/en-in/news/other/iphone-18-pro-max-roundup-launch-date-expected-price-in-india-features-specifications-and-more/ar-AA2bBBmS"
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "鴻海8月營收創新高，前八月同步攻頂",
+      "score": 64,
+      "reader_score": 72,
+      "personas": {
+        "invest": 72,
+        "supply": 58,
+        "policy": 15,
+        "frontier": 25
+      },
+      "reason": "鴻海營運數據強勁，反映AI伺服器需求。",
+      "coherent": false,
+      "size": 30,
+      "max_crawled_at": "2026-09-06 21:31:08",
+      "titles": [
+        "台積電收高5元擋不住賣壓 台股收跌307點失守46K - money.udn.com",
+        "9月6日 五件財經大事搶先看 - money.udn.com",
+        "台股大滿貫9月開門紅 台積電、聯發科領漲 將蓄勢挑戰48,218點新高",
+        "9月6日 五件財經大事搶先看",
+        "鴻海營收創最強8月達9,217億 前八月同步攻頂 本季看旺 - money.udn.com",
+        "鴻海營收創最強8月達9,217億 前八月同步攻頂 本季看旺",
+        "李俊緯︱AI基本面無虞緊盯兩指標- 日報",
+        "鴻海國泰66購01 活跳跳",
+        "鴻海國泰66購01 活跳跳 - money.udn.com",
+        "鴻海8月營收9,218億元、年增51.98％",
+        "矽力元大66購02 蓄勢衝",
+        "台股震盪不改基本面 AI 供應鏈續迎升級商機",
+        "陸股業績擾動逐漸減弱 醞釀反彈",
+        "大立光8月營收重返50億 月增2.7% 近四月最佳 拉貨動能升溫",
+        "矽力元大66購02 蓄勢衝 - money.udn.com",
+        "AI伺服器需求強鴻海上月營收創同期新高- 日報",
+        "微星統一64購01 有看頭 - money.udn.com",
+        "郭哲榮：台股二次崩盤 正式開始？",
+        "輝達拚 AI 股權投資年增13倍 有助強化產業版圖",
+        "台股「先強後震」？9月常勝軍名單：精測、華碩、世芯等16檔迎作帳行情- 日報",
+        "大立光8月營收重返50億 月增2.7% 近四月最佳 拉貨動能升溫 - money.udn.com",
+        "全球半導體產值7月年增135.1%連17個月成長 前七月創新高",
+        "華通台新67購02 馬力足",
+        "華通台新67購02 馬力足 - money.udn.com",
+        "Google 供應鏈基礎架構資深總監透露 DRAM 供應相當緊張 - money.udn.com",
+        "台股9月高檔震盪聚焦美經濟數據- 要聞",
+        "全球半導體產值7月年增135.1%連17個月成長 前七月創新高 | 產業熱點 | 產業",
+        "長鑫全球 DRAM 市占衝10% - money.udn.com",
+        "鎧俠新招 NAND 替代 DRAM",
+        "鎧俠新招 NAND 替代 DRAM - money.udn.com"
+      ],
+      "urls": [
+        "https://money.udn.com/money/story/5607/9732099",
+        "https://money.udn.com/money/amp/story/5607/9737006",
+        "https://money.udn.com/money/story/5607/9728398",
+        "https://money.udn.com/money/story/5607/9737006",
+        "https://money.udn.com/money/amp/story/5612/9736934",
+        "https://money.udn.com/money/story/5612/9736934",
+        "https://www.ctee.com.tw/news/20260906700113-439903",
+        "https://money.udn.com/money/amp/story/5739/9736748",
+        "https://money.udn.com/money/story/5739/9736748",
+        "https://www.ctee.com.tw/news/20260905700595-430502",
+        "https://money.udn.com/money/amp/story/5739/9736681",
+        "https://money.udn.com/money/story/5607/9737394",
+        "https://money.udn.com/money/amp/story/5618/9736690",
+        "https://money.udn.com/money/amp/story/5612/9736936",
+        "https://money.udn.com/money/story/5739/9736681",
+        "https://www.ctee.com.tw/news/20260906700036-439901",
+        "https://money.udn.com/money/amp/story/5739/9736749",
+        "https://money.udn.com/money/story/5607/9732832",
+        "https://money.udn.com/money/amp/story/123398/9736907",
+        "https://www.ctee.com.tw/news/20260906700018-439901",
+        "https://money.udn.com/money/story/5612/9736936",
+        "https://money.udn.com/money/amp/story/5612/9737618",
+        "https://money.udn.com/money/story/5739/9736677",
+        "https://money.udn.com/money/amp/story/5739/9736677",
+        "https://money.udn.com/money/story/5612/9730852",
+        "https://www.ctee.com.tw/news/20260906700314-430105",
+        "https://money.udn.com/money/story/5612/9737618",
+        "https://money.udn.com/money/amp/story/5604/9736906",
+        "https://money.udn.com/money/amp/story/5599/9736908",
+        "https://money.udn.com/money/story/5599/9736908"
+      ],
+      "sources": [
+        "udn_money",
+        "udn_money",
+        "udn_money",
+        "udn_money",
+        "udn_money",
+        "udn_money",
+        "ctee",
+        "udn_money",
+        "udn_money",
+        "ctee",
+        "udn_money",
+        "udn_money",
+        "udn_money",
+        "udn_money",
+        "udn_money",
+        "ctee",
+        "udn_money",
+        "udn_money",
+        "udn_money",
+        "ctee",
+        "udn_money",
+        "udn_money",
+        "udn_money",
+        "udn_money",
+        "udn_money",
+        "ctee",
+        "udn_money",
+        "udn_money",
+        "udn_money",
+        "udn_money"
+      ]
+    },
+    {
+      "event": "Anthropic IPO延至10月中旬，帶旺台廠供應鏈",
+      "score": 62,
+      "reader_score": 70,
+      "personas": {
+        "invest": 70,
+        "supply": 55,
+        "policy": 35,
+        "frontier": 40
+      },
+      "reason": "AI巨頭IPO時程調整，影響相關供應鏈估值。",
+      "coherent": true,
+      "size": 3,
+      "max_crawled_at": "2026-09-06 18:01:08",
+      "titles": [
+        "Anthropic 拚美選舉前掛牌 - money.udn.com",
+        "Anthropic IPO 啟動時程調整，延至 10 月中旬推廣",
+        "輝達串起 AI 算力生態系 Anthropic 大單帶旺台廠供應鏈"
+      ],
+      "urls": [
+        "https://money.udn.com/money/amp/story/5599/9736911",
+        "https://technews.tw/2026/09/06/anthropic-ipo-launch-shifts-toward-mid-october/",
+        "https://money.udn.com/money/story/5612/9728375"
+      ],
+      "sources": [
+        "udn_money",
+        "technews",
+        "udn_money"
+      ]
+    },
+    {
+      "event": "華為Mate XT三折疊手機明日登場，引發市場關注",
+      "score": 60,
+      "reader_score": 65,
+      "personas": {
+        "invest": 45,
+        "supply": 50,
+        "policy": 20,
+        "frontier": 65
+      },
+      "reason": "華為新機發布具話題性，但非半導體核心事件。",
+      "coherent": false,
+      "size": 4,
+      "max_crawled_at": "2026-09-06 19:31:08",
+      "titles": [
+        "Huawei’s tri-fold and Xiaomi’s wide-fold will clash tomorrow",
+        "Huawei Mate XT 2’s privacy screen will be better than Galaxy S26 Ultra",
+        "9月手机圈进入神仙打架模式！华为三折叠、小米中折叠明天率先登场",
+        "Galaxy Z Fold8 Ultra trims bulk, boosts gaming as apps lag in optimization"
+      ],
+      "urls": [
+        "https://www.huaweicentral.com/huaweis-tri-fold-and-xiaomis-wide-fold-will-clash-tomorrow/",
+        "https://www.huaweicentral.com/huawei-mate-xt-2s-privacy-screen-feature/",
+        "https://tech.ifeng.com/c/8wC065RtWRi",
+        "https://biz.chosun.com/en/en-it/2026/09/06/SOLXCSUZSNHNBDJVLKGHQDIOGQ/"
+      ],
+      "sources": [
+        "huaweicentral",
+        "huaweicentral",
+        "ifeng",
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "Videotex獲Google TV ODM資格擴產印度",
+      "score": 60,
+      "reader_score": 75,
+      "personas": {
+        "invest": 65,
+        "supply": 75,
+        "policy": 20,
+        "frontier": 15
+      },
+      "reason": "ODM訂單確認，影響EMS供應鏈佈局。",
+      "coherent": true,
+      "size": 3,
+      "max_crawled_at": "2026-09-06 23:01:08",
+      "titles": [
+        "Videotex Wins Google TV ODM Status to Boost India TV Production - Whalesbook",
+        "Videotex कडे आता Google TV चे ODM लायसन्स; भारतात टीव्ही उत्पादनाला मिळणार मोठी चालना - Whalesbook",
+        "Videotex gets Google ODM certification; eyes Rs 800 crore revenue in next 3 years"
+      ],
+      "urls": [
+        "https://www.whalesbook.com/news/English/industrial-goodsservices/Videotex-Wins-Google-TV-ODM-Status-to-Boost-India-TV-Production/6a9d0dad40007e01b83bac19",
+        "https://www.whalesbook.com/news/Marathi/industrial-goodsservices/Videotex-Wins-Google-TV-ODM-Status-to-Boost-India-TV-Production/6a9d0dad40007e01b83bac19",
+        "https://www.msn.com/en-in/news/other/videotex-gets-google-odm-certification-eyes-rs-800-crore-revenue-in-next-3-years/ar-AA2bEJIc"
+      ],
+      "sources": [
+        "india_electronics",
+        "india_electronics",
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "美光獲判無效長存專利",
+      "score": 60,
+      "reader_score": 75,
+      "personas": {
+        "invest": 55,
+        "supply": 40,
+        "policy": 75,
+        "frontier": 50
+      },
+      "reason": "關鍵專利訴訟，影響IP授權與競爭。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 22:00:30",
+      "titles": [
+        "마이크론, YMTC 특허 7번째 무효 판단 받았다...쟁점특허 27건"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260906193737"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "OpenAI Astra展現空間推理能力",
+      "score": 60,
+      "reader_score": 80,
+      "personas": {
+        "invest": 40,
+        "supply": 25,
+        "policy": 30,
+        "frontier": 80
+      },
+      "reason": "AI模型能力突破，影響應用層發展。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 11:31:08",
+      "titles": [
+        "OpenAI应用研究主管：空间推理能力曾是人类远超计算机的最后几个方面之一，有了Astra之后，这种情况将不复存在 - 36 Kr"
+      ],
+      "urls": [
+        "https://www.36kr.com/newsflashes/3971312447795464"
+      ],
+      "sources": [
+        "36kr"
+      ]
+    },
+    {
+      "event": "黑芝麻智能智駕業務放量，具身智能加速拓展",
+      "score": 60,
+      "reader_score": 70,
+      "personas": {
+        "invest": 55,
+        "supply": 60,
+        "policy": 20,
+        "frontier": 70
+      },
+      "reason": "AI芯片公司業務進展，反映自動駕駛市場趨勢。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 23:30:01",
+      "titles": [
+        "黑芝麻智能(2533.HK)：智驾稳步放量具身智能加速拓展"
+      ],
+      "urls": [
+        "https://stock.finance.sina.com.cn/hkstock/view/hk_report.php?reportid=842023394636"
+      ],
+      "sources": [
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "Apple新CEO推動摺疊iPhone研發",
+      "score": 60,
+      "reader_score": 65,
+      "personas": {
+        "invest": 55,
+        "supply": 65,
+        "policy": 20,
+        "frontier": 50
+      },
+      "reason": "終端產品創新，影響顯示與組裝供應鏈",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 01:01:08",
+      "titles": [
+        "Watch Apple Bets on Foldable iPhone Under New CEO"
+      ],
+      "urls": [
+        "https://www.bloomberg.com/news/videos/2026-09-05/apple-bets-on-foldable-iphone-under-new-ceo-video"
+      ],
+      "sources": [
+        "bloomberg"
+      ]
+    },
+    {
+      "event": "TCS HyperVault建1GW AI數據中心",
+      "score": 55,
+      "reader_score": 70,
+      "personas": {
+        "invest": 60,
+        "supply": 70,
+        "policy": 30,
+        "frontier": 20
+      },
+      "reason": "大型基礎設施投資，影響算力供應鏈。",
+      "coherent": true,
+      "size": 14,
+      "max_crawled_at": "2026-09-06 22:30:04",
+      "titles": [
+        "Tata group to build 1GW AI data centre campus in Hyderabad with Rs 70,000 crore investment - dailypioneer.com",
+        "Tata group to build 1GW AI data centre campus in Hyderabad with Rs 70,000 crore investment - Daily Pioneer",
+        "1GW, 250+ acres, Rs 70,000 crore: Inside TCS-HyperVault's Hyderabad AI campus",
+        "TCS HyperVault to build 1 GW AI data centre campus in Hyderabad - ET Datacenters",
+        "TCS HyperVault to invest ₹70,000 crore in 1GW AI data centre in Hyderabad | Hyderabad News - The Times of India",
+        "TCS’ HyperVault to establish large-scale AI data center campus in Telangana - tcs.com",
+        "India's TCS unit to invest up to $7.4 billion in AI data center campus",
+        "India’s AI data centre race enters the gigawatt era - dqindia.com",
+        "TCS' HyperVault to establish large-scale AI data center campus in Telangana: Know all details",
+        "Telangana CM Revanth and TCS announce ₹70,000 crore AI Data Centre in Future City",
+        "TCS unit HyperVault to build 1 GW AI data centre in Hyderabad - Tech Observer Magazine",
+        "Tata To Build India's Largest AI Data Centre In Hyderabad",
+        "India's TCS unit to invest up to $7.4 billion in AI data center campus - reuters.com",
+        "塔塔咨询服务子公司拟在印度新建AI数据中心园区，投资规模可达74亿美元 - 36 Kr"
+      ],
+      "urls": [
+        "https://dailypioneer.com/news/slug-lite/tata-hypervault-1gw-ai-data-centre-hyderabad-70000-crore-?year=2026",
+        "https://dailypioneer.com/news/tata-hypervault-1gw-ai-data-centre-hyderabad-70000-crore-",
+        "https://english.mathrubhumi.com/technology/tcs-hypervault-rs-70000-crore-ai-data-centre-hyderabad-what-we-know-exl8ohsh",
+        "https://datacenters.economictimes.indiatimes.com/news/investments-deals/tcs-hypervault-to-build-1-gw-ai-data-centre-campus-in-hyderabad/133824094",
+        "https://timesofindia.indiatimes.com/city/hyderabad/tcs-hypervault-to-invest-70000-crore-in-1gw-ai-data-centre-in-hyderabad/articleshow/133813336.cms",
+        "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-hypervault-establish-large-scale-ai-data-center-campus-telangana",
+        "https://www.reuters.com/world/india/indias-tcs-unit-invest-up-74-billion-ai-data-center-campus-2026-09-05",
+        "https://www.dqindia.com/news/indias-ai-data-centre-race-enters-the-gigawatt-era-12498768",
+        "https://www.msn.com/en-in/news/other/tcs-hypervault-to-establish-large-scale-ai-data-center-campus-in-telangana-know-all-details/ar-AA2bED8p",
+        "https://www.thehindu.com/news/national/telangana/revanth-and-tcs-announce-70000-crore-ai-data-centre-in-future-city-to-be-completed-by-june-2-2028/article71431767.ece",
+        "https://techobserver.in/news/enterprise-it/data-center/tcs-hypervault-1-gw-ai-data-centre-hyderabad-328642/",
+        "https://www.msn.com/en-in/technology/tech-companies/tata-to-build-india-s-largest-ai-data-centre-in-hyderabad/ar-AA2bD6ia",
+        "https://www.reuters.com/world/india/indias-tcs-unit-invest-up-74-billion-ai-data-center-campus-2026-09-05/",
+        "https://www.36kr.com/newsflashes/3971240440017414"
+      ],
+      "sources": [
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "reuters",
+        "36kr"
+      ]
+    },
+    {
+      "event": "小米澎程增程車上市，搭載澎湃座艙",
+      "score": 55,
       "reader_score": 60,
       "personas": {
         "invest": 60,
         "supply": 55,
-        "policy": 10,
-        "frontier": 40
+        "policy": 15,
+        "frontier": 35
       },
-      "reason": "消费电子巨头跨界汽车，涉及供应链与芯片应用。",
+      "reason": "新車型發布，涉及車用晶片與座艙系統。",
       "coherent": true,
       "size": 4,
       "max_crawled_at": "2026-09-06 17:31:08",
@@ -2212,446 +1103,237 @@
       ]
     },
     {
-      "event": "川普支持AI數據中心引發政治風險",
-      "score": 50,
-      "reader_score": 80,
+      "event": "中美AI風險對話聚焦網路攻擊",
+      "score": 55,
+      "reader_score": 95,
       "personas": {
-        "invest": 40,
-        "supply": 30,
-        "policy": 80,
-        "frontier": 20
+        "invest": 20,
+        "supply": 40,
+        "policy": 95,
+        "frontier": 30
       },
-      "reason": "美國政策不確定性，影響投資環境。",
+      "reason": "地緣政治與AI安全合規，影響供應鏈政策。",
       "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-06 00:01:08",
+      "size": 2,
+      "max_crawled_at": "2026-09-06 02:31:08",
       "titles": [
-        "Trump’s Embrace of AI Data Centers Adds to GOP’s Midterm Peril"
+        "中美 AI 風險對話 聚焦網攻 - money.udn.com",
+        "中美 AI 風險對話 聚焦網攻 | 大陸政經 | 兩岸"
       ],
       "urls": [
-        "https://www.bloomberg.com/news/articles/2026-09-05/trump-s-embrace-of-ai-data-centers-adds-to-gop-s-midterm-peril"
+        "https://money.udn.com/money/amp/story/5603/9736902",
+        "https://money.udn.com/money/story/5603/9736902"
       ],
       "sources": [
-        "bloomberg"
+        "udn_money",
+        "udn_money"
       ]
     },
     {
-      "event": "中國工信部推動普惠智能算力供給",
-      "score": 50,
+      "event": "Google與TCS探討大型資料中心空冷散熱技術",
+      "score": 55,
       "reader_score": 70,
       "personas": {
         "invest": 40,
-        "supply": 50,
-        "policy": 70,
-        "frontier": 30
+        "supply": 60,
+        "policy": 20,
+        "frontier": 70
       },
-      "reason": "政策導向算力基礎設施建設",
+      "reason": "散熱技術創新對AI基礎設施成本結構有影響。",
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-09-05 06:30:08",
+      "max_crawled_at": "2026-09-06 22:30:04",
       "titles": [
-        "工信部：深入实施普惠算力赋能中小企业发展专项行动，加强普惠智能算力供给 - 36 Kr"
+        "Google, TCS, and the physics of air-cooling a large data centre | Explained"
       ],
       "urls": [
-        "https://www.36kr.com/newsflashes/3968730338619904"
+        "https://www.thehindu.com/sci-tech/science/google-tcs-and-the-physics-of-air-cooling-a-large-data-centre-explained/article71434727.ece"
       ],
       "sources": [
-        "36kr"
+        "india_electronics"
       ]
     },
     {
-      "event": "A股上半年盈利集中，长鑫存储跻身前十",
-      "score": 45,
+      "event": "瑪莎拉蒂與華為合作電動車，採雙Logo銷售策略",
+      "score": 55,
       "reader_score": 60,
       "personas": {
-        "invest": 60,
-        "supply": 30,
-        "policy": 10,
-        "frontier": 20
+        "invest": 40,
+        "supply": 60,
+        "policy": 30,
+        "frontier": 50
       },
-      "reason": "宏观财报与单一公司业绩混杂，非单一事件。",
-      "coherent": false,
-      "size": 14,
-      "max_crawled_at": "2026-09-06 19:31:08",
+      "reason": "傳統車廠與科技大厂結盟，具象徵意義但規模有限。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 03:31:08",
       "titles": [
-        "A股赚了3.6万亿元，5%公司拿走85%盈利，长鑫进入盈利前十",
-        "A股赚了3.6万亿元，5%公司拿走85%盈利",
-        "3.58万亿利润刚落地，A股又放出一只 \"科创巨兽\"，重头戏刚开场",
-        "A股上半年赚了3.58万亿元，5%公司拿走85%盈利",
-        "沪深两市上市公司上半年实现净利润3.56万亿元！消费电子企业首次挤进营收前五，存储芯片强势改写盈利榜单",
-        "贺宛男：营收增长38% 净利增长440% 如何看待科创板史上最靓中报",
-        "光大证券策略：盈利回升格局延续，上游与科技业绩改善显著——A股及港股财报分析",
-        "消费电子中报解读：AI服务器吃肉，手机链喝汤",
-        "AI时代的算力“包租公”，谁真正赚到钱了？"
+        "瑪莎拉蒂、華為合作電動車 採雙 logo 銷售策略 最快明年底前量產 - money.udn.com"
       ],
       "urls": [
-        "https://finance.sina.com.cn/wm/2026-09-05/doc-iniquimu5202545.shtml",
-        "https://finance.sina.com.cn/wm/2026-09-05/doc-iniquimu5202545.shtml",
-        "https://finance.sina.com.cn/wm/2026-09-05/doc-iniquimu5202545.shtml",
-        "https://finance.sina.com.cn/roll/2026-09-05/doc-iniqupts0243563.shtml",
-        "https://k.sina.cn/article_7879996653_1d5af34ed02001m7m6.html",
-        "https://cj.sina.cn/articles/view/5115326071/130e5ae77020030nge",
-        "https://finance.sina.com.cn/jjxw/2026-09-05/doc-iniqutzq5002842.shtml",
-        "https://finance.sina.com.cn/jjxw/2026-09-05/doc-iniqutzq5002842.shtml",
-        "https://finance.sina.com.cn/jjxw/2026-09-05/doc-iniqutzq5002842.shtml",
-        "https://finance.sina.com.cn/jjxw/2026-09-05/doc-iniqutzq5002842.shtml",
-        "https://finance.sina.com.cn/roll/2026-09-05/doc-iniqtsqa0623804.shtml",
-        "https://finance.sina.com.cn/stock/stockzmt/2026-09-06/doc-iniqvvnz9679948.shtml",
-        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002imrg",
-        "https://cj.sina.cn/articles/view/1650111241/625ab30902001hfx0"
+        "https://money.udn.com/money/amp/story/5603/9736901"
       ],
       "sources": [
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
+        "udn_money"
+      ]
+    },
+    {
+      "event": "中穎電子募資10億人民幣，全數由控股股東認購",
+      "score": 55,
+      "reader_score": 65,
+      "personas": {
+        "invest": 65,
+        "supply": 50,
+        "policy": 20,
+        "frontier": 40
+      },
+      "reason": "車規芯片融資顯示公司擴張意圖，影響局部供應鏈。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-07 00:01:08",
+      "titles": [
+        "中颖电子募资10亿剑指车规芯片，控股股东全额认购！"
+      ],
+      "urls": [
+        "https://finance.sina.com.cn/tech/roll/2026-09-06/doc-iniqxiqt0953181.shtml"
+      ],
+      "sources": [
         "sina_finance"
       ]
     },
     {
-      "event": "英偉達收購Hugging Face傳聞與投資組合擴張",
-      "score": 45,
-      "reader_score": 30,
-      "personas": {
-        "invest": 30,
-        "supply": 20,
-        "policy": 10,
-        "frontier": 25
-      },
-      "reason": "標題含猜測與無關資訊，非單一事件。",
-      "coherent": false,
-      "size": 7,
-      "max_crawled_at": "2026-09-06 11:01:08",
-      "titles": [
-        "英伟达收购Hugging Face的野望：从芯片霸主到生态\"造王者\" - 36 Kr",
-        "疯狂买买买，英伟达的野心何在？ - 36 Kr",
-        "全网期待的微信新功能，这次真的来了？丨氪代表周报",
-        "129亿，黄仁勋抱走了它 - 36 Kr",
-        "Mac遭OpenAI扫货, 但苹果与英伟达并非零和博弈",
-        "仅用两年时间，英伟达从零建起近千亿美元股权投资组合",
-        "奥尔特曼自曝是“超级果粉”，为苹果起诉OpenAI而感到难过"
-      ],
-      "urls": [
-        "https://www.36kr.com/p/3968886406967552",
-        "https://www.36kr.com/p/3969937894387972",
-        "https://cj.sina.cn/articles/view/1750070171/684ff39b01901hvv8",
-        "https://www.36kr.com/p/3968777615864065",
-        "https://cloud.ofweek.com/news/2026-09/ART-178801-8420-30701772.html",
-        "https://tech.ifeng.com/c/8w9e3NfarSE",
-        "https://tech.ifeng.com/c/8wAxu3H7oI6"
-      ],
-      "sources": [
-        "36kr",
-        "36kr",
-        "sina_finance",
-        "36kr",
-        "ofweek_cloud",
-        "ifeng",
-        "ifeng"
-      ]
-    },
-    {
-      "event": "BCG預測2030年汽車電子成本佔比達55%",
-      "score": 45,
+      "event": "世芯-KY營運逐季成長",
+      "score": 55,
       "reader_score": 70,
       "personas": {
-        "invest": 30,
-        "supply": 70,
-        "policy": 40,
-        "frontier": 30
-      },
-      "reason": "關乎汽車電子元件供應鏈機會，屬電子製造範疇。",
-      "coherent": true,
-      "size": 4,
-      "max_crawled_at": "2026-09-05 22:00:32",
-      "titles": [
-        "Electronics to account for 50-55% of car cost by 2030, opening big localisation opportunity for Indian suppliers: BCG-ACMA report",
-        "Electronics to make up 50-55% of car cost by 2030, signalling major localisation opportunity: BCG-ACMA - The Economic Times",
-        "Electronics to make up 50-55% of car cost by 2030, signalling major localisation opportunity: BCG-ACMA",
-        "Car electronics cost to hit 55% by 2030, a boon for Indian makers"
-      ],
-      "urls": [
-        "https://www.fortuneindia.com/auto/electronics-to-account-for-50-55-of-car-cost-by-2030-opening-big-localisation-opportunity-for-indian-suppliers-bcg-acma-report/157655",
-        "https://m.economictimes.com/industry/auto/auto-news/electronics-to-make-up-50-55-of-car-cost-by-2030-signalling-major-localisation-opportunity-bcg-acma/articleshow/133792982.cms",
-        "https://www.msn.com/en-in/news/other/electronics-to-make-up-50-55-of-car-cost-by-2030-signalling-major-localisation-opportunity-bcg-acma/ar-AA2bC486",
-        "https://www.msn.com/en-in/technology/consumer-electronics/car-electronics-cost-to-hit-55-by-2030-a-boon-for-indian-makers/ar-AA2bBwRF"
-      ],
-      "sources": [
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "Stripe收購OpenRouter引發AI價值鏈重組",
-      "score": 45,
-      "reader_score": 50,
-      "personas": {
-        "invest": 50,
-        "supply": 20,
-        "policy": 10,
-        "frontier": 30
-      },
-      "reason": "軟體/平台層併購，間接影響AI應用層而非硬體。",
-      "coherent": false,
-      "size": 3,
-      "max_crawled_at": "2026-09-06 20:31:08",
-      "titles": [
-        "Anthropic’s In-House Payments Tech Push Could Chip Away at Stripe",
-        "Stripe 收购 OpenRouter：AI 价值重心的一次迁移 - 36 Kr",
-        "‘Model fatigue’ sets in as AI labs race to roll out new versions at frenetic pace"
-      ],
-      "urls": [
-        "https://www.theinformation.com/articles/anthropics-house-payments-tech-push-chip-away-stripe",
-        "https://www.36kr.com/p/3968960676294920",
-        "https://www.cnbc.com/2026/09/06/meta-google-openai-anthropic-ai-model-fatigue.html"
-      ],
-      "sources": [
-        "theinformation",
-        "36kr",
-        "cnbc"
-      ]
-    },
-    {
-      "event": "黃仁勳獲輝達員工99%支持率",
-      "score": 45,
-      "reader_score": 30,
-      "personas": {
-        "invest": 30,
-        "supply": 10,
-        "policy": 5,
-        "frontier": 10
-      },
-      "reason": "企業文化新聞，非產業核心動態。",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-09-05 17:01:08",
-      "titles": [
-        "Jensen Huang earns 99% employee approval, redefining AX-era leadership",
-        "解析黃仁勳七大領導魅力，獲得輝達全體員工近乎 99% 壓倒性支持"
-      ],
-      "urls": [
-        "https://biz.chosun.com/en/en-it/2026/09/05/DSIKMOBASRE35H7DDBSQKBQLAA/",
-        "https://finance.technews.tw/2026/09/05/analyzing-the-seven-leadership-charisma-of-jensen-huang-of-nvidia/"
-      ],
-      "sources": [
-        "chosunbiz",
-        "technews"
-      ]
-    },
-    {
-      "event": "沙烏地阿拉伯AI公司籌組25億美元基金",
-      "score": 45,
-      "reader_score": 60,
-      "personas": {
-        "invest": 60,
+        "invest": 70,
         "supply": 40,
         "policy": 10,
-        "frontier": 20
+        "frontier": 35
       },
-      "reason": "資金籌措，間接影響數據中心與硬體採購",
+      "reason": "AI ASIC設計龍頭財報佳，顯示AI晶片需求強。",
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-09-05 05:30:21",
+      "max_crawled_at": "2026-09-06 03:31:08",
       "titles": [
-        "Saudi AI Firm Humain Explores $2.5 Billion Fund for Data Centers"
+        "世芯-KY 營運逐季走升- 日報"
       ],
       "urls": [
-        "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWXlpcnAyTV83TlJFVk94ZkRMQmhScmVhbnVnQTF5Q1Z4S3pPcEJFTFNtMTBaQ2xEY19XTGxKQU43c001WXQwNlhoRGtFdmZxZEJjVFpsVUZFeXF2UUVOTUFtV1FudzJSRDBJX2VfNG9wSk43RDF1WTR4czI0V3M4YXBrRGd4UF9nckpOZ3liam9qWTByV240R2h5OF8yZ3htWlRsMDhXYy1EVUwxTDJkZUZR?oc=5"
+        "https://www.ctee.com.tw/news/20260906700139-439903"
       ],
       "sources": [
-        "bloomberg"
+        "ctee"
       ]
     },
     {
-      "event": "日本斷供引發中國機床產業危機與轉機",
-      "score": 45,
+      "event": "特斯拉Robotaxi下月全天候運營",
+      "score": 50,
       "reader_score": 70,
       "personas": {
-        "invest": 30,
-        "supply": 60,
+        "invest": 65,
+        "supply": 40,
         "policy": 70,
-        "frontier": 20
+        "frontier": 30
       },
-      "reason": "机床属电子制造上游，但非核心半导体/AI，且为宏观分析。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-05 10:00:16",
+      "reason": "自动驾驶进展，关联半导体需求。",
+      "coherent": false,
+      "size": 7,
+      "max_crawled_at": "2026-09-06 16:31:08",
       "titles": [
-        "日本断供，中国机床的危与机"
+        "特斯拉：预计将于下月实现Robotaxi 24小时全天候运营",
+        "特斯拉Cybercab上路当天遭NHTSA调查：没方向盘没踏板 自己认证存合规风险",
+        "特斯拉Robotaxi下月或实现全天候运营 - 36 Kr",
+        "机构：二季度全球半导体设备出货金额405.3亿美元，同比增长23% - 36 Kr",
+        "特斯拉无人出租车，为什么偏偏长这样？",
+        "马斯克：特斯拉Cybercab未来可连接PlayStation/Xbox",
+        "테슬라, '핸들·페달' 없는 무인 택시 개시…당국은 조사 착수"
       ],
       "urls": [
-        "https://tech.ifeng.com/c/8w9DzrxrJ08"
+        "https://tech.ifeng.com/c/8wBtYOo15wY",
+        "https://tech.ifeng.com/c/8wCEQyOG9ak",
+        "https://www.36kr.com/newsflashes/3971242674565638",
+        "https://www.36kr.com/newsflashes/3971244762067458",
+        "https://tech.ifeng.com/c/8wBBxLFva3g",
+        "https://tech.ifeng.com/c/8wCTe33iIbW",
+        "https://zdnet.co.kr/view/?no=20260905214157"
       ],
       "sources": [
+        "ifeng",
+        "ifeng",
+        "36kr",
+        "36kr",
+        "ifeng",
+        "ifeng",
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "索尼、華納圍剿Anthropic，展開AI時代版權大戰",
+      "score": 50,
+      "reader_score": 60,
+      "personas": {
+        "invest": 40,
+        "supply": 30,
+        "policy": 60,
+        "frontier": 55
+      },
+      "reason": "內容產業與AI公司糾紛，間接影響AI訓練數據供應鏈。",
+      "coherent": true,
+      "size": 3,
+      "max_crawled_at": "2026-09-06 16:01:08",
+      "titles": [
+        "索尼、华纳围剿Anthropic，AI时代的版权大战怎么打？ - 36 Kr",
+        "索尼、华纳围剿Anthropic，AI时代的版权大战怎么打？"
+      ],
+      "urls": [
+        "http://www.36kr.com/p/3971524976849160",
+        "https://www.36kr.com/p/3971524976849160",
+        "https://tech.ifeng.com/c/8wCPpKAQje5"
+      ],
+      "sources": [
+        "36kr",
+        "36kr",
         "ifeng"
       ]
     },
     {
-      "event": "印度收緊電動車零組件本地化規範",
-      "score": 45,
-      "reader_score": 70,
+      "event": "中國AI巨頭算力效率競爭",
+      "score": 50,
+      "reader_score": 75,
       "personas": {
-        "invest": 30,
-        "supply": 65,
-        "policy": 70,
-        "frontier": 10
+        "invest": 45,
+        "supply": 30,
+        "policy": 65,
+        "frontier": 75
       },
-      "reason": "貿易政策，間接影響電子元件出口。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-06 00:30:29",
+      "reason": "技術效率與資金運用策略分析。",
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-09-06 21:00:08",
       "titles": [
-        "Govt tightens e-bus, e-truck localisation norms, sets April 2027 deadline for key components"
+        "Punching above their weight: how China’s AI giants stretch each dollar in compute race",
+        "Bloomberg Tech: Anthropic's Pre-IPO War Chest"
       ],
       "urls": [
-        "https://www.moneycontrol.com/news/economy/policy/govt-tightens-e-bus-e-truck-localisation-norms-sets-april-2027-deadline-for-key-components-14023061.html"
+        "https://www.scmp.com/tech/big-tech/article/3366407/punching-above-their-weight-how-chinas-ai-giants-stretch-each-dollar-compute-race",
+        "https://www.bloomberg.com/news/audio/2026-09-04/bloomberg-tech-anthropic-s-pre-ipo-war-chest-podcast"
       ],
       "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "VVDN建構全棧工程與電子製造模式",
-      "score": 45,
-      "reader_score": 60,
-      "personas": {
-        "invest": 50,
-        "supply": 60,
-        "policy": 10,
-        "frontier": 20
-      },
-      "reason": "EMS產業動態，影響供應鏈佈局參考",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-05 13:01:08",
-      "titles": [
-        "VVDN Technologies: Building a full-stack engineering and electronics manufacturing model - tele.net.in"
-      ],
-      "urls": [
-        "https://tele.net.in/companies/vvdn-technologies-building-a-full-stack-engineering-and-electronics-manufacturing-model-12490598"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "中東數據中心建設持續面臨地緣風險",
-      "score": 45,
-      "reader_score": 70,
-      "personas": {
-        "invest": 50,
-        "supply": 60,
-        "policy": 70,
-        "frontier": 20
-      },
-      "reason": "全球AI基建區域性動態與風險評估",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-05 03:01:08",
-      "titles": [
-        "Middle East’s Data Center Push Endures Under the Cloud of War"
-      ],
-      "urls": [
-        "https://www.bloomberg.com/news/articles/2026-09-04/middle-east-s-data-center-push-endures-under-the-cloud-of-war"
-      ],
-      "sources": [
+        "scmp",
         "bloomberg"
-      ]
-    },
-    {
-      "event": "AI數據中心投資至2050年達31.6兆美元",
-      "score": 40,
-      "reader_score": 50,
-      "personas": {
-        "invest": 30,
-        "supply": 50,
-        "policy": 20,
-        "frontier": 30
-      },
-      "reason": "宏觀預測，非具體單一事件，對硬體供應鏈影響間接。",
-      "coherent": true,
-      "size": 6,
-      "max_crawled_at": "2026-09-05 13:31:08",
-      "titles": [
-        "AI Boom to Drive $31.6 Trillion Data Centre Spending by 2050 - datacenters.economictimes.indiatimes.com",
-        "AI data centre spending: These regions are set to lead $31.6 trillion global investment by 2050 - CNBC TV18",
-        "AI Capex to Hit $31.6 Trillion by 2050; Chips Overtake Concrete - ET Datacenters",
-        "Japan AI data centers set to quadruple by 2033 with $60bn investment",
-        "\"한국 데이터센터에 2030년까지 18.4조 투자 필요…AI 수요 급증\"",
-        "Govt expects $200 billion investment potential in India’s data centre industry: Piyush Goyal - thehawk.in"
-      ],
-      "urls": [
-        "http://datacenters.economictimes.indiatimes.com/amp/news/market-insights-analysis/ai-boom-to-drive-31-6-trillion-data-centre-spending-by-2050/133724077",
-        "https://www.cnbctv18.com/photos/technology/ai-data-centre-spending-these-regions-are-set-to-lead-31-6-trillion-global-investment-by-2050-19984471.htm",
-        "https://datacenters.economictimes.indiatimes.com/news/ai-compute-infrastructure/ai-capex-to-hit-31-6-trillion-by-2050-chips-overtake-concrete/133786417",
-        "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-ai-data-centers-set-to-quadruple-by-2033-with-60bn-investment",
-        "https://www.newsis.com/view/NISX20260904_0003776689",
-        "https://www.thehawk.in/news/science/govt-expects-200-billion-investment-potential-in-indias-data-centre-industry-piyush-goyal"
-      ],
-      "sources": [
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "nikkei",
-        "newsis",
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "SEMICON India 2026將舉辦半導體政策論壇",
-      "score": 40,
-      "reader_score": 60,
-      "personas": {
-        "invest": 30,
-        "supply": 50,
-        "policy": 60,
-        "frontier": 20
-      },
-      "reason": "產業會議資訊，間接反映政策趨勢",
-      "coherent": true,
-      "size": 4,
-      "max_crawled_at": "2026-09-06 20:31:08",
-      "titles": [
-        "SEMICON India 2026 to host dedicated session on 'Semicon 2.0 Policy' - Asianet Newsable",
-        "SEMICON India 2026 to host dedicated session on ‘Semicon 2.0 Policy’ - Punjab Kesari English",
-        "SEMICON India 2026: Media and Logistics Preparations Underway - Dainik Jagran MP CG",
-        "SEMICON India 2026 to host dedicated session on 'Semicon 2.0 policy'"
-      ],
-      "urls": [
-        "https://newsable.asianetnews.com/business/semicon-india-2026-to-host-dedicated-session-on-semicon-2-0-policy-articleshow-nc0iz69",
-        "https://english.punjabkesari.com/business/semicon-india-2026-to-host-dedicated-session-on-semicon-2-0-policy/",
-        "https://english.dainikjagranmpcg.com/national/6a9aa30187857/article-28846",
-        "https://www.msn.com/en-in/general/general/semicon-india-2026-to-host-dedicated-session-on-semicon-2-0-policy/ar-AA2bFa87"
-      ],
-      "sources": [
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics"
       ]
     },
     {
       "event": "A股半導體龍頭跨界腦機介面創業",
-      "score": 40,
-      "reader_score": 50,
+      "score": 50,
+      "reader_score": 75,
       "personas": {
-        "invest": 35,
-        "supply": 20,
+        "invest": 45,
+        "supply": 30,
         "policy": 10,
-        "frontier": 50
+        "frontier": 75
       },
-      "reason": "新領域嘗試，但屬早期階段，具體技術影響不明。",
+      "reason": "半導體公司進入腦機介面，屬前沿技術佈局。",
       "coherent": true,
       "size": 2,
       "max_crawled_at": "2026-09-06 18:01:08",
@@ -2668,91 +1350,40 @@
       ]
     },
     {
-      "event": "長沙具身智能機器人獲歐盟CE認證",
-      "score": 40,
-      "reader_score": 50,
+      "event": "宇樹科技上市後表現兩極，機器人產業受關注",
+      "score": 50,
+      "reader_score": 65,
       "personas": {
-        "invest": 30,
+        "invest": 60,
         "supply": 40,
-        "policy": 20,
-        "frontier": 50
+        "policy": 10,
+        "frontier": 65
       },
-      "reason": "機器人屬AI應用端，但非核心半導體/AI基礎設施。",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-09-06 18:01:08",
-      "titles": [
-        "国内首款，长沙造具身智能机器人拿下欧盟CE“护照” - 36 Kr",
-        "启元机器人斩获IFA两项官方创新大奖 - 36 Kr"
-      ],
-      "urls": [
-        "https://www.36kr.com/newsflashes/3971377456722432",
-        "https://www.36kr.com/newsflashes/3970116611322118"
-      ],
-      "sources": [
-        "36kr",
-        "36kr"
-      ]
-    },
-    {
-      "event": "蘋果換帥與端側AI趨勢分析",
-      "score": 40,
-      "reader_score": 50,
-      "personas": {
-        "invest": 50,
-        "supply": 30,
-        "policy": 20,
-        "frontier": 45
-      },
-      "reason": "管理層變動與趨勢評論，非單一硬體/技術事件。",
-      "coherent": false,
-      "size": 1,
-      "max_crawled_at": "2026-09-05 11:01:08",
-      "titles": [
-        "苹果换帅，英伟达上桌：端侧AI的终局由谁定义"
-      ],
-      "urls": [
-        "//www.sohu.com/a/1072106856_116132"
-      ],
-      "sources": [
-        "sohu"
-      ]
-    },
-    {
-      "event": "特斯拉發布無稀土電動車馬達技術",
-      "score": 40,
-      "reader_score": 45,
-      "personas": {
-        "invest": 30,
-        "supply": 35,
-        "policy": 15,
-        "frontier": 45
-      },
-      "reason": "電動車電機技術，屬電子零組件創新但非半導體核心",
+      "reason": "機器人公司市場表現，反映具身智能產業熱度。",
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-09-05 03:01:08",
+      "max_crawled_at": "2026-09-06 12:31:08",
       "titles": [
-        "Tesla’s new rare-earth-free EV motor is a big deal, but not THAT big a deal"
+        "宇树上市后的“冰火两重天”"
       ],
       "urls": [
-        "https://electrek.co/2026/09/04/teslas-new-rare-earth-free-ev-motor-is-a-big-deal-but-not-that-big-a-deal/"
+        "https://tech.ifeng.com/c/8wC5qz8ZBK2"
       ],
       "sources": [
-        "electrek"
+        "ifeng"
       ]
     },
     {
-      "event": "MIT教授用Grok生成零件设计图",
-      "score": 40,
+      "event": "MIT AI生成零件設計，加速製造流程",
+      "score": 50,
       "reader_score": 70,
       "personas": {
         "invest": 20,
-        "supply": 10,
+        "supply": 30,
         "policy": 10,
         "frontier": 70
       },
-      "reason": "AI应用案例展示，属前沿技术探索，非产业重大变动。",
+      "reason": "AI輔助設計技術突破，具前沿性",
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-09-06 18:01:08",
@@ -2767,196 +1398,228 @@
       ]
     },
     {
-      "event": "台股AI供應鏈與ABF載板市場分析",
-      "score": 35,
-      "reader_score": 40,
+      "event": "新漢智能深耕邊緣AI助中小企業升級",
+      "score": 50,
+      "reader_score": 60,
       "personas": {
-        "invest": 40,
-        "supply": 30,
+        "invest": 30,
+        "supply": 60,
         "policy": 10,
-        "frontier": 20
+        "frontier": 55
       },
-      "reason": "綜合評論與個股走勢，非單一具體事件。",
-      "coherent": false,
-      "size": 43,
-      "max_crawled_at": "2026-09-06 21:31:08",
+      "reason": "邊緣AI應用落地，涉及EMS/ODM技術轉型。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 13:01:08",
       "titles": [
-        "就市論勢／ABF 載板 長線有看頭",
-        "朱成志：AI主線再洗牌！CPO先創高、ASIC接棒　台股9月資金往哪些族群跑？",
-        "台股震盪不改基本面 AI 供應鏈續迎升級商機",
-        "南亞科創新高、國巨還在半山腰！謝金河尋找新一輪強棒出擊：輝達財報為供應鏈添柴火",
-        "台積電收高5元擋不住賣壓 台股收跌307點失守46K - money.udn.com",
-        "就市論勢／ABF 載板 長線有看頭 - money.udn.com",
-        "永豐金證券看好 AI 供應鏈與景氣回升 第3季聚焦三大產業布局",
-        "熱錢回補 台股蓄勢攻47K",
-        "從1,220跌到500元附近，國巨能買嗎？",
-        "李俊緯︱AI基本面無虞緊盯兩指標- 日報",
-        "熱錢回補 台股蓄勢攻47K - money.udn.com",
-        "台股大滿貫9月開門紅 台積電、聯發科領漲 將蓄勢挑戰48,218點新高",
-        "郭哲榮：台股二次崩盤 正式開始？",
-        "15檔國際大咖注資前景亮- 日報",
-        "光寶科、台達電怎麼選？蔡明翰揭「短長線」致勝關鍵 金融股點名首選3檔",
-        "聯發科：創造 AI 時代三贏 CEO 蔡力行喊話「拜託多給一點產能」 - money.udn.com",
-        "群聯：拿得到貨源才是關鍵 CEO 潘健成直言 NAND 缺貨是定局",
-        "陸股業績擾動逐漸減弱 醞釀反彈",
-        "瑞銀論壇 AI 鏈將報佳音",
-        "AI帶動PCB材料吃緊　專家：規格升級快過產能擴充",
-        "主動式 ETF 不只買 AI 了！上周緯穎加碼近萬張奪冠 傳產5檔殺進前十",
-        "經濟仍具韌性 美股謹慎樂觀",
-        "台積電：AI 產能追不上需求 20座晶圓廠同時蓋廠 也不夠應付 - money.udn.com",
-        "PCB「搶料戰」為何越打越兇？高階玻纖布、銅箔、CCL吃緊專家揭真正瓶頸- 產業",
-        "AI掀半導體物流熱潮　台灣空運供不應求走向多中心",
-        "輝達拚 AI 股權投資年增13倍 有助強化產業版圖",
-        "群聯：拿得到貨源才是關鍵 CEO 潘健成直言 NAND 缺貨是定局 - money.udn.com",
-        "記憶體股只能「跌」或「開高走低」？分析師曝「這時候」才是布局點- 證券",
-        "台股「先強後震」？9月常勝軍名單：精測、華碩、世芯等16檔迎作帳行情- 日報",
-        "打破 AI 泡沫傳言，穎崴：真正難關在產能供不應求",
-        "AI載板荒還沒完...缺料一路燒到日本！欣興簡山傑首度談供應鏈挑戰：1年半拜訪關鍵供應商逾10次",
-        "全球半導體產值7月年增135.1%連17個月成長 前七月創新高",
-        "AI算力非常飢渴...20座晶圓廠仍填不滿AI胃口！侯永清：這速度30年沒見過- 產業",
-        "欣興董座簡山傑揭 AI 供應鏈隱憂：載板產能告急，攜客戶十度赴日催料",
-        "Google 供應鏈基礎架構資深總監透露 DRAM 供應相當緊張 - money.udn.com",
-        "9月4日 期交所夜盤行情",
-        "華邦電前八月業績 暴增1.7倍",
-        "華邦電8月合併營收連九月創新高",
-        "輝達財報透露一個新訊號，為何 AI 三巨頭都攻開源模型？",
-        "全球半導體產值7月年增135.1%連17個月成長 前七月創新高 | 產業熱點 | 產業",
-        "台股9月高檔震盪聚焦美經濟數據- 要聞",
-        "輝達串起 AI 算力生態系 Anthropic 大單帶旺台廠供應鏈"
+        "產、官關鍵決策者》新漢智能副總經理阮北山深耕邊緣AI 助中小企價值升級- 日報"
       ],
       "urls": [
-        "https://money.udn.com/money/amp/story/5607/9735335",
-        "https://money.udn.com/money/story/5607/9732558",
-        "https://money.udn.com/money/story/5607/9737394",
-        "https://money.udn.com/money/story/5607/9730181",
-        "https://money.udn.com/money/story/5607/9732099",
-        "https://money.udn.com/money/story/5607/9735335",
-        "https://money.udn.com/money/amp/story/5612/9737649",
-        "https://money.udn.com/money/amp/story/5607/9735576",
-        "https://money.udn.com/money/story/5607/9732595",
-        "https://www.ctee.com.tw/news/20260906700113-439903",
-        "https://money.udn.com/money/story/5607/9735576",
-        "https://money.udn.com/money/story/5607/9728398",
-        "https://money.udn.com/money/story/5607/9732832",
-        "https://www.ctee.com.tw/news/20260905700041-439901",
-        "https://www.ctee.com.tw/news/20260905700021-430201",
-        "https://money.udn.com/money/story/5612/9730916",
-        "https://money.udn.com/money/amp/story/5612/9735584",
-        "https://money.udn.com/money/amp/story/5618/9736690",
-        "https://money.udn.com/money/story/5607/9735575",
-        "https://money.udn.com/money/story/5612/9735869",
-        "https://www.cna.com.tw/news/afe/202609050016.aspx",
-        "https://money.udn.com/money/amp/story/5618/9737631",
-        "https://money.udn.com/money/amp/story/5618/9736689",
-        "https://money.udn.com/money/story/5612/9730910",
-        "https://www.ctee.com.tw/news/20260905700301-430502",
-        "https://www.cna.com.tw/news/afe/202609050024.aspx",
-        "https://money.udn.com/money/amp/story/123398/9736907",
-        "https://money.udn.com/money/story/5612/9735584",
-        "https://www.ctee.com.tw/news/20260904700832-430201",
-        "https://www.ctee.com.tw/news/20260906700018-439901",
-        "https://finance.technews.tw/2026/09/06/is-ai-bubble-bursting-winway-answered/",
-        "https://www.ctee.com.tw/news/20260906700012-430502",
-        "https://money.udn.com/money/amp/story/5612/9737618",
-        "https://www.ctee.com.tw/news/20260906700013-430501",
-        "https://technews.tw/2026/09/06/unimicron-visits-suppliers-more-than-10-times-to-expand-capacity/",
-        "https://money.udn.com/money/story/5612/9730852",
-        "https://money.udn.com/money/story/11112/9735760",
-        "https://www.ctee.com.tw/news/20260905700169-439901",
-        "https://money.udn.com/money/story/5710/9735448",
-        "https://technews.tw/2026/09/05/nvidia-earnings-new-signal-ai-giants-open-source-models/",
-        "https://money.udn.com/money/story/5612/9737618",
-        "https://www.ctee.com.tw/news/20260906700314-430105",
-        "https://money.udn.com/money/story/5612/9728375"
+        "https://www.ctee.com.tw/news/20260906700088-439901"
       ],
       "sources": [
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "ctee",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "ctee",
-        "ctee",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "cna",
-        "udn_money",
-        "udn_money",
-        "udn_money",
-        "ctee",
-        "cna",
-        "udn_money",
-        "udn_money",
-        "ctee",
-        "ctee",
-        "technews",
-        "ctee",
-        "udn_money",
-        "ctee",
-        "technews",
-        "udn_money",
-        "udn_money",
-        "ctee",
-        "udn_money",
-        "technews",
-        "udn_money",
-        "ctee",
-        "udn_money"
+        "ctee"
       ]
     },
     {
-      "event": "公募基金創紀錄押注半導體板塊",
-      "score": 35,
+      "event": "OpenAI智能體失控闖德國網站",
+      "score": 45,
+      "reader_score": 60,
+      "personas": {
+        "invest": 30,
+        "supply": 20,
+        "policy": 60,
+        "frontier": 40
+      },
+      "reason": "安全事故具話題性，但非核心技術突破。",
+      "coherent": false,
+      "size": 21,
+      "max_crawled_at": "2026-09-06 16:01:08",
+      "titles": [
+        "OpenAI智能体被曝，劫持了一个网站",
+        "OpenAI的Agent又越狱了，攻陷一家德国网站",
+        "OpenAI再曝安全事故，旗下智能体“劫持”冷门网站",
+        "奥特曼：GPT-6早训练完了，更更更强的模型很快发布",
+        "Agent 失控闖德國網站，OpenAI 研擬新機制揭露 AI 偏差行為",
+        "OpenAI承诺未来将更加透明地披露AI智能体失控情况",
+        "OpenAI GPT-6跑分作弊被抓包了",
+        "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
+        "OpenAI 代理驚爆集體失控 一群程式占據德國網站 分享如何作弊、繞過限制 - money.udn.com",
+        "AI周报|OpenAI发布GPT-6 Astra；Manus恢复独立运营",
+        "OpenAI acknowledges 'wiki incident'; plans framework to report unintended AI behaviour",
+        "OpenAI多次修改GPT-6 Astra基准测试数据，部分成绩一度大幅变化",
+        "OpenAI agents edit 15,000 entries on German wiki, spark hacking dispute",
+        "오픈AI 에이전트끼리 독일 위키서 '비밀 대화'…사고 공개 기준 만든다",
+        "AGI来没来不好说，但GPT-6真把Token省下来了",
+        "高盛：GPT-6 Astra正是AI牛市一直在等的",
+        "Rogue Agents No Longer A Theory. World Must Regulate Agentic AI Now - NDTV",
+        "Mac遭OpenAI扫货, 但苹果与英伟达并非零和博弈",
+        "오픈AI '아스트라', 보안·안전 기능도 막강...7대 기능 살펴보니",
+        "奥尔特曼自曝是“超级果粉”，为苹果起诉OpenAI而感到难过"
+      ],
+      "urls": [
+        "https://tech.ifeng.com/c/8wBtYOo16AL",
+        "https://tech.ifeng.com/c/8wC7mnXdC4y",
+        "https://www.yicai.com/news/103352686.html",
+        "https://tech.ifeng.com/c/8wCDjVRA3gJ",
+        "https://infosecu.technews.tw/2026/09/06/openai-agents-hijacked-german-website-in-previously-undisclosed-ai-breakout/",
+        "https://tech.ifeng.com/c/8wBwTAGFJwl",
+        "https://tech.ifeng.com/c/8wC694sBdvA",
+        "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+        "https://money.udn.com/money/amp/story/5599/9736919",
+        "https://www.yicai.com/news/103352521.html",
+        "https://www.thehindubusinessline.com/info-tech/openai-acknowledges-wiki-incident-plans-framework-to-report-unintended-ai-behaviour/article71434529.ece",
+        "https://www.livemint.com/technology/openai-acknowledges-wiki-incident-plans-framework-to-report-unintended-ai-behaviour-11788667685046.html",
+        "https://tech.ifeng.com/c/8wCP3ZJjLNQ",
+        "https://biz.chosun.com/en/en-it/2026/09/06/WMJD4EDOPFHNXPJ5ZWBEVYTEFI/",
+        "https://zdnet.co.kr/view/?no=20260906080532",
+        "https://tech.ifeng.com/c/8wCAW2AVXEu",
+        "https://tech.ifeng.com/c/8wBwTAGFK1w",
+        "https://www.ndtv.com/opinion/rogue-agents-no-longer-a-theory-world-must-regulate-agentic-ai-now-12007088",
+        "https://cloud.ofweek.com/news/2026-09/ART-178801-8420-30701772.html",
+        "https://zdnet.co.kr/view/?no=20260906142425",
+        "https://tech.ifeng.com/c/8wAxu3H7oI6"
+      ],
+      "sources": [
+        "ifeng",
+        "ifeng",
+        "yicai",
+        "ifeng",
+        "technews",
+        "ifeng",
+        "ifeng",
+        "techcrunch",
+        "udn_money",
+        "yicai",
+        "hindubusinessline",
+        "livemint",
+        "ifeng",
+        "chosunbiz",
+        "zdkorea",
+        "ifeng",
+        "ifeng",
+        "india_electronics",
+        "ofweek_cloud",
+        "zdkorea",
+        "ifeng"
+      ]
+    },
+    {
+      "event": "印度半導體產業挑戰與擴張",
+      "score": 45,
+      "reader_score": 80,
+      "personas": {
+        "invest": 40,
+        "supply": 65,
+        "policy": 80,
+        "frontier": 20
+      },
+      "reason": "地緣政治與供應鏈重組趨勢。",
+      "coherent": false,
+      "size": 6,
+      "max_crawled_at": "2026-09-06 22:00:30",
+      "titles": [
+        "India’s Chip Ambition Has Weapon Money Cannot Quickly Buy - Pravda EN",
+        "Is India overpaying for its semiconductor dream? - deccanherald.com",
+        "India’s chip ambitions need talent push beyond manufacturing - Communications Today",
+        "Is India overpaying for its semiconductor dream? - Deccan Herald",
+        "India steps up semiconductor push, seeks to turn ‘Make in India’ into ‘Engineer in India’ - The Hans India",
+        "Tokyo Electron plans India expansion as PM Modi woos global chipmakers - ascendants.in"
+      ],
+      "urls": [
+        "https://news-pravda.com/world/2026/09/04/2566666.html",
+        "https://www.deccanherald.com/amp/story/technology%2Fis-india-overpaying-for-its-semiconductor-dream-4136602",
+        "https://www.communicationstoday.co.in/indias-chip-ambitions-need-talent-push-beyond-manufacturing/",
+        "https://www.deccanherald.com/technology/is-india-overpaying-for-its-semiconductor-dream-4136602",
+        "https://www.thehansindia.com/business/india-steps-up-semiconductor-push-seeks-to-turn-make-in-india-into-engineer-in-india-1118745",
+        "https://ascendants.in/spotlight/tokyo-electron-plans-india-expansion-amid-pm-modis-chip-push/attachment/tokyo-electron-prepares-for-expansion-in-india/"
+      ],
+      "sources": [
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "Claude突破黎曼猜想，陶哲軒澄清未證實",
+      "score": 45,
+      "reader_score": 65,
+      "personas": {
+        "invest": 20,
+        "supply": 15,
+        "policy": 10,
+        "frontier": 65
+      },
+      "reason": "AI數學突破具新聞性，但對硬體產業直接影響有限。",
+      "coherent": false,
+      "size": 5,
+      "max_crawled_at": "2026-09-06 21:31:08",
+      "titles": [
+        "韦神主攻的千禧年难题，被Claude攻破了？",
+        "Claude把千禧年难题做出来了？陶哲轩：我可没这么说 - 36 Kr",
+        "陶哲轩：假如AI早来20年，张益唐还在刷盘子",
+        "突发！Claude黎曼猜想最大突破，已被人类数学家验证",
+        "专家预测年底才到，Claude Mythos今天就跑出3小时6分 - 36 Kr"
+      ],
+      "urls": [
+        "https://tech.ifeng.com/c/8wCBGhM9CKe",
+        "https://www.36kr.com/p/3971371138855176",
+        "https://tech.ifeng.com/c/8wC8PTvJXIR",
+        "https://tech.ifeng.com/c/8wBQrlwXhVi",
+        "https://www.36kr.com/p/3838773292239105"
+      ],
+      "sources": [
+        "ifeng",
+        "36kr",
+        "ifeng",
+        "ifeng",
+        "36kr"
+      ]
+    },
+    {
+      "event": "欣興股價崩跌，聯電受益？散熱股受關注",
+      "score": 45,
       "reader_score": 60,
       "personas": {
         "invest": 60,
-        "supply": 20,
+        "supply": 50,
         "policy": 10,
         "frontier": 10
       },
-      "reason": "金融市場資金流向，非產業技術或營運事件。",
-      "coherent": true,
-      "size": 4,
-      "max_crawled_at": "2026-09-06 16:01:08",
+      "reason": "個股波動與供應鏈傳聞，缺乏明確產業級事件。",
+      "coherent": false,
+      "size": 3,
+      "max_crawled_at": "2026-09-06 22:00:30",
       "titles": [
-        "公募 27.24% 仓位押注半导体，创纪录的 “抱团” 还能走多远？",
-        "“公募一哥” 张坤砍茅台买芯片，高管却反向撤离！你的基金已变芯"
+        "欣興遭血洗狂崩30％ 聯電為何高興？前操盤手曝內幕不單純- 證券",
+        "欣興產地爭議風波延燒 公司強調主要針對 PCB 產品 不涉及載板",
+        "散熱股又熱起來！健策、奇鋐、雙鴻誰最有戲？「PCB女王」廖婉婷曝選股關鍵- 證券"
       ],
       "urls": [
-        "https://cj.sina.cn/articles/view/1261340881/4b2e88d100101mj3m",
-        "https://cj.sina.cn/articles/view/1261340881/4b2e88d100101mj3m",
-        "https://cj.sina.cn/articles/view/1261340881/4b2e88d100101mj3m",
-        "https://k.sina.cn/article_7879996580_1d5af34a402001usxq.html"
+        "https://www.ctee.com.tw/news/20260906700453-430201",
+        "https://money.udn.com/money/story/5612/9725864",
+        "https://www.ctee.com.tw/news/20260906700239-430201"
       ],
       "sources": [
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance"
+        "ctee",
+        "udn_money",
+        "ctee"
       ]
     },
     {
       "event": "EcoPro開發高性能電池應對機器人戰爭",
-      "score": 35,
-      "reader_score": 40,
+      "score": 45,
+      "reader_score": 60,
       "personas": {
-        "invest": 20,
-        "supply": 40,
-        "policy": 10,
-        "frontier": 30
+        "invest": 50,
+        "supply": 60,
+        "policy": 15,
+        "frontier": 35
       },
-      "reason": "電池材料屬能源範疇，非電子硬體/半導體核心。",
+      "reason": "電池材料，屬電子元件供應鏈",
       "coherent": true,
       "size": 2,
       "max_crawled_at": "2026-09-06 11:01:08",
@@ -2974,172 +1637,437 @@
       ]
     },
     {
-      "event": "陳良基出書談入閣4年心路化解台積電危機",
-      "score": 35,
-      "reader_score": 40,
+      "event": "Netweb強調端到端AI解決方案需求",
+      "score": 45,
+      "reader_score": 60,
       "personas": {
-        "invest": 20,
-        "supply": 10,
-        "policy": 40,
-        "frontier": 5
+        "invest": 30,
+        "supply": 60,
+        "policy": 10,
+        "frontier": 40
       },
-      "reason": "人物傳記非產業事件，僅具參考價值",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-06 22:00:30",
+      "reason": "具體企業策略，涉及AI基礎設施組裝。",
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-09-06 23:30:01",
       "titles": [
-        "化解台積電3奈米廠出走危機　陳良基出書談4年入閣心路"
+        "End-to-end AI solutions need of the hour: Netweb V-P Swastik Chakraborty",
+        "3 Indian AI Stocks To Own In September 2026 - simplywall.st"
       ],
       "urls": [
-        "https://www.cna.com.tw/news/afe/202609060169.aspx"
+        "https://www.business-standard.com/technology/tech-news/end-to-end-ai-solutions-need-of-the-hour-netweb-v-p-swastik-chakraborty-126090600594_1.html",
+        "https://simplywall.st/stocks/in/tech/nse-netweb/netweb-technologies-india-shares/news/3-indian-ai-stocks-to-own-in-september-2026"
       ],
       "sources": [
-        "cna"
+        "india_electronics",
+        "india_electronics"
       ]
     },
     {
-      "event": "实测GPT-6与Fable 5.1性能对比",
-      "score": 35,
+      "event": "AI雲平台Enscale IPO前籌資35億美元",
+      "score": 45,
       "reader_score": 60,
       "personas": {
-        "invest": 20,
-        "supply": 10,
+        "invest": 60,
+        "supply": 20,
         "policy": 10,
-        "frontier": 60
+        "frontier": 30
       },
-      "reason": "模型评测，属常规技术比较，缺乏重大产业影响。",
+      "reason": "AI基礎設施融資，非核心半導體事件",
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-09-06 11:31:08",
+      "max_crawled_at": "2026-09-06 10:30:08",
       "titles": [
-        "实测GPT-6，对比Fable 5.1谁更强？"
+        "AI 클라우드 엔스케일, IPO 앞두고 35억 달러 조달 추진…엔비디아도 논의"
       ],
       "urls": [
-        "https://tech.ifeng.com/c/8wC5F3zON8b"
+        "https://zdnet.co.kr/view/?no=20260905084246"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "特斯拉推送FSD v14.3.9監督版更新",
+      "score": 45,
+      "reader_score": 55,
+      "personas": {
+        "invest": 40,
+        "supply": 35,
+        "policy": 20,
+        "frontier": 55
+      },
+      "reason": "自動駕駛軟體更新，影響車用晶片需求",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 16:01:08",
+      "titles": [
+        "特斯拉推送FSD v14.3.9监督版：手动开车时FSD可强行介入避险"
+      ],
+      "urls": [
+        "https://tech.ifeng.com/c/8wCRHCpB84n"
       ],
       "sources": [
         "ifeng"
       ]
     },
     {
-      "event": "德朗格警告美國AI模型開發落後",
-      "score": 35,
-      "reader_score": 50,
+      "event": "普冉股份Q2業績增長加速 存儲景氣度高",
+      "score": 45,
+      "reader_score": 60,
       "personas": {
-        "invest": 20,
-        "supply": 10,
-        "policy": 40,
-        "frontier": 50
+        "invest": 60,
+        "supply": 30,
+        "policy": 0,
+        "frontier": 10
       },
-      "reason": "專家觀點，非具體產業事件。",
+      "reason": "半導體元件廠財報佳，反映存儲市場復甦。",
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-09-06 12:01:08",
+      "max_crawled_at": "2026-09-06 15:31:08",
       "titles": [
-        "德朗格：AI模型開發美面臨落後風險- 日報"
+        "普冉股份(688766)：26Q2业绩增长再提速 存储大周期持续高景气"
       ],
       "urls": [
-        "https://www.ctee.com.tw/news/20260906700064-439901"
+        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/842015448043/index.phtml"
       ],
       "sources": [
-        "ctee"
+        "sina_finance"
       ]
     },
     {
-      "event": "彭博分析晶片股劇烈波動與AI產業支撐",
-      "score": 30,
-      "reader_score": 50,
+      "event": "印度尋求緬甸關鍵礦物以緩解供應鏈壓力",
+      "score": 45,
+      "reader_score": 70,
       "personas": {
-        "invest": 50,
-        "supply": 20,
-        "policy": 10,
+        "invest": 30,
+        "supply": 65,
+        "policy": 70,
         "frontier": 15
       },
-      "reason": "市場評論與投資指南，非具體產業事件。",
+      "reason": "關鍵礦物 sourcing 影響半導體材料供應。",
       "coherent": true,
-      "size": 3,
-      "max_crawled_at": "2026-09-06 21:31:08",
+      "size": 1,
+      "max_crawled_at": "2026-09-06 01:01:08",
       "titles": [
-        "An Investor’s Guide to Chipmakers, the Year’s Most Dramatic Stocks",
-        "An Investor’s Guide to Chipmakers, the Year’s Most Dramatic Stocks - bloomberg.com",
-        "Industrial Stock Up 309% in 5 Years: Can a Booming US AI-Chip Industry Support Another Earnings Upswing?"
+        "India looks to Myanmar for critical minerals amid global supply chain pressures"
       ],
       "urls": [
-        "https://www.bloomberg.com/news/newsletters/2026-09-05/an-investor-s-guide-to-chipmakers-the-year-s-most-dramatic-stocks?srnd=homepage-americas",
-        "https://www.bloomberg.com/news/newsletters/2026-09-05/an-investor-s-guide-to-chipmakers-the-year-s-most-dramatic-stocks",
-        "https://tradebrains.in/indian-markets/industrial-stock-up-309-in-5-years-can-a-booming-us-ai-chip-industry-support-another-earnings-upswing-12489792"
+        "https://timeskuwait.com/india-looks-to-myanmar-for-critical-minerals-amid-global-supply-chain-pressures/"
       ],
       "sources": [
-        "bloomberg",
-        "bloomberg",
         "india_electronics"
       ]
     },
     {
-      "event": "彭博分析蘋果延遲AI戰略或成優勢",
-      "score": 30,
-      "reader_score": 40,
+      "event": "小米於IFA展示手機汽車智慧家居生態",
+      "score": 45,
+      "reader_score": 50,
       "personas": {
-        "invest": 40,
-        "supply": 20,
+        "invest": 50,
+        "supply": 40,
         "policy": 10,
-        "frontier": 25
+        "frontier": 30
       },
-      "reason": "市場分析評論，非具體產品或技術發布",
+      "reason": "終端產品發布，涉及IoT與車用電子。",
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-09-05 04:01:08",
+      "max_crawled_at": "2026-09-06 00:30:29",
       "titles": [
-        "Why Apple Being Late on AI May Be an Advantage"
+        "Xiaomi Uses IFA Debut to Unite Phones, Cars and Smart Homes"
       ],
       "urls": [
-        "https://www.bloomberg.com/news/articles/2026-09-04/why-apple-being-late-on-ai-may-be-an-advantage"
+        "https://www.businessoutreach.in/xiaomi-ifa-2026/"
       ],
       "sources": [
-        "bloomberg"
+        "india_electronics"
       ]
     },
     {
-      "event": "xAI敗訴無法阻止明尼蘇達州AI裸照禁令",
-      "score": 25,
-      "reader_score": 40,
+      "event": "封測廠上半年獲利分化",
+      "score": 40,
+      "reader_score": 75,
       "personas": {
-        "invest": 10,
-        "supply": 10,
-        "policy": 40,
-        "frontier": 15
+        "invest": 75,
+        "supply": 60,
+        "policy": 10,
+        "frontier": 20
       },
-      "reason": "法律監管事件，對硬體產業影響極小。",
-      "coherent": true,
-      "size": 3,
-      "max_crawled_at": "2026-09-06 17:01:08",
+      "reason": "財務數據反映產業趨勢，非單一事件。",
+      "coherent": false,
+      "size": 13,
+      "max_crawled_at": "2026-09-06 23:01:08",
       "titles": [
-        "Elon Musk's xAI loses court bid to block Minnesota's AI 'nudification' ban",
-        "Minnesota court rejects xAI bid to block AI nude-image law",
-        "Musk’s xAI loses court bid to block Minnesota's AI ‘nudification’ ban"
+        "芯源微(688037)：前后道协同发展 订单有望加速增长",
+        "长电科技(600584)：盈利拐点显现 先进封装筑强核心优势",
+        "A股三大封测厂上半年利润增速与毛利率分化 先进封装卡位影响未来格局",
+        "神工股份(688233)：盈利阶段性承压 先进制程产品布局构建长期竞争力",
+        "688012，半导体龙头，逾百家私募盯上它（附名单）",
+        "中科飞测 | 2026年中报点评：短期盈利承压，明暗场已实现批量销售",
+        "纳芯微(688052)：二季度收入持续高增、单季度业绩扭亏",
+        "官宣！千亿光模块厂商拟赴港IPO",
+        "近180亿元涌入半导体板块",
+        "IPO周报：燧原科技将上市，长存控股进入问询环节",
+        "长江存储科创板IPO进入问询阶段，成功上市到底值多少钱？"
       ],
       "urls": [
-        "https://economictimes.indiatimes.com/tech/artificial-intelligence/elon-musks-xai-loses-court-bid-to-block-minnesotas-ai-nudification-ban/articleshow/133770351.cms",
-        "https://biz.chosun.com/en/en-it/2026/09/06/UUWP2T27YJFWJL4ELEOFMASFOA/",
-        "https://www.reuters.com/legal/litigation/musks-xai-loses-court-bid-block-minnesotas-ai-nudification-ban-2026-09-04/"
+        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/841974720245/index.phtml",
+        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/842040483181/index.phtml",
+        "https://cj.sina.cn/articles/view/1650111241/625ab30902001hgeg",
+        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/841964479553/index.phtml",
+        "https://finance.sina.com.cn/stock/zqgd/2026-09-06/doc-iniqvvpa4510685.shtml",
+        "https://finance.sina.com.cn/roll/2026-09-06/doc-iniqxchs6698932.shtml",
+        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/841974180698/index.phtml",
+        "https://finance.sina.com.cn/stock/relnews/cn/2026-09-06/doc-iniqwssv0048906.shtml",
+        "https://cj.sina.cn/articles/view/1905628462/7195952e01901qnsu",
+        "https://cj.sina.cn/articles/view/1905628462/7195952e01901qnsu",
+        "https://cj.sina.cn/articles/view/1733360754/6750fc7202001ik16",
+        "https://cj.sina.cn/articles/view/1733360754/6750fc7202001ik16",
+        "https://cj.sina.cn/articles/view/2637695114/9d38088a00101mixk"
       ],
       "sources": [
-        "economictimes",
-        "chosunbiz",
-        "reuters"
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "存儲巨頭股價暴漲，受市場宏觀消息影響",
+      "score": 40,
+      "reader_score": 50,
+      "personas": {
+        "invest": 50,
+        "supply": 30,
+        "policy": 20,
+        "frontier": 10
+      },
+      "reason": "市場波動與政策消息混合，非單一技術或產業事件。",
+      "coherent": false,
+      "size": 3,
+      "max_crawled_at": "2026-09-06 21:31:08",
+      "titles": [
+        "突然，暴涨近12%！存储巨头，意外爆发！美联储，加息大消息！七部门最新部署！影响一周市场的十大消息",
+        "周末影响市场重要资讯回顾：财政部千亿级注资银行和保险公司，私募行业迎来募集阶段监管新规",
+        "美联储，加息大消息！重磅数据来袭"
+      ],
+      "urls": [
+        "https://www.stcn.com/article/detail/4173983.html",
+        "https://finance.sina.com.cn/stock/marketresearch/2026-09-06/doc-iniqwsss4138384.shtml",
+        "https://cj.sina.cn/articles/view/1664176597/633151d501901m7ru"
+      ],
+      "sources": [
+        "stcn",
+        "sina_finance",
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "LG U+與GS建設開發AI資料中心模組化標準",
+      "score": 40,
+      "reader_score": 45,
+      "personas": {
+        "invest": 35,
+        "supply": 45,
+        "policy": 20,
+        "frontier": 25
+      },
+      "reason": "基礎設施建設，間接影響硬體需求",
+      "coherent": true,
+      "size": 3,
+      "max_crawled_at": "2026-09-06 10:30:08",
+      "titles": [
+        "GS건설, AI 데이터센터 모듈러 표준모델 개발…공급 속도 높인다",
+        "AIDC도 조립식으로 짓는다…LGU+, GS건설과 표준모델 개발",
+        "LG Uplus forms PMDC alliance to speed South Korea AI data center builds"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20260906_0003777947",
+        "https://zdnet.co.kr/view/?no=20260906090941",
+        "https://biz.chosun.com/en/en-it/2026/09/06/WZV7EX6MQ5AORHTWQF2FAD24RI/"
+      ],
+      "sources": [
+        "newsis",
+        "zdkorea",
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "沙特主權AI生態結合中美技術",
+      "score": 40,
+      "reader_score": 70,
+      "personas": {
+        "invest": 30,
+        "supply": 25,
+        "policy": 70,
+        "frontier": 20
+      },
+      "reason": "地緣政策與市場動態，非具體硬體事件",
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-09-06 10:30:08",
+      "titles": [
+        "사우디 '소버린 AI' 윤곽…휴메인, 미중 기술 모아 자국 생태계 구축",
+        "沙特本土AI拥抱中国基座"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260905160905",
+        "https://t.cj.sina.cn/articles/view/7517400647/1c0126e47059096fo0"
+      ],
+      "sources": [
+        "zdkorea",
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "地平線智駕芯片市占率提升",
+      "score": 40,
+      "reader_score": 50,
+      "personas": {
+        "invest": 50,
+        "supply": 30,
+        "policy": 20,
+        "frontier": 45
+      },
+      "reason": "單一公司市場動態，影響有限。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 23:30:01",
+      "titles": [
+        "地平线机器人-W(09660.HK)：智驾芯片市占率提升 打造ARM+ANDROID模式"
+      ],
+      "urls": [
+        "https://stock.finance.sina.com.cn/hkstock/view/hk_report.php?reportid=842030651116"
+      ],
+      "sources": [
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "Epic CEO指AI導致記憶體價格暴漲",
+      "score": 40,
+      "reader_score": 45,
+      "personas": {
+        "invest": 35,
+        "supply": 45,
+        "policy": 10,
+        "frontier": 20
+      },
+      "reason": "提及存儲需求變化，但屬遊戲業觀點。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 08:01:08",
+      "titles": [
+        "Epic CEO：AI导致内存、存储价格暴涨，游戏行业遭遇第二次崩盘"
+      ],
+      "urls": [
+        "https://tech.ifeng.com/c/8wBK7epeHaG"
+      ],
+      "sources": [
+        "ifeng"
+      ]
+    },
+    {
+      "event": "SurplusGLOBAL推出半導體零件線上商城",
+      "score": 40,
+      "reader_score": 65,
+      "personas": {
+        "invest": 20,
+        "supply": 65,
+        "policy": 10,
+        "frontier": 15
+      },
+      "reason": "供應鏈數位化服務，屬電子製造輔助環節。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 21:31:08",
+      "titles": [
+        "SurplusGLOBAL Supports Semiconductor Industry with 'SemiMarket Parts Mall'"
+      ],
+      "urls": [
+        "https://www.thelec.net/news/articleView.html?idxno=13683"
+      ],
+      "sources": [
+        "thelec"
+      ]
+    },
+    {
+      "event": "韓國KAI與AI廠商合作無人系統技術",
+      "score": 40,
+      "reader_score": 60,
+      "personas": {
+        "invest": 15,
+        "supply": 20,
+        "policy": 60,
+        "frontier": 35
+      },
+      "reason": "國防AI應用，非民用半導體/AI核心。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 21:31:08",
+      "titles": [
+        "KAI Teams Up With AI Tech Firms on Manned-Unmanned Systems, Satellite Technologies"
+      ],
+      "urls": [
+        "https://www.thelec.net/news/articleView.html?idxno=13687"
+      ],
+      "sources": [
+        "thelec"
+      ]
+    },
+    {
+      "event": "阿里Agent撬開萬億美元新市場",
+      "score": 35,
+      "reader_score": 40,
+      "personas": {
+        "invest": 30,
+        "supply": 10,
+        "policy": 10,
+        "frontier": 40
+      },
+      "reason": "軟體應用層，非硬體核心",
+      "coherent": false,
+      "size": 4,
+      "max_crawled_at": "2026-09-06 22:30:04",
+      "titles": [
+        "一只“小章鱼”，替阿里撬开万亿美元新市场",
+        "一只“小章鱼”，替阿里撬开万亿美元新市场 - 36 Kr",
+        "办公Agent开打下半场，战火从桌面烧向企业腹地",
+        "IDC报告里的拐点：零售企业开始为AI结果买单"
+      ],
+      "urls": [
+        "https://tech.ifeng.com/c/8wC9mOkMwbS",
+        "https://www.36kr.com/p/3971303301591298",
+        "https://www.yicai.com/news/103351551.html",
+        "https://tech.ifeng.com/c/8wC2zvMNg3A"
+      ],
+      "sources": [
+        "ifeng",
+        "36kr",
+        "yicai",
+        "ifeng"
       ]
     },
     {
       "event": "谷歌十年繪製果蝇大腦模型",
-      "score": 25,
-      "reader_score": 40,
+      "score": 35,
+      "reader_score": 80,
       "personas": {
         "invest": 10,
         "supply": 5,
-        "policy": 5,
-        "frontier": 40
+        "policy": 0,
+        "frontier": 80
       },
-      "reason": "基礎科學研究，離商業化半導體/AI硬體尚遠。",
+      "reason": "神經科學與AI結合，屬基礎研究突破。",
       "coherent": true,
       "size": 2,
       "max_crawled_at": "2026-09-06 17:01:08",
@@ -3157,64 +2085,299 @@
       ]
     },
     {
-      "event": "李開復預測中國將在AI達陣賽中獲勝",
-      "score": 25,
-      "reader_score": 30,
+      "event": "SK與蔚山商會舉辦製造業AI轉型論壇",
+      "score": 35,
+      "reader_score": 40,
       "personas": {
-        "invest": 15,
-        "supply": 10,
-        "policy": 30,
-        "frontier": 20
+        "invest": 20,
+        "supply": 40,
+        "policy": 15,
+        "frontier": 25
       },
-      "reason": "專家觀點評論，非具體產業事件或數據",
+      "reason": "產業論壇，非具體技術突破或訂單。",
       "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-05 06:30:08",
+      "size": 2,
+      "max_crawled_at": "2026-09-06 10:30:08",
       "titles": [
-        "Watch Kai-Fu Lee Says China Will Win AI Reach Race"
+        "\"제조업 AI 전환 속도 낸다\"…SK·울산상의, 오는 11일 '울산포럼 2026' 개최",
+        "SK, '2026 울산포럼' 11일 개최…제조 AX 가속화 방안 논의"
       ],
       "urls": [
-        "https://www.bloomberg.com/news/videos/2026-09-04/kai-fu-lee-says-china-will-win-ai-reach-race-video"
+        "https://www.newsis.com/view/NISX20260906_0003777934",
+        "https://zdnet.co.kr/view/?no=20260906103855"
       ],
       "sources": [
-        "bloomberg"
+        "newsis",
+        "zdkorea"
       ]
     },
     {
-      "event": "印度議員倡建半導體研究大學",
-      "score": 25,
-      "reader_score": 60,
+      "event": "陳良基出書談入閣心路，化解台積電廠出走危機",
+      "score": 35,
+      "reader_score": 40,
       "personas": {
-        "invest": 10,
-        "supply": 30,
-        "policy": 60,
-        "frontier": 40
+        "invest": 20,
+        "supply": 15,
+        "policy": 40,
+        "frontier": 10
       },
-      "reason": "政策倡議，非具體產業行動。",
+      "reason": "政治人物個人經歷，對產業技術或供應鏈影響微弱。",
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-09-06 18:31:08",
+      "max_crawled_at": "2026-09-06 22:00:30",
       "titles": [
-        "Cong MP seeks fully funded central varsity in Chandigarh for semiconductor research, robotics - ThePrint"
+        "化解台積電3奈米廠出走危機　陳良基出書談4年入閣心路"
       ],
       "urls": [
-        "https://theprint.in/india/cong-mp-seeks-fully-funded-central-varsity-in-chandigarh-for-semiconductor-research-robotics/3033903/?amp="
+        "https://www.cna.com.tw/news/afe/202609060169.aspx"
+      ],
+      "sources": [
+        "cna"
+      ]
+    },
+    {
+      "event": "德朗格警告：美國在AI模型開發方面面臨落後風險",
+      "score": 35,
+      "reader_score": 40,
+      "personas": {
+        "invest": 20,
+        "supply": 10,
+        "policy": 40,
+        "frontier": 30
+      },
+      "reason": "觀點性評論，缺乏具體數據或事件支撐。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 12:01:08",
+      "titles": [
+        "德朗格：AI模型開發美面臨落後風險- 日報"
+      ],
+      "urls": [
+        "https://www.ctee.com.tw/news/20260906700064-439901"
+      ],
+      "sources": [
+        "ctee"
+      ]
+    },
+    {
+      "event": "印度推動無人機關鍵組件本地化",
+      "score": 35,
+      "reader_score": 50,
+      "personas": {
+        "invest": 20,
+        "supply": 40,
+        "policy": 50,
+        "frontier": 30
+      },
+      "reason": "國防電子供應鏈，影響有限",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-07 00:01:08",
+      "titles": [
+        "Made in India drone, foreign tech inside: Why localising critical UAV components is next battle - financialexpress.com"
+      ],
+      "urls": [
+        "https://www.financialexpress.com/business/defence/made-in-india-drone-foreign-tech-inside-why-localising-critical-uav-components-is-next-battle/4332999/"
       ],
       "sources": [
         "india_electronics"
       ]
     },
     {
-      "event": "各國競相押注半導體產業發展",
-      "score": 20,
-      "reader_score": 30,
+      "event": "AI實驗室疲勞：新模型開發速度放緩",
+      "score": 35,
+      "reader_score": 45,
       "personas": {
-        "invest": 15,
+        "invest": 25,
         "supply": 10,
-        "policy": 30,
+        "policy": 10,
+        "frontier": 45
+      },
+      "reason": "軟體/模型層面，非硬體核心",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 20:31:08",
+      "titles": [
+        "‘Model fatigue’ sets in as AI labs race to roll out new versions at frenetic pace"
+      ],
+      "urls": [
+        "https://www.cnbc.com/2026/09/06/meta-google-openai-anthropic-ai-model-fatigue.html"
+      ],
+      "sources": [
+        "cnbc"
+      ]
+    },
+    {
+      "event": "美英韓專家揭示全球6G頻譜政策趨勢",
+      "score": 35,
+      "reader_score": 70,
+      "personas": {
+        "invest": 20,
+        "supply": 40,
+        "policy": 70,
+        "frontier": 60
+      },
+      "reason": "6G標準化關鍵，影響未來通訊晶片架構。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 13:31:08",
+      "titles": [
+        "迎戰6G 美英韓專家來台揭示全球6G頻譜政策趨勢- 要聞"
+      ],
+      "urls": [
+        "https://ctee.com.tw/news/20260906700315-430105"
+      ],
+      "sources": [
+        "ctee"
+      ]
+    },
+    {
+      "event": "德國執政黨擬堵電動車關稅漏洞 鎖定中混動",
+      "score": 35,
+      "reader_score": 75,
+      "personas": {
+        "invest": 25,
+        "supply": 50,
+        "policy": 75,
         "frontier": 10
       },
-      "reason": "宏觀敘事，缺乏具體硬體/半導體事件細節。",
+      "reason": "貿易政策影響汽車電子與電池供應鏈。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 10:30:08",
+      "titles": [
+        "\"전기차 관세 빈틈 막자\"…독일 집권당, 中 하이브리드 정조준"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260904182325"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "車企焦慮押注機器人與AI轉型",
+      "score": 30,
+      "reader_score": 35,
+      "personas": {
+        "invest": 25,
+        "supply": 30,
+        "policy": 10,
+        "frontier": 35
+      },
+      "reason": "汽車產業趨勢，非半導體/AI硬體核心",
+      "coherent": false,
+      "size": 4,
+      "max_crawled_at": "2026-09-06 11:31:08",
+      "titles": [
+        "车企的焦虑，都在押注机器人",
+        "李斌：AI给汽车行业带来三重暴击，蔚来价值被市场低估",
+        "比亚迪(002594)：2026Q2利润环比改善 海外出口同比高增"
+      ],
+      "urls": [
+        "https://tech.ifeng.com/c/8wC7gkpz5K5",
+        "https://finance.sina.com.cn/stock/t/2026-09-06/doc-iniqvzux9603316.shtml",
+        "https://tech.ifeng.com/c/8wAksBrde9O",
+        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/841966543372/index.phtml"
+      ],
+      "sources": [
+        "ifeng",
+        "sina_finance",
+        "ifeng",
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "投資人指南：晶片股成為今年最具戲劇性投資標的",
+      "score": 30,
+      "reader_score": 45,
+      "personas": {
+        "invest": 45,
+        "supply": 10,
+        "policy": 10,
+        "frontier": 10
+      },
+      "reason": "市場評論與投資建議，非具體產業動態。",
+      "coherent": false,
+      "size": 3,
+      "max_crawled_at": "2026-09-06 09:31:08",
+      "titles": [
+        "An Investor’s Guide to Chipmakers, the Year’s Most Dramatic Stocks - bloomberg.com",
+        "An Investor’s Guide to Chipmakers, the Year’s Most Dramatic Stocks",
+        "Traders Flock to Bullish Chinese Stock Bets for AI Alternative - bloomberg.com"
+      ],
+      "urls": [
+        "https://www.bloomberg.com/news/newsletters/2026-09-05/an-investor-s-guide-to-chipmakers-the-year-s-most-dramatic-stocks",
+        "https://www.bloomberg.com/news/newsletters/2026-09-05/an-investor-s-guide-to-chipmakers-the-year-s-most-dramatic-stocks?srnd=homepage-americas",
+        "https://www.bloomberg.com/news/articles/2026-09-06/traders-flock-to-bullish-chinese-stock-bets-for-ai-alternative"
+      ],
+      "sources": [
+        "bloomberg",
+        "bloomberg",
+        "bloomberg"
+      ]
+    },
+    {
+      "event": "努比亞宣布手機全系512GB起步",
+      "score": 30,
+      "reader_score": 40,
+      "personas": {
+        "invest": 25,
+        "supply": 40,
+        "policy": 0,
+        "frontier": 15
+      },
+      "reason": "消費電子規格變化，反映存儲成本下降。",
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-09-06 12:31:08",
+      "titles": [
+        "努比亚倪飞宣布NaviX Ultra手机全系512GB起步"
+      ],
+      "urls": [
+        "https://tech.ifeng.com/c/8wC2vyvlM7a",
+        "https://t.cj.sina.cn/articles/view/1826017320/6cd6d02802001wn08"
+      ],
+      "sources": [
+        "ifeng",
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "實測GPT-6對比Fable 5.1，評估模型能力",
+      "score": 30,
+      "reader_score": 45,
+      "personas": {
+        "invest": 25,
+        "supply": 20,
+        "policy": 10,
+        "frontier": 45
+      },
+      "reason": "軟體模型評測，對硬體產業直接衝擊較小。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 11:31:08",
+      "titles": [
+        "实测GPT-6，对比Fable 5.1谁更强？"
+      ],
+      "urls": [
+        "https://tech.ifeng.com/c/8wC5F3zON8b"
+      ],
+      "sources": [
+        "ifeng"
+      ]
+    },
+    {
+      "event": "各國競逐半導體產業主導權",
+      "score": 30,
+      "reader_score": 60,
+      "personas": {
+        "invest": 25,
+        "supply": 40,
+        "policy": 60,
+        "frontier": 20
+      },
+      "reason": "宏觀趨勢分析，非具體事件。",
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-09-06 16:31:08",
@@ -3229,163 +2392,754 @@
       ]
     },
     {
-      "event": "OpenAI智能體被指劫持網站",
-      "score": 20,
+      "event": "美國AI晶片產業支撐工業股漲幅",
+      "score": 30,
       "reader_score": 40,
       "personas": {
-        "invest": 10,
-        "supply": 5,
-        "policy": 30,
-        "frontier": 40
+        "invest": 40,
+        "supply": 15,
+        "policy": 10,
+        "frontier": 15
       },
-      "reason": "軟體安全事件，與硬體產業關聯低。",
+      "reason": "市場分析，非具體技術或事件",
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-09-06 11:01:08",
+      "max_crawled_at": "2026-09-06 21:31:08",
       "titles": [
-        "研究称OpenAI智能体“劫持”网站开展“协作”"
+        "Industrial Stock Up 309% in 5 Years: Can a Booming US AI-Chip Industry Support Another Earnings Upswing?"
       ],
       "urls": [
-        "//www.sohu.com/a/1072244451_163278"
+        "https://tradebrains.in/indian-markets/industrial-stock-up-309-in-5-years-can-a-booming-us-ai-chip-industry-support-another-earnings-upswing-12489792"
       ],
       "sources": [
-        "sohu"
+        "india_electronics"
       ]
     },
     {
-      "event": "Claude AI形式化證明費馬大定理",
-      "score": 15,
-      "reader_score": 30,
+      "event": "具身智能CEO預測5年後達成人類勞動能力",
+      "score": 30,
+      "reader_score": 65,
       "personas": {
-        "invest": 10,
-        "supply": 5,
-        "policy": 10,
-        "frontier": 30
+        "invest": 20,
+        "supply": 15,
+        "policy": 0,
+        "frontier": 65
       },
-      "reason": "純軟體/AI應用突破，非硬體產業事件",
+      "reason": "AI機器人前景展望，屬前沿技術趨勢。",
       "coherent": true,
-      "size": 7,
-      "max_crawled_at": "2026-09-06 12:31:08",
+      "size": 1,
+      "max_crawled_at": "2026-09-06 12:01:08",
       "titles": [
-        "Claude首次形式化证明费马大定理！清华姚班大神出手了",
-        "刚刚，Claude 11天验完费马大定理！清华姚班大牛带队，用AI拿下大结果",
-        "刚刚，Claude首次证明费马大定理，清华姚班大神出手了 - 36 Kr",
-        "韦神主攻的千禧年难题，被Claude攻破了？",
-        "Claude把千禧年难题做出来了？陶哲轩：我可没这么说 - 36 Kr",
-        "突发！Claude黎曼猜想最大突破，已被人类数学家验证",
-        "陶哲轩：假如AI早来20年，张益唐还在刷盘子"
+        "无界动力CEO张玉峰：具身智能5年后有望对标成年人劳动能力"
       ],
       "urls": [
-        "https://tech.ifeng.com/c/8wAMDsdeE3H",
-        "https://tech.ifeng.com/c/8wASMvzeuoE",
-        "https://www.36kr.com/p/3969755274883328",
-        "https://tech.ifeng.com/c/8wCBGhM9CKe",
-        "https://www.36kr.com/p/3971371138855176",
-        "https://tech.ifeng.com/c/8wBQrlwXhVi",
-        "https://tech.ifeng.com/c/8wC8PTvJXIR"
+        "https://tech.ifeng.com/c/8wCAW2AVX8Z"
       ],
       "sources": [
-        "ifeng",
-        "ifeng",
-        "36kr",
-        "ifeng",
-        "36kr",
-        "ifeng",
         "ifeng"
       ]
     },
     {
-      "event": "努比亞NaviX Ultra手機全系512GB起步",
-      "score": 10,
-      "reader_score": 15,
+      "event": "OpenAI承認Wiki事件並需提升透明度",
+      "score": 30,
+      "reader_score": 50,
       "personas": {
-        "invest": 10,
-        "supply": 15,
-        "policy": 5,
-        "frontier": 10
+        "invest": 20,
+        "supply": 10,
+        "policy": 50,
+        "frontier": 40
       },
-      "reason": "消費電子規格細節，對半導體產業影響微弱。",
-      "coherent": false,
-      "size": 7,
-      "max_crawled_at": "2026-09-06 12:31:08",
+      "reason": "AI治理議題，對硬體產業間接影響。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 00:01:08",
       "titles": [
-        "豆包AI手机即将登场，10只高增长潜力股浮出水面",
-        "单月营收7.5万元，AI视频概念牛股提示风险！豆包AI手机即将登场，10只高增长潜力股浮出水面",
-        "努比亚倪飞宣布NaviX Ultra手机全系512GB起步"
+        "OpenAI acknowledges 'wiki incident' and need for more transparency around unintended AI behavior"
       ],
       "urls": [
-        "https://cj.sina.cn/articles/view/5597884738/14da8f142020028b6a",
-        "https://cj.sina.cn/articles/view/5574738445/14c47c20d01901khx2",
-        "https://cj.sina.cn/articles/view/5574738445/14c47c20d01901khx2",
-        "https://cj.sina.cn/articles/view/5574738445/14c47c20d01901khx2",
-        "https://cj.sina.cn/articles/view/5574738445/14c47c20d01901khx2",
-        "https://tech.ifeng.com/c/8wC2vyvlM7a",
-        "https://t.cj.sina.cn/articles/view/1826017320/6cd6d02802001wn08"
+        "https://www.reuters.com/business/media-telecom/openai-acknowledges-wiki-incident-need-more-transparency-around-unintended-ai-2026-09-05/"
       ],
       "sources": [
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "ifeng",
-        "sina_finance"
+        "reuters"
       ]
     },
     {
-      "event": "專家論韓銀貸款與美中GPU關聯",
-      "score": 10,
+      "event": "印度國會議員倡議設立半導體研究大學",
+      "score": 30,
+      "reader_score": 60,
+      "personas": {
+        "invest": 10,
+        "supply": 20,
+        "policy": 60,
+        "frontier": 40
+      },
+      "reason": "政策倡議階段，非具體產業落地事件。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 18:31:08",
+      "titles": [
+        "Cong MP seeks fully funded central varsity in Chandigarh for semiconductor research, robotics - ThePrint"
+      ],
+      "urls": [
+        "https://theprint.in/india/cong-mp-seeks-fully-funded-central-varsity-in-chandigarh-for-semiconductor-research-robotics/3033903/?amp="
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "全球AI數位基礎設施升級趨勢",
+      "score": 25,
+      "reader_score": 30,
+      "personas": {
+        "invest": 20,
+        "supply": 30,
+        "policy": 15,
+        "frontier": 20
+      },
+      "reason": "宏觀趨勢，缺乏具體技術或公司細節。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 14:31:08",
+      "titles": [
+        "Infrastructure Upgrade: Global trends in rebuilding digital infrastructure for AI"
+      ],
+      "urls": [
+        "https://tele.net.in/telefocus/infrastructure-upgrade-global-trends-in-rebuilding-digital-infrastructure-for-ai-12490065"
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "陸建築龍頭陝西建工跨界造晶片",
+      "score": 25,
       "reader_score": 20,
       "personas": {
         "invest": 15,
         "supply": 10,
-        "policy": 20,
-        "frontier": 10
+        "policy": 10,
+        "frontier": 20
       },
-      "reason": "觀點評論，無具體產業事件或數據",
+      "reason": "非核心半導體企業，產業影響力低",
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-09-05 12:30:08",
+      "max_crawled_at": "2026-09-06 22:30:04",
       "titles": [
-        "[안광섭 AI 진테제] 은행대출, 美中은 GPU와 토큰이 결정...한국은"
+        "營建材料也能做半導體？陸建築龍頭陝西建工跨界造晶片"
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20260905101655"
+        "https://money.udn.com/money/amp/story/5603/9738010"
+      ],
+      "sources": [
+        "udn_money"
+      ]
+    },
+    {
+      "event": "本田供應鏈重組 中國供應商有望上位",
+      "score": 25,
+      "reader_score": 45,
+      "personas": {
+        "invest": 30,
+        "supply": 45,
+        "policy": 10,
+        "frontier": 5
+      },
+      "reason": "汽車電子供應鏈變動，非核心半導體事件。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 12:31:08",
+      "titles": [
+        "本田向“自己人”挥刀，中国供应商准备上位"
+      ],
+      "urls": [
+        "https://tech.ifeng.com/c/8wC23eC3GFe"
+      ],
+      "sources": [
+        "ifeng"
+      ]
+    },
+    {
+      "event": "AI監督失敗引發關注",
+      "score": 20,
+      "reader_score": 30,
+      "personas": {
+        "invest": 10,
+        "supply": 10,
+        "policy": 30,
+        "frontier": 25
+      },
+      "reason": "泛論AI治理，缺乏具體產業細節。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 18:01:08",
+      "titles": [
+        "The machines did not rebel. The supervision failed"
+      ],
+      "urls": [
+        "https://timesofindia.indiatimes.com/toi-blogs/digital-life/the-machines-did-not-rebel-the-supervision-failed/articleshow/133831555.cms"
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "MacBook Ultra售價可能高於預期",
+      "score": 20,
+      "reader_score": 15,
+      "personas": {
+        "invest": 15,
+        "supply": 10,
+        "policy": 0,
+        "frontier": 10
+      },
+      "reason": "消費電子產品定價，對產業鏈影響有限。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 11:31:08",
+      "titles": [
+        "This new reveal suggests MacBook Ultra might cost more than we think"
+      ],
+      "urls": [
+        "https://9to5mac.com/2026/09/05/macbook-ultra-pricing-lineup-rumor/"
+      ],
+      "sources": [
+        "9to5mac"
+      ]
+    },
+    {
+      "event": "拉塞特收購欣農連結合併發布AI養殖智能體",
+      "score": 20,
+      "reader_score": 25,
+      "personas": {
+        "invest": 15,
+        "supply": 10,
+        "policy": 0,
+        "frontier": 25
+      },
+      "reason": "農業科技應用，非半導體/AI核心產業事件。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 02:31:08",
+      "titles": [
+        "拉塞特战略收购欣农互联，同步发布“小欣AI 3.0”超级智能体，构建全栈AI+养殖能力矩阵"
+      ],
+      "urls": [
+        "https://www.36kr.com/p/3968899485446408"
+      ],
+      "sources": [
+        "36kr"
+      ]
+    },
+    {
+      "event": "全球巨頭重大利空調整",
+      "score": 10,
+      "reader_score": 15,
+      "personas": {
+        "invest": 15,
+        "supply": 5,
+        "policy": 5,
+        "frontier": 5
+      },
+      "reason": "標題模糊，無具體產業資訊。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 15:31:08",
+      "titles": [
+        "重大调整！全球巨头，利空突袭"
+      ],
+      "urls": [
+        "https://finance.sina.com.cn/stock/marketresearch/2026-09-06/doc-iniqwnku4251692.shtml"
+      ],
+      "sources": [
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "NASA利用AI雜訊分析提前預判太陽爆發",
+      "score": 10,
+      "reader_score": 30,
+      "personas": {
+        "invest": 5,
+        "supply": 5,
+        "policy": 10,
+        "frontier": 30
+      },
+      "reason": "太空應用AI，非半導體/AI硬體核心產業。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 10:30:08",
+      "titles": [
+        "保留「雜訊」成破局關鍵，NASA 靠 AI 提前揪出太陽爆發前兆"
+      ],
+      "urls": [
+        "https://technews.tw/2026/09/06/ai-early-detection-solar-storms/"
+      ],
+      "sources": [
+        "technews"
+      ]
+    },
+    {
+      "event": "国产北斗再迈一大步！基准站一张网实现全域覆盖，公益保障叠加市场化运营，打开万亿时空产业成长空间",
+      "score": 0,
+      "reader_score": 0,
+      "personas": {
+        "invest": 0,
+        "supply": 0,
+        "policy": 0,
+        "frontier": 0
+      },
+      "reason": "",
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-09-06 11:31:08",
+      "titles": [
+        "国产北斗再迈一大步！基准站一张网实现全域覆盖，公益保障叠加市场化运营，打开万亿时空产业成长空间"
+      ],
+      "urls": [
+        "https://finance.sina.com.cn/roll/2026-09-06/doc-iniqvzvc0238949.shtml",
+        "https://finance.sina.com.cn/roll/2026-09-06/doc-iniqvzvc0238949.shtml"
+      ],
+      "sources": [
+        "sina_finance",
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "智谱(02513.HK)：模型矩阵持续迭代 MaaS跃升为营收支柱",
+      "score": 0,
+      "reader_score": 0,
+      "personas": {
+        "invest": 0,
+        "supply": 0,
+        "policy": 0,
+        "frontier": 0
+      },
+      "reason": "",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-07 00:01:08",
+      "titles": [
+        "智谱(02513.HK)：模型矩阵持续迭代 MaaS跃升为营收支柱"
+      ],
+      "urls": [
+        "https://stock.finance.sina.com.cn/hkstock/view/hk_report.php?reportid=842040317528"
+      ],
+      "sources": [
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "최윤범이 키운 자원순환 사업…한국 희토류 공급망 대안으로",
+      "score": 0,
+      "reader_score": 0,
+      "personas": {
+        "invest": 0,
+        "supply": 0,
+        "policy": 0,
+        "frontier": 0
+      },
+      "reason": "",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 23:30:01",
+      "titles": [
+        "최윤범이 키운 자원순환 사업…한국 희토류 공급망 대안으로"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260906230958"
       ],
       "sources": [
         "zdkorea"
       ]
     },
     {
-      "event": "蘋果勞動節促銷Mac與配件優惠",
-      "score": 5,
-      "reader_score": 10,
+      "event": "比亚迪称受电池产能制约，闪充太受欢迎",
+      "score": 0,
+      "reader_score": 0,
       "personas": {
-        "invest": 10,
-        "supply": 10,
-        "policy": 5,
-        "frontier": 5
+        "invest": 0,
+        "supply": 0,
+        "policy": 0,
+        "frontier": 0
       },
-      "reason": "消費端促銷，無產業結構性影響",
+      "reason": "",
       "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-09-06 02:01:08",
+      "size": 1,
+      "max_crawled_at": "2026-09-06 22:30:04",
       "titles": [
-        "Best Labor Day deals: Save up to $500 on Macs, AirPods, Apple Studio Display",
-        "Apple Labor Day weekend deals: AirPods Pro 3, Studio Display, Mac mini, AirTag 2, chargers, more"
+        "比亚迪称受电池产能制约，闪充太受欢迎"
       ],
       "urls": [
-        "https://appleinsider.com/articles/26/09/05/best-labor-day-deals-save-up-to-500-on-macs-airpods-apple-studio-display",
-        "https://9to5mac.com/2026/09/05/apple-labor-day-weekend-deals-airpods/"
+        "https://t.cj.sina.cn/articles/view/1826017320/6cd6d02804001wnqg"
       ],
       "sources": [
-        "appleinsider",
-        "9to5mac"
+        "sina_finance"
       ]
     },
     {
-      "event": "OpenAI發布職缺資訊",
-      "score": 5,
+      "event": "AI进化速递｜长沙造具身智能机器人拿下欧盟CE“护照”",
+      "score": 0,
+      "reader_score": 0,
+      "personas": {
+        "invest": 0,
+        "supply": 0,
+        "policy": 0,
+        "frontier": 0
+      },
+      "reason": "",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 21:31:08",
+      "titles": [
+        "AI进化速递｜长沙造具身智能机器人拿下欧盟CE“护照”"
+      ],
+      "urls": [
+        "https://www.yicai.com/news/103353389.html"
+      ],
+      "sources": [
+        "yicai"
+      ]
+    },
+    {
+      "event": "十余家A股上市公司本周披露并购重组最新公告 神工股份拟全资控股半导体材料企业福建精工",
+      "score": 0,
+      "reader_score": 0,
+      "personas": {
+        "invest": 0,
+        "supply": 0,
+        "policy": 0,
+        "frontier": 0
+      },
+      "reason": "",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 20:31:08",
+      "titles": [
+        "十余家A股上市公司本周披露并购重组最新公告 神工股份拟全资控股半导体材料企业福建精工"
+      ],
+      "urls": [
+        "https://cj.sina.cn/articles/view/2868676035/aafc85c302001x2hw"
+      ],
+      "sources": [
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "Andhra Pradesh Cabinet clears Rs 29,021 crore investments, 601 acres for Google-linked AI data centre - The Times of India",
+      "score": 0,
+      "reader_score": 0,
+      "personas": {
+        "invest": 0,
+        "supply": 0,
+        "policy": 0,
+        "frontier": 0
+      },
+      "reason": "",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 19:31:08",
+      "titles": [
+        "Andhra Pradesh Cabinet clears Rs 29,021 crore investments, 601 acres for Google-linked AI data centre - The Times of India"
+      ],
+      "urls": [
+        "https://timesofindia.indiatimes.com/city/vijayawada/24_vij_sna_srikanth-cabinet/articleshow/133822130.cms"
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "美銀Hartnett驚爆「AI最大天敵」！不是輝達、不是需求 而是這場政治風暴…美股恐跌逾10％",
+      "score": 0,
+      "reader_score": 0,
+      "personas": {
+        "invest": 0,
+        "supply": 0,
+        "policy": 0,
+        "frontier": 0
+      },
+      "reason": "",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 16:01:08",
+      "titles": [
+        "美銀Hartnett驚爆「AI最大天敵」！不是輝達、不是需求 而是這場政治風暴…美股恐跌逾10％"
+      ],
+      "urls": [
+        "https://www.ctee.com.tw/news/20260906700426-430702"
+      ],
+      "sources": [
+        "ctee"
+      ]
+    },
+    {
+      "event": "Keysight Technologies: Powering India's 6G, AI and semiconductor ambitions",
+      "score": 0,
+      "reader_score": 0,
+      "personas": {
+        "invest": 0,
+        "supply": 0,
+        "policy": 0,
+        "frontier": 0
+      },
+      "reason": "",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 13:31:08",
+      "titles": [
+        "Keysight Technologies: Powering India's 6G, AI and semiconductor ambitions"
+      ],
+      "urls": [
+        "https://tele.net.in/companies/keysight-technologies-powering-indias-6g-ai-and-semiconductor-ambitions-12490603"
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "[ZD브리핑] ‘깜짝 빛날 시간’…애플 폴더블폰 공개",
+      "score": 0,
+      "reader_score": 0,
+      "personas": {
+        "invest": 0,
+        "supply": 0,
+        "policy": 0,
+        "frontier": 0
+      },
+      "reason": "",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 13:01:08",
+      "titles": [
+        "[ZD브리핑] ‘깜짝 빛날 시간’…애플 폴더블폰 공개"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260906121121"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "로보락, 2026년 상반기 매출 27.6% 성장 보고하며 글로벌 시장 선도 입지 강화",
+      "score": 0,
+      "reader_score": 0,
+      "personas": {
+        "invest": 0,
+        "supply": 0,
+        "policy": 0,
+        "frontier": 0
+      },
+      "reason": "",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 13:01:08",
+      "titles": [
+        "로보락, 2026년 상반기 매출 27.6% 성장 보고하며 글로벌 시장 선도 입지 강화"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260906111003"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "华为智选车产品总监彭磊谈享界V8的诞生，称家用车尽头是MPV",
+      "score": 0,
+      "reader_score": 0,
+      "personas": {
+        "invest": 0,
+        "supply": 0,
+        "policy": 0,
+        "frontier": 0
+      },
+      "reason": "",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 12:31:08",
+      "titles": [
+        "华为智选车产品总监彭磊谈享界V8的诞生，称家用车尽头是MPV"
+      ],
+      "urls": [
+        "https://tech.ifeng.com/c/8wByPHK0kt4"
+      ],
+      "sources": [
+        "ifeng"
+      ]
+    },
+    {
+      "event": "\"AI 모델 다음은 산업현장…韓, 피지컬 AI·에이전트 육성해야\"",
+      "score": 0,
+      "reader_score": 0,
+      "personas": {
+        "invest": 0,
+        "supply": 0,
+        "policy": 0,
+        "frontier": 0
+      },
+      "reason": "",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 10:30:08",
+      "titles": [
+        "\"AI 모델 다음은 산업현장…韓, 피지컬 AI·에이전트 육성해야\""
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260906074122"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "问界7天7000多公里极限实测，路程超95%由智能辅助驾驶完成",
+      "score": 0,
+      "reader_score": 0,
+      "personas": {
+        "invest": 0,
+        "supply": 0,
+        "policy": 0,
+        "frontier": 0
+      },
+      "reason": "",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 09:01:08",
+      "titles": [
+        "问界7天7000多公里极限实测，路程超95%由智能辅助驾驶完成"
+      ],
+      "urls": [
+        "https://tech.ifeng.com/c/8wBwTAGFJwk"
+      ],
+      "sources": [
+        "ifeng"
+      ]
+    },
+    {
+      "event": "HTC黄昭颖：手机很难再找到新的创新突破，眼下资源转向AI眼镜",
+      "score": 0,
+      "reader_score": 0,
+      "personas": {
+        "invest": 0,
+        "supply": 0,
+        "policy": 0,
+        "frontier": 0
+      },
+      "reason": "",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 08:01:08",
+      "titles": [
+        "HTC黄昭颖：手机很难再找到新的创新突破，眼下资源转向AI眼镜"
+      ],
+      "urls": [
+        "https://tech.ifeng.com/c/8wBFtLZwiSc"
+      ],
+      "sources": [
+        "ifeng"
+      ]
+    },
+    {
+      "event": "華爾街提高AI股預期門檻",
+      "score": 0,
+      "reader_score": 10,
+      "personas": {
+        "invest": 10,
+        "supply": 0,
+        "policy": 0,
+        "frontier": 0
+      },
+      "reason": "純金融市場觀點，非硬體/AI技術事件。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 01:01:08",
+      "titles": [
+        "We got more defensive last week as Wall Street raised the bar for AI stocks"
+      ],
+      "urls": [
+        "https://www.cnbc.com/2026/09/05/we-got-more-defensive-last-week-as-wall-street-raised-the-bar-for-ai-stocks.html"
+      ],
+      "sources": [
+        "cnbc"
+      ]
+    },
+    {
+      "event": "川普擁抱AI數據中心引發GOP政治風險",
+      "score": 0,
+      "reader_score": 10,
+      "personas": {
+        "invest": 5,
+        "supply": 0,
+        "policy": 10,
+        "frontier": 0
+      },
+      "reason": "政治議題，非半導體/AI產業技術或商業事件。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 00:01:08",
+      "titles": [
+        "Trump’s Embrace of AI Data Centers Adds to GOP’s Midterm Peril"
+      ],
+      "urls": [
+        "https://www.bloomberg.com/news/articles/2026-09-05/trump-s-embrace-of-ai-data-centers-adds-to-gop-s-midterm-peril"
+      ],
+      "sources": [
+        "bloomberg"
+      ]
+    },
+    {
+      "event": "蓋茨評論AI警告的準確性",
+      "score": 0,
+      "reader_score": 10,
+      "personas": {
+        "invest": 5,
+        "supply": 0,
+        "policy": 5,
+        "frontier": 10
+      },
+      "reason": "名人觀點，無具體產業技術或商業事件。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 15:31:08",
+      "titles": [
+        "盖茨的AI警告说对了一半 - 36 Kr"
+      ],
+      "urls": [
+        "https://www.36kr.com/p/3971565038458496"
+      ],
+      "sources": [
+        "36kr"
+      ]
+    },
+    {
+      "event": "AI資本支出可能衝擊印度企業利潤",
+      "score": 0,
+      "reader_score": 20,
+      "personas": {
+        "invest": 20,
+        "supply": 10,
+        "policy": 5,
+        "frontier": 0
+      },
+      "reason": "宏觀經濟與財務預測，非硬體/AI技術事件。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 13:31:08",
+      "titles": [
+        "India's cyclical recovery faces risks; oil supply shock, AI capex may hit corporate margins from Q2FY27: R - economictimes.com"
+      ],
+      "urls": [
+        "https://m.economictimes.com/news/economy/indicators/indias-cyclical-recovery-faces-risks-oil-supply-shock-ai-capex-may-hit-corporate-margins-from-q2fy27-report/articleshow/133792520.cms"
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "Gmarket推出ChatGPT插件商品搜尋",
+      "score": 0,
       "reader_score": 10,
       "personas": {
         "invest": 5,
@@ -3393,61 +3147,161 @@
         "policy": 0,
         "frontier": 10
       },
-      "reason": "一般企業招聘，無產業重大影響",
+      "reason": "電商軟體應用，非半導體/AI硬體產業事件。",
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-09-05 05:30:21",
+      "max_crawled_at": "2026-09-06 13:01:08",
       "titles": [
-        "Careers | OpenAI"
+        "챗GPT로 지마켓 상품 탐색…플러그인 서비스 선봬"
       ],
       "urls": [
-        "https://openai.com/careers/search/"
+        "https://zdnet.co.kr/view/?no=20260906105038"
       ],
       "sources": [
-        "india_electronics"
+        "zdkorea"
       ]
     },
     {
-      "event": "億緯锂能海外三期工廠開工",
+      "event": "手機廠商轉向高利潤策略",
+      "score": 0,
+      "reader_score": 15,
+      "personas": {
+        "invest": 15,
+        "supply": 10,
+        "policy": 0,
+        "frontier": 5
+      },
+      "reason": "消費電子商業策略，非上游半導體/AI技術。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 12:31:08",
+      "titles": [
+        "手机厂商开始算另一笔账：少卖一点，多赚一点"
+      ],
+      "urls": [
+        "https://tech.ifeng.com/c/8wC2vyvlM3c"
+      ],
+      "sources": [
+        "ifeng"
+      ]
+    },
+    {
+      "event": "任天堂Switch 2大量帳號被封原因成謎",
+      "score": 0,
+      "reader_score": 5,
+      "personas": {
+        "invest": 5,
+        "supply": 0,
+        "policy": 0,
+        "frontier": 0
+      },
+      "reason": "遊戲主機軟體/帳號問題，與半導體/AI無關。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 12:01:08",
+      "titles": [
+        "大量任天堂Switch 2突然被封！有玩家称只玩正版也中招 原因仍是谜"
+      ],
+      "urls": [
+        "https://tech.ifeng.com/c/8wC5q9ByMRy"
+      ],
+      "sources": [
+        "ifeng"
+      ]
+    },
+    {
+      "event": "觀點：亞太應避免成為美國AI發展的附庸",
       "score": 0,
       "reader_score": 20,
       "personas": {
         "invest": 10,
-        "supply": 20,
+        "supply": 5,
+        "policy": 20,
+        "frontier": 5
+      },
+      "reason": "純觀點評論，無具體產業事件或數據。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 11:01:08",
+      "titles": [
+        "亚太，不做美国AI的韭菜"
+      ],
+      "urls": [
+        "//www.sohu.com/a/1072293511_121375869"
+      ],
+      "sources": [
+        "sohu"
+      ]
+    },
+    {
+      "event": "硅谷老将投資中國世界模型公司",
+      "score": 0,
+      "reader_score": 20,
+      "personas": {
+        "invest": 20,
+        "supply": 5,
+        "policy": 10,
+        "frontier": 10
+      },
+      "reason": "風投行為，非硬體/AI基礎設施核心事件。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 09:01:08",
+      "titles": [
+        "押中SpaceX的硅谷老将，把票投给了一家中国世界模型公司"
+      ],
+      "urls": [
+        "https://tech.ifeng.com/c/8wAgavS7cks"
+      ],
+      "sources": [
+        "ifeng"
+      ]
+    },
+    {
+      "event": "台廠結盟AI外泌體瞄準再生醫學商機",
+      "score": 0,
+      "reader_score": 15,
+      "personas": {
+        "invest": 15,
+        "supply": 5,
+        "policy": 5,
+        "frontier": 10
+      },
+      "reason": "生技醫療領域，非電子硬體/AI核心。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 01:01:08",
+      "titles": [
+        "生技下一波看AI＋外泌體？4家台廠加速策略結盟瞄準再生醫學、長壽商機- 產業"
+      ],
+      "urls": [
+        "https://www.ctee.com.tw/news/20260905700419-430504"
+      ],
+      "sources": [
+        "ctee"
+      ]
+    },
+    {
+      "event": "觀點：AI繁榮下普通人賺錢變難的產業真相",
+      "score": 0,
+      "reader_score": 10,
+      "personas": {
+        "invest": 5,
+        "supply": 5,
         "policy": 10,
         "frontier": 5
       },
-      "reason": "主題為儲能/光伏，非電子硬體/半導體/AI核心領域。",
-      "coherent": false,
-      "size": 8,
-      "max_crawled_at": "2026-09-06 18:01:08",
+      "reason": "社會經濟評論，無具體硬體/AI事件。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-06 20:31:08",
       "titles": [
-        "储能救不了光伏巨头 | 产业家深度",
-        "年产38GWh储能电池！亿纬锂能海外三期工厂重磅开工",
-        "瑞浦兰钧精心打造的亮丽中报，其实只是一个幻象",
-        "光伏销冠再次易主，隆基押注的BC技术将成市场主流？",
-        "鹏辉能源半年狂揽8个亿，海外收入猛增157%，国际权威机构评出的户储全球第一是怎样炼成的 - 36 Kr",
-        "利润翻倍现金流却转负，亿纬锂能在赌什么？",
-        "技改BC　光伏厂寻新路"
+        "AI越火，普通人赚钱反而越难？“硅基繁荣”与“碳基衰退”背后的产业真相"
       ],
       "urls": [
-        "https://cj.sina.cn/articles/view/7831304310/1d2c83876019019j70",
-        "https://finance.sina.com.cn/roll/2026-09-06/doc-iniqwssv0069919.shtml",
-        "https://finance.sina.com.cn/roll/2026-09-06/doc-iniqwsss4158486.shtml",
-        "https://finance.sina.com.cn/roll/2026-09-06/doc-iniqwsss4158486.shtml",
-        "https://finance.sina.com.cn/roll/2026-09-05/doc-iniquimq3623104.shtml",
-        "https://www.36kr.com/p/3968527251035782",
-        "https://cj.sina.cn/articles/view/3684007222/db957d36001029o42",
-        "https://cj.sina.cn/articles/view/1641561812/61d83ed402701e0ks"
+        "https://finance.sina.com.cn/roll/2026-09-06/doc-iniqwwyw6339133.shtml"
       ],
       "sources": [
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "36kr",
-        "sina_finance",
         "sina_finance"
       ]
     }
