@@ -1,6 +1,6 @@
 # News Crawler
 
-Async news aggregator that crawls ~48 international tech/business sources (59 fetchers, counting OFweek's 11 verticals separately), deduplicates against a local JSONL archive, and writes HTML outputs. An AI analysis layer (`analyze_news.py` / `analyze_india.py` / `analyze_china.py` / `analyze_ai.py` + `analyze_semi.py`) scores and clusters events using local Ollama models.
+Async news aggregator that crawls ~49 international tech/business sources (60 fetchers, counting OFweek's 11 verticals separately), deduplicates against a local JSONL archive, and writes HTML outputs. An AI analysis layer (`analyze_news.py` / `analyze_india.py` / `analyze_china.py` / `analyze_korea.py` / `analyze_ai.py` + `analyze_semi.py`) scores and clusters events using local Ollama models.
 
 This repository publishes **outputs only** — the crawler/analysis code, the full archive and the scraped article bodies stay on the machine that runs them.
 
@@ -17,6 +17,7 @@ This repository publishes **outputs only** — the crawler/analysis code, the fu
 | `scmp.py` | South China Morning Post | Native RSS |
 | `thelec.py` | The Elec | Native RSS |
 | `zdkorea.py` | ZDNet Korea | Native RSS（韓文原標題）|
+| `businesskorea.py` | Business Korea | Native RSS × 4 個英文版面（Industries / Science & Technology / National / Finance & Market），過 `tech_filter` 電子業關鍵字閘 |
 | `36kr.py` | 36kr.com | Google News RSS |
 | `nikkei.py` | Nikkei Asia | Native RSS |
 | `livemint.py` | Livemint | Native RSS |
@@ -75,18 +76,20 @@ This repository publishes **outputs only** — the crawler/analysis code, the fu
 | `semiconductor.html` | 半導體重要新聞：**全部來源**近 2 日的 Top 18，依價值鏈環節分組後重要性降冪（`analyze_semi.py`，每 4 小時） |
 | `india.html` | 印度重要新聞：五家印度來源近 2 日、按**產業重要性**排序的 Top 18（`analyze_india.py`，每 12 小時） |
 | `china.html` | 中國重要新聞：12 家中國來源近 2 日、按**產業重要性**排序的 Top 18，國產替代／科技自主／降低外依／半導體加權（`analyze_china.py`，每 12 小時） |
+| `korea.html` | 韓國重要新聞：六家韓國來源近 2 日、按**產業重要性**排序的 Top 18，半導體／設備材料／電子政策／電池加權且硬體優於軟體（`analyze_korea.py`，每 4 小時）|
 | `analysis.json` | Machine-readable scored event list from the last analysis run |
 | `ai_analysis.json` | Machine-readable scored event list from the last AI analysis run |
 | `semi_analysis.json` | Machine-readable scored event list from the last semiconductor analysis run |
 | `india_analysis.json` | Machine-readable scored event list from the last India analysis run |
 | `china_analysis.json` | Machine-readable scored event list from the last China analysis run |
+| `korea_analysis.json` | Machine-readable scored event list from the last Korea analysis run |
 | `error_list.html` | Per-source error report from the last run (0-article sources included) |
 | `data/recent.csv` | Git-tracked 7-day slice pushed to GitHub (feeds analyze_news.py) |
 | `archive/YYYY-MM-DD.jsonl` | Full append-only local archive (git-ignored) |
 
 ## Source-level filters
 
-Two sources are noisy in ways a downstream AI score cannot fix, so they are gated at crawl time.
+Some sources are noisy in ways a downstream AI score cannot fix, so they are gated at crawl time.
 
 **Newsis — electronics-only keyword gate** (`newsis.is_electronics`). Its industry/economy
 RSS feeds are general business wires; a live sample was ~85% food / fashion / retail / hotel
@@ -95,9 +98,19 @@ vocabulary (半導體/디스플레이/스마트폰/배터리/AI/기업名…) or
 보조금·특별법…) that also carries an industry term and is not another sector's story. Pure
 regex — the pool is ~40 titles per run, so an LLM call per title would be all cost.
 
-**Chosun Biz — 7-day staleness gate** (`run_crawlers.STALE_FILTER_DOMAINS`). Its English IT
-section mixes months-old features into the listing (672 of 2228 stored articles, 30%). The
-publication date is parsed from the article URL (`/en/en-it/2026/08/15/…`); anything older
+**Business Korea — shared English tech gate** (`tech_filter.filter_articles`). Its English
+sections are a general business wire in exactly the sense the four wires below are: the
+Industries feed runs Celltrion bio and Korea Western Power next to Samsung memory. Measured
+keep rate 29/80 across the four subscribed sections. Which sections are subscribed, and why
+the Korean-language sections deliberately are not, is documented at the top of
+`businesskorea.py`.
+
+**Chosun Biz + Business Korea — 7-day staleness gate** (`run_crawlers.STALE_FILTER_DOMAINS`). Its English IT
+section mixes months-old features into the listing (672 of 2228 stored articles, 30%);
+Business Korea's Science & Technology section publishes only a few times a month, so its
+20-entry feed window reaches back ~3 months. The publication date is parsed from the article
+URL for Chosun Biz (`/en/en-it/2026/08/15/…`) and from the RSS `published` field for Business
+Korea; anything older
 than `STALE_AFTER_DAYS` (7) is still crawled, archived, exported to `data/recent.csv` and
 body-scraped — the corpus wants it — but is flagged `stale` and therefore **omitted from
 today.html and from the analyze_news / analyze_india input**, because ranking a 3-month-old
@@ -219,6 +232,38 @@ IDM 與整合元件／設備與材料／製程與技術突破／政策、貿易�
   否則同一件事會出現三種寫法）；四個加權軸用藍底色塊突顯，其餘灰底。
 - **輸出一律繁體**：來源大多是簡體，prompt 明確要求轉繁並禁止簡體字——不明講的話模型會直接吐簡體。
 
+## Korea Analysis (`analyze_korea.py`)
+
+第四支 `analyze_news` 的薄殼（`import analyze_news`，分群/嵌入/超合併/同名合併共用），輸出
+`korea.html`。結構上最接近 `analyze_china`（單一分數＋主題標籤＋強制繁體），Stage 1 的處理則
+跟 `analyze_india` 一樣。
+
+- **來源（六家，專案裡全部的韓國來源）**：The Elec、ZDNet Korea、Yonhap News、Chosun Biz、
+  Newsis 뉴시스、Business Korea。三家韓文、三家英文。
+- **視窗**：近 2 日 ｜ **頻度**：每 4 小時（`news_analyze_korea.timer`，00:45 / 04:45 / 08:45 /
+  12:45 / 16:45 / 20:45 TW）
+- **排程為什麼是偶數點 :45**：使用者要求「與其他 AI 排序錯開避免記憶體及 GPU 壓力」。ai 固定在
+  奇數點 :45、semi 在奇數點+2 :45（相距 2 小時），偶數點 :45 正好是兩者的中點，三份 4 小時報告
+  於是各自前後淨空 1 小時；而 :45 本身是 `recent.csv` 的安全讀取窗（`news_crawler` 在 :00/:30
+  非原子地重寫它，讀到一半不會報錯、只會產出很薄的報告），所以和另外四支一樣不設
+  `RandomizedDelaySec`。`news_analyze`（每 2 小時）起於偶數點 :15、約 :28 結束，不相撞。
+- **Stage 1 中文關鍵字過濾跳過**（同 `analyze_india`，與 `analyze_china` 相反）：來源是韓文與
+  英文，`analyze_news` 的中文正則命中率 0。匯率／KOSPI／消費電子促銷這類雜訊改由 prescreen 的
+  `relevant` gate 擋。
+- **只評產業重要性單一分數**——沒有讀者關注度／四種 persona，所以頁面沒有排序切換鈕
+- **評分階梯（使用者指定，硬體優於軟體）**：半導體（記憶體・代工・先進封裝・晶片設計）+12；
+  半導體設備與材料（소부장：機台・晶圓・光阻・前驅物・基板・特氣）+10；重大電子政策（半導體/
+  電池特別法、稅額扣抵、研發工時豁免、叢集用地電力、出口管制與外國規則）+9；電池與電池材料 +7；
+  AI 算力與硬體 +6；面板／零組件／終端 +5；鄰接工業 +3；**AI 模型／軟體／網路平台只有 +1**。
+  階梯之後還有一條明寫的 tie-break：兩則分數接近時，講實體製造（晶片、機台、材料、電池、廠房）
+  的排在講模型／App／平台的前面——只靠加權數字，模型仍會把大型模型發表排到晶圓廠決策前面。
+  另有「具體已承諾事件 +5／空泛展望 −5」、「大額投資或一線業者 +5」、「政策拍板 +5／僅表態 −3」。
+- **主題標籤**：模型從 `ALLOWED_TAGS` 固定清單挑 0-3 個（集合外的自創標籤一律丟棄）；七個硬體與
+  政策軸用藍底色塊突顯，其餘灰底。
+- **輸出一律繁體**：來源是韓文與英文，模型手上沒有中文原文可抄，繁簡全靠自己，prompt 講了仍會漏，
+  所以 `event`／`reason` 再過一次 OpenCC `s2twp`（同 `analyze_china` / `analyze_topic`）。
+
+
 ## Setup
 
 ```bash
@@ -247,6 +292,11 @@ venv/bin/python analyze_china.py --days 2
 # Stage 1 filter counts only — no LLM, no GPU, no output files
 venv/bin/python analyze_china.py --dry-run
 
+# Korea-only ranking (writes korea.html + korea_analysis.json)
+venv/bin/python analyze_korea.py --days 2
+# Per-source row counts only — no LLM, no GPU, no output files
+venv/bin/python analyze_korea.py --dry-run
+
 # Topic reports over ALL sources (writes ai.html / semiconductor.html + their JSON)
 venv/bin/python analyze_ai.py --days 2
 venv/bin/python analyze_semi.py --days 2
@@ -266,6 +316,7 @@ Each crawler module returns `list[dict]` with `title` + `url` (plus optional `co
 `published`); `run_crawlers._wrap` adds `domain` and `crawled_at` and is where the staleness
 flag is set.
 
-Korean sources (ZDNet Korea, Newsis, Yonhap) keep their **original Korean titles**. The
+Korean-language sources (ZDNet Korea, Newsis, The Elec) keep their **original Korean
+titles**; Yonhap, Chosun Biz and Business Korea are crawled from their English editions. The
 crawl-time Ollama translation was dropped in 2026-07 to spare GPU time — translate in-browser
 instead.
