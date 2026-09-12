@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-13 00:45:37",
+  "generated": "2026-09-13 04:45:37",
   "window_days": 2,
   "sources": [
     "businesskorea",
@@ -9,18 +9,18 @@
     "yonhap",
     "zdkorea"
   ],
-  "input_titles": 37,
+  "input_titles": 38,
   "events": 6,
   "timings_seconds": {
-    "stage1_cluster": 7.8,
-    "stage2_name_score": 22.9,
-    "total": 30.7
+    "stage1_cluster": 8.3,
+    "stage2_name_score": 23.0,
+    "total": 31.4
   },
   "stories": [
     {
-      "event": "Q2全球前十大設計公司營收激增",
-      "score": 50,
-      "reason": "反映全球晶片需求復甦，間接影響韓國記憶體與代工訂單預期。",
+      "event": "韓製片商Q2營收暴增73% AMD躍居第三",
+      "score": 65,
+      "reason": "本土設計業態勢強勁，打破國際巨頭壟斷格局。",
       "tags": [
         "半導體"
       ],
@@ -32,6 +32,26 @@
       ],
       "urls": [
         "https://zdnet.co.kr/view/?no=20260911215419"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "AI算力需求驅動地方資料中心擴建",
+      "score": 50,
+      "reason": "基礎設施建設擴張，帶動相關硬體與電力需求。",
+      "tags": [
+        "AI算力"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-12 16:00:49",
+      "titles": [
+        "데이터 쫓아 지방 간다…제조 AI 거점 확산"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260912092518"
       ],
       "sources": [
         "zdkorea"
@@ -58,52 +78,9 @@
       ]
     },
     {
-      "event": "製造業AI據點向地方擴散趨勢",
-      "score": 35,
-      "reason": "屬基礎設施佈局趨勢，對核心半導體製程影響較間接。",
-      "tags": [
-        "AI算力"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-12 16:00:49",
-      "titles": [
-        "데이터 쫓아 지방 간다…제조 AI 거점 확산"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260912092518"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "iPhone 18預約開跑引發價格戰",
-      "score": 20,
-      "reason": "屬消費端銷售活動，非韓國產業核心技術或產能變動。",
-      "tags": [
-        "電子政策"
-      ],
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-09-12 08:30:27",
-      "titles": [
-        "200만원 아이폰18 오늘부터 예약...통신 3사 할인 경쟁",
-        "\"제대로 모시겠습니다\" 이마트, 아이폰18 사전예약 혜택 총공세"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260911212856",
-        "https://www.newsis.com/view/NISX20260911_0003786523"
-      ],
-      "sources": [
-        "zdkorea",
-        "newsis"
-      ]
-    },
-    {
-      "event": "蘋果預測摺疊手機市佔達24.8%",
-      "score": 15,
-      "reason": "屬市場預測與消費電子趨勢，對韓國製造供應鏈直接衝擊有限。",
+      "event": "蘋果摺疊機市佔預測引關注",
+      "score": 10,
+      "reason": "屬市場預測與消費電子趨勢，對韓國製造供應鏈無直接衝擊。",
       "tags": [
         "顯示面板"
       ],
@@ -122,8 +99,8 @@
     },
     {
       "event": "Databricks強化韓國AI安全防禦",
-      "score": 10,
-      "reason": "屬軟體服務層面，對硬體供應鏈影響極低。",
+      "score": 5,
+      "reason": "屬軟體服務層面，對硬體供應鏈影響極微。",
       "tags": [
         "AI軟體"
       ],
@@ -138,6 +115,27 @@
       ],
       "sources": [
         "chosunbiz"
+      ]
+    },
+    {
+      "event": "iPhone 18預約開跑引發銷售熱潮",
+      "score": 0,
+      "reason": "純消費零售行為，無半導體或製造業關聯性。",
+      "tags": [],
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-09-12 08:30:27",
+      "titles": [
+        "200만원 아이폰18 오늘부터 예약...통신 3사 할인 경쟁",
+        "\"제대로 모시겠습니다\" 이마트, 아이폰18 사전예약 혜택 총공세"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260911212856",
+        "https://www.newsis.com/view/NISX20260911_0003786523"
+      ],
+      "sources": [
+        "zdkorea",
+        "newsis"
       ]
     }
   ]
