@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-20 12:45:37",
+  "generated": "2026-09-20 16:45:01",
   "window_days": 2,
   "sources": [
     "businesskorea",
@@ -9,21 +9,20 @@
     "yonhap",
     "zdkorea"
   ],
-  "input_titles": 103,
-  "events": 18,
+  "input_titles": 112,
+  "events": 21,
   "timings_seconds": {
-    "stage1_cluster": 10.6,
-    "stage2_name_score": 54.3,
-    "total": 64.9
+    "stage1_cluster": 17.9,
+    "stage2_name_score": 77.8,
+    "total": 95.7
   },
   "stories": [
     {
-      "event": "9大企業研究所81人獲AI兵役特例",
-      "score": 72,
-      "reason": "半導體人才短缺下，兵役特例具實質擴產助益。",
+      "event": "이공계 대기업 연구소 AI 병역특례 선정",
+      "score": 85,
+      "reason": "핵심 인재 확보 정책은 산업 구조에 영향 큼",
       "tags": [
-        "電子政策",
-        "半導體"
+        "AI算力"
       ],
       "coherent": true,
       "size": 2,
@@ -42,34 +41,228 @@
       ]
     },
     {
-      "event": "TSMC主導2028年AI晶片封裝",
-      "score": 65,
-      "reason": "反映韓國在先進封裝領域面臨的競爭壓力。",
+      "event": "Synopsys併購Ansys解決散熱",
+      "score": 75,
+      "reason": "EDA巨頭併購，重塑晶片設計與散熱模擬產業鏈。",
       "tags": [
-        "半導體",
+        "半導體設備",
         "供應鏈"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-09-19 07:31:36",
+      "max_crawled_at": "2026-09-20 05:30:36",
       "titles": [
-        "\"TSMC, 2028년까지 AI칩 패키징 독주\""
+        "Synopsys-Ansys fusion tackles AI chip heat with system-level simulation"
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20260918221337"
+        "https://biz.chosun.com/en/en-it/2026/09/20/3QJ4CL6BT5EMNHZ4EJHAKO7JBA/"
+      ],
+      "sources": [
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "삼성디스플레이 CSOT 특허 무효심판 청구",
+      "score": 60,
+      "reason": "핵심 기술 분쟁은 시장 지위에 직접적 영향",
+      "tags": [
+        "顯示面板",
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-19 05:00:36",
+      "titles": [
+        "삼성디스플레이, CSOT 美특허 3건에 무효심판 청구...침해소송 대응"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260919024257"
       ],
       "sources": [
         "zdkorea"
       ]
     },
     {
-      "event": "三星電子推動AI機器人戰略",
-      "score": 60,
-      "reason": "高層戰略宣示，雖涉及AI但無具體產能或訂單。",
+      "event": "삼성 엑시노스 스마트폰 AP 점유율 상승",
+      "score": 45,
+      "reason": "AP 시장 회복은 경쟁력 지표로 중요",
+      "tags": [],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-20 09:00:36",
+      "titles": [
+        "'엑시노스 부활' 2분기 삼성 스마트폰 AP 점유율 9%…2년 만에 최고치"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260918180946"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "국정원 보안 제품 국가 납품 문호 확대",
+      "score": 45,
+      "reason": "공공 시장 개방은 공급망에 영향 있으나 제한적",
+      "tags": [],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-20 14:30:36",
+      "titles": [
+        "국정원, 보안 제품 국가·공공기관 납품 문호 확대"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260920145930"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "Sentron與清華大學簽R&D合作",
+      "score": 45,
+      "reason": "裝置商研發合作，具產業意義但非重大擴產。",
       "tags": [
-        "半導體",
+        "半導體設備"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-19 10:00:36",
+      "titles": [
+        "센트론, 칭화대학교와 R&D 협력 계약 체결"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260919091002"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "글로벌 반도체 시장 1조6천억 달러 전망",
+      "score": 40,
+      "reason": "시장 규모 전망은 중요하나 구체적 사건 아님",
+      "tags": [],
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-09-20 14:00:47",
+      "titles": [
+        "Global chip market projected to exceed $1.6 tln this year despite AI slowdown concerns: report",
+        "\"TSMC, 2028년까지 AI칩 패키징 독주\""
+      ],
+      "urls": [
+        "https://en.yna.co.kr/view/AEN20260920002500320",
+        "https://zdnet.co.kr/view/?no=20260918221337"
+      ],
+      "sources": [
+        "yonhap",
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "한국 AI 투자 상위 10곳 중 74.5% 점유",
+      "score": 30,
+      "reason": "투자 집중도는 중요하나 구체적 사건 아님",
+      "tags": [
         "AI算力"
       ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-19 12:00:36",
+      "titles": [
+        "[AI는 지금] AI 투자, 오픈AI·앤트로픽에 몰렸다…韓도 상위 10곳 74.5% 점유"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260918182257"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "展示高負荷運轉人形機器人",
+      "score": 30,
+      "reason": "機器人技術展示，屬工業應用範疇，具潛在影響。",
+      "tags": [
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-19 10:00:36",
+      "titles": [
+        "[영상] 하루 20시간·23kg 짐 계속 나르는 휴머노이드 로봇"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260918191540"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "한국 로봇 밀도 세계 1위",
+      "score": 25,
+      "reason": "로봇 산업은 반도체 직접 영향 미미",
+      "tags": [],
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-09-20 09:00:36",
+      "titles": [
+        "로봇 밀도 세계 1위 한국…공장 데이터 활용은 평균 밑돌아",
+        "공장이 AI 데이터 학습장으로…제조업 피지컬 AI 경쟁 불붙는다"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260919123902",
+        "https://zdnet.co.kr/view/?no=20260918224315"
+      ],
+      "sources": [
+        "zdkorea",
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "페로브스카이트 표면 처리 효율 개선",
+      "score": 20,
+      "reason": "소재 연구는 구체적 사건이나 영향력 제한적",
+      "tags": [],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-20 14:30:36",
+      "titles": [
+        "페로브스카이트 표면에 PDI 입혀 효율 개선"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260920130056"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "IoT模組市場LTE仍主導地位",
+      "score": 20,
+      "reason": "市場趨勢分析，非重大產業事件或政策變動。",
+      "tags": [
+        "電子政策"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-20 09:00:36",
+      "titles": [
+        "IoT 모듈은 LTE 방식이 주도...5G는 이제 시작"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260920071848"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "삼성전자 노조 내홍 격화",
+      "score": 15,
+      "reason": "노사 관계는 산업 구조적 영향 미미",
+      "tags": [],
       "coherent": false,
       "size": 6,
       "max_crawled_at": "2026-09-20 11:00:36",
@@ -99,77 +292,73 @@
       ]
     },
     {
-      "event": "三星Exynos AP市佔回升至9%",
-      "score": 58,
-      "reason": "手機AP市佔微幅回升，對整體半導體格局影響有限。",
+      "event": "2030년 RGB LED TV 출하량 OLED 역전 전망",
+      "score": 15,
+      "reason": "장기 전망은 구체적 사건이나 영향력 불확실",
       "tags": [
-        "半導體",
-        "供應鏈"
+        "顯示面板"
       ],
-      "coherent": false,
-      "size": 2,
-      "max_crawled_at": "2026-09-20 09:00:36",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-19 13:31:36",
       "titles": [
-        "'엑시노스 부활' 2분기 삼성 스마트폰 AP 점유율 9%…2년 만에 최고치",
-        "AI가 밀어올린 스마트폰 가격, 신흥국 인터넷 보급 급제동"
+        "\"2030년 RGB LED TV 출하량, OLED TV 웃돌 가능성\""
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20260918180946",
-        "https://zdnet.co.kr/view/?no=20260919084130"
+        "https://zdnet.co.kr/view/?no=20260919122814"
       ],
       "sources": [
-        "zdkorea",
         "zdkorea"
       ]
     },
     {
-      "event": "三星顯示無效CSOT美專利",
-      "score": 55,
-      "reason": "專利訴訟影響技術授權與市場准入，具戰略意義。",
+      "event": "華為發布OceanStor M900儲存",
+      "score": 15,
+      "reason": "華為硬體發布，對韓國供應鏈直接影響有限。",
       "tags": [
-        "顯示面板",
-        "供應鏈"
+        "AI算力"
       ],
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-09-19 05:00:36",
       "titles": [
-        "삼성디스플레이, CSOT 美특허 3건에 무효심판 청구...침해소송 대응"
+        "화웨이, 초대형 데이터센터 AI 추론 가속 위한 OceanStor M900 Context Memory Storage 공개"
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20260919024257"
+        "https://zdnet.co.kr/view/?no=20260919001003"
       ],
       "sources": [
         "zdkorea"
       ]
     },
     {
-      "event": "Synopsys併購Ansys攻克散熱難",
-      "score": 50,
-      "reason": "EDA巨頭合併影響設計工具生態，間接關聯AI晶片。",
+      "event": "SK SOVAC推出AI社會貢獻平臺",
+      "score": 10,
+      "reason": "企業CSR與軟體應用，對核心電子產業影響極微。",
       "tags": [
-        "半導體設備",
-        "AI算力"
+        "AI軟體"
       ],
       "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-20 05:30:36",
+      "size": 2,
+      "max_crawled_at": "2026-09-20 09:31:36",
       "titles": [
-        "Synopsys-Ansys fusion tackles AI chip heat with system-level simulation"
+        "SK SOVAC, '지역 미래' 해법 찾는다…AI 활용 사회공헌 평가 플랫폼 첫 공개",
+        "\"보이스피싱 잡고 취약계층 살피고\"...SKT가 선보이는 생활 속 AI"
       ],
       "urls": [
-        "https://biz.chosun.com/en/en-it/2026/09/20/3QJ4CL6BT5EMNHZ4EJHAKO7JBA/"
+        "https://www.newsis.com/view/NISX20260920_0003796982",
+        "https://zdnet.co.kr/view/?no=20260920082219"
       ],
       "sources": [
-        "chosunbiz"
+        "newsis",
+        "zdkorea"
       ]
     },
     {
-      "event": "LG Innotek AI最佳化零件選型",
-      "score": 45,
-      "reason": "僅為內部效率提升，非產業級重大突破。",
+      "event": "LG이노텍 AI 부품 탐색 도입",
+      "score": 5,
+      "reason": "LG이노텍의 AI 활용 소식만 반영",
       "tags": [
-        "供應鏈",
         "AI軟體"
       ],
       "coherent": false,
@@ -198,115 +387,9 @@
       ]
     },
     {
-      "event": "特朗普預告創設AI Force",
-      "score": 45,
-      "reason": "美國政治動向，潛在影響出口管制與供應鏈。",
-      "tags": [
-        "電子政策",
-        "AI算力"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-20 11:00:36",
-      "titles": [
-        "트럼프, 'AI 포스' 창설 예고…\"산업 성장 막지 않을 것\""
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260920071004"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "Centron與清華大學簽R&D合作備忘錄",
-      "score": 45,
-      "reason": "韓廠與中國高校研發合作，涉及技術交流。",
-      "tags": [
-        "半導體設備",
-        "擴產投資"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-19 10:00:36",
-      "titles": [
-        "센트론, 칭화대학교와 R&D 협력 계약 체결"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260919091002"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "2030年RGB LED TV銷量恐超OLED",
-      "score": 40,
-      "reason": "市場預測，反映技術路線競爭趨勢。",
-      "tags": [
-        "顯示面板"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-19 13:31:36",
-      "titles": [
-        "\"2030년 RGB LED TV 출하량, OLED TV 웃돌 가능성\""
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260919122814"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "韓國機器人密度全球第一",
-      "score": 35,
-      "reason": "整體製造業統計，未具體指向半導體產線自動化突破。",
-      "tags": [
-        "半導體設備"
-      ],
-      "coherent": false,
-      "size": 2,
-      "max_crawled_at": "2026-09-20 09:00:36",
-      "titles": [
-        "로봇 밀도 세계 1위 한국…공장 데이터 활용은 평균 밑돌아",
-        "공장이 AI 데이터 학습장으로…제조업 피지컬 AI 경쟁 불붙는다"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260919123902",
-        "https://zdnet.co.kr/view/?no=20260918224315"
-      ],
-      "sources": [
-        "zdkorea",
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "韓資佔AI投資額74.5%",
-      "score": 30,
-      "reason": "資金流向統計，反映市場熱度但非實體產能變動。",
-      "tags": [
-        "AI算力",
-        "供應鏈"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-19 12:00:36",
-      "titles": [
-        "[AI는 지금] AI 투자, 오픈AI·앤트로픽에 몰렸다…韓도 상위 10곳 74.5% 점유"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260918182257"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "LS集團推動AI事業化",
-      "score": 25,
-      "reason": "企業內部轉型策略，非產業級重大事件。",
+      "event": "LS 회장 AI 사업화 강조",
+      "score": 5,
+      "reason": "경영진 발언은 구체적 사건이나 영향력 낮음",
       "tags": [
         "AI軟體"
       ],
@@ -330,12 +413,10 @@
       ]
     },
     {
-      "event": "韓電子通訊業上半年平均月薪達943萬韓元",
-      "score": 25,
-      "reason": "半導體績效獎金推高薪資，反映產業景氣。",
-      "tags": [
-        "供應鏈"
-      ],
+      "event": "전자·통신업 근로자 상반기 평균 월급",
+      "score": 0,
+      "reason": "노동 통계는 산업 영향력 없음",
+      "tags": [],
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-09-20 11:00:36",
@@ -350,55 +431,28 @@
       ]
     },
     {
-      "event": "三星無眼鏡3D顯示技術亮相",
-      "score": 20,
-      "reason": "娛樂應用展示，非產業核心技術或產能變動。",
-      "tags": [
-        "顯示面板"
-      ],
-      "coherent": true,
+      "event": "미중 정상회담 및 추석 전 이슈",
+      "score": 0,
+      "reason": "일반 뉴스는 산업 영향력 없음",
+      "tags": [],
+      "coherent": false,
       "size": 1,
-      "max_crawled_at": "2026-09-20 10:30:51",
+      "max_crawled_at": "2026-09-20 14:30:36",
       "titles": [
-        "Everland debuts Samsung glasses-free 3D signage to amp Blood City scares"
+        "[ZD브리핑] 미중 정상회담·김범수 항소심 결심…추석 앞 산업·IT 이슈는"
       ],
       "urls": [
-        "https://biz.chosun.com/en/en-it/2026/09/20/TON2PZHF7JF4PFX6U52MIQPLXQ/"
+        "https://zdnet.co.kr/view/?no=20260920130102"
       ],
       "sources": [
-        "chosunbiz"
+        "zdkorea"
       ]
     },
     {
-      "event": "LG CNS最佳化競賽解決造船效率",
-      "score": 15,
-      "reason": "特定產業應用案例，對電子核心供應鏈影響極小。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-09-20 11:00:36",
-      "titles": [
-        "조선소 작업장 효율 높일 해법 겨뤘다…LG CNS, 글로벌 최적화 경연 성료",
-        "LG CNS expands Korea optimization contest as global teams tackle shipyard challenge"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260920072112",
-        "https://biz.chosun.com/en/en-it/2026/09/20/ZVCCEOZXCRC53NTTPE4CMZ7QIM/"
-      ],
-      "sources": [
-        "zdkorea",
-        "chosunbiz"
-      ]
-    },
-    {
-      "event": "專家解析AI資料中心本質",
-      "score": 10,
-      "reason": "觀點評論，無具體產業動態或政策變動。",
-      "tags": [
-        "AI算力"
-      ],
+      "event": "AI 데이터센터 본질에 대한 분석",
+      "score": 0,
+      "reason": "분석 기고는 산업 사건이 아님",
+      "tags": [],
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-09-19 14:30:36",
@@ -407,26 +461,6 @@
       ],
       "urls": [
         "https://zdnet.co.kr/view/?no=20260919140654"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "IoT模組市場LTE主導，5G剛起步",
-      "score": 10,
-      "reason": "技術趨勢分析，對製造業直接影響有限。",
-      "tags": [
-        "電子政策"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-20 09:00:36",
-      "titles": [
-        "IoT 모듈은 LTE 방식이 주도...5G는 이제 시작"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260920071848"
       ],
       "sources": [
         "zdkorea"
