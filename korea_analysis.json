@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21 00:45:00",
+  "generated": "2026-09-21 04:45:01",
   "window_days": 2,
   "sources": [
     "businesskorea",
@@ -9,22 +9,92 @@
     "yonhap",
     "zdkorea"
   ],
-  "input_titles": 93,
-  "events": 19,
+  "input_titles": 95,
+  "events": 16,
   "timings_seconds": {
-    "stage1_cluster": 10.7,
-    "stage2_name_score": 45.6,
-    "total": 56.3
+    "stage1_cluster": 13.2,
+    "stage2_name_score": 48.6,
+    "total": 61.7
   },
   "stories": [
     {
-      "event": "9大企業獲AI兵役特例",
-      "score": 65,
-      "reason": "半導體人才短缺緩解之關鍵政策，影響產業人力結構",
+      "event": "長鑫儲存量產五代DRAM挑戰韓廠",
+      "score": 75,
+      "reason": "中國競爭對手技術追平，直接衝擊韓國記憶體市場地位。",
       "tags": [
-        "電子政策"
+        "記憶體",
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-20 17:30:36",
+      "titles": [
+        "China's CXMT launches 5th-gen DRAM mass production, touts parity with leaders"
+      ],
+      "urls": [
+        "https://biz.chosun.com/en/en-it/2026/09/20/KIJCJ3IXLFHSJNIS56ALN5TGZA/"
+      ],
+      "sources": [
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "特朗普預告成立AI部隊推動產業",
+      "score": 70,
+      "reason": "美國政治人物政策預示可能影響全球AI與貿易環境。",
+      "tags": [
+        "電子政策",
+        "AI算力"
       ],
       "coherent": false,
+      "size": 3,
+      "max_crawled_at": "2026-09-21 00:00:36",
+      "titles": [
+        "트럼프, 'AI 포스' 창설 예고…\"산업 성장 막지 않을 것\"",
+        "[최경진의 未來法道] 프런티어 AI 시대, 한국 답은 검증 가능한 가속",
+        "[ZD브리핑] 미중 정상회담·김범수 항소심 결심…추석 앞 산업·IT 이슈는"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260920071004",
+        "https://zdnet.co.kr/view/?no=20260920224904",
+        "https://zdnet.co.kr/view/?no=20260920130102"
+      ],
+      "sources": [
+        "zdkorea",
+        "zdkorea",
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "SK海力士副會長親赴中國佈局",
+      "score": 65,
+      "reason": "高層人事變動反映地緣政治下供應鏈策略調整。",
+      "tags": [
+        "半導體",
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-20 04:00:36",
+      "titles": [
+        "SK하이닉스, '중국통' 부회장 전진 배치…中 현지 반도체 전략은"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20260918_0003795244"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "韓國選定81人獲AI兵役特例資格",
+      "score": 60,
+      "reason": "具體人才政策落地，緩解半導體業人力短缺。",
+      "tags": [
+        "電子政策",
+        "供應鏈"
+      ],
+      "coherent": true,
       "size": 2,
       "max_crawled_at": "2026-09-20 12:31:36",
       "titles": [
@@ -41,31 +111,33 @@
       ]
     },
     {
-      "event": "Synopsys併購Ansys解決散熱",
+      "event": "京東方明確半導體封裝策略引關注",
       "score": 60,
-      "reason": "EDA巨頭合併改變設計工具生態，影響晶片開發流程",
+      "reason": "面板廠跨足封裝，顯示供應鏈結構潛在變化。",
       "tags": [
-        "半導體設備"
+        "半導體設備",
+        "供應鏈"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-09-20 05:30:36",
+      "max_crawled_at": "2026-09-21 04:30:36",
       "titles": [
-        "Synopsys-Ansys fusion tackles AI chip heat with system-level simulation"
+        "\"BOE, 반도체 패키징 전략 분명...삼성·LGD 관심은 중간\""
       ],
       "urls": [
-        "https://biz.chosun.com/en/en-it/2026/09/20/3QJ4CL6BT5EMNHZ4EJHAKO7JBA/"
+        "https://zdnet.co.kr/view/?no=20260921014801"
       ],
       "sources": [
-        "chosunbiz"
+        "zdkorea"
       ]
     },
     {
-      "event": "三星電子AI與機器人戰略",
+      "event": "三星矽谷論壇推廣AI與機器人戰略",
       "score": 55,
-      "reason": "龍頭企業技術方向宣示，影響供應鏈信心",
+      "reason": "聚焦AI硬體戰略發布，具方向性意義。",
       "tags": [
-        "半導體"
+        "AI算力",
+        "擴產投資"
       ],
       "coherent": false,
       "size": 5,
@@ -93,9 +165,63 @@
       ]
     },
     {
-      "event": "三星Exynos手機AP市佔回升",
+      "event": "新思科技併安世解決AI晶片散熱",
       "score": 50,
-      "reason": "自研晶片設計能力復甦，具競爭意義",
+      "reason": "EDA/M&A整合有助先進製程設計，但屬軟體層面。",
+      "tags": [
+        "半導體設備",
+        "AI算力"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-20 05:30:36",
+      "titles": [
+        "Synopsys-Ansys fusion tackles AI chip heat with system-level simulation"
+      ],
+      "urls": [
+        "https://biz.chosun.com/en/en-it/2026/09/20/3QJ4CL6BT5EMNHZ4EJHAKO7JBA/"
+      ],
+      "sources": [
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "LG Innotek匯入AI最佳化零件選型",
+      "score": 45,
+      "reason": "企業內部效率提升，對產業鏈影響較小。",
+      "tags": [
+        "AI軟體",
+        "供應鏈"
+      ],
+      "coherent": false,
+      "size": 5,
+      "max_crawled_at": "2026-09-20 11:00:36",
+      "titles": [
+        "LG이노텍 \"AI가 최적 부품 찾는다\"…견적 산출 시간 70% 줄여",
+        "LG이노텍, AI로 '최적 부품' 탐색…견적 산출 시간 70% 줄였다",
+        "LG Innotek deploys AI system to speed parts selection and cut costs",
+        "LG전자, AI 데이터센터 맞춤형 '터보 칠러' 신제품 출시",
+        "LG Electronics debuts oil-free turbo chiller to cut AI data center power"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20260920_0003796989",
+        "https://zdnet.co.kr/view/?no=20260920092558",
+        "https://biz.chosun.com/en/en-it/2026/09/20/4AHYV7VP5VCM7GJVN7C7ZSNR7E/",
+        "https://www.newsis.com/view/NISX20260920_0003797016",
+        "https://biz.chosun.com/en/en-it/2026/09/20/TZI6UTWO7VEB3L7M4KJANABEDE/"
+      ],
+      "sources": [
+        "newsis",
+        "zdkorea",
+        "chosunbiz",
+        "newsis",
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "三星Exynos AP市佔率創2年新高",
+      "score": 45,
+      "reason": "AP市佔回升反映設計競爭力，但非核心製程突破。",
       "tags": [
         "半導體"
       ],
@@ -113,179 +239,9 @@
       ]
     },
     {
-      "event": "長存CXMT量產五代DRAM",
-      "score": 45,
-      "reason": "中國競爭對手技術突破，影響市場格局",
-      "tags": [
-        "記憶體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-20 17:30:36",
-      "titles": [
-        "China's CXMT launches 5th-gen DRAM mass production, touts parity with leaders"
-      ],
-      "urls": [
-        "https://biz.chosun.com/en/en-it/2026/09/20/KIJCJ3IXLFHSJNIS56ALN5TGZA/"
-      ],
-      "sources": [
-        "chosunbiz"
-      ]
-    },
-    {
-      "event": "LG電子推AI資料中心冷卻機",
+      "event": "LS集團會長強調AI製造生產力",
       "score": 40,
-      "reason": "針對AI基礎設施之關鍵零元件創新",
-      "tags": [
-        "AI算力"
-      ],
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-09-20 10:00:36",
-      "titles": [
-        "LG Electronics debuts oil-free turbo chiller to cut AI data center power",
-        "LG전자, AI 데이터센터 맞춤형 '터보 칠러' 신제품 출시"
-      ],
-      "urls": [
-        "https://biz.chosun.com/en/en-it/2026/09/20/TZI6UTWO7VEB3L7M4KJANABEDE/",
-        "https://www.newsis.com/view/NISX20260920_0003797016"
-      ],
-      "sources": [
-        "chosunbiz",
-        "newsis"
-      ]
-    },
-    {
-      "event": "全球晶片市場規模破兆美元",
-      "score": 40,
-      "reason": "宏觀市場資料，反映產業整體景氣與需求趨勢",
-      "tags": [
-        "半導體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-20 14:00:47",
-      "titles": [
-        "Global chip market projected to exceed $1.6 tln this year despite AI slowdown concerns: report"
-      ],
-      "urls": [
-        "https://en.yna.co.kr/view/AEN20260920002500320"
-      ],
-      "sources": [
-        "yonhap"
-      ]
-    },
-    {
-      "event": "LG Innotek匯入AI最佳化報價",
-      "score": 35,
-      "reason": "龍頭企業內部效率提升，具示範效應但非產業級突破",
-      "tags": [
-        "供應鏈"
-      ],
-      "coherent": false,
-      "size": 7,
-      "max_crawled_at": "2026-09-20 19:31:36",
-      "titles": [
-        "LG이노텍 \"AI가 최적 부품 찾는다\"…견적 산출 시간 70% 줄여",
-        "LG이노텍, AI로 '최적 부품' 탐색…견적 산출 시간 70% 줄였다",
-        "LG Innotek deploys AI system to speed parts selection and cut costs",
-        "\"투수 제구력 AI로 예측\"…LG, 청년 AI 인재 96명 실력 겨뤘다",
-        "조선소 작업장 효율 높일 해법 겨뤘다…LG CNS, 글로벌 최적화 경연 성료",
-        "'LG 스파크 2026' 성료…\"AI 미래 혁신 방향성 제시\"",
-        "LG CNS expands Korea optimization contest as global teams tackle shipyard challenge"
-      ],
-      "urls": [
-        "https://www.newsis.com/view/NISX20260920_0003796989",
-        "https://zdnet.co.kr/view/?no=20260920092558",
-        "https://biz.chosun.com/en/en-it/2026/09/20/4AHYV7VP5VCM7GJVN7C7ZSNR7E/",
-        "https://zdnet.co.kr/view/?no=20260920121240",
-        "https://zdnet.co.kr/view/?no=20260920072112",
-        "https://www.newsis.com/view/NISX20260920_0003796971",
-        "https://biz.chosun.com/en/en-it/2026/09/20/ZVCCEOZXCRC53NTTPE4CMZ7QIM/"
-      ],
-      "sources": [
-        "newsis",
-        "zdkorea",
-        "chosunbiz",
-        "zdkorea",
-        "zdkorea",
-        "newsis",
-        "chosunbiz"
-      ]
-    },
-    {
-      "event": "SK海力士副會長駐華",
-      "score": 35,
-      "reason": "高層人事變動反映對中國市場戰略重視",
-      "tags": [
-        "半導體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-20 04:00:36",
-      "titles": [
-        "SK하이닉스, '중국통' 부회장 전진 배치…中 현지 반도체 전략은"
-      ],
-      "urls": [
-        "https://www.newsis.com/view/NISX20260918_0003795244"
-      ],
-      "sources": [
-        "newsis"
-      ]
-    },
-    {
-      "event": "韓電子通訊業高薪引關注",
-      "score": 35,
-      "reason": "反映半導體景氣與人才成本，屬間接產業指標。",
-      "tags": [
-        "供應鏈"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-20 11:00:36",
-      "titles": [
-        "\"전자·통신업 근로자, 상반기 월 943만원 벌었다…반도체 성과급에 수직 상승\""
-      ],
-      "urls": [
-        "https://www.newsis.com/view/NISX20260920_0003797035"
-      ],
-      "sources": [
-        "newsis"
-      ]
-    },
-    {
-      "event": "韓國擴大國家機關資安採購",
-      "score": 30,
-      "reason": "國內資安市場規範，對半導體製造影響較小",
-      "tags": [
-        "電子政策"
-      ],
-      "coherent": false,
-      "size": 4,
-      "max_crawled_at": "2026-09-20 22:00:01",
-      "titles": [
-        "국정원, 보안 제품 국가·공공기관 납품 문호 확대",
-        "대규모 국가·공공 정보화 사업에 N2SF 적용한다",
-        "국정원, 내년 공급망보안 통합관리 시스템 만든다",
-        "양자내성암호 전환, 내년부터 공공 사이버보안 실태 평가에 반영"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260920145930",
-        "https://zdnet.co.kr/view/?no=20260920163051",
-        "https://zdnet.co.kr/view/?no=20260920154521",
-        "https://zdnet.co.kr/view/?no=20260920204430"
-      ],
-      "sources": [
-        "zdkorea",
-        "zdkorea",
-        "zdkorea",
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "LS集團推動AI事業化",
-      "score": 25,
-      "reason": "傳統企業轉型，對核心半導體供應鏈影響有限",
+      "reason": "傳統工業集團轉型宣言，非核心電子產業動態。",
       "tags": [
         "AI軟體"
       ],
@@ -306,57 +262,31 @@
       ]
     },
     {
-      "event": "Jev AI模型使用者激增",
-      "score": 25,
-      "reason": "純軟體服務增長，對硬體製造業影響微弱。",
+      "event": "鈣鈦礦表面處理技術提升效率",
+      "score": 40,
+      "reason": "顯示材料技術進展，屬長期潛力但非短期重大事件。",
       "tags": [
-        "AI軟體"
+        "顯示面板"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-09-20 22:00:01",
+      "max_crawled_at": "2026-09-20 14:30:36",
       "titles": [
-        "[안광섭 AI 진테제] Jev, 역사상 가장 빠르게 사용량이 증가한 유료 모델"
+        "페로브스카이트 표면에 PDI 입혀 효율 개선"
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20260920215302"
+        "https://zdnet.co.kr/view/?no=20260920130056"
       ],
       "sources": [
         "zdkorea"
       ]
     },
     {
-      "event": "特朗普擬創AI前沿機構",
-      "score": 20,
-      "reason": "美國政治動態，對韓國產業直接影響尚不明確",
+      "event": "韓國機器人密度全球第一但資料落後",
+      "score": 35,
+      "reason": "製造業自動化現狀分析，非核心電子產業突破。",
       "tags": [
-        "電子政策"
-      ],
-      "coherent": false,
-      "size": 3,
-      "max_crawled_at": "2026-09-21 00:00:36",
-      "titles": [
-        "트럼프, 'AI 포스' 창설 예고…\"산업 성장 막지 않을 것\"",
-        "[최경진의 未來法道] 프런티어 AI 시대, 한국 답은 검증 가능한 가속",
-        "[ZD브리핑] 미중 정상회담·김범수 항소심 결심…추석 앞 산업·IT 이슈는"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260920071004",
-        "https://zdnet.co.kr/view/?no=20260920224904",
-        "https://zdnet.co.kr/view/?no=20260920130102"
-      ],
-      "sources": [
-        "zdkorea",
-        "zdkorea",
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "韓國機器人密度全球第一",
-      "score": 20,
-      "reason": "製造業自動化指標，屬間接影響非核心電子技術",
-      "tags": [
-        "供應鏈"
+        "AI軟體"
       ],
       "coherent": false,
       "size": 2,
@@ -375,11 +305,31 @@
       ]
     },
     {
-      "event": "IoT模組LTE主導5G起步",
-      "score": 20,
-      "reason": "通訊技術趨勢，非核心半導體或電池產業重大事件。",
+      "event": "全球晶片市場規模預估破1.6兆美元",
+      "score": 30,
+      "reason": "宏觀市場預測，對產業結構影響有限。",
       "tags": [
-        "電子政策"
+        "半導體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-20 14:00:47",
+      "titles": [
+        "Global chip market projected to exceed $1.6 tln this year despite AI slowdown concerns: report"
+      ],
+      "urls": [
+        "https://en.yna.co.kr/view/AEN20260920002500320"
+      ],
+      "sources": [
+        "yonhap"
+      ]
+    },
+    {
+      "event": "IoT模組市場LTE仍主導5G剛起步",
+      "score": 25,
+      "reason": "技術採用趨勢觀察，對產業衝擊較小。",
+      "tags": [
+        "供應鏈"
       ],
       "coherent": true,
       "size": 1,
@@ -395,60 +345,40 @@
       ]
     },
     {
-      "event": "英特爾終止漏洞賞金計劃",
-      "score": 15,
-      "reason": "安全政策調整，屬軟體層面，影響範圍較小",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-20 11:00:36",
-      "titles": [
-        "인텔, 보안 취약점 보상 프로그램 '버그 바운티' 중단"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260919221254"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "iPhone 18 Pro重啟故障",
-      "score": 15,
-      "reason": "終端產品瑕疵，對韓國上游供應鏈影響有限。",
-      "tags": [
-        "顯示面板"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-20 17:01:36",
-      "titles": [
-        "iPhone 18 Pro triggers widespread reboot glitch, angers South Korea buyers"
-      ],
-      "urls": [
-        "https://biz.chosun.com/en/en-it/2026/09/20/WFGP67ZFMJBDHBO43BHRJKNGXE/"
-      ],
-      "sources": [
-        "chosunbiz"
-      ]
-    },
-    {
-      "event": "鈣鈦礦太陽能電池效率提升",
-      "score": 10,
-      "reason": "材料科學進展，但屬能源領域非核心電子產業",
+      "event": "韓電子通訊業薪資受半導體獎金帶動",
+      "score": 20,
+      "reason": "薪資資料反映獲利狀況，非產業技術或政策變動。",
       "tags": [
         "供應鏈"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-09-20 14:30:36",
+      "max_crawled_at": "2026-09-20 11:00:36",
       "titles": [
-        "페로브스카이트 표면에 PDI 입혀 효율 개선"
+        "\"전자·통신업 근로자, 상반기 월 943만원 벌었다…반도체 성과급에 수직 상승\""
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20260920130056"
+        "https://www.newsis.com/view/NISX20260920_0003797035"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "Jev AI模型使用者量創紀錄增長",
+      "score": 5,
+      "reason": "純軟體服務，無硬體製造或供應鏈影響。",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-20 22:00:01",
+      "titles": [
+        "[안광섭 AI 진테제] Jev, 역사상 가장 빠르게 사용량이 증가한 유료 모델"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260920215302"
       ],
       "sources": [
         "zdkorea"
