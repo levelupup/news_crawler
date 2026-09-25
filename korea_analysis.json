@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-25 04:45:01",
+  "generated": "2026-09-25 08:45:00",
   "window_days": 2,
   "sources": [
     "businesskorea",
@@ -9,39 +9,45 @@
     "yonhap",
     "zdkorea"
   ],
-  "input_titles": 85,
-  "events": 18,
+  "input_titles": 99,
+  "events": 20,
   "timings_seconds": {
-    "stage1_cluster": 14.6,
-    "stage2_name_score": 43.3,
-    "total": 57.9
+    "stage1_cluster": 10.8,
+    "stage2_name_score": 54.3,
+    "total": 65.1
   },
   "stories": [
     {
-      "event": "三星電機、SK海力士中秋全開生產",
-      "score": 75,
-      "reason": "韓系記憶體大廠高稼動率反映AI需求強勁與產能佈局",
+      "event": "三星SK海力士HBM全速生產迎中秋",
+      "score": 85,
+      "reason": "HBM需求強勁，韓廠滿載運轉，顯示供應鏈主導權。",
       "tags": [
         "記憶體",
         "擴產投資"
       ],
       "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-24 08:01:36",
+      "size": 3,
+      "max_crawled_at": "2026-09-25 08:00:36",
       "titles": [
-        "\"AI칩 주문 쏟아진다\"…삼전·닉스, 추석 연휴도 반도체 공장 '풀가동'"
+        "\"AI칩 주문 쏟아진다\"…삼전·닉스, 추석 연휴도 반도체 공장 '풀가동'",
+        "HBM 다음은 '추론'…삼성전자·SK하이닉스, 차세대 메모리 승부",
+        "[K수출 4강②] 수출 1조弗 핵심은 '반도체'…증가분 80% 차지"
       ],
       "urls": [
-        "https://www.newsis.com/view/NISX20260921_0003798200"
+        "https://www.newsis.com/view/NISX20260921_0003798200",
+        "https://www.newsis.com/view/NISX20260923_0003801903",
+        "https://www.newsis.com/view/NISX20260922_0003800142"
       ],
       "sources": [
+        "newsis",
+        "newsis",
         "newsis"
       ]
     },
     {
-      "event": "DRAM價格飆升，TSMC先進製程價值追平",
-      "score": 65,
-      "reason": "DRAM市場景氣與台積電製程競爭具產業指標意義",
+      "event": "DRAM價值追平TSMC先進製程",
+      "score": 70,
+      "reason": "DRAM價格與價值重估，反映市場對記憶體產業信心。",
       "tags": [
         "記憶體",
         "半導體"
@@ -66,9 +72,30 @@
       ]
     },
     {
-      "event": "科恩推出支援製程擴大的晶圓讀取器",
-      "score": 55,
-      "reason": "韓國檢測裝置商新品發布，直接服務半導體擴產需求",
+      "event": "LG新能源無更換電池完成馬拉松",
+      "score": 65,
+      "reason": "電池耐用性技術突破，對電動車及儲能市場具指標意義。",
+      "tags": [
+        "電池",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-24 06:31:36",
+      "titles": [
+        "배터리 교체없이 마라톤 완주 '라이온2', 네이처 실려"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260923185129"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "Cognex發布新晶圓讀取器支援擴產",
+      "score": 60,
+      "reason": "關鍵檢測裝置更新，直接支援半導體製造擴產需求。",
       "tags": [
         "半導體設備",
         "擴產投資"
@@ -87,151 +114,12 @@
       ]
     },
     {
-      "event": "高通整合個人AI生態，三星結盟XR",
-      "score": 50,
-      "reason": "跨廠牌結盟影響終端AI硬體佈局與供應鏈結構",
+      "event": "LG電子擴充套件AI資料中心冷卻解決方案",
+      "score": 55,
+      "reason": "AI基礎設施關鍵元件，反映韓廠在資料中心供應鏈角色。",
       "tags": [
         "AI算力",
-        "供應鏈"
-      ],
-      "coherent": false,
-      "size": 12,
-      "max_crawled_at": "2026-09-24 16:00:36",
-      "titles": [
-        "Qualcomm deepens Samsung alliance to drive personal AI across XR and wearables",
-        "Qualcomm unifies personal AI across phone, glasses, watches, and earbuds",
-        "\"스마트폰 다음은 XR\"…퀄컴·삼성·구글, 차세대 폼팩터 3자 연합 구축",
-        "Qualcomm debuts Snapdragon Sound Elite 2nd gen, doubles on-device AI",
-        "퀄컴, '스냅드래곤 사운드 엘리트 2세대' 공개",
-        "Qualcomm expands AI PC ecosystem to Google and Linux beyond Windows",
-        "[Snapdragon Summit] Qualcomm Takes Two-Track Approach With Snapdragon 8 Elite Extreme, Standard Chips",
-        "Qualcomm drives agentic AI shift as devices act on intent, not answers",
-        "스냅드래곤 NPU 품은 리퀴드AI…'에이전틱 폰' 진화 앞당긴다",
-        "\"1GB 모델을 125MB로\"…퀄컴, '1비트 AI'로 웨어러블 메모리 장벽 깬다",
-        "[Snapdragon Summit] Qualcomm Taps TSMC for All Snapdragon 8 Elite Gen 6 Chips",
-        "\"어떤 OS든 스냅드래곤으로\"…퀄컴, 차세대 PC 생태계 영토 대확장"
-      ],
-      "urls": [
-        "https://biz.chosun.com/en/en-it/2026/09/24/R65FWH4R5JGOBKTOYG2HZLMSHQ/",
-        "https://biz.chosun.com/en/en-it/2026/09/24/4FE5F5NLDNGDJMPOQ4XG6BTB64/",
-        "https://zdnet.co.kr/view/?no=20260924053226",
-        "https://biz.chosun.com/en/en-it/2026/09/24/S7KNKQVMDBFTTMZEFV7ADGDCTE/",
-        "https://zdnet.co.kr/view/?no=20260924054245",
-        "https://biz.chosun.com/en/en-it/2026/09/24/DWTIXWXIV5HMXCOM6OZ5WMQPP4/",
-        "https://www.thelec.net/news/articleView.html?idxno=14171",
-        "https://biz.chosun.com/en/en-it/2026/09/24/C3UB4VTOSZHJ7MVHBV72CDLO7A/",
-        "https://zdnet.co.kr/view/?no=20260924045802",
-        "https://zdnet.co.kr/view/?no=20260924110259",
-        "https://www.thelec.net/news/articleView.html?idxno=14172",
-        "https://zdnet.co.kr/view/?no=20260924102519"
-      ],
-      "sources": [
-        "chosunbiz",
-        "chosunbiz",
-        "zdkorea",
-        "chosunbiz",
-        "zdkorea",
-        "chosunbiz",
-        "thelec",
-        "chosunbiz",
-        "zdkorea",
-        "zdkorea",
-        "thelec",
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "Eco&Dream獲Umicore前驅物訂單",
-      "score": 45,
-      "reason": "韓國材料廠打入國際供應鏈，具實質營收貢獻",
-      "tags": [
-        "半導體材料",
         "擴產投資"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-24 09:30:36",
-      "titles": [
-        "Eco&Dream Wins 17.7 Billion Won Precursor Supply Deal From Umicore"
-      ],
-      "urls": [
-        "https://www.thelec.net/news/articleView.html?idxno=14168"
-      ],
-      "sources": [
-        "thelec"
-      ]
-    },
-    {
-      "event": "樂金顯示擱置南京模組廠出售案",
-      "score": 45,
-      "reason": "韓系面板廠在中國資產調整，影響全球顯示供應鏈佈局",
-      "tags": [
-        "顯示面板",
-        "電子政策"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-24 09:30:36",
-      "titles": [
-        "LG Display Scraps Sale of Nanjing Auto Module Business"
-      ],
-      "urls": [
-        "https://www.thelec.net/news/articleView.html?idxno=14164"
-      ],
-      "sources": [
-        "thelec"
-      ]
-    },
-    {
-      "event": "三星、LG匯入物理AI機器人進工廠",
-      "score": 40,
-      "reason": "製造業自動化升級，但屬應用層面非核心半導體技術",
-      "tags": [
-        "擴產投資",
-        "供應鏈"
-      ],
-      "coherent": false,
-      "size": 2,
-      "max_crawled_at": "2026-09-24 14:00:36",
-      "titles": [
-        "재계 총수들 연일 'AI 메시지'…경영 전반에 '인공지능 DNA' 이식",
-        "\"사람 닮은 로봇, 공장으로 먼저 투입\"…삼성·LG, 피지컬 AI 키운다"
-      ],
-      "urls": [
-        "https://www.newsis.com/view/NISX20260921_0003798066",
-        "https://www.newsis.com/view/NISX20260923_0003801840"
-      ],
-      "sources": [
-        "newsis",
-        "newsis"
-      ]
-    },
-    {
-      "event": "ABB推出AI資料中心整合直流解決方案",
-      "score": 35,
-      "reason": "基礎設施配套，但非韓國本土半導體或電池核心議題",
-      "tags": [
-        "AI算力"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-24 09:30:36",
-      "titles": [
-        "ABB Launches Integrated DC Solution for AI Data Centers"
-      ],
-      "urls": [
-        "https://www.thelec.net/news/articleView.html?idxno=14169"
-      ],
-      "sources": [
-        "thelec"
-      ]
-    },
-    {
-      "event": "LG電子擴充套件AI資料中心冷卻解決方案",
-      "score": 30,
-      "reason": "LG空調技術應用於資策，屬周邊裝置非核心半導體",
-      "tags": [
-        "AI算力"
       ],
       "coherent": false,
       "size": 2,
@@ -250,53 +138,58 @@
       ]
     },
     {
-      "event": "半導體與美妝業獲利強勁引發分配爭議",
-      "score": 30,
-      "reason": "反映產業獲利結構與社會議題，非直接技術或產能變動",
+      "event": "Eco&Dream獲Umicore前驅物訂單",
+      "score": 55,
+      "reason": "韓國材料廠獲得國際大廠訂單，強化供應鏈地位。",
       "tags": [
-        "電子政策"
+        "半導體材料",
+        "供應鏈"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-09-24 10:30:36",
+      "max_crawled_at": "2026-09-24 09:30:36",
       "titles": [
-        "반도체·뷰티만 '돈잔치'…\"K-자 양극화 해소해야\"[중소기업의 추석③]"
+        "Eco&Dream Wins 17.7 Billion Won Precursor Supply Deal From Umicore"
       ],
       "urls": [
-        "https://www.newsis.com/view/NISX20260921_0003799166"
+        "https://www.thelec.net/news/articleView.html?idxno=14168"
       ],
       "sources": [
+        "thelec"
+      ]
+    },
+    {
+      "event": "三星LG推動實體AI機器人發展",
+      "score": 50,
+      "reason": "韓廠投入實體AI，屬長期戰略佈局，具產業影響力。",
+      "tags": [
+        "AI算力",
+        "擴產投資"
+      ],
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-09-24 14:00:36",
+      "titles": [
+        "재계 총수들 연일 'AI 메시지'…경영 전반에 '인공지능 DNA' 이식",
+        "\"사람 닮은 로봇, 공장으로 먼저 투입\"…삼성·LG, 피지컬 AI 키운다"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20260921_0003798066",
+        "https://www.newsis.com/view/NISX20260923_0003801840"
+      ],
+      "sources": [
+        "newsis",
         "newsis"
       ]
     },
     {
-      "event": "韓華副會長拓展業務至太空與AI領域",
-      "score": 25,
-      "reason": "財閥集團多元化戰略，對半導體核心供應鏈影響較小",
+      "event": "三星LG在韓機器人市場反擊中國",
+      "score": 50,
+      "reason": "消費性機器人市場競爭，反映韓廠技術實力與市場佔有。",
       "tags": [
         "擴產投資"
       ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-24 10:00:38",
-      "titles": [
-        "\"방산·조선 넘어 우주·AI로\" 김동관 한화 수석부회장, 경영 보폭 '확대'"
-      ],
-      "urls": [
-        "https://www.newsis.com/view/NISX20260922_0003800937"
-      ],
-      "sources": [
-        "newsis"
-      ]
-    },
-    {
-      "event": "三星、LG反擊中國掃地機器人市場",
-      "score": 20,
-      "reason": "家電消費市場競爭，對韓國半導體核心供應鏈影響有限",
-      "tags": [
-        "電子政策"
-      ],
-      "coherent": true,
+      "coherent": false,
       "size": 1,
       "max_crawled_at": "2026-09-24 09:30:36",
       "titles": [
@@ -310,9 +203,197 @@
       ]
     },
     {
+      "event": "Qualcomm推Snapdragon 8 Elite Extreme",
+      "score": 45,
+      "reason": "高通新晶片發布，影響終端AI硬體生態，但非韓國核心製造。",
+      "tags": [
+        "AI算力",
+        "供應鏈"
+      ],
+      "coherent": false,
+      "size": 8,
+      "max_crawled_at": "2026-09-25 08:30:36",
+      "titles": [
+        "Qualcomm expands AI PC ecosystem to Google and Linux beyond Windows",
+        "[Snapdragon Summit] Qualcomm Takes Two-Track Approach With Snapdragon 8 Elite Extreme, Standard Chips",
+        "스냅드래곤 NPU 품은 리퀴드AI…'에이전틱 폰' 진화 앞당긴다",
+        "Qualcomm builds open AI software layer to challenge Nvidia lock-in",
+        "\"1GB 모델을 125MB로\"…퀄컴, '1비트 AI'로 웨어러블 메모리 장벽 깬다",
+        "\"AI 파편화 끝낸다\"… 퀄컴, '모듈러' 품고 스냅드래곤·윈도우 생태계 대통합",
+        "\"어떤 OS든 스냅드래곤으로\"…퀄컴, 차세대 PC 생태계 영토 대확장",
+        "[Snapdragon Summit] Qualcomm Taps TSMC for All Snapdragon 8 Elite Gen 6 Chips"
+      ],
+      "urls": [
+        "https://biz.chosun.com/en/en-it/2026/09/24/DWTIXWXIV5HMXCOM6OZ5WMQPP4/",
+        "https://www.thelec.net/news/articleView.html?idxno=14171",
+        "https://zdnet.co.kr/view/?no=20260924045802",
+        "https://biz.chosun.com/en/en-it/2026/09/25/IVNLXQTPEJHU7ORCVI7XUWUJSI/",
+        "https://zdnet.co.kr/view/?no=20260924110259",
+        "https://zdnet.co.kr/view/?no=20260925043330",
+        "https://zdnet.co.kr/view/?no=20260924102519",
+        "https://www.thelec.net/news/articleView.html?idxno=14172"
+      ],
+      "sources": [
+        "chosunbiz",
+        "thelec",
+        "zdkorea",
+        "chosunbiz",
+        "zdkorea",
+        "zdkorea",
+        "zdkorea",
+        "thelec"
+      ]
+    },
+    {
+      "event": "韓華副會長擴大經營版圖至AI與太空",
+      "score": 40,
+      "reason": "企業戰略調整，雖涉AI但屬集團層面，非單一硬體事件。",
+      "tags": [
+        "擴產投資"
+      ],
+      "coherent": false,
+      "size": 1,
+      "max_crawled_at": "2026-09-24 10:00:38",
+      "titles": [
+        "\"방산·조선 넘어 우주·AI로\" 김동관 한화 수석부회장, 경영 보폭 '확대'"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20260922_0003800937"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "韓國企業專用網突破2000個",
+      "score": 35,
+      "reason": "通訊基礎設施普及，對半導體製造影響較小。",
+      "tags": [
+        "供應鏈"
+      ],
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-09-25 07:30:36",
+      "titles": [
+        "기업 전용망 2000개 돌파...신규 구축 86%가 5G",
+        "2035년 6G 가입자 24억 회선까지 늘어난다"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260925065827",
+        "https://zdnet.co.kr/view/?no=20260925063351"
+      ],
+      "sources": [
+        "zdkorea",
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "樂金顯示擱置南京汽車模組業務出售",
+      "score": 30,
+      "reason": "資產處置決策，對整體產業鏈影響有限。",
+      "tags": [
+        "顯示面板"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-24 09:30:36",
+      "titles": [
+        "LG Display Scraps Sale of Nanjing Auto Module Business"
+      ],
+      "urls": [
+        "https://www.thelec.net/news/articleView.html?idxno=14164"
+      ],
+      "sources": [
+        "thelec"
+      ]
+    },
+    {
+      "event": "海運費上漲衝擊韓家電業獲利",
+      "score": 25,
+      "reason": "物流成本影響終端產品利潤，屬間接產業因素。",
+      "tags": [
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-25 07:00:36",
+      "titles": [
+        "\"끝없이 오르는 해상운임\"…韓 가전, 수익성 방어 대책은?"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20260922_0003799274"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "K-半導體產業雙極化問題受關注",
+      "score": 25,
+      "reason": "政策議題但無具體措施，僅為社會現象討論。",
+      "tags": [
+        "半導體"
+      ],
+      "coherent": false,
+      "size": 1,
+      "max_crawled_at": "2026-09-24 10:30:36",
+      "titles": [
+        "반도체·뷰티만 '돈잔치'…\"K-자 양극화 해소해야\"[중소기업의 추석③]"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20260921_0003799166"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "MS中東AI與雲端投資達13兆韓元",
+      "score": 20,
+      "reason": "美國企業海外投資，對韓國半導體供應鏈無直接關聯。",
+      "tags": [
+        "AI算力"
+      ],
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-09-24 13:30:36",
+      "titles": [
+        "美통신사, AI 교육에 1000억원 쏜다...구글·MS·오픈AI도 참여",
+        "MS, 중동 AI·클라우드에 13조원대 투자…걸프 4개국 집중"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260924075238",
+        "https://www.newsis.com/view/NISX20260924_0003802996"
+      ],
+      "sources": [
+        "zdkorea",
+        "newsis"
+      ]
+    },
+    {
+      "event": "ABB推出AI資料中心DC解決方案",
+      "score": 15,
+      "reason": "非韓國企業，對韓國供應鏈直接影響有限。",
+      "tags": [
+        "AI算力"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-24 09:30:36",
+      "titles": [
+        "ABB Launches Integrated DC Solution for AI Data Centers"
+      ],
+      "urls": [
+        "https://www.thelec.net/news/articleView.html?idxno=14169"
+      ],
+      "sources": [
+        "thelec"
+      ]
+    },
+    {
       "event": "新書解析台積電成功策略與晶片經濟",
       "score": 10,
-      "reason": "書籍出版屬資訊傳播，非產業事件或政策變動。",
+      "reason": "書籍出版屬資訊傳播，無直接產業衝擊或政策影響。",
       "tags": [
         "半導體"
       ],
@@ -330,89 +411,9 @@
       ]
     },
     {
-      "event": "Bird.com獲4.5億美元融資開發AI代理",
+      "event": "Meta發布無鏡頭AI眼鏡",
       "score": 10,
-      "reason": "美國軟體公司融資，與韓國硬體製造業無直接關聯。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-25 04:31:36",
-      "titles": [
-        "버드닷컴, AI 에이전트용 커뮤니케이션 인프라 출시와 함께 4억 5000만 달러 자금 조달"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260925031002"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "韓AI新創Brama獲1.5億美元投資",
-      "score": 6,
-      "reason": "AI軟體領域融資，雖金額大但屬軟體層面，硬體影響低。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-24 19:01:36",
-      "titles": [
-        "브라마 AI, 멀티플스 주도로 1억 5000만 달러 투자 유치"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260924181003"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "日股半導體股漲勢帶動尼凱指數上升",
-      "score": 5,
-      "reason": "日本股市波動，僅間接反映區域情緒，無韓國產業實質影響",
-      "tags": [
-        "供應鏈"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-24 10:30:36",
-      "titles": [
-        "日증시, 연휴 뒤 상승 출발…반도체주 강세에 닛케이 0.7%↑"
-      ],
-      "urls": [
-        "https://www.newsis.com/view/NISX20260924_0003802906"
-      ],
-      "sources": [
-        "newsis"
-      ]
-    },
-    {
-      "event": "美電信商斥資千億韓元推動AI教育",
-      "score": 5,
-      "reason": "純軟體與教育應用，對韓國硬體供應鏈無實質影響。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-24 10:00:38",
-      "titles": [
-        "美통신사, AI 교육에 1000억원 쏜다...구글·MS·오픈AI도 참여"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260924075238"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "Meta發布無鏡頭AI眼鏡及VR計畫",
-      "score": 5,
-      "reason": "Meta產品動態，未提及韓國供應鏈參與或訂單，影響有限。",
+      "reason": "美國產品，對韓國產業鏈影響間接且微弱。",
       "tags": [
         "顯示面板"
       ],
@@ -427,6 +428,46 @@
       ],
       "sources": [
         "chosunbiz"
+      ]
+    },
+    {
+      "event": "Qualcomm以AI影像技術革新應用",
+      "score": 10,
+      "reason": "美國晶片廠動態，屬軟體/應用層，對韓國硬體供應鏈影響小。",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-25 07:30:36",
+      "titles": [
+        "카메라로 들어간 AI 에이전트…퀄컴, 사진·영상 편집 패러다임 바꾼다"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260925064837"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "日股半導體強勁帶動尼崎指數上漲",
+      "score": 5,
+      "reason": "日本市場動態，僅反映趨勢，無韓國產業實質變動。",
+      "tags": [
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-24 10:30:36",
+      "titles": [
+        "日증시, 연휴 뒤 상승 출발…반도체주 강세에 닛케이 0.7%↑"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20260924_0003802906"
+      ],
+      "sources": [
+        "newsis"
       ]
     }
   ]
