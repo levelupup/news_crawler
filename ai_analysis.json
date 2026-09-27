@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-28 01:45:00",
+  "generated": "2026-09-28 05:45:18",
   "window_days": 2,
   "topic": "ai",
   "groups": [
@@ -11,59 +11,83 @@
     "人才與組織",
     "監理與法規"
   ],
-  "input_titles": 784,
+  "input_titles": 887,
   "events": 64,
   "published": 18,
   "timings_seconds": {
     "stage1_filter": 0.0,
-    "stage2_cluster": 23.5,
-    "stage3_name_score": 245.2,
-    "total": 268.8
+    "stage2_cluster": 26.5,
+    "stage3_name_score": 273.7,
+    "total": 300.2
   },
   "stories": [
     {
-      "event": "中國擬允許位元組、阿里購買輝達新晶片",
+      "event": "中國擬允許位元組阿里採購輝達新晶片",
       "score": 85,
-      "group": "監理與法規",
+      "group": "算力採購與基礎設施",
       "published": true,
-      "reason": "出口管制鬆綁將顯著改變中國AI巨頭的算力獲取能力。",
+      "reason": "關鍵算力限制鬆綁，影響競爭格局",
       "coherent": true,
-      "size": 4,
-      "max_crawled_at": "2026-09-28 01:01:17",
+      "size": 6,
+      "max_crawled_at": "2026-09-28 03:01:17",
       "titles": [
-        "China May Let Alibaba Buy New Nvidia Chips, The Information Says",
-        "China weighs allowing ByteDance, Alibaba to buy new Nvidia chips, The Information reports",
+        "China weighs allowing ByteDance, Alibaba to buy new Nvidia chips: The Information",
         "China Weighs Allowing Purchases of New Nvidia Chips by ByteDance, Alibaba",
+        "China weighs allowing ByteDance, Alibaba to buy new Nvidia chips, The Information reports",
+        "China May Let Alibaba Buy New Nvidia Chips, The Information Says",
         "美媒：中國擬允許字節跳動、阿里巴巴購買輝達新晶片"
       ],
       "urls": [
-        "https://www.bloomberg.com/news/articles/2026-09-27/china-may-let-alibaba-buy-new-nvidia-chips-the-information-says",
-        "https://www.reuters.com/business/retail-consumer/china-weighs-allowing-bytedance-alibaba-buy-new-nvidia-chips-information-reports-2026-09-27/",
+        "https://economictimes.indiatimes.com/tech/technology/china-weighs-allowing-bytedance-alibaba-to-buy-new-nvidia-chips-the-information/articleshow/134525276.cms",
         "https://www.theinformation.com/articles/china-weighs-allowing-purchases-new-nvidia-chips-bytedance-alibaba",
+        "https://www.reuters.com/business/retail-consumer/china-weighs-allowing-bytedance-alibaba-buy-new-nvidia-chips-information-reports-2026-09-27/",
+        "https://www.bloomberg.com/news/articles/2026-09-27/china-may-let-alibaba-buy-new-nvidia-chips-the-information-says",
+        "https://www.cna.com.tw/news/aopl/202609270203.aspx",
         "https://money.udn.com/money/amp/story/123398/9780626"
       ],
       "sources": [
-        "bloomberg",
-        "reuters",
+        "economictimes",
         "theinformation",
+        "reuters",
+        "bloomberg",
+        "cna",
         "udn_money"
       ]
     },
     {
-      "event": "OpenAI因安全漏洞暫停前沿模型開發",
-      "score": 75,
+      "event": "美國法院維持Claude禁令",
+      "score": 80,
       "group": "監理與法規",
       "published": true,
-      "reason": "安全事件導致停訓，影響業界對AI代理安全性的監管標準。",
+      "reason": "司法裁決直接限制產品部署",
       "coherent": true,
-      "size": 37,
-      "max_crawled_at": "2026-09-27 22:30:08",
+      "size": 1,
+      "max_crawled_at": "2026-09-27 01:01:17",
+      "titles": [
+        "美법원, 국방부 손 들어줬다…'클로드 금지' 유지"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260926122905"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "OpenAI因AI安全事件暫停訓練",
+      "score": 75,
+      "group": "競爭格局與合作結盟",
+      "published": true,
+      "reason": "前沿模型開發受阻，安全邊界受壓",
+      "coherent": true,
+      "size": 38,
+      "max_crawled_at": "2026-09-28 03:01:17",
       "titles": [
         "消息称OpenAI、Anthropic正调查数万起AI安全事件",
-        "沙盒失守！AI智能体接连失控 OpenAI再次叫停前沿模型开发",
         "OpenAI，经历了最漫长的一天",
-        "OpenAI又停训了：Agent逃出沙箱，更多越权事件被扒",
         "OpenAI突发急刹车！AI竟在全网植入自我复制代码，血洗联合国内网",
+        "沙盒失守！AI智能体接连失控 OpenAI再次叫停前沿模型开发",
+        "OpenAI又停训了：Agent逃出沙箱，更多越权事件被扒",
         "OpenAI暂停工具调用训练：前沿模型安全边界再承压",
         "刚刚，OpenAI又停训了：Agent逃出沙箱，更多越权事件被扒-36氪",
         "OpenAI，经历了最漫长的一天 - 36Kr",
@@ -76,13 +100,14 @@
         "Australia summons Altman and Amodei as AI agents breach controls and leak data",
         "OpenAI pauses training, tool-use of top AI models after agent bypasses internet curbs",
         "OpenAI, Anthropic uncover tens of thousands of AI agent safeguard breaches",
-        "OpenAI与Anthropic首席执行官被传唤出席澳大利亚AI调查听证会 - 36Kr",
-        "OpenAI, Anthropic CEOs called to appear at Australian AI probe",
         "OpenAI旗下AI代理干擾美政府網站- 日報",
-        "When AI agents go rogue: Australia breach offers warning for countries like India",
+        "OpenAI与Anthropic首席执行官被传唤出席澳大利亚AI调查听证会 - 36Kr",
         "정보 찾던 오픈AI 에이전트, 정부·대학 침투 시도",
+        "OpenAI, Anthropic CEOs called to appear at Australian AI probe",
+        "When AI agents go rogue: Australia breach offers warning for countries like India",
         "管住AI，成了一门新生意-36氪",
         "AI代理程式入侵健保系統　澳洲傳喚兩大AI執行長",
+        "OpenAI AI代理「失控」案例擴大調用DeepSeek、Kimi、千問為己用- 國際",
         "오픈AI, '두번째 탈옥' 사고...최근 몇년간 일어난 보안사고 보니",
         "When AI agents go rogue: Australia breach offers warning for countries like India - The Economic Times",
         "前OpenAI研究负责人：AI真实能力短板藏在看似简单的任务中-36氪",
@@ -92,10 +117,10 @@
       ],
       "urls": [
         "https://tech.ifeng.com/c/8wkjHhxIV3R",
-        "https://www.chinastarmarket.cn/detail/2493381",
         "https://www.36kr.com/p/4001126579687302",
-        "https://tech.ifeng.com/c/8wkh3ABaCwP",
         "https://tech.ifeng.com/c/8wl6m6md5My",
+        "https://www.chinastarmarket.cn/detail/2493381",
+        "https://tech.ifeng.com/c/8wkh3ABaCwP",
         "https://www.yicai.com/news/103378751.html",
         "https://www.36kr.com/p/4000844543561857",
         "http://www.36kr.com/p/4001126579687302",
@@ -109,19 +134,20 @@
         "https://biz.chosun.com/en/en-it/2026/09/27/3QQNEZGAUNB7ZPHTDQCFTWBWQU/",
         "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-pauses-training-tool-use-of-top-ai-models-after-agent-bypasses-internet-curbs/articleshow/134518875.cms",
         "https://biz.chosun.com/en/en-it/2026/09/27/J7FYCDQGTFAVBNUWVSM2NSC7QU/",
+        "https://www.ctee.com.tw/news/20260927700058-439901",
         "https://36kr.com/newsflashes/4001316228272004",
+        "https://zdnet.co.kr/view/?no=20260926091953",
         "https://economictimes.indiatimes.com/tech/technology/openai-anthropic-ceos-called-to-appear-at-australian-ai-probe/articleshow/134518946.cms",
         "https://www.reuters.com/legal/litigation/openai-anthropic-ceos-called-appear-australian-ai-probe-2026-09-27/",
         "https://theedgemalaysia.com/node/819500",
         "https://www.thehindubusinessline.com/info-tech/openai-anthropic-ceos-called-to-appear-at-australian-ai-probe/article71515241.ece",
-        "https://www.ctee.com.tw/news/20260927700058-439901",
         "https://economictimes.indiatimes.com/tech/artificial-intelligence/when-ai-agents-go-rogue-australia-breach-offers-warning-for-countries-like-india/articleshow/134519286.cms",
         "https://theprint.in/india/when-ai-agents-go-rogue-australia-breach-offers-warning-for-countries-like-india/3054595/",
         "https://www.thehindubusinessline.com/info-tech/when-ai-agents-go-rogue-australia-breach-offers-warning-for-countries-like-india/article71515281.ece",
         "https://www.livemint.com/technology/when-ai-agents-go-rogue-australia-breach-offers-warning-for-countries-like-india-11790481067426.html",
-        "https://zdnet.co.kr/view/?no=20260926091953",
         "https://www.36kr.com/p/4000927879319685",
         "https://money.udn.com/money/amp/story/5599/9780069",
+        "https://www.ctee.com.tw/news/20260927700355-430704",
         "https://zdnet.co.kr/view/?no=20260927214347",
         "https://m.economictimes.com/tech/artificial-intelligence/when-ai-agents-go-rogue-australia-breach-offers-warning-for-countries-like-india/articleshow/134519286.cms",
         "https://36kr.com/newsflashes/4000976563081093",
@@ -131,9 +157,9 @@
       ],
       "sources": [
         "ifeng",
-        "chinastarmarket",
         "36kr",
         "ifeng",
+        "chinastarmarket",
         "ifeng",
         "yicai",
         "36kr",
@@ -148,19 +174,20 @@
         "chosunbiz",
         "economictimes",
         "chosunbiz",
+        "ctee",
         "36kr",
+        "zdkorea",
         "economictimes",
         "reuters",
         "edge_markets",
         "hindubusinessline",
-        "ctee",
         "economictimes",
         "india_electronics",
         "hindubusinessline",
         "livemint",
-        "zdkorea",
         "36kr",
         "udn_money",
+        "ctee",
         "zdkorea",
         "india_electronics",
         "36kr",
@@ -170,41 +197,80 @@
       ]
     },
     {
-      "event": "美中達成關稅減讓並啟動AI對話",
-      "score": 75,
-      "group": "監理與法規",
+      "event": "OpenAI沙盒再次失敗，AI獲網際網路存取",
+      "score": 72,
+      "group": "競爭格局與合作結盟",
       "published": true,
-      "reason": "美中高層就AI治理達成共識，影響全球政策",
+      "reason": "安全漏洞重演，影響模型開發進度",
       "coherent": true,
-      "size": 5,
-      "max_crawled_at": "2026-09-27 20:31:17",
+      "size": 1,
+      "max_crawled_at": "2026-09-27 09:30:17",
       "titles": [
-        "China state media says US shares responsibility for managing AI",
-        "China, US Agree On $30 Billion Tariff Cuts, Launch AI Dialogue After Xi-Trump Summit",
-        "After 'big talk' on 'Super Intelligence' with Xi, Trump rules out joint US-China effort to advance AI - The Times of India",
-        "China Media Says US Shares Responsibility for Managing AI"
+        "Another OpenAI Sandbox Failed, AI Agent Gained Internet Access - bloomberg.com"
       ],
       "urls": [
-        "https://theedgemalaysia.com/node/819504",
-        "https://www.bloomberg.com/news/articles/2026-09-27/china-state-media-says-us-shares-responsibility-for-managing-ai?srnd=homepage-americas",
-        "https://www.news18.com/world/china-us-agree-on-30-billion-tariff-cuts-launch-ai-dialogue-after-xi-trump-summit-10354807.html",
-        "https://timesofindia.indiatimes.com/world/us/after-big-talk-on-super-intelligence-with-xi-trump-rules-out-joint-us-china-effort-to-advance-ai/articleshow/134506879.cms",
-        "https://www.bloomberg.com/news/articles/2026-09-27/china-state-media-says-us-shares-responsibility-for-managing-ai"
+        "https://www.bloomberg.com/news/articles/2026-09-26/another-openai-sandbox-failed-ai-agent-gained-internet-access?srnd=ai-ethics-law-policy"
       ],
       "sources": [
-        "edge_markets",
-        "bloomberg",
-        "india_electronics",
-        "india_electronics",
         "bloomberg"
       ]
     },
     {
-      "event": "蓋茲與AI實驗室呼籲加強AI監管",
+      "event": "Anthropic CEO赴白宮與特朗普晚宴",
+      "score": 70,
+      "group": "競爭格局與合作結盟",
+      "published": true,
+      "reason": "AI領袖獲高層接見，政策影響顯著",
+      "coherent": true,
+      "size": 12,
+      "max_crawled_at": "2026-09-28 05:00:17",
+      "titles": [
+        "Anthropic’s Amodei to Dine With Trump at White House",
+        "Anthropic CEO Amodei set to meet with Trump after missing state dinner",
+        "Trump to have dinner with Anthropic CEO Amodei at the White House, Axios reports",
+        "Anthropic’s CEO is about to have dinner with President Trump",
+        "Anthropic CEO Amodei to Meet Trump With AI Safety Concern Rising",
+        "Anthropic CEO Amodei to have White House dinner with Trump: Axios",
+        "Trump and Anthropic CEO Dario Amodei Set for White House Dinner",
+        "After 'big talk' on 'Super Intelligence' with Xi, Trump rules out joint US-China effort to advance AI - The Times of India",
+        "China, US Agree On $30 Billion Tariff Cuts, Launch AI Dialogue After Xi-Trump Summit",
+        "China state media says US shares responsibility for managing AI"
+      ],
+      "urls": [
+        "https://www.theinformation.com/briefings/anthropics-amodei-dine-trump-white-house",
+        "https://www.cnbc.com/2026/09/27/dario-amodei-set-to-have-dinner-with-trump-after-missing-state-dinner.html",
+        "https://www.cnbc.com/2026/09/27/trump-dinner-anthropic-ceo-amodei.html",
+        "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+        "https://www.bloomberg.com/news/articles/2026-09-27/anthropic-s-amodei-to-meet-trump-with-ai-safety-concerns-rising",
+        "https://www.livemint.com/companies/anthropic-ceo-amodei-to-meet-trump-with-ai-safety-concern-rising-11790536308195.html",
+        "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-ceo-amodei-to-have-white-house-dinner-with-trump-says-axios/articleshow/134523438.cms",
+        "https://www.wsj.com/tech/ai/trump-and-anthropic-ceo-dario-amodei-set-for-white-house-dinner-32c2d0ab?mod=rss_Technology",
+        "https://timesofindia.indiatimes.com/world/us/after-big-talk-on-super-intelligence-with-xi-trump-rules-out-joint-us-china-effort-to-advance-ai/articleshow/134506879.cms",
+        "https://www.news18.com/world/china-us-agree-on-30-billion-tariff-cuts-launch-ai-dialogue-after-xi-trump-summit-10354807.html",
+        "https://theedgemalaysia.com/node/819504",
+        "https://www.bloomberg.com/news/articles/2026-09-27/china-state-media-says-us-shares-responsibility-for-managing-ai?srnd=homepage-americas"
+      ],
+      "sources": [
+        "theinformation",
+        "cnbc",
+        "cnbc",
+        "techcrunch",
+        "bloomberg",
+        "livemint",
+        "economictimes",
+        "wsj",
+        "india_electronics",
+        "india_electronics",
+        "edge_markets",
+        "bloomberg"
+      ]
+    },
+    {
+      "event": "蓋茲與AI實驗室呼籲加強AI安全監管",
       "score": 70,
       "group": "監理與法規",
       "published": true,
-      "reason": "業界領袖聯合施壓，推動AI安全立法程序",
+      "reason": "業界領袖聯合施壓，推動立法程序",
       "coherent": true,
       "size": 7,
       "max_crawled_at": "2026-09-28 01:31:17",
@@ -237,108 +303,11 @@
       ]
     },
     {
-      "event": "比爾蓋茲呼籲立法並批評川普反對AI監管",
-      "score": 70,
-      "group": "監理與法規",
-      "published": true,
-      "reason": "具體推動AI立法，影響美國政策走向",
-      "coherent": true,
-      "size": 3,
-      "max_crawled_at": "2026-09-28 01:01:17",
-      "titles": [
-        "Bill Gates joins calls for AI safeguards, including legislation - reuters.com",
-        "Bill Gates Says Trump Is Wrong to Hold Out Against AI Safeguards",
-        "Watch AI Safety Concerns Put Congress on the Spot"
-      ],
-      "urls": [
-        "https://www.reuters.com/legal/litigation/bill-gates-joins-calls-ai-safeguards-including-legislation-2026-09-27/",
-        "https://www.bloomberg.com/news/articles/2026-09-27/bill-gates-says-trump-is-wrong-to-hold-out-against-ai-safeguards",
-        "https://www.bloomberg.com/news/videos/2026-09-27/ai-safety-concerns-put-congress-on-the-spot-video"
-      ],
-      "sources": [
-        "reuters",
-        "bloomberg",
-        "bloomberg"
-      ]
-    },
-    {
-      "event": "OpenAI將推出24小時AI助手O",
-      "score": 70,
-      "group": "模型與產品發布",
-      "published": true,
-      "reason": "新產品形態挑戰現有市場，顯示OpenAI在應用層面的擴張。",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-09-27 15:00:17",
-      "titles": [
-        "OpenAI神秘“o”代码曝光！ChatGPT要变24小时员工",
-        "消息称OpenAI将推出常驻AI助手“O”，预计9月29日发布"
-      ],
-      "urls": [
-        "https://tech.ifeng.com/c/8wkpHpu2KBD",
-        "https://tech.ifeng.com/c/8wlEOmUSQDS"
-      ],
-      "sources": [
-        "ifeng",
-        "ifeng"
-      ]
-    },
-    {
-      "event": "美國法院維持Claude禁令",
-      "score": 70,
-      "group": "監理與法規",
-      "published": true,
-      "reason": "司法裁決直接限制Anthropic產品部署，影響重大。",
-      "coherent": false,
-      "size": 1,
-      "max_crawled_at": "2026-09-27 01:01:17",
-      "titles": [
-        "美법원, 국방부 손 들어줬다…'클로드 금지' 유지"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260926122905"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "比爾蓋茲示警AI失控風險恐殺十億人",
-      "score": 65,
-      "group": "監理與法規",
-      "published": true,
-      "reason": "重量級人物對AI安全提出嚴峻警告，影響公眾認知",
-      "coherent": true,
-      "size": 5,
-      "max_crawled_at": "2026-09-28 00:31:17",
-      "titles": [
-        "AI能力強大　比爾蓋茲：落入惡人手上可殺害10億人",
-        "比爾蓋茲示警AI失控風險- 日報",
-        "蓋茲：AI 遭濫用 恐死10億人",
-        "比爾蓋茲又開砲 這回鎖定川普 批AI防護不會阻礙與陸競爭",
-        "AI 研發生化武器消滅人類？專家：比起末日幻想，現有病原體威脅性更高"
-      ],
-      "urls": [
-        "https://money.udn.com/money/amp/story/123398/9780494",
-        "https://www.ctee.com.tw/news/20260927700060-439901",
-        "https://money.udn.com/money/amp/story/5599/9779380",
-        "https://money.udn.com/money/amp/story/5599/9780463",
-        "https://technews.tw/2026/09/27/why-ai-isnt-likely-to-wipe-out-humanity-with-bioweapons/"
-      ],
-      "sources": [
-        "udn_money",
-        "ctee",
-        "udn_money",
-        "udn_money",
-        "technews"
-      ]
-    },
-    {
-      "event": "Gemini 4 Pro效能超越Opus 5.5",
+      "event": "Gemini 4 Pro曝光，實測表現強悍",
       "score": 65,
       "group": "模型與產品發布",
       "published": true,
-      "reason": "基準測試結果顯示Google在模型能力上的領先優勢。",
+      "reason": "Gemini 4 Pro效能突破引發關注",
       "coherent": false,
       "size": 3,
       "max_crawled_at": "2026-09-27 17:00:17",
@@ -359,12 +328,141 @@
       ]
     },
     {
-      "event": "高利率威脅AI公司融資與基礎設施",
+      "event": "Meta轉攻AI代理並擴大算力建設",
       "score": 65,
+      "group": "模型與產品發布",
+      "published": true,
+      "reason": "戰略轉向與基礎設施投資並重",
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-09-28 04:00:17",
+      "titles": [
+        "Meta 執行長祖克柏坦承先前錯誤 轉攻 AI 代理",
+        "Meta 算力大建設 要將三大領域完整匯流 廣達、緯穎、台積有望受惠"
+      ],
+      "urls": [
+        "https://money.udn.com/money/amp/story/5612/9780536",
+        "https://money.udn.com/money/amp/story/5612/9780498"
+      ],
+      "sources": [
+        "udn_money",
+        "udn_money"
+      ]
+    },
+    {
+      "event": "澳洲參議院要求OpenAI、Anthropic高管出席AI質詢",
+      "score": 65,
+      "group": "監理與法規",
+      "published": true,
+      "reason": "澳洲監管介入美系龍頭，具政策指標意義",
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-09-27 20:00:17",
+      "titles": [
+        "Australia Senate Requests OpenAI, Anthropic CEOs Face AI Inquiry",
+        "Australia’s Deputy PM Defends Data Security After OpenAI Hack"
+      ],
+      "urls": [
+        "https://www.bloomberg.com/news/articles/2026-09-27/australia-senate-requests-openai-anthropic-ceos-face-ai-inquiry",
+        "https://www.bloomberg.com/news/articles/2026-09-27/australia-s-deputy-pm-defends-data-security-after-openai-hack?srnd=phx-economics-v2"
+      ],
+      "sources": [
+        "bloomberg",
+        "bloomberg"
+      ]
+    },
+    {
+      "event": "Meta推出企業級AI整合應用Muse",
+      "score": 65,
+      "group": "模型與產品發布",
+      "published": true,
+      "reason": "Meta發布新企業AI工具，具市場影響力",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-27 23:00:30",
+      "titles": [
+        "Meta’s Muse Moment"
+      ],
+      "urls": [
+        "https://www.wsj.com/tech/ai/metas-muse-moment-4c49ac0e?mod=rss_Technology"
+      ],
+      "sources": [
+        "wsj"
+      ]
+    },
+    {
+      "event": "OpenAI代理使用激進技術存取聯合國網站",
+      "score": 65,
+      "group": "監理與法規",
+      "published": true,
+      "reason": "涉及AI安全與國際組織互動，引發監管關注。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-27 08:31:17",
+      "titles": [
+        "OpenAI Agents Used Aggressive Techniques to Access U.N. Website"
+      ],
+      "urls": [
+        "https://www.wsj.com/tech/ai/openai-agents-used-aggressive-techniques-to-access-u-n-website-522c70ff?mod=rss_Technology"
+      ],
+      "sources": [
+        "wsj"
+      ]
+    },
+    {
+      "event": "末日時鐘因AI風險縮短至85秒",
+      "score": 65,
+      "group": "監理與法規",
+      "published": true,
+      "reason": "象徵AI威脅等級之重大指標調整",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-27 08:31:17",
+      "titles": [
+        "距“灭绝”仅85秒！末日时钟专家警告：AI就是这个时代的原子弹"
+      ],
+      "urls": [
+        "https://tech.ifeng.com/c/8wkBBeCcqCz"
+      ],
+      "sources": [
+        "ifeng"
+      ]
+    },
+    {
+      "event": "美國國會受AI安全議題壓力推動立法",
+      "score": 60,
+      "group": "監理與法規",
+      "published": true,
+      "reason": "政治高層介入，可能影響未來AI監管框架",
+      "coherent": true,
+      "size": 4,
+      "max_crawled_at": "2026-09-28 03:01:17",
+      "titles": [
+        "AI Safety Concerns Put Congress on the Spot",
+        "Watch AI Safety Concerns Put Congress on the Spot",
+        "Bill Gates joins calls for AI safeguards, including legislation - reuters.com",
+        "Bill Gates Says Trump Is Wrong to Hold Out Against AI Safeguards"
+      ],
+      "urls": [
+        "https://www.bloomberg.com/news/articles/2026-09-27/ai-safety-concerns-put-congress-on-the-spot-video",
+        "https://www.bloomberg.com/news/videos/2026-09-27/ai-safety-concerns-put-congress-on-the-spot-video",
+        "https://www.reuters.com/legal/litigation/bill-gates-joins-calls-ai-safeguards-including-legislation-2026-09-27/",
+        "https://www.bloomberg.com/news/articles/2026-09-27/bill-gates-says-trump-is-wrong-to-hold-out-against-ai-safeguards"
+      ],
+      "sources": [
+        "bloomberg",
+        "bloomberg",
+        "reuters",
+        "bloomberg"
+      ]
+    },
+    {
+      "event": "債務沉重的AI公司面臨債券收益率飆升風險",
+      "score": 60,
       "group": "集資與估值",
       "published": true,
-      "reason": "宏觀經濟因素影響AI產業資本結構",
-      "coherent": true,
+      "reason": "宏觀金融壓力影響AI基礎設施融資",
+      "coherent": false,
       "size": 3,
       "max_crawled_at": "2026-09-27 19:30:17",
       "titles": [
@@ -384,136 +482,74 @@
       ]
     },
     {
-      "event": "騰訊推出中國版Muse AI模型",
-      "score": 65,
+      "event": "OpenAI將推出24小時AI助手O",
+      "score": 60,
       "group": "模型與產品發布",
       "published": true,
-      "reason": "騰訊發布具競爭力的AI模型，影響市場格局",
+      "reason": "新產品形態，擴充套件應用場景",
       "coherent": true,
       "size": 2,
-      "max_crawled_at": "2026-09-27 11:00:17",
+      "max_crawled_at": "2026-09-27 15:00:17",
       "titles": [
-        "腾讯悄悄做了个“中国版Muse”"
+        "OpenAI神秘“o”代码曝光！ChatGPT要变24小时员工",
+        "消息称OpenAI将推出常驻AI助手“O”，预计9月29日发布"
       ],
       "urls": [
-        "https://tech.ifeng.com/c/8wkwH3ZqEue",
-        "https://www.36kr.com/p/4000995103395716"
+        "https://tech.ifeng.com/c/8wkpHpu2KBD",
+        "https://tech.ifeng.com/c/8wlEOmUSQDS"
       ],
       "sources": [
         "ifeng",
-        "36kr"
-      ]
-    },
-    {
-      "event": "Meta推出Muse AI代理",
-      "score": 65,
-      "group": "模型與產品發布",
-      "published": true,
-      "reason": "Muse發布標誌Meta在AI代理領域的重大產品佈局。",
-      "coherent": false,
-      "size": 2,
-      "max_crawled_at": "2026-09-27 23:00:30",
-      "titles": [
-        "Meta’s Muse Moment",
-        "Meta's Muse agent is attacking one of the economy's most profitable weak spots"
-      ],
-      "urls": [
-        "https://www.wsj.com/tech/ai/metas-muse-moment-4c49ac0e?mod=rss_Technology",
-        "https://www.cnbc.com/2026/09/27/meta-muse-ai-personal-agent.html"
-      ],
-      "sources": [
-        "wsj",
-        "cnbc"
-      ]
-    },
-    {
-      "event": "字節跳動豆包跨越臨界點後的戰略",
-      "score": 60,
-      "group": "競爭格局與合作結盟",
-      "published": true,
-      "reason": "字節跳動AI進展顯著，強化市場競爭力",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-09-27 12:00:17",
-      "titles": [
-        "豆包跨越「临界点」后，字节AI下一步怎么走？",
-        "对标OpenAI！不会代码，也能跑Claude API"
-      ],
-      "urls": [
-        "https://www.36kr.com/p/3867066152713092",
-        "https://tech.ifeng.com/c/8wkqkJLG3Nx"
-      ],
-      "sources": [
-        "36kr",
         "ifeng"
       ]
     },
     {
-      "event": "Google與Anthropic研究員辭職呼籲放慢AI",
+      "event": "Amazon印度投資數十億美元於AI與雲端",
       "score": 60,
-      "group": "人才與組織",
+      "group": "集資與估值",
       "published": true,
-      "reason": "頂尖人才流失反映業界對AI發展速度的擔憂",
+      "reason": "大規模資本投入，強化基礎設施",
       "coherent": true,
       "size": 2,
-      "max_crawled_at": "2026-09-27 16:30:17",
+      "max_crawled_at": "2026-09-28 04:00:17",
       "titles": [
-        "Google and Anthropic resignations fuel calls to slow AI race",
-        "앤트로픽 이어 구글 연구원 사임…\"AI 발전 속도 너무 빨라\""
+        "Amazon India's Investment: Exploring Jeff Bezos' Billions in AI, Cloud, and E-Commerce",
+        "Amazon India Investment: Why Jeff Bezos' Company Is Betting Billions On AI, Cloud And E-Commerce"
       ],
       "urls": [
-        "https://biz.chosun.com/en/en-it/2026/09/27/R4IWD4QAM5HWVAXZIIYNWKO3HI/",
-        "https://zdnet.co.kr/view/?no=20260927112006"
+        "https://www.rswebsols.com/news/amazon-indias-investment-exploring-jeff-bezos-billions-in-ai-cloud-and-e-commerce/",
+        "https://brandequity.economictimes.indiatimes.com/news/business-of-brands/amazon-india-investment-why-jeff-bezos-company-is-betting-billions-on-ai-cloud-and-e-commerce/134500311"
       ],
       "sources": [
-        "chosunbiz",
+        "india_electronics",
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "ReadyPost推動AI監管沙盒成國際標準",
+      "score": 60,
+      "group": "監理與法規",
+      "published": true,
+      "reason": "韓國企業主導國際標準制定，具全球規範影響力。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-27 10:00:38",
+      "titles": [
+        "규제샌드박스가 국제표준으로…레디포스트·아이싸이랩 ITU-T 표준화 추진"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260927081015"
+      ],
+      "sources": [
         "zdkorea"
       ]
     },
     {
-      "event": "Gemini 4洩漏與TPU進展",
-      "score": 60,
-      "group": "模型與產品發布",
-      "published": true,
-      "reason": "Gemini版本洩露顯示競爭加劇，TPU進展強化基礎設施優勢。",
-      "coherent": false,
-      "size": 1,
-      "max_crawled_at": "2026-09-27 11:30:17",
-      "titles": [
-        "轮到谷歌踩油门了！Gemini 4泄漏、TPU上天"
-      ],
-      "urls": [
-        "//www.sohu.com/a/1081160324_610300"
-      ],
-      "sources": [
-        "sohu"
-      ]
-    },
-    {
-      "event": "OpenAI沙盒再次失敗",
+      "event": "蓋茲警告AI可能引發十億人死亡",
       "score": 60,
       "group": "監理與法規",
       "published": true,
-      "reason": "持續的安全問題加劇監管壓力，影響投資者信心。",
-      "coherent": false,
-      "size": 1,
-      "max_crawled_at": "2026-09-27 09:30:17",
-      "titles": [
-        "Another OpenAI Sandbox Failed, AI Agent Gained Internet Access - bloomberg.com"
-      ],
-      "urls": [
-        "https://www.bloomberg.com/news/articles/2026-09-26/another-openai-sandbox-failed-ai-agent-gained-internet-access?srnd=ai-ethics-law-policy"
-      ],
-      "sources": [
-        "bloomberg"
-      ]
-    },
-    {
-      "event": "蓋茲警告AI可能導致十億人死亡",
-      "score": 60,
-      "group": "監理與法規",
-      "published": true,
-      "reason": "知名人士警示強化監管必要性",
+      "reason": "頂尖人物對AI生存風險之嚴峻警告",
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-09-27 11:30:17",
@@ -528,81 +564,122 @@
       ]
     },
     {
-      "event": "亞馬遜印度投資數十億美元於AI與雲端",
-      "score": 60,
-      "group": "集資與估值",
-      "published": true,
-      "reason": "大型資本投入顯示亞馬遜在印度市場的擴張決心",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-27 01:01:17",
-      "titles": [
-        "Amazon India Investment: Why Jeff Bezos' Company Is Betting Billions On AI, Cloud And E-Commerce"
-      ],
-      "urls": [
-        "https://brandequity.economictimes.indiatimes.com/news/business-of-brands/amazon-india-investment-why-jeff-bezos-company-is-betting-billions-on-ai-cloud-and-e-commerce/134500311"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "微軟在印度海德拉巴新增AI資料中心區域",
-      "score": 60,
-      "group": "算力採購與基礎設施",
-      "published": false,
-      "reason": "巨頭擴大全球算力佈局，影響開發者生態",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-28 01:31:17",
-      "titles": [
-        "Microsoft Expands AI Infrastructure in India with New Hyderabad Datacenter Region - digital terminal"
-      ],
-      "urls": [
-        "https://digitalterminal.in/amp/story/trending/microsoft-expands-ai-infrastructure-in-india-with-new-hyderabad-datacenter-region"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "Meta修復Muse安全漏洞並加強警示",
+      "event": "Meta加強Muse安全警示後處理漏洞",
       "score": 55,
-      "group": "監理與法規",
+      "group": "模型與產品發布",
       "published": false,
-      "reason": "安全修補顯示AI代理開發中的風險管理挑戰。",
+      "reason": "龍頭代理安全事件，影響使用者信任",
       "coherent": true,
-      "size": 5,
-      "max_crawled_at": "2026-09-27 21:30:17",
+      "size": 6,
+      "max_crawled_at": "2026-09-28 04:00:17",
       "titles": [
         "Meta bolsters Muse safety warning after security vulnerability found: The Information",
         "Meta tightens Muse security after flaw exposes user VMs and data risks",
-        "AI安全漏洞潮蔓延：Muse被曝两处隐患 Meta拟加强风险提示",
         "[안광섭 AI 진테제] 메타 '뮤즈'가 한국기업에 시사하는 것",
+        "Can Muse overcome Meta’s trust issues?",
+        "AI安全漏洞潮蔓延：Muse被曝两处隐患 Meta拟加强风险提示",
         "메타, AI 에이전트 뮤즈 신기능 체험자 모집…신청도 AI에게"
       ],
       "urls": [
         "https://economictimes.indiatimes.com/tech/technology/meta-bolsters-muse-safety-warning-after-security-vulnerability-found-the-information-reports/articleshow/134520936.cms",
         "https://biz.chosun.com/en/en-it/2026/09/27/7A4E3JC3L5GRLJQISUJDBA2VDA/",
-        "https://www.chinastarmarket.cn/detail/2493273",
         "https://zdnet.co.kr/view/?no=20260926142303",
+        "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+        "https://www.chinastarmarket.cn/detail/2493273",
         "https://zdnet.co.kr/view/?no=20260926093516"
       ],
       "sources": [
         "economictimes",
         "chosunbiz",
-        "chinastarmarket",
         "zdkorea",
+        "techcrunch",
+        "chinastarmarket",
         "zdkorea"
       ]
     },
     {
-      "event": "韓國搶攻物理AI資料與邊緣軟體市場",
+      "event": "Gemini 4洩漏與TPU技術進展",
+      "score": 55,
+      "group": "模型與產品發布",
+      "published": false,
+      "reason": "技術洩露與硬體進展並列",
+      "coherent": false,
+      "size": 1,
+      "max_crawled_at": "2026-09-27 11:30:17",
+      "titles": [
+        "轮到谷歌踩油门了！Gemini 4泄漏、TPU上天"
+      ],
+      "urls": [
+        "//www.sohu.com/a/1081160324_610300"
+      ],
+      "sources": [
+        "sohu"
+      ]
+    },
+    {
+      "event": "Oracle新墨西哥AI資料中心建設出現裂痕",
+      "score": 55,
+      "group": "算力採購與基礎設施",
+      "published": false,
+      "reason": "龍頭建設延遲影響供應鏈信心",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-27 15:31:17",
+      "titles": [
+        "Cracks in Oracle’s AI Data-Center Build-Out Appear in Massive New Mexico Project - WSJ"
+      ],
+      "urls": [
+        "https://www.wsj.com/finance/investing/cracks-in-oracles-ai-data-center-build-out-appear-in-massive-new-mexico-project-effb51c2"
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "微軟整合企業級AI與Anthropic競爭",
+      "score": 55,
+      "group": "模型與產品發布",
+      "published": false,
+      "reason": "微軟推出新應用並引入Claude，影響競爭",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-27 07:01:17",
+      "titles": [
+        "微软将企业级AI整合至单一应用，与Anthropic展开竞争-36氪"
+      ],
+      "urls": [
+        "https://www.36kr.com/newsflashes/3999659831480198"
+      ],
+      "sources": [
+        "36kr"
+      ]
+    },
+    {
+      "event": "低價Token推動AI使用量激增推高成本",
       "score": 55,
       "group": "競爭格局與合作結盟",
       "published": false,
-      "reason": "韓國在具身智慧與邊緣計算領域的戰略佈局",
+      "reason": "價格戰改變市場結構，影響模型供應商獲利模式。",
       "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-28 05:31:17",
+      "titles": [
+        "Cheap tokens fuel AI usage surge, pushing task costs higher"
+      ],
+      "urls": [
+        "https://biz.chosun.com/en/en-it/2026/09/28/VK3ADZSXWJEIDH55X75JWACOAY/"
+      ],
+      "sources": [
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "韓國推動通用機器人智慧與邊緣AI",
+      "score": 50,
+      "group": "模型與產品發布",
+      "published": false,
+      "reason": "聚焦通用機器人智慧趨勢，涵蓋資料獲取與邊緣計算。",
+      "coherent": false,
       "size": 3,
       "max_crawled_at": "2026-09-27 15:00:17",
       "titles": [
@@ -622,77 +699,136 @@
       ]
     },
     {
-      "event": "澳洲參議院傳喚OpenAI與Anthropic",
-      "score": 55,
-      "group": "監理與法規",
-      "published": false,
-      "reason": "澳洲加強AI監管，影響區域合規環境",
-      "coherent": true,
-      "size": 3,
-      "max_crawled_at": "2026-09-27 20:00:17",
-      "titles": [
-        "Australia Senate Requests OpenAI, Anthropic CEOs Face AI Inquiry",
-        "Australia’s Deputy PM Defends Data Security After OpenAI Hack",
-        "微软将企业级AI整合至单一应用，与Anthropic展开竞争-36氪"
-      ],
-      "urls": [
-        "https://www.bloomberg.com/news/articles/2026-09-27/australia-senate-requests-openai-anthropic-ceos-face-ai-inquiry",
-        "https://www.bloomberg.com/news/articles/2026-09-27/australia-s-deputy-pm-defends-data-security-after-openai-hack?srnd=phx-economics-v2",
-        "https://www.36kr.com/newsflashes/3999659831480198"
-      ],
-      "sources": [
-        "bloomberg",
-        "bloomberg",
-        "36kr"
-      ]
-    },
-    {
-      "event": "中國具身智慧機器人進入實幹時代",
-      "score": 55,
-      "group": "模型與產品發布",
-      "published": false,
-      "reason": "具身智慧技術進展，影響機器人產業競爭格局",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-09-27 19:30:17",
-      "titles": [
-        "中国具身智能机器人进入“实干时代”？",
-        "中国四足机器人，再现无人机的全球统治力"
-      ],
-      "urls": [
-        "https://finance.sina.com.cn/roll/2026-09-27/doc-initfpaq0403123.shtml",
-        "https://www.yicai.com/news/103378773.html"
-      ],
-      "sources": [
-        "sina_finance",
-        "yicai"
-      ]
-    },
-    {
-      "event": "GPU在AI算力中佔比下降趨勢",
-      "score": 55,
-      "group": "算力採購與基礎設施",
-      "published": false,
-      "reason": "反映基礎設施技術路線的潛在轉變",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-27 08:31:17",
-      "titles": [
-        "一半的活已经不归 GPU 管了-36氪"
-      ],
-      "urls": [
-        "https://www.36kr.com/p/4000900001878144"
-      ],
-      "sources": [
-        "36kr"
-      ]
-    },
-    {
-      "event": "AI人才流向中國，就業比重超美國",
-      "score": 55,
+      "event": "Google與Anthropic研究員離職潮",
+      "score": 50,
       "group": "人才與組織",
       "published": false,
-      "reason": "反映全球AI人才競爭格局重大變化",
+      "reason": "人才流失反映行業發展焦慮",
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-09-27 16:30:17",
+      "titles": [
+        "Google and Anthropic resignations fuel calls to slow AI race",
+        "앤트로픽 이어 구글 연구원 사임…\"AI 발전 속도 너무 빨라\""
+      ],
+      "urls": [
+        "https://biz.chosun.com/en/en-it/2026/09/27/R4IWD4QAM5HWVAXZIIYNWKO3HI/",
+        "https://zdnet.co.kr/view/?no=20260927112006"
+      ],
+      "sources": [
+        "chosunbiz",
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "豆包跨越臨界點後，位元組AI下一步怎麼走？",
+      "score": 50,
+      "group": "模型與產品發布",
+      "published": false,
+      "reason": "反映中國龍頭模型能力進階與戰略方向",
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-09-27 12:00:17",
+      "titles": [
+        "豆包跨越「临界点」后，字节AI下一步怎么走？",
+        "对标OpenAI！不会代码，也能跑Claude API"
+      ],
+      "urls": [
+        "https://www.36kr.com/p/3867066152713092",
+        "https://tech.ifeng.com/c/8wkqkJLG3Nx"
+      ],
+      "sources": [
+        "36kr",
+        "ifeng"
+      ]
+    },
+    {
+      "event": "騰訊開發類似Meta Muse的企業AI應用",
+      "score": 50,
+      "group": "模型與產品發布",
+      "published": false,
+      "reason": "騰訊推出新企業級AI產品，具競爭意義",
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-09-27 11:00:17",
+      "titles": [
+        "腾讯悄悄做了个“中国版Muse”"
+      ],
+      "urls": [
+        "https://tech.ifeng.com/c/8wkwH3ZqEue",
+        "https://www.36kr.com/p/4000995103395716"
+      ],
+      "sources": [
+        "ifeng",
+        "36kr"
+      ]
+    },
+    {
+      "event": "a16z創辦免學費AI學院並看好硬科技",
+      "score": 50,
+      "group": "人才與組織",
+      "published": false,
+      "reason": "教育投資反映人才短缺，同時指出硬體瓶頸。",
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-09-27 14:31:17",
+      "titles": [
+        "a16z 創辦矽谷 AI 學院：免學費、無考試，以「實作成果」取代成績單",
+        "AI 越成功硬體越稀缺：晶片、能源成 AI 擴張瓶頸，創投重新看好硬科技"
+      ],
+      "urls": [
+        "https://technews.tw/2026/09/27/andreessen-horowitz-academy/",
+        "https://technews.tw/2026/09/27/silicon-valley-sees-hard-tech-revival/"
+      ],
+      "sources": [
+        "technews",
+        "technews"
+      ]
+    },
+    {
+      "event": "MiniMax發布M3.1-Flash-Preview模型",
+      "score": 50,
+      "group": "模型與產品發布",
+      "published": false,
+      "reason": "新模型發布，擴充套件開源生態",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-27 17:00:17",
+      "titles": [
+        "MiniMax最新文本模型M3.1-Flash-Preview上线MiniMax Code平台"
+      ],
+      "urls": [
+        "https://tech.ifeng.com/c/8wlK0628PiO"
+      ],
+      "sources": [
+        "ifeng"
+      ]
+    },
+    {
+      "event": "微軟在印度海德拉巴擴建AI基礎設施",
+      "score": 50,
+      "group": "算力採購與基礎設施",
+      "published": false,
+      "reason": "雲端巨頭擴張關鍵市場算力佈局",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-28 01:31:17",
+      "titles": [
+        "Microsoft Expands AI Infrastructure in India with New Hyderabad Datacenter Region - digital terminal"
+      ],
+      "urls": [
+        "https://digitalterminal.in/amp/story/trending/microsoft-expands-ai-infrastructure-in-india-with-new-hyderabad-datacenter-region"
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "AI人才湧向中國，工作地比重超美國",
+      "score": 50,
+      "group": "人才與組織",
+      "published": false,
+      "reason": "全球人才流動趨勢改變競爭基礎",
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-09-27 10:00:38",
@@ -708,11 +844,11 @@
     },
     {
       "event": "印度在聯合國支援主權AI模型",
-      "score": 50,
+      "score": 45,
       "group": "監理與法規",
       "published": false,
-      "reason": "全球南方推動AI治理，影響國際規則制定",
-      "coherent": true,
+      "reason": "全球南方推動AI治理，具地緣政治意義",
+      "coherent": false,
       "size": 5,
       "max_crawled_at": "2026-09-27 21:30:17",
       "titles": [
@@ -737,352 +873,52 @@
       ]
     },
     {
-      "event": "印度聚焦企業級AI而非僅消費型聊天機器人",
-      "score": 50,
-      "group": "競爭格局與合作結盟",
-      "published": false,
-      "reason": "印度AI產業策略轉向，影響全球企業級AI市場",
-      "coherent": true,
-      "size": 3,
-      "max_crawled_at": "2026-09-27 19:30:17",
-      "titles": [
-        "India’s AI Future Could Be Built Around Enterprise AI, Not Just Consumer Chatbots | Tech News - News18",
-        "Making AI atmanirbhar in India - Hindustan Times",
-        "India AI Impact Summit 2026: Key Takeaways for Businesses"
-      ],
-      "urls": [
-        "https://www.news18.com/amp/tech/indias-ai-future-could-be-built-around-enterprise-ai-not-just-consumer-chatbots-10354065.html",
-        "https://www.hindustantimes.com/ht-insight/future-tech/making-ai-atmanirbhar-in-india-101790503299421.html",
-        "https://www.addwebsolution.com/blog/india-ai-impact-summit-2026-key-takeaways-business"
-      ],
-      "sources": [
-        "india_electronics",
-        "india_electronics",
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "蘋果重返伺服器市場引發競爭",
-      "score": 50,
-      "group": "硬體產品",
-      "published": false,
-      "reason": "蘋果進入伺服器領域，改變基礎設施供應格局",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-27 14:31:17",
-      "titles": [
-        "苹果或重返服务器，互联市场开始“群雄逐鹿” - 36Kr"
-      ],
-      "urls": [
-        "https://www.36kr.com/p/4001085325692807"
-      ],
-      "sources": [
-        "36kr"
-      ]
-    },
-    {
-      "event": "MiniMax發布M3.1-Flash-preview模型",
-      "score": 50,
+      "event": "Google測試Gemini內建購物功能",
+      "score": 45,
       "group": "模型與產品發布",
       "published": false,
-      "reason": "MiniMax推出新模型，豐富開源生態",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-27 17:00:17",
-      "titles": [
-        "MiniMax最新文本模型M3.1-Flash-Preview上线MiniMax Code平台"
-      ],
-      "urls": [
-        "https://tech.ifeng.com/c/8wlK0628PiO"
-      ],
-      "sources": [
-        "ifeng"
-      ]
-    },
-    {
-      "event": "印度推動AI自主化（Atmanirbhar）",
-      "score": 50,
-      "group": "競爭格局與合作結盟",
-      "published": false,
-      "reason": "印度國家級AI自主戰略，影響全球供應鏈",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-27 20:00:17",
-      "titles": [
-        "Making AI atmanirbhar in India"
-      ],
-      "urls": [
-        "https://www.msn.com/en-in/news/other/making-ai-atmanirbhar-in-india/ar-AA2d3teB"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "智譜股價大跌與DeepSeek人事變動",
-      "score": 45,
-      "group": "人才與組織",
-      "published": false,
-      "reason": "反映中國AI市場競爭激烈及企業內部治理變化。",
+      "reason": "聚焦Gemini新功能，非Flipkart收購",
       "coherent": false,
       "size": 2,
-      "max_crawled_at": "2026-09-27 23:31:17",
+      "max_crawled_at": "2026-09-28 05:31:17",
       "titles": [
-        "AI周报| Meta旗下Muse爆火；高瓴90后合伙人出任DeepSeek CFO",
-        "从2980到610：智谱的“膝盖斩”，不只是价格战"
-      ],
-      "urls": [
-        "https://www.yicai.com/news/103378661.html",
-        "https://finance.sina.com.cn/roll/2026-09-26/doc-inithuvt9213454.shtml"
-      ],
-      "sources": [
-        "yicai",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "首部AI院線電影《三星堆：未來往事》定檔",
-      "score": 45,
-      "group": "模型與產品發布",
-      "published": false,
-      "reason": "AI原生電影上映具指標意義，但非核心模型技術突破。",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-09-27 13:30:17",
-      "titles": [
-        "首部AI超写实院线电影《三星堆：未来往事》定档10月23日 - 36Kr",
-        "中国首部院线AI原生动画电影《三星堆：未来往事》定档10月23日上映"
-      ],
-      "urls": [
-        "https://36kr.com/newsflashes/4001191187173253",
-        "https://tech.ifeng.com/c/8wkzPaVuECY"
-      ],
-      "sources": [
-        "36kr",
-        "ifeng"
-      ]
-    },
-    {
-      "event": "OpenAI代理濫用技術存取聯合國網站",
-      "score": 45,
-      "group": "監理與法規",
-      "published": false,
-      "reason": "暴露AI安全漏洞，引發監管關注",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-27 08:31:17",
-      "titles": [
-        "OpenAI Agents Used Aggressive Techniques to Access U.N. Website"
-      ],
-      "urls": [
-        "https://www.wsj.com/tech/ai/openai-agents-used-aggressive-techniques-to-access-u-n-website-522c70ff?mod=rss_Technology"
-      ],
-      "sources": [
-        "wsj"
-      ]
-    },
-    {
-      "event": "Google透過Gemini測試電商整合",
-      "score": 45,
-      "group": "模型與產品發布",
-      "published": false,
-      "reason": "Google探索AI在電商領域的應用落地",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-27 09:30:17",
-      "titles": [
+        "Google Tests Direct Flipkart Buying Through Gemini And AI Mode In India: 11 outlets compared - NewsCord",
         "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India"
       ],
       "urls": [
+        "https://newscord.org/article/google-tests-direct-flipkart-buying-through-gemini-and-ai-mode-in-india--Story_20260926_Googletestsbuyingfroee5444f1",
         "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/"
       ],
       "sources": [
+        "india_electronics",
         "techcrunch"
       ]
     },
     {
-      "event": "AI賦予科技業新國家安全權力",
+      "event": "Meta Muse agent攻擊經濟高利潤弱點",
       "score": 45,
-      "group": "監理與法規",
+      "group": "模型與產品發布",
       "published": false,
-      "reason": "探討AI對國家安全的影響，屬政策層面討論",
+      "reason": "展示AI代理實際攻擊力，具示範效應",
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-09-27 00:30:34",
+      "max_crawled_at": "2026-09-27 23:00:30",
       "titles": [
-        "AI Gives Tech Firms New National Security Power"
+        "Meta's Muse agent is attacking one of the economy's most profitable weak spots"
       ],
       "urls": [
-        "https://www.bloomberg.com/news/articles/2026-09-26/ai-gives-tech-firms-new-national-security-power-video"
+        "https://www.cnbc.com/2026/09/27/meta-muse-ai-personal-agent.html"
       ],
       "sources": [
-        "bloomberg"
-      ]
-    },
-    {
-      "event": "Quill Group與中國移動探索馬來西亞AI機會",
-      "score": 45,
-      "group": "競爭格局與合作結盟",
-      "published": false,
-      "reason": "跨國企業在東南亞市場的合作佈局",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-27 12:30:17",
-      "titles": [
-        "Quill Group, China Mobile International to explore AI, data centre opportunities in Malaysia"
-      ],
-      "urls": [
-        "https://theedgemalaysia.com/node/819498"
-      ],
-      "sources": [
-        "edge_markets"
-      ]
-    },
-    {
-      "event": "Blue Cloud Softech擬投10億美元建AI資料中心",
-      "score": 45,
-      "group": "算力採購與基礎設施",
-      "published": false,
-      "reason": "傳統企業投資AI基建，非核心實驗室動向",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-27 17:30:17",
-      "titles": [
-        "Blue Cloud Softech jumps 18% after company plans up to $1 Bn investment in AI-powered data centres - Alice Blue"
-      ],
-      "urls": [
-        "https://aliceblueonline.com/news/blue-cloud-softech-jumps-18-percent-after-company-plans-up-to-usd-1-bn-investment-in-ai-powered-data-centres/"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "德國AI新創籲歐洲樂觀看待以抗美中",
-      "score": 40,
-      "group": "競爭格局與合作結盟",
-      "published": false,
-      "reason": "反映歐洲AI產業面對美中巨頭的競爭焦慮",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-09-27 19:30:17",
-      "titles": [
-        "德國AI新創公司籲歐洲樂觀看待　否則難抗美中巨頭",
-        "AI startup Black Forest Labs urges optimism from Europe despite safety fears"
-      ],
-      "urls": [
-        "https://www.cna.com.tw/news/afe/202609270105.aspx",
-        "https://economictimes.indiatimes.com/tech/startups/ai-startup-urges-optimism-from-europe-despite-safety-fears/articleshow/134518987.cms"
-      ],
-      "sources": [
-        "cna",
-        "economictimes"
-      ]
-    },
-    {
-      "event": "微軟淡化Copilot Plus PC標籤，聚焦穿戴裝置",
-      "score": 40,
-      "group": "硬體產品",
-      "published": false,
-      "reason": "微軟硬體策略調整，影響消費者AI市場佈局",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-09-27 16:00:32",
-      "titles": [
-        "才兩年就退燒了？微軟 Surface 正淡化 Copilot Plus PC 標籤",
-        "科技巨頭搶攻 AI 穿戴裝置，偷拍疑慮與雲端資安成最大絆腳石"
-      ],
-      "urls": [
-        "https://technews.tw/2026/09/27/microsoft-surface-copilot-plus-pc/",
-        "https://infosecu.technews.tw/2026/09/27/ai-wearable-devices-privacy-cybersecurity-risks/"
-      ],
-      "sources": [
-        "technews",
-        "technews"
-      ]
-    },
-    {
-      "event": "Anthropic CEO與特朗普白宮晚宴",
-      "score": 40,
-      "group": "競爭格局與合作結盟",
-      "published": false,
-      "reason": "高層互動顯示政策影響力，但具體影響尚不明確。",
-      "coherent": false,
-      "size": 1,
-      "max_crawled_at": "2026-09-28 01:31:17",
-      "titles": [
-        "Anthropic CEO Amodei to have White House dinner with Trump: Axios"
-      ],
-      "urls": [
-        "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-ceo-amodei-to-have-white-house-dinner-with-trump-says-axios/articleshow/134523438.cms"
-      ],
-      "sources": [
-        "economictimes"
-      ]
-    },
-    {
-      "event": "Vibe Coding熱潮推動企業營收增長",
-      "score": 40,
-      "group": "競爭格局與合作結盟",
-      "published": false,
-      "reason": "反映AI程式設計趨勢對商業模式的影響",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-27 10:00:38",
-      "titles": [
-        "바이브 코딩 뜨자 '러버블'도 질주…연환산 매출 6억 달러 돌파"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260925131216"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "阿里執行長吳泳銘入選時代百大AI領導者",
-      "score": 40,
-      "group": "人才與組織",
-      "published": false,
-      "reason": "企業領導人獲國際認可，反映阿里戰略地位",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-27 03:31:17",
-      "titles": [
-        "阿里巴巴執行長吳泳銘登《時代》百大AI領導者確立阿里新戰略地位- 日報"
-      ],
-      "urls": [
-        "https://www.ctee.com.tw/news/20260927700082-439901"
-      ],
-      "sources": [
-        "ctee"
-      ]
-    },
-    {
-      "event": "蘋果推動韓國智慧製造與機器人",
-      "score": 35,
-      "group": "硬體產品",
-      "published": false,
-      "reason": "蘋果擴充套件硬體應用場景",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-27 10:00:38",
-      "titles": [
-        "Apple drives Korea smart manufacturing with physical AI and robotics"
-      ],
-      "urls": [
-        "https://biz.chosun.com/en/en-it/2026/09/27/BXQEQ7A5U5CR5PRD3BRVCVEYFQ/"
-      ],
-      "sources": [
-        "chosunbiz"
+        "cnbc"
       ]
     },
     {
       "event": "日本聲優提告TikTok侵犯聲音權",
-      "score": 35,
+      "score": 45,
       "group": "監理與法規",
       "published": false,
-      "reason": "涉及AI版權爭議，具法律先例意義",
+      "reason": "版權訴訟具先例意義，影響AI訓練資料",
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-09-27 14:31:17",
@@ -1097,74 +933,49 @@
       ]
     },
     {
-      "event": "專家建議勿過度依賴AI",
-      "score": 30,
-      "group": "監理與法規",
+      "event": "Quill與中國移動探索馬來西亞AI機房",
+      "score": 45,
+      "group": "算力採購與基礎設施",
       "published": false,
-      "reason": "學術界對AI發展的反思，影響公眾認知但無直接政策效力。",
-      "coherent": false,
-      "size": 2,
-      "max_crawled_at": "2026-09-27 13:30:17",
+      "reason": "跨國算力基礎設施佈局，反映地緣政治下的供應鏈調整。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-27 12:30:17",
       "titles": [
-        "围观科学家云集的两场活动，我发现他们都建议“别太依赖AI”",
-        "Hinton盛赞，Gemini核心贡献者演讲：未来会有数十亿超人级AI爱因斯坦"
+        "Quill Group, China Mobile International to explore AI, data centre opportunities in Malaysia"
       ],
       "urls": [
-        "https://tech.ifeng.com/c/8wl4Ts5QM1G",
-        "https://www.36kr.com/p/3880834484613121"
+        "https://theedgemalaysia.com/node/819498"
       ],
       "sources": [
-        "ifeng",
+        "edge_markets"
+      ]
+    },
+    {
+      "event": "AI合規監管服務崛起成新商業賽道",
+      "score": 45,
+      "group": "競爭格局與合作結盟",
+      "published": false,
+      "reason": "新興服務市場形成，反映監管壓力轉化為商業機會。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-27 09:30:17",
+      "titles": [
+        "2024AI管控新风口：合规监管服务崛起成热门新生意赛道 - eu.36kr.com"
+      ],
+      "urls": [
+        "https://www.36kr.com/zh/p/4000927879319685"
+      ],
+      "sources": [
         "36kr"
       ]
     },
     {
-      "event": "分析AI泡沫破裂跡象與安全恐慌起源",
-      "score": 30,
-      "group": "監理與法規",
-      "published": false,
-      "reason": "屬觀點性文章，非具體事件或政策變動",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-09-27 18:00:19",
-      "titles": [
-        "How to Know When the AI Boom Is About to Go Bust",
-        "‘Things Will Never Be Chill Again’: The Doomers Who Shaped the AI Safety Freakout"
-      ],
-      "urls": [
-        "https://www.wsj.com/finance/stocks/how-to-know-when-the-ai-boom-is-about-to-go-bust-61af3d26?mod=rss_Technology",
-        "https://www.wsj.com/tech/ai/ai-safety-effective-altruism-anthropic-164b9d05?mod=rss_Technology"
-      ],
-      "sources": [
-        "wsj",
-        "wsj"
-      ]
-    },
-    {
-      "event": "OpenAI影像洩露事件引發關注",
-      "score": 30,
-      "group": "監理與法規",
-      "published": false,
-      "reason": "單一安全事件，行業影響有限",
-      "coherent": false,
-      "size": 1,
-      "max_crawled_at": "2026-09-27 17:00:17",
-      "titles": [
-        "PODCAST: Iran’s peace proposal, OpenAI image leak and FIFA reform"
-      ],
-      "urls": [
-        "https://www.reuters.com/podcasts/irans-peace-proposal-openai-image-leak-fifa-reform-2026-09-26/"
-      ],
-      "sources": [
-        "reuters"
-      ]
-    },
-    {
-      "event": "ChatGPT廣告點選轉化率高達70%",
-      "score": 30,
+      "event": "ChatGPT廣告點選轉化與營收成效",
+      "score": 45,
       "group": "模型與產品發布",
       "published": false,
-      "reason": "產品商業化資料，非核心技術或戰略突破",
+      "reason": "揭示ChatGPT廣告商業化實際成效",
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-09-27 10:00:38",
@@ -1179,30 +990,149 @@
       ]
     },
     {
-      "event": "臺泰推動AI智慧農業落地與產業對接",
-      "score": 30,
-      "group": "競爭格局與合作結盟",
+      "event": "智譜股價大跌引發市場關注",
+      "score": 40,
+      "group": "集資與估值",
       "published": false,
-      "reason": "屬區域性產業應用合作，對全球AI實驗室競爭格局影響有限。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-27 03:01:17",
+      "reason": "企業財務波動，行業影響有限",
+      "coherent": false,
+      "size": 3,
+      "max_crawled_at": "2026-09-27 23:31:17",
       "titles": [
-        "推動技術落地與產業對接臺泰AI智慧農業凝聚五大共識- 生活"
+        "从2980到610：智谱的“膝盖斩”，不只是价格战",
+        "AI制药进入“价值兑现前夜”",
+        "AI周报| Meta旗下Muse爆火；高瓴90后合伙人出任DeepSeek CFO"
       ],
       "urls": [
-        "https://www.ctee.com.tw/news/20260926700581-431401"
+        "https://finance.sina.com.cn/roll/2026-09-26/doc-inithuvt9213454.shtml",
+        "https://tech.ifeng.com/c/8wkpN5kyStJ",
+        "https://www.yicai.com/news/103378661.html"
       ],
       "sources": [
-        "ctee"
+        "sina_finance",
+        "ifeng",
+        "yicai"
       ]
     },
     {
-      "event": "KT AI模型路由技術獲全球基準測試第二名",
-      "score": 25,
+      "event": "中國具身智慧機器人進入實幹時代",
+      "score": 40,
+      "group": "硬體產品",
+      "published": false,
+      "reason": "產業趨勢報導，非單一公司重大發布",
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-09-27 19:30:17",
+      "titles": [
+        "中国具身智能机器人进入“实干时代”？",
+        "中国四足机器人，再现无人机的全球统治力"
+      ],
+      "urls": [
+        "https://finance.sina.com.cn/roll/2026-09-27/doc-initfpaq0403123.shtml",
+        "https://www.yicai.com/news/103378773.html"
+      ],
+      "sources": [
+        "sina_finance",
+        "yicai"
+      ]
+    },
+    {
+      "event": "蘋果或重返伺服器市場，互聯群雄逐鹿",
+      "score": 40,
+      "group": "硬體產品",
+      "published": false,
+      "reason": "蘋果進入伺服器領域改變競爭格局",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-27 14:31:17",
+      "titles": [
+        "苹果或重返服务器，互联市场开始“群雄逐鹿” - 36Kr"
+      ],
+      "urls": [
+        "https://www.36kr.com/p/4001085325692807"
+      ],
+      "sources": [
+        "36kr"
+      ]
+    },
+    {
+      "event": "OpenAI影像生成模型資料外洩",
+      "score": 40,
+      "group": "監理與法規",
+      "published": false,
+      "reason": "安全漏洞事件，影響使用者信任與監管",
+      "coherent": false,
+      "size": 1,
+      "max_crawled_at": "2026-09-27 17:00:17",
+      "titles": [
+        "PODCAST: Iran’s peace proposal, OpenAI image leak and FIFA reform"
+      ],
+      "urls": [
+        "https://www.reuters.com/podcasts/irans-peace-proposal-openai-image-leak-fifa-reform-2026-09-26/"
+      ],
+      "sources": [
+        "reuters"
+      ]
+    },
+    {
+      "event": "企業AI落地面臨最後一公里挑戰",
+      "score": 40,
+      "group": "競爭格局與合作結盟",
+      "published": false,
+      "reason": "揭示企業級AI部署痛點，反映市場成熟度與需求。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-27 13:30:17",
+      "titles": [
+        "模型越来越强，企业AI为什么还卡在“最后一公里”？"
+      ],
+      "urls": [
+        "https://tech.ifeng.com/c/8wl4G2nQLYp"
+      ],
+      "sources": [
+        "ifeng"
+      ]
+    },
+    {
+      "event": "比爾蓋茲示警AI失控風險恐死10億人",
+      "score": 35,
+      "group": "監理與法規",
+      "published": false,
+      "reason": "名人觀點呼籲監管，非具體立法或規則",
+      "coherent": false,
+      "size": 6,
+      "max_crawled_at": "2026-09-28 00:31:17",
+      "titles": [
+        "AI能力強大　比爾蓋茲：落入惡人手上可殺害10億人",
+        "比爾蓋茲又開砲 這回鎖定川普 批AI防護不會阻礙與陸競爭",
+        "蓋茲：AI 遭濫用 恐死10億人",
+        "比爾蓋茲示警AI失控風險- 日報",
+        "才兩年就退燒了？微軟 Surface 正淡化 Copilot Plus PC 標籤",
+        "科技巨頭搶攻 AI 穿戴裝置，偷拍疑慮與雲端資安成最大絆腳石"
+      ],
+      "urls": [
+        "https://money.udn.com/money/amp/story/123398/9780494",
+        "https://money.udn.com/money/amp/story/5599/9780463",
+        "https://money.udn.com/money/amp/story/5599/9779380",
+        "https://www.ctee.com.tw/news/20260927700060-439901",
+        "https://technews.tw/2026/09/27/microsoft-surface-copilot-plus-pc/",
+        "https://infosecu.technews.tw/2026/09/27/ai-wearable-devices-privacy-cybersecurity-risks/"
+      ],
+      "sources": [
+        "udn_money",
+        "udn_money",
+        "udn_money",
+        "ctee",
+        "technews",
+        "technews"
+      ]
+    },
+    {
+      "event": "KT AI模型路由技術獲全球第二",
+      "score": 35,
       "group": "模型與產品發布",
       "published": false,
-      "reason": "基礎設施最佳化技術進展，非核心模型能力",
+      "reason": "基礎設施最佳化技術突破，提升效率但非核心模型能力。",
       "coherent": true,
       "size": 2,
       "max_crawled_at": "2026-09-27 10:00:38",
@@ -1220,93 +1150,257 @@
       ]
     },
     {
-      "event": "末日鐘專家警告AI如原子彈般危險",
-      "score": 20,
+      "event": "AI賦予科技巨頭新國家安全權力",
+      "score": 35,
       "group": "監理與法規",
       "published": false,
-      "reason": "安全警示言論，非具約束力的監管措施",
+      "reason": "宏觀敘事，缺乏具體政策或事件支撐",
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-09-27 08:31:17",
+      "max_crawled_at": "2026-09-27 00:30:34",
       "titles": [
-        "距“灭绝”仅85秒！末日时钟专家警告：AI就是这个时代的原子弹"
+        "AI Gives Tech Firms New National Security Power"
       ],
       "urls": [
-        "https://tech.ifeng.com/c/8wkBBeCcqCz"
+        "https://www.bloomberg.com/news/articles/2026-09-26/ai-gives-tech-firms-new-national-security-power-video"
       ],
       "sources": [
-        "ifeng"
+        "bloomberg"
       ]
     },
     {
-      "event": "AI合規監管服務成為新興熱門生意",
-      "score": 20,
-      "group": "監理與法規",
+      "event": "Apple推動韓國智慧製造應用物理AI",
+      "score": 35,
+      "group": "競爭格局與合作結盟",
       "published": false,
-      "reason": "衍生服務市場趨勢，非直接監管或技術事件",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-27 09:30:17",
-      "titles": [
-        "2024AI管控新风口：合规监管服务崛起成热门新生意赛道 - eu.36kr.com"
-      ],
-      "urls": [
-        "https://www.36kr.com/zh/p/4000927879319685"
-      ],
-      "sources": [
-        "36kr"
-      ]
-    },
-    {
-      "event": "清江大學建構AI內容生態系培育人才",
-      "score": 20,
-      "group": "人才與組織",
-      "published": false,
-      "reason": "大學教育層面的人才培育，非業界關鍵人事變動或組織重組。",
+      "reason": "Apple拓展企業市場，影響硬體生態系",
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-09-27 10:00:38",
       "titles": [
-        "AI시대 인재 어떻게 키우나…청강대가 만드는 ‘AI 콘텐츠 생태계’"
+        "Apple drives Korea smart manufacturing with physical AI and robotics"
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20260923093017"
+        "https://biz.chosun.com/en/en-it/2026/09/27/BXQEQ7A5U5CR5PRD3BRVCVEYFQ/"
       ],
       "sources": [
-        "zdkorea"
+        "chosunbiz"
       ]
     },
     {
-      "event": "豆包AI助手致歉因誤踢玩家下線",
-      "score": 15,
-      "group": "模型與產品發布",
+      "event": "印度推動具自主性企業級AI發展",
+      "score": 30,
+      "group": "競爭格局與合作結盟",
       "published": false,
-      "reason": "單一產品運營事故，無產業結構性影響",
+      "reason": "國家級產業政策，非單一公司重大事件",
       "coherent": true,
       "size": 3,
-      "max_crawled_at": "2026-09-27 17:00:17",
+      "max_crawled_at": "2026-09-27 20:00:17",
       "titles": [
-        "努比亚NaviX Ultra玩王者荣耀被强制踢下线 豆包手机助手致歉",
-        "豆包手机助手致歉",
-        "“豆包AI手机”登录《王者荣耀》被强制下线？官方回应"
+        "Making AI atmanirbhar in India - Hindustan Times",
+        "India’s AI Future Could Be Built Around Enterprise AI, Not Just Consumer Chatbots | Tech News - News18",
+        "Making AI atmanirbhar in India"
       ],
       "urls": [
-        "https://tech.ifeng.com/c/8wlK0628Pop",
-        "https://www.stcn.com/article/detail/4199776.html",
-        "https://www.yicai.com/news/103378697.html"
+        "https://www.hindustantimes.com/ht-insight/future-tech/making-ai-atmanirbhar-in-india-101790503299421.html",
+        "https://www.news18.com/amp/tech/indias-ai-future-could-be-built-around-enterprise-ai-not-just-consumer-chatbots-10354065.html",
+        "https://www.msn.com/en-in/news/other/making-ai-atmanirbhar-in-india/ar-AA2d3teB"
+      ],
+      "sources": [
+        "india_electronics",
+        "india_electronics",
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "專家建議勿過度依賴AI技術",
+      "score": 30,
+      "group": "監理與法規",
+      "published": false,
+      "reason": "觀點性內容，缺乏具體政策影響",
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-09-27 13:30:17",
+      "titles": [
+        "围观科学家云集的两场活动，我发现他们都建议“别太依赖AI”",
+        "Hinton盛赞，Gemini核心贡献者演讲：未来会有数十亿超人级AI爱因斯坦"
+      ],
+      "urls": [
+        "https://tech.ifeng.com/c/8wl4Ts5QM1G",
+        "https://www.36kr.com/p/3880834484613121"
       ],
       "sources": [
         "ifeng",
-        "stcn",
-        "yicai"
+        "36kr"
       ]
     },
     {
-      "event": "科技領袖將出席特朗普政府網站啟動會",
-      "score": 15,
+      "event": "Black Forest Labs籲歐洲樂觀看待AI",
+      "score": 30,
+      "group": "競爭格局與合作結盟",
+      "published": false,
+      "reason": "新創呼籲政策支援，非具體技術發布",
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-09-27 19:30:17",
+      "titles": [
+        "德國AI新創公司籲歐洲樂觀看待　否則難抗美中巨頭",
+        "AI startup Black Forest Labs urges optimism from Europe despite safety fears"
+      ],
+      "urls": [
+        "https://www.cna.com.tw/news/afe/202609270105.aspx",
+        "https://economictimes.indiatimes.com/tech/startups/ai-startup-urges-optimism-from-europe-despite-safety-fears/articleshow/134518987.cms"
+      ],
+      "sources": [
+        "cna",
+        "economictimes"
+      ]
+    },
+    {
+      "event": "印度總理強調生物技術與AI驅動革命",
+      "score": 30,
       "group": "監理與法規",
       "published": false,
-      "reason": "政治活動，無具體AI監管政策或技術影響",
+      "reason": "國家級產業政策宣示，影響長期生態但無具體行動。",
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-09-27 14:31:17",
+      "titles": [
+        "The Tech-led Renaissance: Space, semiconductors and AI in PM Narendra Modi’s India - Organiser",
+        "India to be an essential player in the next industrial revolution which will be biotechnology and AI driven: Dr Jitendra Singh - PIB"
+      ],
+      "urls": [
+        "https://organiser.org/2026/09/27/382091/bharat/the-tech-led-renaissance-space-semiconductors-and-ai-in-pm-narendra-modis-india/",
+        "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296785"
+      ],
+      "sources": [
+        "india_electronics",
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "Google發射TPU衛星測試太空AI資料中心",
+      "score": 30,
+      "group": "算力採購與基礎設施",
+      "published": false,
+      "reason": "實驗性基礎設施佈局，非主流商業決策",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-27 17:00:17",
+      "titles": [
+        "Google launches TPU satellite to test space-based AI data centers"
+      ],
+      "urls": [
+        "https://biz.chosun.com/en/en-it/2026/09/27/4CAFYM65IZCSLFDUBOB5P23264/"
+      ],
+      "sources": [
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "Axis Bank擴招並重組人員因應AI轉型",
+      "score": 30,
+      "group": "人才與組織",
+      "published": false,
+      "reason": "傳統金融業人力調整，反映AI對就業結構影響。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-27 16:30:17",
+      "titles": [
+        "Axis Bank plans 12,500 campus hires, redeploys staff amid AI push"
+      ],
+      "urls": [
+        "https://www.business-standard.com/industry/news/axis-bank-to-ramp-up-campus-hiring-amid-ai-led-workforce-shift-126092700259_1.html"
+      ],
+      "sources": [
+        "business_standard"
+      ]
+    },
+    {
+      "event": "住友生命部署AI生成客製化契約",
+      "score": 30,
+      "group": "模型與產品發布",
+      "published": false,
+      "reason": "保險業應用AI具體落地案例",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-27 01:31:17",
+      "titles": [
+        "Japan's Sumitomo Life to deploy AI for tailor-made contracts"
+      ],
+      "urls": [
+        "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-s-sumitomo-life-to-deploy-ai-for-tailor-made-contracts"
+      ],
+      "sources": [
+        "nikkei"
+      ]
+    },
+    {
+      "event": "AI協助非洲農民應對厄爾尼諾現象",
+      "score": 25,
+      "group": "模型與產品發布",
+      "published": false,
+      "reason": "AI在農業氣候適應之應用例項",
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-09-27 15:31:17",
+      "titles": [
+        "How AI Is Helping African Farmers Prepare for El Niño",
+        "Watch How AI Is Helping African Farmers Prepare for El Niño"
+      ],
+      "urls": [
+        "https://www.bloomberg.com/news/articles/2026-09-27/how-ai-is-helping-african-farmers-prepare-for-el-nino-video",
+        "https://www.bloomberg.com/news/videos/2026-09-27/how-ai-is-helping-african-farmers-prepare-for-el-nino-video"
+      ],
+      "sources": [
+        "bloomberg",
+        "bloomberg"
+      ]
+    },
+    {
+      "event": "日本外務省招募海外雙用技術專家",
+      "score": 25,
+      "group": "人才與組織",
+      "published": false,
+      "reason": "政府人才招募，產業影響較小",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-28 02:00:30",
+      "titles": [
+        "Japan Foreign Ministry to recruit overseas experts in dual-use tech"
+      ],
+      "urls": [
+        "https://asia.nikkei.com/business/technology/japan-foreign-ministry-to-recruit-overseas-experts-in-dual-use-tech"
+      ],
+      "sources": [
+        "nikkei"
+      ]
+    },
+    {
+      "event": "AI安全恐慌背後推手與其影響分析",
+      "score": 25,
+      "group": "監理與法規",
+      "published": false,
+      "reason": "觀點性文章，非具體政策或技術發布",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-27 09:01:17",
+      "titles": [
+        "‘Things Will Never Be Chill Again’: The Doomers Who Shaped the AI Safety Freakout"
+      ],
+      "urls": [
+        "https://www.wsj.com/tech/ai/ai-safety-effective-altruism-anthropic-164b9d05?mod=rss_Technology"
+      ],
+      "sources": [
+        "wsj"
+      ]
+    },
+    {
+      "event": "科技與AI領袖將出席特朗普政府網站發布會",
+      "score": 25,
+      "group": "監理與法規",
+      "published": false,
+      "reason": "政治人物介入AI治理，具象徵意義但無實質監管約束力。",
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-09-27 03:01:17",
@@ -1321,106 +1415,87 @@
       ]
     },
     {
-      "event": "AI重塑印度旅遊業模式",
-      "score": 15,
+      "event": "臺泰推動AI智慧農業五大共識",
+      "score": 25,
       "group": "競爭格局與合作結盟",
       "published": false,
-      "reason": "屬一般性產業應用報導，缺乏具體AI實驗室動態或重大商業決策。",
+      "reason": "區域性產業合作，對全球AI技術發展影響有限。",
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-09-27 17:30:17",
+      "max_crawled_at": "2026-09-27 03:01:17",
       "titles": [
-        "World Tourism Day 2026: How AI Is Quietly Rewriting The Way India Travels - Outlook Traveller"
+        "推動技術落地與產業對接臺泰AI智慧農業凝聚五大共識- 生活"
       ],
       "urls": [
-        "https://www.outlooktraveller.com/News/world-tourism-day-2026-how-ai-is-quietly-rewriting-the-way-india-travels"
+        "https://www.ctee.com.tw/news/20260926700581-431401"
       ],
       "sources": [
-        "india_electronics"
+        "ctee"
       ]
     },
     {
-      "event": "分析企業AI落地難於最後一公里",
-      "score": 10,
-      "group": "競爭格局與合作結盟",
-      "published": false,
-      "reason": "行業觀察文章，無具體事件或產品發布",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-27 13:30:17",
-      "titles": [
-        "模型越来越强，企业AI为什么还卡在“最后一公里”？"
-      ],
-      "urls": [
-        "https://tech.ifeng.com/c/8wl4G2nQLYp"
-      ],
-      "sources": [
-        "ifeng"
-      ]
-    },
-    {
-      "event": "分析AI超級週期重塑亞洲經濟結構",
-      "score": 10,
-      "group": "競爭格局與合作結盟",
-      "published": false,
-      "reason": "宏觀經濟評論，無具體產業事件",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-28 00:01:17",
-      "titles": [
-        "The Invisible Boom: Why Traditional Economics Can't See The AI Supercycle Reshaping Asia - OpEd - Eurasia Review"
-      ],
-      "urls": [
-        "https://www.eurasiareview.com/26092026-the-invisible-boom-why-traditional-economics-cant-see-the-ai-supercycle-reshaping-asia-oped/"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "印度官員稱AI與半導體為未來前沿",
-      "score": 10,
-      "group": "監理與法規",
-      "published": false,
-      "reason": "政策宣示，無具體執行方案或投資承諾",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-27 06:31:17",
-      "titles": [
-        "AI, semiconductors, quantum tech next major frontier for India: Sitharaman - Udayavani"
-      ],
-      "urls": [
-        "https://udayavani.com/karnataka/ai-semiconductors-quantum-tech-next-major-frontier-for-india-sitharaman-241953?lang=en"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "安得拉邦推出AI驅動旅遊推廣計畫",
-      "score": 10,
-      "group": "競爭格局與合作結盟",
-      "published": false,
-      "reason": "地方政府行銷活動，非AI產業核心事件。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-27 17:30:17",
-      "titles": [
-        "'The Godavari Calls': AP unveils AI-powered tourism drive to put 130 destinations on global map"
-      ],
-      "urls": [
-        "https://newsmeter.in/top-stories/the-godavari-calls-ap-unveils-ai-powered-tourism-drive-to-put-130-destinations-on-global-map-776287"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "位元組員工自費購買自家產品引發內部投訴",
-      "score": 5,
+      "event": "阿里執行長吳泳銘登《時代》百大AI領導者",
+      "score": 20,
       "group": "人才與組織",
       "published": false,
-      "reason": "企業內部管理軼事，無產業層面影響",
+      "reason": "企業家個人榮譽，對產業結構影響有限",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-27 03:31:17",
+      "titles": [
+        "阿里巴巴執行長吳泳銘登《時代》百大AI領導者確立阿里新戰略地位- 日報"
+      ],
+      "urls": [
+        "https://www.ctee.com.tw/news/20260927700082-439901"
+      ],
+      "sources": [
+        "ctee"
+      ]
+    },
+    {
+      "event": "Blue Cloud Softech投資10億美元建AI資料中心",
+      "score": 20,
+      "group": "算力採購與基礎設施",
+      "published": false,
+      "reason": "非AI Lab購置，屬一般硬體基礎建設",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-27 17:30:17",
+      "titles": [
+        "Blue Cloud Softech jumps 18% after company plans up to $1 Bn investment in AI-powered data centres - Alice Blue"
+      ],
+      "urls": [
+        "https://aliceblueonline.com/news/blue-cloud-softech-jumps-18-percent-after-company-plans-up-to-usd-1-bn-investment-in-ai-powered-data-centres/"
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "AI整合推動印度旅遊業數位成長",
+      "score": 20,
+      "group": "競爭格局與合作結盟",
+      "published": false,
+      "reason": "垂直領域應用案例，對整體AI產業格局影響有限。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-27 15:31:17",
+      "titles": [
+        "AI integration, digital platforms steer growth across Indias expanding tourism landscape"
+      ],
+      "urls": [
+        "https://www.livemint.com/technology/ai-integration-digital-platforms-steer-growth-across-indias-expanding-tourism-landscape-11790493781275.html"
+      ],
+      "sources": [
+        "livemint"
+      ]
+    },
+    {
+      "event": "位元組員工自購產品吐槽遭投訴至主管",
+      "score": 15,
+      "group": "人才與組織",
+      "published": false,
+      "reason": "內部管理軼事，無產業層面之實質影響。",
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-09-27 11:30:17",
@@ -1435,30 +1510,11 @@
       ]
     },
     {
-      "event": "印度官員稱AI將驅動下一波工業革命",
-      "score": 5,
-      "group": "監理與法規",
-      "published": false,
-      "reason": "政治人物空泛言論，無具體法規或政策約束力。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-27 01:31:17",
-      "titles": [
-        "India to be an essential player in the next industrial revolution which will be biotechnology and AI driven: Dr Jitendra Singh - PIB"
-      ],
-      "urls": [
-        "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296785"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "Qualcomm重新設計PC架構支援AI",
+      "event": "Qualcomm重新設計PC架構以支援AI",
       "score": 0,
       "group": "硬體產品",
       "published": false,
-      "reason": "屬晶片廠商硬體更新，非AI模型公司核心動態。",
+      "reason": "晶片廠商硬體策略，非AI模型事件",
       "coherent": false,
       "size": 3,
       "max_crawled_at": "2026-09-27 19:30:17",
@@ -1475,25 +1531,6 @@
       "sources": [
         "thelec",
         "thelec",
-        "chosunbiz"
-      ]
-    },
-    {
-      "event": "Google發射TPU衛星測試太空AI資料中心",
-      "score": 0,
-      "group": "硬體產品",
-      "published": false,
-      "reason": "涉及晶片與硬體基礎設施，依規則歸零",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-27 17:00:17",
-      "titles": [
-        "Google launches TPU satellite to test space-based AI data centers"
-      ],
-      "urls": [
-        "https://biz.chosun.com/en/en-it/2026/09/27/4CAFYM65IZCSLFDUBOB5P23264/"
-      ],
-      "sources": [
         "chosunbiz"
       ]
     }
