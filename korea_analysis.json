@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-27 16:45:18",
+  "generated": "2026-09-27 20:45:18",
   "window_days": 2,
   "sources": [
     "businesskorea",
@@ -9,24 +9,23 @@
     "yonhap",
     "zdkorea"
   ],
-  "input_titles": 144,
-  "events": 32,
+  "input_titles": 160,
+  "events": 36,
   "timings_seconds": {
-    "stage1_cluster": 10.2,
-    "stage2_name_score": 87.6,
-    "total": 97.8
+    "stage1_cluster": 10.4,
+    "stage2_name_score": 105.5,
+    "total": 115.8
   },
   "stories": [
     {
-      "event": "AI記憶體需求強勁，三星SK海力士創歷史新高",
+      "event": "SK海力士Solibeam美上市推企業價值204兆韓元",
       "score": 85,
-      "reason": "AI記憶體需求帶動韓國兩大廠營收創新高，影響產業核心。",
+      "reason": "HBM龍頭資本動作，影響供應鏈估值與資金流動。",
       "tags": [
-        "半導體",
         "記憶體",
         "擴產投資"
       ],
-      "coherent": true,
+      "coherent": false,
       "size": 4,
       "max_crawled_at": "2026-09-27 06:00:17",
       "titles": [
@@ -49,14 +48,58 @@
       ]
     },
     {
-      "event": "美中AI談判無果，美國推進阻斷中國晶片",
-      "score": 70,
-      "reason": "地緣政治關鍵發展，直接影響韓國半導體出口與供應鏈。",
+      "event": "3S Korea雙倍FOSB產能應對AI矽基板需求",
+      "score": 78,
+      "reason": "先進封裝關鍵材料擴產，直接關聯HBM供應鏈。",
       "tags": [
-        "電子政策",
-        "半導體"
+        "半導體材料",
+        "擴產投資"
+      ],
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-09-27 19:30:17",
+      "titles": [
+        "3S Korea to Double FOSB Capacity as AI Boom Lifts Wafer Demand",
+        "China Moves Faster Than Korea in Glass Substrate Commercialization"
+      ],
+      "urls": [
+        "https://www.thelec.net/news/articleView.html?idxno=14198",
+        "https://www.thelec.net/news/articleView.html?idxno=14192"
+      ],
+      "sources": [
+        "thelec",
+        "thelec"
+      ]
+    },
+    {
+      "event": "Korea lags US in semiconductor legislation",
+      "score": 75,
+      "reason": "韓國半導體基本法進展緩慢，影響產業長期競爭力與政策支援。",
+      "tags": [
+        "電子政策"
       ],
       "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-26 10:30:31",
+      "titles": [
+        "[기자수첩] 미국은 입법 막히자 '우회로'…한국은 기본법도 감감무소식"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260923103709"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "美中AI談判無果美國國會推進中國零件禁令",
+      "score": 70,
+      "reason": "地緣政治風險升級，直接影響韓國半導體出口環境。",
+      "tags": [
+        "電子政策",
+        "供應鏈"
+      ],
+      "coherent": false,
       "size": 4,
       "max_crawled_at": "2026-09-27 15:00:17",
       "titles": [
@@ -79,11 +122,72 @@
       ]
     },
     {
-      "event": "LG電子獲選輝達官方夥伴，攻AI冷卻市場",
-      "score": 65,
-      "reason": "進入頂級AI供應鏈關鍵環節，具實質商業價值。",
+      "event": "長鑫儲存不服判決，抗訴Micron專利案",
+      "score": 70,
+      "reason": "中國DRAM競爭對手與美韓巨頭的法律戰，影響全球記憶體格局。",
       "tags": [
-        "半導體設備",
+        "記憶體",
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-26 10:30:31",
+      "titles": [
+        "'마이크론과 분쟁' YMTC, 특허 무효 판단 불복...항소심서 다투는 특허 15건으로↑"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260926005124"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "馬斯克加速Colossus 2投資內建輝達晶片",
+      "score": 65,
+      "reason": "AI基礎設施擴張，間接帶動HBM與先進製程需求。",
+      "tags": [
+        "AI算力"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-26 03:01:17",
+      "titles": [
+        "머스크, '콜로서스 2' 투자 고삐…연내 엔비디아 칩 탑재 2배 늘린다"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260925153817"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "孝重工業投3.3兆韓元擴產以搶AI商機",
+      "score": 65,
+      "reason": "大型資本支出，但屬重工領域，非半導體或電池核心。",
+      "tags": [
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-26 14:01:17",
+      "titles": [
+        "조현준號 효성중공업, 美생산확대에 3300억 투입…AI發 수요 선점 '집중'"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20260923_0003801357"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "LG電子獲輝達認證進軍AI資料中心冷卻市場",
+      "score": 60,
+      "reason": "LG跨足AI硬體供應鏈，拓展新營收來源。",
+      "tags": [
+        "電池",
         "供應鏈"
       ],
       "coherent": true,
@@ -106,119 +210,13 @@
       ]
     },
     {
-      "event": "三星電子半導體特別績效獎金方案",
-      "score": 65,
-      "reason": "半導體廠高階獎金分配影響供應鏈士氣與穩定性。",
+      "event": "蘋果因觸控專利侵權被判賠7.7兆韓元",
+      "score": 60,
+      "reason": "涉及韓國製造商（如LG Innotek）的專利風險與賠償責任。",
       "tags": [
-        "記憶體",
-        "擴產投資"
-      ],
-      "coherent": false,
-      "size": 3,
-      "max_crawled_at": "2026-09-27 12:30:17",
-      "titles": [
-        "삼성전자 DX부문, 내달 임직원 타운홀 미팅 추진…\"성과급·실적 등 현안 소통 전망\"",
-        "Roh Tae-moon to host Samsung DX town hall, address pay gaps and labor unrest",
-        "삼성전자 반도체 '특별성과급', 어떻게 나누나…\"이번 주 산정·지급 세부안 공개\""
-      ],
-      "urls": [
-        "https://www.newsis.com/view/NISX20260927_0003804090",
-        "https://biz.chosun.com/en/en-it/2026/09/27/EI7TAAYQFJE65OKQUGOLE2FRZ4/",
-        "https://www.newsis.com/view/NISX20260927_0003804017"
-      ],
-      "sources": [
-        "newsis",
-        "chosunbiz",
-        "newsis"
-      ]
-    },
-    {
-      "event": "高通強化與三星合作，推動AI手機換機潮",
-      "score": 55,
-      "reason": "關鍵零元件供應商策略影響韓國手機市場與記憶體需求。",
-      "tags": [
-        "半導體",
         "供應鏈"
       ],
       "coherent": true,
-      "size": 6,
-      "max_crawled_at": "2026-09-27 10:00:38",
-      "titles": [
-        "\"AI가 스마트폰 교체 수요 이끈다\"… 퀄컴, 삼성과 동맹 강화",
-        "\"속도 경쟁 끝, 에이전트가 통신한다\"…퀄컴이 그리는 6G의 미래",
-        "Qualcomm likens AI PC adoption to 4G, expands lineup and OS support",
-        "Agentic AI drives premium smartphone upgrades as Qualcomm deepens Korea, China ties",
-        "Qualcomm targets 2029 6G as AI drives autonomous networks, highlights Korea",
-        "퀄컴, PC 프로세서 보급형까지 확대...게임·메모리 가격 관건"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260926062012",
-        "https://zdnet.co.kr/view/?no=20260925203153",
-        "https://biz.chosun.com/en/en-it/2026/09/27/5PGUPZ3PDRD43DZRCWQQRIVAU4/",
-        "https://biz.chosun.com/en/en-it/2026/09/27/5W6HBMHIYJFDNNI7477EG5EXYY/",
-        "https://biz.chosun.com/en/en-it/2026/09/27/QE5T6JVXWNHFXEXND5XHT2ICKA/",
-        "https://zdnet.co.kr/view/?no=20260926204739"
-      ],
-      "sources": [
-        "zdkorea",
-        "zdkorea",
-        "chosunbiz",
-        "chosunbiz",
-        "chosunbiz",
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "韓進重工開發海上資料中心",
-      "score": 50,
-      "reason": "新基建模式，涉及韓國重工業轉型與AI基礎設施建設。",
-      "tags": [
-        "AI算力"
-      ],
-      "coherent": false,
-      "size": 1,
-      "max_crawled_at": "2026-09-26 13:31:17",
-      "titles": [
-        "\"땅 없으면 바다로\"…K조선이 띄우는 '발전소·데이터센터'"
-      ],
-      "urls": [
-        "https://www.newsis.com/view/NISX20260923_0003801379"
-      ],
-      "sources": [
-        "newsis"
-      ]
-    },
-    {
-      "event": "馬斯克加速採購輝達晶片，谷歌建AI資料中心",
-      "score": 45,
-      "reason": "海外巨頭需求間接影響HBM市場，但非韓國本土直接事件。",
-      "tags": [
-        "AI算力"
-      ],
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-09-26 10:30:31",
-      "titles": [
-        "머스크, '콜로서스 2' 투자 고삐…연내 엔비디아 칩 탑재 2배 늘린다",
-        "구글, 우주 AI 데이터센터 건설 가세"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260925153817",
-        "https://zdnet.co.kr/view/?no=20260926074204"
-      ],
-      "sources": [
-        "zdkorea",
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "Apple因觸控專利賠7.7兆韓元",
-      "score": 45,
-      "reason": "重大專利判決，影響韓國零元件供應商與蘋果供應鏈關係。",
-      "tags": [
-        "顯示面板"
-      ],
-      "coherent": false,
       "size": 2,
       "max_crawled_at": "2026-09-27 16:30:17",
       "titles": [
@@ -235,92 +233,159 @@
       ]
     },
     {
-      "event": "海底電纜建設加速擴充AI算力",
-      "score": 45,
-      "reason": "基礎設施擴張，間接支援韓國資料中心與AI硬體需求。",
+      "event": "AI人才流向中國，工作地佔比超越美國",
+      "score": 60,
+      "reason": "反映全球AI研發版圖變化，間接影響韓國技術競爭力與人才戰略。",
       "tags": [
-        "AI算力"
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-09-27 10:00:38",
+      "titles": [
+        "\"AI 속도 조절론 속에 숨은 의도 있다\"…서울대 교수가 본 빅테크의 셈법",
+        "AI 인재 중국으로 몰린다...근무지 비중 41%로 미국 추월"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20260922_0003799948",
+        "https://zdnet.co.kr/view/?no=20260927093705"
+      ],
+      "sources": [
+        "newsis",
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "歐洲電池廠轉向韓國JR Energy Solution尋求支援",
+      "score": 55,
+      "reason": "裝置/技術輸出，反映韓國在電池製造環節的優勢。",
+      "tags": [
+        "電池材料",
+        "供應鏈"
       ],
       "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-09-27 19:01:17",
+      "titles": [
+        "European Battery Makers Turn to Korea's JR Energy Solution for Production Support",
+        "배터리도 반도체처럼…설계 따로 생산 따로 시대 오나"
+      ],
+      "urls": [
+        "https://www.thelec.net/news/articleView.html?idxno=14193",
+        "https://zdnet.co.kr/view/?no=20260923181203"
+      ],
+      "sources": [
+        "thelec",
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "美國放寬外資路由器限制緩解AI零件荒",
+      "score": 55,
+      "reason": "出口管制鬆綁利好韓國通訊裝置與網路基礎設施供應商。",
+      "tags": [
+        "電子政策"
+      ],
+      "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-09-26 10:30:31",
       "titles": [
-        "AI 경쟁 바닷속까지 번졌다...해저케이블 구축 가속"
+        "AI발 부품난에 외산공유기 규제 삐걱...美정부, 잇단 예외 허용"
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20260926082858"
+        "https://zdnet.co.kr/view/?no=20260926073716"
       ],
       "sources": [
         "zdkorea"
       ]
     },
     {
-      "event": "孝重工業投入3300億韓元擴充美國產能搶AI商機",
-      "score": 40,
-      "reason": "韓國中型企業擴大海外產能，反映供應鏈分散趨勢。",
+      "event": "議員承諾湖南半導體產能於本屆政府期間達成",
+      "score": 50,
+      "reason": "地方產業發展承諾，具政治意涵但缺乏具體投資細節。",
       "tags": [
-        "擴產投資",
-        "供應鏈"
+        "電子政策"
       ],
-      "coherent": true,
+      "coherent": false,
       "size": 1,
-      "max_crawled_at": "2026-09-26 14:01:17",
+      "max_crawled_at": "2026-09-27 14:01:17",
       "titles": [
-        "조현준號 효성중공업, 美생산확대에 3300억 투입…AI發 수요 선점 '집중'"
+        "박홍근 \"호남 반도체, 현 정부 임기내 생산…팹 증설도 구상\""
       ],
       "urls": [
-        "https://www.newsis.com/view/NISX20260923_0003801357"
+        "https://www.newsis.com/view/NISX20260927_0003804257"
       ],
       "sources": [
         "newsis"
       ]
     },
     {
-      "event": "YMTC不服Micron專利無效判決",
-      "score": 40,
-      "reason": "涉及中國記憶體廠專利戰，影響全球供應鏈格局與技術壁壘。",
+      "event": "中國加速OLED Invar供應鏈國產化程序",
+      "score": 50,
+      "reason": "上游材料替代風險，影響韓國顯示面板供應鏈。",
       "tags": [
-        "半導體材料"
+        "顯示面板",
+        "供應鏈"
       ],
-      "coherent": false,
+      "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-09-26 10:30:31",
+      "max_crawled_at": "2026-09-27 19:30:17",
       "titles": [
-        "'마이크론과 분쟁' YMTC, 특허 무효 판단 불복...항소심서 다투는 특허 15건으로↑"
+        "China Moves Closer to Localizing OLED Invar Supply Chain"
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20260926005124"
+        "https://www.thelec.net/news/articleView.html?idxno=14195"
       ],
       "sources": [
-        "zdkorea"
+        "thelec"
       ]
     },
     {
-      "event": "韓國AI基本法立法進展遲緩",
-      "score": 40,
-      "reason": "政策空窗期影響產業環境，但屬負面或無事件狀態。",
+      "event": "蘋果推動韓國智慧製造與物理AI應用",
+      "score": 50,
+      "reason": "涉及自動化裝置需求，但描述較泛，具體投資規模不明。",
+      "tags": [
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-27 10:00:38",
+      "titles": [
+        "Apple drives Korea smart manufacturing with physical AI and robotics"
+      ],
+      "urls": [
+        "https://biz.chosun.com/en/en-it/2026/09/27/BXQEQ7A5U5CR5PRD3BRVCVEYFQ/"
+      ],
+      "sources": [
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "過長官與通訊三社CEO首次會面討論AI",
+      "score": 45,
+      "reason": "高層會談具政策訊號意義，但無具體產業約束力。",
       "tags": [
         "電子政策"
       ],
       "coherent": false,
       "size": 1,
-      "max_crawled_at": "2026-09-26 10:30:31",
+      "max_crawled_at": "2026-09-27 15:00:17",
       "titles": [
-        "[기자수첩] 미국은 입법 막히자 '우회로'…한국은 기본법도 감감무소식"
+        "[ZD브리핑] 마이크론 최대실적 예고...개보위원장·통신3사 CEO 첫회동"
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20260923103709"
+        "https://zdnet.co.kr/view/?no=20260927121709"
       ],
       "sources": [
         "zdkorea"
       ]
     },
     {
-      "event": "日本Tower Semi投資5.6兆日圓建AI光半導體基地",
-      "score": 35,
-      "reason": "競爭對手（日本）重大投資，影響韓國供應鏈地位。",
+      "event": "日本Tower Semi投資5.6兆日圓建AI光半導體據點",
+      "score": 45,
+      "reason": "競爭對手擴產，對韓國供應鏈構成潛在競爭壓力。",
       "tags": [
-        "半導體材料"
+        "半導體設備"
       ],
       "coherent": true,
       "size": 1,
@@ -336,33 +401,131 @@
       ]
     },
     {
-      "event": "電池設計與生產分離趨勢",
-      "score": 35,
-      "reason": "產業結構討論，非具體投資或技術里程碑。",
+      "event": "韓造船廠擬建海上資料中心與發電廠",
+      "score": 45,
+      "reason": "涉及基礎設施投資，但非韓國核心半導體或電池產業。",
       "tags": [
-        "電池材料"
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-26 13:31:17",
+      "titles": [
+        "\"땅 없으면 바다로\"…K조선이 띄우는 '발전소·데이터센터'"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20260923_0003801379"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "高通目標2029年商用6G並強化與三星聯盟",
+      "score": 40,
+      "reason": "長期技術路線圖，對近期產業格局影響較間接。",
+      "tags": [
+        "電子政策"
       ],
       "coherent": false,
+      "size": 6,
+      "max_crawled_at": "2026-09-27 19:30:17",
+      "titles": [
+        "\"속도 경쟁 끝, 에이전트가 통신한다\"…퀄컴이 그리는 6G의 미래",
+        "Qualcomm targets 2029 6G as AI drives autonomous networks, highlights Korea",
+        "Qualcomm Says 6G Commercial Roadmap Is Underway, Targets 2029 Launch",
+        "\"AI가 스마트폰 교체 수요 이끈다\"… 퀄컴, 삼성과 동맹 강화",
+        "Agentic AI drives premium smartphone upgrades as Qualcomm deepens Korea, China ties",
+        "퀄컴, PC 프로세서 보급형까지 확대...게임·메모리 가격 관건"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260925203153",
+        "https://biz.chosun.com/en/en-it/2026/09/27/QE5T6JVXWNHFXEXND5XHT2ICKA/",
+        "https://www.thelec.net/news/articleView.html?idxno=14196",
+        "https://zdnet.co.kr/view/?no=20260926062012",
+        "https://biz.chosun.com/en/en-it/2026/09/27/5W6HBMHIYJFDNNI7477EG5EXYY/",
+        "https://zdnet.co.kr/view/?no=20260926204739"
+      ],
+      "sources": [
+        "zdkorea",
+        "chosunbiz",
+        "thelec",
+        "zdkorea",
+        "chosunbiz",
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "韓國科技部加強半導體實驗室安全檢查",
+      "score": 40,
+      "reason": "監管強化，影響研發環境但非直接產能或技術突破。",
+      "tags": [
+        "電子政策"
+      ],
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-09-27 15:00:17",
+      "titles": [
+        "과기정통부, 반도체 연구시설 특별 점검",
+        "South Korea boosts semiconductor lab safety with expanded inspections, support"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260923163836",
+        "https://biz.chosun.com/en/en-it/2026/09/27/K2QZ2Y7Y3ZC27GB5457W2IYNHI/"
+      ],
+      "sources": [
+        "zdkorea",
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "蘋果下月將發布三款新產品",
+      "score": 40,
+      "reason": "新機發布影響下游組裝與零元件，但資訊較基礎。",
+      "tags": [
+        "顯示面板"
+      ],
+      "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-09-26 10:30:31",
       "titles": [
-        "배터리도 반도체처럼…설계 따로 생산 따로 시대 오나"
+        "애플이 다음달 공개할 신제품 3가지"
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20260923181203"
+        "https://zdnet.co.kr/view/?no=20260925173810"
       ],
       "sources": [
         "zdkorea"
       ]
     },
     {
-      "event": "三星電子參與墨西哥K-博覽會展示AI生態系",
-      "score": 30,
-      "reason": "市場拓展活動，對產業核心技術或產能影響較小。",
+      "event": "AI需求推動海底電纜建設加速",
+      "score": 35,
+      "reason": "間接利好韓國海纜製造商，但非核心半導體裝置或材料。",
       "tags": [
         "擴產投資"
       ],
       "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-26 10:30:31",
+      "titles": [
+        "AI 경쟁 바닷속까지 번졌다...해저케이블 구축 가속"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260926082858"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "三星墨西哥K博覽會展示AI生態系連結經驗",
+      "score": 30,
+      "reason": "行銷活動，對硬體供應鏈實質影響有限。",
+      "tags": [
+        "顯示面板"
+      ],
+      "coherent": false,
       "size": 4,
       "max_crawled_at": "2026-09-27 14:01:17",
       "titles": [
@@ -385,56 +548,13 @@
       ]
     },
     {
-      "event": "AI人才流向中國趨勢分析",
+      "event": "Galaxy S27 Ultra搭載分割螢幕隱私顯示",
       "score": 30,
-      "reason": "人才流動議題，雖重要但屬間接影響，非硬體製造核心事件。",
-      "tags": [
-        "AI算力"
-      ],
-      "coherent": false,
-      "size": 2,
-      "max_crawled_at": "2026-09-27 10:00:38",
-      "titles": [
-        "\"AI 속도 조절론 속에 숨은 의도 있다\"…서울대 교수가 본 빅테크의 셈법",
-        "AI 인재 중국으로 몰린다...근무지 비중 41%로 미국 추월"
-      ],
-      "urls": [
-        "https://www.newsis.com/view/NISX20260922_0003799948",
-        "https://zdnet.co.kr/view/?no=20260927093705"
-      ],
-      "sources": [
-        "newsis",
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "美國放寬外資路由器出口限制",
-      "score": 30,
-      "reason": "貿易政策調整，影響部分元件供應，但非核心半導體。",
-      "tags": [
-        "供應鏈"
-      ],
-      "coherent": false,
-      "size": 1,
-      "max_crawled_at": "2026-09-26 10:30:31",
-      "titles": [
-        "AI발 부품난에 외산공유기 규제 삐걱...美정부, 잇단 예외 허용"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260926073716"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "Galaxy S27 Ultra隱私顯示功能",
-      "score": 30,
-      "reason": "終端產品規格，影響顯示面板需求，但屬單一機型。",
+      "reason": "新機功能亮點，對面板技術有微幅帶動，但非重大突破。",
       "tags": [
         "顯示面板"
       ],
-      "coherent": false,
+      "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-09-26 10:30:31",
       "titles": [
@@ -448,53 +568,59 @@
       ]
     },
     {
-      "event": "蘋果推動韓國智慧製造與物理AI應用",
+      "event": "三星DX部門推動員工大會解決薪酬爭議",
       "score": 25,
-      "reason": "蘋果帶動供應鏈升級，但屬趨勢性報導，缺乏具體投資承諾。",
+      "reason": "內部勞資議題，雖涉及半導體但屬人力資源層面。",
       "tags": [
-        "電子政策"
+        "半導體設備"
       ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-27 10:00:38",
+      "coherent": false,
+      "size": 3,
+      "max_crawled_at": "2026-09-27 12:30:17",
       "titles": [
-        "Apple drives Korea smart manufacturing with physical AI and robotics"
+        "삼성전자 DX부문, 내달 임직원 타운홀 미팅 추진…\"성과급·실적 등 현안 소통 전망\"",
+        "Roh Tae-moon to host Samsung DX town hall, address pay gaps and labor unrest",
+        "삼성전자 반도체 '특별성과급', 어떻게 나누나…\"이번 주 산정·지급 세부안 공개\""
       ],
       "urls": [
-        "https://biz.chosun.com/en/en-it/2026/09/27/BXQEQ7A5U5CR5PRD3BRVCVEYFQ/"
+        "https://www.newsis.com/view/NISX20260927_0003804090",
+        "https://biz.chosun.com/en/en-it/2026/09/27/EI7TAAYQFJE65OKQUGOLE2FRZ4/",
+        "https://www.newsis.com/view/NISX20260927_0003804017"
       ],
       "sources": [
-        "chosunbiz"
+        "newsis",
+        "chosunbiz",
+        "newsis"
       ]
     },
     {
-      "event": "三星海力士員工育嬰假減少",
+      "event": "斗山集團重繪130年事業地圖聚焦AI",
       "score": 25,
-      "reason": "間接反映半導體業人力挑戰，但非直接產業政策或技術突破。",
+      "reason": "企業戰略調整，缺乏具體產業鏈衝擊細節。",
       "tags": [
         "擴產投資"
       ],
-      "coherent": false,
+      "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-09-27 13:01:17",
+      "max_crawled_at": "2026-09-26 12:01:17",
       "titles": [
-        "Bonus expectations drive parental leave drop at Samsung and SK hynix in Korea"
+        "'박승직 상점'으로 시작해 미래 AI 인프라까지…두산그룹, '130년 사업지도' 다시 쓴다"
       ],
       "urls": [
-        "https://biz.chosun.com/en/en-it/2026/09/27/GWO7RNDPZVGDLMU6WMBSSXQO6Y/"
+        "https://www.newsis.com/view/NISX20260921_0003799081"
       ],
       "sources": [
-        "chosunbiz"
+        "newsis"
       ]
     },
     {
-      "event": "韓國聚焦物理AI資料與邊緣軟體市場發展",
+      "event": "韓國搶攻物理AI資料與邊緣軟體新市場",
       "score": 20,
-      "reason": "產業趨勢討論，缺乏具體硬體投資或政策落地。",
+      "reason": "戰略方向討論，缺乏具體硬體投資或技術里程碑。",
       "tags": [
         "AI軟體"
       ],
-      "coherent": true,
+      "coherent": false,
       "size": 3,
       "max_crawled_at": "2026-09-27 15:00:17",
       "titles": [
@@ -514,135 +640,29 @@
       ]
     },
     {
-      "event": "美韓半導體委員會與電信業者高層首次會面",
+      "event": "獎金預期導致三星海力士員工陪產假減少",
       "score": 20,
-      "reason": "行政會談，缺乏具體產業約束力或重大投資承諾。",
-      "tags": [
-        "電子政策"
-      ],
-      "coherent": false,
-      "size": 1,
-      "max_crawled_at": "2026-09-27 15:00:17",
-      "titles": [
-        "[ZD브리핑] 마이크론 최대실적 예고...개보위원장·통신3사 CEO 첫회동"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260927121709"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "斗山集團發布百年事業藍圖",
-      "score": 20,
-      "reason": "企業戰略願景，缺乏具體硬體製造或供應鏈細節。",
+      "reason": "屬勞工議題，雖涉及大廠但無直接產業技術或產能影響。",
       "tags": [
         "擴產投資"
       ],
-      "coherent": false,
-      "size": 1,
-      "max_crawled_at": "2026-09-26 12:01:17",
-      "titles": [
-        "'박승직 상점'으로 시작해 미래 AI 인프라까지…두산그룹, '130년 사업지도' 다시 쓴다"
-      ],
-      "urls": [
-        "https://www.newsis.com/view/NISX20260921_0003799081"
-      ],
-      "sources": [
-        "newsis"
-      ]
-    },
-    {
-      "event": "韓國科技部加強半導體實驗室安全檢查",
-      "score": 15,
-      "reason": "行政監管措施，對產業供應鏈影響有限。",
-      "tags": [
-        "電子政策"
-      ],
       "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-09-27 15:00:17",
-      "titles": [
-        "과기정통부, 반도체 연구시설 특별 점검",
-        "South Korea boosts semiconductor lab safety with expanded inspections, support"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260923163836",
-        "https://biz.chosun.com/en/en-it/2026/09/27/K2QZ2Y7Y3ZC27GB5457W2IYNHI/"
-      ],
-      "sources": [
-        "zdkorea",
-        "chosunbiz"
-      ]
-    },
-    {
-      "event": "Scully警告AI引發網路攻擊",
-      "score": 15,
-      "reason": "安全議題，與韓國硬體製造產業鏈無直接關聯。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": false,
       "size": 1,
-      "max_crawled_at": "2026-09-26 05:31:17",
+      "max_crawled_at": "2026-09-27 13:01:17",
       "titles": [
-        "Scully warns Korea of mythos-level AI fueling real-time cyberattacks in months"
+        "Bonus expectations drive parental leave drop at Samsung and SK hynix in Korea"
       ],
       "urls": [
-        "https://biz.chosun.com/en/en-it/2026/09/26/LS6ZW5DSEFEY5DW3O6F4NQHXDA/"
+        "https://biz.chosun.com/en/en-it/2026/09/27/GWO7RNDPZVGDLMU6WMBSSXQO6Y/"
       ],
       "sources": [
         "chosunbiz"
       ]
     },
     {
-      "event": "Meta AI Agent功能體驗招募",
+      "event": "KT AI模型路由技術獲全球排名第二",
       "score": 10,
-      "reason": "純軟體應用層面，對韓國硬體供應鏈無直接影響。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": false,
-      "size": 2,
-      "max_crawled_at": "2026-09-27 01:01:17",
-      "titles": [
-        "[안광섭 AI 진테제] 메타 '뮤즈'가 한국기업에 시사하는 것",
-        "메타, AI 에이전트 뮤즈 신기능 체험자 모집…신청도 AI에게"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260926142303",
-        "https://zdnet.co.kr/view/?no=20260926093516"
-      ],
-      "sources": [
-        "zdkorea",
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "韓國國會議員主張在任內實現湖南半導體生產",
-      "score": 10,
-      "reason": "政治人物言論，非政府正式政策或企業投資決定。",
-      "tags": [
-        "電子政策"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-09-27 14:01:17",
-      "titles": [
-        "박홍근 \"호남 반도체, 현 정부 임기내 생산…팹 증설도 구상\""
-      ],
-      "urls": [
-        "https://www.newsis.com/view/NISX20260927_0003804257"
-      ],
-      "sources": [
-        "newsis"
-      ]
-    },
-    {
-      "event": "KT AI模型路由技術獲全球第二佳績",
-      "score": 5,
-      "reason": "軟體效能排名，對硬體產業鏈影響極微。",
+      "reason": "純軟體與服務領域，對硬體供應鏈影響極小。",
       "tags": [
         "AI軟體"
       ],
@@ -663,51 +683,97 @@
       ]
     },
     {
-      "event": "中美關係對全球影響分析",
-      "score": 5,
-      "reason": "地緣政治評論，非具體產業事件或韓國硬體關聯。",
+      "event": "Korean home appliances counter Chinese price war",
+      "score": 10,
+      "reason": "家電市場競爭加劇，反映韓國消費電子產業面臨的挑戰。",
       "tags": [
-        "電子政策"
-      ],
-      "coherent": false,
-      "size": 1,
-      "max_crawled_at": "2026-09-26 10:30:31",
-      "titles": [
-        "CGTN: 세계가 시진핑-트럼프 회담을 주목하는 이유: 중미 관계 조율과 미래 형성"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20260926001003"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "蘋果下月將發布三款新產品",
-      "score": 5,
-      "reason": "蘋果新品發布，影響供應鏈與顯示面板需求。",
-      "tags": [
-        "顯示面板"
+        "供應鏈"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-09-26 10:30:31",
+      "max_crawled_at": "2026-09-26 10:00:19",
       "titles": [
-        "애플이 다음달 공개할 신제품 3가지"
+        "\"中가전, 저가공세 한계 도달\"…국내 가전업계, 본격 반격 나선다"
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20260925173810"
+        "https://www.newsis.com/view/NISX20260920_0003797197"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "ReadyPost & iCyLab push ITU-T standards",
+      "score": 10,
+      "reason": "IT標準化推進屬軟體與平臺業務，對硬體製造鏈影響較小。",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-27 10:00:38",
+      "titles": [
+        "규제샌드박스가 국제표준으로…레디포스트·아이싸이랩 ITU-T 표준화 추진"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260927081015"
       ],
       "sources": [
         "zdkorea"
       ]
     },
     {
-      "event": "松下退出汽車導航業務",
-      "score": 3,
-      "reason": "日商撤出韓國市場，反映車載電子產業競爭格局變化。",
+      "event": "谷歌發射TPU衛星測試太空AI資料中心",
+      "score": 5,
+      "reason": "太空AI屬前沿探索，對韓國供應鏈無直接影響。",
       "tags": [
-        "電子政策"
+        "AI算力"
+      ],
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-09-27 17:00:17",
+      "titles": [
+        "Google launches TPU satellite to test space-based AI data centers",
+        "구글, 우주 AI 데이터센터 건설 가세"
+      ],
+      "urls": [
+        "https://biz.chosun.com/en/en-it/2026/09/27/4CAFYM65IZCSLFDUBOB5P23264/",
+        "https://zdnet.co.kr/view/?no=20260926074204"
+      ],
+      "sources": [
+        "chosunbiz",
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "Meta AI Agent新功能引發韓國企業關注",
+      "score": 5,
+      "reason": "純軟體應用層面，對韓國硬體產業無實質影響。",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-09-27 01:01:17",
+      "titles": [
+        "[안광섭 AI 진테제] 메타 '뮤즈'가 한국기업에 시사하는 것",
+        "메타, AI 에이전트 뮤즈 신기능 체험자 모집…신청도 AI에게"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20260926142303",
+        "https://zdnet.co.kr/view/?no=20260926093516"
+      ],
+      "sources": [
+        "zdkorea",
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "Panasonic exits car nav business after 30 years",
+      "score": 5,
+      "reason": "日系供應商退出車載導航市場，影響韓國供應鏈競爭格局。",
+      "tags": [
+        "顯示面板"
       ],
       "coherent": true,
       "size": 1,
@@ -723,23 +789,39 @@
       ]
     },
     {
-      "event": "Vibe Coding熱潮帶動Rabbit營收突破6億美元",
+      "event": "Scully warns of AI-fueled cyberattacks",
       "score": 0,
-      "reason": "美國軟體公司業績，與韓國電子產業鏈無直接關聯。",
-      "tags": [
-        "AI軟體"
-      ],
+      "reason": "AI網路安全警告屬軟體與服務層面，對硬體製造影響有限。",
+      "tags": [],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-09-27 10:00:38",
+      "max_crawled_at": "2026-09-26 05:31:17",
       "titles": [
-        "바이브 코딩 뜨자 '러버블'도 질주…연환산 매출 6억 달러 돌파"
+        "Scully warns Korea of mythos-level AI fueling real-time cyberattacks in months"
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20260925131216"
+        "https://biz.chosun.com/en/en-it/2026/09/26/LS6ZW5DSEFEY5DW3O6F4NQHXDA/"
       ],
       "sources": [
-        "zdkorea"
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "Wadiz uses AI to speed up launch process",
+      "score": 0,
+      "reason": "平臺應用AI最佳化流程屬軟體服務，無硬體製造或供應鏈影響。",
+      "tags": [],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-09-26 14:31:17",
+      "titles": [
+        "와디즈 \"전 과정서 AI 모니터링…론칭 빨라졌다\""
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20260923_0003802420"
+      ],
+      "sources": [
+        "newsis"
       ]
     }
   ]
