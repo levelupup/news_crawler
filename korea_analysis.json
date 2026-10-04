@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-04 08:45:18",
+  "generated": "2026-10-04 12:45:18",
   "window_days": 2,
   "sources": [
     "businesskorea",
@@ -9,21 +9,22 @@
     "yonhap",
     "zdkorea"
   ],
-  "input_titles": 48,
-  "events": 9,
+  "input_titles": 70,
+  "events": 19,
   "timings_seconds": {
-    "stage1_cluster": 9.7,
-    "stage2_name_score": 24.7,
-    "total": 34.4
+    "stage1_cluster": 8.2,
+    "stage2_name_score": 42.0,
+    "total": 50.2
   },
   "stories": [
     {
-      "event": "三星公佈龍仁半導體叢集藍圖",
-      "score": 85,
-      "reason": "三星公佈龍仁半導體叢集規劃，影響產業佈局。",
+      "event": "Samsung reveals Yongin semiconductor cluster plan",
+      "score": 92,
+      "reason": "韓國最大半導體叢集藍圖，決定未來產能與供應鏈核心",
       "tags": [
+        "半導體",
         "擴產投資",
-        "半導體"
+        "電子政策"
       ],
       "coherent": true,
       "size": 1,
@@ -39,23 +40,23 @@
       ]
     },
     {
-      "event": "美光DRAM市佔逼近SK海力士",
-      "score": 70,
-      "reason": "美光大舉擴產並追趕SK海力士，競爭加劇。",
+      "event": "Micron DRAM share closes gap on SK Hynix",
+      "score": 85,
+      "reason": "DRAM市場格局變動，競爭加劇影響韓國產業地位",
       "tags": [
         "記憶體",
-        "擴產投資"
+        "供應鏈"
       ],
-      "coherent": false,
+      "coherent": true,
       "size": 6,
-      "max_crawled_at": "2026-10-04 07:31:17",
+      "max_crawled_at": "2026-10-04 10:30:29",
       "titles": [
         "마이크론, D램 2위 SK하이닉스 턱밑 추격…점유율 격차 1%포인트",
         "마이크론, SK하이닉스 턱밑까지 왔다…D램 점유율 격차 줄어든 배경은?",
         "'메모리 풍향계' 마이크론 호실적… 삼성·SK 3분기 실적 '파란불'",
         "연간 설비투자 '2배' 늘리는 마이크론…삼성·SK 압박",
         "거세지는 中 범용칩 공세…삼전·닉스, '차세대 HBM'으로 격차 벌린다[초격차 코리아①]",
-        "글로벌 통신사 투자, 기지국서 AI 컴퓨팅으로 향했다"
+        "엔비디아, 메모리 64GB 탑재 'DGX 스파크' 이달 출시"
       ],
       "urls": [
         "https://zdnet.co.kr/view/?no=20261002134906",
@@ -63,7 +64,7 @@
         "https://zdnet.co.kr/view/?no=20261002212844",
         "https://zdnet.co.kr/view/?no=20261002121520",
         "https://www.newsis.com/view/NISX20261002_0003812872",
-        "https://zdnet.co.kr/view/?no=20261003231624"
+        "https://zdnet.co.kr/view/?no=20261003235013"
       ],
       "sources": [
         "zdkorea",
@@ -75,13 +76,34 @@
       ]
     },
     {
-      "event": "RGB LED營收2029年逆轉OLED",
+      "event": "China acquires 343 immersion DUV lithography tools",
+      "score": 75,
+      "reason": "中國擴充成熟製程產能，衝擊韓國裝置商市場空間",
+      "tags": [
+        "半導體設備",
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-04 09:01:17",
+      "titles": [
+        "[올댓차이나] 中, 침지형 DUV 노광장비 343대 확보…\"첨단 반도체 생산 활용\""
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261004_0003813819"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "RGB LED TV sales to surpass OLED by 2029",
       "score": 65,
-      "reason": "預測RGB LED將超越OLED，顯示技術趨勢轉變。",
+      "reason": "顯示技術路線預測，影響韓國OLED產業長期佈局",
       "tags": [
         "顯示面板"
       ],
-      "coherent": false,
+      "coherent": true,
       "size": 2,
       "max_crawled_at": "2026-10-04 05:01:17",
       "titles": [
@@ -98,9 +120,50 @@
       ]
     },
     {
-      "event": "韓國企業警惕中國AI模型依賴",
-      "score": 20,
-      "reason": "警示對中國AI模型依賴，屬軟體供應鏈風險。",
+      "event": "Korea batteries and solar seek global leadership",
+      "score": 60,
+      "reason": "韓國電池與太陽能產業全球競爭力戰略，具政策指導意義",
+      "tags": [
+        "電池",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-04 09:01:17",
+      "titles": [
+        "차세대 기술 선점 나선 K배터리·태양광…글로벌 주도권 잡는다[초격차 코리아③]"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261002_0003812996"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "KT pivots to physical AI platforms for data and robots",
+      "score": 30,
+      "reason": "電信商轉向實體AI平臺，涉及基礎設施投資但規模較小",
+      "tags": [
+        "AI算力"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-04 05:31:17",
+      "titles": [
+        "KT pivots to physical AI platforms, uniting data and robot control in Korea"
+      ],
+      "urls": [
+        "https://biz.chosun.com/en/en-it/2026/10/04/YTVXAQLMFJF75IZJ5Z2JDECQMQ/"
+      ],
+      "sources": [
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "Chinese AI models penetrate Korean market",
+      "score": 25,
+      "reason": "中國AI軟體進入韓國，對本土軟體生態有潛在衝擊",
       "tags": [
         "AI軟體",
         "供應鏈"
@@ -119,53 +182,134 @@
       ]
     },
     {
-      "event": "KT轉型實體AI平臺整合資料",
-      "score": 15,
-      "reason": "電信商轉向實體AI，屬軟體與服務層面變動。",
+      "event": "Global telcos shift investment from base stations to AI",
+      "score": 20,
+      "reason": "電信投資轉向AI，間接影響韓國通訊裝置商需求",
       "tags": [
-        "AI軟體"
+        "AI算力"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-10-04 05:31:17",
+      "max_crawled_at": "2026-10-03 23:30:01",
       "titles": [
-        "KT pivots to physical AI platforms, uniting data and robot control in Korea"
+        "글로벌 통신사 투자, 기지국서 AI 컴퓨팅으로 향했다"
       ],
       "urls": [
-        "https://biz.chosun.com/en/en-it/2026/10/04/YTVXAQLMFJF75IZJ5Z2JDECQMQ/"
-      ],
-      "sources": [
-        "chosunbiz"
-      ]
-    },
-    {
-      "event": "中國灰色市場廉售美國AI算力",
-      "score": 15,
-      "reason": "揭露AI算力黑市，影響算力供應鏈透明度。",
-      "tags": [
-        "AI算力",
-        "供應鏈"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-03 20:01:17",
-      "titles": [
-        "[안광섭 AI 진테제] 중국의 토큰 그레이마켓...미국AI 정가 10%에 판매"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261003195105"
+        "https://zdnet.co.kr/view/?no=20261003231624"
       ],
       "sources": [
         "zdkorea"
       ]
     },
     {
-      "event": "三星強化B2B與創作者生態",
-      "score": 10,
-      "reason": "三星調整商業策略，屬一般企業營運動態。",
+      "event": "Perplexity to establish Korean subsidiary this year",
+      "score": 15,
+      "reason": "AI軟體企業進駐，對硬體供應鏈影響有限",
       "tags": [
         "AI軟體"
       ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-04 10:30:29",
+      "titles": [
+        "[AI 리더스] 모리타 준 퍼플렉시티 APAC \"연내 韓 법인 설립, AI 선택지 넓혀\""
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261004000952"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "Public DaaS institutionalization policy discussion held",
+      "score": 15,
+      "reason": "公共資料服務政策討論，對硬體製造業影響極小",
+      "tags": [
+        "電子政策"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-03 18:31:17",
+      "titles": [
+        "AI시대...공공 DaaS 제도화 논의 정책토론회 6일 열려"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261003163006"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "Budget omits SW support, raising competitiveness concerns",
+      "score": 10,
+      "reason": "軟體預算爭議，對硬體製造業影響微弱",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": false,
+      "size": 3,
+      "max_crawled_at": "2026-10-04 11:30:17",
+      "titles": [
+        "[소외된 SW ㊤] 예산안에서 사라진 SW...국가 경쟁력 우려",
+        "[소외된 SW ㊦] GPU·모델만으론 부족…AI 투자, '돈 버는 SW'로 이어져야",
+        "중기부 AI 대전환 지원 3015곳…AI 의무사업 부문 외엔 도입 현황 파악 안 해"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261003083207",
+        "https://zdnet.co.kr/view/?no=20261004075639",
+        "https://www.newsis.com/view/NISX20261004_0003813895"
+      ],
+      "sources": [
+        "zdkorea",
+        "zdkorea",
+        "newsis"
+      ]
+    },
+    {
+      "event": "Korea exports approach $1 trillion milestone",
+      "score": 5,
+      "reason": "宏觀貿易資料，非特定產業技術或產能變動",
+      "tags": [],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-04 12:01:17",
+      "titles": [
+        "건어물 팔던 나라서 반도체 수출국으로…韓수출 1조弗 눈앞 [세쓸통]"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261001_0003810685"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "Google launches Gemini 4 with aggressive tech push",
+      "score": 5,
+      "reason": "美國大廠模型更新，對韓國產業無直接影響",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-04 09:01:17",
+      "titles": [
+        "[AI는 지금] 챗GPT·클로드 추격할까…'제미나이4' 띄운 구글, 기술·가격·마케팅 총공세"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261002183953"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "Samsung focuses on B2B pragmatism and creator fandom",
+      "score": 5,
+      "reason": "企業行銷策略調整，非產業級別變動",
+      "tags": [],
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-10-04 05:31:17",
@@ -180,20 +324,79 @@
       ]
     },
     {
-      "event": "iPhone 18 Pro在中國市場強勢",
-      "score": 5,
-      "reason": "蘋果手機銷售動態，對韓國產業鏈影響有限。",
+      "event": "LGU+與Google合作強化AI內容",
+      "score": 1,
+      "reason": "純軟體合作，無硬體或製造影響。",
       "tags": [
-        "電子政策"
+        "AI軟體"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-10-03 09:01:17",
+      "max_crawled_at": "2026-10-04 09:01:17",
       "titles": [
-        "고전하던 아이폰18 프로, 中서 돌연 강세…이유 3가지"
+        "LGU+, 구글과 크리에이터 AI 콘텐츠 역량 강화"
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20261002170211"
+        "https://zdnet.co.kr/view/?no=20261003230207"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "亞馬遜公開AI代理行為檢查模型",
+      "score": 1,
+      "reason": "純軟體工具發布，無硬體製造關聯。",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-04 10:30:29",
+      "titles": [
+        "\"답변 생성·판단 나눠\"…아마존, AI 에이전트 행동 점검 모델 공개"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261004102956"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "Trump appoints Clayton as DNI chief",
+      "score": 0,
+      "reason": "純政治人事任命，無直接產業關聯性",
+      "tags": [],
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-10-04 11:01:17",
+      "titles": [
+        "트럼프, AI 수장에 클레이턴 국가정보국장 낙점…WSJ",
+        "\"트럼프, 마두로 체포 전 그록에 베네수엘라 반응 물었다\""
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261004_0003813883",
+        "https://zdnet.co.kr/view/?no=20261003082217"
+      ],
+      "sources": [
+        "newsis",
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "中國灰色市場低價銷售美國AI",
+      "score": 0,
+      "reason": "屬黑市交易，無產業結構性影響。",
+      "tags": [],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-03 20:01:17",
+      "titles": [
+        "[안광섭 AI 진테제] 중국의 토큰 그레이마켓...미국AI 정가 10%에 판매"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261003195105"
       ],
       "sources": [
         "zdkorea"
@@ -201,11 +404,9 @@
     },
     {
       "event": "銀行界警告開源AI代理安全風險",
-      "score": 5,
-      "reason": "金融業關注AI安全，屬非核心硬體產業議題。",
-      "tags": [
-        "AI軟體"
-      ],
+      "score": 0,
+      "reason": "金融業安全議題，無關半導體或製造。",
+      "tags": [],
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-10-03 06:01:17",
