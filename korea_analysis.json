@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-05 04:45:18",
+  "generated": "2026-10-05 08:45:18",
   "window_days": 2,
   "sources": [
     "businesskorea",
@@ -9,21 +9,42 @@
     "yonhap",
     "zdkorea"
   ],
-  "input_titles": 52,
-  "events": 17,
+  "input_titles": 64,
+  "events": 23,
   "timings_seconds": {
-    "stage1_cluster": 7.8,
-    "stage2_name_score": 44.4,
-    "total": 52.2
+    "stage1_cluster": 10.5,
+    "stage2_name_score": 48.2,
+    "total": 58.8
   },
   "stories": [
     {
-      "event": "三星SKQ3營業利破兆韓元創新高",
+      "event": "三星公佈龍仁半導體叢集藍圖",
+      "score": 92,
+      "reason": "三星龍仁叢集為韓國半導體未來核心，具決定性產業影響。",
+      "tags": [
+        "擴產投資",
+        "半導體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-04 05:01:17",
+      "titles": [
+        "\"160만명 고용 창출\"…삼성전자, 용인 과학축제서 반도체 클러스터 청사진 공개"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261002_0003813056"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "記憶體三巨頭Q3財報與客製化HBM趨勢",
       "score": 85,
-      "reason": "記憶體巨頭獲利創紀錄，產業指標性事件。",
+      "reason": "記憶體龍頭財報與HBM技術演進，影響產業核心競爭力。",
       "tags": [
         "記憶體",
-        "擴產投資"
+        "半導體"
       ],
       "coherent": false,
       "size": 3,
@@ -45,12 +66,12 @@
       ]
     },
     {
-      "event": "Q4記憶體價格雙位數漲幅",
-      "score": 80,
-      "reason": "價格大漲直接影響產業營收與獲利預期。",
+      "event": "Q3記憶體價格漲幅與Nvidia新晶片",
+      "score": 78,
+      "reason": "記憶體定價權與AI硬體需求直接關聯，影響營收預期。",
       "tags": [
         "記憶體",
-        "供應鏈"
+        "AI算力"
       ],
       "coherent": false,
       "size": 2,
@@ -69,30 +90,9 @@
       ]
     },
     {
-      "event": "三星公開龍仁半導體叢集藍圖",
+      "event": "中國獲大量浸沒式DUV裝置",
       "score": 75,
-      "reason": "龍頭廠公佈重大叢集規劃，影響供應鏈佈局。",
-      "tags": [
-        "擴產投資",
-        "電子政策"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-04 05:01:17",
-      "titles": [
-        "\"160만명 고용 창출\"…삼성전자, 용인 과학축제서 반도체 클러스터 청사진 공개"
-      ],
-      "urls": [
-        "https://www.newsis.com/view/NISX20261002_0003813056"
-      ],
-      "sources": [
-        "newsis"
-      ]
-    },
-    {
-      "event": "中國獲343臺浸沒式DUV裝置",
-      "score": 65,
-      "reason": "中國擴充成熟製程產能，影響全球競爭格局。",
+      "reason": "中國先進製程能力突破，改變全球半導體供應鏈格局。",
       "tags": [
         "半導體設備",
         "供應鏈"
@@ -111,14 +111,62 @@
       ]
     },
     {
-      "event": "韓電池與太陽能爭奪全球主導權",
-      "score": 55,
-      "reason": "韓國電池產業戰略定位，涉及長期競爭力。",
+      "event": "韓企擴建AI資料中心引發電力需求爭議",
+      "score": 65,
+      "reason": "AI基礎建設擴張與能源供應鏈關聯，具產業政策影響。",
+      "tags": [
+        "AI算力",
+        "擴產投資"
+      ],
+      "coherent": false,
+      "size": 3,
+      "max_crawled_at": "2026-10-05 08:30:17",
+      "titles": [
+        "판 커지는 'AI 데이터센터'…삼성·SK·LG도 투자 확대 나서",
+        "AI 데이터센터 식혀라...삼성은 '글로벌 사냥', LG는 '내실 고도화'",
+        "AI 인프라 확장에 전력 수요 급증…SK이노베이션, LNG 자원개발 이익 커진다"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261002_0003813107",
+        "https://zdnet.co.kr/view/?no=20261002221843",
+        "https://www.newsis.com/view/NISX20260930_0003809655"
+      ],
+      "sources": [
+        "newsis",
+        "zdkorea",
+        "newsis"
+      ]
+    },
+    {
+      "event": "메모리 가격 상승으로 구글 픽셀 10a 비싸져",
+      "score": 65,
+      "reason": "메모리 가격 인상이 단말기 원가에 직접적 영향을 미치는 공급망 이슈",
+      "tags": [
+        "記憶體",
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-04 14:31:17",
+      "titles": [
+        "메모리 가격 인상에…구글 ‘픽셀 10a’, 13만원 비싸졌다"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261004105356"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "韓電池與太陽能技術領先全球",
+      "score": 60,
+      "reason": "電池產業具國際競爭力，但屬既有優勢延續。",
       "tags": [
         "電池",
         "擴產投資"
       ],
-      "coherent": true,
+      "coherent": false,
       "size": 1,
       "max_crawled_at": "2026-10-04 09:01:17",
       "titles": [
@@ -132,9 +180,53 @@
       ]
     },
     {
-      "event": "RGB LED電視營收2029年逆轉",
+      "event": "韓國半導體與汽車出口資料分析",
+      "score": 55,
+      "reason": "貿易資料反映產業現況，但非新事件。",
+      "tags": [
+        "擴產投資"
+      ],
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-10-05 08:01:17",
+      "titles": [
+        "반도체 5000억弗·자동차 700억弗…수출 양대품목 연말 희비",
+        "건어물 팔던 나라서 반도체 수출국으로…韓수출 1조弗 눈앞 [세쓸통]"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261001_0003810235",
+        "https://www.newsis.com/view/NISX20261001_0003810685"
+      ],
+      "sources": [
+        "newsis",
+        "newsis"
+      ]
+    },
+    {
+      "event": "구글 제미나이4 출시로 AI 기술 경쟁 심화",
+      "score": 55,
+      "reason": "차세대 AI 모델 출시는 글로벌 AI 하드웨어 수요와 표준에 영향",
+      "tags": [
+        "AI算力",
+        "AI軟體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-04 09:01:17",
+      "titles": [
+        "[AI는 지금] 챗GPT·클로드 추격할까…'제미나이4' 띄운 구글, 기술·가격·마케팅 총공세"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261002183953"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "RGB LED電視營收2029年將被OLED逆轉",
       "score": 50,
-      "reason": "顯示技術趨勢預測，影響面板廠產能規劃。",
+      "reason": "顯示技術世代交替，影響面板廠產能配置。",
       "tags": [
         "顯示面板"
       ],
@@ -152,53 +244,94 @@
       ]
     },
     {
-      "event": "韓國政府支援3015家AI企業",
-      "score": 45,
-      "reason": "政府補助政策，影響軟體生態系發展。",
+      "event": "삼성전자 B2B 전략 강화 및 팬덤 구축",
+      "score": 50,
+      "reason": "삼성전자의 핵심 사업 전략 전환은 산업 경쟁 구도 변화에 영향",
       "tags": [
-        "電子政策",
-        "AI軟體"
-      ],
-      "coherent": false,
-      "size": 2,
-      "max_crawled_at": "2026-10-04 11:30:17",
-      "titles": [
-        "[소외된 SW ㊦] GPU·모델만으론 부족…AI 투자, '돈 버는 SW'로 이어져야",
-        "중기부 AI 대전환 지원 3015곳…AI 의무사업 부문 외엔 도입 현황 파악 안 해"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261004075639",
-        "https://www.newsis.com/view/NISX20261004_0003813895"
-      ],
-      "sources": [
-        "zdkorea",
-        "newsis"
-      ]
-    },
-    {
-      "event": "韓國出口逼近1兆美元里程碑",
-      "score": 40,
-      "reason": "宏觀經濟指標，間接反映半導體等產業表現。",
-      "tags": [
-        "供應鏈"
+        "AI算力",
+        "電子政策"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-10-04 12:01:17",
+      "max_crawled_at": "2026-10-04 05:31:17",
       "titles": [
-        "건어물 팔던 나라서 반도체 수출국으로…韓수출 1조弗 눈앞 [세쓸통]"
+        "Samsung builds fandom with creators, doubles down on B2B pragmatism in Korea"
       ],
       "urls": [
-        "https://www.newsis.com/view/NISX20261001_0003810685"
+        "https://biz.chosun.com/en/en-it/2026/10/04/HRLZFHATKFCLBKAI7KYWN3WXWE/"
       ],
       "sources": [
-        "newsis"
+        "chosunbiz"
       ]
     },
     {
-      "event": "Perplexity年內設韓國分公司",
-      "score": 25,
-      "reason": "外資AI企業進駐，屬市場擴張行為。",
+      "event": "KT 물리적 AI 플랫폼 구축 추진",
+      "score": 45,
+      "reason": "통신사의 AI 인프라 투자로 데이터센터 및 컴퓨팅 수요 증가",
+      "tags": [
+        "AI算力",
+        "AI軟體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-04 05:31:17",
+      "titles": [
+        "KT pivots to physical AI platforms, uniting data and robot control in Korea"
+      ],
+      "urls": [
+        "https://biz.chosun.com/en/en-it/2026/10/04/YTVXAQLMFJF75IZJ5Z2JDECQMQ/"
+      ],
+      "sources": [
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "6G核心網標準制定與AI整合爭議",
+      "score": 40,
+      "reason": "通訊標準制定具長期影響，但屬技術規範階段。",
+      "tags": [
+        "電子政策"
+      ],
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-10-05 06:31:17",
+      "titles": [
+        "6G 코어망에 AI 어떻게 넣나...표준 설계부터 갑론을박",
+        "사람은 내리고 AI는 올린다…뒤집히는 통신망 공식"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261004151505",
+        "https://zdnet.co.kr/view/?no=20261004150224"
+      ],
+      "sources": [
+        "zdkorea",
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "로보파티 IROS서 RP1 휴머노이드 공개",
+      "score": 35,
+      "reason": "휴머노이드 로봇 하드웨어 발표로 AI 물리 구현 진전",
+      "tags": [
+        "AI算力"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-04 23:30:13",
+      "titles": [
+        "로보파티, IROS에서 고성능 풀스택 오픈소스 휴머노이드 로봇 RP1 공개"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261004221002"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "Perplexity APAC總裁稱年內設韓法人",
+      "score": 30,
+      "reason": "AI軟體公司進駐，對硬體供應鏈無直接衝擊。",
       "tags": [
         "AI軟體"
       ],
@@ -216,49 +349,132 @@
       ]
     },
     {
-      "event": "KT轉型實體AI平臺整合資料",
-      "score": 20,
-      "reason": "電信商業務轉型，屬IT服務層面。",
+      "event": "LGU+, 구글과 크리에이터 AI 콘텐츠 협력",
+      "score": 30,
+      "reason": "콘텐츠 플랫폼 차원의 협력으로 하드웨어 산업 영향력은 제한적",
       "tags": [
         "AI軟體"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-10-04 05:31:17",
+      "max_crawled_at": "2026-10-04 09:01:17",
       "titles": [
-        "KT pivots to physical AI platforms, uniting data and robot control in Korea"
+        "LGU+, 구글과 크리에이터 AI 콘텐츠 역량 강화"
       ],
       "urls": [
-        "https://biz.chosun.com/en/en-it/2026/10/04/YTVXAQLMFJF75IZJ5Z2JDECQMQ/"
+        "https://zdnet.co.kr/view/?no=20261003230207"
       ],
       "sources": [
-        "chosunbiz"
+        "zdkorea"
       ]
     },
     {
-      "event": "三星強化B2B與創作者生態",
-      "score": 20,
-      "reason": "企業戰略調整，非核心製造或技術突破。",
+      "event": "韓國AI軟體匯入現況與政策檢討",
+      "score": 25,
+      "reason": "軟體應用層面，對硬體製造業影響有限。",
       "tags": [
-        "電子政策"
+        "AI軟體"
+      ],
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-10-04 11:30:17",
+      "titles": [
+        "중기부 AI 대전환 지원 3015곳…AI 의무사업 부문 외엔 도입 현황 파악 안 해",
+        "[소외된 SW ㊦] GPU·모델만으론 부족…AI 투자, '돈 버는 SW'로 이어져야"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261004_0003813895",
+        "https://zdnet.co.kr/view/?no=20261004075639"
+      ],
+      "sources": [
+        "newsis",
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "티냅스 엔비디아 챌린지 톱10 선정",
+      "score": 25,
+      "reason": "스타트업의 AI 기술력 인정이나 산업 구조적 영향은 미미",
+      "tags": [
+        "AI算力"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-10-04 05:31:17",
+      "max_crawled_at": "2026-10-04 16:30:17",
       "titles": [
-        "Samsung builds fandom with creators, doubles down on B2B pragmatism in Korea"
+        "티냅스, 창업 1년여 만에 ‘엔비디아 인셉션 챌린지 2026’ 톱10 선정"
       ],
       "urls": [
-        "https://biz.chosun.com/en/en-it/2026/10/04/HRLZFHATKFCLBKAI7KYWN3WXWE/"
+        "https://zdnet.co.kr/view/?no=20261004155331"
       ],
       "sources": [
-        "chosunbiz"
+        "zdkorea"
       ]
     },
     {
-      "event": "Clinity展示AI工作OS系統",
+      "event": "索尼向Meta轉讓XR專利",
+      "score": 20,
+      "reason": "專利交易屬單一公司策略調整，影響有限。",
+      "tags": [
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-05 06:31:17",
+      "titles": [
+        "소니, 메타에 XR 특허 418건 양도...하드웨어 사업 축소 수순"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261005032140"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "Apple提高AI代理資料訪問門檻",
+      "score": 20,
+      "reason": "蘋果軟體策略調整，對韓國硬體製造影響間接。",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-05 08:30:17",
+      "titles": [
+        "애플, AI 에이전트 '데이터 접근' 문턱 높여…\"자율성·위험 함께 커져\""
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261003134753"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "아마존 AI 에이전트 행동 점검 모델 공개",
+      "score": 20,
+      "reason": "소프트웨어 알고리즘 개선으로 한국 전자 산업 공급망에 직접적 영향 없음",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-04 10:30:29",
+      "titles": [
+        "\"답변 생성·판단 나눠\"…아마존, AI 에이전트 행동 점검 모델 공개"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261004102956"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "Curity發布AI工作作業系統",
       "score": 15,
-      "reason": "軟體產品發布，無硬體製造影響。",
+      "reason": "企業級軟體產品發布，產業影響力較小。",
       "tags": [
         "AI軟體"
       ],
@@ -279,89 +495,9 @@
       ]
     },
     {
-      "event": "Google推Gemini4挑戰AI市場",
-      "score": 15,
-      "reason": "純軟體模型發布，對硬體供應鏈影響有限。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-04 09:01:17",
-      "titles": [
-        "[AI는 지금] 챗GPT·클로드 추격할까…'제미나이4' 띄운 구글, 기술·가격·마케팅 총공세"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261002183953"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "Tnapus獲輝達挑戰賽前十",
+      "event": "特朗普任命AI情報主管引發關注",
       "score": 10,
-      "reason": "新創獲獎，產業影響力極小。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-04 16:30:17",
-      "titles": [
-        "티냅스, 창업 1년여 만에 ‘엔비디아 인셉션 챌린지 2026’ 톱10 선정"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261004155331"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "記憶體漲價推升Google Pixel 10a售價",
-      "score": 5,
-      "reason": "記憶體價格波動影響終端產品定價，屬供應鏈傳導效應。",
-      "tags": [
-        "記憶體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-04 14:31:17",
-      "titles": [
-        "메모리 가격 인상에…구글 ‘픽셀 10a’, 13만원 비싸졌다"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261004105356"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "亞馬遜公開AI代理行為檢視模型",
-      "score": 1,
-      "reason": "純軟體與演算法發布，對韓國硬體供應鏈無直接影響。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-04 10:30:29",
-      "titles": [
-        "\"답변 생성·판단 나눠\"…아마존, AI 에이전트 행동 점검 모델 공개"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261004102956"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "特朗普任命Clayton為情報局長",
-      "score": 0,
-      "reason": "純政治人事任命，無直接產業連結。",
+      "reason": "純政治人事任命，無直接產業鏈關聯。",
       "tags": [],
       "coherent": true,
       "size": 1,
