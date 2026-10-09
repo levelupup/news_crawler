@@ -76,6 +76,7 @@ This repository publishes **outputs only** — the crawler/analysis code, the fu
 | `semiconductor.html` | 半導體重要新聞：**全部來源**近 2 日的 Top 18，依價值鏈環節分組後重要性降冪（`analyze_semi.py`，每 4 小時） |
 | `india.html` | 印度重要新聞：五家印度來源近 2 日、按**產業重要性**排序的 Top 18（`analyze_india.py`，每 12 小時） |
 | `china.html` | 中國重要新聞：12 家中國來源近 2 日、按**產業重要性**排序的 Top 18，國產替代／科技自主／降低外依／半導體加權（`analyze_china.py`，每 12 小時） |
+| `sea.html` | 東南亞重要新聞：新加坡／馬來西亞／泰國／越南，近 3 日按**產業重要性**排序；以電子零組件與半導體為主（新加坡另含 AI 與軟體），跨國業者在當地建廠或投資資料中心加權最高；需 2 家以上獨立媒體或 1 家主要媒體佐證（`analyze_sea.py`，11:00 / 23:00）|
 | `korea.html` | 韓國重要新聞：六家韓國來源近 2 日、按**產業重要性**排序的 Top 18，半導體／設備材料／電子政策／電池加權且硬體優於軟體（`analyze_korea.py`，每 4 小時）|
 | `analysis.json` | Machine-readable scored event list from the last analysis run |
 | `ai_analysis.json` | Machine-readable scored event list from the last AI analysis run |
