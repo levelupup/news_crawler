@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-09 10:00:18",
+  "generated": "2026-10-09 10:14:07",
   "window_days": 2,
   "sources": [
     "business_standard",
@@ -8,35 +8,28 @@
     "livemint",
     "moneycontrol"
   ],
-  "input_titles": 319,
-  "events": 53,
+  "input_titles": 322,
+  "events": 34,
   "timings_seconds": {
-    "stage1_cluster": 8.8,
-    "stage2_name_score": 112.5,
-    "total": 121.3
+    "stage1_cluster": 9.0,
+    "stage2_name_score": 84.0,
+    "total": 93.0
   },
+  "gated_out": 16,
+  "score_floor": 60,
   "stories": [
     {
-      "event": "HCL與富士康合資半導體廠獲內閣批准",
-      "score": 95,
-      "reason": "半導體製造重大進展，具產業定義性",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-08 12:31:17",
-      "titles": [
-        "India Business Journal - HCL Group, Foxconn JV’s Jewar semiconductor plant gets Cabinet nod"
-      ],
-      "urls": [
-        "https://indiabusinessjournal.com/full-story/2146/HCL-Group,-Foxconn-JV%E2%80%99s-Jewar-semiconductor-plant-gets-Cabinet-nod"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "CoreWeave與AdaniConneX建240MW AI數據中心",
-      "score": 85,
-      "reason": "AI基礎設施大規模投資，影響算力供應鏈",
+      "event": "CoreWeave與Adani合建240MW AI資料中心",
+      "score": 100,
+      "score_model": 92,
+      "breadth_bonus": 10,
+      "recur_penalty": 0,
+      "independent_outlets": 15,
+      "mirror_urls": 8,
+      "recur_flag": "",
+      "recur_first_seen": "2026-10-08",
+      "recur_days": 1,
+      "reason": "大型AI基礎設施投資，具產業定義性",
       "coherent": true,
       "size": 25,
       "max_crawled_at": "2026-10-09 06:31:17",
@@ -123,26 +116,17 @@
       ]
     },
     {
-      "event": "ReNew與馬哈拉施特拉邦簽署7萬億盧比數據中心協議",
-      "score": 85,
-      "reason": "大型綠色數據中心投資，顯著影響印度AI算力與能源基礎設施。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-08 22:00:55",
-      "titles": [
-        "ReNew signs MoU with Maharashtra for ₹70,000 crore green data centre park"
-      ],
-      "urls": [
-        "https://www.business-standard.com/industry/news/renew-signs-mou-with-maharashtra-for-70-000-crore-green-data-centre-park-126100801226_1.html"
-      ],
-      "sources": [
-        "business_standard"
-      ]
-    },
-    {
-      "event": "政府擬定電信PLI 2.0聚焦組件製造",
-      "score": 80,
-      "reason": "關鍵產業政策調整，直接影響製造成本與布局",
+      "event": "政府研擬電信PLI 2.0聚焦組件製造",
+      "score": 88,
+      "score_model": 85,
+      "breadth_bonus": 3,
+      "recur_penalty": 0,
+      "independent_outlets": 6,
+      "mirror_urls": 2,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "政策轉向關鍵組件，影響供應鏈本土化",
       "coherent": true,
       "size": 11,
       "max_crawled_at": "2026-10-09 03:01:17",
@@ -186,26 +170,17 @@
       ]
     },
     {
-      "event": "塔塔集團聚焦半導體與量子計算",
-      "score": 75,
-      "reason": "全球一線企業戰略佈局，具產業引導性",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-08 04:01:17",
-      "titles": [
-        "Tata Group to focus on semiconductors, batteries, quantum computing and circularity: N Chandrasekaran - CNBC TV18"
-      ],
-      "urls": [
-        "https://www.cnbctv18.com/business/companies/tata-group-to-focus-on-semiconductors-batteries-quantum-computing-and-circularity-n-chandrasekaran-20007112.htm"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "Zankore尋求60億美元貸款建AI資料中心",
-      "score": 75,
-      "reason": "大型AI基礎設施投資，帶動算力供應鏈",
+      "event": "Zankore尋求60億美元貸款擴建AI資料中心",
+      "score": 85,
+      "score_model": 85,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "2026-10-08",
+      "recur_days": 1,
+      "reason": "大規模AI基礎設施投資，直接影響算力供應",
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-10-08 01:31:17",
@@ -220,42 +195,122 @@
       ]
     },
     {
-      "event": "印度建超級電腦網絡突破外資供應瓶頸",
-      "score": 75,
-      "reason": "AI算力基礎設施建設，提升國家級計算能力與技術自主性。",
+      "event": "印度下月發布AI監管諮詢文件",
+      "score": 85,
+      "score_model": 75,
+      "breadth_bonus": 10,
+      "recur_penalty": 0,
+      "independent_outlets": 21,
+      "mirror_urls": 3,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "中央政策影響AI算力與數據中心建設成本",
       "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-08 05:30:17",
+      "size": 34,
+      "max_crawled_at": "2026-10-09 08:01:17",
       "titles": [
-        "How India is building a supercomputer network to beat foreign supply bottlenecks"
+        "AI regulations in India: Modi govt coming out with paper on AI next month, announces Ashwini Vaishnaw - India.com",
+        "India to release AI regulation consultation paper within a month: Ashwini Vaishnaw - Indian Television Dot Com",
+        "AI regulations coming soon in India: Govt to release consultation paper within a month, says Vaishnaw - The Economic Times",
+        "Govt coming out with paper on AI regulations next month: Ashwini Vaishnaw",
+        "MeitY to release consultation paper on AI regulation in a month: Ashwini Vaishnaw - MediaNama",
+        "India to Clamp Down on Deepfakes: Centre to roll out AI regulatory framework within a month - Organiser Weekly",
+        "Govt to release draft AI regulation paper within 30 days: Ashwini Vaishnaw - Business Standard",
+        "Ashwini Vaishnaw Plans AI Law | Safety & Deepfake Regulation India",
+        "'Consultation paper on AI within a month': IT minister mulls bringing law on AI safety and deepfakes - Bhaskar English",
+        "Govt coming out with paper on AI regulations next month: Ashwini Vaishnaw - english.punjabkesari.com",
+        "India to unveil AI regulation consultation paper within a month: Vaishnaw - CNBC TV18",
+        "India to Release AI Regulation Consultation Paper Within a Month, Vaishnaw Says - The420.in",
+        "Govt to release draft AI regulation paper within 30 days: Ashwini Vaishnaw | Artificial Intelligence News - Business Standard",
+        "India AI Regulation 2026: MeitY Consultation Paper On Safety, Deepfakes, And Startup Compliance - Careerindia",
+        "India AI Regulation 2026: Government Plans New Rules",
+        "Meity to release consultation paper on AI regulation in a month, says Vaishnaw",
+        "India’s AI rules take shape; TCS profit jumps 15% - The Economic Times",
+        "Govt To Release AI Regulation Consultation Paper In A Month, Eyes Indigenous GPUs In 3-4 Years: Vaishnaw - Outlook Business",
+        "Time to revisit AI regulation may have arrived, says MeitY Secretary S Krishnan",
+        "Meity to release consultation paper on AI regulation in a month, says Vaishnaw - ET Manufacturing",
+        "India AI Regulation: Deepfake और AI Agents के लिए नया Framework - Indian Opinion News",
+        "India Pushes Hybrid AI Strategy for Data Sovereignty | Whalesbook",
+        "Time to revisit AI regulation may have arrived, says MeitY Secretary S Krishnan - StoryBoard 18",
+        "AI regulations in India: Modi govt coming out with paper on AI next month, announces Ashwini Vaishnaw",
+        "India needs stronger data access framework, AI skilling push: MeitY Secretary S Krishnan - ET Enterprise AI",
+        "Govt to release AI regulation consultation paper within a month: Ashwini Vaishnaw",
+        "Govt plans long-term procurement of 10,000 AI GPUs for five years",
+        "Use of proprietary AI models poses data transfer risks, India focusing on strategic autonomy: MeitY Secretary - Devdiscourse",
+        "India to release AI regulation consultation paper within a month: Ashwini Vaishnaw - Exchange4media",
+        "Use of proprietary AI models poses data transfer risks, India focusing on strategic autonomy: MeitY Secretary - ANI News",
+        "Use of proprietary AI models poses data transfer risks, India focusing on strategic autonomy: MeitY Secretary - english.punjabkesari.com",
+        "India’s AI Data Debate Moves Beyond Data Localisation",
+        "India’s AI Data Debate Moves Beyond Data Localisation - Frontline Magazine"
       ],
       "urls": [
-        "https://www.financialexpress.com/business/news/how-india-is-building-a-supercomputer-network-to-beat-foreign-supply-bottlenecks/4355909/"
+        "https://www.india.com/technology/ai-regulations-in-india-modi-govt-coming-out-with-paper-on-ai-next-month-announces-ashwini-vaishnaw-8534081/amp/",
+        "https://indiantelevision.com/mam/india-to-release-ai-regulation-consultation-paper-within-a-month-ashwini-vaishnaw/",
+        "https://m.economictimes.com/ai/ai-insights/ai-regulations-coming-soon-in-india-govt-to-release-consultation-paper-within-a-month-says-vaishnaw/articleshow/134785092.cms",
+        "https://www.edexlive.com/news/govt-coming-out-with-paper-on-ai-regulations-next-month-ashwini-vaishnaw-2",
+        "https://www.medianama.com/2026/10/223-meity-consultation-paper-ai-regulation/",
+        "https://organiser.org/2026/10/08/385395/bharat/india-moves-to-rein-in-ai-risks-government-to-unveil-regulation-blueprint-within-a-month/",
+        "https://www.business-standard.com/technology/artificial-intelligence/govt-to-release-draft-ai-regulation-paper-within-30-days-ashwini-vaishnaw-126100801183_1.html",
+        "https://www.bhaskarenglish.in/tech-science/news/ashwini-vaishnaw-ai-law-safety-deepfake-regulation-india-139287484.html",
+        "https://www.bhaskarenglish.in/amp/tech-science/news/ashwini-vaishnaw-ai-law-safety-deepfake-regulation-india-139287484.html",
+        "https://english.punjabkesari.com/india/govt-coming-out-with-paper-on-ai-regulations-next-month-vaishnaw",
+        "https://www.cnbctv18.com/technology/india-to-unveil-ai-regulation-consultation-paper-within-a-month-vaishnaw-20007545.htm",
+        "https://the420.in/india-ai-regulation-consultation-paper-deepfakes-vaishnaw/",
+        "https://www.business-standard.com/amp/technology/artificial-intelligence/govt-to-release-draft-ai-regulation-paper-within-30-days-ashwini-vaishnaw-126100801183_1.html",
+        "https://www.careerindia.com/news/india-ai-regulation-2026-meity-consultation-safety-deepfakes-compliance-011-66783.html",
+        "https://startuptimes.net/india-it-stocks-rise-as-accenture-outlook-boosts-ai-growth-1",
+        "https://manufacturing.economictimes.indiatimes.com/news/hi-tech/meity-to-release-consultation-paper-on-ai-regulation-in-a-month-says-vaishnaw/134787857",
+        "https://m.economictimes.com/tech/newsletters/tech-top-5/indias-ai-rules-take-shape-tcs-profit-jumps-15/articleshow/134790897.cms",
+        "https://www.outlookbusiness.com/amp/story/deeptech/govt-to-release-ai-regulation-consultation-paper-in-a-month-eyes-indigenous-gpus-in-3-4-years-vaishnaw",
+        "https://www.outlookbusiness.com/deeptech/govt-to-release-ai-regulation-consultation-paper-in-a-month-eyes-indigenous-gpus-in-3-4-years-vaishnaw",
+        "https://www.storyboard18.com/digital/time-to-revisit-ai-regulation-may-have-arrived-says-meity-secretary-s-krishnan-112198.htm",
+        "https://manufacturing.economictimes.indiatimes.com/amp/news/hi-tech/meity-to-release-consultation-paper-on-ai-regulation-in-a-month-says-vaishnaw/134787857",
+        "https://www.indianopinionnews.com/india-ai-regulation-deepfake-ai-agents-new-framework/",
+        "https://www.whalesbook.com/news/English/technology/India-Pushes-Hybrid-AI-Strategy-for-Data-Sovereignty/6ac7d4b079a16deaeaeb28c0",
+        "https://www.storyboard18.com/amp/digital/time-to-revisit-ai-regulation-may-have-arrived-says-meity-secretary-s-krishnan-112198.htm",
+        "https://www.msn.com/en-in/news/other/ai-regulations-in-india-modi-govt-coming-out-with-paper-on-ai-next-month-announces-ashwini-vaishnaw/ar-AA2dP316",
+        "https://enterpriseai.economictimes.indiatimes.com/amp/news/industry/india-needs-stronger-data-access-framework-ai-skilling-push-meity-secretary-s-krishnan/134790467",
+        "https://sambadenglish.com/national-international-news/india/govt-to-release-ai-regulation-consultation-paper-within-a-month-ashwini-vaishnaw-12638098",
+        "https://www.moneycontrol.com/news/business/govt-plans-long-term-procurement-of-10-000-ai-gpus-for-five-years-14047691.html",
+        "https://www.devdiscourse.com/article/business/3989001-use-of-proprietary-ai-models-poses-data-transfer-risks-india-focusing-on-strategic-autonomy-meity-secretary?amp=",
+        "https://www.exchange4media.com/digital-news/india-to-release-ai-regulation-consultation-paper-within-a-month-ashwini-vaishnaw-158990.html",
+        "https://www.aninews.in/news/business/use-of-proprietary-ai-models-poses-data-transfer-risks-india-focusing-on-strategic-autonomy-meity-secretary20261008161354",
+        "https://english.punjabkesari.com/business/use-of-proprietary-ai-models-poses-data-transfer-risks-india-focusing-on-strategic-autonomy-meity-secretary",
+        "https://frontline.thehindu.com/science-and-technology/ai-data-localisation-india/article71558776.ece",
+        "https://frontline.thehindu.com/science-and-technology/ai-data-localisation-india/article71558776.ece/amp/"
       ],
       "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "印度電子產品出口大幅增長",
-      "score": 70,
-      "reason": "貿易數據反映製造業實力，影響全球供應鏈",
-      "coherent": false,
-      "size": 4,
-      "max_crawled_at": "2026-10-09 03:01:17",
-      "titles": [
-        "India's electronics exports rise 71.6% to $11.5 billion, imports up 43.3% to $28 billion - Business Upturn",
-        "India’s export shows 15.55 percent surge to $399.27 billion in April-August - Times Kuwait",
-        "India's oil imports rose 21.3% to $35 billion, petroleum exports jumped 66% - Business Upturn",
-        "Make in India: Why Jobs Still Lag Manufacturing Growth"
-      ],
-      "urls": [
-        "https://www.businessupturn.com/finance/economy/india-electronics-exports-up-71-percent-imports-up-43-percent-july-august-2026/",
-        "https://timeskuwait.com/indias-export-shows-15-55-percent-surge-to-us-399-27-billion-in-april-august/",
-        "https://businessupturn.com/finance/economy/india-oil-import-bill-petroleum-exports-both-rose-crude-82-to-116-dollars/",
-        "https://urbanacres.in/make-in-india-gains-scale-but-jobs-and-manufacturing-share-lag"
-      ],
-      "sources": [
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
         "india_electronics",
         "india_electronics",
         "india_electronics",
@@ -263,97 +318,17 @@
       ]
     },
     {
-      "event": "Dixon與Gemtek合資製造光學產品",
-      "score": 70,
-      "reason": "EMS龍頭擴大組件產能，強化本地供應鏈",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-10-08 21:31:17",
-      "titles": [
-        "Dixon Technologies, Gemtek to form JV for optical connectivity products in India - ET Manufacturing",
-        "Dixon Technologies Enters 60:40 JV With Gemtek To Manufacture Optical Transceivers - Sahi"
-      ],
-      "urls": [
-        "https://manufacturing.economictimes.indiatimes.com/news/hi-tech/dixon-technologies-gemtek-to-form-jv-for-optical-connectivity-products-in-india/134762869",
-        "https://www.sahi.com/news/dixon-technologies-enters-60-40-jv-with-gemtek-to-manufacture-optical-transceivers"
-      ],
-      "sources": [
-        "india_electronics",
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "印度封裝廠出口面臨規模與補貼挑戰",
-      "score": 70,
-      "reason": "半導體後段製程關鍵進展，具產業指標意義",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-08 13:31:17",
-      "titles": [
-        "India's chip packaging plants start exporting, but scale, skills, and subsidies test the next phase"
-      ],
-      "urls": [
-        "https://www.digitimes.com/news/a20261007VL204/india-government-osat-packaging-plant.html"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "戴爾宣布擴大在印度的AI基礎設施投資",
-      "score": 70,
-      "reason": "全球科技巨頭增加印度AI算力投入，具實質產業擴張意義。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-08 06:31:17",
-      "titles": [
-        "Dell Technologies stock highlights India AI expansion"
-      ],
-      "urls": [
-        "https://www.ad-hoc-news.de/boerse/news/corporate-news/dell-technologies-stock-highlights-india-ai-expansion/70256973"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "印度即將發布AI監管諮詢文件聚焦安全",
-      "score": 70,
-      "reason": "關鍵監管框架擬定，將深刻影響AI產業合規與發展路徑。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-08 21:31:17",
-      "titles": [
-        "AI regulations: Consultation paper in a month; safety, deepfakes among key focus areas, says Vaishnaw - Udayavani"
-      ],
-      "urls": [
-        "https://udayavani.com/national/ai-regulations-consultation-paper-in-a-month-safety-deepfakes-among-key-focus-areas-says-vaishnaw-741685?lang=en"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "印度AI監管框架強調安全與以人為本",
-      "score": 70,
-      "reason": "同為AI監管政策，確立產業發展邊界與標準，影響深遠。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-08 21:31:17",
-      "titles": [
-        "India's AI Regulation Framework: Safety, Deepfakes, And Human-First Approach - Rediff.com Business"
-      ],
-      "urls": [
-        "https://www.rediff.com/business/report/ai-regulations-consultation-paper-coming-soon-focus-on-safety/20261008.htm"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "MeitY資助IIT Madras矽光子計畫",
-      "score": 65,
-      "reason": "先進技術研發資金支持，影響長期技術能力",
+      "event": "MeitY撥款支援IIT Madras矽光子計畫",
+      "score": 79,
+      "score_model": 78,
+      "breadth_bonus": 1,
+      "recur_penalty": 0,
+      "independent_outlets": 2,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "2026-10-08",
+      "recur_days": 1,
+      "reason": "政府資助先進製程研發，具技術突破潛力",
       "coherent": true,
       "size": 2,
       "max_crawled_at": "2026-10-09 06:31:17",
@@ -371,521 +346,42 @@
       ]
     },
     {
-      "event": "印度擬定吸引外資框架並推動FTA",
-      "score": 65,
-      "reason": "投資環境與貿易政策，直接影響供應鏈",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-10-09 04:01:17",
-      "titles": [
-        "Calibrating India’s inbound investment framework - The Hindu",
-        "India-EU FTA to drive German investment into India: Indo-German Chamber chief"
-      ],
-      "urls": [
-        "https://www.thehindu.com/opinion/op-ed/calibrating-indias-inbound-investment-framework/article71560822.ece",
-        "https://fvbb.com/ns/india-eu-fta-to-drive-german-investment-into/323433"
-      ],
-      "sources": [
-        "india_electronics",
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "銅鋁價飆升衝擊印度電子製造成本",
-      "score": 65,
-      "reason": "原材料成本上升直接影響製造業利潤與供應鏈穩定性。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-08 11:31:17",
-      "titles": [
-        "Copper prices jump 57%, aluminium 35%: What it means for consumer durables, electronics"
-      ],
-      "urls": [
-        "https://www.financialexpress.com/business/industry-copper-prices-jump-57-aluminium-35-what-it-means-for-consumer-durables-electronics-4355581/"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "某科技製造商透過策略合資拓展光通訊",
-      "score": 65,
-      "reason": "光通訊元件擴張，強化電信設備供應鏈本土化能力。",
+      "event": "塔塔集團聚焦半導體與電池等核心領域",
+      "score": 75,
+      "score_model": 75,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "2026-10-08",
+      "recur_days": 1,
+      "reason": "全球一線企業戰略轉向，具產業定義性",
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-10-08 04:01:17",
       "titles": [
-        "Strategic JV Alert! This Tech Manufacturer Expands Into Optical Connectivity - Dalal Street Investment Journal"
+        "Tata Group to focus on semiconductors, batteries, quantum computing and circularity: N Chandrasekaran - CNBC TV18"
       ],
       "urls": [
-        "https://insights.dsij.in/dsijarticledetail/strategic-jv-alert-this-tech-manufacturer-expands-into-optical-connectivity-id022"
+        "https://www.cnbctv18.com/business/companies/tata-group-to-focus-on-semiconductors-batteries-quantum-computing-and-circularity-n-chandrasekaran-20007112.htm"
       ],
       "sources": [
         "india_electronics"
       ]
     },
     {
-      "event": "NSAM 2.0擴增3D列印於太空國防醫療",
-      "score": 65,
-      "reason": "國家政策推動先進製造，具產業指標意義",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-08 13:31:17",
-      "titles": [
-        "India's Additive Manufacturing Revolution Gains Momentum As NSAM 2.0 Expands 3D Printing Across Space, Defence And Healthcare"
-      ],
-      "urls": [
-        "https://www.freepressjournal.in/tech/indias-additive-manufacturing-revolution-gains-momentum-as-nsam-20-expands-3d-printing-across-space-defence-and-healthcare"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "印度下月發布AI監管諮詢文件",
-      "score": 60,
-      "reason": "關鍵監管框架，影響產業合規成本",
-      "coherent": true,
-      "size": 35,
-      "max_crawled_at": "2026-10-09 08:01:17",
-      "titles": [
-        "AI regulations in India: Modi govt coming out with paper on AI next month, announces Ashwini Vaishnaw - India.com",
-        "India to release AI regulation consultation paper within a month: Ashwini Vaishnaw - Indian Television Dot Com",
-        "AI regulations coming soon in India: Govt to release consultation paper within a month, says Vaishnaw - The Economic Times",
-        "MeitY to release consultation paper on AI regulation in a month: Ashwini Vaishnaw - MediaNama",
-        "Govt coming out with paper on AI regulations next month: Ashwini Vaishnaw",
-        "India to Clamp Down on Deepfakes: Centre to roll out AI regulatory framework within a month - Organiser Weekly",
-        "Govt to release draft AI regulation paper within 30 days: Ashwini Vaishnaw - Business Standard",
-        "Ashwini Vaishnaw Plans AI Law | Safety & Deepfake Regulation India",
-        "'Consultation paper on AI within a month': IT minister mulls bringing law on AI safety and deepfakes - Bhaskar English",
-        "India to unveil AI regulation consultation paper within a month: Vaishnaw - CNBC TV18",
-        "Govt coming out with paper on AI regulations next month: Ashwini Vaishnaw - english.punjabkesari.com",
-        "India to Release AI Regulation Consultation Paper Within a Month, Vaishnaw Says - The420.in",
-        "Govt to release draft AI regulation paper within 30 days: Ashwini Vaishnaw | Artificial Intelligence News - Business Standard",
-        "India AI Regulation 2026: Government Plans New Rules",
-        "India AI Regulation 2026: MeitY Consultation Paper On Safety, Deepfakes, And Startup Compliance - Careerindia",
-        "Meity to release consultation paper on AI regulation in a month, says Vaishnaw",
-        "India’s AI rules take shape; TCS profit jumps 15% - The Economic Times",
-        "Govt To Release AI Regulation Consultation Paper In A Month, Eyes Indigenous GPUs In 3-4 Years: Vaishnaw - Outlook Business",
-        "Time to revisit AI regulation may have arrived, says MeitY Secretary S Krishnan",
-        "Meity to release consultation paper on AI regulation in a month, says Vaishnaw - ET Manufacturing",
-        "India AI Regulation: Deepfake और AI Agents के लिए नया Framework - Indian Opinion News",
-        "Time to revisit AI regulation may have arrived, says MeitY Secretary S Krishnan - StoryBoard 18",
-        "India Pushes Hybrid AI Strategy for Data Sovereignty | Whalesbook",
-        "India needs stronger data access framework, AI skilling push: MeitY Secretary S Krishnan - ET Enterprise AI",
-        "AI regulations in India: Modi govt coming out with paper on AI next month, announces Ashwini Vaishnaw",
-        "Govt to release AI regulation consultation paper within a month: Ashwini Vaishnaw",
-        "Govt plans long-term procurement of 10,000 AI GPUs for five years",
-        "Use of proprietary AI models poses data transfer risks, India focusing on strategic autonomy: MeitY Secretary - Devdiscourse",
-        "India to release AI regulation consultation paper within a month: Ashwini Vaishnaw - Exchange4media",
-        "Use of proprietary AI models poses data transfer risks, India focusing on strategic autonomy: MeitY Secretary - ANI News",
-        "Use of proprietary AI models poses data transfer risks, India focusing on strategic autonomy: MeitY Secretary - english.punjabkesari.com",
-        "India must have a seat at the table in global AI safety rules | Communications Today",
-        "AI Becomes a Top Priority for 70% of Indian Organizations: Dell Study Reveals",
-        "Voice AI adoption scales up in India, moves beyond experimentation | Tech News - Business Standard"
-      ],
-      "urls": [
-        "https://www.india.com/technology/ai-regulations-in-india-modi-govt-coming-out-with-paper-on-ai-next-month-announces-ashwini-vaishnaw-8534081/amp/",
-        "https://indiantelevision.com/mam/india-to-release-ai-regulation-consultation-paper-within-a-month-ashwini-vaishnaw/",
-        "https://m.economictimes.com/ai/ai-insights/ai-regulations-coming-soon-in-india-govt-to-release-consultation-paper-within-a-month-says-vaishnaw/articleshow/134785092.cms",
-        "https://www.medianama.com/2026/10/223-meity-consultation-paper-ai-regulation/",
-        "https://www.edexlive.com/news/govt-coming-out-with-paper-on-ai-regulations-next-month-ashwini-vaishnaw-2",
-        "https://organiser.org/2026/10/08/385395/bharat/india-moves-to-rein-in-ai-risks-government-to-unveil-regulation-blueprint-within-a-month/",
-        "https://www.business-standard.com/technology/artificial-intelligence/govt-to-release-draft-ai-regulation-paper-within-30-days-ashwini-vaishnaw-126100801183_1.html",
-        "https://www.bhaskarenglish.in/tech-science/news/ashwini-vaishnaw-ai-law-safety-deepfake-regulation-india-139287484.html",
-        "https://www.bhaskarenglish.in/amp/tech-science/news/ashwini-vaishnaw-ai-law-safety-deepfake-regulation-india-139287484.html",
-        "https://www.cnbctv18.com/technology/india-to-unveil-ai-regulation-consultation-paper-within-a-month-vaishnaw-20007545.htm",
-        "https://english.punjabkesari.com/india/govt-coming-out-with-paper-on-ai-regulations-next-month-vaishnaw",
-        "https://the420.in/india-ai-regulation-consultation-paper-deepfakes-vaishnaw/",
-        "https://www.business-standard.com/amp/technology/artificial-intelligence/govt-to-release-draft-ai-regulation-paper-within-30-days-ashwini-vaishnaw-126100801183_1.html",
-        "https://startuptimes.net/india-it-stocks-rise-as-accenture-outlook-boosts-ai-growth-1",
-        "https://www.careerindia.com/news/india-ai-regulation-2026-meity-consultation-safety-deepfakes-compliance-011-66783.html",
-        "https://manufacturing.economictimes.indiatimes.com/news/hi-tech/meity-to-release-consultation-paper-on-ai-regulation-in-a-month-says-vaishnaw/134787857",
-        "https://m.economictimes.com/tech/newsletters/tech-top-5/indias-ai-rules-take-shape-tcs-profit-jumps-15/articleshow/134790897.cms",
-        "https://www.outlookbusiness.com/amp/story/deeptech/govt-to-release-ai-regulation-consultation-paper-in-a-month-eyes-indigenous-gpus-in-3-4-years-vaishnaw",
-        "https://www.outlookbusiness.com/deeptech/govt-to-release-ai-regulation-consultation-paper-in-a-month-eyes-indigenous-gpus-in-3-4-years-vaishnaw",
-        "https://www.storyboard18.com/digital/time-to-revisit-ai-regulation-may-have-arrived-says-meity-secretary-s-krishnan-112198.htm",
-        "https://manufacturing.economictimes.indiatimes.com/amp/news/hi-tech/meity-to-release-consultation-paper-on-ai-regulation-in-a-month-says-vaishnaw/134787857",
-        "https://www.indianopinionnews.com/india-ai-regulation-deepfake-ai-agents-new-framework/",
-        "https://www.storyboard18.com/amp/digital/time-to-revisit-ai-regulation-may-have-arrived-says-meity-secretary-s-krishnan-112198.htm",
-        "https://www.whalesbook.com/news/English/technology/India-Pushes-Hybrid-AI-Strategy-for-Data-Sovereignty/6ac7d4b079a16deaeaeb28c0",
-        "https://enterpriseai.economictimes.indiatimes.com/amp/news/industry/india-needs-stronger-data-access-framework-ai-skilling-push-meity-secretary-s-krishnan/134790467",
-        "https://www.msn.com/en-in/news/other/ai-regulations-in-india-modi-govt-coming-out-with-paper-on-ai-next-month-announces-ashwini-vaishnaw/ar-AA2dP316",
-        "https://sambadenglish.com/national-international-news/india/govt-to-release-ai-regulation-consultation-paper-within-a-month-ashwini-vaishnaw-12638098",
-        "https://www.moneycontrol.com/news/business/govt-plans-long-term-procurement-of-10-000-ai-gpus-for-five-years-14047691.html",
-        "https://www.devdiscourse.com/article/business/3989001-use-of-proprietary-ai-models-poses-data-transfer-risks-india-focusing-on-strategic-autonomy-meity-secretary?amp=",
-        "https://www.exchange4media.com/digital-news/india-to-release-ai-regulation-consultation-paper-within-a-month-ashwini-vaishnaw-158990.html",
-        "https://www.aninews.in/news/business/use-of-proprietary-ai-models-poses-data-transfer-risks-india-focusing-on-strategic-autonomy-meity-secretary20261008161354",
-        "https://english.punjabkesari.com/business/use-of-proprietary-ai-models-poses-data-transfer-risks-india-focusing-on-strategic-autonomy-meity-secretary",
-        "https://www.communicationstoday.co.in/india-must-have-a-seat-at-the-table-in-global-ai-safety-rules/",
-        "https://digitalterminal.in/enterprise/ai-becomes-a-top-priority-for-70-of-indian-organizations-dell-study-reveals",
-        "https://www.business-standard.com/technology/tech-news/voice-ai-adoption-scales-up-in-india-moves-beyond-experimentation-126100801453_1.html"
-      ],
-      "sources": [
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "日本半導體企業擴大在印業務",
-      "score": 60,
-      "reason": "產業趨勢與市場擴張，具一定供應鏈意義",
-      "coherent": false,
-      "size": 13,
-      "max_crawled_at": "2026-10-09 05:01:17",
-      "titles": [
-        "India’s semiconductor push, agentic AI set to reshape telecom and connected devices: Industry leaders - The Tribune",
-        "Japan's chip industry capitalises on growth in India semiconductor industry",
-        "India’s semiconductor push, agentic AI set to reshape telecom and connected devices: Industry leaders - english.punjabkesari.com",
-        "India's semiconductor push, agentic AI set to reshape telecom and connected devices: Industry leaders - The Economic Times",
-        "Japan’s chip industry capitalises on growth in India semiconductor industry - Qatar Tribune",
-        "Japanese Semiconductor Companies Expand India Presence",
-        "India's Tech Push: Semicon 2.0 Mission And AI Adoption Take Center Stage | Whalesbook",
-        "India’s Semicon 2.0 Push Draws $12 Billion in Pledges as It Races to Build a Chipmaking Hub – The Index Today",
-        "India's AI, semiconductor ambitions to reshape tech, telecom sector",
-        "India Semiconductor Innovation at SEMICON India 2026 | Synopsys",
-        "India's semiconductor push, agentic AI set to reshape telecom and connected devices: Industry leaders",
-        "Building India’s Chip Infrastructure: Highlights from SEMICON India",
-        "Canon Targets India’s Growing Semiconductor Market with Lithography Equipment and Local Support"
-      ],
-      "urls": [
-        "https://www.tribuneindia.com/news/business/indias-semiconductor-push-agentic-ai-set-to-reshape-telecom-and-connected-devices-industry-leaders/",
-        "https://www.qatar-tribune.com/article/258087/business/japans-chip-industry-capitalises-on-growth-in-india-semiconductor-industry",
-        "https://english.punjabkesari.com/business/indias-semiconductor-push-agentic-ai-set-to-reshape-telecom-and-connected-devices-industry-leaders",
-        "https://m.economictimes.com/tech/technology/indias-semiconductor-push-agentic-ai-set-to-reshape-telecom-and-connected-devices-industry-leaders/amp_articleshow/134795824.cms",
-        "https://www.qatar-tribune.com/article/258087/business/japans-chip-industry-capitalises-on-growth-in-india-semiconductor-industry/amp",
-        "https://www.electronicsforyou.biz/industry-buzz/japanese-semiconductor-companies-expand-india-presence/",
-        "https://www.whalesbook.com/news/English/technology/Indias-Tech-Push-Semicon-20-Mission-And-AI-Adoption-Take-Center-Stage/6ac7c79179a16deaeaeb20f4",
-        "https://www.theindextoday.com/indias-semicon-2-0-push-draws-12-billion-in-pledges-as-it-races-to-build-a-chipmaking-hub/",
-        "https://www.msn.com/en-in/money/technology/india-s-ai-semiconductor-ambitions-to-reshape-tech-telecom-sector/ar-AA2dPMg5",
-        "https://www.synopsys.com/blogs/chip-design/india-semiconductor-innovation-semicon-2026.html",
-        "https://www.msn.com/en-in/money/general/india-s-semiconductor-push-agentic-ai-set-to-reshape-telecom-and-connected-devices-industry-leaders/ar-AA2dQiQV",
-        "https://www.semiconinsider.com/2026/10/07/building-india-chip-infrastructure-highlights-from-semicon-india/",
-        "https://semiconleadersasia.com/news/3/1753/canon-targets-indias-growing-semiconductor-market-with-lithography-equipment-and-local-support.html"
-      ],
-      "sources": [
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "印度計畫兩年內推出自有品牌手機",
-      "score": 60,
-      "reason": "國家級品牌戰略，推動本土組裝與設計",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-08 12:31:17",
-      "titles": [
-        "India Wants Its Own Homegrown Smartphone Within Two Years: What The Government Is Planning"
-      ],
-      "urls": [
-        "https://www.msn.com/en-in/news/other/india-wants-its-own-homegrown-smartphone-within-two-years-what-the-government-is-planning/ar-AA2dJrDi"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "三星等晶片廠投資越南引發關注",
-      "score": 60,
-      "reason": "競爭對手國家獲投資，對印度半導體招商構成間接壓力。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-08 23:30:47",
-      "titles": [
-        "Why Samsung and global chipmakers are investing in Vietnam"
-      ],
-      "urls": [
-        "https://www.koreajoongangdaily.com/opinion/why-semiconductor-investment-is-flowing-to-vietnam/12911434"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "Lekha Wireless整合ADI技術開發5G產品",
-      "score": 60,
-      "reason": "本地廠商採用國際晶片設計5G產品，提升組件自主性。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-08 01:31:17",
-      "titles": [
-        "Lekha Wireless to integrate Analog Devices radio technology in 5G and 4G products"
-      ],
-      "urls": [
-        "https://www.thehindubusinessline.com/info-tech/lekha-wireless-to-integrate-analog-devices-radio-technology-in-5g-and-4g-products/article71555693.ece"
-      ],
-      "sources": [
-        "hindubusinessline"
-      ]
-    },
-    {
-      "event": "印度AI數據本地化辯論超越單純技術層面",
-      "score": 55,
-      "reason": "政策辯論影響數據中心與雲端服務業的合規成本與架構。",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-10-08 19:31:17",
-      "titles": [
-        "India’s AI Data Debate Moves Beyond Data Localisation - Frontline Magazine",
-        "India’s AI Data Debate Moves Beyond Data Localisation"
-      ],
-      "urls": [
-        "https://frontline.thehindu.com/science-and-technology/ai-data-localisation-india/article71558776.ece/amp/",
-        "https://frontline.thehindu.com/science-and-technology/ai-data-localisation-india/article71558776.ece"
-      ],
-      "sources": [
-        "india_electronics",
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "印度推動減少稀土磁鐵對中國依賴",
-      "score": 55,
-      "reason": "關鍵原材料供應鏈多元化，具戰略意義",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-08 00:31:17",
-      "titles": [
-        "India Moves To Cut China Dependence In Rare Earth Magnet Supply"
-      ],
-      "urls": [
-        "https://www.electronicsforyou.biz/industry-buzz/india-moves-to-cut-china-dependence-in-rare-earth-magnet-supply"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "美印等14國簽署製造業產能協議",
-      "score": 55,
-      "reason": "國際產能協調，影響全球供應鏈佈局",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-09 02:01:17",
-      "titles": [
-        "US and India join 14-economy pact to tackle global manufacturing overcapacity"
-      ],
-      "urls": [
-        "https://www.indiaweekly.biz/us-and-india-join-14-economy-pact-to-tackle-global-manufacturing-overcapacity/"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "莫迪強調印度電信與6G發展願景",
-      "score": 50,
-      "reason": "國家級電信戰略方向，影響基礎建設",
-      "coherent": true,
-      "size": 3,
-      "max_crawled_at": "2026-10-08 22:00:55",
-      "titles": [
-        "From Rs 50 lakh crore DBT to nationwide 5G: PM Modi makes the case for India's mobile revolution",
-        "India Mobile Congress 2026: PM Modi says 'India's next phase of digital growth to focus on 6G, AI & chips'",
-        "India now a creator, not just consumer in telecom, says PM Modi"
-      ],
-      "urls": [
-        "https://www.thestatesman.com/india/from-rs-50-lakh-crore-dbt-to-nationwide-5g-pm-modi-makes-the-case-for-indias-mobile-revolution-1503648540.html",
-        "https://www.msn.com/en-in/news/other/india-mobile-congress-2026-pm-modi-says-indias-next-phase-of-digital-growth-to-focus-on-6g-ai-chips/ar-AA2dO86s",
-        "https://www.msn.com/en-in/technology/tech-companies/india-now-a-creator-not-just-consumer-in-telecom-says-pm-modi/ar-AA2dO6Zl"
-      ],
-      "sources": [
-        "india_electronics",
-        "india_electronics",
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "日本半導體業利用印度市場增長",
-      "score": 50,
-      "reason": "國際廠商市場策略，反映供應鏈轉移趨勢",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-08 02:31:17",
-      "titles": [
-        "Japan's chip industry capitalizes on growth in India semiconductor industry - Japan Today"
-      ],
-      "urls": [
-        "https://japantoday.com/category/tech/japan%27s-chip-industry-capitalizes-on-growth-in-india-semiconductor-industry?comment-order=latest"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "部長稱歐洲視印度為製造與創新樞紐",
-      "score": 50,
-      "reason": "官方對產業定位的肯定，影響外資信心",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-08 22:30:27",
-      "titles": [
-        "European countries increasingly viewing India as a hub for manufacturing, innovation: Vaishnaw - ET Manufacturing"
-      ],
-      "urls": [
-        "https://manufacturing.economictimes.indiatimes.com/amp/news/industry/european-countries-increasingly-viewing-india-as-a-hub-for-manufacturing-innovation-vaishnaw/134783851"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "DigiKey在班加羅爾開設新辦公室",
-      "score": 50,
-      "reason": "電子元件分銷商擴張，反映印度電子製造生態系持續成長。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-08 18:31:17",
-      "titles": [
-        "DigiKey India Opens New Bengaluru Office"
-      ],
-      "urls": [
-        "https://www.eletimes.ai/digikey-india-opens-new-bengaluru-office"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "印度半導體產業亟需人才填補技術缺口",
-      "score": 50,
-      "reason": "人才短缺是產業擴張瓶頸，屬長期結構性挑戰而非即時事件。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-08 06:31:17",
-      "titles": [
-        "India needs fresh graduates, returning experts to bridge semicon talent gap | Tech News - Business Standard"
-      ],
-      "urls": [
-        "https://www.business-standard.com/amp/technology/tech-news/india-needs-fresh-graduates-returning-experts-to-bridge-semicon-talent-gap-126100700897_1.html"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "印度電子製造帶動工程塑膠需求",
-      "score": 45,
-      "reason": "上游材料需求增長，反映產業擴張趨勢",
-      "coherent": false,
-      "size": 3,
-      "max_crawled_at": "2026-10-09 02:31:17",
-      "titles": [
-        "India's Electronics Manufacturing Growth Is Increasing the Need for Engineered Plastic Components - EIN News",
-        "India's Electronics Manufacturing Growth Is Increasing the Need for Engineered Plastic Components - The National Law Review",
-        "Electronica Productronica India 2026: India's Electronics Future Just Exploded! - Northeast News"
-      ],
-      "urls": [
-        "https://www.einnews.com/pr_news/947945929/india-s-electronics-manufacturing-growth-is-increasing-the-need-for-engineered-plastic-components",
-        "https://natlawreview.com/press-releases/indias-electronics-manufacturing-growth-increasing-need-engineered-plastic",
-        "https://nenews.in/news/electronica-productronica-india-2026-indias-electronics-future-just-exploded/67037/"
-      ],
-      "sources": [
-        "india_electronics",
-        "india_electronics",
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "安得拉邦定位為AI與半導體樞紐",
-      "score": 45,
-      "reason": "地方產業政策導向，潛在投資吸引力",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-09 04:01:17",
-      "titles": [
-        "A.P. positions north Andhra as a hub for AI, data centres, fintech and semiconductors"
-      ],
-      "urls": [
-        "https://www.thehindu.com/news/cities/Visakhapatnam/ap-positions-north-andhra-as-a-hub-for-ai-data-centres-fintech-and-semiconductors/article71559929.ece"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "政府將在科技峰會發布AI政策",
-      "score": 45,
-      "reason": "政策意向但無具體執行細節",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-09 05:31:17",
-      "titles": [
-        "Govt to launch AI policy at tech conclave - The Times of India"
-      ],
-      "urls": [
-        "https://timesofindia.indiatimes.com/city/goa/govt-to-launch-ai-policy-at-tech-conclave/amp_articleshow/134799875.cms"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "阿薩姆邦長官推動當地生產與經濟自立",
-      "score": 45,
-      "reason": "地方官員宣示政策意向，缺乏具體投資承諾或產業細節。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-09 09:01:17",
-      "titles": [
-        "CM Sarma touts local production, economic self-reliance in Sonitpur"
-      ],
-      "urls": [
-        "https://www.msn.com/en-in/news/other/cm-sarma-touts-local-production-economic-self-reliance-in-sonitpur/ar-AA2dQODd"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "Electronica India 2026吸引逾5萬訪客",
-      "score": 40,
-      "reason": "展覽活動，反映產業熱度但非實質投資",
+      "event": "Electronica India 2026吸引逾5萬參觀者",
+      "score": 75,
+      "score_model": 72,
+      "breadth_bonus": 3,
+      "recur_penalty": 0,
+      "independent_outlets": 4,
+      "mirror_urls": 4,
+      "recur_flag": "",
+      "recur_first_seen": "2026-09-11",
+      "recur_days": 3,
+      "reason": "電子製造業大型展會，供應鏈展示重要平台",
       "coherent": true,
       "size": 8,
       "max_crawled_at": "2026-10-09 01:01:17",
@@ -921,68 +417,324 @@
       ]
     },
     {
-      "event": "CBIC規定手機螢幕保護貼需BIS認證",
-      "score": 40,
-      "reason": "標準法規變化，影響組件進口與合規成本",
+      "event": "Dixon與Gemtek合資生產光學傳輸器",
+      "score": 73,
+      "score_model": 72,
+      "breadth_bonus": 1,
+      "recur_penalty": 0,
+      "independent_outlets": 2,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "2026-09-02",
+      "recur_days": 3,
+      "reason": "EMS龍頭擴展高階組件製造，提升本土化",
       "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-08 22:30:27",
+      "size": 2,
+      "max_crawled_at": "2026-10-08 21:31:17",
       "titles": [
-        "CBIC Mandates BIS Compliance for Smartphone Screen Protectors from April 2027"
+        "Dixon Technologies, Gemtek to form JV for optical connectivity products in India - ET Manufacturing",
+        "Dixon Technologies Enters 60:40 JV With Gemtek To Manufacture Optical Transceivers - Sahi"
       ],
       "urls": [
-        "https://taxguru.in/custom-duty/cbic-mandates-bis-compliance-smartphone-screen-protectors-april-2027.html"
+        "https://manufacturing.economictimes.indiatimes.com/news/hi-tech/dixon-technologies-gemtek-to-form-jv-for-optical-connectivity-products-in-india/134762869",
+        "https://www.sahi.com/news/dixon-technologies-enters-60-40-jv-with-gemtek-to-manufacture-optical-transceivers"
+      ],
+      "sources": [
+        "india_electronics",
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "印度晶片封裝廠開始出口面臨規模挑戰",
+      "score": 70,
+      "score_model": 70,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "2026-10-08",
+      "recur_days": 1,
+      "reason": "ATMP環節突破與瓶頸，影響全球供應鏈",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-08 13:31:17",
+      "titles": [
+        "India's chip packaging plants start exporting, but scale, skills, and subsidies test the next phase"
+      ],
+      "urls": [
+        "https://www.digitimes.com/news/a20261007VL204/india-government-osat-packaging-plant.html"
       ],
       "sources": [
         "india_electronics"
       ]
     },
     {
-      "event": "AWS指出印度AI原生企業進入快速成長期",
-      "score": 40,
-      "reason": "軟體與服務業態，硬體製造影響有限",
+      "event": "Jio規劃1600顆衛星LEO網路與地面站",
+      "score": 70,
+      "score_model": 70,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "大型電信基礎設施建設，影響通信產業鏈",
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-10-09 08:31:17",
+      "max_crawled_at": "2026-10-08 20:01:17",
       "titles": [
-        "India’s AI-native startups enter faster growth phase as AI model costs fall: AWS"
+        "Jio’s 1,600-satellite LEO network: 23 ground stations, remote area coverage and more"
       ],
       "urls": [
-        "https://www.thehindubusinessline.com/info-tech/indias-ai-native-startups-enter-faster-growth-phase-as-ai-model-costs-fall-aws/article71560450.ece"
+        "https://www.livemint.com/technology/jios-1-600-satellite-leo-network-23-ground-stations-remote-area-coverage-and-more-11791457201362.html"
       ],
       "sources": [
-        "hindubusinessline"
+        "livemint"
       ]
     },
     {
-      "event": "HPE推動印度中小廠商採用強健IT基礎設施",
-      "score": 40,
-      "reason": "企業IT基礎設施升級，屬間接影響，非核心製造業變動。",
+      "event": "印度減少對中國稀土磁鐵供應依賴",
+      "score": 68,
+      "score_model": 68,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "2026-10-08",
+      "recur_days": 1,
+      "reason": "關鍵原材料供應鏈重組，具戰略意義",
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-10-09 04:31:17",
+      "max_crawled_at": "2026-10-08 00:31:17",
       "titles": [
-        "India Inc driving small vendors to adopt strong IT infra: HPE India head - The Economic Times"
+        "India Moves To Cut China Dependence In Rare Earth Magnet Supply"
       ],
       "urls": [
-        "https://economictimes.indiatimes.com/tech/information-tech/india-inc-driving-small-vendors-to-adopt-strong-it-infra-hpe-india-head/articleshow/87826501.cms"
+        "https://www.electronicsforyou.biz/industry-buzz/india-moves-to-cut-china-dependence-in-rare-earth-magnet-supply"
       ],
       "sources": [
         "india_electronics"
       ]
     },
     {
-      "event": "SJS Enterprises擴充班加羅爾產能",
-      "score": 35,
-      "reason": "單一企業擴產，規模較小且非核心元件",
+      "event": "印度建構超級電腦網絡以避開供應瓶頸",
+      "score": 65,
+      "score_model": 65,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "AI算力基礎建設，屬關鍵工業政策一環",
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-10-08 16:31:17",
+      "max_crawled_at": "2026-10-08 05:30:17",
       "titles": [
-        "SJS Enterprises in focus after announcing ₹45 Crore capacity expansion at Bengaluru facility"
+        "How India is building a supercomputer network to beat foreign supply bottlenecks"
       ],
       "urls": [
-        "https://tradebrains.in/indian-markets/sjs-enterprises-in-focus-after-announcing-45-crore-capacity-expansion-at-bengaluru-facility-12636884"
+        "https://www.financialexpress.com/business/news/how-india-is-building-a-supercomputer-network-to-beat-foreign-supply-bottlenecks/4355909/"
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "ReNew與馬哈拉施特拉邦簽署綠能資料中心協議",
+      "score": 65,
+      "score_model": 65,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "大型綠色能源配套，支撐AI基礎設施發展",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-08 22:00:55",
+      "titles": [
+        "ReNew signs MoU with Maharashtra for ₹70,000 crore green data centre park"
+      ],
+      "urls": [
+        "https://www.business-standard.com/industry/news/renew-signs-mou-with-maharashtra-for-70-000-crore-green-data-centre-park-126100801226_1.html"
+      ],
+      "sources": [
+        "business_standard"
+      ]
+    },
+    {
+      "event": "AMD宣布2027年擴大晶片供應以應AI需求",
+      "score": 65,
+      "score_model": 65,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "全球大廠供應鏈調整，間接影響印度採購",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-08 06:31:17",
+      "titles": [
+        "AMD Announces Plans to Boost Chip Supply in 2027 Amid AI Demand Surge, ETElectronicsWorld"
+      ],
+      "urls": [
+        "http://electronics.economictimes.indiatimes.com/news/manufacturing/amd-plans-to-substantially-increase-chip-supply-in-2027-says-lisa-su/134752984"
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "印度電子產品出口激增71.6%至115億美元",
+      "score": 61,
+      "score_model": 60,
+      "breadth_bonus": 1,
+      "recur_penalty": 0,
+      "independent_outlets": 2,
+      "mirror_urls": 2,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "貿易數據反映製造實力，具產業指標意義",
+      "coherent": false,
+      "size": 4,
+      "max_crawled_at": "2026-10-09 03:01:17",
+      "titles": [
+        "India's electronics exports rise 71.6% to $11.5 billion, imports up 43.3% to $28 billion - Business Upturn",
+        "India’s export shows 15.55 percent surge to $399.27 billion in April-August - Times Kuwait",
+        "India's oil imports rose 21.3% to $35 billion, petroleum exports jumped 66% - Business Upturn",
+        "Confident of hitting $1 trn exports target in FY27, says Piyush Goyal - Business Standard"
+      ],
+      "urls": [
+        "https://www.businessupturn.com/finance/economy/india-electronics-exports-up-71-percent-imports-up-43-percent-july-august-2026/",
+        "https://timeskuwait.com/indias-export-shows-15-55-percent-surge-to-us-399-27-billion-in-april-august/",
+        "https://businessupturn.com/finance/economy/india-oil-import-bill-petroleum-exports-both-rose-crude-82-to-116-dollars/",
+        "https://www.business-standard.com/economy/news/confident-of-hitting-1-trn-exports-target-in-fy27-says-piyush-goyal-126100801310_1.html"
+      ],
+      "sources": [
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "印度將在科技峰會發布AI政策",
+      "score": 60,
+      "score_model": 60,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "政策發布將影響產業規則，具潛在重大影響",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-09 05:31:17",
+      "titles": [
+        "Govt to launch AI policy at tech conclave - The Times of India"
+      ],
+      "urls": [
+        "https://timesofindia.indiatimes.com/city/goa/govt-to-launch-ai-policy-at-tech-conclave/amp_articleshow/134799875.cms"
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "銅鋁價格飆升影響消費電子與耐用電器",
+      "score": 60,
+      "score_model": 60,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "原材料成本劇變，直接衝擊製造業利潤率",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-08 11:31:17",
+      "titles": [
+        "Copper prices jump 57%, aluminium 35%: What it means for consumer durables, electronics"
+      ],
+      "urls": [
+        "https://www.financialexpress.com/business/industry-copper-prices-jump-57-aluminium-35-what-it-means-for-consumer-durables-electronics-4355581/"
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "CoRover獲MeitY合約開發政府Agentic AI平台",
+      "score": 58,
+      "score_model": 55,
+      "breadth_bonus": 3,
+      "recur_penalty": 0,
+      "independent_outlets": 5,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "政府數位化採購，推動本土AI應用落地",
+      "coherent": true,
+      "size": 5,
+      "max_crawled_at": "2026-10-08 22:00:55",
+      "titles": [
+        "CoRover wins MeitY agentic AI contract for government platform, TechGig",
+        "CoRover wins MeitY agentic AI contract, DigiLocker to be first government deployment<!-- --> - Storyboard18",
+        "CoRover wins MeitY agentic AI contract",
+        "MeitY awards CoRover contract for agentic AI platform, DigiLocker bot",
+        "India Unifies AI for Government Services with Bengaluru Contract - Career Ahead Magazine"
+      ],
+      "urls": [
+        "https://techgig.com/news/ai/corover-wins-meity-agentic-ai-contract-for-government-platform/134767505",
+        "https://www.storyboard18.com/amp/digital/corover-wins-meity-contract-to-build-unified-ai-assistant-ws-l-112138.htm",
+        "https://www.thehindubusinessline.com/info-tech/corover-wins-meity-agentic-ai-contract/article71560088.ece",
+        "https://www.moneycontrol.com/technology/meity-awards-corover-contract-for-agentic-ai-platform-digilocker-bot-article-14046496.html/amp",
+        "https://careeraheadonline.com/india-unifies-ai-for-government-services-with-bengaluru-contract/"
+      ],
+      "sources": [
+        "india_electronics",
+        "india_electronics",
+        "hindubusinessline",
+        "india_electronics",
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "安得拉邦定位為AI與半導體產業樞紐",
+      "score": 55,
+      "score_model": 55,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "州級產業政策，具潛在招商吸引力",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-09 04:01:17",
+      "titles": [
+        "A.P. positions north Andhra as a hub for AI, data centres, fintech and semiconductors"
+      ],
+      "urls": [
+        "https://www.thehindu.com/news/cities/Visakhapatnam/ap-positions-north-andhra-as-a-hub-for-ai-data-centres-fintech-and-semiconductors/article71559929.ece"
       ],
       "sources": [
         "india_electronics"
@@ -990,9 +742,17 @@
     },
     {
       "event": "印度移動大會聚焦6G與AI基礎設施",
-      "score": 30,
-      "reason": "行業會議與願景發表，缺乏具體投資承諾",
-      "coherent": false,
+      "score": 55,
+      "score_model": 45,
+      "breadth_bonus": 10,
+      "recur_penalty": 0,
+      "independent_outlets": 15,
+      "mirror_urls": 1,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "行業展望與技術趨勢，無具體製造承諾",
+      "coherent": true,
       "size": 19,
       "max_crawled_at": "2026-10-09 07:00:52",
       "titles": [
@@ -1060,134 +820,146 @@
       ]
     },
     {
-      "event": "IMARC集團發布太陽能逆變器製造報告",
-      "score": 30,
-      "reason": "市場調研報告非實際投資事件，對產業無直接推動力。",
+      "event": "Musk指Starlink受阻於壟斷性鉗制",
+      "score": 51,
+      "score_model": 50,
+      "breadth_bonus": 1,
+      "recur_penalty": 0,
+      "independent_outlets": 3,
+      "mirror_urls": 1,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "衛星互聯網准入爭議，影響通信基礎設施",
       "coherent": false,
-      "size": 3,
-      "max_crawled_at": "2026-10-09 02:31:17",
+      "size": 7,
+      "max_crawled_at": "2026-10-08 19:01:17",
       "titles": [
-        "Solar Inverter Manufacturing Plant Setup in India – IMARC Group | Solar Now",
-        "Lithium-Ion Battery Cell Manufacturing Plant Setup in India - IMARC Group",
-        "Heat Exchanger Manufacturing Plant Setup in India - IMARC Group"
+        "Elon Musk blames Starlink hurdles in India on ‘monopolistic chokeholds’ | India News",
+        "Starlink India launch stuck: Elon Musk lashes out, says delay is a ‘crime against the people…’ in X post",
+        "Govt says satellite internet rules fair after Musk's Starlink bias claim",
+        "Musk Alleges 'Oligarchs' Are Blocking Starlink India Entry | Whalesbook",
+        "Starlink's India entry: Why Musk's satellite internet launch is stalled",
+        "Mint Explainer: Why is Elon Musk’s Starlink at war with Indian telecom giants?",
+        "‘Absolutely false,’ Musk hits back at Starlink ‘militants’ claims | Key things he has said about India operations"
       ],
       "urls": [
-        "https://now.solar/2026/10/09/solar-inverter-manufacturing-plant-setup-in-india-imarc-group/",
-        "https://www.imarcgroup.com/insight/lithium-ion-battery-cell-manufacturing-plant-setup-cost-india",
-        "https://www.imarcgroup.com/insight/heat-exchanger-manufacturing-plant-setup-cost-india"
+        "https://www.hindustantimes.com/india-news/elon-musk-blames-starlink-roadblocks-in-india-on-monopolistic-chokeholds-101791392998055.html",
+        "https://www.livemint.com/companies/news/starlink-india-launch-stuck-elon-musk-lashes-out-says-delay-is-a-crime-against-the-people-in-x-post-11791390758707.html",
+        "https://www.business-standard.com/industry/news/govt-rejects-elon-musk-starlink-discrimination-claims-satellite-internet-india-126100800210_1.html",
+        "https://www.whalesbook.com/news/English/telecom/Musk-Alleges-Oligarchs-Are-Blocking-Starlink-India-Entry/6ac671125aacb956d08fad67",
+        "https://www.business-standard.com/industry/news/starlink-india-entry-why-elon-musk-satellite-internet-launch-clearance-126100800416_1.html",
+        "https://www.livemint.com/companies/elon-musk-starlink-indian-telecom-giants-11791451260121.html",
+        "https://www.livemint.com/companies/news/absolutely-false-musk-hits-back-at-starlink-militants-claims-key-things-he-has-said-about-india-operations-11791437691373.html"
       ],
       "sources": [
         "india_electronics",
+        "livemint",
+        "business_standard",
         "india_electronics",
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "AMD宣布2027年提升晶片供應",
-      "score": 30,
-      "reason": "全球企業策略，與印度製造關聯性低",
-      "coherent": false,
-      "size": 1,
-      "max_crawled_at": "2026-10-08 06:31:17",
-      "titles": [
-        "AMD Announces Plans to Boost Chip Supply in 2027 Amid AI Demand Surge, ETElectronicsWorld"
-      ],
-      "urls": [
-        "http://electronics.economictimes.indiatimes.com/news/manufacturing/amd-plans-to-substantially-increase-chip-supply-in-2027-says-lisa-su/134752984"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "經濟學人評印度製造業時刻到來",
-      "score": 20,
-      "reason": "媒體評論觀點，無具體產業事件或數據",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-08 20:01:17",
-      "titles": [
-        "Indian manufacturing’s moment may finally have arrived - The Economist"
-      ],
-      "urls": [
-        "https://www.economist.com/business/2026/10/08/indian-manufacturings-moment-may-finally-have-arrived"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "探討印度DPDP框架能否應對自主AI",
-      "score": 20,
-      "reason": "法規討論無具體產業行動或投資承諾",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-09 05:31:17",
-      "titles": [
-        "Can India's DPDP framework keep up with the rise of autonomous AI? - CIO&Leader"
-      ],
-      "urls": [
-        "https://www.cioandleader.com/can-indias-dpdp-framework-keep-up-with-the-rise-of-autonomous-ai/"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "Deepinder Goyal推出腦波智慧手錶",
-      "score": 20,
-      "reason": "單一消費性穿戴裝置產品發布，產業鏈影響有限",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-08 19:31:17",
-      "titles": [
-        "Temple is unlike any smartwatch: Why Deepinder Goyal’s  ₹1 lakh Brain Flow tech wearable is sparking buzz"
-      ],
-      "urls": [
-        "https://www.livemint.com/technology/temple-is-unlike-any-smartwatch-why-deepinder-goyal-s-rs-1-lakh-brain-flow-tech-wearable-is-sparking-buzz-11791454487510.html"
-      ],
-      "sources": [
+        "business_standard",
+        "livemint",
         "livemint"
       ]
     },
     {
-      "event": "DeepVerse深科技創新中心成立論壇",
-      "score": 15,
-      "reason": "創投與政策論壇，對硬體製造產業影響微弱",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-08 14:00:17",
-      "titles": [
-        "30 Investors, Founders and Policymakers join DeepVerse, Startup Policy Forum's Centre for DeepTech Innovation - Press Trust of India"
-      ],
-      "urls": [
-        "https://www.ptinews.com/press-release/30-investors-founders-and-policymakers-join-deepverse-startup-policy-forum-s-centre-for-deeptech-innovation/4136277"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "台印FTA與半導體合作議題討論",
-      "score": 10,
-      "reason": "外交政策意向，無具體產業投資承諾",
+      "event": "日本晶片業擴大在印度半導體市場佈局",
+      "score": 48,
+      "score_model": 60,
+      "breadth_bonus": 6,
+      "recur_penalty": 18,
+      "independent_outlets": 9,
+      "mirror_urls": 3,
+      "recur_flag": "followup",
+      "recur_first_seen": "2026-08-15",
+      "recur_days": 28,
+      "reason": "外資擴張反映市場潛力，具供應鏈意義",
       "coherent": false,
-      "size": 1,
+      "size": 13,
       "max_crawled_at": "2026-10-09 05:01:17",
       "titles": [
-        "India-Taiwan FTA key to stronger ties, direct flights likely next year; semiconductor cooperation in focus: Taiwan Foreign Minister | Exclusive"
+        "India’s semiconductor push, agentic AI set to reshape telecom and connected devices: Industry leaders - The Tribune",
+        "Japan's chip industry capitalises on growth in India semiconductor industry",
+        "India’s semiconductor push, agentic AI set to reshape telecom and connected devices: Industry leaders - english.punjabkesari.com",
+        "India's semiconductor push, agentic AI set to reshape telecom and connected devices: Industry leaders - The Economic Times",
+        "Japan’s chip industry capitalises on growth in India semiconductor industry - Qatar Tribune",
+        "Japanese Semiconductor Companies Expand India Presence",
+        "India's Tech Push: Semicon 2.0 Mission And AI Adoption Take Center Stage | Whalesbook",
+        "India’s Semicon 2.0 Push Draws $12 Billion in Pledges as It Races to Build a Chipmaking Hub – The Index Today",
+        "India's AI, semiconductor ambitions to reshape tech, telecom sector",
+        "India Semiconductor Innovation at SEMICON India 2026 | Synopsys",
+        "India's semiconductor push, agentic AI set to reshape telecom and connected devices: Industry leaders",
+        "Building India’s Chip Infrastructure: Highlights from SEMICON India",
+        "Canon Targets India’s Growing Semiconductor Market with Lithography Equipment and Local Support"
       ],
       "urls": [
-        "https://www.etnownews.com/news/india-taiwan-fta-key-to-stronger-ties-direct-flights-likely-next-year-semiconductor-cooperation-in-focus-taiwan-foreign-minister-article-156295979"
+        "https://www.tribuneindia.com/news/business/indias-semiconductor-push-agentic-ai-set-to-reshape-telecom-and-connected-devices-industry-leaders/",
+        "https://www.qatar-tribune.com/article/258087/business/japans-chip-industry-capitalises-on-growth-in-india-semiconductor-industry",
+        "https://english.punjabkesari.com/business/indias-semiconductor-push-agentic-ai-set-to-reshape-telecom-and-connected-devices-industry-leaders",
+        "https://m.economictimes.com/tech/technology/indias-semiconductor-push-agentic-ai-set-to-reshape-telecom-and-connected-devices-industry-leaders/amp_articleshow/134795824.cms",
+        "https://www.qatar-tribune.com/article/258087/business/japans-chip-industry-capitalises-on-growth-in-india-semiconductor-industry/amp",
+        "https://www.electronicsforyou.biz/industry-buzz/japanese-semiconductor-companies-expand-india-presence/",
+        "https://www.whalesbook.com/news/English/technology/Indias-Tech-Push-Semicon-20-Mission-And-AI-Adoption-Take-Center-Stage/6ac7c79179a16deaeaeb20f4",
+        "https://www.theindextoday.com/indias-semicon-2-0-push-draws-12-billion-in-pledges-as-it-races-to-build-a-chipmaking-hub/",
+        "https://www.msn.com/en-in/money/technology/india-s-ai-semiconductor-ambitions-to-reshape-tech-telecom-sector/ar-AA2dPMg5",
+        "https://www.synopsys.com/blogs/chip-design/india-semiconductor-innovation-semicon-2026.html",
+        "https://www.msn.com/en-in/money/general/india-s-semiconductor-push-agentic-ai-set-to-reshape-telecom-and-connected-devices-industry-leaders/ar-AA2dQiQV",
+        "https://www.semiconinsider.com/2026/10/07/building-india-chip-infrastructure-highlights-from-semicon-india/",
+        "https://semiconleadersasia.com/news/3/1753/canon-targets-indias-growing-semiconductor-market-with-lithography-equipment-and-local-support.html"
+      ],
+      "sources": [
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "NSAM 2.0擴增太空國防醫療3D列印",
+      "score": 45,
+      "score_model": 45,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "政策推動先進製造，但屬應用層面",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-08 13:31:17",
+      "titles": [
+        "India's Additive Manufacturing Revolution Gains Momentum As NSAM 2.0 Expands 3D Printing Across Space, Defence And Healthcare"
+      ],
+      "urls": [
+        "https://www.freepressjournal.in/tech/indias-additive-manufacturing-revolution-gains-momentum-as-nsam-20-expands-3d-printing-across-space-defence-and-healthcare"
       ],
       "sources": [
         "india_electronics"
       ]
     },
     {
-      "event": "Soket AI發布LOOP Harness推進AI能力",
-      "score": 10,
-      "reason": "純軟體/AI服務，無硬體製造或供應鏈影響",
+      "event": "Soket AI發布LOOP Harness推進印度AI能力",
+      "score": 45,
+      "score_model": 45,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "AI基礎設施建設，具產業影響力",
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-10-08 01:01:17",
@@ -1202,26 +974,248 @@
       ]
     },
     {
-      "event": "美中半導體權力爭奪分析報導",
-      "score": 0,
-      "reason": "地緣政治分析文章，非具體產業事件或政策",
+      "event": "Lekha Wireless整合ADI技術於5G產品",
+      "score": 40,
+      "score_model": 40,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "電信設備供應鏈本地化，具產業意義",
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-10-08 22:30:27",
+      "max_crawled_at": "2026-10-08 01:31:17",
       "titles": [
-        "The US-China Contest for Semiconductor Power - Vivekananda International Foundation (VIF)"
+        "Lekha Wireless to integrate Analog Devices radio technology in 5G and 4G products"
       ],
       "urls": [
-        "https://www.vifindia.org/article/2026/october/08/The-US-China-Contest-for-Semiconductor-Power"
+        "https://www.thehindubusinessline.com/info-tech/lekha-wireless-to-integrate-analog-devices-radio-technology-in-5g-and-4g-products/article71555693.ece"
+      ],
+      "sources": [
+        "hindubusinessline"
+      ]
+    },
+    {
+      "event": "Electronica Productronica India 2026展會引爆",
+      "score": 36,
+      "score_model": 35,
+      "breadth_bonus": 1,
+      "recur_penalty": 0,
+      "independent_outlets": 2,
+      "mirror_urls": 1,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "展會為行業活動，非單一重大製造事件",
+      "coherent": false,
+      "size": 3,
+      "max_crawled_at": "2026-10-09 02:31:17",
+      "titles": [
+        "India's Electronics Manufacturing Growth Is Increasing the Need for Engineered Plastic Components - EIN News",
+        "India's Electronics Manufacturing Growth Is Increasing the Need for Engineered Plastic Components - The National Law Review",
+        "Electronica Productronica India 2026: India's Electronics Future Just Exploded! - Northeast News"
+      ],
+      "urls": [
+        "https://www.einnews.com/pr_news/947945929/india-s-electronics-manufacturing-growth-is-increasing-the-need-for-engineered-plastic-components",
+        "https://natlawreview.com/press-releases/indias-electronics-manufacturing-growth-increasing-need-engineered-plastic",
+        "https://nenews.in/news/electronica-productronica-india-2026-indias-electronics-future-just-exploded/67037/"
+      ],
+      "sources": [
+        "india_electronics",
+        "india_electronics",
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "印度需人才填補半導體技術缺口",
+      "score": 30,
+      "score_model": 30,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "人力議題屬長期挑戰，無即時產業衝擊",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-08 06:31:17",
+      "titles": [
+        "India needs fresh graduates, returning experts to bridge semicon talent gap | Tech News - Business Standard"
+      ],
+      "urls": [
+        "https://www.business-standard.com/amp/technology/tech-news/india-needs-fresh-graduates-returning-experts-to-bridge-semicon-talent-gap-126100700897_1.html"
       ],
       "sources": [
         "india_electronics"
       ]
     },
     {
-      "event": "政府小組擬審視非個人數據監管",
-      "score": 0,
-      "reason": "數據法規議題，與電子製造/半導體產業無直接關聯",
+      "event": "Vaishnaw稱歐洲視印度為製造創新樞紐",
+      "score": 30,
+      "score_model": 30,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "部長言論，屬意向性聲明，無具體政策",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-08 22:30:27",
+      "titles": [
+        "European countries increasingly viewing India as a hub for manufacturing, innovation: Vaishnaw - ET Manufacturing"
+      ],
+      "urls": [
+        "https://manufacturing.economictimes.indiatimes.com/amp/news/industry/european-countries-increasingly-viewing-india-as-a-hub-for-manufacturing-innovation-vaishnaw/134783851"
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "HPE指印度企業推動小供應商採用IT基礎設施",
+      "score": 30,
+      "score_model": 30,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "供應鏈數位化趨勢，屬間接影響",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-09 04:31:17",
+      "titles": [
+        "India Inc driving small vendors to adopt strong IT infra: HPE India head - The Economic Times"
+      ],
+      "urls": [
+        "https://economictimes.indiatimes.com/tech/information-tech/india-inc-driving-small-vendors-to-adopt-strong-it-infra-hpe-india-head/articleshow/87826501.cms"
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "DigiKey印度在班加羅爾開設新辦公室",
+      "score": 25,
+      "score_model": 25,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "電子元件分銷商擴張，屬供應鏈基礎設施",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-08 18:31:17",
+      "titles": [
+        "DigiKey India Opens New Bengaluru Office"
+      ],
+      "urls": [
+        "https://www.eletimes.ai/digikey-india-opens-new-bengaluru-office"
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "印度移動大會聚焦數位擴張與資安",
+      "score": 25,
+      "score_model": 25,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "電信設備與數位基礎設施，具一定產業關聯",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-08 18:31:17",
+      "titles": [
+        "India Mobile Congress Opens; Focus on Digital Expansion, Cyber Security and Deepfake Threats"
+      ],
+      "urls": [
+        "https://www.indiatoday.in/technology/video/india-mobile-congress-opens-focus-on-digital-expansion-cyber-security-and-deepfake-threats-ytvd-3012223-2026-10-08"
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "經濟學人評印度製造業時刻已至",
+      "score": 20,
+      "score_model": 20,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "媒體評論無具體產業事件或政策變動",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-08 20:01:17",
+      "titles": [
+        "Indian manufacturing’s moment may finally have arrived - The Economist"
+      ],
+      "urls": [
+        "https://www.economist.com/business/2026/10/08/indian-manufacturings-moment-may-finally-have-arrived"
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "AWS指印度AI原生企業進入快速成長期",
+      "score": 20,
+      "score_model": 20,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "市場趨勢觀察，無具體基礎設施投資",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-09 08:31:17",
+      "titles": [
+        "India’s AI-native startups enter faster growth phase as AI model costs fall: AWS"
+      ],
+      "urls": [
+        "https://www.thehindubusinessline.com/info-tech/indias-ai-native-startups-enter-faster-growth-phase-as-ai-model-costs-fall-aws/article71560450.ece"
+      ],
+      "sources": [
+        "hindubusinessline"
+      ]
+    },
+    {
+      "event": "政府小組擬審查非個人數據監管規則",
+      "score": 15,
+      "score_model": 15,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "屬IT服務與數據政策，非製造業核心",
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-10-08 14:31:17",
@@ -1230,40 +1224,6 @@
       ],
       "urls": [
         "https://economictimes.indiatimes.com/tech/ites/govt-panel-may-examine-non-personal-data-regulation/articleshow/71121240.cms"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "MAHE與Google簽署AI採用協議",
-      "score": 0,
-      "reason": "學術機構合作，無製造業或供應鏈影響",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-08 05:30:17",
-      "titles": [
-        "MAHE, Google India sign pact on AI adoption - The Hindu"
-      ],
-      "urls": [
-        "https://www.thehindu.com/news/cities/Mangalore/mahe-google-india-sign-pact-on-ai-adoption/article71556385.ece"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "醫療電子與生物技術融合展望",
-      "score": 0,
-      "reason": "趨勢評論文章，非具體投資或製造事件",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-09 01:01:17",
-      "titles": [
-        "India’s next healthcare revolution will come From electronics, medicine and biotechnology working together - www.expresshealthcare.in"
-      ],
-      "urls": [
-        "https://www.expresshealthcare.in/amp/news/indias-next-healthcare-revolution-will-come-from-electronics-medicine-and-biotechnology-working-together-2/455476/"
       ],
       "sources": [
         "india_electronics"
