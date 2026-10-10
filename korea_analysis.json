@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-10 16:45:00",
+  "generated": "2026-10-10 20:45:18",
   "window_days": 2,
   "sources": [
     "businesskorea",
@@ -9,21 +9,51 @@
     "yonhap",
     "zdkorea"
   ],
-  "input_titles": 102,
-  "events": 19,
+  "input_titles": 106,
+  "events": 24,
   "timings_seconds": {
-    "stage1_cluster": 28.1,
-    "stage2_name_score": 114.6,
-    "total": 142.8
+    "stage1_cluster": 7.8,
+    "stage2_name_score": 61.1,
+    "total": 68.9
   },
   "stories": [
     {
-      "event": "三星電子Q3營業利潤創107.4兆韓元新高",
+      "event": "SK集團加速推進湖南半導體叢集",
       "score": 92,
-      "reason": "三星財報創紀錄，反映記憶體與AI晶片需求強勁。",
+      "reason": "SK啟動湖南新廠建設，屬重大擴產與供應鏈重組。",
       "tags": [
-        "半導體",
-        "記憶體"
+        "擴產投資",
+        "電子政策"
+      ],
+      "coherent": false,
+      "size": 4,
+      "max_crawled_at": "2026-10-10 04:01:17",
+      "titles": [
+        "최태원 SK 회장, 호남권 반도체 부지 첫 방문…\"속도감 있게 추진\"",
+        "최태원 \"호남 반도체 팹, 용인 3분의 2 규모 검토...속도감 있게 추진\"",
+        "SK chief vows to speed up construction of new chip cluster in southwest",
+        "창립 43주년 맞은 SK하이닉스…HBM 넘어 차세대 AI 메모리 시장 넘본다"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261009_0003820269",
+        "https://zdnet.co.kr/view/?no=20261009163220",
+        "https://en.yna.co.kr/view/AEN20261009004000320",
+        "https://www.newsis.com/view/NISX20261007_0003817543"
+      ],
+      "sources": [
+        "newsis",
+        "zdkorea",
+        "yonhap",
+        "newsis"
+      ]
+    },
+    {
+      "event": "三星3Q營業益創107.4兆韓元新高",
+      "score": 85,
+      "reason": "三星電子創紀錄財報，顯示記憶體產業強勁復甦。",
+      "tags": [
+        "記憶體",
+        "擴產投資"
       ],
       "coherent": false,
       "size": 6,
@@ -54,39 +84,30 @@
       ]
     },
     {
-      "event": "SK 호남 반도체 팹 부지 방문 및 용인 확장 검토",
-      "score": 85,
-      "reason": "SK 호남 팹 부지 방문은重大擴產事件，具產業指標意義。",
+      "event": "TeraView啟動玻璃基板檢測裝置驗證",
+      "score": 70,
+      "reason": "先進封裝關鍵材料檢測技術突破，具產業意義。",
       "tags": [
-        "半導體",
+        "半導體材料",
         "擴產投資"
       ],
-      "coherent": false,
-      "size": 4,
-      "max_crawled_at": "2026-10-10 04:01:17",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-09 12:30:17",
       "titles": [
-        "최태원 SK 회장, 호남권 반도체 부지 첫 방문…\"속도감 있게 추진\"",
-        "최태원 \"호남 반도체 팹, 용인 3분의 2 규모 검토...속도감 있게 추진\"",
-        "SK chief vows to speed up construction of new chip cluster in southwest",
-        "창립 43주년 맞은 SK하이닉스…HBM 넘어 차세대 AI 메모리 시장 넘본다"
+        "TeraView Begins Validation of TGV Inspection Equipment for Glass Substrates"
       ],
       "urls": [
-        "https://www.newsis.com/view/NISX20261009_0003820269",
-        "https://zdnet.co.kr/view/?no=20261009163220",
-        "https://en.yna.co.kr/view/AEN20261009004000320",
-        "https://www.newsis.com/view/NISX20261007_0003817543"
+        "https://www.thelec.net/news/articleView.html?idxno=14504"
       ],
       "sources": [
-        "newsis",
-        "zdkorea",
-        "yonhap",
-        "newsis"
+        "thelec"
       ]
     },
     {
-      "event": "CoreWeave啟動韓國資料中心合作與推理業務",
-      "score": 70,
-      "reason": "國際雲端巨頭擴大韓國基礎設施，帶動AI算力需求。",
+      "event": "CoreWeave加速韓國資料中心佈局",
+      "score": 65,
+      "reason": "海外AI基礎設施大廠進駐，帶動當地算力需求。",
       "tags": [
         "AI算力",
         "擴產投資"
@@ -105,32 +126,33 @@
       ]
     },
     {
-      "event": "TeraView啟動玻璃基板TGV檢測裝置驗證",
-      "score": 65,
-      "reason": "先進封裝關鍵檢測裝置進展，影響HBM及CoWoS產能。",
+      "event": "Synopsys與中國AI研究所合作",
+      "score": 60,
+      "reason": "EDA巨頭涉中合作，觸及出口管制敏感神經。",
       "tags": [
         "半導體設備",
         "供應鏈"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-10-09 12:30:17",
+      "max_crawled_at": "2026-10-10 07:30:17",
       "titles": [
-        "TeraView Begins Validation of TGV Inspection Equipment for Glass Substrates"
+        "시놉시스, 中 AI 연구소와 반도체 설계 협력 추진"
       ],
       "urls": [
-        "https://www.thelec.net/news/articleView.html?idxno=14504"
+        "https://zdnet.co.kr/view/?no=20261009223603"
       ],
       "sources": [
-        "thelec"
+        "zdkorea"
       ]
     },
     {
-      "event": "江原設立科學技術院",
-      "score": 65,
-      "reason": "區域半導體人才培育政策，影響長期產業佈局。",
+      "event": "江原科學技術院設立獲立法推進",
+      "score": 60,
+      "reason": "政府推動科研基礎建設，長期有利半導體與材料研發環境。",
       "tags": [
-        "電子政策"
+        "電子政策",
+        "擴產投資"
       ],
       "coherent": true,
       "size": 1,
@@ -146,53 +168,14 @@
       ]
     },
     {
-      "event": "專家質疑韓國電力供應基本計劃失準",
-      "score": 60,
-      "reason": "電力短缺直接威脅半導體擴產可行性，具政策關鍵性。",
-      "tags": [
-        "電子政策"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-09 22:30:04",
-      "titles": [
-        "[기경학회 기후&에너지 칼럼] 전력수급기본계획은 왜 빗나갈까"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261009223352"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "SK Eternix與Mastern開發燃料電池資料中心",
+      "event": "蘋果發布OLED觸控MacBook與iPad",
       "score": 55,
-      "reason": "綠色資料中心技術合作，屬基礎設施創新但規模有限。",
+      "reason": "蘋果採用韓系OLED面板，直接影響韓國顯示面板供應鏈需求。",
       "tags": [
-        "擴產投資"
+        "顯示面板",
+        "供應鏈"
       ],
       "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-09 12:30:17",
-      "titles": [
-        "SK Eternix, Mastern to Develop Fuel Cell-Powered Data Center"
-      ],
-      "urls": [
-        "https://www.thelec.net/news/articleView.html?idxno=14499"
-      ],
-      "sources": [
-        "thelec"
-      ]
-    },
-    {
-      "event": "蘋果發布OLED MacBook",
-      "score": 50,
-      "reason": "蘋果採用韓系OLED，影響LG等供應鏈出貨。",
-      "tags": [
-        "顯示面板"
-      ],
-      "coherent": false,
       "size": 2,
       "max_crawled_at": "2026-10-10 10:00:17",
       "titles": [
@@ -209,11 +192,11 @@
       ]
     },
     {
-      "event": "現代汽車轉型機器人與物理AI領域",
-      "score": 50,
-      "reason": "車廠跨界機器人，屬產業鏈延伸，非核心半導體事件。",
+      "event": "現代汽車轉向物理AI與機器人",
+      "score": 55,
+      "reason": "車廠轉型機器人，屬相鄰工業領域之戰略佈局。",
       "tags": [
-        "電子政策"
+        "擴產投資"
       ],
       "coherent": true,
       "size": 1,
@@ -229,89 +212,35 @@
       ]
     },
     {
-      "event": "LG新能源重組ESS裝置供應商體系",
+      "event": "三星下調今年手機出貨目標",
       "score": 50,
-      "reason": "電池供應鏈調整，影響ESS產業鏈結構。",
+      "reason": "終端產品銷售預測調整，反映市場需求變化。",
       "tags": [
-        "電池材料"
+        "擴產投資"
       ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-09 12:30:17",
+      "coherent": false,
+      "size": 3,
+      "max_crawled_at": "2026-10-10 11:31:17",
       "titles": [
-        "LG Energy Solution Reworks ESS Equipment Supplier Base"
+        "100달러 비싸진 아이폰18프로, 수요부진 논쟁 붙었다",
+        "삼성전자, 올해 스마트폰 출하 목표 2.4억대→2.3억대 하향",
+        "\"아이폰 에어2, 단점 보완해도 흥행 미지수\"…왜"
       ],
       "urls": [
-        "https://www.thelec.net/news/articleView.html?idxno=14501"
+        "https://zdnet.co.kr/view/?no=20261010081310",
+        "https://zdnet.co.kr/view/?no=20261009114316",
+        "https://zdnet.co.kr/view/?no=20261010080359"
       ],
       "sources": [
-        "thelec"
+        "zdkorea",
+        "zdkorea",
+        "zdkorea"
       ]
     },
     {
-      "event": "Mobilint聚焦韓國邊緣AI市場推廣NPU",
-      "score": 45,
-      "reason": "本土NPU廠商拓展邊緣AI市場，屬硬體應用層進展。",
-      "tags": [
-        "AI算力"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-09 05:31:17",
-      "titles": [
-        "Mobilint targets Korea's edge AI as Shin Dong-ju champions versatile NPUs"
-      ],
-      "urls": [
-        "https://biz.chosun.com/en/en-it/2026/10/09/C2ENTFCPRFGABN5UQOYUWWWK7Q/"
-      ],
-      "sources": [
-        "chosunbiz"
-      ]
-    },
-    {
-      "event": "Mithril獲2.3億韓元晶片清潔裝置訂單",
-      "score": 45,
-      "reason": "本土裝置商獲得訂單，屬供應鏈細微進展。",
-      "tags": [
-        "半導體設備"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-09 12:30:17",
-      "titles": [
-        "Mithril Signs 230 Million-Won AI Productization Deal for Chip Cleaning Equipment"
-      ],
-      "urls": [
-        "https://www.thelec.net/news/articleView.html?idxno=14502"
-      ],
-      "sources": [
-        "thelec"
-      ]
-    },
-    {
-      "event": "LiBEST開發潛艇用電池",
-      "score": 45,
-      "reason": "國防應用具戰略意義，但非主流消費市場。",
-      "tags": [
-        "電池"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-09 12:30:17",
-      "titles": [
-        "LiBEST, AD System Develop Domestic Battery for Stealth Drone"
-      ],
-      "urls": [
-        "https://www.thelec.net/news/articleView.html?idxno=14509"
-      ],
-      "sources": [
-        "thelec"
-      ]
-    },
-    {
-      "event": "LG電子商用Genesis GV90可變OLED顯示器",
-      "score": 40,
-      "reason": "車載顯示技術應用，屬顯示面板產業細分領域進展。",
+      "event": "LG電子商用可變OLED顯示器",
+      "score": 50,
+      "reason": "車用顯示技術商業化，屬顯示面板領域進展。",
       "tags": [
         "顯示面板"
       ],
@@ -329,69 +258,9 @@
       ]
     },
     {
-      "event": "Synopsys與中國AI研究所推進半導體設計合作",
-      "score": 40,
-      "reason": "EDA工具在華合作，受地緣政治影響，具供應鏈風險。",
-      "tags": [
-        "供應鏈"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-10 07:30:17",
-      "titles": [
-        "시놉시스, 中 AI 연구소와 반도체 설계 협력 추진"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261009223603"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "AI模型Jebre估值達75億美元",
-      "score": 35,
-      "reason": "軟體公司估值，屬金融市場動態，非製造業核心事件。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-10 13:31:17",
-      "titles": [
-        "텍스트 대신 확률값 출력하는 AI '제브', 출시 몇 주 만에 기업가치 75억 달러 평가"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261010105326"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "AI網路轉型降通訊成本",
-      "score": 35,
-      "reason": "營運效率最佳化，對硬體製造鏈直接衝擊有限。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-10 09:01:17",
-      "titles": [
-        "\"AI 네트워크 전환으로 통신사 전체 비용 7% 줄인다\""
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261010080353"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "Micron臺灣工會罷工投票通過",
-      "score": 30,
-      "reason": "海外勞工爭議，對韓國本土半導體製造影響間接且有限。",
+      "event": "美光臺灣工會罷工投票通過",
+      "score": 45,
+      "reason": "海外工廠勞資糾紛，對韓國本土產業影響有限。",
       "tags": [
         "供應鏈"
       ],
@@ -412,9 +281,111 @@
       ]
     },
     {
-      "event": "韓國公務員AI平臺搭載國產與外資LLM",
+      "event": "SK Eternix開發燃料電池資料中心",
+      "score": 45,
+      "reason": "AI基礎設施建設，涉及能源技術應用，具產業關聯性。",
+      "tags": [
+        "AI算力",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-09 12:30:17",
+      "titles": [
+        "SK Eternix, Mastern to Develop Fuel Cell-Powered Data Center"
+      ],
+      "urls": [
+        "https://www.thelec.net/news/articleView.html?idxno=14499"
+      ],
+      "sources": [
+        "thelec"
+      ]
+    },
+    {
+      "event": "LG新能源重組ESS裝置供應商",
+      "score": 40,
+      "reason": "電池廠供應鏈調整，影響相關裝置與材料商。",
+      "tags": [
+        "電池材料"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-09 12:30:17",
+      "titles": [
+        "LG Energy Solution Reworks ESS Equipment Supplier Base"
+      ],
+      "urls": [
+        "https://www.thelec.net/news/articleView.html?idxno=14501"
+      ],
+      "sources": [
+        "thelec"
+      ]
+    },
+    {
+      "event": "AI資料中心需求帶動韓國鋼鐵出口",
+      "score": 40,
+      "reason": "反映AI基建對上游材料（鋼材）的間接拉動效應。",
+      "tags": [
+        "供應鏈",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-10 07:01:17",
+      "titles": [
+        "AI 데이터센터가 살린 철강…관세 50%에도 대미 수출 급증"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261006_0003815046"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "Mobilint聚焦韓國邊緣AI與NPU",
+      "score": 35,
+      "reason": "邊緣AI晶片設計，屬硬體但規模較小。",
+      "tags": [
+        "AI算力"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-09 05:31:17",
+      "titles": [
+        "Mobilint targets Korea's edge AI as Shin Dong-ju champions versatile NPUs"
+      ],
+      "urls": [
+        "https://biz.chosun.com/en/en-it/2026/10/09/C2ENTFCPRFGABN5UQOYUWWWK7Q/"
+      ],
+      "sources": [
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "Mithril獲2.3億韓元AI晶片清潔訂單",
+      "score": 30,
+      "reason": "小型裝置商訂單，金額小，產業影響力有限。",
+      "tags": [
+        "半導體設備"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-09 12:30:17",
+      "titles": [
+        "Mithril Signs 230 Million-Won AI Productization Deal for Chip Cleaning Equipment"
+      ],
+      "urls": [
+        "https://www.thelec.net/news/articleView.html?idxno=14502"
+      ],
+      "sources": [
+        "thelec"
+      ]
+    },
+    {
+      "event": "韓國政府推出國產AI大語言模型",
       "score": 25,
-      "reason": "政府軟體採購案，屬軟體應用層，硬體影響較小。",
+      "reason": "政府軟體平臺建設，屬軟體層面，產業硬體影響低。",
       "tags": [
         "AI軟體"
       ],
@@ -435,6 +406,153 @@
         "zdkorea",
         "zdkorea",
         "zdkorea"
+      ]
+    },
+    {
+      "event": "電力供需基本計畫偏差引發討論",
+      "score": 25,
+      "reason": "能源政策影響半導體與電池產業成本，但屬一般性討論。",
+      "tags": [
+        "電子政策"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-09 22:30:04",
+      "titles": [
+        "[기경학회 기후&에너지 칼럼] 전력수급기본계획은 왜 빗나갈까"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261009223352"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "7300Wh大容量電池電動腳踏車登場",
+      "score": 25,
+      "reason": "新產品應用展示，雖涉及電池技術但屬利基市場。",
+      "tags": [
+        "電池材料"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-10 10:00:17",
+      "titles": [
+        "7300Wh 배터리 '괴물 전기자전거’ 등장…\"7명 탄다\""
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261009182237"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "AI模型Zeb估值達75億美元",
+      "score": 20,
+      "reason": "軟體公司估值，屬軟體領域，硬體影響極低。",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-10 13:31:17",
+      "titles": [
+        "텍스트 대신 확률값 출력하는 AI '제브', 출시 몇 주 만에 기업가치 75억 달러 평가"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261010105326"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "AI網路轉型助電信業降本7%",
+      "score": 20,
+      "reason": "電信營運效率提升，對硬體製造業影響較小。",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-10 09:01:17",
+      "titles": [
+        "\"AI 네트워크 전환으로 통신사 전체 비용 7% 줄인다\""
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261010080353"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "Q3全球PC出貨量年減20%",
+      "score": 15,
+      "reason": "市場資料包導，對韓國製造業影響間接且有限。",
+      "tags": [
+        "電子政策"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-10 12:01:17",
+      "titles": [
+        "IDC \"3분기 세계 PC 출하량, 전년比 20% 급감\""
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261010091103"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "中企部長與產業界溝通創新企業",
+      "score": 10,
+      "reason": "政治活動與一般性政策宣示，缺乏具體產業影響細節。",
+      "tags": [
+        "電子政策"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-10 19:31:17",
+      "titles": [
+        "이소영 중기부 장관 산업계와 첫 소통...\"신성장 혁신기업 육성\""
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261010181545"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "紐約股市受OpenAI營收擔憂影響",
+      "score": 0,
+      "reason": "美國股市波動，無直接韓國產業關聯。",
+      "tags": [],
+      "coherent": false,
+      "size": 4,
+      "max_crawled_at": "2026-10-10 05:01:17",
+      "titles": [
+        "뉴욕증시, 오픈AI 매출 우려 완화에 상승 마감…나스닥 0.64%↑",
+        "뉴욕증시, AI주 약세·유가 상승에 혼조…나스닥, 1.25% ↓",
+        "\"오픈AI 매출 기대이하\" 전망에…반도체 주 충격파",
+        "[올댓차이나] 9월 대만 수출 60% 급증…AI 열풍에 사상 최대"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261010_0003820399",
+        "https://www.newsis.com/view/NISX20261009_0003820020",
+        "https://zdnet.co.kr/view/?no=20261009094454",
+        "https://www.newsis.com/view/NISX20261009_0003820288"
+      ],
+      "sources": [
+        "newsis",
+        "newsis",
+        "zdkorea",
+        "newsis"
       ]
     }
   ]
