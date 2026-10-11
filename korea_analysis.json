@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-11 04:45:18",
+  "generated": "2026-10-11 08:45:18",
   "window_days": 2,
   "sources": [
     "businesskorea",
@@ -9,21 +9,22 @@
     "yonhap",
     "zdkorea"
   ],
-  "input_titles": 46,
-  "events": 11,
+  "input_titles": 58,
+  "events": 12,
   "timings_seconds": {
-    "stage1_cluster": 11.0,
-    "stage2_name_score": 33.6,
-    "total": 44.5
+    "stage1_cluster": 9.8,
+    "stage2_name_score": 34.1,
+    "total": 43.9
   },
   "stories": [
     {
       "event": "SK海力士展望HBM及下一代AI記憶體",
-      "score": 65,
+      "score": 72,
       "reason": "SK海力士鎖定AI記憶體市場，具產業指標意義。",
       "tags": [
+        "半導體",
         "記憶體",
-        "AI算力"
+        "擴產投資"
       ],
       "coherent": true,
       "size": 1,
@@ -39,30 +40,11 @@
       ]
     },
     {
-      "event": "TCK取得SiC蝕刻環形電極專利",
-      "score": 50,
-      "reason": "韓國裝置商在碳化矽關鍵製程獲專利突破。",
+      "event": "三星電子等明年3月發放高額獎金",
+      "score": 60,
+      "reason": "半導體龍頭高額薪酬反映人才競爭與產業景氣。",
       "tags": [
-        "半導體設備"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-10 21:31:17",
-      "titles": [
-        "티씨케이, 반도체 식각 SiC 포커스링 특허 정정...디에스테크노 상대 분쟁"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261010213456"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "明年3月半導體業發放高額績效獎金",
-      "score": 45,
-      "reason": "反映半導體景氣復甦與人才激勵，屬產業動態。",
-      "tags": [
+        "半導體",
         "擴產投資"
       ],
       "coherent": true,
@@ -79,30 +61,11 @@
       ]
     },
     {
-      "event": "蘋果發布OLED觸控MacBook與iPad",
-      "score": 40,
-      "reason": "蘋果採用OLED，直接影響韓國面板廠出貨。",
-      "tags": [
-        "顯示面板"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-10 10:00:17",
-      "titles": [
-        "\"애플, 27일 OLED 터치 맥북 프로·아이패드 미니 공개\""
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261009182503"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
       "event": "Synopsys與中國AI研究所合作設計",
-      "score": 30,
-      "reason": "EDA廠商與中國合作，涉及出口管制敏感議題。",
+      "score": 55,
+      "reason": "EDA龍頭涉中合作，觸及供應鏈敏感神經。",
       "tags": [
+        "半導體",
         "供應鏈"
       ],
       "coherent": true,
@@ -119,43 +82,111 @@
       ]
     },
     {
-      "event": "iPhone 18 Pro漲價引發需求爭議",
-      "score": 25,
-      "reason": "終端手機售價與需求，間接影響零元件訂單。",
+      "event": "蘋果發布OLED螢幕MacBook Pro",
+      "score": 50,
+      "reason": "蘋果採用OLED，直接利好韓國面板供應商。",
       "tags": [
+        "顯示面板",
         "供應鏈"
       ],
       "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-10-10 11:31:17",
+      "size": 1,
+      "max_crawled_at": "2026-10-10 10:00:17",
       "titles": [
-        "100달러 비싸진 아이폰18프로, 수요부진 논쟁 붙었다",
-        "\"아이폰 에어2, 단점 보완해도 흥행 미지수\"…왜"
+        "\"애플, 27일 OLED 터치 맥북 프로·아이패드 미니 공개\""
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20261010081310",
-        "https://zdnet.co.kr/view/?no=20261010080359"
+        "https://zdnet.co.kr/view/?no=20261009182503"
       ],
       "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "TCK獲SiC蝕刻環形電極專利",
+      "score": 48,
+      "reason": "關鍵材料製程專利，強化裝置商技術壁壘。",
+      "tags": [
+        "半導體設備",
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-10 21:31:17",
+      "titles": [
+        "티씨케이, 반도체 식각 SiC 포커스링 특허 정정...디에스테크노 상대 분쟁"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261010213456"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "韓國需投GDP 1%確立AI主權",
+      "score": 45,
+      "reason": "多則標題彙整，核心為AI投資政策建議。",
+      "tags": [
+        "電子政策",
+        "AI算力"
+      ],
+      "coherent": false,
+      "size": 3,
+      "max_crawled_at": "2026-10-11 08:31:17",
+      "titles": [
+        "\"AI 직접 만들고 시장도 키운다\"…세계 AI 보고서가 본 한국",
+        "\"AI 주권에 GDP 1% 투자 필요…핵심은 GPU·전력 확보\"",
+        "공무원 AI 플랫폼 탑재 LLM, 국산 4종·외산 6종…삼성SDS·네이버 구축"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261010070839",
+        "https://zdnet.co.kr/view/?no=20261010210944",
+        "https://zdnet.co.kr/view/?no=20261010121050"
+      ],
+      "sources": [
+        "zdkorea",
         "zdkorea",
         "zdkorea"
       ]
     },
     {
-      "event": "江原道推動設立科學技術院",
-      "score": 20,
-      "reason": "地方高等教育佈局，對半導體供應鏈影響有限。",
+      "event": "LG電子Q3財測遜於預期",
+      "score": 25,
+      "reason": "家電龍頭財報波動，間接反映消費電子需求。",
       "tags": [
-        "電子政策"
+        "電池",
+        "供應鏈"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-10-10 07:30:17",
+      "max_crawled_at": "2026-10-11 08:31:17",
       "titles": [
-        "강원에 과학기술원 설립 추진...여야 의원 공동발의"
+        "LG전자 3분기 실적 컨센서스 하회…증권가 \"일시적 요인, 본업 건재\""
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20261010065911"
+        "https://zdnet.co.kr/view/?no=20261009222654"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "國際標準組織要求6G納入WiFi",
+      "score": 20,
+      "reason": "通訊標準制定，影響韓國電信裝置與晶片佈局。",
+      "tags": [
+        "電子政策",
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-11 08:31:17",
+      "titles": [
+        "\"와이파이 없는 6G는 불완전”...국제표준 통합 요구 커진다"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261011072910"
       ],
       "sources": [
         "zdkorea"
@@ -164,9 +195,10 @@
     {
       "event": "Q3全球PC出貨量年減20%",
       "score": 15,
-      "reason": "終端需求資料，間接影響記憶體與零元件。",
+      "reason": "終端需求萎縮，間接影響韓國面板與零元件。",
       "tags": [
-        "電子政策"
+        "顯示面板",
+        "供應鏈"
       ],
       "coherent": true,
       "size": 1,
@@ -182,53 +214,11 @@
       ]
     },
     {
-      "event": "韓國公務員AI平臺匯入國產大模型",
+      "event": "AI網路轉型助電信商降本7%",
       "score": 10,
-      "reason": "政府應用層面，對硬體供應鏈影響極小。",
+      "reason": "電信營運成本最佳化，對硬體製造鏈影響有限。",
       "tags": [
-        "AI軟體"
-      ],
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-10-10 12:01:17",
-      "titles": [
-        "\"AI 직접 만들고 시장도 키운다\"…세계 AI 보고서가 본 한국",
-        "공무원 AI 플랫폼 탑재 LLM, 국산 4종·외산 6종…삼성SDS·네이버 구축"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261010070839",
-        "https://zdnet.co.kr/view/?no=20261010121050"
-      ],
-      "sources": [
-        "zdkorea",
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "PioneerLink提供金融業AI資安方案",
-      "score": 5,
-      "reason": "純軟體資安服務，無硬體產業關聯性。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-10 21:31:17",
-      "titles": [
-        "\"금융권 AI 해킹 대응\"…파이오링크, CTEM·웹방화벽 등 공급"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261010201449"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "AI網路轉型助電信商節省7%成本",
-      "score": 5,
-      "reason": "電信營運效率議題，非電子製造核心。",
-      "tags": [
+        "電子政策",
         "AI軟體"
       ],
       "coherent": true,
@@ -239,6 +229,46 @@
       ],
       "urls": [
         "https://zdnet.co.kr/view/?no=20261010080353"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "無金屬棒雷射天線技術突破",
+      "score": 5,
+      "reason": "新製程技術，但尚未見具體產業應用或投資。",
+      "tags": [
+        "半導體設備"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-10 07:30:17",
+      "titles": [
+        "금속막대 없이 레이저로 허공에 안테나 만들었다"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261010071329"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "海森社廚房實現AI伴侶套件",
+      "score": 5,
+      "reason": "純軟體應用示範，對韓國硬體供應鏈無實質影響。",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-10 05:30:17",
+      "titles": [
+        "하이센스, 소셜 키친 통해 AI Companion Suite 현실화"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261010051003"
       ],
       "sources": [
         "zdkorea"
