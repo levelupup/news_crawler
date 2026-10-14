@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-13 22:00:18",
+  "generated": "2026-10-14 10:00:18",
   "window_days": 2,
   "sources": [
     "business_standard",
@@ -8,53 +8,166 @@
     "livemint",
     "moneycontrol"
   ],
-  "input_titles": 351,
-  "events": 42,
+  "input_titles": 269,
+  "events": 31,
   "timings_seconds": {
-    "stage1_cluster": 9.7,
-    "stage2_name_score": 118.8,
-    "total": 128.5
+    "stage1_cluster": 8.6,
+    "stage2_name_score": 90.4,
+    "total": 99.1
   },
-  "gated_out": 17,
+  "gated_out": 15,
   "score_floor": 60,
   "stories": [
     {
-      "event": "NITI Aayog推動ISM 2.0促進半導體自主",
+      "event": "Adani與Jabil合資建AI硬體廠",
       "score": 95,
-      "score_model": 92,
-      "breadth_bonus": 3,
+      "score_model": 85,
+      "breadth_bonus": 10,
       "recur_penalty": 0,
-      "independent_outlets": 4,
+      "independent_outlets": 13,
+      "mirror_urls": 5,
+      "recur_flag": "new",
+      "recur_first_seen": "2026-08-15",
+      "recur_days": 11,
+      "reason": "巨頭合資落地，直接擴增AI算力製造產能",
+      "coherent": true,
+      "size": 21,
+      "max_crawled_at": "2026-10-14 09:31:17",
+      "titles": [
+        "AI servers and cooling systems could be made in India under a proposed Jabil-Adani venture - Stock Titan",
+        "Adani & Jabil sign MoU for 50:50 JV to manufacture AI, data centre hardware in India",
+        "Adani & Jabil sign MoU for 50:50 JV to manufacture AI, data centre hardware in India - TradingView",
+        "Adani Enterprises, Jabil sign MoU for 50:50 JV to manufacture AI data centre hardware in India - TradingView",
+        "India’s AI Ambitions Get a Boost: Adani and Apple Supplier Jabil Join Forces",
+        "AI Hardware Manufacturing: Adani-Jabil India JV Explained - Urban Acres",
+        "Adani Enterprises Signs MOU With Jabil For AI And Data Center Equipment JV - Sahi",
+        "Adani, Jabil join hands for AI manufacturing in India: What we know about the mega deal - Indiablooms",
+        "Adani Enterprises and Jabil sign MoU for proposed 50:50 JV to manufacture AI and data center hardware in India - TradingView",
+        "India’s AI Data Center Boom Driven by GPUs and Advanced Cooling - TimesTech",
+        "India’s data-centre boom creates semiconductor opportunities beyond AI chips - BusinessLine",
+        "India’s data-centre boom opens new semiconductor opportunities beyond AI chips",
+        "India’s AI Ambition Needs an Infrastructure Plan",
+        "\"Fibre Is The New Currency\" As AI Data Centres Drive Network Demand: Ciena India - BW Businessworld",
+        "Data Center Cooling Market to Reach $106.72 Billion by 2035 as AI Drives Liquid Cooling Demand - TimesTech",
+        "US AI data centre startups raise $33.5 billion in 2026 amid power constraints - ET CIO",
+        "Adani And Jabil Partner To Manufacture AI And Data Centre Equipment In India - Rediff",
+        "India’s Data Centre Growth Story: Expansion, Investment & Economic Opportunity - Cushman & Wakefield",
+        "IndiaAI GPU providers may offer services to overseas clients to keep investments viable- Moneycontrol.com",
+        "10,000 GPUs for India AI Mission; MeitY invites proposals - MediaNama",
+        "₹10,372-cr IndiaAI mission GPUs likely to serve global clients"
+      ],
+      "urls": [
+        "https://www.stocktitan.net/news/JBL/adani-enterprises-jabil-sign-mo-u-for-50-50-data-center-hardware-bj9mjj9mz7tn.html",
+        "https://www.thehindubusinessline.com/news/adani-jabil-sign-mou-for-5050-jv-to-manufacture-ai-data-centre-hardware-in-india/article71579365.ece",
+        "https://www.tradingview.com/news/moodys:562fb11dcc016:0-adani-jabil-sign-mou-for-50-50-jv-to-manufacture-ai-data-centre-hardware-in-india/",
+        "https://www.tradingview.com/news/moodys:4160aeadb602c:0-adani-enterprises-jabil-sign-mou-for-50-50-jv-to-manufacture-ai-data-centre-hardware-in-india/",
+        "https://www.analyticsinsight.net/news/indias-ai-ambitions-get-a-boost-adani-and-apple-supplier-jabil-join-forces",
+        "https://urbanacres.in/adani-jabil-ai-hardware-jv-tests-indias-data-centre-ambition/",
+        "https://www.sahi.com/news/adani-enterprises-signs-mou-with-jabil-for-ai-and-data-center-equipment-jv",
+        "https://www.indiablooms.com/finance/adani-jabil-join-hands-for-ai-manufacturing-in-india-what-we-know-about-the-mega-deal/details",
+        "https://www.tradingview.com/news/seekingalpha:50fea184d094b:0-adani-enterprises-and-jabil-sign-mou-for-proposed-50-50-jv-to-manufacture-ai-and-data-center-hardware-in-india/",
+        "https://timestech.in/indias-ai-data-center-boom-driven-by-gpus-and-advanced-cooling/",
+        "https://www.thehindubusinessline.com/info-tech/indias-data-centre-boom-opens-new-semiconductor-opportunities-beyond-ai-chips/article71579557.ece",
+        "https://www.thehindubusinessline.com/info-tech/indias-data-centre-boom-opens-new-semiconductor-opportunities-beyond-ai-chips/article71579557.ece",
+        "https://digitalterminal.in/opinion/indias-ai-ambition-needs-an-infrastructure-plan",
+        "https://www.businessworld.in/article/fibre-is-the-new-currency-as-ai-data-centres-drive-network-demand-ciena-india-627901",
+        "https://timestech.in/data-center-cooling-market-to-reach-106-72-billion-by-2035-as-ai-drives-liquid-cooling-demand/",
+        "https://cio.economictimes.indiatimes.com/amp/news/data-center/us-ai-data-centre-startups-raise-33-5-billion-in-2026-amid-power-constraints/134912308",
+        "https://www.rediff.com/business/report/adani-jabil-partner-for-ai-hardware-manufacturing-in-india/20261013.htm",
+        "https://www.cushmanwakefield.com/en/india/insights/indias-data-centre-growth-story",
+        "https://www.moneycontrol.com/news/business/indiaai-gpu-providers-may-offer-services-to-overseas-clients-to-keep-investments-viable-14049877.html",
+        "https://www.medianama.com/2026/10/223-meity-ai-compute-providers-gpus-indiaai-mission/",
+        "https://www.newsbytesapp.com/news/business/rs10372-cr-indiaai-mission-gpus-likely-to-serve-global-clients/tldr"
+      ],
+      "sources": [
+        "india_electronics",
+        "hindubusinessline",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "hindubusinessline",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "CtrlS千億盧比建AI工廠及數據中心",
+      "score": 81,
+      "score_model": 80,
+      "breadth_bonus": 1,
+      "recur_penalty": 0,
+      "independent_outlets": 3,
       "mirror_urls": 0,
       "recur_flag": "",
-      "recur_first_seen": "2026-10-12",
-      "recur_days": 2,
-      "reason": "國家級半導體戰略升級，影響深遠",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "大額資本支出落地，顯著擴增算力基礎設施",
       "coherent": true,
-      "size": 8,
-      "max_crawled_at": "2026-10-13 16:31:17",
+      "size": 3,
+      "max_crawled_at": "2026-10-14 04:01:17",
+      "titles": [
+        "CtrlS announces ₹10,000-crore AI factory in Bodh Gaya, opens ₹400-crore Patna data centre",
+        "CtrlS plans Rs 10,000 crore investment in Bihar, inaugurates Rs 400 crore Patna data centre - Express Computer",
+        "India's CtrlS to invest $1.05 billion to build hyperscale AI factory in eastern..."
+      ],
+      "urls": [
+        "https://www.thehindubusinessline.com/info-tech/ctrls-announces-10000-crore-ai-factory-in-bodh-gaya-opens-400-crore-patna-data-centre/article71580725.ece",
+        "https://www.expresscomputer.in/amp/news/ctrls-plans-rs-10000-crore-investment-in-bihar-inaugurates-rs-400-crore-patna-data-centre/139866/",
+        "https://www.reuters.com/world/india/indias-ctrls-invest-105-billion-build-hyperscale-ai-factory-eastern-india-2026-10-13/"
+      ],
+      "sources": [
+        "hindubusinessline",
+        "india_electronics",
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "印度半導體任務2.0推動自主",
+      "score": 77,
+      "score_model": 92,
+      "breadth_bonus": 3,
+      "recur_penalty": 18,
+      "independent_outlets": 4,
+      "mirror_urls": 0,
+      "recur_flag": "followup",
+      "recur_first_seen": "2026-08-15",
+      "recur_days": 31,
+      "reason": "國家級政策升級，定義產業長期發展路徑",
+      "coherent": true,
+      "size": 7,
+      "max_crawled_at": "2026-10-14 09:31:17",
       "titles": [
         "India Semiconductor Mission 2.0: ISM 2.0 to catalyse investments, boost self reliance: NITI Aayog's Abhay Karandikar - The Economic Times",
         "India Semiconductor Mission 2.0: A Path to Atmanirbhar Bharat, ETElectronicsWorld",
-        "ISM 2.0 to catalyse investments, boost self reliance: NITI Aayog's Abhay Karandikar - The Economic Times",
-        "ISM 2.0 to make India truly Atmanirbhar: Abhay Karandikar - electronics.economictimes.indiatimes.com",
         "ISM 2.0 to spur investment, boost chip self-reliance - Communications Today",
-        "Semicon 2.0 can boost local chip design for telecom infrastructure: IESA President - Social News XYZ",
-        "TANAKA Targets Indian Semiconductor Expansion Without Local Plant",
-        "Japanese TANAKA says to expand India semiconductor business, no plans for local manufacturing - electronics.economictimes.indiatimes.com"
+        "Can India build complete semiconductor ecosystem beyond chip manufacturing? Experts weigh in - WION",
+        "India Semiconductor Mission: Latest and Easy Guide 2026",
+        "India eyes stronger chip packaging & testing capabilities - WION",
+        "India's defence electronics ambitions get a boost as RRP opens advanced chip packaging facility | Defence Pulse - WION"
       ],
       "urls": [
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/ism-2-0-to-catalyse-investments-boost-self-reliance-niti-aayogs-abhay-karandikar/articleshow/134888568.cms",
         "https://electronics.economictimes.indiatimes.com/amp/news/leadership-strategy/ism-2-0-to-make-india-truly-atmanirbhar-abhay-karandikar/134886786",
-        "https://m.economictimes.com/industry/cons-products/electronics/ism-2-0-to-catalyse-investments-boost-self-reliance-niti-aayogs-abhay-karandikar/articleshow/134888568.cms",
-        "https://electronics.economictimes.indiatimes.com/news/leadership-strategy/ism-2-0-to-make-india-truly-atmanirbhar-abhay-karandikar/134886786",
         "https://www.communicationstoday.co.in/ism-2-0-to-spur-investment-boost-chip-self-reliance/",
-        "https://www.socialnews.xyz/2026/10/09/semicon-2-0-can-boost-local-chip-design-for-telecom-infrastructure-iesa-president/",
-        "https://www.electronicsforyou.biz/industry-buzz/tanaka-targets-indian-semiconductor-expansion-without-local-plant/",
-        "https://electronics.economictimes.indiatimes.com/news/supply-chain-trade/japanese-tanaka-says-to-expand-india-semiconductor-business-but-no-plans-for-local-manufacturing/134887165"
+        "https://www.wionews.com/india-news/can-india-build-complete-semiconductor-ecosystem-beyond-chip-manufacturing-experts-weigh-in-1791891152628/amp",
+        "https://devbhoominews.com/india-semiconductor-mission/",
+        "https://www.wionews.com/videos/india-eyes-stronger-chip-packaging-testing-capabilities-1791814844157",
+        "https://www.wionews.com/defence-pulse/rrp-electronics-wafer-level-packaging-facility-navi-mumbai-1791906716770"
       ],
       "sources": [
-        "india_electronics",
         "india_electronics",
         "india_electronics",
         "india_electronics",
@@ -65,301 +178,33 @@
       ]
     },
     {
-      "event": "Google 150億美元印度AI中心引發爭議",
-      "score": 85,
-      "score_model": 88,
-      "breadth_bonus": 3,
-      "recur_penalty": 6,
-      "independent_outlets": 4,
-      "mirror_urls": 0,
-      "recur_flag": "followup",
-      "recur_first_seen": "2026-08-28",
-      "recur_days": 4,
-      "reason": "巨額投資與基礎設施挑戰，具指標性",
-      "coherent": true,
-      "size": 5,
-      "max_crawled_at": "2026-10-13 05:31:17",
-      "titles": [
-        "Google Defends $15B India AI Hub Amid Water Fears [2026] - https://tech-insider.org/",
-        "Google Defends $15B India AI Hub Amid Water Fears",
-        "Google faces backlash over $15 billion India data center in Vizag - ET Datacenters",
-        "Google Visakhapatnam AI Hub Puts a $15 Billion Promise Against Local Limits - remio",
-        "Indian city resists Google data center - The Manila Times"
-      ],
-      "urls": [
-        "https://tech-insider.org/google-defends-15-billion-india-ai-hub-water-2026/",
-        "https://tech-insider.org/google-defends-15-billion-india-ai-hub-water-2026",
-        "http://datacenters.economictimes.indiatimes.com/amp/news/policy-land-power/google-faces-backlash-over-15-billion-india-data-center-in-vizag/134882078",
-        "https://www.remio.ai/post/google-visakhapatnam-ai-hub-puts-a-15-billion-promise-against-local-limits",
-        "https://www.manilatimes.net/2026/10/12/business/foreign-business/indian-city-resists-google-data-center/2443344/amp"
-      ],
-      "sources": [
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "Tata N. Chandrasekaran談半導體挑戰",
-      "score": 80,
-      "score_model": 70,
-      "breadth_bonus": 10,
-      "recur_penalty": 0,
-      "independent_outlets": 20,
-      "mirror_urls": 2,
-      "recur_flag": "",
-      "recur_first_seen": "2026-09-27",
-      "recur_days": 1,
-      "reason": "龍頭企業對產業前景的關鍵評估",
-      "coherent": true,
-      "size": 33,
-      "max_crawled_at": "2026-10-13 18:31:17",
-      "titles": [
-        "Semiconductors key to India's future; country can play major role in global supply chain: N Chandra - DD India",
-        "Tata chief flags challenges in India's semiconductor push, calls 'global collaboration a necessity' - The Times of India",
-        "India well placed to develop its semiconductor manufacturing capabilities: N Chandrasekaran - Mid-Day",
-        "Chips critical to India's future, but demand and management key to semiconductor push: N Chandrasekaran - ANI News",
-        "India's Semiconductor Future: Tata's Role in Global Supply Chain - Rediff MoneyWiz",
-        "'Chips are the future': Tata Sons' N. Chandrasekaran flags demand, management risks in India’s semiconductor push - Business Today",
-        "Chips critical to India's future, but demand and management key to semiconductor push: N Chandrasekaran - The Economic Times",
-        "India in 'beautiful spot' to build semiconductor supply chains, says Tata Sons Chairman Chandrasekaran - electronics.economictimes.indiatimes.com",
-        "India’s Semiconductor Push Faces a Tough Demand Test - Urban Acres",
-        "India needs patient capital to build semiconductor industry: - Communications Today",
-        "‘Semiconductors fundamental’: Tata chief backs chip push as Assam plant takes shape - The Assam Tribune",
-        "Bets are on for India's semiconductor space amid growing M&As, investments - Business Standard",
-        "Chips critical to India's future, but demand and management key to semiconductor push: N Chandrasekaran, ETManufacturing",
-        "Bloomberg New Economy Forum: Semiconductor bets will pay off for India in long run, says Tata Sons’... - Moneycontrol.com",
-        "Chips Will Matter In The Long Run, Even If Returns Take Time: Tata Sons' N Chandrasekaran - NDTV Profit",
-        "India’s semiconductor startup ecosystem attracts $1B in five years | Communications Today",
-        "India’s Techade drive: Five key moves in chips, electronics, AI and global competition - Newswav",
-        "Chips are the future, but India must match semiconductor investments with demand: N. Chandrasekaran - Fortune India",
-        "India's semiconductor sector sees M&A, investment surge for AI data centers - ET Datacenters",
-        "India’s Techade drive: Five key moves in chips, electronics, AI and global competition - Malay Mail",
-        "India's Chip Industry Attracts Fresh Capital Amid Rising Deals and Strategic Acquisitions - Siliconindia",
-        "India's tech push: five things to know - The Economic Times",
-        "Tata Sons chair defends nation-building bets over short-term returns",
-        "How Semiconductor Manufacturing Could Transform Dholera’s Economic Landscape - Golden Dream Infratech Pvt LTD.",
-        "DHL joins NX Group in race to build semiconductor logistics in India",
-        "‘We can’t be reckless’: Tata Sons chairman signals caution on $120 billion growth bets amid boardroom tensions",
-        "DHL joins NX Group in race to build semiconductor logistics in India - TradingView",
-        "Tata’s Jagiroad Plant to Serve Mobile, Automotive, and AI Chips - Electronics For You BUSINESS",
-        "semiconductor packaging News and Updates from The Economic Times - Page 1",
-        "Tata's Dholera Fab Sold Out Before First Wafer: Execution Is Now the Test — Die Signal",
-        "World's biggest Semiconductor OSAT Facility in Assam: CM Himanta Biswa Sarma shows Rs 27,000-crore factory - The Economic Times",
-        "Tata Electronics, Besi Partner to Develop Advanced Semiconductor Packaging in India - Electronics For You BUSINESS",
-        "Tata Electronics, Besi Partner on Advanced Chip Packaging in India — Chip Dispatch"
-      ],
-      "urls": [
-        "https://ddindia.co.in/2026/10/semiconductors-key-to-indias-future-country-can-play-major-role-in-global-supply-chain-n-chandra/",
-        "https://timesofindia.indiatimes.com/business/india-business/tata-chief-flags-challenges-in-indias-semiconductor-push-calls-global-collaboration-a-necessity/articleshow/134911153.cms",
-        "https://www.mid-day.com/amp/business/business-news/article/india-well-placed-to-develop-its-semiconductor-manufacturing-capabilities-n-chandrasekaran-23654826",
-        "https://www.aninews.in/news/business/chips-critical-to-indias-future-but-demand-and-management-key-to-semiconductor-push-n-chandrasekaran20261013102704",
-        "https://money.rediff.com/news/market/india-s-semiconductor-future-tata-s-role-in-global-supply-chain/56118920261013",
-        "https://www.businesstoday.in/latest/corporate/story/chips-are-the-future-tata-sons-n-chandrasekaran-flags-demand-management-risks-in-indias-semiconductor-push-561203-2026-10-13",
-        "https://m.economictimes.com/tech/artificial-intelligence/chips-critical-to-indias-future-but-demand-and-management-key-to-semiconductor-push-n-chandrasekaran/articleshow/134908647.cms",
-        "http://electronics.economictimes.indiatimes.com/amp/news/leadership-strategy/india-in-beautiful-spot-to-build-semiconductor-supply-chains-says-tata-sons-chairman-chandrasekaran/134913090",
-        "https://urbanacres.in/indias-semiconductor-push-faces-a-tough-demand-test/",
-        "https://www.communicationstoday.co.in/india-needs-patient-capital-to-build-semiconductor-industry/",
-        "https://assamtribune.com/amp/national/semiconductors-fundamental-tata-chief-backs-chip-push-as-assam-plant-takes-shape-1620110",
-        "https://www.business-standard.com/technology/tech-news/bets-are-on-for-india-s-semiconductor-space-amid-growing-m-as-investments-126101100559_1.html",
-        "https://manufacturing.economictimes.indiatimes.com/news/hi-tech/chips-critical-to-indias-future-but-demand-and-management-key-to-semiconductor-push-n-chandrasekaran/134909751",
-        "https://www.moneycontrol.com/news/business/bloomberg-new-economy-forum-semiconductor-bets-will-pay-off-for-india-in-long-run-says-tata-sons-chandrasekaran-14050668.html/amp",
-        "https://www.ndtvprofit.com/business/chips-will-matter-in-the-long-run-even-if-returns-take-time-tata-sons-n-chandrasekaran-12177175",
-        "https://www.communicationstoday.co.in/indias-semiconductor-startup-ecosystem-attracts-1b-in-five-years/",
-        "https://newswav.com/article/india-s-techade-drive-five-key-moves-in-chips-electronics-ai-and-global-com-A2610_NGEkeJ",
-        "https://www.fortuneindia.com/amp/story/business-news/semiconductors-key-to-india-s-future-country-can-play-major-role-in-global-supply-chain-n-chandra/164328",
-        "https://datacenters.economictimes.indiatimes.com/news/ai-compute-infrastructure/indias-semiconductor-sector-sees-ma-investment-surge-for-ai-data-centers/134884279",
-        "https://www.malaymail.com/news/tech-gadgets/2026/10/12/indias-techade-drive-five-key-moves-in-chips-electronics-ai-and-global-competition/238654",
-        "https://www.siliconindia.com/news/startups/indias-chip-industry-attracts-fresh-capital-amid-rising-deals-and-strategic-acquisitions-nid-242645-cid-19.html",
-        "https://m.economictimes.com/tech/technology/indias-tech-push-five-things-to-know/amp_articleshow/134868670.cms",
-        "https://www.livemint.com/companies/news/tata-sons-chair-defends-nation-building-bets-over-short-term-returns-11791874861515.html",
-        "https://goldendreamproperty.com/how-semiconductor-manufacturing-could-transform-dholeras-economic-landscape/",
-        "https://www.livemint.com/companies/news/dhl-joins-nx-group-in-race-to-build-semiconductor-logistics-in-india-11791788224057.html",
-        "https://www.livemint.com/companies/news/we-can-t-be-reckless-tata-sons-chairman-signals-caution-on-120-billion-growth-bets-amid-boardroom-tensions-11791880919787.html",
-        "https://www.tradingview.com/news/moodys:577ee1fc05ed1:0-dhl-joins-nx-group-in-race-to-build-semiconductor-logistics-in-india/",
-        "https://www.electronicsforyou.biz/industry-buzz/tatas-jagiroad-plant-to-serve-mobile-automotive-and-ai-chips/",
-        "https://economictimes.indiatimes.com/topic/semiconductor-packaging/news",
-        "https://diesignal.com/articles/tata-s-dholera-fab-sold-out-before-start-commitments-now-meet-reality-80a103da",
-        "https://m.economictimes.com/news/new-updates/worlds-biggest-semiconductor-osat-facility-in-assam-cm-himanta-biswa-sarma-shows-rs-27000-crore-factory-in-jagiroad-watch/articleshow/134908159.cms",
-        "https://www.electronicsforyou.biz/industry-buzz/tata-electronics-besi-partner-to-develop-advanced-semiconductor-packaging-in-india/",
-        "https://chipdispatch.com/articles/tata-electronics-taps-besi-for-advanced-chip-packaging-in-india-3b97f21a"
-      ],
-      "sources": [
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "livemint",
-        "india_electronics",
-        "livemint",
-        "livemint",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "CoreWeave進軍印度建240MW AI數據中心",
-      "score": 79,
-      "score_model": 85,
-      "breadth_bonus": 6,
-      "recur_penalty": 12,
-      "independent_outlets": 9,
-      "mirror_urls": 3,
-      "recur_flag": "followup",
-      "recur_first_seen": "2026-08-15",
-      "recur_days": 10,
-      "reason": "大型AI基礎設施投資，具產業指標意義",
-      "coherent": false,
-      "size": 13,
-      "max_crawled_at": "2026-10-13 21:30:17",
-      "titles": [
-        "India’s AI Data Center Boom Driven by GPUs and Advanced Cooling - TimesTech",
-        "CoreWeave India Data Center Bet Puts 240 MW Against a 2028 Deadline - remio",
-        "CoreWeave Just Landed a Massive New AI Opportunity. Wall Street Sees 59% Upside...",
-        "CoreWeave enters India, plans 240 MW AI data centre with AdaniConneX - TechGig",
-        "\"Fibre Is The New Currency\" As AI Data Centres Drive Network Demand: Ciena India - BW Businessworld",
-        "India’s AI Ambition Needs an Infrastructure Plan",
-        "India’s Data Centre Growth Story: Expansion, Investment & Economic Opportunity - Cushman & Wakefield",
-        "Adani Enterprises, Jabil sign MoU for 50:50 JV to manufacture AI data centre hardware in India - TradingView",
-        "Adani Enterprises Signs MOU With Jabil For AI And Data Center Equipment JV - Sahi",
-        "3 AI Infrastructure Stocks For Data Center Growth】【”】【 - Simply Wall Street",
-        "India's power transmission expansion, data centre demand to drive capital goods growth: Report - The Economic Times",
-        "Data Center Cooling Market to Reach $106.72 Billion by 2035 as AI Drives Liquid Cooling Demand - TimesTech",
-        "India must focus on AI adoption to unlock economic growth"
-      ],
-      "urls": [
-        "https://timestech.in/indias-ai-data-center-boom-driven-by-gpus-and-advanced-cooling/",
-        "https://www.remio.ai/post/coreweave-india-data-center-bet-puts-240-mw-against-a-2028-deadline",
-        "https://finance.yahoo.com/technology/ai/articles/coreweave-just-landed-massive-ai-173002564.html",
-        "https://techgig.com/amp/news/cloud-infrastructure/coreweave-enters-india-plans-240-mw-ai-data-centre-with-adaniconnex/134882602",
-        "https://www.businessworld.in/article/fibre-is-the-new-currency-as-ai-data-centres-drive-network-demand-ciena-india-627901",
-        "https://digitalterminal.in/opinion/indias-ai-ambition-needs-an-infrastructure-plan",
-        "https://www.cushmanwakefield.com/en/india/insights/indias-data-centre-growth-story",
-        "https://www.tradingview.com/news/moodys:4160aeadb602c:0-adani-enterprises-jabil-sign-mou-for-50-50-jv-to-manufacture-ai-data-centre-hardware-in-india/",
-        "https://www.sahi.com/news/adani-enterprises-signs-mou-with-jabil-for-ai-and-data-center-equipment-jv",
-        "https://simplywall.st/stocks/in/tech/nse-netweb/netweb-technologies-india-shares/news/3-ai-infrastructure-stocks-for-data-center-growth",
-        "https://m.economictimes.com/news/india/indias-power-transmission-expansion-data-centre-demand-to-drive-capital-goods-growth-report/amp_articleshow/134881207.cms",
-        "https://timestech.in/data-center-cooling-market-to-reach-106-72-billion-by-2035-as-ai-drives-liquid-cooling-demand/",
-        "https://indianexpress.com/article/opinion/columns/india-artificial-intelligence-adoption-productivity-growth-10917178/"
-      ],
-      "sources": [
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "UP推出電子元件製造雙重激勵政策",
-      "score": 79,
-      "score_model": 78,
+      "event": "DRDO於ESTIC-2026展示本土半導體技術",
+      "score": 76,
+      "score_model": 75,
       "breadth_bonus": 1,
       "recur_penalty": 0,
       "independent_outlets": 2,
-      "mirror_urls": 0,
+      "mirror_urls": 2,
       "recur_flag": "",
-      "recur_first_seen": "2026-10-12",
-      "recur_days": 2,
-      "reason": "邦級政策直接影響製造成本與吸引力",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "國防部主導，具戰略意義的技術展示",
       "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-10-13 01:01:17",
+      "size": 4,
+      "max_crawled_at": "2026-10-14 05:01:17",
       "titles": [
-        "UP Offers Dual Incentives To Electronics Component Makers - BW Businessworld",
-        "UP Electronics Component Manufacturing Policy, 2025: Key features, eligibility and implementation - Business Standard"
+        "DRDO to showcase indigenous semiconductor technologies at ESTIC-2026",
+        "DRDO conclave to focus on indigenous semiconductor technologies",
+        "DRDO to lead semiconductor, next-gen chips session at ESTIC-2026 - The Statesman",
+        "DRDO conclave to focus on indigenous semiconductor technologies - The Economic Times"
       ],
       "urls": [
-        "https://www.businessworld.in/article/up-offers-dual-incentives-to-electronics-component-makers-628107",
-        "https://www.business-standard.com/economy/uttar-pradesh/up-electronics-component-manufacturing-policy-2025-key-features-eligibility-and-implementation-126101200267_1.html"
+        "https://www.msn.com/en-in/news/other/drdo-to-showcase-indigenous-semiconductor-technologies-at-estic-2026/ar-AA2e8LLY?ocid=BingNewsVerp",
+        "https://www.msn.com/en-in/news/other/drdo-conclave-to-focus-on-indigenous-semiconductor-technologies/ar-AA2e9Ya2?ocid=BingNewsVerp",
+        "https://www.thestatesman.com/india/drdo-to-lead-semiconductor-next-gen-chips-session-at-estic-2026-1503650794.html",
+        "https://m.economictimes.com/news/defence/drdo-conclave-to-focus-on-indigenous-semiconductor-technologies/articleshow/134923360.cms"
       ],
       "sources": [
-        "india_electronics",
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "Tessolve獲7500萬美元投資擴展設計",
-      "score": 78,
-      "score_model": 72,
-      "breadth_bonus": 6,
-      "recur_penalty": 0,
-      "independent_outlets": 11,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "2026-10-12",
-      "recur_days": 2,
-      "reason": "具體融資與擴張，提升設計能力",
-      "coherent": true,
-      "size": 11,
-      "max_crawled_at": "2026-10-12 22:30:51",
-      "titles": [
-        "Tessolve Semiconductor, a Hero Electronix company, secures $75 million investment from Vector Line Capital - CXOToday.com",
-        "Vector Line Capital makes first India investment with $75 million in Tessolve - DQ",
-        "Tessolve Secures $75 Million to Expand Its Global Chip Design Business - CIOL",
-        "Chip services provider Tessolve raises $75 mn from Vector Line Capital to pursue acquisitions - electronics.economictimes.indiatimes.com",
-        "Tessolve Semiconductor Secures $75 Million Investment from Vector Line Capital - Electronics For You BUSINESS",
-        "Tessolve Raises $75 Million to Expand Semiconductor Capabilities",
-        "TPG-backed Tessolve raises $75 mn in US-based investor's first India bet - VCCircle",
-        "Hero Electronix’s Tessolve Raises $75 Mn to Expand Semiconductor Capabilities - Indian Startup Times",
-        "Hero Electronix's chip design firm Tessolve Semiconductor raises $75 million from Vector Line Capital - Indian Startup News",
-        "Tessolve Semiconductor secures $75 million investment from Vector Line Capital - Manufacturing Today India",
-        "Bengaluru’s Tessolve Semiconductor Secures $75 Mn From Vector Line Capital - Analytics India Magazine"
-      ],
-      "urls": [
-        "https://cxotoday.com/media-coverage/tessolve-semiconductor-a-hero-electronix-company-secures-75-million-investment-from-vector-line-capital/",
-        "https://www.dqindia.com/news/tessolve-75-million-investment-ai-chip-engineering-12668151",
-        "https://www.ciol.com/funding-acquistion-merger/tessolve-secures-75-million-to-expand-its-global-chip-design-business-12666701",
-        "https://electronics.economictimes.indiatimes.com/news/startups-funding/chip-services-provider-tessolve-raises-75-mn-from-vector-line-capital-to-pursue-acquisitions/134871027",
-        "https://www.electronicsforyou.biz/industry-buzz/tessolve-semiconductor-secures-75-million-investment-from-vector-line-capital/",
-        "https://www.equitypandit.com/tessolve-raises-75-million-to-expand-semiconductor-capabilities/",
-        "https://www.vccircle.com/tpgbacked-tessolve-raises-75-mn-in-us-based-investor-s-first-india-bet",
-        "https://www.indianstartuptimes.com/news/hero-electronixs-tessolve-raises-75-mn-to-expand-semiconductor-capabilities/",
-        "https://indianstartupnews.com/funding/hero-electronixs-chip-design-firm-tessolve-semiconductor-raises-75-million-from-vector-line-capital-12668276",
-        "https://www.manufacturingtodayindia.com/tessolve-semiconductor-secure-75-m",
-        "https://analyticsindiamag.com/ai-news/bengalurus-tessolve-semiconductor-secures-75-mn-from-vector-line-capital"
-      ],
-      "sources": [
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
         "india_electronics",
         "india_electronics",
         "india_electronics",
@@ -367,43 +212,149 @@
       ]
     },
     {
-      "event": "MP電信製造區吸引6000億盧比投資",
+      "event": "Tata集團長遠佈局印度半導體產業",
       "score": 75,
-      "score_model": 75,
+      "score_model": 65,
+      "breadth_bonus": 10,
+      "recur_penalty": 0,
+      "independent_outlets": 17,
+      "mirror_urls": 1,
+      "recur_flag": "",
+      "recur_first_seen": "2026-09-27",
+      "recur_days": 2,
+      "reason": "高層表態長期戰略，屬方向性指引",
+      "coherent": true,
+      "size": 30,
+      "max_crawled_at": "2026-10-14 06:31:17",
+      "titles": [
+        "Tata Group's semiconductor push a long-term bet on India: Chandrasekaran | Company News - Business Standard",
+        "Tata Group's semiconductor push a long-term bet on India: Chandrasekaran - Business Standard",
+        "Tata chief flags challenges in India's semiconductor push, calls 'global collaboration a necessity' - The Times of India",
+        "Semiconductors key to India's future; country can play major role in global supply chain: N Chandra - DD India",
+        "Chips critical to India's future, but demand and management key to semiconductor push: N Chandrasekaran - ANI News",
+        "India well placed to develop its semiconductor manufacturing capabilities: N Chandrasekaran - Mid-Day",
+        "India's Semiconductor Future: Tata's Role in Global Supply Chain - Rediff MoneyWiz",
+        "Chandrasekaran defends Tata’s long-term bets in semiconductors amid questions over returns",
+        "'Chips are the future': Tata Sons' N. Chandrasekaran flags demand, management risks in India’s semiconductor push - Business Today",
+        "India in 'beautiful spot' to build semiconductor supply chains, says Tata Sons Chairman Chandrasekaran - electronics.economictimes.indiatimes.com",
+        "India in 'beautiful spot' to build semiconductor supply chains, says Tata Sons Chairman Chandrasekaran",
+        "Chips critical to India's future, but demand and management key to semiconductor push: N Chandrasekaran - The Economic Times",
+        "Tata’s semiconductor push aligned with India’s long-term needs: Tata Sons Chairman Chandrasekaran - The New Indian Express",
+        "India’s Semiconductor Push Faces a Tough Demand Test - Urban Acres",
+        "Semiconductors key to India's future: Tata Sons Chairman N Chandrasekaran",
+        "India needs patient capital to build semiconductor industry: - Communications Today",
+        "Bloomberg New Economy Forum: Semiconductor bets will pay off for India in long run, says Tata Sons’... - Moneycontrol.com",
+        "Chips Will Matter In The Long Run, Even If Returns Take Time: Tata Sons' N Chandrasekaran - NDTV Profit",
+        "Chips critical to India's future, but demand and management key to semiconductor push: N Chandrasekaran, ETManufacturing",
+        "Chips are the future, but India must match semiconductor investments with demand: N. Chandrasekaran - Fortune India",
+        "‘Semiconductors fundamental’: Tata chief backs chip push as Assam plant takes shape - The Assam Tribune",
+        "Tata Sons chair defends nation-building bets over short-term returns",
+        "‘We can’t be reckless’: Tata Sons chairman signals caution on $120 billion growth bets amid boardroom tensions",
+        "India’s semiconductor startup ecosystem attracts $1B in five years | Communications Today",
+        "India’s Techade drive: Five key moves in chips, electronics, AI and global competition - Newswav",
+        "India's semiconductor sector sees M&A, investment surge for AI data centers, ETDatacenters",
+        "TANAKA Precious Metals Aims to Broaden Semiconductor Presence in India Without Immediate Manufacturing Plans, ETElectronicsWorld",
+        "Tata’s Jagiroad Plant to Serve Mobile, Automotive, and AI Chips - Electronics For You BUSINESS",
+        "TANAKA Targets Indian Semiconductor Expansion Without Local Plant",
+        "World's biggest Semiconductor OSAT Facility in Assam: CM Himanta Biswa Sarma shows Rs 27,000-crore factory - The Economic Times"
+      ],
+      "urls": [
+        "https://www.business-standard.com/amp/companies/news/tata-group-s-semiconductor-push-a-long-term-bet-on-india-chandrasekaran-126101301134_1.html",
+        "https://www.business-standard.com/companies/news/tata-group-s-semiconductor-push-a-long-term-bet-on-india-chandrasekaran-126101301134_1.html",
+        "https://timesofindia.indiatimes.com/business/india-business/tata-chief-flags-challenges-in-indias-semiconductor-push-calls-global-collaboration-a-necessity/articleshow/134911153.cms",
+        "https://ddindia.co.in/2026/10/semiconductors-key-to-indias-future-country-can-play-major-role-in-global-supply-chain-n-chandra/",
+        "https://www.aninews.in/news/business/chips-critical-to-indias-future-but-demand-and-management-key-to-semiconductor-push-n-chandrasekaran20261013102704",
+        "https://www.mid-day.com/amp/business/business-news/article/india-well-placed-to-develop-its-semiconductor-manufacturing-capabilities-n-chandrasekaran-23654826",
+        "https://money.rediff.com/news/market/india-s-semiconductor-future-tata-s-role-in-global-supply-chain/56118920261013",
+        "https://www.thehindubusinessline.com/info-tech/chandrasekaran-defends-tatas-long-term-bets-in-semiconductors-amid-questions-over-returns/article71579672.ece",
+        "https://www.businesstoday.in/latest/corporate/story/chips-are-the-future-tata-sons-n-chandrasekaran-flags-demand-management-risks-in-indias-semiconductor-push-561203-2026-10-13",
+        "http://electronics.economictimes.indiatimes.com/amp/news/leadership-strategy/india-in-beautiful-spot-to-build-semiconductor-supply-chains-says-tata-sons-chairman-chandrasekaran/134913090",
+        "https://electronics.economictimes.indiatimes.com/news/leadership-strategy/india-in-beautiful-spot-to-build-semiconductor-supply-chains-says-tata-sons-chairman-chandrasekaran/134913090",
+        "https://m.economictimes.com/tech/artificial-intelligence/chips-critical-to-indias-future-but-demand-and-management-key-to-semiconductor-push-n-chandrasekaran/articleshow/134908647.cms",
+        "https://www.newindianexpress.com/business/2026/Oct/13/tatas-semiconductor-push-aligned-with-indias-long-term-needs-tata-sons-chairman-chandrasekaran",
+        "https://urbanacres.in/indias-semiconductor-push-faces-a-tough-demand-test/",
+        "https://www.mid-day.com/business/business-news/article/india-well-placed-to-develop-its-semiconductor-manufacturing-capabilities-n-chandrasekaran-23654826",
+        "https://www.communicationstoday.co.in/india-needs-patient-capital-to-build-semiconductor-industry/",
+        "https://www.moneycontrol.com/news/business/bloomberg-new-economy-forum-semiconductor-bets-will-pay-off-for-india-in-long-run-says-tata-sons-chandrasekaran-14050668.html/amp",
+        "https://www.ndtvprofit.com/business/chips-will-matter-in-the-long-run-even-if-returns-take-time-tata-sons-n-chandrasekaran-12177175",
+        "https://manufacturing.economictimes.indiatimes.com/news/hi-tech/chips-critical-to-indias-future-but-demand-and-management-key-to-semiconductor-push-n-chandrasekaran/134909751",
+        "https://www.fortuneindia.com/amp/story/business-news/semiconductors-key-to-india-s-future-country-can-play-major-role-in-global-supply-chain-n-chandra/164328",
+        "https://assamtribune.com/amp/national/semiconductors-fundamental-tata-chief-backs-chip-push-as-assam-plant-takes-shape-1620110",
+        "https://www.livemint.com/companies/news/tata-sons-chair-defends-nation-building-bets-over-short-term-returns-11791874861515.html",
+        "https://www.livemint.com/companies/news/we-can-t-be-reckless-tata-sons-chairman-signals-caution-on-120-billion-growth-bets-amid-boardroom-tensions-11791880919787.html",
+        "https://www.communicationstoday.co.in/indias-semiconductor-startup-ecosystem-attracts-1b-in-five-years/",
+        "https://newswav.com/article/india-s-techade-drive-five-key-moves-in-chips-electronics-ai-and-global-com-A2610_NGEkeJ",
+        "https://datacenters.economictimes.indiatimes.com/amp/news/ai-compute-infrastructure/indias-semiconductor-sector-sees-ma-investment-surge-for-ai-data-centers/134884279",
+        "http://electronics.economictimes.indiatimes.com/amp/news/supply-chain-trade/japanese-tanaka-says-to-expand-india-semiconductor-business-but-no-plans-for-local-manufacturing/134887165",
+        "https://www.electronicsforyou.biz/industry-buzz/tatas-jagiroad-plant-to-serve-mobile-automotive-and-ai-chips/",
+        "https://www.electronicsforyou.biz/industry-buzz/tanaka-targets-indian-semiconductor-expansion-without-local-plant/",
+        "https://m.economictimes.com/news/new-updates/worlds-biggest-semiconductor-osat-facility-in-assam-cm-himanta-biswa-sarma-shows-rs-27000-crore-factory-in-jagiroad-watch/articleshow/134908159.cms"
+      ],
+      "sources": [
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "hindubusinessline",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "livemint",
+        "livemint",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "Lam Research開設印度機器人中心",
+      "score": 70,
+      "score_model": 70,
       "breadth_bonus": 0,
       "recur_penalty": 0,
       "independent_outlets": 1,
       "mirror_urls": 0,
       "recur_flag": "",
-      "recur_first_seen": "2026-10-10",
-      "recur_days": 2,
-      "reason": "大規模區域性產業集群投資",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "設備巨頭深化本地服務，強化半導體生態",
       "coherent": true,
-      "size": 4,
-      "max_crawled_at": "2026-10-13 15:01:17",
+      "size": 2,
+      "max_crawled_at": "2026-10-14 01:31:17",
       "titles": [
-        "MP Telecom Manufacturing Zone attracts ₹6,000 crore investment - Communications Today",
-        "MP Telecom Manufacturing Zone attracts ₹6,000 crore investment",
-        "MP Telecom Manufacturing Zone attracts up to ₹6,000 crore investment",
-        "MP Telecom Manufacturing Zone attracts up to ₹6,000 crore investment - Communications Today"
+        "Orbit & Skyline, Lam Research open robotics center in India for semicon industry, ETElectronicsWorld",
+        "Orbit & Skyline, Lam Research open robotics center in India for semicon industry - electronics.economictimes.indiatimes.com"
       ],
       "urls": [
-        "https://www.communicationstoday.co.in/mp-telecom-manufacturing-zone-attracts-%E2%82%B96000-crore-investment/",
-        "https://www.communicationstoday.co.in/mp-telecom-manufacturing-zone-attracts-₹6000-crore-investment/",
-        "https://www.communicationstoday.co.in/mp-telecom-manufacturing-zone-attracts-up-to-₹6000-crore-investment/",
-        "https://www.communicationstoday.co.in/mp-telecom-manufacturing-zone-attracts-up-to-%E2%82%B96000-crore-investment/"
+        "https://electronics.economictimes.indiatimes.com/news/ai-robotics-automation/orbit-skyline-lam-research-open-robotics-center-in-india-for-semicon-industry/134914580",
+        "http://electronics.economictimes.indiatimes.com/news/ai-robotics-automation/orbit-skyline-lam-research-open-robotics-center-in-india-for-semicon-industry/134914580"
       ],
       "sources": [
-        "india_electronics",
-        "india_electronics",
         "india_electronics",
         "india_electronics"
       ]
     },
     {
-      "event": "印度計劃保護關鍵產業供應鏈",
-      "score": 75,
-      "score_model": 75,
+      "event": "印度規劃關鍵礦產供應鏈韌性",
+      "score": 65,
+      "score_model": 65,
       "breadth_bonus": 0,
       "recur_penalty": 0,
       "independent_outlets": 1,
@@ -411,7 +362,7 @@
       "recur_flag": "",
       "recur_first_seen": "2026-10-13",
       "recur_days": 1,
-      "reason": "涉及鋰與稀土等戰略資源的供應鏈安全",
+      "reason": "涉及關鍵礦產與製造業供應鏈安全",
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-10-13 02:31:17",
@@ -426,256 +377,32 @@
       ]
     },
     {
-      "event": "LTTS與NVIDIA在班加羅爾開AI實驗室",
-      "score": 71,
-      "score_model": 70,
-      "breadth_bonus": 1,
+      "event": "LTTS與Nvidia開設AI實驗室",
+      "score": 60,
+      "score_model": 60,
+      "breadth_bonus": 0,
       "recur_penalty": 0,
-      "independent_outlets": 2,
+      "independent_outlets": 1,
       "mirror_urls": 0,
       "recur_flag": "",
       "recur_first_seen": "2026-10-13",
       "recur_days": 1,
-      "reason": "全球巨頭合作，推動製造業AI化",
+      "reason": "AI設計與製造垂直整合，提升研發能力",
       "coherent": true,
-      "size": 3,
+      "size": 1,
       "max_crawled_at": "2026-10-13 00:31:17",
       "titles": [
-        "LTTS launches EI Lab featuring NVIDIA accelerated AI-native factory",
-        "LTTS, Nvidia open AI-native lab in Bengaluru for manufacturing vertical - electronics.economictimes.indiatimes.com",
-        "LTTS sees AI as growth driver, targets 80% revenue from six focus areas"
+        "LTTS, Nvidia open AI-native lab in Bengaluru for manufacturing vertical - electronics.economictimes.indiatimes.com"
       ],
       "urls": [
-        "https://www.thehindubusinessline.com/info-tech/ltts-launches-ei-lab-featuring-nvidia-accelerated-ai-native-factory/article71575215.ece",
-        "https://electronics.economictimes.indiatimes.com/news/ai-robotics-automation/ltts-nvidia-open-ai-native-lab-in-bengaluru-for-manufacturing-vertical/134890109",
-        "https://www.thehindubusinessline.com/info-tech/ltts-sees-ai-as-growth-driver-targets-80-revenue-from-six-focus-areas/article71574792.ece"
-      ],
-      "sources": [
-        "hindubusinessline",
-        "india_electronics",
-        "hindubusinessline"
-      ]
-    },
-    {
-      "event": "奧迪印度擬本地生產電動車擴產",
-      "score": 70,
-      "score_model": 70,
-      "breadth_bonus": 0,
-      "recur_penalty": 0,
-      "independent_outlets": 1,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "reason": "汽車製造業擴張，涉及供應鏈本地化與投資意向",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-12 07:01:17",
-      "titles": [
-        "Audi India mulling local production of electric car, aims to double market share in 3-5 years - ET Manufacturing"
-      ],
-      "urls": [
-        "https://manufacturing.economictimes.indiatimes.com/amp/news/automotive/audi-india-mulling-local-production-of-electric-car-aims-to-double-market-share-in-3-5-years/134876303"
+        "https://electronics.economictimes.indiatimes.com/news/ai-robotics-automation/ltts-nvidia-open-ai-native-lab-in-bengaluru-for-manufacturing-vertical/134890109"
       ],
       "sources": [
         "india_electronics"
       ]
     },
     {
-      "event": "Vertiv部署印度首座液冷AI數據中心",
-      "score": 69,
-      "score_model": 68,
-      "breadth_bonus": 1,
-      "recur_penalty": 0,
-      "independent_outlets": 3,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "2026-10-12",
-      "recur_days": 2,
-      "reason": "關鍵基礎設施技術突破，支持AI發展",
-      "coherent": true,
-      "size": 3,
-      "max_crawled_at": "2026-10-13 15:31:17",
-      "titles": [
-        "Vertiv Deploys India’s First Liquid-Cooled AI Data Center for 30 MW Capacity - TimesTech",
-        "Vertiv Delivers India’s First High-Density Liquid Cooling Data Center - IT Voice Media",
-        "Vertiv Delivers 30 MW AI-Ready Liquid Cooling Deployment at CapitaLand’s Mumbai Data Center - digital terminal"
-      ],
-      "urls": [
-        "https://timestech.in/vertiv-deploys-indias-first-liquid-cooled-ai-data-center-for-30-mw-capacity/",
-        "https://www.itvoice.in/vertiv-delivers-indias-first-high-density-liquid-cooling-data-center-deployment-for-capitaland-india-trust-enabling-30-mw-of-ai-ready-capacity",
-        "https://digitalterminal.in/enterprise/vertiv-delivers-30-mw-ai-ready-liquid-cooling-deployment-at-capitalands-mumbai-data-center"
-      ],
-      "sources": [
-        "india_electronics",
-        "india_electronics",
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "分析印度新數據中心政策影響",
-      "score": 65,
-      "score_model": 65,
-      "breadth_bonus": 0,
-      "recur_penalty": 0,
-      "independent_outlets": 1,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "reason": "關鍵基礎設施政策對供應鏈有深遠影響",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-13 13:31:17",
-      "titles": [
-        "The overlooked impact of India's new data center policy - Data Center Dynamics"
-      ],
-      "urls": [
-        "https://www.datacenterdynamics.com/en/opinions/the-overlooked-impact-of-indias-new-data-center-policy/"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "英飛凌推出800V AI服務器電源控制器",
-      "score": 65,
-      "score_model": 65,
-      "breadth_bonus": 0,
-      "recur_penalty": 0,
-      "independent_outlets": 1,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "reason": "關鍵組件落地，支持AI基礎設施建設",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-13 19:31:17",
-      "titles": [
-        "Infineon launches high-voltage hot-swap controller for 800V AI server power architectures - electronics.economictimes.indiatimes.com"
-      ],
-      "urls": [
-        "http://electronics.economictimes.indiatimes.com/news/components-hardware/infineon-launches-high-voltage-hot-swap-controller-for-800v-ai-server-power-architectures/134912437"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "立訊精密稱美國專利訴訟影響有限",
-      "score": 65,
-      "score_model": 65,
-      "breadth_bonus": 0,
-      "recur_penalty": 0,
-      "independent_outlets": 1,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "reason": "蘋果核心供應商動態，直接關聯印度製造供應鏈穩定性",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-12 07:01:17",
-      "titles": [
-        "Chinese Apple supplier Luxshare sees little negative impact from US patent infringement probe - electronics.economictimes.indiatimes.com"
-      ],
-      "urls": [
-        "http://electronics.economictimes.indiatimes.com/amp/news/components-hardware/chinese-apple-supplier-luxshare-sees-little-negative-impact-from-us-patent-infringement-probe/134865745"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "印度AI任務GPU或服務海外客戶",
-      "score": 61,
-      "score_model": 60,
-      "breadth_bonus": 1,
-      "recur_penalty": 0,
-      "independent_outlets": 3,
-      "mirror_urls": 1,
-      "recur_flag": "",
-      "recur_first_seen": "2026-10-13",
-      "recur_days": 1,
-      "reason": "涉及1萬億盧比基礎設施及出口策略",
-      "coherent": true,
-      "size": 4,
-      "max_crawled_at": "2026-10-13 05:31:17",
-      "titles": [
-        "IndiaAI GPU providers may offer services to overseas clients to keep investments viable- Moneycontrol.com",
-        "₹10,372-cr IndiaAI mission GPUs likely to serve global clients",
-        "india: Government working groups may submit AI framework in two weeks - The Economic Times",
-        "Government is examining National AI Strategy | TechGig"
-      ],
-      "urls": [
-        "https://www.moneycontrol.com/news/business/indiaai-gpu-providers-may-offer-services-to-overseas-clients-to-keep-investments-viable-14049877.html",
-        "https://www.newsbytesapp.com/news/business/rs10372-cr-indiaai-mission-gpus-likely-to-serve-global-clients/tldr",
-        "https://economictimes.indiatimes.com/tech/technology/indiaai-may-submit-ai-rules-framework-in-two-weeks-officials/articleshow/100427900.cms",
-        "https://content.techgig.com/government-is-examining-national-ai-strategy/articleshow/78221007.cms"
-      ],
-      "sources": [
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "Dixon與Gemtek合資擴電信製造",
-      "score": 61,
-      "score_model": 60,
-      "breadth_bonus": 1,
-      "recur_penalty": 0,
-      "independent_outlets": 2,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "reason": "本土龍頭合資，強化組裝供應鏈",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-10-13 15:01:17",
-      "titles": [
-        "India's Dixon Technologies partnered with Taiwan-based Gemtek Technology through a joint venture agreement signed on October 7, 2026, to boost telecom manufacturing in India by leveraging Gemtek's expertise in high-speed optical modules and networki - Instagram",
-        "India’s electronics manufacturing is not just assembly: Dixon’s Atul B Lall - The New Indian Express"
-      ],
-      "urls": [
-        "https://www.instagram.com/p/DebHdUAjChw/",
-        "https://www.newindianexpress.com/business/2026/Oct/11/indias-electronics-manufacturing-is-not-just-assembly-dixons-atul-b-lall"
-      ],
-      "sources": [
-        "india_electronics",
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "印度數據中心投資轉向多城市組合",
-      "score": 60,
-      "score_model": 60,
-      "breadth_bonus": 0,
-      "recur_penalty": 0,
-      "independent_outlets": 1,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "2026-10-13",
-      "recur_days": 1,
-      "reason": "基礎設施容量增長，影響算力佈局",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-12 15:31:17",
-      "titles": [
-        "India data centre investments shift to multi-city portfolios, capacity nears 2GW - ET Datacenters"
-      ],
-      "urls": [
-        "https://datacenters.economictimes.indiatimes.com/news/investments-deals/india-data-centre-investments-shift-to-multi-city-portfolios-capacity-nears-2gw/134884090"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "DayOne Data Centers擬發行5億美元債券",
+      "event": "Kaynes半導體廠 ramp-up尋夥伴",
       "score": 60,
       "score_model": 60,
       "breadth_bonus": 0,
@@ -685,221 +412,7 @@
       "recur_flag": "",
       "recur_first_seen": "",
       "recur_days": 0,
-      "reason": "AI算力基礎設施融資，屬關鍵供應鏈環節，規模大",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-12 13:30:17",
-      "titles": [
-        "DayOne Data Centers discusses US$500 million bond offering - ET Datacenters"
-      ],
-      "urls": [
-        "https://datacenters.economictimes.indiatimes.com/news/investments-deals/dayone-data-centers-discusses-us500-million-bond-offering/134881708"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "GST改革忽視出口商信貸困境",
-      "score": 60,
-      "score_model": 60,
-      "breadth_bonus": 0,
-      "recur_penalty": 0,
-      "independent_outlets": 1,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "2026-10-13",
-      "recur_days": 1,
-      "reason": "稅務政策影響出口製造業成本與現金流，具產業意義",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-12 02:01:17",
-      "titles": [
-        "Exim Matters: GST reforms overlook exporters' credit plight - Business Standard"
-      ],
-      "urls": [
-        "https://www.business-standard.com/opinion/columns/exim-matters-gst-reforms-overlook-exporters-credit-plight-126101100768_1.html"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "Bhagwati從PCO轉型AI服務器製造",
-      "score": 55,
-      "score_model": 55,
-      "breadth_bonus": 0,
-      "recur_penalty": 0,
-      "independent_outlets": 1,
-      "mirror_urls": 1,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "reason": "本土企業進入高價值製造領域",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-10-12 16:31:17",
-      "titles": [
-        "From PCO pioneers to AI servers, how Bhagwati broke the biggest Indian stereotype - India Today",
-        "From PCO pioneers to AI servers, how Bhagwati broke the biggest Indian stereotype"
-      ],
-      "urls": [
-        "https://www.indiatoday.in/technology/features/story/from-pco-pioneers-to-ai-servers-how-bhagwati-broke-the-biggest-indian-stereotype-3015189-2026-10-12",
-        "https://www.msn.com/en-in/news/other/from-pco-pioneers-to-ai-servers-how-bhagwati-broke-the-biggest-indian-stereotype/ar-AA2e2gkj"
-      ],
-      "sources": [
-        "india_electronics",
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "Lam Research在印開機器人中心",
-      "score": 55,
-      "score_model": 55,
-      "breadth_bonus": 0,
-      "recur_penalty": 0,
-      "independent_outlets": 1,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "reason": "設備商本地化佈局，具象徵意義",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-13 20:30:17",
-      "titles": [
-        "Orbit & Skyline, Lam Research open robotics center in India for semicon industry - electronics.economictimes.indiatimes.com"
-      ],
-      "urls": [
-        "http://electronics.economictimes.indiatimes.com/news/ai-robotics-automation/orbit-skyline-lam-research-open-robotics-center-in-india-for-semicon-industry/134914580"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "Fundamentum深科技基金達3500億盧比",
-      "score": 55,
-      "score_model": 55,
-      "breadth_bonus": 0,
-      "recur_penalty": 0,
-      "independent_outlets": 1,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "reason": "深科技領域重要融資，顯示資本流入",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-13 18:01:17",
-      "titles": [
-        "Domestic demand lifts Nilekani-backed Fundamentum’s deeptech fund to  ₹3,500 crore"
-      ],
-      "urls": [
-        "https://www.livemint.com/companies/start-ups/fundamentum-f2a-deeptech-fund-raises-domestic-allocation-rs-2500-crore-11791875952159.html"
-      ],
-      "sources": [
-        "livemint"
-      ]
-    },
-    {
-      "event": "Amitabh Kant呼籲降低SLR以助製造信貸",
-      "score": 55,
-      "score_model": 55,
-      "breadth_bonus": 0,
-      "recur_penalty": 0,
-      "independent_outlets": 1,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "reason": "政策建議，若落實將影響製造業資金成本與擴張",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-12 06:31:17",
-      "titles": [
-        "Amitabh Kant calls for SLR cut to boost manufacturing credit - ET Manufacturing"
-      ],
-      "urls": [
-        "https://manufacturing.economictimes.indiatimes.com/amp/news/industry/amitabh-kant-calls-for-slr-cut-to-boost-manufacturing-credit/134870564"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "Infineon完成C2i收購擴展AI研發",
-      "score": 54,
-      "score_model": 65,
-      "breadth_bonus": 1,
-      "recur_penalty": 12,
-      "independent_outlets": 2,
-      "mirror_urls": 0,
-      "recur_flag": "followup",
-      "recur_first_seen": "2026-08-25",
-      "recur_days": 7,
-      "reason": "國際大廠併購，強化本地研發能力",
-      "coherent": false,
-      "size": 2,
-      "max_crawled_at": "2026-10-12 18:01:17",
-      "titles": [
-        "Bets are on for India's semiconductor space amid growing M&As, investments | Tech News - Business Standard",
-        "Infineon completes C2i acquisition to expand AI data center power R&D in India - TNGlobal"
-      ],
-      "urls": [
-        "https://www.business-standard.com/amp/technology/tech-news/bets-are-on-for-india-s-semiconductor-space-amid-growing-m-as-investments-126101100559_1.html",
-        "https://technode.global/2026/10/12/infineon-completes-c2i-acquisition-ai-data-center-power-india/"
-      ],
-      "sources": [
-        "india_electronics",
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "製造業動能推動印度自給自足",
-      "score": 51,
-      "score_model": 50,
-      "breadth_bonus": 1,
-      "recur_penalty": 0,
-      "independent_outlets": 2,
-      "mirror_urls": 1,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "reason": "宏觀政策總結，非單一具體事件",
-      "coherent": false,
-      "size": 4,
-      "max_crawled_at": "2026-10-13 11:00:22",
-      "titles": [
-        "Manufacturing Momentum:Building a Self-Reliant India - Press Information Bureau",
-        "Manufacturing Momentum:Building a Self-Reliant India - पीआईबी",
-        "Supply-chain shifts, policy push fuel India's manufacturing startup boom"
-      ],
-      "urls": [
-        "https://www.pib.gov.in/FactsheetDetails.aspx?Id=150923&reg=24&lang=15",
-        "https://www.pib.gov.in/FactsheetDetails.aspx?Id=150923&reg=3&lang=2",
-        "https://www.msn.com/en-in/news/other/supply-chain-shifts-policy-push-fuel-india-s-manufacturing-startup-boom/ar-AA2e1Gl1",
-        "https://www.livemint.com/companies/supplychain-shifts-policy-push-fuel-india-s-manufacturing-startup-boom-11791710198682.html"
-      ],
-      "sources": [
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "livemint"
-      ]
-    },
-    {
-      "event": "Kaynes半導體尋求外國合作夥伴",
-      "score": 50,
-      "score_model": 50,
-      "breadth_bonus": 0,
-      "recur_penalty": 0,
-      "independent_outlets": 1,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "reason": "本土廠商擴張策略，影響範圍較小",
+      "reason": "本土晶圓廠量產關鍵期，尋求技術合作",
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-10-13 12:31:17",
@@ -914,343 +427,70 @@
       ]
     },
     {
-      "event": "AI與雲技術定義印度下一代網絡",
-      "score": 50,
+      "event": "IBM與MeitY合作加速深科技生態",
+      "score": 56,
       "score_model": 50,
-      "breadth_bonus": 0,
-      "recur_penalty": 0,
-      "independent_outlets": 1,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "reason": "電信基礎設施技術演進方向",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-12 23:00:22",
-      "titles": [
-        "AI, Cloud and Indigenous Technology to Define India's Next-Generation Networks"
-      ],
-      "urls": [
-        "https://www.electronicsmedia.info/2026/10/12/networking-infrastructure-in-india/"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "SJS子公司81億盧比建浦那製造廠",
-      "score": 50,
-      "score_model": 50,
-      "breadth_bonus": 0,
-      "recur_penalty": 0,
-      "independent_outlets": 1,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "reason": "具體製造業投資，但規模較小且非核心電子元件",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-12 01:01:17",
-      "titles": [
-        "SJS Enterprises subsidiary to invest ₹81 crore in Pune manufacturing facility - ET Manufacturing"
-      ],
-      "urls": [
-        "https://manufacturing.economictimes.indiatimes.com/amp/news/industry/sjs-enterprises-subsidiary-to-invest-81-crore-in-pune-manufacturing-facility/134868772"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "印度電子產業面臨供應鏈挑戰",
-      "score": 46,
-      "score_model": 45,
-      "breadth_bonus": 1,
-      "recur_penalty": 0,
-      "independent_outlets": 3,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "reason": "宏觀分析而非具體事件，影響力有限",
-      "coherent": false,
-      "size": 3,
-      "max_crawled_at": "2026-10-13 12:31:17",
-      "titles": [
-        "India’s electronics boom is accelerating. Can the supply chain keep up? - Electronic Products & Technology",
-        "The Component Test: The $40 Billion Import That Decides India’s Electronics Boom – Pheonix Research",
-        "India eyes stronger chip packaging & testing capabilities - WION"
-      ],
-      "urls": [
-        "https://www.ept.ca/features/indias-electronics-boom-is-accelerating-can-its-supply-chain-keep-up/",
-        "https://www.pheonixresearch.com/article/the-component-test-the-40-billion-import-that-decides-indias-electronics-boom/",
-        "https://www.wionews.com/videos/india-eyes-stronger-chip-packaging-testing-capabilities-1791814844157"
-      ],
-      "sources": [
-        "india_electronics",
-        "india_electronics",
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "日本成印度Q1 FY27最大FDI來源",
-      "score": 46,
-      "score_model": 40,
       "breadth_bonus": 6,
       "recur_penalty": 0,
-      "independent_outlets": 8,
-      "mirror_urls": 3,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "reason": "宏觀數據，未指明具體產業連結",
-      "coherent": true,
-      "size": 13,
-      "max_crawled_at": "2026-10-13 15:31:17",
-      "titles": [
-        "Japan becomes India’s top FDI source as investment hits $5.71 billion in Q1 FY27",
-        "Japan becomes India’s top FDI source as investment hits $5.71 billion in Q1 FY27- Moneycontrol.com",
-        "Japan Becomes Top FDI Source For India In Q1 FY27 With USD 5.71 Billion Inflows - KNN India",
-        "Japan becomes India's biggest FDI source in Q1 FY27 with $5.71 billion inflows: What's driving the surge? - News | ET Now",
-        "Japan largest FDI source for India during Apr-June this quarter - Daily Excelsior",
-        "Japan Emerges as India’s Largest FDI Source in First Quarter of FY27 - Bold News",
-        "Japan Accounts For Nearly 29% Of India’s Q1 FDI Inflows - BW Businessworld",
-        "Japan FDI Investment In India: Japan Leads Foreign Direct Investment in India with $5.71 Billion in Q1 FY27, ETManufacturing",
-        "Japan Becomes India's Top FDI Source in Q1 FY27: Rediff Moneynews",
-        "Japan Tops India FDI with $5.71 Billion in Q1 FY27 - SMEStreet",
-        "India attracted $351 billion FDI 2021-2025, more than double China",
-        "India Gains As Global Firms Diversify Supply Chains, Greenfield FDI Hits $351 Billion | Times Now",
-        "India draws $351 billion in greenfield FDI, outpaces China - The Economic Times"
-      ],
-      "urls": [
-        "https://www.moneycontrol.com/news/business/economy/japan-becomes-india-s-top-fdi-source-as-investment-hits-5-71-billion-in-q1-fy27-14049463.html/amp",
-        "https://www.moneycontrol.com/news/business/economy/japan-becomes-india-s-top-fdi-source-as-investment-hits-5-71-billion-in-q1-fy27-14049463.html",
-        "https://knnindia.co.in/news/newsdetails/global/japan-becomes-top-fdi-source-for-india-in-q1-fy27-with-usd-571-billion-inflows",
-        "https://www.etnownews.com/news/japan-becomes-indias-biggest-fdi-source-in-q1-fy27-with-5-71-billion-inflows-whats-driving-the-surge-article-156317394",
-        "https://www.dailyexcelsior.com/japan-largest-fdi-source-for-india-during-apr-june-this-quarter/amp",
-        "https://boldnewsonline.com/japan-emerges-as-indias-largest-fdi-source-in-first-quarter-of-fy27/",
-        "https://www.businessworld.in/article/japan-accounts-for-nearly-29-of-india-s-q1-fdi-inflows-627983",
-        "https://manufacturing.economictimes.indiatimes.com/news/industry/japan-tops-fdi-sources-for-india-with-5-71-billion-inflows-in-q1-fy27/134893572",
-        "https://money.rediff.com/news/market/japan-becomes-india-s-top-fdi-source-in-q1-fy27/56007320261011",
-        "https://smestreet.in/global/japan-tops-india-fdi-with-571-billion-in-q1-fy27-12668666",
-        "https://www.newsbytesapp.com/news/business/india-attracted-351-billion-fdi-2021-2025-more-than-double-china/tldr",
-        "https://www.timesnownews.com/business-economy/industry/india-gains-as-global-firms-diversify-supply-chains-greenfield-fdi-hits-351-billion-article-156326763",
-        "https://economictimes.indiatimes.com/news/economy/finance/india-draws-351-billion-in-greenfield-fdi-outpaces-china/articleshow/134901834.cms"
-      ],
-      "sources": [
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "ITWA 2026展示機器人與智能製造",
-      "score": 45,
-      "score_model": 45,
-      "breadth_bonus": 0,
-      "recur_penalty": 0,
-      "independent_outlets": 1,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "reason": "行業展覽，展示製造趨勢但非重大投資",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-12 18:30:17",
-      "titles": [
-        "ITWA 2026 to Showcase Robotics, Electronics and Smart Manufacturing"
-      ],
-      "urls": [
-        "https://www.electronicsmedia.info/2026/10/12/itwa-2026/"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "醫療設備商SMT籌資200億盧比預IPO",
-      "score": 45,
-      "score_model": 45,
-      "breadth_bonus": 0,
-      "recur_penalty": 0,
-      "independent_outlets": 1,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "reason": "具體融資事件，但屬醫療領域，電子製造影響有限",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-12 17:01:17",
-      "titles": [
-        "Medical devices maker SMT in talks for  ₹200 crore pre-IPO round"
-      ],
-      "urls": [
-        "https://www.livemint.com/companies/sahajanand-medical-technologies-smt-ipo-pre-ipo-funding-samara-capital-morgan-stanley-private-equity-asia-kotak-11791791995549.html"
-      ],
-      "sources": [
-        "livemint"
-      ]
-    },
-    {
-      "event": "Empower India擴展AI與機器人業務",
-      "score": 40,
-      "score_model": 40,
-      "breadth_bonus": 0,
-      "recur_penalty": 0,
-      "independent_outlets": 1,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "reason": "單一企業擴張，行業影響力有限",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-13 10:30:43",
-      "titles": [
-        "Empower India plans AI, robotics expansion to tap growing demand"
-      ],
-      "urls": [
-        "https://www.thehindubusinessline.com/info-tech/empower-india-plans-ai-robotics-expansion-to-tap-growing-demand/article71577766.ece"
-      ],
-      "sources": [
-        "hindubusinessline"
-      ]
-    },
-    {
-      "event": "PM秘書強調數據質量對AI增長關鍵",
-      "score": 40,
-      "score_model": 40,
-      "breadth_bonus": 0,
-      "recur_penalty": 0,
-      "independent_outlets": 1,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "reason": "政策指導方針，缺乏具體執行細節",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-13 15:31:17",
-      "titles": [
-        "Data quality and harmonisation key to policy, AI-driven growth: PMs Principal Secretary P K Mishra - The Tribune"
-      ],
-      "urls": [
-        "https://www.tribuneindia.com/news/business/data-quality-and-harmonisation-key-to-policy-ai-driven-growth-pms-principal-secretary-p-k-mishra/amp/?utm=relatedarticles"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "星鏈與Jio在印衛星互聯網市場競爭",
-      "score": 40,
-      "score_model": 40,
-      "breadth_bonus": 0,
-      "recur_penalty": 0,
-      "independent_outlets": 1,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "reason": "電信基礎設施競爭，影響網絡設備供應鏈格局",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-12 13:01:17",
-      "titles": [
-        "Starlink vs Jio: Can Elon Musk make satellite internet affordable in India’s cheap data market?"
-      ],
-      "urls": [
-        "https://www.livemint.com/technology/starlink-vs-jio-can-elon-musk-make-satellite-internet-affordable-in-india-s-cheap-data-market-11791776817938.html"
-      ],
-      "sources": [
-        "livemint"
-      ]
-    },
-    {
-      "event": "IMF稱AI繁榮助推亞洲增長",
-      "score": 38,
-      "score_model": 35,
-      "breadth_bonus": 3,
-      "recur_penalty": 0,
-      "independent_outlets": 4,
+      "independent_outlets": 11,
       "mirror_urls": 1,
       "recur_flag": "",
       "recur_first_seen": "",
       "recur_days": 0,
-      "reason": "宏觀經濟評論，非具體產業事件",
-      "coherent": false,
-      "size": 6,
-      "max_crawled_at": "2026-10-13 20:30:17",
-      "titles": [
-        "IMF says AI boom is boosting Asian growth. Is India getting its share? - Firstpost",
-        "IMF: AI Investment Keeps Global Growth at 3% but Threatens Jobs - LatestLY",
-        "Global AI rush drawing capital to US, India needs more investment, says Sitharaman - Firstpost",
-        "AI boom bolstered growth in global trade, benefiting China and India, IMF says -...",
-        "FM Nirmala Sitharaman concludes Singapore visit with focus on boosting Indias infrastructure, AI, semiconductor sectors - The Tribune"
-      ],
-      "urls": [
-        "https://www.firstpost.com/business/imf-ai-boom-asian-growth-india-ai-investment-14052165.html",
-        "https://www.latestly.com/business/imf-ai-investment-keeps-global-growth-at-3-but-threatens-jobs-7641839.html",
-        "https://www.firstpost.com/business/sitharaman-global-ai-investment-capital-outflows-india-14052493.html",
-        "https://bworldonline.com/world/2026/10/13/786584/ai-boom-bolstered-growth-in-global-trade-benefiting-china-and-india-imf-says/",
-        "https://whtc.com/2026/10/12/ai-boom-bolstered-growth-in-global-trade-benefiting-china-and-india-imf-says/",
-        "https://www.tribuneindia.com/news/business/fm-nirmala-sitharaman-concludes-singapore-visit-with-focus-on-boosting-indias-infrastructure-ai-semiconductor-sectors/"
-      ],
-      "sources": [
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics",
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "IBM印度高管倡導AI監管與創新平衡",
-      "score": 36,
-      "score_model": 35,
-      "breadth_bonus": 1,
-      "recur_penalty": 0,
-      "independent_outlets": 2,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "reason": "觀點評論，無具體產業投資或政策落地",
+      "reason": "國際大廠與政府合作，推動創新生態",
       "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-10-13 21:30:17",
+      "size": 13,
+      "max_crawled_at": "2026-10-14 06:31:17",
       "titles": [
-        "IBM India’s Patel sees ‘digital swaraj’ shaping India’s AI opportunity | India Business News - The Times of India",
-        "India regulating AI without stifling innovation and investment: IBM’s Sandip Patel"
+        "IBM, MeitY Startup Hub Join Hands to Boost Deep-Tech Startups",
+        "IBM, MeitY Startup Hub sign MoU to boost India's deep-tech startup ecosystem - english.punjabkesari.com",
+        "IBM, MeitY Startup Hub sign MoU to boost India's deep-tech startup ecosystem - Lokmat Times",
+        "IBM and MeitY Startup Hub sign MoU to accelerate deep-tech ecosystem from Tier 2&3 cities",
+        "IBM and MeitY Startup Hub sign MoU to help deep-tech startups turn innovations into commercial solutions - english.punjabkesari.com",
+        "IBM Partners With MeitY To Help Indian Startups Scale AI, Quantum Technologies - indica News",
+        "IBM, MeitY Startup Hub Aim to Bridge India's Deep-Tech Scale-Up Gap",
+        "IBM, MeitY Startup Hub sign pact to support India’s deep-tech startups - The420.in",
+        "IBM And MeitY Join Hands To Support Deep Tech S… | UNI India",
+        "IBM partners with MeitY to boost India’s deep-tech startups; MD outlines vision for ‘Digital Swaraj’ | Technology News (HT Tech)",
+        "IBM and MeitY Startup Hub sign MoU to help deep-tech startups turn innovations into commercial solutions - https://www.indiagazette.com/",
+        "India regulating AI without stifling innovation and investment: IBM’s Sandip Patel",
+        "IBM India’s Patel sees ‘digital swaraj’ shaping India’s AI opportunity | India Business News - The Times of India"
       ],
       "urls": [
-        "https://timesofindia.indiatimes.com/business/india-business/ibm-indias-patel-sees-digital-swaraj-shaping-indias-ai-opportunity/articleshow/134913825.cms",
-        "https://www.thehansindia.com/business/india-regulating-ai-without-stifling-innovation-and-investment-ibms-sandip-patel-1132078"
+        "https://blitzindiamedia.com/news/ibm-meity-startup-hub-deep-tech-startup-partnership/",
+        "https://english.punjabkesari.com/business/ibm-meity-startup-hub-sign-mou-to-boost-indias-deep-tech-startup-ecosystem",
+        "https://www.lokmattimes.com/technology/ibm-meity-startup-hub-sign-mou-to-boost-indias-deep-tech-startup-ecosystem-1/",
+        "https://www.thehindubusinessline.com/companies/ibm-and-meity-startup-hub-sign-mou-to-accelerate-deep-tech-ecosystem-from-tier-23-cities/article71580016.ece",
+        "https://english.punjabkesari.com/business/ibm-and-meity-startup-hub-sign-mou-to-help-deep-tech-startups-turn-innovations-into-commercial-solutions",
+        "https://indicanews.com/ibm-partners-with-meity-to-help-indian-startups-scale-ai-quantum-technologies/",
+        "https://www.ciol.com/news/ibm-meity-startup-hub-aim-to-bridge-indias-deep-tech-scale-up-gap-12672367",
+        "https://the420.in/ibm-meity-startup-hub-deep-tech-ai-quantum-india/",
+        "https://www.uniindia.com/business-economy/technology-india-ibm-meity-startup-hub-partnership/212913",
+        "https://www.hindustantimes.com/technology/ibm-partners-with-meity-to-boost-india-s-deep-tech-startups-md-outlines-vision-for-digital-swaraj-101791882003982.html",
+        "https://www.indiagazette.com/news/279371814/ibm-and-meity-startup-hub-sign-mou-to-help-deep-tech-startups-turn-innovations-into-commercial-solutions",
+        "https://www.thehansindia.com/business/india-regulating-ai-without-stifling-innovation-and-investment-ibms-sandip-patel-1132078",
+        "https://timesofindia.indiatimes.com/business/india-business/ibm-indias-patel-sees-digital-swaraj-shaping-indias-ai-opportunity/articleshow/134913825.cms"
       ],
       "sources": [
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "hindubusinessline",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
+        "india_electronics",
         "india_electronics",
         "india_electronics"
       ]
     },
     {
-      "event": "Essencore與Syrma SGS合作引入KLEVV",
-      "score": 35,
-      "score_model": 35,
+      "event": "馬邦電信製造區獲60億投資",
+      "score": 55,
+      "score_model": 55,
       "breadth_bonus": 0,
       "recur_penalty": 0,
       "independent_outlets": 1,
@@ -1258,42 +498,17 @@
       "recur_flag": "",
       "recur_first_seen": "2026-10-10",
       "recur_days": 2,
-      "reason": "產品線擴展，產業影響有限",
+      "reason": "具體區域性投資，擴增電信設備產能",
       "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-12 17:01:17",
-      "titles": [
-        "Essencore Partners With Syrma SGS, Brings KLEVV Products to India - Electronics For You BUSINESS"
-      ],
-      "urls": [
-        "https://www.electronicsforyou.biz/industry-buzz/essencore-partners-with-syrma-sgs-brings-klevv-products-to-india/"
-      ],
-      "sources": [
-        "india_electronics"
-      ]
-    },
-    {
-      "event": "ET Startup Awards表彰AI與芯片創業",
-      "score": 30,
-      "score_model": 30,
-      "breadth_bonus": 0,
-      "recur_penalty": 0,
-      "independent_outlets": 1,
-      "mirror_urls": 1,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "reason": "獎項頒發，非實質產業變動",
-      "coherent": false,
       "size": 2,
-      "max_crawled_at": "2026-10-12 13:30:17",
+      "max_crawled_at": "2026-10-13 15:01:17",
       "titles": [
-        "ET Startup Awards 2026 | Govt backing and patient capital propel India's leap into AI and chips: Satyan Gajwani",
-        "ET Startup Awards 2026 | Govt backing and patient capital propel India's leap into AI and chips: Satyan Ga - The Economic Times"
+        "MP Telecom Manufacturing Zone attracts ₹6,000 crore investment",
+        "MP Telecom Manufacturing Zone attracts ₹6,000 crore investment - Communications Today"
       ],
       "urls": [
-        "https://www.msn.com/en-in/news/other/et-startup-awards-2026-govt-backing-and-patient-capital-propel-indias-leap-into-ai-and-chips-satyan-gajwani/ar-AA2e1SQv",
-        "https://m.economictimes.com/tech/startups/et-startup-awards-2026-govt-backing-and-patient-capital-propel-indias-leap-into-ai-and-chips-satyan-gajwani/amp_articleshow/134874377.cms"
+        "https://www.communicationstoday.co.in/mp-telecom-manufacturing-zone-attracts-₹6000-crore-investment/",
+        "https://www.communicationstoday.co.in/mp-telecom-manufacturing-zone-attracts-%E2%82%B96000-crore-investment/"
       ],
       "sources": [
         "india_electronics",
@@ -1301,9 +516,9 @@
       ]
     },
     {
-      "event": "Zebra Technologies在印開設兩家服務中心",
-      "score": 30,
-      "score_model": 30,
+      "event": "阿特拉斯·科普柯押注半導體業務",
+      "score": 55,
+      "score_model": 55,
       "breadth_bonus": 0,
       "recur_penalty": 0,
       "independent_outlets": 1,
@@ -1311,24 +526,55 @@
       "recur_flag": "",
       "recur_first_seen": "",
       "recur_days": 0,
-      "reason": "服務網絡擴展，對製造業供應鏈影響較小",
+      "reason": "工業巨頭擴展半導體相關設備服務",
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-10-13 18:31:17",
+      "max_crawled_at": "2026-10-13 22:30:32",
       "titles": [
-        "Zebra Technologies opens two new India service centres - electronics.economictimes.indiatimes.com"
+        "Industrial gear company Atlas Copco India bets on turnkey expertise for semicon business - electronics.economictimes.indiatimes.com"
       ],
       "urls": [
-        "http://electronics.economictimes.indiatimes.com/news/supply-chain-trade/zebra-technologies-opens-two-new-india-service-centres/134910364"
+        "http://electronics.economictimes.indiatimes.com/news/supply-chain-trade/industrial-gear-company-atlas-copco-india-bets-on-turnkey-expertise-for-semicon-business/134916182"
       ],
       "sources": [
         "india_electronics"
       ]
     },
     {
-      "event": "electronica Munich 2026展會亮點",
-      "score": 15,
-      "score_model": 15,
+      "event": "印度電子產值激增供應鏈受考",
+      "score": 51,
+      "score_model": 50,
+      "breadth_bonus": 1,
+      "recur_penalty": 0,
+      "independent_outlets": 2,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "反映產業規模擴張與基礎設施瓶頸現狀",
+      "coherent": true,
+      "size": 3,
+      "max_crawled_at": "2026-10-14 01:01:17",
+      "titles": [
+        "India’s electronics boom is accelerating. Can the supply chain keep up? - Electronic Products & Technology",
+        "India’s electronics boom is accelerating. Can the supply chain keep up? - Electronic Products & TechnologyElectronic Products & Technology",
+        "India's electronics output jumps 4x to Rs 11.5 trillion; components to drive next growth phase - Moneycontrol.com"
+      ],
+      "urls": [
+        "https://www.ept.ca/features/indias-electronics-boom-is-accelerating-can-its-supply-chain-keep-up/",
+        "https://www.ept.ca/features/indias-electronics-boom-is-accelerating-can-its-supply-chain-keep-up",
+        "https://www.moneycontrol.com/news/consumer/electronics/india-s-electronics-manufacturing-sector-entering-next-growth-phase-as-component-push-gains-momentum-13953354.html/amp"
+      ],
+      "sources": [
+        "india_electronics",
+        "india_electronics",
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "莫迪政府推動製造業自立願景",
+      "score": 50,
+      "score_model": 50,
       "breadth_bonus": 0,
       "recur_penalty": 0,
       "independent_outlets": 1,
@@ -1336,7 +582,144 @@
       "recur_flag": "",
       "recur_first_seen": "",
       "recur_days": 0,
-      "reason": "海外展會資訊，與印度本土產業直接關聯度低",
+      "reason": "宏觀政策願景，缺乏具體產業指標",
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-10-13 23:00:50",
+      "titles": [
+        "Manufacturing Momentum:Building a Self-Reliant India - www.pib.gov.in",
+        "Manufacturing Momentum:Building a Self-Reliant India - पीआईबी"
+      ],
+      "urls": [
+        "https://www.pib.gov.in/FactsheetDetails.aspx?Id=150923&lang=1&reg=+3",
+        "https://www.pib.gov.in/FactsheetDetails.aspx?Id=150923&reg=3&lang=2"
+      ],
+      "sources": [
+        "india_electronics",
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "DHL加入半導體物流競標",
+      "score": 46,
+      "score_model": 45,
+      "breadth_bonus": 1,
+      "recur_penalty": 0,
+      "independent_outlets": 2,
+      "mirror_urls": 1,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "物流配套進展，非核心製造或政策突破",
+      "coherent": false,
+      "size": 3,
+      "max_crawled_at": "2026-10-13 12:31:17",
+      "titles": [
+        "DHL joins NX Group in race to build semiconductor logistics in India",
+        "DHL joins NX Group in race to build semiconductor logistics in India - TradingView",
+        "Tata's Dholera Fab Sold Out Before First Wafer: Execution Is Now the Test — Die Signal"
+      ],
+      "urls": [
+        "https://www.livemint.com/companies/news/dhl-joins-nx-group-in-race-to-build-semiconductor-logistics-in-india-11791788224057.html",
+        "https://www.tradingview.com/news/moodys:577ee1fc05ed1:0-dhl-joins-nx-group-in-race-to-build-semiconductor-logistics-in-india/",
+        "https://diesignal.com/articles/tata-s-dholera-fab-sold-out-before-start-commitments-now-meet-reality-80a103da"
+      ],
+      "sources": [
+        "livemint",
+        "india_electronics",
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "北方邦向韓企推半導體機會",
+      "score": 45,
+      "score_model": 45,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 1,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "招商推廣階段，尚未形成具體投資落地",
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-10-14 07:30:17",
+      "titles": [
+        "UP pitches Korea City, semiconductor opportunities to South Korean investors - The Times of India",
+        "UP pitches Korea City, semiconductor opportunities to South Korean investors"
+      ],
+      "urls": [
+        "https://timesofindia.indiatimes.com/city/lucknow/up-pitches-korea-city-semiconductor-opportunities-to-south-korean-investors/articleshow/134925712.cms",
+        "https://www.msn.com/en-in/money/economy/up-pitches-korea-city-semiconductor-opportunities-to-south-korean-investors/ar-AA2eacmU"
+      ],
+      "sources": [
+        "india_electronics",
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "英飛凌推出800V AI伺服器電源控制器",
+      "score": 45,
+      "score_model": 45,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "2026-10-13",
+      "recur_days": 1,
+      "reason": "全球大廠新產品，關聯AI基礎設施",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-13 19:31:17",
+      "titles": [
+        "Infineon launches high-voltage hot-swap controller for 800V AI server power architectures - electronics.economictimes.indiatimes.com"
+      ],
+      "urls": [
+        "http://electronics.economictimes.indiatimes.com/news/components-hardware/infineon-launches-high-voltage-hot-swap-controller-for-800v-ai-server-power-architectures/134912437"
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "奧里薩邦建176億盧比災備資料中心",
+      "score": 45,
+      "score_model": 45,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "基礎設施投資，關聯數位製造支援",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-14 01:01:17",
+      "titles": [
+        "Odisha to set up ₹176.83 cr disaster recovery data centre in Keonjhar"
+      ],
+      "urls": [
+        "https://www.business-standard.com/industry/news/odisha-to-set-up-176-83-cr-disaster-recovery-data-centre-in-keonjhar-126101301213_1.html"
+      ],
+      "sources": [
+        "business_standard"
+      ]
+    },
+    {
+      "event": "Vimag Labs印度廠營運啟動",
+      "score": 40,
+      "score_model": 40,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "多則新聞，選取具實體運營意義者",
       "coherent": false,
       "size": 3,
       "max_crawled_at": "2026-10-13 21:01:17",
@@ -1357,9 +740,34 @@
       ]
     },
     {
-      "event": "SMT貼裝機供應商市場概覽",
-      "score": 10,
-      "score_model": 10,
+      "event": "解讀印度新數據中心政策影響",
+      "score": 40,
+      "score_model": 40,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "2026-10-13",
+      "recur_days": 1,
+      "reason": "政策分析文章，非新發布的政策或事件本身",
+      "coherent": false,
+      "size": 1,
+      "max_crawled_at": "2026-10-13 13:31:17",
+      "titles": [
+        "The overlooked impact of India's new data center policy - Data Center Dynamics"
+      ],
+      "urls": [
+        "https://www.datacenterdynamics.com/en/opinions/the-overlooked-impact-of-indias-new-data-center-policy/"
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "Vimag Labs印度製造廠正式營運",
+      "score": 40,
+      "score_model": 40,
       "breadth_bonus": 0,
       "recur_penalty": 0,
       "independent_outlets": 1,
@@ -1367,7 +775,244 @@
       "recur_flag": "",
       "recur_first_seen": "",
       "recur_days": 0,
-      "reason": "行業概覽文章，無具體事件或投資影響",
+      "reason": "具體製造設施啟動，屬電子製造環節",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-14 09:01:17",
+      "titles": [
+        "Vimag Labs Manufacturing Facility in India Begins Operations - Electronics Media"
+      ],
+      "urls": [
+        "https://www.electronicsmedia.info/2026/10/13/vimag-labs-manufacturing-facility/"
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "Fundamentum深科技基金募資達35億盧比",
+      "score": 40,
+      "score_model": 40,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "資金規模中等，屬深科技投資領域",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-13 18:01:17",
+      "titles": [
+        "Domestic demand lifts Nilekani-backed Fundamentum’s deeptech fund to  ₹3,500 crore"
+      ],
+      "urls": [
+        "https://www.livemint.com/companies/start-ups/fundamentum-f2a-deeptech-fund-raises-domestic-allocation-rs-2500-crore-11791875952159.html"
+      ],
+      "sources": [
+        "livemint"
+      ]
+    },
+    {
+      "event": "Tata主席警示半導體需求風險",
+      "score": 36,
+      "score_model": 35,
+      "breadth_bonus": 1,
+      "recur_penalty": 0,
+      "independent_outlets": 2,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "管理層風險提示，屬觀點而非新事件",
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-10-14 02:30:17",
+      "titles": [
+        "N Chandrasekaran flags demand and management risks in India's semiconductor push - Global Sources",
+        "Chandrasekaran Says India Must Think Long Term on Semiconductors"
+      ],
+      "urls": [
+        "https://www.globalsources.com/sourcing-digest/n-chandrasekaran-flags-demand-and-management-risks-in-india-s-semiconductor-push/",
+        "https://english.newstrack.com/tech-automobile/chandrasekaran-says-india-must-think-long-term-on-semiconductors-639722"
+      ],
+      "sources": [
+        "india_electronics",
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "Agrani Labs CEO讚政府催化半導體生態",
+      "score": 35,
+      "score_model": 35,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "業界評論，無新產能或政策變動",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-13 22:30:32",
+      "titles": [
+        "'The government has catalysed Indian semiconductor ecosystem': Dheemanth Nagaraj, CEO, Agrani Labs - The Economic Times"
+      ],
+      "urls": [
+        "https://m.economictimes.com/news/short-videos/the-government-has-catalysed-indian-semiconductor-ecosystem-dheemanth-nagaraj-ceo-agrani-labs/videoshow/134919241.cms"
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "Empower India擴充AI與機器人業務",
+      "score": 35,
+      "score_model": 35,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "服務業擴張，對製造業直接影響有限",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-13 10:30:43",
+      "titles": [
+        "Empower India plans AI, robotics expansion to tap growing demand"
+      ],
+      "urls": [
+        "https://www.thehindubusinessline.com/info-tech/empower-india-plans-ai-robotics-expansion-to-tap-growing-demand/article71577766.ece"
+      ],
+      "sources": [
+        "hindubusinessline"
+      ]
+    },
+    {
+      "event": "AAA Technologies擴編千人以推AI資安",
+      "score": 35,
+      "score_model": 35,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "企業人力擴張，屬軟體與服務領域",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-13 22:00:44",
+      "titles": [
+        "AAA Technologies plans to expand workforce tenfold to 1,000 amid AI cybersecurity push"
+      ],
+      "urls": [
+        "https://www.thehindubusinessline.com/info-tech/aaa-technologies-plans-to-expand-workforce-tenfold-to-1000-amid-ai-cybersecurity-push/article71579656.ece"
+      ],
+      "sources": [
+        "hindubusinessline"
+      ]
+    },
+    {
+      "event": "Zebra開兩印度服務中心",
+      "score": 35,
+      "score_model": 35,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "IT服務，非製造業核心",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-13 18:31:17",
+      "titles": [
+        "Zebra Technologies opens two new India service centres - electronics.economictimes.indiatimes.com"
+      ],
+      "urls": [
+        "http://electronics.economictimes.indiatimes.com/news/supply-chain-trade/zebra-technologies-opens-two-new-india-service-centres/134910364"
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "財政部長強調需加大AI投資",
+      "score": 31,
+      "score_model": 30,
+      "breadth_bonus": 1,
+      "recur_penalty": 0,
+      "independent_outlets": 3,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "外交訪談表態，無具體產業承諾或行動",
+      "coherent": false,
+      "size": 3,
+      "max_crawled_at": "2026-10-14 02:30:17",
+      "titles": [
+        "Global AI rush drawing capital to US, India needs more investment, says Sitharaman - Firstpost",
+        "FM Nirmala Sitharaman concludes Singapore visit with focus on boosting Indias infrastructure, AI, semiconductor sectors - The Tribune",
+        "US, India must deepen cooperation on AI, semiconductors for shared security: Gina Raimondo - ET Manufacturing"
+      ],
+      "urls": [
+        "https://www.firstpost.com/business/sitharaman-global-ai-investment-capital-outflows-india-14052493.html",
+        "https://www.tribuneindia.com/news/business/fm-nirmala-sitharaman-concludes-singapore-visit-with-focus-on-boosting-indias-infrastructure-ai-semiconductor-sectors/",
+        "https://manufacturing.economictimes.indiatimes.com/news/hi-tech/us-india-must-deepen-cooperation-on-ai-semiconductors-for-shared-security-gina-raimondo/134920319"
+      ],
+      "sources": [
+        "india_electronics",
+        "india_electronics",
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "官員強調AI政策需數據系統整合",
+      "score": 31,
+      "score_model": 30,
+      "breadth_bonus": 1,
+      "recur_penalty": 0,
+      "independent_outlets": 2,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "政策建議性質，無具體產業行動",
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-10-14 03:30:17",
+      "titles": [
+        "India Needs Harmonised Data Systems for AI-era Policymaking, P.K. Mishra Says - The420.in",
+        "Data quality and harmonisation key to policy, AI-driven growth: PMs Principal Secretary P K Mishra - The Tribune"
+      ],
+      "urls": [
+        "https://the420.in/india-data-harmonisation-ai-policymaking-pk-mishra-mospi/",
+        "https://www.tribuneindia.com/news/business/data-quality-and-harmonisation-key-to-policy-ai-driven-growth-pms-principal-secretary-p-k-mishra/amp/?utm=relatedarticles"
+      ],
+      "sources": [
+        "india_electronics",
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "SMT貼片機供應商名單發布",
+      "score": 30,
+      "score_model": 30,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "一般性產業資訊，無重大事件影響",
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-10-13 13:00:17",
@@ -1376,6 +1021,31 @@
       ],
       "urls": [
         "https://www.electronicsforyou.biz/electronics-manufacturing-india-new-and-features/leading-suppliers-of-smt-pick-place-machines/"
+      ],
+      "sources": [
+        "india_electronics"
+      ]
+    },
+    {
+      "event": "分析印度工廠生產力落後原因",
+      "score": 20,
+      "score_model": 20,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "reason": "一般性產業評論，無具體政策或投資動態",
+      "coherent": false,
+      "size": 1,
+      "max_crawled_at": "2026-10-14 09:31:17",
+      "titles": [
+        "Why India's factories struggle to keep up with the world"
+      ],
+      "urls": [
+        "https://www.livemint.com/industry/india-factory-working-hours-rules-11791882358324.html"
       ],
       "sources": [
         "india_electronics"
