@@ -54,6 +54,10 @@ This repository publishes **outputs only** — the crawler/analysis code, the fu
 | `pib_india.py` | PIB India 印度新聞局 | BeautifulSoup scraping（ASP.NET postback；發稿部會放 company 欄）|
 | `eetimes_india.py` | EE Times India | BeautifulSoup scraping |
 | `silicon_semiconductor_china.py` | Silicon Semiconductor China | BeautifulSoup scraping |
+| `edb_singapore.py` | 🇸🇬 EDB 新加坡經發局 | JSON API（`/api/optical/published/insights`，前端自己打的那支；頁面是 Next.js SPA，靜態 HTML 無任何文章連結）。**只訂 `type=press-releases`**，News & Insights／Success Stories 不要；`company` 放 EDB 標的產業別 |
+| `mida_malaysia.py` | 🇲🇾 MIDA 馬來西亞投資局 | Native RSS（`/media-release/feed/`；站台主 feed 全是招商宣傳專欄，不要訂）＋**投資案閘**，只留具體投資公告，研討會／MoU／輔導計畫／行政公告／純評論全濾掉，見下 |
+| `boi_thailand.py` | 🇹🇭 BOI 泰國投資委員會 | **獨立 timer + 交換檔**（同 india_search／sea_search）。`boi.go.th` 擋在 Imperva/Incapsula 後面，要 `playwright_stealth` ＋ cookie-bounce 重載才進得去，所以抓取放在 `boi_fetch.timer`（08:07／20:07，一天 2 顆 Chromium 而不是 48 顆），本模組只讀 `data/boi_thailand.jsonl`、零網路 I/O。同樣過投資案閘；內文不抓（`content_scraper.EXCLUDE`）|
+| `vir_vietnam.py` | 🇻🇳 VIR 越南投資評論 | Native RSS（`/rss_feed/`；各版面的 `rss_feed/` 實測回完全相同的 25 筆，不能靠訂版面縮範圍）＋ 兩道既有閘：`sea_electronics.strong_countries()` 須含 VN（不能用 `country_of`——VIR 是越南媒體，弱訊號對它永遠成立）＋ `tech_filter`（第 14 個消費者）。**越南沒有可用的政府招商公告站**：MPI 已併入財政部且站台回 HTTP 500、FIA 無 DNS，詳見檔頭 |
 | `edge_markets.py` | The Edge Malaysia | Next.js `__NEXT_DATA__` JSON |
 | `vnexpress.py` | VnExpress | BeautifulSoup scraping |
 | `techwireasia.py` | Tech Wire Asia | BeautifulSoup scraping |
