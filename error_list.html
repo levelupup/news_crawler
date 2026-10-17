@@ -13,6 +13,10 @@
     background: #fff; cursor: pointer; font-size: .85em; color: #444;
     transition: background .15s, color .15s;
   }
+  /* 置頂來源（PINNED_FILTERS）：橘框白底，和後面那一長排灰框鈕一眼分得開。
+     規則順序是刻意的 —— .pinned 寫在 :hover / .active 之前，兩者同為 (0,2,0) 特異度，
+     後寫的贏，所以選中時仍然是一般的藍底白字。 */
+  .filter-btn.pinned { border-color: #e67e22; color: #b35309; font-weight: bold; }
   .filter-btn:hover { background: #e0e0f0; }
   .filter-btn.active { background: #4466cc; color: #fff; border-color: #4466cc; }
   p.count { font-size: .85em; color: #666; margin: 4px 0 8px; }
@@ -58,15 +62,15 @@
 </head>
 <body>
   <h1>News Crawler — Error List <span class="badge err-badge">3 error(s)</span></h1>
-  <p class="meta">Generated: 2026-10-17 08:01:17</p>
+  <p class="meta">Generated: 2026-10-17 08:30:17</p>
   <table>
     <thead>
       <tr><th>Domain</th><th>Error</th><th>Crawled At</th></tr>
     </thead>
     <tbody>
-<tr><td class="domain">商業周刊</td><td class="err">Returned 0 articles (possible block or empty feed)</td><td class="ts">2026-10-17 08:01:17</td></tr>
-<tr><td class="domain">觀察者網 經濟</td><td class="err">Returned 0 articles (possible block or empty feed)</td><td class="ts">2026-10-17 08:01:17</td></tr>
-<tr><td class="domain">Tech Wire Asia</td><td class="err">('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))</td><td class="ts">2026-10-17 08:01:17</td></tr>
+<tr><td class="domain">商業周刊</td><td class="err">Returned 0 articles (possible block or empty feed)</td><td class="ts">2026-10-17 08:30:17</td></tr>
+<tr><td class="domain">觀察者網 經濟</td><td class="err">Returned 0 articles (possible block or empty feed)</td><td class="ts">2026-10-17 08:30:17</td></tr>
+<tr><td class="domain">Tech Wire Asia</td><td class="err">('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))</td><td class="ts">2026-10-17 08:30:17</td></tr>
     </tbody>
   </table>
 </body>
