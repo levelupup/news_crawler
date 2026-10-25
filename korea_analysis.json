@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25 08:45:18",
+  "generated": "2026-10-25 12:45:18",
   "window_days": 2,
   "sources": [
     "businesskorea",
@@ -9,21 +9,21 @@
     "yonhap",
     "zdkorea"
   ],
-  "input_titles": 44,
-  "events": 8,
+  "input_titles": 96,
+  "events": 17,
   "timings_seconds": {
-    "stage1_cluster": 10.4,
-    "stage2_name_score": 22.0,
-    "total": 32.4
+    "stage1_cluster": 8.1,
+    "stage2_name_score": 51.7,
+    "total": 59.8
   },
   "stories": [
     {
-      "event": "三星電子HBM優勢難掩記憶體短板",
+      "event": "記憶體產業結構性挑戰與三星困境",
       "score": 72,
-      "reason": "AI帶動HBM需求，但DRAM整體表現拖累韓國潛在增長率。",
+      "reason": "剖析記憶體對韓國經濟之關鍵影響",
       "tags": [
-        "半導體",
-        "記憶體"
+        "記憶體",
+        "供應鏈"
       ],
       "coherent": false,
       "size": 4,
@@ -48,9 +48,33 @@
       ]
     },
     {
-      "event": "三星顯示獲蘋果MacBook OLED供貨",
+      "event": "韓晶片出口帶動經常帳盈餘",
       "score": 65,
-      "reason": "打入蘋果高階筆電供應鏈，確認OLED技術實力。",
+      "reason": "反映韓國半導體產業全球競爭力",
+      "tags": [
+        "半導體",
+        "供應鏈"
+      ],
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-10-25 09:30:17",
+      "titles": [
+        "S. Korea's Q2 current account surplus ranks 2nd on robust chip exports",
+        "Samsung Electronics, SK hynix set to report Q3 earnings this week"
+      ],
+      "urls": [
+        "https://en.yna.co.kr/view/AEN20261025000800320",
+        "https://en.yna.co.kr/view/AEN20261025001200320"
+      ],
+      "sources": [
+        "yonhap",
+        "yonhap"
+      ]
+    },
+    {
+      "event": "三星D獲蘋果MacBook OLED供貨",
+      "score": 60,
+      "reason": "三星顯示打入蘋果高階供應鏈",
       "tags": [
         "顯示面板",
         "供應鏈"
@@ -69,9 +93,9 @@
       ]
     },
     {
-      "event": "記憶體大廠推行利潤連動績效獎金",
+      "event": "記憶體大廠採行利潤連動薪酬制",
       "score": 50,
-      "reason": "產業獲利改善訊號，反映記憶體市場復甦趨勢。",
+      "reason": "產業薪資結構重大制度性改變",
       "tags": [
         "半導體",
         "供應鏈"
@@ -90,9 +114,53 @@
       ]
     },
     {
-      "event": "李正延倡建韓國本土AI伺服器生態",
+      "event": "三星新機規格與Exynos效能測試",
       "score": 45,
-      "reason": "政策倡議推動本土AI基礎設施，但屬意向性言論。",
+      "reason": "終端產品規格與晶片效能資訊",
+      "tags": [
+        "電子政策"
+      ],
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-10-25 09:30:17",
+      "titles": [
+        "갤럭시S27 울트라·프로 배터리 인증 포착…용량 얼마나 늘까",
+        "Exynos 2700 outperforms Qualcomm flagship in Samsung tests by about 20%"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261024071650",
+        "https://biz.chosun.com/en/en-it/2026/10/25/L63XUNNFPNEHVG2QWAHWF5J24Q/"
+      ],
+      "sources": [
+        "zdkorea",
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "中國AI晶片廠Cambricon營收激增",
+      "score": 45,
+      "reason": "競爭對手成長反映國產化趨勢",
+      "tags": [
+        "AI算力",
+        "半導體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-24 23:30:07",
+      "titles": [
+        "'중국판 엔비디아' 캠브리콘, 매출 급등…\"국산화 노력 수혜\""
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261024160155"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "李正延籲建韓國AI伺服器生態系",
+      "score": 40,
+      "reason": "政府高層推動基礎設施建設意向",
       "tags": [
         "電子政策",
         "AI算力"
@@ -111,50 +179,30 @@
       ]
     },
     {
-      "event": "中國Cambricon營收激增受惠國產化",
+      "event": "施耐德發布AI資料中心電源模組",
       "score": 40,
-      "reason": "競爭對手因美國制裁受益，間接影響韓國半導體市場格局。",
+      "reason": "關鍵基礎設施元件之新產品發表",
       "tags": [
         "AI算力",
-        "供應鏈"
+        "擴產投資"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-10-24 23:30:07",
+      "max_crawled_at": "2026-10-25 10:00:17",
       "titles": [
-        "'중국판 엔비디아' 캠브리콘, 매출 급등…\"국산화 노력 수혜\""
+        "Schneider Electric Launches 2.5MW Power Module for AI Data Centers"
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20261024160155"
+        "https://www.thelec.net/news/articleView.html?idxno=14872"
       ],
       "sources": [
-        "zdkorea"
+        "thelec"
       ]
     },
     {
-      "event": "三星Galaxy S27電池容量曝光",
+      "event": "微chip推AI加速器Turnkey方案",
       "score": 35,
-      "reason": "新機規格洩露，影響消費者預期但產業衝擊有限。",
-      "tags": [
-        "電池材料"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-24 13:30:17",
-      "titles": [
-        "갤럭시S27 울트라·프로 배터리 인증 포착…용량 얼마나 늘까"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261024071650"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "微晶片推出結合Halo的AI加速器方案",
-      "score": 30,
-      "reason": "國際廠商產品動態，對韓國本土產業直接影響較小。",
+      "reason": "海外業者推出AI硬體解決方案",
       "tags": [
         "AI算力"
       ],
@@ -172,9 +220,90 @@
       ]
     },
     {
-      "event": "iPhone Duo摺疊機螢幕裂開問題",
-      "score": 10,
-      "reason": "單一產品品質爭議，屬消費層面事件。",
+      "event": "PNT展出捲對捲顯示裝置",
+      "score": 35,
+      "reason": "韓國裝置商拓展海外市場動向",
+      "tags": [
+        "半導體設備",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-25 10:00:17",
+      "titles": [
+        "PNT to Showcase Roll-to-Roll Equipment at China Display and Film Exhibitions"
+      ],
+      "urls": [
+        "https://www.thelec.net/news/articleView.html?idxno=14871"
+      ],
+      "sources": [
+        "thelec"
+      ]
+    },
+    {
+      "event": "電池供應商拒單現象之評論",
+      "score": 30,
+      "reason": "產業趨勢之觀點性報導",
+      "tags": [
+        "電池"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-25 10:00:17",
+      "titles": [
+        "[Opinion] When Battery Suppliers Turn Down Orders"
+      ],
+      "urls": [
+        "https://www.thelec.net/news/articleView.html?idxno=14898"
+      ],
+      "sources": [
+        "thelec"
+      ]
+    },
+    {
+      "event": "三星擴大下半年旗下企業招募",
+      "score": 30,
+      "reason": "龍頭企業人力資源擴張動向",
+      "tags": [
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-25 12:31:17",
+      "titles": [
+        "Samsung expands second-half hiring across 19 affiliates, interviews set for November"
+      ],
+      "urls": [
+        "https://biz.chosun.com/en/en-it/2026/10/25/OEWQSDBPERG25BVIMG2WLHSXNE/"
+      ],
+      "sources": [
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "Oracle AI World 2026即將開幕",
+      "score": 25,
+      "reason": "國際軟體平臺活動資訊",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-25 09:01:17",
+      "titles": [
+        "오라클 AI 월드 2026, 25일 개막…AI 사업 성과 입증 나선다"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261024120646"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "iPhone雙螢幕鉸鏈引發面板破裂",
+      "score": 20,
+      "reason": "終端產品設計缺陷之技術問題",
       "tags": [
         "顯示面板"
       ],
@@ -189,6 +318,66 @@
       ],
       "sources": [
         "zdkorea"
+      ]
+    },
+    {
+      "event": "歐盟選定5項6G研究計畫",
+      "score": 20,
+      "reason": "韓國企業未直接參與，屬海外政策。",
+      "tags": [
+        "電子政策"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-25 09:01:17",
+      "titles": [
+        "EU, 370억원 투입 6G 연구사업 5개 선정"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261025075905"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "Starlink擬進軍美國電信市場",
+      "score": 15,
+      "reason": "海外電信基礎設施變動",
+      "tags": [
+        "電子政策"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-24 07:01:17",
+      "titles": [
+        "스타링크, 美이통시장 직접 진출...기지국 8만개 구축 추진"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261024053025"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "PC出貨衰退蘋果華碩市佔增",
+      "score": 10,
+      "reason": "終端市場動態，對韓國核心產業影響有限。",
+      "tags": [
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-25 12:31:17",
+      "titles": [
+        "Pc shipments sink 21% as Apple, Asus grow share amid market slump"
+      ],
+      "urls": [
+        "https://biz.chosun.com/en/en-it/2026/10/25/VTNGCYFH65ATLCM2NABOZ5Y6GI/"
+      ],
+      "sources": [
+        "chosunbiz"
       ]
     }
   ]
