@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01 11:00:18",
+  "generated": "2026-11-01 23:00:01",
   "window_days": 3,
   "sources": [
     "boi_thailand",
@@ -11,19 +11,19 @@
     "vir_vietnam",
     "vnexpress"
   ],
-  "input_titles": 217,
-  "out_of_scope_rows": 30,
-  "events": 27,
-  "gated_out": 18,
+  "input_titles": 252,
+  "out_of_scope_rows": 34,
+  "events": 28,
+  "gated_out": 21,
   "score_floor": 55,
   "timings_seconds": {
-    "stage1_cluster": 8.3,
-    "stage2_name_score": 88.4,
-    "total": 96.7
+    "stage1_cluster": 18.4,
+    "stage2_name_score": 170.4,
+    "total": 188.8
   },
   "stories": [
     {
-      "event": "AWS 宣佈新加坡千億投資與 AI 旗艦計畫",
+      "event": "AWS 斥資 120 億新元擴建新加坡 AI 基礎設施",
       "country": "SG",
       "score": 96,
       "score_model": 95,
@@ -33,13 +33,14 @@
       "independent_outlets": 2,
       "mirror_urls": 0,
       "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
+      "recur_first_seen": "2026-11-01",
+      "recur_days": 1,
       "tags": [
+        "資料中心",
         "跨國投資",
-        "資料中心"
+        "AI算力"
       ],
-      "reason": "AWS 巨額投資新加坡，具指標性意義。",
+      "reason": "AWS 巨額投資新加坡，屬頂級跨國擴產與 AI 基建。",
       "coherent": true,
       "size": 3,
       "max_crawled_at": "2026-10-31 14:01:17",
@@ -60,7 +61,7 @@
       ]
     },
     {
-      "event": "英特爾檳城晶圓廠預計 2026 年啟用",
+      "event": "英特爾檳城晶圓廠預計 2026 年投產",
       "country": "MY",
       "score": 86,
       "score_model": 85,
@@ -70,13 +71,13 @@
       "independent_outlets": 2,
       "mirror_urls": 0,
       "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
+      "recur_first_seen": "2026-11-01",
+      "recur_days": 1,
       "tags": [
         "半導體",
         "擴產"
       ],
-      "reason": "Intel 在檳城設廠為重大實體製造投資。",
+      "reason": "Intel 檳城廠投產時程確認，屬關鍵製造節點。",
       "coherent": false,
       "size": 2,
       "max_crawled_at": "2026-11-01 03:31:17",
@@ -94,46 +95,49 @@
       ]
     },
     {
-      "event": "Google 在新加坡設立 AI 研究樞紐",
+      "event": "Google在新加坡設立AI醫療研究樞紐",
       "country": "SG",
-      "score": 86,
-      "score_model": 75,
+      "score": 81,
+      "score_model": 70,
       "breadth_bonus": 11,
       "recur_penalty": 0,
       "official_sources": [
         "edb_singapore"
       ],
-      "independent_outlets": 2,
+      "independent_outlets": 3,
       "mirror_urls": 0,
       "recur_flag": "",
       "recur_first_seen": "2026-10-30",
-      "recur_days": 2,
+      "recur_days": 3,
       "tags": [
-        "AI算力",
+        "AI軟體",
         "跨國投資"
       ],
-      "reason": "Google 實體研發設施落地新加坡，具產業意義。",
+      "reason": "Google新加坡研發中心，具產業定義性。",
       "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-10-31 04:01:17",
+      "size": 3,
+      "max_crawled_at": "2026-11-01 12:01:17",
       "titles": [
-        "Google and Singapore deepen partnership to advance frontier AI for healthcare and scientific discovery",
-        "Google to open Singapore research hub, bring AI to clinics - Singapore Business Review"
+        "Google to expand AI partnerships with public healthcare groups, establish new Singapore research hub - The Business Times",
+        "Google to open Singapore research hub, bring AI to clinics - Singapore Business Review",
+        "Google and Singapore deepen partnership to advance frontier AI for healthcare and scientific discovery"
       ],
       "urls": [
-        "https://www.edb.gov.sg/en/news-and-insights/google-and-singapore-deepen-partnership-to-advance-frontier-ai-for-healthcare-and-scientific-discovery",
-        "https://sbr.com.sg/healthcare/news/google-open-singapore-research-hub-bring-ai-clinics"
+        "https://www.businesstimes.com.sg/singapore/economy-policy/google-expand-ai-partnerships-public-healthcare-groups-establish-new-singapore-research-hub",
+        "https://sbr.com.sg/healthcare/news/google-open-singapore-research-hub-bring-ai-clinics",
+        "https://www.edb.gov.sg/en/news-and-insights/google-and-singapore-deepen-partnership-to-advance-frontier-ai-for-healthcare-and-scientific-discovery"
       ],
       "sources": [
-        "edb_singapore",
-        "sea_electronics"
+        "sea_electronics",
+        "sea_electronics",
+        "edb_singapore"
       ]
     },
     {
-      "event": "YTL Power 推動雪隆大型資料中心園區",
+      "event": "馬來西亞政府核准資料中心再生能源要求",
       "country": "MY",
-      "score": 68,
-      "score_model": 65,
+      "score": 78,
+      "score_model": 75,
       "breadth_bonus": 3,
       "recur_penalty": 0,
       "official_sources": [],
@@ -141,12 +145,12 @@
       "mirror_urls": 0,
       "recur_flag": "",
       "recur_first_seen": "2026-10-09",
-      "recur_days": 3,
+      "recur_days": 4,
       "tags": [
         "資料中心",
-        "擴產"
+        "政策獎勵"
       ],
-      "reason": "YTL 具體推進雪隆地區資料中心建設與能源配套。",
+      "reason": "關鍵能源政策影響資料中心供應鏈成本。",
       "coherent": false,
       "size": 7,
       "max_crawled_at": "2026-11-01 10:00:54",
@@ -179,10 +183,516 @@
       ]
     },
     {
-      "event": "新加坡半導體生態系吸引晶片廠加大投資",
-      "country": "SG",
-      "score": 66,
+      "event": "泰國實施資料中心開發商電力競標新規",
+      "country": "TH",
+      "score": 73,
+      "score_model": 70,
+      "breadth_bonus": 3,
+      "recur_penalty": 0,
+      "official_sources": [],
+      "independent_outlets": 6,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "tags": [
+        "資料中心",
+        "政策獎勵"
+      ],
+      "reason": "泰國重大能源政策調整，影響 DC 產業佈局。",
+      "coherent": true,
+      "size": 7,
+      "max_crawled_at": "2026-11-01 21:31:17",
+      "titles": [
+        "Thailand to Make Data Centres Pitch for Power Under New Rules - Mingtiandi",
+        "Thailand to Make Data Centre Developers Pitch for Power Under New Rules - Mingtiandi",
+        "Thailand to Make Data Centre Developers Pitch for Power Under New Rules | APACrealty",
+        "Thailand Data Centre Rules Put Power First",
+        "Thailand sets new rules for data centres as applications surge - The Star",
+        "No data center moratorium for Malaysia but states with insufficient water can’t host data centers: Minister - W.Media",
+        "Govt Reviews Power Supply Before Deciding On 24 Data Centre Applications"
+      ],
+      "urls": [
+        "https://www.mingtiandi.com/real-estate/data-centres/thailand-to-make-data-centre-developers-pitch-for-power-under-new-rules",
+        "https://www.mingtiandi.com/real-estate/data-centres/thailand-to-make-data-centre-developers-pitch-for-power-under-new-rules/",
+        "https://apacrealty.com.sg/commercial/Thailand-to-Make-Data-Centre-Developers-Pitch-for-Power-Unde-025340",
+        "https://furtherasia.com/thailand-data-centre-rules-put-power-first/",
+        "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/28/thailand-sets-new-rules-for-data-centres-as-applications-surge",
+        "https://w.media/no-data-center-moratorium-for-malaysia-but-states-with-insufficient-water-cant-host-data-centers-minister/",
+        "https://www.bernama.com/en/news.php?id=2626853"
+      ],
+      "sources": [
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics"
+      ]
+    },
+    {
+      "event": "SoftBank 500 億美元 AI 投資計畫引發關注",
+      "country": "MY",
+      "score": 71,
       "score_model": 65,
+      "breadth_bonus": 6,
+      "recur_penalty": 0,
+      "official_sources": [],
+      "independent_outlets": 7,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "2026-10-26",
+      "recur_days": 3,
+      "tags": [
+        "跨國投資",
+        "AI算力"
+      ],
+      "reason": "標題多為評論與意圖，非單一具體建廠事件。",
+      "coherent": false,
+      "size": 7,
+      "max_crawled_at": "2026-11-01 09:01:17",
+      "titles": [
+        "“SoftBank Also Bets USD 50 Billion”: Global AI Capital Heads to Malaysia as Cost Competitiveness and Government Support Accelerate Investment - https://economy.ac/",
+        "Malaysia must turn US$50bil AI investment into high-value jobs, technology gains [WATCH]",
+        "Why SoftBank Is Investing $50 Billion in Malaysia for AI - Xiaopan",
+        "Malaysia attracts data center investment amid Middle East security concerns - ET Datacenters",
+        "Malaysia’s AI boom offers new stardom",
+        "Equinix Weighs Malaysia Fundraising as Johor Data Centre Investments Accelerate",
+        "Johor's Data Centre Industry Gains from DayOne's RM15 Billion Financing | The Iskandarian"
+      ],
+      "urls": [
+        "https://economy.ac/news/2026/10/202610300321",
+        "https://www.klsescreener.com/v2/news/view/1817797/malaysia-must-turn-us-50bil-ai-investment-into-high-value-jobs-technology-gains-watch",
+        "https://xiaopan.co/why-softbank-is-investing-50-billion-in-malaysia-for-ai/",
+        "https://datacenters.economictimes.indiatimes.com/news/investments-deals/malaysia-attracts-data-center-investment-amid-middle-east-security-concerns/135309022",
+        "https://www.thestar.com.my/business/insight/2026/10/31/malaysias-ai-boom-offers-new-stardom",
+        "https://apac.entrepreneur.com/business-news/equinix-weighs-malaysia-fundraising-as-johor-data-centre-investments-accelerate",
+        "https://theiskandarian.com/johors-data-centre-industry-gains-from-dayones-rm15-billion-financing/"
+      ],
+      "sources": [
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics"
+      ]
+    },
+    {
+      "event": "臺達電批准檳城製造基地以擴全球產能",
+      "country": "MY",
+      "score": 70,
+      "score_model": 70,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "official_sources": [],
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "tags": [
+        "電子零組件",
+        "擴產"
+      ],
+      "reason": "臺達電具體批准新廠，屬明確的製造業擴產。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-01 16:30:17",
+      "titles": [
+        "Delta Electronics approves Penang manufacturing base to expand global capacity"
+      ],
+      "urls": [
+        "https://www.digitimes.com/news/a20261029PD247/delta-electronics-manufacturing-capacity-production-development.html"
+      ],
+      "sources": [
+        "sea_electronics"
+      ]
+    },
+    {
+      "event": "越南電子業出口成長但面臨貿易逆差",
+      "country": "VN",
+      "score": 70,
+      "score_model": 60,
+      "breadth_bonus": 10,
+      "recur_penalty": 0,
+      "official_sources": [],
+      "independent_outlets": 12,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "2026-10-28",
+      "recur_days": 1,
+      "tags": [
+        "電子零組件",
+        "出口貿易"
+      ],
+      "reason": "越南電子業關鍵現況，影響供應鏈格局。",
+      "coherent": true,
+      "size": 22,
+      "max_crawled_at": "2026-11-01 15:30:17",
+      "titles": [
+        "The electronics industry affirms its leading role in export growth. - Vietnam.vn",
+        "The Ministry of Industry and Trade works with electronics businesses on the import and export situation. - Vietnam.vn",
+        "Vietnam, China seek deeper ties in global supply chains",
+        "Advanced manufacturing enhances the value of Vietnamese exports. - Vietnam.vn",
+        "Vietnam’s electronics industry faces trade deficit despite strong export growth - Báo VietNamNet",
+        "Vietnam’s electronics industry faces trade deficit despite strong export growth - Vietnam+ (VietnamPlus)",
+        "How is Vietnam attracting global technology investment?",
+        "Vietnamese exporters face dual challenge over power supply - Theinvestor",
+        "Creating a market for Vietnamese semiconductor chips. - Vietnam.vn",
+        "Vietnam, China seek to boost economic, investment and financial cooperation - VOV.VN",
+        "TikTok, Singapore-based industrial group urge Ho Chi Minh City to step up dialogue, attract tech investment",
+        "Việt Nam, EU expand cooperation in advanced materials development",
+        "Vietnam poised to seize opportunities in technology, green investment: Foreign ambassadors",
+        "Roland Berger expert outlines ways to mobilise capital for growth - Vietnam Investment Review - VIR",
+        "The semiconductor industry exhibition will take place in Ho Chi Minh City from December 3-4. - Vietnam.vn",
+        "Vietnam's Electricity Reforms: What Investors Need to Know",
+        "Vietnam’s export outlook holding firm - Vietnam+ (VietnamPlus)",
+        "Vietnam’s export outlook holding firm - Báo Cần Thơ",
+        "SEMIEXPO 2026: Opening opportunities to enter the global semiconductor supply chain. - Vietnam.vn",
+        "From autonomous AI models to semiconductors, Vietnam and South Korea explore new avenues of cooperation. - Vietnam.vn",
+        "Sixteen Vietnamese enterprises boost productivity through smart factory consulting program",
+        "Training 50,000 semiconductor engineers: The quality challenge remains. - Vietnam.vn"
+      ],
+      "urls": [
+        "https://www.vietnam.vn/en/cong-nghiep-dien-tu-khang-dinh-vai-tro-mui-nhon-trong-tang-truong-xuat-khau",
+        "https://www.vietnam.vn/en/bo-cong-thuong-lam-viec-voi-doanh-nghiep-dien-tu-ve-tinh-hinh-xuat-nhap-khau",
+        "https://e.vnexpress.net/news/business/vietnam-china-seek-deeper-ties-in-global-supply-chains-5138893.html",
+        "https://www.vietnam.vn/en/san-xuat-tien-tien-nang-gia-tri-hang-xuat-khau-viet-nam",
+        "https://vietnamnet.vn/en/vietnam-s-electronics-industry-faces-trade-deficit-despite-strong-export-growth-2570108.html",
+        "https://en.vietnamplus.vn/vietnams-electronics-industry-faces-trade-deficit-despite-strong-export-growth-post354613.vnp",
+        "https://www.vietnam.vn/en/viet-nam-hut-dong-von-cong-nghe-toan-cau-cach-nao",
+        "https://theinvestor.vn/vietnam-exporters-face-a-dual-challenge-over-electricity-supply-d20329.html",
+        "https://www.vietnam.vn/en/tao-thi-truong-cho-chip-ban-dan-viet-nam",
+        "https://english.vov.vn/en/economy/vietnam-china-seek-to-boost-economic-investment-and-financial-cooperation-post1345203.vov",
+        "https://news.tuoitre.vn/tiktok-singapore-based-industrial-group-urge-ho-chi-minh-city-to-step-up-dialogue-attract-tech-investment-10326102716482352.htm",
+        "https://dinardetectives.com/vietnam-eu-advanced-materials-development/",
+        "https://en.vietnamplus.vn/vietnam-poised-to-seize-opportunities-in-technology-green-investment-foreign-ambassadors-post354557.vnp",
+        "https://vir.com.vn/roland-berger-expert-outlines-ways-to-mobilise-capital-for-growth-163937.html",
+        "https://www.vietnam.vn/en/trien-lam-nganh-ban-dan-se-dien-ra-tai-tp-hcm-tu-ngay-3-4-12",
+        "https://accesspartnership.com/reports/vietnam-electricity-reforms/",
+        "https://en.vietnamplus.vn/vietnams-export-outlook-holding-firm-post354487.vnp",
+        "https://baocantho.com.vn/news/vietnam-s-export-outlook-holding-firm-a219613.html",
+        "https://www.vietnam.vn/en/semiexpo-2026-mo-co-hoi-vao-chuoi-cung-ung-ban-dan-toan-cau",
+        "https://www.vietnam.vn/en/tu-mo-hinh-ai-tu-chu-den-ban-dan-viet-nam-han-quoc-tim-huong-hop-tac-moi",
+        "https://en.vneconomy.vn/sixteen-vietnamese-enterprises-boost-productivity-through-smart-factory-consulting-program.htm",
+        "https://www.vietnam.vn/en/dao-tao-50-000-ky-su-ban-dan-bai-toan-chat-luong-con-o-phia-truoc"
+      ],
+      "sources": [
+        "sea_electronics",
+        "sea_electronics",
+        "vnexpress",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics"
+      ]
+    },
+    {
+      "event": "檳城矽島工業用地 2027 年開始銷售",
+      "country": "MY",
+      "score": 68,
+      "score_model": 65,
+      "breadth_bonus": 3,
+      "recur_penalty": 0,
+      "official_sources": [],
+      "independent_outlets": 4,
+      "mirror_urls": 1,
+      "recur_flag": "",
+      "recur_first_seen": "2026-10-09",
+      "recur_days": 4,
+      "tags": [
+        "擴產",
+        "政策獎勵"
+      ],
+      "reason": "矽島開發為具體產業園區進展，具實質意義。",
+      "coherent": false,
+      "size": 6,
+      "max_crawled_at": "2026-11-01 17:30:17",
+      "titles": [
+        "Penang tech financial centre to capitalise on geopolitical shifts, AI supercycle, says CM",
+        "Penang Tech Financial Centre To Capitalise On Geopolitical Shifts, AI Supercycle - Chow",
+        "Silicon Island: 202 hectares reclaimed, Green Tech Park to be developed in 2027, says CM",
+        "Penang Sets RM10 Billion Manufacturing Investment Target For 2027 After RM17.32 Billion Haul - PenangToday",
+        "Sale of first industrial plots on Silicon Island to start in Q1 2027, says Penang CM",
+        "Penang positions itself for AI-driven technology growth with new financial centre"
+      ],
+      "urls": [
+        "https://theedgemalaysia.com/node/823957",
+        "https://www.bernama.com/tv/news.php?id=2627685",
+        "https://theedgemalaysia.com/node/824005",
+        "https://penangtoday.my/business/10194/penang-sets-rm10-billion-manufacturing-investment-target-for-2027-after-rm17-32-billion-haul/",
+        "https://www.msn.com/en-my/news/national/sale-of-first-industrial-plots-on-silicon-island-to-start-in-q1-2027-says-penang-cm/ar-AA2gpmjb",
+        "https://thesun.my/news/penang-positions-itself-for-ai-driven-technology-growth-with-new-financial-centre/"
+      ],
+      "sources": [
+        "edge_markets",
+        "sea_electronics",
+        "edge_markets",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics"
+      ]
+    },
+    {
+      "event": "新加坡投1.5億新元資助AI材料加速器",
+      "country": "SG",
+      "score": 68,
+      "score_model": 65,
+      "breadth_bonus": 3,
+      "recur_penalty": 0,
+      "official_sources": [],
+      "independent_outlets": 4,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "2026-10-28",
+      "recur_days": 4,
+      "tags": [
+        "AI軟體",
+        "政策獎勵"
+      ],
+      "reason": "新加坡AI基礎建設投資，具區域指標性。",
+      "coherent": true,
+      "size": 4,
+      "max_crawled_at": "2026-11-01 13:31:17",
+      "titles": [
+        "Singapore Backs AI-Driven Research to Accelerate Scientific Discoveries and Business Innovation",
+        "MARVEL-AI: Accelerating Advanced Materials Innovation From Discovery To Deployment - Agency for Science, Technology and Research",
+        "Singapore: MARVEL-AI Accelerates Advanced Materials Innovation - OpenGov Asia",
+        "Singapore invests S$150M in AI materials accelerator"
+      ],
+      "urls": [
+        "https://www.cxodigitalpulse.com/singapore-backs-ai-driven-research-to-accelerate-scientific-discoveries-and-business-innovation/",
+        "https://www.a-star.edu.sg/news/press-releases/marvel-ai-accelerating-advanced-materials-innovation-from-discovery-to-deployment",
+        "https://opengovasia.com/singapore-marvel-ai-accelerates-advanced-materials-innovation/",
+        "https://technode.global/2026/10/30/singapore-150m-marvel-ai-materials-accelerator/"
+      ],
+      "sources": [
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics"
+      ]
+    },
+    {
+      "event": "新加坡啟動 200MW 資料中心招標案",
+      "country": "SG",
+      "score": 63,
+      "score_model": 60,
+      "breadth_bonus": 3,
+      "recur_penalty": 0,
+      "official_sources": [],
+      "independent_outlets": 5,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "2026-11-01",
+      "recur_days": 1,
+      "tags": [
+        "資料中心",
+        "政策獎勵"
+      ],
+      "reason": "DC-CFA2 招標為重要政策與基建指標。",
+      "coherent": false,
+      "size": 6,
+      "max_crawled_at": "2026-11-01 12:31:17",
+      "titles": [
+        "Singapore's DayOne and Sembcorp Sign MOU to Integrate Power Solutions Across Asian Data Centers",
+        "Sembcorp, DayOne sign pact to explore powering data centres in Asia - The Business Times",
+        "DayOne, Blue Whale to study Singapore virtual power plant - IT Brief Asia",
+        "Singapore Launches 200MW Data Centre Call for Application (DC-CFA2)",
+        "Sembcorp Industries grows Singapore power portfolio with new power plant; to explore energy solutions with DayOne - The Edge Singapore",
+        "Nuclear potential, data centre boom may be addressed in new Asean energy masterplan"
+      ],
+      "urls": [
+        "https://www.idcnova.com/news/Singapores-DayOne-and-Sembcorp-Sign-MOU-to-Integrate-Power-Solutions-Across-Asian-Data-Centers",
+        "https://www.businesstimes.com.sg/companies-markets/energy-commodities/sembcorp-dayone-sign-pact-explore-powering-data-centres-asia",
+        "https://itbrief.asia/story/dayone-blue-whale-to-study-singapore-virtual-power-plant",
+        "https://www.kingandwood.com/global/en/insights/latest-thinking/singapore-launches-200mw-data-centre-call-for-application-dc-cfa2.html",
+        "https://www.theedgesingapore.com/news/energy/sembcorp-industries-grows-singapore-power-portfolio-new-power-plant-explore-energy",
+        "https://www.businesstimes.com.sg/companies-markets/energy-commodities/nuclear-potential-data-centre-boom-may-be-addressed-new-asean-energy-masterplan"
+      ],
+      "sources": [
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics"
+      ]
+    },
+    {
+      "event": "臺達電在新加坡舉辦峰會並與NUS合作",
+      "country": "SG",
+      "score": 58,
+      "score_model": 55,
+      "breadth_bonus": 3,
+      "recur_penalty": 0,
+      "official_sources": [],
+      "independent_outlets": 4,
+      "mirror_urls": 1,
+      "recur_flag": "",
+      "recur_first_seen": "2026-10-31",
+      "recur_days": 2,
+      "tags": [
+        "資料中心",
+        "跨國投資"
+      ],
+      "reason": "臺達電新加坡活動，推動綠能資料中心。",
+      "coherent": true,
+      "size": 5,
+      "max_crawled_at": "2026-10-31 10:31:17",
+      "titles": [
+        "Delta Electronics Hosts Inaugural Future Industry Summit in Singapore and Inks Collaboration with the College of Design and Engineering at NUS to Advance Sustainable Data Center Innovation - Macau Business",
+        "Delta Electronics Hosts Inaugural Future Industry Summit in Singapore and Inks Collaboration with the College of Design and Engineering at NUS to Advance Sustainable Data ...",
+        "Delta Electronics Hosts Inaugural Future Industry Summit in Singapore and Inks Collaboration with the College of Design and Engineering at NUS to Advance Sustainable Data Center Innovation - Thailand Business News",
+        "Delta Electronics Hosts Inaugural Future Industry Summit in Singapore and Inks Collaboration with the College of Design and Engineering at NUS to Advance Sustainable Data Center Innovation - The Malaysian Reserve",
+        "Delta Electronics Hosts Inaugural Future Industry Summit in Singapore and Inks Collaboration with the College of Design and Engineering at NUS to Advance Sustainable Data Center Innovation - Yahoo Finance"
+      ],
+      "urls": [
+        "https://macaubusiness.com/delta-electronics-hosts-inaugural-future-industry-summit-in-singapore-and-inks-collaboration-with-the-college-of-design-and-engineering-at-nus-to-advance-sustainable-data-center-innovation/",
+        "https://finance.yahoo.com/technology/articles/delta-electronics-hosts-inaugural-future-110000767.html",
+        "https://www.thailand-business-news.com/pr-news/delta-electronics-hosts-inaugural-future-industry-summit-in-singapore-and-inks-collaboration-with-the-college-of-design-and-engineering-at-nus-to-advance-sustainable-data-center-innovation",
+        "https://themalaysianreserve.com/2026/10/30/delta-electronics-hosts-inaugural-future-industry-summit-in-singapore-and-inks-collaboration-with-the-college-of-design-and-engineering-at-nus-to-advance-sustainable-data-center-innovation/amp/",
+        "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQTZWTE1pVkU5azRoclhNY05USGtZRnRxaVlDZ2NrRUpydFB0VjhnQXpMbzlibU5kcjRHcVNQeXpfa0JRbW05U0pXZVJ0MzRHYUhOejBJUUtWRjh0UFZoRVRjNEhhNVZyVHEzOUVQcUVqamZSWjg3R0UzTEY2VmZNcHNvV29XS3ViU2NtSC1hYlRFaVFuOGZlWFVfRklYcjBHSjFj?oc=5"
+      ],
+      "sources": [
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics"
+      ]
+    },
+    {
+      "event": "Mi Technovation 獲利激增反映封測需求強",
+      "country": "MY",
+      "score": 51,
+      "score_model": 50,
+      "breadth_bonus": 1,
+      "recur_penalty": 0,
+      "official_sources": [],
+      "independent_outlets": 2,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "2026-11-01",
+      "recur_days": 1,
+      "tags": [
+        "封測",
+        "電子零組件"
+      ],
+      "reason": "財報顯示供應鏈需求，但非新投資事件。",
+      "coherent": false,
+      "size": 3,
+      "max_crawled_at": "2026-10-30 20:30:58",
+      "titles": [
+        "Mi Technovation 3Q profit surges 85% on strong semiconductor demand",
+        "Mi Material revenue jumps 15.6% on chip packaging demand - Singapore Business Review",
+        "SkyeChip posts RM17.7 mil net profit, RM54.2 mil revenue for 2Q"
+      ],
+      "urls": [
+        "https://theedgemalaysia.com/node/823868",
+        "https://sbr.com.sg/manufacturing/news/mi-material-revenue-jumps-156-chip-packaging-demand",
+        "https://theedgemalaysia.com/node/823987"
+      ],
+      "sources": [
+        "sea_electronics",
+        "sea_electronics",
+        "edge_markets"
+      ]
+    },
+    {
+      "event": "Estek在檳城投資2000萬令吉擴產",
+      "country": "MY",
+      "score": 51,
+      "score_model": 50,
+      "breadth_bonus": 1,
+      "recur_penalty": 0,
+      "official_sources": [],
+      "independent_outlets": 3,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "2026-10-30",
+      "recur_days": 3,
+      "tags": [
+        "設備材料",
+        "擴產"
+      ],
+      "reason": "檳城半導體裝置廠擴建，屬具體投資。",
+      "coherent": true,
+      "size": 3,
+      "max_crawled_at": "2026-10-31 08:30:17",
+      "titles": [
+        "Estek Invests Rm20 Mln In New Batu Kawan Manufacturing Facility",
+        "Estek Invests Rm20 Mln In New Batu Kawan Manufacturing Facility - BernamaBiz",
+        "Estek Automation Invests RM20 Million in Penang to Expand Semiconductor Equipment and AI Manufacturing Capabilities"
+      ],
+      "urls": [
+        "https://www.bernama.com/en/region/news.php?id=2627225",
+        "https://bernamabiz.com/news.php?id=2627225",
+        "https://wilayah.com.my/estek-automation-invests-rm20-million-in-penang-to-expand-semiconductor-equipment-and-ai-manufacturing-capabilities/"
+      ],
+      "sources": [
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics"
+      ]
+    },
+    {
+      "event": "越南擬吸引電子業投資以縮小貿易逆差",
+      "country": "VN",
+      "score": 51,
+      "score_model": 50,
+      "breadth_bonus": 1,
+      "recur_penalty": 0,
+      "official_sources": [],
+      "independent_outlets": 2,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "tags": [
+        "電子零組件",
+        "政策獎勵"
+      ],
+      "reason": "針對韓國企業招商，具產業導向性。",
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-10-31 12:01:17",
+      "titles": [
+        "Proposals to attract investment in key electronics sectors, aiming to reduce the trade deficit. - Vietnam.vn",
+        "Creating conditions for Korean businesses to expand investment in Vietnam - Laodong.vn"
+      ],
+      "urls": [
+        "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLVAyVWF0RF96ODI2QVdPTS1NcWowS3gxR3NZUGgyTUpNZG1ZNkRFRm9BZ0Y5aTRQUUFTSG1hWlc2YmRxalA5VW5mQmU5VWJLX2NjS0tOdEZxVG1iUUhBLWxPdEVlNWRZVmlpNDdiYXkyYlRBZERSVkpQTUQ2UEZfbUxvZEh5ZUFRdjFZdEtXc2VxT1VJNGw4ajUycUtTa28?oc=5",
+        "https://news.laodong.vn/thoi-su/tao-dieu-kien-de-doanh-nghiep-han-quoc-mo-rong-dau-tu-tai-viet-nam-1790354.ldo"
+      ],
+      "sources": [
+        "sea_electronics",
+        "sea_electronics"
+      ]
+    },
+    {
+      "event": "ASEAN四集團承諾加強半導體聯盟",
+      "country": "REGION",
+      "score": 46,
+      "score_model": 45,
       "breadth_bonus": 1,
       "recur_penalty": 0,
       "official_sources": [],
@@ -192,10 +702,110 @@
       "recur_first_seen": "",
       "recur_days": 0,
       "tags": [
-        "半導體",
-        "跨國投資"
+        "半導體"
       ],
-      "reason": "新加坡作為半導體與 AI 樞紐的投資吸引力。",
+      "reason": "區域合作意向，無具體投資承諾。",
+      "coherent": true,
+      "size": 3,
+      "max_crawled_at": "2026-10-30 08:30:47",
+      "titles": [
+        "Recto sa ASEAN: Magtulungan sa semiconductor industry para sa trabaho, puhunan - Peoples Taliba",
+        "ASEAN dapat magtulungan para sa trabaho, semicon indutry-Recto - Journal News Online",
+        "4 ASEAN semiconductor, electronics groups pledge closer alliance"
+      ],
+      "urls": [
+        "https://peoplestaliba.com/recto-sa-asean-magtulungan-sa-semiconductor-industry-para-sa-trabaho-puhunan/",
+        "https://journalnews.com.ph/asean-dapat-magtulungan-para-sa-trabaho-semicon-indutry-recto/",
+        "https://portcalls.com/4-asean-semiconductor-electronics-groups-pledge-closer-alliance/"
+      ],
+      "sources": [
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics"
+      ]
+    },
+    {
+      "event": "大廠砸錢建資料中心引發華爾街擔憂",
+      "country": "VN",
+      "score": 46,
+      "score_model": 45,
+      "breadth_bonus": 1,
+      "recur_penalty": 0,
+      "official_sources": [],
+      "independent_outlets": 2,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "tags": [
+        "資料中心"
+      ],
+      "reason": "越南資料中心熱潮，具產業影響力。",
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-11-01 03:31:17",
+      "titles": [
+        "Big Tech is pouring money into AI data centers, and Wall Street is starting to worry. - Vietnam.vn",
+        "The AI frenzy gets a reality check"
+      ],
+      "urls": [
+        "https://www.vietnam.vn/en/big-tech-do-tien-vao-trung-tam-du-lieu-ai-pho-wall-bat-dau-lo-ngai",
+        "https://www.businesstimes.com.sg/opinion-features/ai-frenzy-gets-reality-check"
+      ],
+      "sources": [
+        "sea_electronics",
+        "sea_electronics"
+      ]
+    },
+    {
+      "event": "丹麥 Spectre 在越南開設第四座工廠",
+      "country": "VN",
+      "score": 45,
+      "score_model": 45,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "official_sources": [],
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "2026-10-31",
+      "recur_days": 1,
+      "tags": [
+        "跨國投資",
+        "擴產"
+      ],
+      "reason": "具體新廠設立，但 Spectre 非半導體核心供應鏈。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-31 06:30:17",
+      "titles": [
+        "Denmark’s Spectre opens fourth Vietnam plant"
+      ],
+      "urls": [
+        "https://en.vietnamplus.vn/denmarks-spectre-opens-fourth-vietnam-plant-post354587.vnp"
+      ],
+      "sources": [
+        "sea_electronics"
+      ]
+    },
+    {
+      "event": "新加坡推動半導體生態系與 AI 創新",
+      "country": "SG",
+      "score": 41,
+      "score_model": 40,
+      "breadth_bonus": 1,
+      "recur_penalty": 0,
+      "official_sources": [],
+      "independent_outlets": 3,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "2026-11-01",
+      "recur_days": 1,
+      "tags": [
+        "半導體",
+        "AI軟體"
+      ],
+      "reason": "屬推廣活動與概況，無具體投資承諾。",
       "coherent": false,
       "size": 6,
       "max_crawled_at": "2026-11-01 04:00:17",
@@ -225,33 +835,98 @@
       ]
     },
     {
-      "event": "芬蘭對Google資料中心土地徵收展開刑事調查",
-      "country": "MY",
-      "score": 66,
-      "score_model": 65,
-      "breadth_bonus": 1,
+      "event": "越南慶和省推動高科技產業外資",
+      "country": "VN",
+      "score": 40,
+      "score_model": 40,
+      "breadth_bonus": 0,
       "recur_penalty": 0,
       "official_sources": [],
-      "independent_outlets": 2,
+      "independent_outlets": 1,
       "mirror_urls": 0,
       "recur_flag": "",
       "recur_first_seen": "",
       "recur_days": 0,
       "tags": [
-        "資料中心",
         "跨國投資"
       ],
-      "reason": "涉及Google實體建設的法律爭議，影響供應鏈信心。",
+      "reason": "地方招商，具體規模不明，影響中等。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-30 05:31:17",
+      "titles": [
+        "Khanh Hoa drives foreign investment into high-tech industries - Vietnam+ (VietnamPlus)"
+      ],
+      "urls": [
+        "https://en.vietnamplus.vn/khanh-hoa-drives-foreign-investment-into-high-tech-industries-post354503.vnp"
+      ],
+      "sources": [
+        "sea_electronics"
+      ]
+    },
+    {
+      "event": "泰國九月工廠產出增長受 AI 出口帶動",
+      "country": "TH",
+      "score": 36,
+      "score_model": 35,
+      "breadth_bonus": 1,
+      "recur_penalty": 0,
+      "official_sources": [],
+      "independent_outlets": 3,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "tags": [
+        "EMS代工"
+      ],
+      "reason": "經濟資料統計，非單一產業投資事件。",
+      "coherent": false,
+      "size": 3,
+      "max_crawled_at": "2026-10-31 14:01:17",
+      "titles": [
+        "Thailand’s September factory output rises 2.05% y/y, lower than forecast - The Business Times",
+        "Thailand's economy improves in September on AI-driven exports - The Star",
+        "'AI-Data Center' บูมลงทุนเอกชนโตสูงสุดในรอบกว่า 20 ปี เผย 4 ปัจจัยเสี่ยงต้องจับตาใกล้ชิด | เดลินิวส์"
+      ],
+      "urls": [
+        "https://www.businesstimes.com.sg/international/asean/thailands-september-factory-output-rises-2-05-yy-lower-forecast",
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSFBwWUtoTkg1MGJDdlBsU0VXOHNpLWJoTjNqXy1aUFFUdDdLeTMzeTdvY1c3TlJwQTZmckV5eVFkZEFudWtxSHBpZGN1OTJtY19rd3NibVBBRklqODZMWHBYMmdZa2hiYnNyTHJiZkhDR0Z0Q1ZOZnk1T0dydWVQVTA5RE94b2g5TXZmWjJQc3VuM2FmamhZcGhOOFhHLTNpdUNqNkw0QWJYamRxU1Z3X2xqbkZ3ZVpkN29rUzM0elMwemN1?oc=5",
+        "https://www.dailynews.co.th/news/6318195/"
+      ],
+      "sources": [
+        "sea_electronics",
+        "sea_electronics",
+        "sea_electronics"
+      ]
+    },
+    {
+      "event": "霹靂州強化高價值投資樞紐地位",
+      "country": "MY",
+      "score": 35,
+      "score_model": 35,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "official_sources": [],
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "tags": [
+        "政策獎勵"
+      ],
+      "reason": "一般性招商宣傳，缺乏具體專案細節。",
       "coherent": true,
       "size": 2,
-      "max_crawled_at": "2026-11-01 06:00:19",
+      "max_crawled_at": "2026-10-31 03:31:17",
       "titles": [
-        "Finland launches criminal probe into land clearance for Google data centre - The Star",
-        "Finland launches criminal probe into land clearance for Google data centre - CNA"
+        "Perak Strengthens Its Position as a Hub for High-Value and Sustainable Investment - MIDA | Malaysian Investment Development Authority",
+        "Perak Strengthens Its Position as a Hub for High-Value and Sustainable Investment"
       ],
       "urls": [
-        "https://www.thestar.com.my/tech/tech-news/2026/10/29/finland-launches-criminal-probe-of-suspected-environmental-damage-at-google-data-centre-site",
-        "https://www.channelnewsasia.com/business/finland-launches-criminal-probe-land-clearance-google-data-centre-6503686"
+        "https://www.mida.gov.my/perak-strengthens-its-position-as-a-hub-for-high-value-and-sustainable-investment/",
+        "https://www.mida.gov.my/perak-strengthens-its-position-as-a-hub-for-high-value-and-sustainable-investment"
       ],
       "sources": [
         "sea_electronics",
@@ -259,134 +934,97 @@
       ]
     },
     {
-      "event": "馬來西亞吸引五百億美元 AI 與資服投資",
-      "country": "MY",
-      "score": 64,
-      "score_model": 70,
-      "breadth_bonus": 6,
-      "recur_penalty": 12,
+      "event": "越南加速5G應用並準備6G技術",
+      "country": "VN",
+      "score": 35,
+      "score_model": 35,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
       "official_sources": [],
-      "independent_outlets": 9,
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "tags": [
+        "電信設備"
+      ],
+      "reason": "通訊技術發展，對半導體製造影響有限。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-30 19:30:17",
+      "titles": [
+        "Vietnam accelerates 5G utilisation and prepares for 6G"
+      ],
+      "urls": [
+        "https://vir.com.vn/vietnam-accelerates-5g-utilisation-and-prepares-for-6g-164100.html"
+      ],
+      "sources": [
+        "vir_vietnam"
+      ]
+    },
+    {
+      "event": "泰國活動人士反對資料中心擴張",
+      "country": "TH",
+      "score": 30,
+      "score_model": 30,
+      "breadth_bonus": 0,
+      "recur_penalty": 0,
+      "official_sources": [],
+      "independent_outlets": 1,
+      "mirror_urls": 0,
+      "recur_flag": "",
+      "recur_first_seen": "",
+      "recur_days": 0,
+      "tags": [
+        "資料中心"
+      ],
+      "reason": "社會阻力影響設施推進，屬次要議題。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-30 06:01:17",
+      "titles": [
+        "S.Thailand activists push back on data centre rush, damn - Bangkok Post"
+      ],
+      "urls": [
+        "https://www.bangkokpost.com/thailand/politics/3345145/sthailand-activists-push-back-on-data-centre-rush-damn"
+      ],
+      "sources": [
+        "sea_electronics"
+      ]
+    },
+    {
+      "event": "馬來西亞推動 AI 投資轉化為高價值就業",
+      "country": "MY",
+      "score": 24,
+      "score_model": 30,
+      "breadth_bonus": 0,
+      "recur_penalty": 6,
+      "official_sources": [],
+      "independent_outlets": 1,
       "mirror_urls": 0,
       "recur_flag": "followup",
-      "recur_first_seen": "2026-10-09",
-      "recur_days": 11,
+      "recur_first_seen": "2026-10-12",
+      "recur_days": 5,
       "tags": [
-        "跨國投資",
-        "資料中心"
+        "AI軟體",
+        "政策獎勵"
       ],
-      "reason": "多則報導聚焦馬來西亞成為 AI 與資服投資熱點。",
-      "coherent": false,
-      "size": 9,
-      "max_crawled_at": "2026-11-01 09:01:17",
-      "titles": [
-        "Malaysia must turn US$50bil AI investment into high-value jobs, technology gains [WATCH]",
-        "“SoftBank Also Bets USD 50 Billion”: Global AI Capital Heads to Malaysia as Cost Competitiveness and Government Support Accelerate Investment - https://economy.ac/",
-        "Malaysia attracts data center investment amid Middle East security concerns - ET Datacenters",
-        "Why SoftBank Is Investing $50 Billion in Malaysia for AI - Xiaopan",
-        "No data center moratorium for Malaysia but states with insufficient water can’t host data centers: Minister - W.Media",
-        "Equinix Weighs Malaysia Fundraising as Johor Data Centre Investments Accelerate",
-        "Malaysia’s AI boom offers new stardom",
-        "Johor's Data Centre Industry Gains from DayOne's RM15 Billion Financing | The Iskandarian",
-        "Govt Reviews Power Supply Before Deciding On 24 Data Centre Applications"
-      ],
-      "urls": [
-        "https://www.klsescreener.com/v2/news/view/1817797/malaysia-must-turn-us-50bil-ai-investment-into-high-value-jobs-technology-gains-watch",
-        "https://economy.ac/news/2026/10/202610300321",
-        "https://datacenters.economictimes.indiatimes.com/news/investments-deals/malaysia-attracts-data-center-investment-amid-middle-east-security-concerns/135309022",
-        "https://xiaopan.co/why-softbank-is-investing-50-billion-in-malaysia-for-ai/",
-        "https://w.media/no-data-center-moratorium-for-malaysia-but-states-with-insufficient-water-cant-host-data-centers-minister/",
-        "https://apac.entrepreneur.com/business-news/equinix-weighs-malaysia-fundraising-as-johor-data-centre-investments-accelerate",
-        "https://www.thestar.com.my/business/insight/2026/10/31/malaysias-ai-boom-offers-new-stardom",
-        "https://theiskandarian.com/johors-data-centre-industry-gains-from-dayones-rm15-billion-financing/",
-        "https://www.bernama.com/en/news.php?id=2626853"
-      ],
-      "sources": [
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics"
-      ]
-    },
-    {
-      "event": "臺達電在新加坡舉辦峰會並與 NUS 合作",
-      "country": "SG",
-      "score": 63,
-      "score_model": 60,
-      "breadth_bonus": 3,
-      "recur_penalty": 0,
-      "official_sources": [],
-      "independent_outlets": 4,
-      "mirror_urls": 1,
-      "recur_flag": "",
-      "recur_first_seen": "2026-10-31",
-      "recur_days": 1,
-      "tags": [
-        "資料中心",
-        "AI算力"
-      ],
-      "reason": "臺達電在新加坡推動資通訊與永續創新合作。",
-      "coherent": true,
-      "size": 5,
-      "max_crawled_at": "2026-10-31 10:31:17",
-      "titles": [
-        "Delta Electronics Hosts Inaugural Future Industry Summit in Singapore and Inks Collaboration with the College of Design and Engineering at NUS to Advance Sustainable Data Center Innovation - Macau Business",
-        "Delta Electronics Hosts Inaugural Future Industry Summit in Singapore and Inks Collaboration with the College of Design and Engineering at NUS to Advance Sustainable Data ...",
-        "Delta Electronics Hosts Inaugural Future Industry Summit in Singapore and Inks Collaboration with the College of Design and Engineering at NUS to Advance Sustainable Data Center Innovation - Thailand Business News",
-        "Delta Electronics Hosts Inaugural Future Industry Summit in Singapore and Inks Collaboration with the College of Design and Engineering at NUS to Advance Sustainable Data Center Innovation - The Malaysian Reserve",
-        "Delta Electronics Hosts Inaugural Future Industry Summit in Singapore and Inks Collaboration with the College of Design and Engineering at NUS to Advance Sustainable Data Center Innovation - Yahoo Finance"
-      ],
-      "urls": [
-        "https://macaubusiness.com/delta-electronics-hosts-inaugural-future-industry-summit-in-singapore-and-inks-collaboration-with-the-college-of-design-and-engineering-at-nus-to-advance-sustainable-data-center-innovation/",
-        "https://finance.yahoo.com/technology/articles/delta-electronics-hosts-inaugural-future-110000767.html",
-        "https://www.thailand-business-news.com/pr-news/delta-electronics-hosts-inaugural-future-industry-summit-in-singapore-and-inks-collaboration-with-the-college-of-design-and-engineering-at-nus-to-advance-sustainable-data-center-innovation",
-        "https://themalaysianreserve.com/2026/10/30/delta-electronics-hosts-inaugural-future-industry-summit-in-singapore-and-inks-collaboration-with-the-college-of-design-and-engineering-at-nus-to-advance-sustainable-data-center-innovation/amp/",
-        "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQTZWTE1pVkU5azRoclhNY05USGtZRnRxaVlDZ2NrRUpydFB0VjhnQXpMbzlibU5kcjRHcVNQeXpfa0JRbW05U0pXZVJ0MzRHYUhOejBJUUtWRjh0UFZoRVRjNEhhNVZyVHEzOUVQcUVqamZSWjg3R0UzTEY2VmZNcHNvV29XS3ViU2NtSC1hYlRFaVFuOGZlWFVfRklYcjBHSjFj?oc=5"
-      ],
-      "sources": [
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics"
-      ]
-    },
-    {
-      "event": "Sembcorp 與 DayOne 探索亞洲資服供電",
-      "country": "SG",
-      "score": 56,
-      "score_model": 55,
-      "breadth_bonus": 1,
-      "recur_penalty": 0,
-      "official_sources": [],
-      "independent_outlets": 3,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "tags": [
-        "資料中心"
-      ],
-      "reason": "新加坡企業拓展亞洲資服能源解決方案。",
+      "reason": "屬政策目標與經濟分析，無具體產業事件。",
       "coherent": false,
       "size": 4,
-      "max_crawled_at": "2026-11-01 10:00:54",
+      "max_crawled_at": "2026-11-01 22:00:40",
       "titles": [
-        "Sembcorp, DayOne sign pact to explore powering data centres in Asia - The Business Times",
-        "DayOne, Blue Whale to study Singapore virtual power plant - IT Brief Asia",
-        "Sembcorp Industries grows Singapore power portfolio with new power plant; to explore energy solutions with DayOne - The Edge Singapore",
-        "Nuclear potential, data centre boom may be addressed in new Asean energy masterplan"
+        "Malaysia must turn US$50bil AI investment into high-value jobs, technology gains [WATCH] - NST Online",
+        "China's new ambassador to Malaysia prioritises trade, AI and semiconductors - NST Online",
+        "Malaysia, Singapore explore third-country investment in JS-SEZ - NST Online",
+        "Automotive, data centre, aerospace offer higher-value opportunities for steelmakers – SIM - NST Online"
       ],
       "urls": [
-        "https://www.businesstimes.com.sg/companies-markets/energy-commodities/sembcorp-dayone-sign-pact-explore-powering-data-centres-asia",
-        "https://itbrief.asia/story/dayone-blue-whale-to-study-singapore-virtual-power-plant",
-        "https://www.theedgesingapore.com/news/energy/sembcorp-industries-grows-singapore-power-portfolio-new-power-plant-explore-energy",
-        "https://www.businesstimes.com.sg/companies-markets/energy-commodities/nuclear-potential-data-centre-boom-may-be-addressed-new-asean-energy-masterplan"
+        "https://www.nst.com.my/business/economy/2026/10/1565869/malaysia-must-turn-us50bil-ai-investment-high-value-jobs",
+        "https://www.nst.com.my/news/nation/2026/11/1568026/chinas-new-ambassador-malaysia-prioritises-trade-ai-and-semiconductors",
+        "https://www.nst.com.my/business/economy/2026/10/1545342/malaysia-singapore-explore-third-country-investment-js-sez",
+        "https://www.nst.com.my/business/corporate/2026/10/1566083/automotive-data-centre-aerospace-offer-higher-value"
       ],
       "sources": [
         "sea_electronics",
@@ -396,120 +1034,10 @@
       ]
     },
     {
-      "event": "Mi Technovation 獲利激增反映封測需求強",
+      "event": "馬來西亞海關查獲走私 AI 晶片",
       "country": "MY",
-      "score": 56,
-      "score_model": 55,
-      "breadth_bonus": 1,
-      "recur_penalty": 0,
-      "official_sources": [],
-      "independent_outlets": 2,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "tags": [
-        "封測",
-        "電子零組件"
-      ],
-      "reason": "馬來西亞半導體企業財報反映產業景氣。",
-      "coherent": false,
-      "size": 3,
-      "max_crawled_at": "2026-10-30 20:30:58",
-      "titles": [
-        "Mi Technovation 3Q profit surges 85% on strong semiconductor demand",
-        "Mi Material revenue jumps 15.6% on chip packaging demand - Singapore Business Review",
-        "SkyeChip posts RM17.7 mil net profit, RM54.2 mil revenue for 2Q"
-      ],
-      "urls": [
-        "https://theedgemalaysia.com/node/823868",
-        "https://sbr.com.sg/manufacturing/news/mi-material-revenue-jumps-156-chip-packaging-demand",
-        "https://theedgemalaysia.com/node/823987"
-      ],
-      "sources": [
-        "sea_electronics",
-        "sea_electronics",
-        "edge_markets"
-      ]
-    },
-    {
-      "event": "Estek在檳城投資2000萬令吉擴建半導體裝置廠",
-      "country": "MY",
-      "score": 56,
-      "score_model": 55,
-      "breadth_bonus": 1,
-      "recur_penalty": 0,
-      "official_sources": [],
-      "independent_outlets": 3,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "2026-10-30",
-      "recur_days": 2,
-      "tags": [
-        "設備材料",
-        "擴產"
-      ],
-      "reason": "具體實體擴產，屬半導體裝置關鍵供應鏈環節。",
-      "coherent": true,
-      "size": 3,
-      "max_crawled_at": "2026-10-31 08:30:17",
-      "titles": [
-        "Estek Invests Rm20 Mln In New Batu Kawan Manufacturing Facility",
-        "Estek Invests Rm20 Mln In New Batu Kawan Manufacturing Facility - BernamaBiz",
-        "Estek Automation Invests RM20 Million in Penang to Expand Semiconductor Equipment and AI Manufacturing Capabilities"
-      ],
-      "urls": [
-        "https://www.bernama.com/en/region/news.php?id=2627225",
-        "https://bernamabiz.com/news.php?id=2627225",
-        "https://wilayah.com.my/estek-automation-invests-rm20-million-in-penang-to-expand-semiconductor-equipment-and-ai-manufacturing-capabilities/"
-      ],
-      "sources": [
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics"
-      ]
-    },
-    {
-      "event": "新加坡啟動 AI 驅動科研與材料創新計畫",
-      "country": "SG",
-      "score": 51,
-      "score_model": 50,
-      "breadth_bonus": 1,
-      "recur_penalty": 0,
-      "official_sources": [],
-      "independent_outlets": 3,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "2026-10-28",
-      "recur_days": 4,
-      "tags": [
-        "AI軟體"
-      ],
-      "reason": "新加坡 A*STAR 推動 AI 應用於科學研究。",
-      "coherent": false,
-      "size": 3,
-      "max_crawled_at": "2026-10-31 16:30:01",
-      "titles": [
-        "Singapore Backs AI-Driven Research to Accelerate Scientific Discoveries and Business Innovation",
-        "MARVEL-AI: Accelerating Advanced Materials Innovation From Discovery To Deployment - Agency for Science, Technology and Research",
-        "Singapore launches AI programme to tackle construction challenges - Singapore Business Review"
-      ],
-      "urls": [
-        "https://www.cxodigitalpulse.com/singapore-backs-ai-driven-research-to-accelerate-scientific-discoveries-and-business-innovation/",
-        "https://www.a-star.edu.sg/news/press-releases/marvel-ai-accelerating-advanced-materials-innovation-from-discovery-to-deployment",
-        "https://sbr.com.sg/information-technology/news/singapore-launches-ai-programme-tackle-construction-challenges"
-      ],
-      "sources": [
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics"
-      ]
-    },
-    {
-      "event": "馬來西亞半導體供應鏈地位與走私查獲",
-      "country": "MY",
-      "score": 48,
-      "score_model": 45,
+      "score": 23,
+      "score_model": 20,
       "breadth_bonus": 3,
       "recur_penalty": 0,
       "official_sources": [],
@@ -522,7 +1050,7 @@
         "半導體",
         "出口貿易"
       ],
-      "reason": "探討馬來西亞在半導體供應鏈角色及相關執法。",
+      "reason": "執法事件，非產業投資或製造動態。",
       "coherent": false,
       "size": 6,
       "max_crawled_at": "2026-10-31 20:30:08",
@@ -552,310 +1080,32 @@
       ]
     },
     {
-      "event": "ASEAN四組織承諾加強半導體產業聯盟",
-      "country": "REGION",
-      "score": 46,
-      "score_model": 45,
-      "breadth_bonus": 1,
-      "recur_penalty": 0,
-      "official_sources": [],
-      "independent_outlets": 3,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "tags": [
-        "政策獎勵"
-      ],
-      "reason": "區域合作意向，無具體實體投資或產能承諾。",
-      "coherent": true,
-      "size": 3,
-      "max_crawled_at": "2026-10-30 08:30:47",
-      "titles": [
-        "Recto sa ASEAN: Magtulungan sa semiconductor industry para sa trabaho, puhunan - Peoples Taliba",
-        "ASEAN dapat magtulungan para sa trabaho, semicon indutry-Recto - Journal News Online",
-        "4 ASEAN semiconductor, electronics groups pledge closer alliance"
-      ],
-      "urls": [
-        "https://peoplestaliba.com/recto-sa-asean-magtulungan-sa-semiconductor-industry-para-sa-trabaho-puhunan/",
-        "https://journalnews.com.ph/asean-dapat-magtulungan-para-sa-trabaho-semicon-indutry-recto/",
-        "https://portcalls.com/4-asean-semiconductor-electronics-groups-pledge-closer-alliance/"
-      ],
-      "sources": [
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics"
-      ]
-    },
-    {
-      "event": "越南電子業出口成長但面臨貿易逆差",
-      "country": "VN",
-      "score": 46,
-      "score_model": 40,
-      "breadth_bonus": 6,
-      "recur_penalty": 0,
-      "official_sources": [],
-      "independent_outlets": 11,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "2026-10-28",
-      "recur_days": 1,
-      "tags": [
-        "EMS代工",
-        "出口貿易"
-      ],
-      "reason": "越南電子製造業整體出口與貿易狀況。",
-      "coherent": false,
-      "size": 19,
-      "max_crawled_at": "2026-11-01 00:01:17",
-      "titles": [
-        "The electronics industry affirms its leading role in export growth. - Vietnam.vn",
-        "The Ministry of Industry and Trade works with electronics businesses on the import and export situation. - Vietnam.vn",
-        "Vietnam’s electronics industry faces trade deficit despite strong export growth - Báo VietNamNet",
-        "Vietnam, China seek deeper ties in global supply chains",
-        "Vietnam’s electronics industry faces trade deficit despite strong export growth - Vietnam+ (VietnamPlus)",
-        "Advanced manufacturing enhances the value of Vietnamese exports. - Vietnam.vn",
-        "How is Vietnam attracting global technology investment?",
-        "Vietnamese exporters face dual challenge over power supply - Theinvestor",
-        "Vietnam, China seek to boost economic, investment and financial cooperation - VOV.VN",
-        "TikTok, Singapore-based industrial group urge Ho Chi Minh City to step up dialogue, attract tech investment",
-        "Việt Nam, EU expand cooperation in advanced materials development",
-        "The semiconductor industry exhibition will take place in Ho Chi Minh City from December 3-4. - Vietnam.vn",
-        "Roland Berger expert outlines ways to mobilise capital for growth - Vietnam Investment Review - VIR",
-        "Vietnam’s export outlook holding firm - Vietnam+ (VietnamPlus)",
-        "Vietnam's Electricity Reforms: What Investors Need to Know",
-        "Vietnam’s export outlook holding firm - Báo Cần Thơ",
-        "SEMIEXPO 2026: Opening opportunities to enter the global semiconductor supply chain. - Vietnam.vn",
-        "From autonomous AI models to semiconductors, Vietnam and South Korea explore new avenues of cooperation. - Vietnam.vn",
-        "Training 50,000 semiconductor engineers: The quality challenge remains. - Vietnam.vn"
-      ],
-      "urls": [
-        "https://www.vietnam.vn/en/cong-nghiep-dien-tu-khang-dinh-vai-tro-mui-nhon-trong-tang-truong-xuat-khau",
-        "https://www.vietnam.vn/en/bo-cong-thuong-lam-viec-voi-doanh-nghiep-dien-tu-ve-tinh-hinh-xuat-nhap-khau",
-        "https://vietnamnet.vn/en/vietnam-s-electronics-industry-faces-trade-deficit-despite-strong-export-growth-2570108.html",
-        "https://e.vnexpress.net/news/business/vietnam-china-seek-deeper-ties-in-global-supply-chains-5138893.html",
-        "https://en.vietnamplus.vn/vietnams-electronics-industry-faces-trade-deficit-despite-strong-export-growth-post354613.vnp",
-        "https://www.vietnam.vn/en/san-xuat-tien-tien-nang-gia-tri-hang-xuat-khau-viet-nam",
-        "https://www.vietnam.vn/en/viet-nam-hut-dong-von-cong-nghe-toan-cau-cach-nao",
-        "https://theinvestor.vn/vietnam-exporters-face-a-dual-challenge-over-electricity-supply-d20329.html",
-        "https://english.vov.vn/en/economy/vietnam-china-seek-to-boost-economic-investment-and-financial-cooperation-post1345203.vov",
-        "https://news.tuoitre.vn/tiktok-singapore-based-industrial-group-urge-ho-chi-minh-city-to-step-up-dialogue-attract-tech-investment-10326102716482352.htm",
-        "https://dinardetectives.com/vietnam-eu-advanced-materials-development/",
-        "https://www.vietnam.vn/en/trien-lam-nganh-ban-dan-se-dien-ra-tai-tp-hcm-tu-ngay-3-4-12",
-        "https://vir.com.vn/roland-berger-expert-outlines-ways-to-mobilise-capital-for-growth-163937.html",
-        "https://en.vietnamplus.vn/vietnams-export-outlook-holding-firm-post354487.vnp",
-        "https://accesspartnership.com/reports/vietnam-electricity-reforms/",
-        "https://baocantho.com.vn/news/vietnam-s-export-outlook-holding-firm-a219613.html",
-        "https://www.vietnam.vn/en/semiexpo-2026-mo-co-hoi-vao-chuoi-cung-ung-ban-dan-toan-cau",
-        "https://www.vietnam.vn/en/tu-mo-hinh-ai-tu-chu-den-ban-dan-viet-nam-han-quoc-tim-huong-hop-tac-moi",
-        "https://www.vietnam.vn/en/dao-tao-50-000-ky-su-ban-dan-bai-toan-chat-luong-con-o-phia-truoc"
-      ],
-      "sources": [
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics",
-        "vnexpress",
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics"
-      ]
-    },
-    {
-      "event": "泰國規範資料中心開發商競標電力",
-      "country": "TH",
-      "score": 45,
-      "score_model": 60,
-      "breadth_bonus": 3,
-      "recur_penalty": 18,
-      "official_sources": [],
-      "independent_outlets": 4,
-      "mirror_urls": 0,
-      "recur_flag": "followup",
-      "recur_first_seen": "2026-10-13",
-      "recur_days": 13,
-      "tags": [
-        "資料中心",
-        "政策獎勵"
-      ],
-      "reason": "泰國針對資服業的新能源政策調整。",
-      "coherent": false,
-      "size": 4,
-      "max_crawled_at": "2026-10-31 12:30:17",
-      "titles": [
-        "Thailand to Make Data Centre Developers Pitch for Power Under New Rules | APACrealty",
-        "Thailand to Make Data Centre Developers Pitch for Power Under New Rules - Mingtiandi",
-        "Thailand sets new rules for data centres as applications surge - The Star",
-        "Thailand Investment Applications Top 1 Trillion Baht on Digital and AI Projects - Thai Times"
-      ],
-      "urls": [
-        "https://apacrealty.com.sg/commercial/Thailand-to-Make-Data-Centre-Developers-Pitch-for-Power-Unde-025340",
-        "https://www.mingtiandi.com/real-estate/data-centres/thailand-to-make-data-centre-developers-pitch-for-power-under-new-rules/",
-        "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/28/thailand-sets-new-rules-for-data-centres-as-applications-surge",
-        "https://thaitimes.com/thailand-investment-applications-top-1-trillion-baht-on-digital-and-ai-projects"
-      ],
-      "sources": [
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics"
-      ]
-    },
-    {
-      "event": "泰國九月工廠產出增長，AI資料中心帶動投資",
-      "country": "TH",
-      "score": 41,
-      "score_model": 40,
-      "breadth_bonus": 1,
-      "recur_penalty": 0,
-      "official_sources": [],
-      "independent_outlets": 3,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "tags": [
-        "資料中心"
-      ],
-      "reason": "經濟資料與趨勢觀察，非單一具體投資事件。",
-      "coherent": false,
-      "size": 3,
-      "max_crawled_at": "2026-10-31 14:01:17",
-      "titles": [
-        "Thailand’s September factory output rises 2.05% y/y, lower than forecast - The Business Times",
-        "Thailand's economy improves in September on AI-driven exports - The Star",
-        "'AI-Data Center' บูมลงทุนเอกชนโตสูงสุดในรอบกว่า 20 ปี เผย 4 ปัจจัยเสี่ยงต้องจับตาใกล้ชิด | เดลินิวส์"
-      ],
-      "urls": [
-        "https://www.businesstimes.com.sg/international/asean/thailands-september-factory-output-rises-2-05-yy-lower-forecast",
-        "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSFBwWUtoTkg1MGJDdlBsU0VXOHNpLWJoTjNqXy1aUFFUdDdLeTMzeTdvY1c3TlJwQTZmckV5eVFkZEFudWtxSHBpZGN1OTJtY19rd3NibVBBRklqODZMWHBYMmdZa2hiYnNyTHJiZkhDR0Z0Q1ZOZnk1T0dydWVQVTA5RE94b2g5TXZmWjJQc3VuM2FmamhZcGhOOFhHLTNpdUNqNkw0QWJYamRxU1Z3X2xqbkZ3ZVpkN29rUzM0elMwemN1?oc=5",
-        "https://www.dailynews.co.th/news/6318195/"
-      ],
-      "sources": [
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics"
-      ]
-    },
-    {
-      "event": "新加坡資料中心高管涉間諜案，Nvidia CEO回應",
-      "country": "SG",
-      "score": 41,
-      "score_model": 40,
-      "breadth_bonus": 1,
-      "recur_penalty": 0,
-      "official_sources": [],
-      "independent_outlets": 2,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "tags": [
-        "資料中心"
-      ],
-      "reason": "涉及地緣政治風險，但屬個別案件非產業結構性變動。",
-      "coherent": false,
-      "size": 2,
-      "max_crawled_at": "2026-10-30 22:00:16",
-      "titles": [
-        "Chinese executive at Singapore data centre firm reportedly suspected of spying for Beijing; Nvidia CEO defends ties - The Online Citizen",
-        "Nvidia CEO says ties to Singapore company under spying probe were ‘normal’"
-      ],
-      "urls": [
-        "https://news.theonlinecitizen.com/2026/10/30/chinese-executive-at-singapore-data-centre-firm-reportedly-suspected-of-spying-for-beijing-nvidia-ceo-defends-ties",
-        "https://theedgemalaysia.com/node/823892"
-      ],
-      "sources": [
-        "sea_electronics",
-        "edge_markets"
-      ]
-    },
-    {
-      "event": "新加坡 AI 採用率領先全球且科技支出上升",
-      "country": "SG",
-      "score": 39,
-      "score_model": 50,
-      "breadth_bonus": 1,
-      "recur_penalty": 12,
-      "official_sources": [],
-      "independent_outlets": 2,
-      "mirror_urls": 0,
-      "recur_flag": "followup",
-      "recur_first_seen": "2026-10-09",
-      "recur_days": 12,
-      "tags": [
-        "AI軟體"
-      ],
-      "reason": "新加坡 AI 產業發展趨勢與企業投入狀況。",
-      "coherent": false,
-      "size": 7,
-      "max_crawled_at": "2026-11-01 03:00:17",
-      "titles": [
-        "New McKinsey-EDB-Tech In Asia report: AI adoption in Southeast Asia is outpacing the global average - Singapore Economic Development Board (EDB)",
-        "Singapore firms’ tech spending expected to rise as AI gains traction - Singapore Economic Development Board (EDB)",
-        "While Others Worry, Singapore Develops AI - Kompas.id",
-        "Singapore’s new platform connecting AI leaders; Waymo’s plans for driverless ride-hailing services; and investments by Databricks and Google Cloud – read to find out about these AI developments and more. | Singapore EDB",
-        "What makes Singapore the best hub in Asia for MedTech manufacturing? - Singapore Economic Development Board (EDB)",
-        "Foreign tech startups leveraging Singapore’s brand to venture overseas - Singapore Economic Development Board (EDB)",
-        "US semiconductor equipment firm Lam Research to add 200 jobs in Singapore amid AI boom"
-      ],
-      "urls": [
-        "https://www.edb.gov.sg/news-and-insights/new-mckinsey-edb-tech-in-asia-report-ai-adoption-in-southeast-asia-is-outpacing-the-global-average",
-        "https://www.edb.gov.sg/en/news-and-insights/singapore-firms-tech-spending-expected-to-rise-as-ai-gains-traction",
-        "https://www.kompas.id/artikel/while-others-are-anxious-singapore-is-developing-ai",
-        "https://www.edb.gov.sg/en/news-and-insights/latest-in-singapores-ai-scene-that-businesses-should-know-a-round-up-from-july-to-september-2026",
-        "https://www.edb.gov.sg/news-and-insights/what-makes-singapore-the-best-hub-in-asia-for-medtech-manufacturing",
-        "https://www.edb.gov.sg/en/news-and-insights/foreign-tech-startups-leveraging-singapores-brand-to-venture-overseas",
-        "https://edb.gov.sg/en/news-and-insights/us-semiconductor-equipment-firm-lam-research-to-add-200-jobs-in-singapore-amid-ai-boom"
-      ],
-      "sources": [
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics",
-        "sea_electronics"
-      ]
-    },
-    {
-      "event": "馬來西亞呼籲將500億美元AI投資轉化為高價值就業",
+      "event": "芬蘭調查Google資料中心土地清理案",
       "country": "MY",
-      "score": 35,
-      "score_model": 35,
-      "breadth_bonus": 0,
+      "score": 21,
+      "score_model": 20,
+      "breadth_bonus": 1,
       "recur_penalty": 0,
       "official_sources": [],
-      "independent_outlets": 1,
+      "independent_outlets": 2,
       "mirror_urls": 0,
       "recur_flag": "",
-      "recur_first_seen": "2026-10-31",
+      "recur_first_seen": "2026-11-01",
       "recur_days": 1,
       "tags": [
-        "政策獎勵"
+        "資料中心"
       ],
-      "reason": "僅為政策呼籲，無具體實體投資承諾。",
-      "coherent": false,
+      "reason": "芬蘭事件，與東南亞半導體產業無關。",
+      "coherent": true,
       "size": 2,
-      "max_crawled_at": "2026-11-01 10:00:54",
+      "max_crawled_at": "2026-11-01 06:00:19",
       "titles": [
-        "Malaysia must turn US$50bil AI investment into high-value jobs, technology gains [WATCH] - NST Online",
-        "Automotive, data centre, aerospace offer higher-value opportunities for steelmakers – SIM - NST Online"
+        "Finland launches criminal probe into land clearance for Google data centre - The Star",
+        "Finland launches criminal probe into land clearance for Google data centre - CNA"
       ],
       "urls": [
-        "https://www.nst.com.my/business/economy/2026/10/1565869/malaysia-must-turn-us50bil-ai-investment-high-value-jobs",
-        "https://www.nst.com.my/business/corporate/2026/10/1566083/automotive-data-centre-aerospace-offer-higher-value"
+        "https://www.thestar.com.my/tech/tech-news/2026/10/29/finland-launches-criminal-probe-of-suspected-environmental-damage-at-google-data-centre-site",
+        "https://www.channelnewsasia.com/business/finland-launches-criminal-probe-land-clearance-google-data-centre-6503686"
       ],
       "sources": [
         "sea_electronics",
@@ -863,40 +1113,10 @@
       ]
     },
     {
-      "event": "泰國活動人士反對資料中心過度擴張",
-      "country": "TH",
-      "score": 35,
-      "score_model": 35,
-      "breadth_bonus": 0,
-      "recur_penalty": 0,
-      "official_sources": [],
-      "independent_outlets": 1,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "tags": [
-        "資料中心"
-      ],
-      "reason": "社會反對聲音，反映監管風險但無具體投資變動。",
-      "coherent": false,
-      "size": 1,
-      "max_crawled_at": "2026-10-30 06:01:17",
-      "titles": [
-        "S.Thailand activists push back on data centre rush, damn - Bangkok Post"
-      ],
-      "urls": [
-        "https://www.bangkokpost.com/thailand/politics/3345145/sthailand-activists-push-back-on-data-centre-rush-damn"
-      ],
-      "sources": [
-        "sea_electronics"
-      ]
-    },
-    {
-      "event": "美股科技股崩跌拖累新加坡晶片股大跌",
+      "event": "新加坡晶片股受美股科技股回撥拖累下跌",
       "country": "SG",
-      "score": 33,
-      "score_model": 30,
+      "score": 13,
+      "score_model": 10,
       "breadth_bonus": 3,
       "recur_penalty": 0,
       "official_sources": [],
@@ -908,25 +1128,25 @@
       "tags": [
         "半導體"
       ],
-      "reason": "金融市場波動影響，非產業結構性變化。",
+      "reason": "屬股市波動，無實質產業投資或製造變動。",
       "coherent": false,
       "size": 6,
-      "max_crawled_at": "2026-11-01 03:31:17",
+      "max_crawled_at": "2026-11-01 14:30:17",
       "titles": [
         "AEM and other Singapore chip stocks tumble after Wall Street hits a tech rout - The Straits Times",
-        "AI stock rout drags down Singapore tech shares; analyst warns semiconductor stocks could fall further - 联合早报",
         "AEM tumbles 11% along with Singapore and regional chip peers following Alphabet’s record plunge - The Business Times",
+        "AI stock rout drags down Singapore tech shares; analyst warns semiconductor stocks could fall further - 联合早报",
+        "Singapore shares fall as chip stocks take a beating; STI down 0.4% - The Business Times",
         "AEM and other Singapore chip stocks tumble after tech rout on Wall Street - The Straits Times",
-        "The AI frenzy gets a reality check",
-        "Big Tech is pouring money into AI data centers, and Wall Street is starting to worry. - Vietnam.vn"
+        "US semiconductor equipment firm Lam Research to add 200 jobs in Singapore amid AI boom"
       ],
       "urls": [
         "https://www.straitstimes.com/business/companies-markets/aem-and-other-singapore-chip-stocks-tumble-after-wall-street-hits-a-tech-rout",
-        "https://www.zaobao.com.sg/en/finance/singapore/ai-stock-rout-drags-down-singapore-tech-shares-analyst-warns-semiconductor-stocks-could-fall-further",
         "https://www.businesstimes.com.sg/companies-markets/aem-tumbles-11-along-singapore-and-regional-chip-peers-following-alphabets-record-plunge",
+        "https://www.zaobao.com.sg/en/finance/singapore/ai-stock-rout-drags-down-singapore-tech-shares-analyst-warns-semiconductor-stocks-could-fall-further",
+        "https://www.businesstimes.com.sg/companies-markets/singapore-shares-fall-chip-stocks-take-beating-sti-down-0-4",
         "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNTVBalQ1X1IxT0FtMk4tamRwZjZKZHBBUTdpZGVTZTFnMjJoTDFVMlJhaF9yUU9wQ1NEX295ODlhSjliQUtEc3MyMVowZW9WY1ZGd0otclMwWnUwa1ZvUWlfY0U1TmpfQ0dKTWdwdkVaWG51aXJjMGpOTXZaLXNYdXh0SEFyVW1lWktfU3hjWUFpOWd3c2ZYbnhBcVhyQXpxbUZXek50UjJlZmtRUnpUdTRfQy1TZURaVU5ueWpweVBteVRsYU4tX0ZOMzYxQQ?oc=5",
-        "https://www.businesstimes.com.sg/opinion-features/ai-frenzy-gets-reality-check",
-        "https://www.vietnam.vn/en/big-tech-do-tien-vao-trung-tam-du-lieu-ai-pho-wall-bat-dau-lo-ngai"
+        "https://edb.gov.sg/en/news-and-insights/us-semiconductor-equipment-firm-lam-research-to-add-200-jobs-in-singapore-amid-ai-boom"
       ],
       "sources": [
         "sea_electronics",
@@ -935,162 +1155,6 @@
         "sea_electronics",
         "sea_electronics",
         "sea_electronics"
-      ]
-    },
-    {
-      "event": "越南擬吸引電子產業投資以縮減貿易逆差",
-      "country": "VN",
-      "score": 31,
-      "score_model": 30,
-      "breadth_bonus": 1,
-      "recur_penalty": 0,
-      "official_sources": [],
-      "independent_outlets": 2,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "tags": [
-        "政策獎勵"
-      ],
-      "reason": "政策意向宣告，無具體企業或金額承諾。",
-      "coherent": false,
-      "size": 2,
-      "max_crawled_at": "2026-10-31 12:01:17",
-      "titles": [
-        "Proposals to attract investment in key electronics sectors, aiming to reduce the trade deficit. - Vietnam.vn",
-        "Creating conditions for Korean businesses to expand investment in Vietnam - Laodong.vn"
-      ],
-      "urls": [
-        "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLVAyVWF0RF96ODI2QVdPTS1NcWowS3gxR3NZUGgyTUpNZG1ZNkRFRm9BZ0Y5aTRQUUFTSG1hWlc2YmRxalA5VW5mQmU5VWJLX2NjS0tOdEZxVG1iUUhBLWxPdEVlNWRZVmlpNDdiYXkyYlRBZERSVkpQTUQ2UEZfbUxvZEh5ZUFRdjFZdEtXc2VxT1VJNGw4ajUycUtTa28?oc=5",
-        "https://news.laodong.vn/thoi-su/tao-dieu-kien-de-doanh-nghiep-han-quoc-mo-rong-dau-tu-tai-viet-nam-1790354.ldo"
-      ],
-      "sources": [
-        "sea_electronics",
-        "sea_electronics"
-      ]
-    },
-    {
-      "event": "霹靂州強化高價值與永續投資樞紐地位",
-      "country": "MY",
-      "score": 30,
-      "score_model": 30,
-      "breadth_bonus": 0,
-      "recur_penalty": 0,
-      "official_sources": [],
-      "independent_outlets": 1,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "tags": [
-        "政策獎勵"
-      ],
-      "reason": "政府招商宣傳，無具體企業落地資訊。",
-      "coherent": false,
-      "size": 2,
-      "max_crawled_at": "2026-10-31 03:31:17",
-      "titles": [
-        "Perak Strengthens Its Position as a Hub for High-Value and Sustainable Investment - MIDA | Malaysian Investment Development Authority",
-        "Perak Strengthens Its Position as a Hub for High-Value and Sustainable Investment"
-      ],
-      "urls": [
-        "https://www.mida.gov.my/perak-strengthens-its-position-as-a-hub-for-high-value-and-sustainable-investment/",
-        "https://www.mida.gov.my/perak-strengthens-its-position-as-a-hub-for-high-value-and-sustainable-investment"
-      ],
-      "sources": [
-        "sea_electronics",
-        "sea_electronics"
-      ]
-    },
-    {
-      "event": "慶和省推動高科技產業外資",
-      "country": "VN",
-      "score": 30,
-      "score_model": 30,
-      "breadth_bonus": 0,
-      "recur_penalty": 0,
-      "official_sources": [],
-      "independent_outlets": 1,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "tags": [
-        "政策獎勵"
-      ],
-      "reason": "一般性招商宣傳，缺乏具體專案或金額。",
-      "coherent": false,
-      "size": 1,
-      "max_crawled_at": "2026-10-30 05:31:17",
-      "titles": [
-        "Khanh Hoa drives foreign investment into high-tech industries - Vietnam+ (VietnamPlus)"
-      ],
-      "urls": [
-        "https://en.vietnamplus.vn/khanh-hoa-drives-foreign-investment-into-high-tech-industries-post354503.vnp"
-      ],
-      "sources": [
-        "sea_electronics"
-      ]
-    },
-    {
-      "event": "越南十六家企業透過智慧工廠諮詢提升生產力",
-      "country": "VN",
-      "score": 25,
-      "score_model": 25,
-      "breadth_bonus": 0,
-      "recur_penalty": 0,
-      "official_sources": [],
-      "independent_outlets": 1,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "tags": [
-        "EMS代工"
-      ],
-      "reason": "製造業升級案例，屬間接影響非核心半導體事件。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-30 01:30:17",
-      "titles": [
-        "Sixteen Vietnamese enterprises boost productivity through smart factory consulting program"
-      ],
-      "urls": [
-        "https://en.vneconomy.vn/sixteen-vietnamese-enterprises-boost-productivity-through-smart-factory-consulting-program.htm"
-      ],
-      "sources": [
-        "sea_electronics"
-      ]
-    },
-    {
-      "event": "越南加速5G應用並準備6G技術",
-      "country": "VN",
-      "score": 20,
-      "score_model": 20,
-      "breadth_bonus": 0,
-      "recur_penalty": 0,
-      "official_sources": [],
-      "independent_outlets": 1,
-      "mirror_urls": 0,
-      "recur_flag": "",
-      "recur_first_seen": "",
-      "recur_days": 0,
-      "tags": [
-        "電信設備"
-      ],
-      "reason": "基礎建設規劃，對半導體製造直接影響較小。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-30 19:30:17",
-      "titles": [
-        "Vietnam accelerates 5G utilisation and prepares for 6G"
-      ],
-      "urls": [
-        "https://vir.com.vn/vietnam-accelerates-5g-utilisation-and-prepares-for-6g-164100.html"
-      ],
-      "sources": [
-        "vir_vietnam"
       ]
     }
   ]
