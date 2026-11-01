@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01 15:15:18",
+  "generated": "2026-11-01 19:15:18",
   "window_days": 2,
   "sources": [
     "dempa",
@@ -10,19 +10,19 @@
     "nikkan",
     "nikkei_jp"
   ],
-  "input_titles": 60,
-  "events": 19,
-  "kana_residue_rows": 0,
+  "input_titles": 65,
+  "events": 22,
+  "kana_residue_rows": 1,
   "timings_seconds": {
-    "stage1_cluster": 6.9,
-    "stage2_name_score": 44.3,
-    "total": 51.2
+    "stage1_cluster": 7.1,
+    "stage2_name_score": 50.2,
+    "total": 57.3
   },
   "stories": [
     {
-      "event": "村田增產MLCC5年投1兆日圓",
+      "event": "村田增產MLCC，5年投1兆日元",
       "score": 92,
-      "reason": "村田鉅資擴產，影響全球被動元件供應鏈",
+      "reason": "村田大規模擴產，影響全球被動元件供應鏈",
       "tags": [
         "電子零組件",
         "擴產投資"
@@ -42,8 +42,8 @@
     },
     {
       "event": "豐田與Waymo合推自動駕駛計程車",
-      "score": 78,
-      "reason": "豐田跨足SDV領域，與美企合作具指標意義",
+      "score": 75,
+      "reason": "日系車廠與美系AI巨頭合作，具戰略意義",
       "tags": [
         "車用電子",
         "供應鏈"
@@ -62,9 +62,30 @@
       ]
     },
     {
-      "event": "GaN量產邁向300mm及高耐壓",
+      "event": "日產化學中國設半導體材料子公司",
       "score": 65,
-      "reason": "功率半導體製程升級，影響電動車與電源市場",
+      "reason": "關鍵材料供應鏈佈局，具實質產業影響",
+      "tags": [
+        "半導體材料",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-01 13:01:17",
+      "titles": [
+        "資本金は約50億円…日産化学、中国に半導体材会社"
+      ],
+      "urls": [
+        "https://newswitch.jp/p/50676"
+      ],
+      "sources": [
+        "newswitch"
+      ]
+    },
+    {
+      "event": "GaN量產邁向300mm與高耐壓",
+      "score": 55,
+      "reason": "功率半導體製程升級，影響電動車供應鏈",
       "tags": [
         "半導體"
       ],
@@ -82,9 +103,90 @@
       ]
     },
     {
+      "event": "日產新SUV匯入SDV平臺",
+      "score": 50,
+      "reason": "SDV為車用電子關鍵趨勢，具產業指標意義",
+      "tags": [
+        "車用電子"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-31 16:01:17",
+      "titles": [
+        "日産、新型SUV「ローグ」にSDV基盤…運転支援進化に一歩"
+      ],
+      "urls": [
+        "https://newswitch.jp/p/50678"
+      ],
+      "sources": [
+        "newswitch"
+      ]
+    },
+    {
+      "event": "瑞薩設計AI化與英特爾戰略",
+      "score": 45,
+      "reason": "瑞薩轉型關鍵，但屬策略方向非具體投資",
+      "tags": [
+        "半導體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-31 08:01:17",
+      "titles": [
+        "NIKKEI Tech Foresight 「ルネサス、設計AI化」「インテル注力5分野」 注目5本"
+      ],
+      "urls": [
+        "https://www.nikkei.com/prime/tech-foresight/article/DGXZQOUC300D60Q6A031C2000000"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "全球核電建設回升因應AI電力需求",
+      "score": 45,
+      "reason": "間接影響能源電子，非直接半導體或裝置事件",
+      "tags": [
+        "太陽能"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-01 18:01:17",
+      "titles": [
+        "世界の原発建設79基、40年ぶり高水準 エネ価格高騰やAI需要で"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOGR232O00T20C26A9000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "川崎鶴見巴士啟動超快充營運",
+      "score": 45,
+      "reason": "電動車基礎設施實證，涉及功率半導體與充電技術應用。",
+      "tags": [
+        "車用電子",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-31 19:31:17",
+      "titles": [
+        "パンタグラフ式でEVバスに超急速充電、川崎鶴見臨港バスが国内初の営業運行"
+      ],
+      "urls": [
+        "https://dempa-digital.com/article/729272"
+      ],
+      "sources": [
+        "dempa"
+      ]
+    },
+    {
       "event": "全球半導體裝置市場成長加速",
-      "score": 60,
-      "reason": "裝置市場趨勢反映下游資本支出意願",
+      "score": 40,
+      "reason": "市場概況報導，缺乏具體廠商或技術細節",
       "tags": [
         "半導體設備"
       ],
@@ -102,33 +204,12 @@
       ]
     },
     {
-      "event": "日產化學中國設半導體材料公司",
-      "score": 60,
-      "reason": "關鍵材料供應商海外佈局，影響區域供應鏈安全",
+      "event": "TOTO半導體陶瓷營收佔比逾七成",
+      "score": 35,
+      "reason": "顯示非傳統廠商切入半導體材料供應鏈",
       "tags": [
-        "半導體材料",
+        "半導體設備",
         "供應鏈"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-01 13:01:17",
-      "titles": [
-        "資本金は約50億円…日産化学、中国に半導体材会社"
-      ],
-      "urls": [
-        "https://newswitch.jp/p/50676"
-      ],
-      "sources": [
-        "newswitch"
-      ]
-    },
-    {
-      "event": "TOTO陶瓷事業受惠半導體裝置",
-      "score": 55,
-      "reason": "非傳統廠商切入半導體供應鏈，顯示材料多元化",
-      "tags": [
-        "半導體材料",
-        "電子零組件"
       ],
       "coherent": true,
       "size": 1,
@@ -144,71 +225,50 @@
       ]
     },
     {
-      "event": "日產新SUV匯入SDV架構",
-      "score": 55,
-      "reason": "傳統車廠轉向軟體定義汽車，影響供應鏈結構",
+      "event": "UACJ擴大國產鋁材供應防衛宇宙",
+      "score": 35,
+      "reason": "材料國產化政策相關，但屬基礎金屬加工",
       "tags": [
-        "車用電子",
-        "擴產投資"
+        "防衛宇宙",
+        "供應鏈"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-10-31 16:01:17",
+      "max_crawled_at": "2026-10-31 04:01:17",
       "titles": [
-        "日産、新型SUV「ローグ」にSDV基盤…運転支援進化に一歩"
+        "UACJ、アルミ合金部材 防衛宇宙需要増 国産供給網、投資を拡大"
       ],
       "urls": [
-        "https://newswitch.jp/p/50678"
+        "https://www.nikkan.co.jp/articles/view/795877"
       ],
       "sources": [
-        "newswitch"
+        "nikkan"
       ]
     },
     {
-      "event": "瑞薩設計AI化與英特爾戰略聚焦",
-      "score": 50,
-      "reason": "瑞薩技術轉型具產業影響力，雖為分析非單一事件",
+      "event": "業界探討2奈米製程術語爭議",
+      "score": 35,
+      "reason": "涉及先進製程認知，但屬理論討論，無具體技術進展。",
       "tags": [
-        "半導體",
-        "電子政策"
+        "半導體"
       ],
-      "coherent": false,
+      "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-10-31 08:01:17",
+      "max_crawled_at": "2026-11-01 04:00:17",
       "titles": [
-        "NIKKEI Tech Foresight 「ルネサス、設計AI化」「インテル注力5分野」 注目5本"
+        "2ナノ回路は存在しない？ 半導体性能を示す「業界用語」が独り歩き 5:00"
       ],
       "urls": [
-        "https://www.nikkei.com/prime/tech-foresight/article/DGXZQOUC300D60Q6A031C2000000"
+        "https://www.nikkei.com/article/DGXZQOUC30BCV0Q6A930C2000000/"
       ],
       "sources": [
         "nikkei_jp"
       ]
     },
     {
-      "event": "記憶體大廠獲利首超美科技股",
-      "score": 45,
-      "reason": "產業獲利里程碑，反映AI需求對記憶體市場影響",
-      "tags": [
-        "記憶體"
-      ],
-      "coherent": false,
-      "size": 1,
-      "max_crawled_at": "2026-10-31 01:01:17",
-      "titles": [
-        "世界のメモリー大手、営業利益が初の米テック超え AI需要が急増"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOUB29BWD0Z21C26A0000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "控制機器人叢集之演算法研究",
-      "score": 45,
-      "reason": "物理AI核心技術，影響未來自動化應用深度",
+      "event": "仿生演算法控制機器人叢集",
+      "score": 30,
+      "reason": "軟體演算法研究，硬體整合度未明",
       "tags": [
         "機器人"
       ],
@@ -226,31 +286,9 @@
       ]
     },
     {
-      "event": "UACJ擴資防衛宇宙用鋁合金國產供應鏈",
-      "score": 45,
-      "reason": "防衛宇宙關鍵材料擴產，具戰略意義。",
-      "tags": [
-        "電子零組件",
-        "防衛宇宙",
-        "擴產投資"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-31 04:01:17",
-      "titles": [
-        "UACJ、アルミ合金部材 防衛宇宙需要増 国産供給網、投資を拡大"
-      ],
-      "urls": [
-        "https://www.nikkan.co.jp/articles/view/795877"
-      ],
-      "sources": [
-        "nikkan"
-      ]
-    },
-    {
-      "event": "Alps Alpine增收減益，車用擴張",
-      "score": 40,
-      "reason": "零元件廠財務表現，反映車用市場變化",
+      "event": "Alps Alpine獲利減損但營收成長",
+      "score": 25,
+      "reason": "單一公司財報，對產業結構影響有限",
       "tags": [
         "電子零組件"
       ],
@@ -268,12 +306,11 @@
       ]
     },
     {
-      "event": "菲律賓半導體論壇聚焦AI需求",
-      "score": 35,
-      "reason": "區域供應鏈整合討論，反映地緣政治下的產業動向",
+      "event": "菲舉辦半導體電子論壇聚焦AI需求",
+      "score": 25,
+      "reason": "僅為區域交流活動，無實質產業投資或技術突破。",
       "tags": [
-        "供應鏈",
-        "電子政策"
+        "供應鏈"
       ],
       "coherent": true,
       "size": 1,
@@ -289,69 +326,29 @@
       ]
     },
     {
-      "event": "九州大學研發自修復電子電路",
-      "score": 30,
-      "reason": "基礎研究突破，長期影響可靠性但短期產業衝擊小",
-      "tags": [
-        "半導體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-10-31 04:01:17",
-      "titles": [
-        "九州大学、「動く電子回路」研究開発 壊れた部分、自ら交換"
-      ],
-      "urls": [
-        "https://www.nikkan.co.jp/articles/view/795876"
-      ],
-      "sources": [
-        "nikkan"
-      ]
-    },
-    {
-      "event": "自動採血機器人赴歐美市場拓展",
-      "score": 25,
-      "reason": "醫療自動化應用，屬機器人領域但非核心製造。",
-      "tags": [
-        "機器人"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-01 01:01:17",
-      "titles": [
-        "採血を自動で行うロボット、欧米で登場 成り手いない業務を代替か 2:00"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOUA26BC20W6A021C2000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "東大發射望遠鏡衛星探測外星",
+      "event": "三菱重工擴充美國燃氣輪機產能",
       "score": 20,
-      "reason": "太空應用技術，與電子產業核心供應鏈關聯度低",
+      "reason": "屬能源基礎設施，非直接電子產業核心",
       "tags": [
-        "防衛宇宙"
+        "太陽能"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-10-31 04:01:17",
+      "max_crawled_at": "2026-11-01 16:00:30",
       "titles": [
-        "地球外生命探査へ、東大が宇宙に「100メートル望遠鏡」 小型衛星3個で 5:00"
+        "三菱重工、米ガスタービン拠点を拡張 770億円投じ電力需要増に対応 17:00"
       ],
       "urls": [
-        "https://www.nikkei.com/article/DGXZQOSG278DT0X20C26A7000000/"
+        "https://www.nikkei.com/article/DGXZQOUC277H60X21C26A0000000/"
       ],
       "sources": [
         "nikkei_jp"
       ]
     },
     {
-      "event": "Maker's推極薄無線充電行動電源採半固態電池",
-      "score": 15,
-      "reason": "消費性產品應用，產業影響力有限。",
+      "event": "新極薄行動電源採半固態電池",
+      "score": 20,
+      "reason": "消費性產品應用，非車用或工業級大規模擴產。",
       "tags": [
         "電池"
       ],
@@ -369,9 +366,29 @@
       ]
     },
     {
-      "event": "日本體育設施發售自動割草機",
-      "score": 10,
-      "reason": "消費型機器人產品，對產業鏈影響微乎其微",
+      "event": "九州大學研發自修復電子電路",
+      "score": 15,
+      "reason": "基礎研究突破，但離產業應用尚遠",
+      "tags": [
+        "半導體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-31 04:01:17",
+      "titles": [
+        "九州大学、「動く電子回路」研究開発 壊れた部分、自ら交換"
+      ],
+      "urls": [
+        "https://www.nikkan.co.jp/articles/view/795876"
+      ],
+      "sources": [
+        "nikkan"
+      ]
+    },
+    {
+      "event": "日本推出輕量自動割草機器人",
+      "score": 15,
+      "reason": "消費型服務機器人，對核心電子供應鏈影響極小。",
       "tags": [
         "機器人"
       ],
@@ -389,20 +406,58 @@
       ]
     },
     {
-      "event": "業界探討2奈米製程術語誤用與現實落差",
-      "score": 10,
-      "reason": "技術討論非實質產業動態，影響較低。",
+      "event": "自動採血機器人歐美登場",
+      "score": 15,
+      "reason": "醫療服務機器人，非日本本土製造或核心電子元件。",
       "tags": [
-        "半導體"
+        "機器人"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-01 04:00:17",
+      "max_crawled_at": "2026-11-01 01:01:17",
       "titles": [
-        "2ナノ回路は存在しない？ 半導体性能を示す「業界用語」が独り歩き 5:00"
+        "採血を自動で行うロボット、欧米で登場 成り手いない業務を代替か 2:00"
       ],
       "urls": [
-        "https://www.nikkei.com/article/DGXZQOUC30BCV0Q6A930C2000000/"
+        "https://www.nikkei.com/article/DGXZQOUA26BC20W6A021C2000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "東大擬發射望遠鏡探測外星生命",
+      "score": 10,
+      "reason": "學術研究計畫，非商業電子產業或國防硬體採購。",
+      "tags": [
+        "防衛宇宙"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-31 04:01:17",
+      "titles": [
+        "地球外生命探査へ、東大が宇宙に「100メートル望遠鏡」 小型衛星3個で 5:00"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOSG278DT0X20C26A7000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "世界のメモリー大手、營業利益が初の米テック超え AI需要が急增",
+      "score": 0,
+      "reason": "",
+      "tags": [],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-10-31 01:01:17",
+      "titles": [
+        "世界のメモリー大手、営業利益が初の米テック超え AI需要が急増"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOUB29BWD0Z21C26A0000000/"
       ],
       "sources": [
         "nikkei_jp"
