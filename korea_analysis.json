@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-05 04:45:18",
+  "generated": "2026-11-05 08:45:18",
   "window_days": 2,
   "sources": [
     "businesskorea",
@@ -9,18 +9,39 @@
     "yonhap",
     "zdkorea"
   ],
-  "input_titles": 263,
-  "events": 50,
+  "input_titles": 296,
+  "events": 59,
   "timings_seconds": {
-    "stage1_cluster": 11.8,
-    "stage2_name_score": 123.4,
-    "total": 135.2
+    "stage1_cluster": 12.4,
+    "stage2_name_score": 162.8,
+    "total": 175.2
   },
   "stories": [
     {
-      "event": "美國限制SK海力士中國廠裝置出口",
-      "score": 92,
-      "reason": "出口管制直接衝擊韓廠產能與投資，具重大產業影響。",
+      "event": "三星在吉亨建設先進晶圓廠",
+      "score": 85,
+      "reason": "三星先進製程擴產，具產業指標意義。",
+      "tags": [
+        "半導體",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-04 19:01:17",
+      "titles": [
+        "Samsung Builds Advanced Foundry Fab in Giheung"
+      ],
+      "urls": [
+        "https://www.businesskorea.co.kr/news/articleView.html?idxno=280495"
+      ],
+      "sources": [
+        "businesskorea"
+      ]
+    },
+    {
+      "event": "美國暫停SK海力士中國廠裝置出口",
+      "score": 78,
+      "reason": "出口管制直接衝擊韓廠供應鏈與產能。",
       "tags": [
         "半導體",
         "電子政策"
@@ -57,120 +78,32 @@
       ]
     },
     {
-      "event": "三星電子在吉縣建設先進晶圓廠",
-      "score": 85,
-      "reason": "三星擴建先進製程，直接影響全球晶圓代工格局。",
+      "event": "海星DS獲客戶投資進入aQFN市場",
+      "score": 75,
+      "reason": "關鍵材料供應商獲大廠投資，具戰略意義。",
+      "tags": [
+        "半導體材料"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-05 06:31:17",
+      "titles": [
+        "Haesung DS Enters aQFN Leadframe Market With Customer Investment"
+      ],
+      "urls": [
+        "https://www.thelec.net/news/articleView.html?idxno=15261"
+      ],
+      "sources": [
+        "thelec"
+      ]
+    },
+    {
+      "event": "台積電與三星在德州展開人才與基礎設施競爭",
+      "score": 72,
+      "reason": "全球晶圓廠龍頭在韓美關鍵市場的直接競爭。",
       "tags": [
         "半導體",
         "擴產投資"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-04 19:01:17",
-      "titles": [
-        "Samsung Builds Advanced Foundry Fab in Giheung"
-      ],
-      "urls": [
-        "https://www.businesskorea.co.kr/news/articleView.html?idxno=280495"
-      ],
-      "sources": [
-        "businesskorea"
-      ]
-    },
-    {
-      "event": "NAND市場需求兩極化：通用型持平AI型上升",
-      "score": 70,
-      "reason": "記憶體市場結構性變化，直接影響韓國主要出口產品。",
-      "tags": [
-        "記憶體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-04 15:30:17",
-      "titles": [
-        "낸드 시장 '수요 양극화'…범용 21개월 만에 보합 vs AI용은 상승세"
-      ],
-      "urls": [
-        "https://www.newsis.com/view/NISX20261104_0003854926"
-      ],
-      "sources": [
-        "newsis"
-      ]
-    },
-    {
-      "event": "大同新萬金建2兆元物理AI",
-      "score": 65,
-      "reason": "大型基礎設施投資，具產業推動力。",
-      "tags": [
-        "擴產投資"
-      ],
-      "coherent": true,
-      "size": 3,
-      "max_crawled_at": "2026-11-04 13:00:17",
-      "titles": [
-        "\"전북을 피지컬AI 거점으로\"…항공·농업·물류 인프라 청사진 발표",
-        "대동, 새만금에 '농업 피지컬 AI 로봇팜 팩토리' 짓는다",
-        "2조원대 제조AI 사업, 적정성 검토 없이 예산편성 논란"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261104105616",
-        "https://zdnet.co.kr/view/?no=20261104115741",
-        "https://www.newsis.com/view/NISX20261104_0003853950"
-      ],
-      "sources": [
-        "zdkorea",
-        "zdkorea",
-        "newsis"
-      ]
-    },
-    {
-      "event": "AMD與韓國政府推動異構AI基礎設施合作",
-      "score": 60,
-      "reason": "AMD與韓方建立AI聯盟，影響當地AI生態系。",
-      "tags": [
-        "AI算力",
-        "供應鏈"
-      ],
-      "coherent": false,
-      "size": 8,
-      "max_crawled_at": "2026-11-04 17:31:17",
-      "titles": [
-        "과기정통부-AMD, 국내 AI 발전 위한 운영위원회 개최",
-        "AMD partners with Korea to merge NPU and DPU for heterogeneous AI push",
-        "AMD, 망고부스트·퓨리오사AI와 이기종 AI 인프라 추진",
-        "AMD \"6세대 에픽·라이젠으로 하이브리드 AI 대응\"",
-        "AMD, AI 데이터센터 매출 2배 '껑충'…시간외 주가 9%↑",
-        "AMD surges on AI chip boom, forecasts revenue to jump over 80% next year",
-        "Science ministry, AMD engage in follow-up discussions on AI chip partnership",
-        "More touts AMD-powered Token Factory, doubles throughput over Nvidia in Korea"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261104130048",
-        "https://biz.chosun.com/en/en-it/2026/11/04/45FSZUJHQBHZJPQ36UHZC6YZBY/",
-        "https://zdnet.co.kr/view/?no=20261104152406",
-        "https://zdnet.co.kr/view/?no=20261104162600",
-        "https://www.newsis.com/view/NISX20261104_0003853763",
-        "https://biz.chosun.com/en/en-it/2026/11/04/3VFKK7PQA5GNFJDGVY3HW3BO5A/",
-        "https://en.yna.co.kr/view/AEN20261104003100320",
-        "https://biz.chosun.com/en/en-it/2026/11/04/CO46WSGTLNBEPDYEGR6BPHGPFU/"
-      ],
-      "sources": [
-        "zdkorea",
-        "chosunbiz",
-        "zdkorea",
-        "zdkorea",
-        "newsis",
-        "chosunbiz",
-        "yonhap",
-        "chosunbiz"
-      ]
-    },
-    {
-      "event": "三星海力士在美日爭奪人才與基礎設施",
-      "score": 55,
-      "reason": "全球人才競爭加劇，反映地緣政治下的供應鏈重組。",
-      "tags": [
-        "半導體"
       ],
       "coherent": false,
       "size": 3,
@@ -192,10 +125,50 @@
       ]
     },
     {
-      "event": "現代摩比斯投1000億韓元",
-      "score": 55,
-      "reason": "電池負極材料海外擴產，具戰略意義。",
+      "event": "AMD與韓國企業共建AI基礎設施叢集",
+      "score": 65,
+      "reason": "國際大廠進駐韓國強化AI硬體生態系。",
       "tags": [
+        "AI算力",
+        "供應鏈"
+      ],
+      "coherent": false,
+      "size": 7,
+      "max_crawled_at": "2026-11-05 06:31:17",
+      "titles": [
+        "AMD partners with Korea to merge NPU and DPU for heterogeneous AI push",
+        "AMD, FuriosaAI and MangoBoost to Build AI Infrastructure Cluster in 2027",
+        "AMD, 망고부스트·퓨리오사AI와 이기종 AI 인프라 추진",
+        "과기정통부-AMD, 국내 AI 발전 위한 운영위원회 개최",
+        "Science ministry, AMD engage in follow-up discussions on AI chip partnership",
+        "DEEPX, AMD Discuss AI Chip Technology Cooperation",
+        "More touts AMD-powered Token Factory, doubles throughput over Nvidia in Korea"
+      ],
+      "urls": [
+        "https://biz.chosun.com/en/en-it/2026/11/04/45FSZUJHQBHZJPQ36UHZC6YZBY/",
+        "https://www.thelec.net/news/articleView.html?idxno=15270",
+        "https://zdnet.co.kr/view/?no=20261104152406",
+        "https://zdnet.co.kr/view/?no=20261104130048",
+        "https://en.yna.co.kr/view/AEN20261104003100320",
+        "https://www.thelec.net/news/articleView.html?idxno=15253",
+        "https://biz.chosun.com/en/en-it/2026/11/04/CO46WSGTLNBEPDYEGR6BPHGPFU/"
+      ],
+      "sources": [
+        "chosunbiz",
+        "thelec",
+        "zdkorea",
+        "zdkorea",
+        "yonhap",
+        "thelec",
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "現代汽車集團擬投資POSCO Future M越南負極專案",
+      "score": 62,
+      "reason": "車廠跨足電池材料，顯示供應鏈垂直整合趨勢。",
+      "tags": [
+        "電池材料",
         "擴產投資"
       ],
       "coherent": true,
@@ -212,11 +185,124 @@
       ]
     },
     {
-      "event": "Counterpoint預測Sunic System成全球顯示裝置龍頭",
-      "score": 50,
-      "reason": "韓國顯示裝置商獲國際機構認可，具產業指標意義。",
+      "event": "NAND市場需求兩極化：通用型持平AI型上升",
+      "score": 60,
+      "reason": "反映記憶體市場結構性轉變與供需現況。",
       "tags": [
-        "半導體設備"
+        "記憶體",
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-04 15:30:17",
+      "titles": [
+        "낸드 시장 '수요 양극화'…범용 21개월 만에 보합 vs AI용은 상승세"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261104_0003854926"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "韓國2兆元製造AI預算爭議",
+      "score": 60,
+      "reason": "國家級半導體/AI預算編列引發政治與產業關注。",
+      "tags": [
+        "電子政策",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-04 12:31:17",
+      "titles": [
+        "2조원대 제조AI 사업, 적정성 검토 없이 예산편성 논란"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261104_0003853950"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "LG化學與SFC藍OLED專利訴訟",
+      "score": 60,
+      "reason": "專利糾紛影響技術授權與市場進入。",
+      "tags": [
+        "顯示面板"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-04 22:30:48",
+      "titles": [
+        "'청색 OLED 특허분쟁' LG화학-SFC, 쌍방 항소"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261104223833"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "Innox Advanced Materials供應OCA膠",
+      "score": 60,
+      "reason": "關鍵顯示材料供應商切入旗艦機供應鏈，具實質商業價值。",
+      "tags": [
+        "半導體材料",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-05 06:31:17",
+      "titles": [
+        "Innox Advanced Materials Begins OCA Supply for Flagship Smartphones"
+      ],
+      "urls": [
+        "https://www.thelec.net/news/articleView.html?idxno=15281"
+      ],
+      "sources": [
+        "thelec"
+      ]
+    },
+    {
+      "event": "LX Semicon首季虧損換帥",
+      "score": 55,
+      "reason": "關鍵光阻劑供應商財務波動，影響供應鏈穩定性。",
+      "tags": [
+        "半導體材料"
+      ],
+      "coherent": true,
+      "size": 4,
+      "max_crawled_at": "2026-11-05 06:31:17",
+      "titles": [
+        "LX Semicon Posts First Quarterly Loss Since Listing, Names New CEO",
+        "LX Semicon Names Vice President Na Jun-ho as Next CEO",
+        "LX세미콘, 반도체 호황기에도 상장 후 첫 분기 적자 …'내부 승진' 나준호號, 구원투수될까",
+        "CMTX Says Profit Decline Is Temporary After Stock Plunges"
+      ],
+      "urls": [
+        "https://www.thelec.net/news/articleView.html?idxno=15252",
+        "https://www.thelec.net/news/articleView.html?idxno=15247",
+        "https://www.newsis.com/view/NISX20261104_0003854199",
+        "https://www.thelec.net/news/articleView.html?idxno=15262"
+      ],
+      "sources": [
+        "thelec",
+        "thelec",
+        "newsis",
+        "thelec"
+      ]
+    },
+    {
+      "event": "Counterpoint預測Sunic System奪全球顯示裝置銷售冠軍",
+      "score": 55,
+      "reason": "韓國裝置商在全球市場取得領先地位。",
+      "tags": [
+        "半導體設備",
+        "供應鏈"
       ],
       "coherent": true,
       "size": 1,
@@ -232,97 +318,125 @@
       ]
     },
     {
-      "event": "SK集團推動子公司完全併購強化半導體AI競爭力",
-      "score": 45,
-      "reason": "企業內部重組，對產業鏈影響有限。",
+      "event": "Cammsys為三星冰箱量產鏡頭",
+      "score": 55,
+      "reason": "供應鏈獲大廠訂單，具實質商業意義。",
       "tags": [
-        "供應鏈"
-      ],
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-11-04 17:31:17",
-      "titles": [
-        "SK㈜, SK에코플랜트 완전 자회사화 추진…\"반도체·AI 경쟁력 강화\"",
-        "SK, SK에코플랜트 상장 대신 지분 100% 확보"
-      ],
-      "urls": [
-        "https://www.newsis.com/view/NISX20261104_0003855168",
-        "https://zdnet.co.kr/view/?no=20261104173932"
-      ],
-      "sources": [
-        "newsis",
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "Patheo搭載NVIDIA AI技術提升車載AI能力",
-      "score": 45,
-      "reason": "韓國企業採用國際先進AI晶片，反映供應鏈整合。",
-      "tags": [
-        "AI算力"
+        "電子政策"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-04 18:30:29",
+      "max_crawled_at": "2026-11-05 06:31:17",
       "titles": [
-        "파테오, NVIDIA DRIVE AGX Thor 기반 AI Box에 NVIDIA Nemotron 및 ByteDance Doubao 탑재로 차량 내 AI 고도화"
+        "Cammsys Begins Mass Production of Cameras for Samsung AI Refrigerators"
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20261104181003"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "德山Electera獲北美EV大單",
-      "score": 45,
-      "reason": "電池材料供應商獲大單，具產業意義。",
-      "tags": [
-        "擴產投資"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-04 16:31:17",
-      "titles": [
-        "Duksan Electera Accelerates Kosdaq IPO After Securing Major North American EV Customer"
-      ],
-      "urls": [
-        "https://www.thelec.net/news/articleView.html?idxno=15272"
+        "https://www.thelec.net/news/articleView.html?idxno=15269"
       ],
       "sources": [
         "thelec"
       ]
     },
     {
-      "event": "韓孟簽署CEPA擴大供應鏈與AI合作",
-      "score": 45,
-      "reason": "貿易協定影響供應鏈，但非核心半導體擴產或技術突破。",
+      "event": "LS電氣強化半導體電力裝置",
+      "score": 50,
+      "reason": "AI資料中心電力基礎設施建設，屬關鍵配套環節。",
       "tags": [
-        "電子政策",
+        "半導體設備",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 3,
+      "max_crawled_at": "2026-11-05 08:30:17",
+      "titles": [
+        "AI 데이터센터에 전기 어떻게 댈까…빅스포서 본 전력망 해법[르포]",
+        "Three Korean Power Companies Showcase Grid Technologies at BIXPO 2026",
+        "LS일렉트릭, 한전 기술로 전력설비 진단 강화…반도체·데이터센터 공략"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261104_0003855032",
+        "https://www.thelec.net/news/articleView.html?idxno=15279",
+        "https://www.newsis.com/view/NISX20261105_0003855669"
+      ],
+      "sources": [
+        "newsis",
+        "thelec",
+        "newsis"
+      ]
+    },
+    {
+      "event": "三星顯示中國首個QD-OLED認證咖啡廳",
+      "score": 50,
+      "reason": "三星顯示拓展高階OLED市場，具品牌示範效應。",
+      "tags": [
+        "顯示面板"
+      ],
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-11-05 08:30:17",
+      "titles": [
+        "삼성디스플레이, 업계 최초 中 'i-카페' 협업…게이밍 올레드 모니터 마케팅",
+        "Samsung Display targets China gamers with QD‑OLED certified i-cafés"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261105_0003855676",
+        "https://biz.chosun.com/en/en-it/2026/11/05/TFALXWZ43JAU5O67JJSW62VJKY/"
+      ],
+      "sources": [
+        "newsis",
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "三星電機因AI晶片短缺受阻於現金流衝擊",
+      "score": 50,
+      "reason": "反映AI需求對上游元件供應的連鎖影響。",
+      "tags": [
+        "半導體",
         "供應鏈"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-04 14:31:17",
+      "max_crawled_at": "2026-11-05 05:01:17",
       "titles": [
-        "한·방글라데시, CEPA 타결 계기 공급망·AI 협력 확대"
+        "\"AI 반도체 없어서 못 판다더니\"…삼전닉스 발목 잡은 '빅테크 현금흐름 쇼크'"
       ],
       "urls": [
-        "https://www.newsis.com/view/NISX20261104_0003854472"
+        "https://www.newsis.com/view/NISX20261104_0003854928"
       ],
       "sources": [
         "newsis"
       ]
     },
     {
-      "event": "LG Uplus與SKT因AI資料中心獲利大增",
-      "score": 40,
-      "reason": "電信商獲利成長，反映AI基礎設施需求，但非製造業核心。",
+      "event": "韓美推動AI資料中心海外投資",
+      "score": 50,
+      "reason": "基礎設施擴張，但屬招商性質，非本土擴產。",
       "tags": [
         "AI算力"
       ],
-      "coherent": false,
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-05 07:31:17",
+      "titles": [
+        "한국데이터센터연합회-코트라, AI 데이터센터 해외 투자 유치 나선다"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261104162932"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "LGU+·SKT AI/AIDC投資擴張",
+      "score": 45,
+      "reason": "電信商擴大AI基礎設施投資，影響供應鏈需求。",
+      "tags": [
+        "AI算力",
+        "擴產投資"
+      ],
+      "coherent": true,
       "size": 8,
       "max_crawled_at": "2026-11-04 18:30:29",
       "titles": [
@@ -357,32 +471,90 @@
       ]
     },
     {
-      "event": "LX半導體新任CEO上陣面臨虧損挑戰",
-      "score": 40,
-      "reason": "關鍵材料供應商高層變動與財務狀況，影響供應鏈穩定性。",
+      "event": "化學院長擬建全球頂級材料AI實驗平臺",
+      "score": 45,
+      "reason": "研發基礎設施建設，有助材料開發效率。",
       "tags": [
-        "半導體材料"
+        "半導體材料",
+        "擴產投資"
       ],
       "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-11-04 11:00:31",
+      "size": 1,
+      "max_crawled_at": "2026-11-04 11:31:17",
       "titles": [
-        "LX세미콘, 반도체 호황기에도 상장 후 첫 분기 적자 …'내부 승진' 나준호號, 구원투수될까",
-        "LX Semicon Names Vice President Na Jun-ho as Next CEO"
+        "신석민 화학연 원장 \"세계최고 소재AI·자율실험 플랫폼 만들 것\""
       ],
       "urls": [
-        "https://www.newsis.com/view/NISX20261104_0003854199",
-        "https://www.thelec.net/news/articleView.html?idxno=15247"
+        "https://zdnet.co.kr/view/?no=20261104104848"
       ],
       "sources": [
-        "newsis",
-        "thelec"
+        "zdkorea"
       ]
     },
     {
-      "event": "Now Robotics推進減速器國產化國家專案",
-      "score": 40,
-      "reason": "機器人核心部件國產化，屬關鍵零元件自主努力。",
+      "event": "現代·起亞獲車規半導體認證",
+      "score": 45,
+      "reason": "車用半導體國產化進展，強化本土供應鏈自主性。",
+      "tags": [
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-05 08:30:17",
+      "titles": [
+        "현대차·기아, 차량용 반도체 자체 개발 속도…국제표준 인증 획득"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261105_0003855642"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "三星電子連續兩年獨展CES",
+      "score": 45,
+      "reason": "品牌曝光與技術展示，非直接產業投資。",
+      "tags": [
+        "顯示面板"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-04 11:31:17",
+      "titles": [
+        "삼성전자, 2년 연속 CES 단독전시관 연다…차세대 로봇 공개 여부 주목"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261103_0003853249"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "SolLink獲1339億韓元投資",
+      "score": 45,
+      "reason": "軟體融資，規模尚可但非硬體製造。",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-04 11:31:17",
+      "titles": [
+        "매장 카메라 영상 분석 AI 솔링크, 1339억 원 이상 투자 유치"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261104111917"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "Now Robotics執行減速機國策課題",
+      "score": 45,
+      "reason": "關鍵機械元件國產化，雖非直接半導體但屬高階製造基礎。",
       "tags": [
         "半導體設備"
       ],
@@ -400,11 +572,59 @@
       ]
     },
     {
-      "event": "三星蘋果競逐摺疊技術",
+      "event": "SK集團擬將SK Eco Plant完全子公司化",
       "score": 40,
-      "reason": "終端產品技術競爭，影響面板需求。",
+      "reason": "企業重組強化半導體與AI領域資源整合。",
       "tags": [
-        "顯示面板"
+        "半導體設備",
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-11-04 17:31:17",
+      "titles": [
+        "SK㈜, SK에코플랜트 완전 자회사화 추진…\"반도체·AI 경쟁력 강화\"",
+        "SK, SK에코플랜트 상장 대신 지분 100% 확보"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261104_0003855168",
+        "https://zdnet.co.kr/view/?no=20261104173932"
+      ],
+      "sources": [
+        "newsis",
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "Naver Cloud匯入AMD EPYC伺服器",
+      "score": 40,
+      "reason": "雲端基礎設施升級，反映AI硬體採購趨勢。",
+      "tags": [
+        "AI算力"
+      ],
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-11-05 06:31:17",
+      "titles": [
+        "Naver Cloud Operates 35,000 AMD EPYC Servers, to Adopt 144-Core CPUs This Year",
+        "Kim leads Naver Cloud push as Korea military seizes control of AI development"
+      ],
+      "urls": [
+        "https://www.thelec.net/news/articleView.html?idxno=15271",
+        "https://biz.chosun.com/en/en-it/2026/11/04/JHIRD3XBR5GWJOA23VWYLH5674/"
+      ],
+      "sources": [
+        "thelec",
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "三星蘋果摺疊屏技術競爭",
+      "score": 40,
+      "reason": "摺疊技術競爭帶動顯示面板與相關裝置需求。",
+      "tags": [
+        "顯示面板",
+        "半導體設備"
       ],
       "coherent": true,
       "size": 1,
@@ -420,54 +640,11 @@
       ]
     },
     {
-      "event": "Movin獲資發展LiDAR資料",
+      "event": "曉星供應SKT烏山AI中心冷卻泵",
       "score": 40,
-      "reason": "LiDAR屬感測器硬體，關聯半導體供應鏈。",
+      "reason": "資料中心配套裝置，屬間接供應鏈。",
       "tags": [
-        "半導體設備"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-04 15:00:17",
-      "titles": [
-        "Movin Raises 10 Billion Won in Series A Funding for LiDAR Motion Data Technology"
-      ],
-      "urls": [
-        "https://www.thelec.net/news/articleView.html?idxno=15215"
-      ],
-      "sources": [
-        "thelec"
-      ]
-    },
-    {
-      "event": "南韓軍方接管AI開發主導權",
-      "score": 35,
-      "reason": "國防與AI結合，對民用電子產業影響較小。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": false,
-      "size": 2,
-      "max_crawled_at": "2026-11-04 15:00:17",
-      "titles": [
-        "Kim leads Naver Cloud push as Korea military seizes control of AI development",
-        "Kakao Mobility, South Korean Army to Develop AI-Based Control System for Unmanned Assets"
-      ],
-      "urls": [
-        "https://biz.chosun.com/en/en-it/2026/11/04/JHIRD3XBR5GWJOA23VWYLH5674/",
-        "https://www.thelec.net/news/articleView.html?idxno=15243"
-      ],
-      "sources": [
-        "chosunbiz",
-        "thelec"
-      ]
-    },
-    {
-      "event": "曉星供冷卻泵助SKT烏山AI中心",
-      "score": 35,
-      "reason": "非核心半導體裝置，屬一般供應鏈。",
-      "tags": [
-        "供應鏈"
+        "AI算力"
       ],
       "coherent": true,
       "size": 1,
@@ -483,9 +660,61 @@
       ]
     },
     {
-      "event": "延世大學啟動次世代量子電腦",
+      "event": "三星電視市佔領先蘋果",
       "score": 35,
-      "reason": "學術機構量子計算進展，對韓國硬體產業鏈直接影響有限。",
+      "reason": "消費電子市場競爭，對核心半導體供應鏈影響有限。",
+      "tags": [
+        "顯示面板"
+      ],
+      "coherent": false,
+      "size": 3,
+      "max_crawled_at": "2026-11-05 05:01:17",
+      "titles": [
+        "Apple seizes revenue lead as Samsung tops shipments in split market",
+        "China smartphone sales slump as consumers delay upgrades despite AI, foldables",
+        "Chinese panel hikes squeeze Samsung TV margins as Korea loses LCD options"
+      ],
+      "urls": [
+        "https://biz.chosun.com/en/en-it/2026/11/04/KNWBCENJY5AWXASGIL2WFGZMWE/",
+        "https://biz.chosun.com/en/en-it/2026/11/04/L26VE6LQXRGC7FEHEIK3RRNDPQ/",
+        "https://biz.chosun.com/en/en-it/2026/11/05/QCCVYC3EUBEEDBNPPWBMGAFI4U/"
+      ],
+      "sources": [
+        "chosunbiz",
+        "chosunbiz",
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "DN Solutions展示自動化解決方案",
+      "score": 35,
+      "reason": "多家公司參展，僅取主要半導體相關者。",
+      "tags": [
+        "半導體設備"
+      ],
+      "coherent": false,
+      "size": 3,
+      "max_crawled_at": "2026-11-04 17:31:17",
+      "titles": [
+        "브릴스, '2026 로보월드'서 피지컬 AI 솔루션 선봬",
+        "DN솔루션즈, '로보월드'서 공작기계·로봇 결합 자동화 솔루션 공개",
+        "마음AI, 'K-Geo Festa'서 피지컬AI 시대 공간정보 새 패러다임 제시"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261104123110",
+        "https://zdnet.co.kr/view/?no=20261104124107",
+        "https://zdnet.co.kr/view/?no=20261104163952"
+      ],
+      "sources": [
+        "zdkorea",
+        "zdkorea",
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "延世大學啟動次世代量子電腦處理量增25倍",
+      "score": 35,
+      "reason": "學術研究進展，對韓國硬體產業鏈直接影響有限。",
       "tags": [
         "AI算力"
       ],
@@ -503,115 +732,49 @@
       ]
     },
     {
-      "event": "SKT承諾2027後持續配息並投資資料中心",
+      "event": "Patheo搭載NVIDIA Thor AI盒子",
       "score": 35,
-      "reason": "電信業資本支出影響基礎設施，但非半導體或電池核心製造環節。",
+      "reason": "車載AI應用落地，依賴美國晶片供應鏈。",
       "tags": [
         "AI算力"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-04 16:01:17",
+      "max_crawled_at": "2026-11-04 18:30:29",
       "titles": [
-        "SK Telecom vows to sustain dividends beyond 2027 while funding data centers"
+        "파테오, NVIDIA DRIVE AGX Thor 기반 AI Box에 NVIDIA Nemotron 및 ByteDance Doubao 탑재로 차량 내 AI 고도화"
       ],
       "urls": [
-        "https://biz.chosun.com/en/en-it/2026/11/04/572YJELIZ5DZPEDZM2TBF3G3FY/"
-      ],
-      "sources": [
-        "chosunbiz"
-      ]
-    },
-    {
-      "event": "DN Solutions等展示物理AI自動化方案",
-      "score": 30,
-      "reason": "多家公司參展，非單一事件；自動化解決方案屬應用層，影響有限。",
-      "tags": [
-        "半導體設備"
-      ],
-      "coherent": false,
-      "size": 3,
-      "max_crawled_at": "2026-11-04 13:00:17",
-      "titles": [
-        "브릴스, '2026 로보월드'서 피지컬 AI 솔루션 선봬",
-        "DN솔루션즈, '로보월드'서 공작기계·로봇 결합 자동화 솔루션 공개",
-        "현대차그룹 모베드, 순찰·배송·양팔 로봇으로 변신…\"협력사와 생태계 확장\""
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261104123110",
-        "https://zdnet.co.kr/view/?no=20261104124107",
-        "https://www.newsis.com/view/NISX20261104_0003854479"
-      ],
-      "sources": [
-        "zdkorea",
-        "zdkorea",
-        "newsis"
-      ]
-    },
-    {
-      "event": "斗山燃料電池因美國AI訂單獲利改善",
-      "score": 30,
-      "reason": "單一企業財務狀況改善，對整體產業鏈影響有限。",
-      "tags": [
-        "電池材料"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-04 11:00:31",
-      "titles": [
-        "두산퓨얼셀, 3Q 적자 축소 '실적 개선'…\"美 AI 연계 수주로 흑자 전환 가시화\""
-      ],
-      "urls": [
-        "https://www.newsis.com/view/NISX20261104_0003854171"
-      ],
-      "sources": [
-        "newsis"
-      ]
-    },
-    {
-      "event": "LG化學與SFCOLED專利雙方案",
-      "score": 30,
-      "reason": "專利訴訟，影響技術授權但非產能。",
-      "tags": [
-        "顯示面板"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-04 22:30:48",
-      "titles": [
-        "'청색 OLED 특허분쟁' LG화학-SFC, 쌍방 항소"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261104223833"
+        "https://zdnet.co.kr/view/?no=20261104181003"
       ],
       "sources": [
         "zdkorea"
       ]
     },
     {
-      "event": "三星電子連續兩年CES獨展",
-      "score": 30,
-      "reason": "品牌展示，非具體產能或技術突破。",
+      "event": "德山Electera獲北美EV客戶",
+      "score": 35,
+      "reason": "電池材料供應商拓展海外市場，具擴張意義。",
       "tags": [
-        "AI算力"
+        "電池材料"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-04 11:31:17",
+      "max_crawled_at": "2026-11-04 16:31:17",
       "titles": [
-        "삼성전자, 2년 연속 CES 단독전시관 연다…차세대 로봇 공개 여부 주목"
+        "Duksan Electera Accelerates Kosdaq IPO After Securing Major North American EV Customer"
       ],
       "urls": [
-        "https://www.newsis.com/view/NISX20261103_0003853249"
+        "https://www.thelec.net/news/articleView.html?idxno=15272"
       ],
       "sources": [
-        "newsis"
+        "thelec"
       ]
     },
     {
-      "event": "Koh Young擴招AI與醫療機器人人才",
-      "score": 30,
-      "reason": "檢測裝置大廠人力擴張，反映業務增長但非重大產能或技術里程碑。",
+      "event": "Koh Young擴招AI與軟體人才",
+      "score": 35,
+      "reason": "裝置商人力擴張，反映業務成長預期。",
       "tags": [
         "半導體設備"
       ],
@@ -629,11 +792,52 @@
       ]
     },
     {
-      "event": "美國民主黨勝選預期帶動韓太陽能電池出口",
-      "score": 25,
-      "reason": "政治預期帶來的間接影響，缺乏具體訂單或政策確認。",
+      "event": "Movin A輪融資100億韓元開發LiDAR",
+      "score": 35,
+      "reason": "LiDAR感測器供應鏈融資，屬關鍵零元件。",
       "tags": [
-        "電池材料"
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-04 15:00:17",
+      "titles": [
+        "Movin Raises 10 Billion Won in Series A Funding for LiDAR Motion Data Technology"
+      ],
+      "urls": [
+        "https://www.thelec.net/news/articleView.html?idxno=15215"
+      ],
+      "sources": [
+        "thelec"
+      ]
+    },
+    {
+      "event": "現代Mobed擴充套件機器人生態系",
+      "score": 35,
+      "reason": "汽車集團機器人業務擴張，屬相關產業鏈。",
+      "tags": [
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-04 13:00:17",
+      "titles": [
+        "현대차그룹 모베드, 순찰·배송·양팔 로봇으로 변신…\"협력사와 생태계 확장\""
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261104_0003854479"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "美國中期選舉結果預期帶動韓電池需求",
+      "score": 30,
+      "reason": "屬政治預測與間接影響，非直接產業事件。",
+      "tags": [
+        "電池",
+        "電子政策"
       ],
       "coherent": false,
       "size": 3,
@@ -655,32 +859,112 @@
       ]
     },
     {
-      "event": "中東局勢阻韓AI企業擴張",
-      "score": 25,
-      "reason": "地緣政治影響，非技術或產能突破。",
+      "event": "Coupang部署AI相機加速物流自動化",
+      "score": 30,
+      "reason": "物流自動化應用，屬間接產業技術。",
       "tags": [
         "供應鏈"
       ],
       "coherent": true,
       "size": 2,
-      "max_crawled_at": "2026-11-04 11:31:17",
+      "max_crawled_at": "2026-11-04 09:30:17",
       "titles": [
-        "중동 정세 불안에…韓 AI 기업 진출 지원 또 '제동'",
-        "\"AI에 돈 쏟아붓는데\"…韓 기업, 투자 늘려도 확장에 '발목' 잡힌 이유는"
+        "쿠팡 김범석 \"AI 카메라로 물류 자동화 속도\"",
+        "Coupang Deploys AI Cameras as Kim Targets Mid-2027 Profit Recovery"
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20261104101333",
-        "https://zdnet.co.kr/view/?no=20261104111351"
+        "https://www.newsis.com/view/NISX20261104_0003853717",
+        "https://www.businesskorea.co.kr/news/articleView.html?idxno=280392"
       ],
       "sources": [
-        "zdkorea",
-        "zdkorea"
+        "newsis",
+        "businesskorea"
       ]
     },
     {
-      "event": "三星電視獲Consumer Reports全尺寸第一",
+      "event": "KNR開發機器人關節用執行器",
+      "score": 30,
+      "reason": "零元件開發，屬產業鏈細分領域進展。",
+      "tags": [
+        "半導體設備"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-04 08:01:17",
+      "titles": [
+        "케이엔알시스템 \"로봇 관절용 액추에이터 개발\""
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261104_0003853833"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "斗山燃料電池AI訂單轉盈",
+      "score": 30,
+      "reason": "燃料電池業務受AI資料中心需求帶動，屬次要產業。",
+      "tags": [
+        "AI算力"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-04 11:00:31",
+      "titles": [
+        "두산퓨얼셀, 3Q 적자 축소 '실적 개선'…\"美 AI 연계 수주로 흑자 전환 가시화\""
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261104_0003854171"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "SKT承諾2027後持續配息",
+      "score": 30,
+      "reason": "電信商財務政策，間接反映AI投資資金來源。",
+      "tags": [
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-04 16:01:17",
+      "titles": [
+        "SK Telecom vows to sustain dividends beyond 2027 while funding data centers"
+      ],
+      "urls": [
+        "https://biz.chosun.com/en/en-it/2026/11/04/572YJELIZ5DZPEDZM2TBF3G3FY/"
+      ],
+      "sources": [
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "Kakao Mobility開發無人載具系統",
+      "score": 30,
+      "reason": "應用層開發，非核心半導體或電池產業。",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-04 15:00:17",
+      "titles": [
+        "Kakao Mobility, South Korean Army to Develop AI-Based Control System for Unmanned Assets"
+      ],
+      "urls": [
+        "https://www.thelec.net/news/articleView.html?idxno=15243"
+      ],
+      "sources": [
+        "thelec"
+      ]
+    },
+    {
+      "event": "三星電視獲美國權威評選第一",
       "score": 25,
-      "reason": "終端產品獲獎，雖涉及顯示技術但屬消費電子層面，非產業核心指標。",
+      "reason": "品牌聲譽提升，但對製造業核心指標影響較小。",
       "tags": [
         "顯示面板"
       ],
@@ -701,186 +985,54 @@
       ]
     },
     {
-      "event": "iPhone18電池容量增大",
+      "event": "Intellicix獲國安院AI安全平臺認證",
       "score": 25,
-      "reason": "單一產品規格變更，影響有限。",
+      "reason": "AI軟體安全認證，非核心硬體製造。",
       "tags": [
-        "電池材料"
+        "AI軟體"
       ],
       "coherent": true,
-      "size": 1,
+      "size": 2,
       "max_crawled_at": "2026-11-04 16:01:17",
       "titles": [
-        "\"아이폰18, 배터리 용량 커진다…가격 인상 가능성↑\""
+        "인텔리빅스, AI 안전관제 플랫폼 국정원 보안기능 확인서 획득",
+        "인텔리빅스 \"안전AI 플랫폼, 국정원서 보안인증\""
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20261104152125"
+        "https://zdnet.co.kr/view/?no=20261104161700",
+        "https://www.newsis.com/view/NISX20261104_0003854986"
       ],
       "sources": [
-        "zdkorea"
+        "zdkorea",
+        "newsis"
       ]
     },
     {
-      "event": "KNR Systems開發機器人關節致動器",
+      "event": "9月經常帳盈餘創新高達600億美元",
       "score": 25,
-      "reason": "零元件開發，但廠商規模與市場影響力相對較小。",
+      "reason": "宏觀經濟資料，反映半導體出口強勁但非直接技術事件。",
       "tags": [
         "供應鏈"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-04 08:01:17",
+      "max_crawled_at": "2026-11-05 07:01:17",
       "titles": [
-        "케이엔알시스템 \"로봇 관절용 액추에이터 개발\""
+        "S. Korea posts record high current account surplus of over US$60 bln in Sept. on chip supercycle"
       ],
       "urls": [
-        "https://www.newsis.com/view/NISX20261104_0003853833"
+        "https://en.yna.co.kr/view/AEN20261105001000320"
       ],
       "sources": [
-        "newsis"
+        "yonhap"
       ]
     },
     {
-      "event": "美國民主黨掌控國會引發科技股緊張",
-      "score": 20,
-      "reason": "美國國內政治動態，對韓國產業的直接衝擊不明確。",
+      "event": "KGC智慧工廠匯入AI與太陽能",
+      "score": 25,
+      "reason": "單一企業製程最佳化，產業影響力較小。",
       "tags": [
-        "電子政策"
-      ],
-      "coherent": false,
-      "size": 3,
-      "max_crawled_at": "2026-11-04 20:30:11",
-      "titles": [
-        "트럼프 '독주' 끝나나…민주당 상원 탈환에 애플·메타·인텔 '긴장'",
-        "美 민주당, 20년 만의 상하원 탈환…'통상 훈풍' 기대는 시기상조",
-        "美 민주당 의회 장악…AI 기업, 세금·저작권·안전검증 시험대"
-      ],
-      "urls": [
-        "https://www.newsis.com/view/NISX20261104_0003854553",
-        "https://zdnet.co.kr/view/?no=20261104172329",
-        "https://zdnet.co.kr/view/?no=20261104171015"
-      ],
-      "sources": [
-        "newsis",
-        "zdkorea",
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "蘋果營收領先三星手機出貨",
-      "score": 20,
-      "reason": "市場資料比較，非製造業核心事件。",
-      "tags": [
-        "顯示面板"
-      ],
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-11-04 14:31:17",
-      "titles": [
-        "Apple seizes revenue lead as Samsung tops shipments in split market",
-        "China smartphone sales slump as consumers delay upgrades despite AI, foldables"
-      ],
-      "urls": [
-        "https://biz.chosun.com/en/en-it/2026/11/04/KNWBCENJY5AWXASGIL2WFGZMWE/",
-        "https://biz.chosun.com/en/en-it/2026/11/04/L26VE6LQXRGC7FEHEIK3RRNDPQ/"
-      ],
-      "sources": [
-        "chosunbiz",
-        "chosunbiz"
-      ]
-    },
-    {
-      "event": "三星藍牙耳機獲聽力測試醫療認證",
-      "score": 20,
-      "reason": "消費電子產品獲得醫療認證，屬產品線延伸，對半導體產業鏈影響微弱。",
-      "tags": [
-        "電子政策"
-      ],
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-11-04 10:00:28",
-      "titles": [
-        "Samsung Galaxy Buds Win MFDS Approval for Hearing Test and Sound Amplification Features",
-        "Samsung wins Korea nod to turn Galaxy Buds into hearing test and aid tools"
-      ],
-      "urls": [
-        "https://www.businesskorea.co.kr/news/articleView.html?idxno=280408",
-        "https://biz.chosun.com/en/en-it/2026/11/04/AFOSNCFB3BAIPJTQDKQKELRHGM/"
-      ],
-      "sources": [
-        "businesskorea",
-        "chosunbiz"
-      ]
-    },
-    {
-      "event": "Coupang部署AI相機自動化",
-      "score": 15,
-      "reason": "物流應用，非半導體或電池核心。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-11-04 09:30:17",
-      "titles": [
-        "쿠팡 김범석 \"AI 카메라로 물류 자동화 속도\"",
-        "Coupang Deploys AI Cameras as Kim Targets Mid-2027 Profit Recovery"
-      ],
-      "urls": [
-        "https://www.newsis.com/view/NISX20261104_0003853717",
-        "https://www.businesskorea.co.kr/news/articleView.html?idxno=280392"
-      ],
-      "sources": [
-        "newsis",
-        "businesskorea"
-      ]
-    },
-    {
-      "event": "ChatGPT使用者數韓居首Claude激增",
-      "score": 15,
-      "reason": "軟體應用市場資料，不反映韓國本土硬體製造或核心技術優勢。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-04 10:31:17",
-      "titles": [
-        "ChatGPT tops Korea with 24.7M users as Claude posts 853% annual surge"
-      ],
-      "urls": [
-        "https://biz.chosun.com/en/en-it/2026/11/04/FKR35FVXIBEE7BEAVODV5OJQ3Q/"
-      ],
-      "sources": [
-        "chosunbiz"
-      ]
-    },
-    {
-      "event": "MongoDB進軍韓國公共AI資料市場",
-      "score": 15,
-      "reason": "外國資料庫廠商進入公共採購，屬軟體服務層面，影響較小。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-04 17:31:17",
-      "titles": [
-        "몽고DB, 나라장터 등록…공공 AI 데이터 시장 공략 본격화"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261104165706"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "KGC紅參推動智慧工廠升級",
-      "score": 15,
-      "reason": "非半導體/電池核心，僅屬一般工業自動化。",
-      "tags": [
-        "擴產投資"
+        "供應鏈"
       ],
       "coherent": true,
       "size": 1,
@@ -896,29 +1048,89 @@
       ]
     },
     {
-      "event": "化學院長推AI自主實驗平臺",
-      "score": 10,
-      "reason": "基礎研究平臺，產業直接影響有限。",
+      "event": "틸론 Dstation X 국정원 보안認證取得",
+      "score": 25,
+      "reason": "AI軟體安全認證，非核心硬體製造。",
       "tags": [
         "AI軟體"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-04 11:31:17",
+      "max_crawled_at": "2026-11-04 16:01:17",
       "titles": [
-        "신석민 화학연 원장 \"세계최고 소재AI·자율실험 플랫폼 만들 것\""
+        "틸론 'Dstation X', 국정원 보안기능확인서 취득…공공 도입 요건 모두 갖춰"
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20261104104848"
+        "https://zdnet.co.kr/view/?no=20261104160708"
       ],
       "sources": [
         "zdkorea"
       ]
     },
     {
-      "event": "KT總裁將出席MWC 2027",
-      "score": 10,
-      "reason": "高層行程，無實質產業內容。",
+      "event": "美國民主黨勝選恐對韓國半導體構成風險",
+      "score": 20,
+      "reason": "政治預測性報導，缺乏具體政策或事件支撐。",
+      "tags": [
+        "電子政策"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-04 19:31:17",
+      "titles": [
+        "U.S. Democratic Party's Win Poses Risk for Korean Semiconductors"
+      ],
+      "urls": [
+        "https://www.businesskorea.co.kr/news/articleView.html?idxno=280498"
+      ],
+      "sources": [
+        "businesskorea"
+      ]
+    },
+    {
+      "event": "韓孟加國協定擴大AI合作",
+      "score": 20,
+      "reason": "貿易協定涵蓋AI，但具體產業影響尚不明確。",
+      "tags": [
+        "電子政策"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-04 14:31:17",
+      "titles": [
+        "한·방글라데시, CEPA 타결 계기 공급망·AI 협력 확대"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261104_0003854472"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "韓國K公司拓展北美汽車後市場",
+      "score": 20,
+      "reason": "商業策略調整，對核心產業影響有限。",
+      "tags": [
+        "電池材料"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-04 13:00:17",
+      "titles": [
+        "타이어부터 배터리·열관리 총출동…한국앤컴퍼니, 북미 애프터마켓 공략"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261104132132"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "KT高層將出席MWC展示AI策略",
+      "score": 20,
+      "reason": "公關活動，無實質產業投資或技術突破。",
       "tags": [
         "AI軟體"
       ],
@@ -936,9 +1148,49 @@
       ]
     },
     {
-      "event": "解析RFM：為機器人植入通用AI大腦",
-      "score": 10,
-      "reason": "技術概念解釋文章，非具體產業事件或商業動態。",
+      "event": "MongoDB進軍韓國公共AI資料市場",
+      "score": 20,
+      "reason": "軟體服務進入，非硬體製造核心議題。",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-04 17:31:17",
+      "titles": [
+        "몽고DB, 나라장터 등록…공공 AI 데이터 시장 공략 본격화"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261104165706"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "iPhone 18電池容量增大或漲價",
+      "score": 20,
+      "reason": "終端產品規格傳聞，對韓國電池廠影響尚不明確。",
+      "tags": [
+        "電池材料"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-04 16:01:17",
+      "titles": [
+        "\"아이폰18, 배터리 용량 커진다…가격 인상 가능성↑\""
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261104152125"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "Depli供應釜山港無人吊車AI音響",
+      "score": 20,
+      "reason": "港口自動化應用，屬特定場景AI，產業影響有限。",
       "tags": [
         "AI軟體"
       ],
@@ -946,141 +1198,84 @@
       "size": 1,
       "max_crawled_at": "2026-11-04 16:01:17",
       "titles": [
-        "[新테크용어] 로봇에 범용 AI 두뇌 심는다…RFM이란"
+        "디플리, 부산 신항 무인 크레인에 음향 AI 공급…소리로 고장 예측"
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20261027154319"
+        "https://zdnet.co.kr/view/?no=20261104155745"
       ],
       "sources": [
         "zdkorea"
       ]
     },
     {
-      "event": "M83等開發深偽影像檢測方案",
-      "score": 10,
-      "reason": "軟體安全解決方案，與韓國硬體製造產業鏈無直接關聯。",
+      "event": "AbleRion發布企業AI代理指南",
+      "score": 15,
+      "reason": "軟體服務層面，對硬體製造業直接影響極低。",
       "tags": [
         "AI軟體"
+      ],
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-11-04 17:31:17",
+      "titles": [
+        "에이블런, 기업 AI 에이전트 교육 가이드 공개…보안·현업 적용까지 점검",
+        "\"AI에 돈 쏟아붓는데\"…韓 기업, 투자 늘려도 확장에 '발목' 잡힌 이유는"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261104164703",
+        "https://zdnet.co.kr/view/?no=20261104111351"
+      ],
+      "sources": [
+        "zdkorea",
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "中東局勢致韓AI企業進駐受阻",
+      "score": 15,
+      "reason": "地緣政治影響AI基礎設施擴張，非直接技術突破。",
+      "tags": [
+        "AI算力"
       ],
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-11-04 11:31:17",
       "titles": [
-        "M83·디블라트, 딥페이크 판별 솔루션 ‘안티제니’ 개발"
+        "중동 정세 불안에…韓 AI 기업 진출 지원 또 '제동'"
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20261104105507"
+        "https://zdnet.co.kr/view/?no=20261104101333"
       ],
       "sources": [
         "zdkorea"
       ]
     },
     {
-      "event": "KT推出Anshim365多模態AI防詐騙",
+      "event": "美國AI企業面臨稅收與監管考驗",
       "score": 10,
-      "reason": "電信服務功能更新，屬軟體應用層，無硬體產業影響。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-04 10:00:28",
-      "titles": [
-        "KT debuts Anshim365 in South Korea to detect voice phishing with multimodal AI"
-      ],
-      "urls": [
-        "https://biz.chosun.com/en/en-it/2026/11/04/RMAUCKZ3FNGLJGTHTRCVIBIUE4/"
-      ],
-      "sources": [
-        "chosunbiz"
-      ]
-    },
-    {
-      "event": "Solink AI影像分析獲資",
-      "score": 10,
-      "reason": "純軟體應用融資，無硬體製造或供應鏈關聯。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-04 11:31:17",
-      "titles": [
-        "매장 카메라 영상 분석 AI 솔링크, 1339억 원 이상 투자 유치"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261104111917"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "LG Exsaon獲AI版權獎",
-      "score": 5,
-      "reason": "獎項頒發，無產業實質影響。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-04 09:01:17",
-      "titles": [
-        "LG 엑사원 넥서스, 국가지식재산위원장상 수상…AI 저작권 리스크 자동 분석"
-      ],
-      "urls": [
-        "https://www.newsis.com/view/NISX20261104_0003853845"
-      ],
-      "sources": [
-        "newsis"
-      ]
-    },
-    {
-      "event": "專欄：國防AI體系應以本體論重構",
-      "score": 5,
-      "reason": "學術或政策建議性文章，無具體產業執行力或硬體影響。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-04 11:31:17",
-      "titles": [
-        "[기고] 국방 AI체계, 온톨로지로 재구성해야"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261104113128"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "韓國總統令設網路安全特使",
-      "score": 5,
-      "reason": "純行政人事，無產業實質影響。",
+      "reason": "美國國內政策，對韓國產業直接影響低。",
       "tags": [
         "電子政策"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-04 16:01:17",
+      "max_crawled_at": "2026-11-04 17:31:17",
       "titles": [
-        "Lee orders creation of cybersecurity czar to unify South Korea's defenses"
+        "美 민주당 의회 장악…AI 기업, 세금·저작권·안전검증 시험대"
       ],
       "urls": [
-        "https://biz.chosun.com/en/en-it/2026/11/04/TRK4JZRPKZCXVGKSRQPDHESFWA/"
+        "https://zdnet.co.kr/view/?no=20261104171015"
       ],
       "sources": [
-        "chosunbiz"
+        "zdkorea"
       ]
     },
     {
-      "event": "臺港股市受美政策波動",
+      "event": "臺港股市受美大選與半導體股影響",
       "score": 0,
-      "reason": "金融市場波動，非製造業核心事件。",
+      "reason": "金融市場波動，無直接產業製造連結。",
       "tags": [],
-      "coherent": true,
+      "coherent": false,
       "size": 2,
       "max_crawled_at": "2026-11-04 20:00:22",
       "titles": [
@@ -1097,36 +1292,36 @@
       ]
     },
     {
-      "event": "U.S. Democratic Party's Win Poses Risk for Korean Semiconductors",
+      "event": "韓電獲首座大型建築零能耗認證",
       "score": 0,
-      "reason": "",
+      "reason": "建築能源標準，與電子產業無關。",
       "tags": [],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-04 19:31:17",
+      "max_crawled_at": "2026-11-05 07:31:17",
       "titles": [
-        "U.S. Democratic Party's Win Poses Risk for Korean Semiconductors"
+        "한전, 국내 첫 대형 업무시설 제로에너지건축물 1등급 예비인증"
       ],
       "urls": [
-        "https://www.businesskorea.co.kr/news/articleView.html?idxno=280498"
+        "https://zdnet.co.kr/view/?no=20261105070121"
       ],
       "sources": [
-        "businesskorea"
+        "zdkorea"
       ]
     },
     {
-      "event": "韓國公司拓展北美汽車後市場",
+      "event": "비상교육推出幼兒用AI電子白板",
       "score": 0,
-      "reason": "一般商業擴張，無關核心電子供應鏈。",
+      "reason": "教育產品，與核心電子產業無關。",
       "tags": [],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-04 13:00:17",
+      "max_crawled_at": "2026-11-04 16:01:17",
       "titles": [
-        "타이어부터 배터리·열관리 총출동…한국앤컴퍼니, 북미 애프터마켓 공략"
+        "비상교육, 아하와 손잡고 유아 교육기관용 AI 전자칠판 출시"
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20261104132132"
+        "https://zdnet.co.kr/view/?no=20261104160353"
       ],
       "sources": [
         "zdkorea"
