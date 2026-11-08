@@ -75,7 +75,6 @@ This repository publishes **outputs only** — the crawler/analysis code, the fu
 |---|---|
 | `today.html` | Articles from today + yesterday (filterable by source) |
 | `important.html` | 重要科技新聞：6h / 12h / 2d / 7d tabs of Ollama-scored top events |
-| `grouped.html` | Cross-lingual same-event clusters (≥2 sources) |
 | `ai.html` | AI 重要新聞：**全部來源**近 2 日、模型／軟體側的 Top 18，依同性質分組後重要性降冪（`analyze_ai.py`，每 4 小時） |
 | `semiconductor.html` | 半導體重要新聞：**全部來源**近 2 日的 Top 18，依價值鏈環節分組後重要性降冪（`analyze_semi.py`，每 4 小時） |
 | `india.html` | 印度重要新聞：五家印度來源近 2 日、按**產業重要性**排序的 Top 18（`analyze_india.py`，每 12 小時） |
@@ -286,7 +285,7 @@ on the host that runs this, a conda base env shadows the venv's `pip`.
 # Run all crawlers (writes today.html + data/recent.csv)
 venv/bin/python run_crawlers.py
 
-# Run AI analysis (writes important.html + grouped.html + analysis.json)
+# Run AI analysis (writes important.html + analysis.json)
 venv/bin/python analyze_news.py
 
 # India-only ranking (writes india.html + india_analysis.json)
