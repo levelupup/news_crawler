@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08 06:33:14",
+  "generated": "2026-11-08 08:45:11",
   "window_days": 2,
   "sources": [
     "businesskorea",
@@ -9,21 +9,42 @@
     "yonhap",
     "zdkorea"
   ],
-  "input_titles": 37,
-  "events": 8,
+  "input_titles": 55,
+  "events": 19,
   "timings_seconds": {
-    "stage1_cluster": 19.8,
-    "stage2_name_score": 244.7,
-    "total": 264.5
+    "stage1_cluster": 7.4,
+    "stage2_name_score": 38.9,
+    "total": 46.3
   },
   "stories": [
     {
-      "event": "三星美廠明年量產 進入最後準備",
+      "event": "ASML短缺韓廠搶購EUV裝置",
       "score": 85,
-      "reason": "三星美國泰勒廠邁向量產，具重大產業指標意義。",
+      "reason": "韓廠爭奪關鍵EUV裝置，影響先進製程進度。",
       "tags": [
-        "半導體",
+        "半導體設備",
         "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-08 06:33:33",
+      "titles": [
+        "ASML shortage spurs Samsung, SK hynix to race for EUV tools in South Korea"
+      ],
+      "urls": [
+        "https://biz.chosun.com/en/en-it/2026/11/08/DFQLMZWPGBFL5A77JVYXGWPHZU/"
+      ],
+      "sources": [
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "三星美泰勒廠明年量產準備",
+      "score": 80,
+      "reason": "三星海外大廠進入量產關鍵期，具重大產業意義。",
+      "tags": [
+        "擴產投資",
+        "半導體"
       ],
       "coherent": true,
       "size": 1,
@@ -39,9 +60,74 @@
       ]
     },
     {
-      "event": "斗山擴產CCL 搶AI材料需求",
+      "event": "台積電擬進軍3D DRAM市場",
       "score": 70,
-      "reason": "關鍵基板材料供應商擴張，直接影響半導體供應鏈。",
+      "reason": "台積電涉足記憶體領域，對韓廠構成潛在競爭威脅。",
+      "tags": [
+        "記憶體",
+        "供應鏈"
+      ],
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-11-08 06:33:33",
+      "titles": [
+        "[올댓차이나] TSMC, 차세대 메모리 3D D램 생산 추진",
+        "\"TSMC, 메모리 진출 검토…엔비디아 요청\" 디인포메이션"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261107_0003859069",
+        "https://zdnet.co.kr/view/?no=20261107132711"
+      ],
+      "sources": [
+        "newsis",
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "半導體叢集周邊地價飆升擴散",
+      "score": 65,
+      "reason": "反映半導體叢集擴張帶來的實質成本壓力與產業熱度。",
+      "tags": [
+        "半導體",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-07 07:01:17",
+      "titles": [
+        "들불처럼 번지는 반도체 벨트 집값 상승세…'키 맞추기' 확산"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261106_0003858446"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "三星電子現金達215兆韓元",
+      "score": 60,
+      "reason": "龐大現金儲備預示未來潛在的大規模資本支出。",
+      "tags": [
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-08 08:30:11",
+      "titles": [
+        "Samsung Electronics amasses 215 trillion won cash, boosts Korea returns and investment"
+      ],
+      "urls": [
+        "https://biz.chosun.com/en/en-it/2026/11/08/GQKIRAUF3NG5XOHJNSN375TLMM/"
+      ],
+      "sources": [
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "斗山擴產韓中銅箔以搶AI需求",
+      "score": 55,
+      "reason": "關鍵ICP材料供應商擴產，反映AI基礎設施需求。",
       "tags": [
         "半導體材料",
         "擴產投資"
@@ -61,11 +147,11 @@
     },
     {
       "event": "安森美擴大韓國SiC產能",
-      "score": 65,
-      "reason": "聚焦安森美碳化矽擴產，具供應鏈本土化意義。",
+      "score": 50,
+      "reason": "功率半導體供應商擴產，強化供應鏈韌性。",
       "tags": [
-        "半導體材料",
-        "擴產投資"
+        "擴產投資",
+        "供應鏈"
       ],
       "coherent": false,
       "size": 2,
@@ -84,30 +170,9 @@
       ]
     },
     {
-      "event": "法院駁回LG化學對中廠專利禁令",
-      "score": 50,
-      "reason": "影響正極材料出口與智慧財產權保護，具產業警示性。",
-      "tags": [
-        "電池材料",
-        "供應鏈"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-07 08:30:17",
-      "titles": [
-        "Court Rejects LG Chem's Patent Injunction Against Chinese Cathode Material Maker"
-      ],
-      "urls": [
-        "https://www.thelec.net/news/articleView.html?idxno=15374"
-      ],
-      "sources": [
-        "thelec"
-      ]
-    },
-    {
       "event": "現代Atlas機器人採用三星SDI電池",
       "score": 45,
-      "reason": "機器人領域獲客，屬電池應用拓展，規模有限。",
+      "reason": "機器人領域應用三星電池，拓展新市場但規模有限。",
       "tags": [
         "電池",
         "供應鏈"
@@ -126,32 +191,224 @@
       ]
     },
     {
-      "event": "半導體叢集周邊地價飆升",
-      "score": 30,
-      "reason": "反映擴產熱潮下的成本壓力，屬間接產業指標。",
+      "event": "法院駁回LG化學對中廠專利禁令",
+      "score": 40,
+      "reason": "專利訴訟結果影響韓廠在中國市場競爭優勢。",
       "tags": [
-        "電子政策"
+        "電池材料",
+        "供應鏈"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-07 07:01:17",
+      "max_crawled_at": "2026-11-07 08:30:17",
       "titles": [
-        "들불처럼 번지는 반도체 벨트 집값 상승세…'키 맞추기' 확산"
+        "Court Rejects LG Chem's Patent Injunction Against Chinese Cathode Material Maker"
       ],
       "urls": [
-        "https://www.newsis.com/view/NISX20261106_0003858446"
+        "https://www.thelec.net/news/articleView.html?idxno=15374"
+      ],
+      "sources": [
+        "thelec"
+      ]
+    },
+    {
+      "event": "三星LG強化機器人核心技術",
+      "score": 35,
+      "reason": "電子巨頭投入機器人研發，屬長期戰略佈局。",
+      "tags": [
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-08 06:33:33",
+      "titles": [
+        "\"로봇 '손'부터 '두뇌'까지\"…삼성·LG전자, 핵심기술력 강화 '속도'"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261106_0003858456"
       ],
       "sources": [
         "newsis"
       ]
     },
     {
-      "event": "iPhone或取消獨立動作按鈕",
-      "score": 15,
-      "reason": "終端產品設計變更，對上游製造業影響微乎其微。",
+      "event": "黃仁勳取消訪韓AI Day照常舉行",
+      "score": 30,
+      "reason": "高管行程變動屬行政細節，對產業實質影響有限。",
       "tags": [
-        "顯示面板"
+        "AI算力"
       ],
+      "coherent": false,
+      "size": 1,
+      "max_crawled_at": "2026-11-08 06:33:33",
+      "titles": [
+        "Madison Hwang cancels South Korea visit; Nvidia AI Day Seoul proceeds"
+      ],
+      "urls": [
+        "https://biz.chosun.com/en/en-it/2026/11/07/FMOZX35C3NB4VAMKT65CM26XFI/"
+      ],
+      "sources": [
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "中吉視OLED申請LG化學專利無效",
+      "score": 30,
+      "reason": "專利爭議影響技術授權與市場進入，但規模較小。",
+      "tags": [
+        "顯示面板",
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-08 06:33:33",
+      "titles": [
+        "中지린OLED, LG화학 특허 무효심판 청구"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261107220705"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "OpenAI CFO確認持續投資資料中心",
+      "score": 25,
+      "reason": "需求端承諾，間接利好韓廠但非直接產業事件。",
+      "tags": [
+        "AI算力"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-07 02:30:17",
+      "titles": [
+        "오픈AI CFO \"중간선거 결과에도 데이터센터 투자 계속할 것\""
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261107_0003858712"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "AWS倡導適配AI以應對韓國落後",
+      "score": 20,
+      "reason": "雲端廠商策略建議，屬軟體層面，產業衝擊較小。",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-08 06:33:33",
+      "titles": [
+        "AWS leader urges task-fit AI as Korea adoption lags but opportunity grows"
+      ],
+      "urls": [
+        "https://biz.chosun.com/en/en-it/2026/11/08/HQTAF7PEOBDGLJV6URJBW3NPMA/"
+      ],
+      "sources": [
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "半導體暴跌後反彈關鍵變數分析",
+      "score": 15,
+      "reason": "市場預測與評論，非具體產業動態或政策。",
+      "tags": [
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-07 12:01:17",
+      "titles": [
+        "반도체 폭락에도 끝난 건 아니다…다음 주 반등 가를 핵심 변수는"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261107_0003858823"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "市場擔憂AI投資萎縮引發恐慌",
+      "score": 10,
+      "reason": "股市波動與情緒報導，非具體產業事件。",
+      "tags": [
+        "AI算力"
+      ],
+      "coherent": false,
+      "size": 5,
+      "max_crawled_at": "2026-11-08 06:33:33",
+      "titles": [
+        "[블루웨이브 쇼크①] AI 투자 위축 우려에 韓 증시 패닉…관세 불확실성도↑",
+        "[AI 블루쇼크①]데이터센터 규제 우려에 나스닥 급락…AI 거품 터지나",
+        "[블루웨이브 쇼크②] 미국발 AI 규제 한파…반도체 훈풍에 기대던 나라 살림 '경고등'",
+        "백악관 \"데이터센터 건설 계획 차질 없어…중간선거에도 성장 지속\"",
+        "[최경진 未來法道] '블루웨이브'와 한국 AI의 전략적 대응"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261106_0003858507",
+        "https://www.newsis.com/view/NISX20261106_0003858191",
+        "https://www.newsis.com/view/NISX20261106_0003858455",
+        "https://www.newsis.com/view/NISX20261107_0003858718",
+        "https://zdnet.co.kr/view/?no=20261107192636"
+      ],
+      "sources": [
+        "newsis",
+        "newsis",
+        "newsis",
+        "newsis",
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "Robottle明年初推人形機器人技能移植軟體",
+      "score": 5,
+      "reason": "屬AI軟體與機器人領域，非核心硬體製造。",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-07 09:01:17",
+      "titles": [
+        "로보터블, 내년 초 휴머노이드 '스킬 이식' 소프트웨어 출시"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261106211924"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "物理AI安全威脅升溫：機器人遭駭風險",
+      "score": 3,
+      "reason": "聚焦於軟體安全議題，對硬體供應鏈影響有限。",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-07 10:30:17",
+      "titles": [
+        "[AI는 지금] \"로봇 오작동인 줄 알았는데 해킹\"…피지컬 AI, 보안 위협 커진다"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261105173134"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "傳iPhone行動按鈕或與相機鍵整合",
+      "score": 0,
+      "reason": "蘋果產品設計變動，無韓國產業關聯性。",
+      "tags": [],
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-11-07 09:01:17",
@@ -163,35 +420,6 @@
       ],
       "sources": [
         "zdkorea"
-      ]
-    },
-    {
-      "event": "資料中心監管憂慮致納指大跌",
-      "score": 10,
-      "reason": "屬金融市場波動，對韓國製造業無直接產業影響。",
-      "tags": [
-        "AI算力"
-      ],
-      "coherent": false,
-      "size": 4,
-      "max_crawled_at": "2026-11-07 12:01:17",
-      "titles": [
-        "[AI 블루쇼크①]데이터센터 규제 우려에 나스닥 급락…AI 거품 터지나",
-        "백악관 \"데이터센터 건설 계획 차질 없어…중간선거에도 성장 지속\"",
-        "오픈AI CFO \"중간선거 결과에도 데이터센터 투자 계속할 것\"",
-        "반도체 폭락에도 끝난 건 아니다…다음 주 반등 가를 핵심 변수는"
-      ],
-      "urls": [
-        "https://www.newsis.com/view/NISX20261106_0003858191",
-        "https://www.newsis.com/view/NISX20261107_0003858718",
-        "https://www.newsis.com/view/NISX20261107_0003858712",
-        "https://www.newsis.com/view/NISX20261107_0003858823"
-      ],
-      "sources": [
-        "newsis",
-        "newsis",
-        "newsis",
-        "newsis"
       ]
     }
   ]
