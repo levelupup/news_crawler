@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08 08:45:11",
+  "generated": "2026-11-08 09:30:43",
   "window_days": 2,
   "sources": [
     "businesskorea",
@@ -9,21 +9,21 @@
     "yonhap",
     "zdkorea"
   ],
-  "input_titles": 55,
-  "events": 19,
+  "input_titles": 62,
+  "events": 21,
   "timings_seconds": {
-    "stage1_cluster": 7.4,
-    "stage2_name_score": 38.9,
-    "total": 46.3
+    "stage1_cluster": 7.3,
+    "stage2_name_score": 42.8,
+    "total": 50.0
   },
   "stories": [
     {
-      "event": "ASML短缺韓廠搶購EUV裝置",
-      "score": 85,
-      "reason": "韓廠爭奪關鍵EUV裝置，影響先進製程進度。",
+      "event": "三星海力士競購EUV",
+      "score": 92,
+      "reason": "ASML短缺引發韓廠爭奪EUV，影響深遠。",
       "tags": [
         "半導體設備",
-        "擴產投資"
+        "供應鏈"
       ],
       "coherent": true,
       "size": 1,
@@ -39,12 +39,12 @@
       ]
     },
     {
-      "event": "三星美泰勒廠明年量產準備",
-      "score": 80,
-      "reason": "三星海外大廠進入量產關鍵期，具重大產業意義。",
+      "event": "三星美廠明年量產準備",
+      "score": 85,
+      "reason": "三星美國泰勒廠邁向量產，具指標意義。",
       "tags": [
-        "擴產投資",
-        "半導體"
+        "半導體",
+        "擴產投資"
       ],
       "coherent": true,
       "size": 1,
@@ -60,12 +60,33 @@
       ]
     },
     {
-      "event": "台積電擬進軍3D DRAM市場",
-      "score": 70,
-      "reason": "台積電涉足記憶體領域，對韓廠構成潛在競爭威脅。",
+      "event": "三星電子現金達215兆韓元",
+      "score": 80,
+      "reason": "龐大現金庫預示未來大規模投資潛力。",
+      "tags": [
+        "半導體",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-08 08:30:11",
+      "titles": [
+        "Samsung Electronics amasses 215 trillion won cash, boosts Korea returns and investment"
+      ],
+      "urls": [
+        "https://biz.chosun.com/en/en-it/2026/11/08/GQKIRAUF3NG5XOHJNSN375TLMM/"
+      ],
+      "sources": [
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "台積電推進3D DRAM生產",
+      "score": 75,
+      "reason": "台積電進軍記憶體，改變競爭格局。",
       "tags": [
         "記憶體",
-        "供應鏈"
+        "擴產投資"
       ],
       "coherent": false,
       "size": 2,
@@ -84,50 +105,9 @@
       ]
     },
     {
-      "event": "半導體叢集周邊地價飆升擴散",
-      "score": 65,
-      "reason": "反映半導體叢集擴張帶來的實質成本壓力與產業熱度。",
-      "tags": [
-        "半導體",
-        "擴產投資"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-07 07:01:17",
-      "titles": [
-        "들불처럼 번지는 반도체 벨트 집값 상승세…'키 맞추기' 확산"
-      ],
-      "urls": [
-        "https://www.newsis.com/view/NISX20261106_0003858446"
-      ],
-      "sources": [
-        "newsis"
-      ]
-    },
-    {
-      "event": "三星電子現金達215兆韓元",
-      "score": 60,
-      "reason": "龐大現金儲備預示未來潛在的大規模資本支出。",
-      "tags": [
-        "擴產投資"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-08 08:30:11",
-      "titles": [
-        "Samsung Electronics amasses 215 trillion won cash, boosts Korea returns and investment"
-      ],
-      "urls": [
-        "https://biz.chosun.com/en/en-it/2026/11/08/GQKIRAUF3NG5XOHJNSN375TLMM/"
-      ],
-      "sources": [
-        "chosunbiz"
-      ]
-    },
-    {
-      "event": "斗山擴產韓中銅箔以搶AI需求",
-      "score": 55,
-      "reason": "關鍵ICP材料供應商擴產，反映AI基礎設施需求。",
+      "event": "斗山擴產銅箔滿足AI需求",
+      "score": 70,
+      "reason": "關鍵材料供應商擴產，強化供應鏈地位。",
       "tags": [
         "半導體材料",
         "擴產投資"
@@ -147,11 +127,11 @@
     },
     {
       "event": "安森美擴大韓國SiC產能",
-      "score": 50,
-      "reason": "功率半導體供應商擴產，強化供應鏈韌性。",
+      "score": 65,
+      "reason": "安森美擴產關聯AI電源需求，具產業影響。",
       "tags": [
-        "擴產投資",
-        "供應鏈"
+        "半導體材料",
+        "擴產投資"
       ],
       "coherent": false,
       "size": 2,
@@ -170,9 +150,9 @@
       ]
     },
     {
-      "event": "現代Atlas機器人採用三星SDI電池",
-      "score": 45,
-      "reason": "機器人領域應用三星電池，拓展新市場但規模有限。",
+      "event": "現代機器人採用三星SDI電芯",
+      "score": 55,
+      "reason": "韓廠進入全球機器人供應鏈，具拓展意義。",
       "tags": [
         "電池",
         "供應鏈"
@@ -191,9 +171,49 @@
       ]
     },
     {
-      "event": "法院駁回LG化學對中廠專利禁令",
-      "score": 40,
-      "reason": "專利訴訟結果影響韓廠在中國市場競爭優勢。",
+      "event": "LG電子車用模組獲功能安全最高認證",
+      "score": 55,
+      "reason": "LG電子獲汽車電子關鍵認證，強化供應鏈地位",
+      "tags": [
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-08 09:01:11",
+      "titles": [
+        "LG전자, 차량 통신제어 모듈 업계 최초 '기능안전 최고 등급'…\"제네시스 GV90 탑재\""
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261108_0003859168"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "三星LG強化機器人核心技術",
+      "score": 50,
+      "reason": "傳統家電大廠轉型機器人，顯示產業多元化。",
+      "tags": [
+        "電子政策"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-08 06:33:33",
+      "titles": [
+        "\"로봇 '손'부터 '두뇌'까지\"…삼성·LG전자, 핵심기술력 강화 '속도'"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261106_0003858456"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "法院駁回LG化學專利禁令",
+      "score": 45,
+      "reason": "專利訴訟結果影響正極材出口與競爭。",
       "tags": [
         "電池材料",
         "供應鏈"
@@ -212,49 +232,29 @@
       ]
     },
     {
-      "event": "三星LG強化機器人核心技術",
-      "score": 35,
-      "reason": "電子巨頭投入機器人研發，屬長期戰略佈局。",
+      "event": "半導體叢集地價飆升擴散",
+      "score": 45,
+      "reason": "反映半導體產業擴張帶來的區域經濟效應",
       "tags": [
-        "擴產投資"
+        "電子政策"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-08 06:33:33",
+      "max_crawled_at": "2026-11-07 07:01:17",
       "titles": [
-        "\"로봇 '손'부터 '두뇌'까지\"…삼성·LG전자, 핵심기술력 강화 '속도'"
+        "들불처럼 번지는 반도체 벨트 집값 상승세…'키 맞추기' 확산"
       ],
       "urls": [
-        "https://www.newsis.com/view/NISX20261106_0003858456"
+        "https://www.newsis.com/view/NISX20261106_0003858446"
       ],
       "sources": [
         "newsis"
       ]
     },
     {
-      "event": "黃仁勳取消訪韓AI Day照常舉行",
-      "score": 30,
-      "reason": "高管行程變動屬行政細節，對產業實質影響有限。",
-      "tags": [
-        "AI算力"
-      ],
-      "coherent": false,
-      "size": 1,
-      "max_crawled_at": "2026-11-08 06:33:33",
-      "titles": [
-        "Madison Hwang cancels South Korea visit; Nvidia AI Day Seoul proceeds"
-      ],
-      "urls": [
-        "https://biz.chosun.com/en/en-it/2026/11/07/FMOZX35C3NB4VAMKT65CM26XFI/"
-      ],
-      "sources": [
-        "chosunbiz"
-      ]
-    },
-    {
-      "event": "中吉視OLED申請LG化學專利無效",
-      "score": 30,
-      "reason": "專利爭議影響技術授權與市場進入，但規模較小。",
+      "event": "中國OLED廠挑戰LG化學專利",
+      "score": 40,
+      "reason": "專利無效訴訟反映技術競爭白熱化。",
       "tags": [
         "顯示面板",
         "供應鏈"
@@ -273,31 +273,11 @@
       ]
     },
     {
-      "event": "OpenAI CFO確認持續投資資料中心",
-      "score": 25,
-      "reason": "需求端承諾，間接利好韓廠但非直接產業事件。",
+      "event": "AWS倡導適配AI加速韓國採用",
+      "score": 35,
+      "reason": "雲端巨頭推動AI應用，促進基礎設施需求。",
       "tags": [
         "AI算力"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-07 02:30:17",
-      "titles": [
-        "오픈AI CFO \"중간선거 결과에도 데이터센터 투자 계속할 것\""
-      ],
-      "urls": [
-        "https://www.newsis.com/view/NISX20261107_0003858712"
-      ],
-      "sources": [
-        "newsis"
-      ]
-    },
-    {
-      "event": "AWS倡導適配AI以應對韓國落後",
-      "score": 20,
-      "reason": "雲端廠商策略建議，屬軟體層面，產業衝擊較小。",
-      "tags": [
-        "AI軟體"
       ],
       "coherent": true,
       "size": 1,
@@ -313,29 +293,112 @@
       ]
     },
     {
-      "event": "半導體暴跌後反彈關鍵變數分析",
-      "score": 15,
-      "reason": "市場預測與評論，非具體產業動態或政策。",
+      "event": "黃仁勳取消訪韓但活動照常",
+      "score": 30,
+      "reason": "高層動向變化，但對產業實質影響中性。",
       "tags": [
-        "擴產投資"
+        "AI算力"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-07 12:01:17",
+      "max_crawled_at": "2026-11-08 06:33:33",
       "titles": [
-        "반도체 폭락에도 끝난 건 아니다…다음 주 반등 가를 핵심 변수는"
+        "Madison Hwang cancels South Korea visit; Nvidia AI Day Seoul proceeds"
       ],
       "urls": [
-        "https://www.newsis.com/view/NISX20261107_0003858823"
+        "https://biz.chosun.com/en/en-it/2026/11/07/FMOZX35C3NB4VAMKT65CM26XFI/"
       ],
       "sources": [
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "物理AI安全威脅引發關注",
+      "score": 25,
+      "reason": "安全議題屬軟性層面，硬體影響間接。",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-07 10:30:17",
+      "titles": [
+        "[AI는 지금] \"로봇 오작동인 줄 알았는데 해킹\"…피지컬 AI, 보안 위협 커진다"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261105173134"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "RoboHub發布人形機器人軟體",
+      "score": 25,
+      "reason": "屬軟體發布，硬體製造影響力較低",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-07 09:01:17",
+      "titles": [
+        "로보터블, 내년 초 휴머노이드 '스킬 이식' 소프트웨어 출시"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261106211924"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "Anthropic擬於11月IPO",
+      "score": 20,
+      "reason": "AI軟體公司上市，對韓國硬體產業影響有限。",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-11-07 11:00:54",
+      "titles": [
+        "오픈AI CFO \"중간선거 결과에도 데이터센터 투자 계속할 것\"",
+        "앤트로픽, AI 투매에도 IPO 추진…\"11월 셋째주 상장 예정\""
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261107_0003858712",
+        "https://www.newsis.com/view/NISX20261107_0003858833"
+      ],
+      "sources": [
+        "newsis",
         "newsis"
       ]
     },
     {
-      "event": "市場擔憂AI投資萎縮引發恐慌",
+      "event": "iPhone行動按鈕設計可能變更",
+      "score": 15,
+      "reason": "屬終端產品設計傳聞，對韓國產業鏈影響有限",
+      "tags": [
+        "顯示面板"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-07 09:01:17",
+      "titles": [
+        "아이폰서 '액션 버튼' 사라질까…\"카메라 제어 버튼과 통합\""
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261107051839"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "AI投資縮減憂慮致股市震盪",
       "score": 10,
-      "reason": "股市波動與情緒報導，非具體產業事件。",
+      "reason": "市場情緒波動，非實質產業結構性變化。",
       "tags": [
         "AI算力"
       ],
@@ -365,61 +428,41 @@
       ]
     },
     {
-      "event": "Robottle明年初推人形機器人技能移植軟體",
-      "score": 5,
-      "reason": "屬AI軟體與機器人領域，非核心硬體製造。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-07 09:01:17",
-      "titles": [
-        "로보터블, 내년 초 휴머노이드 '스킬 이식' 소프트웨어 출시"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261106211924"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "物理AI安全威脅升溫：機器人遭駭風險",
-      "score": 3,
-      "reason": "聚焦於軟體安全議題，對硬體供應鏈影響有限。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-07 10:30:17",
-      "titles": [
-        "[AI는 지금] \"로봇 오작동인 줄 알았는데 해킹\"…피지컬 AI, 보안 위협 커진다"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261105173134"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "傳iPhone行動按鈕或與相機鍵整合",
-      "score": 0,
-      "reason": "蘋果產品設計變動，無韓國產業關聯性。",
+      "event": "半導體市場波動與反彈預測",
+      "score": 10,
+      "reason": "屬市場行情分析，非具體產業事件",
       "tags": [],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-07 09:01:17",
+      "max_crawled_at": "2026-11-07 12:01:17",
       "titles": [
-        "아이폰서 '액션 버튼' 사라질까…\"카메라 제어 버튼과 통합\""
+        "반도체 폭락에도 끝난 건 아니다…다음 주 반등 가를 핵심 변수는"
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20261107051839"
+        "https://www.newsis.com/view/NISX20261107_0003858823"
       ],
       "sources": [
-        "zdkorea"
+        "newsis"
+      ]
+    },
+    {
+      "event": "ChatGPT在韓使用者數激增",
+      "score": 10,
+      "reason": "屬應用程式市場動態，非硬體產業核心事件",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-08 09:01:11",
+      "titles": [
+        "ChatGPT dominates South Korea as mobile users hit 18.76 million; Claude surges"
+      ],
+      "urls": [
+        "https://biz.chosun.com/en/en-it/2026/11/08/BRVJHWVG4NDU5LVRP2KJP27FKQ/"
+      ],
+      "sources": [
+        "chosunbiz"
       ]
     }
   ]
