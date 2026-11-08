@@ -75,12 +75,12 @@ This repository publishes **outputs only** — the crawler/analysis code, the fu
 |---|---|
 | `today.html` | Articles from today + yesterday (filterable by source) |
 | `important.html` | 重要科技新聞：6h / 12h / 2d / 7d tabs of Ollama-scored top events |
-| `ai.html` | AI 重要新聞：**全部來源**近 2 日、模型／軟體側的 Top 18，依同性質分組後重要性降冪（`analyze_ai.py`，每 4 小時） |
-| `semiconductor.html` | 半導體重要新聞：**全部來源**近 2 日的 Top 18，依價值鏈環節分組後重要性降冪（`analyze_semi.py`，每 4 小時） |
+| `ai.html` | AI 重要新聞：**全部來源**近 2 日、模型／軟體側的 Top 18，依同性質分組後重要性降冪（`analyze_ai.py`，一天 4 次） |
+| `semiconductor.html` | 半導體重要新聞：**全部來源**近 2 日的 Top 18，依價值鏈環節分組後重要性降冪（`analyze_semi.py`，每 6 小時） |
 | `india.html` | 印度重要新聞：五家印度來源近 2 日、按**產業重要性**排序的 Top 18（`analyze_india.py`，每 12 小時） |
-| `china.html` | 中國重要新聞：12 家中國來源近 2 日、按**產業重要性**排序的 Top 18，國產替代／科技自主／降低外依／半導體加權（`analyze_china.py`，每 12 小時） |
+| `china.html` | 中國重要新聞：12 家中國來源近 2 日、按**產業重要性**排序的 Top 18，國產替代／科技自主／降低外依／半導體加權（`analyze_china.py`，每 4 小時） |
 | `sea.html` | 東南亞重要新聞：新加坡／馬來西亞／泰國／越南，近 3 日按**產業重要性**排序；以電子零組件與半導體為主（新加坡另含 AI 與軟體），跨國業者在當地建廠或投資資料中心加權最高；需 2 家以上獨立媒體或 1 家主要媒體佐證（`analyze_sea.py`，11:00 / 23:00）|
-| `korea.html` | 韓國重要新聞：六家韓國來源近 2 日、按**產業重要性**排序的 Top 18，半導體／設備材料／電子政策／電池加權且硬體優於軟體（`analyze_korea.py`，每 4 小時）|
+| `korea.html` | 韓國重要新聞：六家韓國來源近 2 日、按**產業重要性**排序的 Top 18，半導體／設備材料／電子政策／電池加權且硬體優於軟體（`analyze_korea.py`，一天 2 次）|
 | `analysis.json` | Machine-readable scored event list from the last analysis run |
 | `ai_analysis.json` | Machine-readable scored event list from the last AI analysis run |
 | `semi_analysis.json` | Machine-readable scored event list from the last semiconductor analysis run |
@@ -162,9 +162,10 @@ india/china 是**地域型**報告（來源固定成該國那幾家，主題不�
 共通設計：
 
 - **視窗**：近 2 日 ｜ **清單長度**：Top 18（四份報告一致）
-- **頻度**：每 4 小時，兩份錯開 2 小時 —— AI 在 01:45/05:45/09:45/13:45/17:45/21:45，
-  半導體在 03:45/07:45/11:45/15:45/19:45/23:45（TW）。單次約 10-12 分鐘，兩份永遠不會同時
-  壓 579a 的 GPU。**為什麼是 :45**：`data/recent.csv` 被 `news_crawler` 在 :00/:30 以
+- **頻度（2026-11-08 降頻後）**：AI 一天 4 次 04:45/08:45/12:45/20:45、半導體每 6 小時
+  03:45/09:45/15:45/21:45（TW），兩份仍互相錯開。單次約 10-12 分鐘，兩份永遠不會同時
+  壓 579a 的 GPU。AI 刻意不等距，是為了讓出 02:45/14:45 給 `analyze_china`。
+  **為什麼是 :45**：`data/recent.csv` 被 `news_crawler` 在 :00/:30 以
   非原子方式重寫（`write_recent_slice` 用 `"w"` 開檔），:45 遠離兩個寫入窗、又吃得到 :30 那批，
   是最新鮮的安全讀取點；讀到寫入中的檔會**靜默**得到一份薄報告而不是錯誤，所以這兩個 timer
   和 india/china 一樣刻意不設 `RandomizedDelaySec`。
@@ -218,8 +219,9 @@ IDM 與整合元件／設備與材料／製程與技術突破／政策、貿易�
   Huawei Central、證券時報、第一財經 科創、集微網、觀察者網 經濟、新浪財經(公司公告)、OFweek。
   OFweek 在 `recent.csv` 是 11 個 `ofweek_*` 分站 domain，`analyze_china._domain_group()` 把它們
   收成一個（與 `run_crawlers._display_domain` 同規則，改一邊要改兩邊）。
-- **視窗**：近 2 日 ｜ **頻度**：每 12 小時（`news_analyze_china.timer`，10:30 / 22:30 TW —— 排在
-  印度報告後半小時，兩份報告不同時壓 579a 的 GPU）
+- **視窗**：近 2 日 ｜ **頻度**：每 4 小時（`news_analyze_china.timer`，02:45 / 06:45 / 10:45 /
+  14:45 / 18:45 / 22:45 TW。2026-10-29 從每 12 小時的 10:30 / 22:30 改過來，10:45 / 22:45 緊貼
+  原本的閱讀時點，也仍排在印度報告 10:00 之後）
 - **與印度版最大的差別：Stage 1 中文關鍵字過濾要跑。** 印度來源全英文，`analyze_news` 的中文正則
   命中率 0 所以跳過；中國來源反過來，不跑這層新浪的行情與例行公告會淹掉整個池子。除了沿用
   `_HARD_DROP_RE`/`_ROUTINE_RE`/`_NOISE_RE`，另有 `analyze_china._FILING_RE` 擋純例行公告
@@ -244,13 +246,15 @@ IDM 與整合元件／設備與材料／製程與技術突破／政策、貿易�
 
 - **來源（六家，專案裡全部的韓國來源）**：The Elec、ZDNet Korea、Yonhap News、Chosun Biz、
   Newsis 뉴시스、Business Korea。三家韓文、三家英文。
-- **視窗**：近 2 日 ｜ **頻度**：每 4 小時（`news_analyze_korea.timer`，00:45 / 04:45 / 08:45 /
-  12:45 / 16:45 / 20:45 TW）
-- **排程為什麼是偶數點 :45**：使用者要求「與其他 AI 排序錯開避免記憶體及 GPU 壓力」。ai 固定在
-  奇數點 :45、semi 在奇數點+2 :45（相距 2 小時），偶數點 :45 正好是兩者的中點，三份 4 小時報告
-  於是各自前後淨空 1 小時；而 :45 本身是 `recent.csv` 的安全讀取窗（`news_crawler` 在 :00/:30
-  非原子地重寫它，讀到一半不會報錯、只會產出很薄的報告），所以和另外四支一樣不設
-  `RandomizedDelaySec`。`news_analyze`（每 2 小時）起於偶數點 :15、約 :28 結束，不相撞。
+- **視窗**：近 2 日 ｜ **頻度**：一天 2 次（`news_analyze_korea.timer`，09:15 / 21:15 TW）
+- **排程為什麼是 09:15 / 21:15**：2026-11-08 使用者要求把韓國降到一天兩次。時刻不是平均散開，
+  而是貼在閱讀窗（早上約 10:00-11:30、晚上約 22:00-23:30）**之前**跑完 —— 落在窗中間等於讓人
+  讀到半天前的版本。:15 同樣避開 `recent.csv` 的非原子重寫窗（`news_crawler` 在 :00/:30 重寫，
+  讀到一半不會報錯、只會產出很薄的報告），所以和另外幾支一樣不設 `RandomizedDelaySec`。
+  `news_analyze` 降頻後起於 02/08/14/20:15、約 :28 結束，和這支的 09/21:15 不相撞。
+- **改頻度時要連著改兩個地方**：`.timer` 之外還有 `analyze_korea.py` 的 `CADENCE_ZH` 與
+  `STALE_HOURS`。頁面會自己比對產生時間並在超過門檻時貼紅色橫幅，只改 timer 的話門檻會留在
+  舊週期上，每輪固定誤報（2026-11-08 實際發生過：週期變 12 小時、門檻還是 9）。
 - **Stage 1 中文關鍵字過濾跳過**（同 `analyze_india`，與 `analyze_china` 相反）：來源是韓文與
   英文，`analyze_news` 的中文正則命中率 0。匯率／KOSPI／消費電子促銷這類雜訊改由 prescreen 的
   `relevant` gate 擋。
