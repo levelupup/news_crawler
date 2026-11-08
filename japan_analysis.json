@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08 15:15:11",
+  "generated": "2026-11-08 19:15:11",
   "window_days": 2,
   "sources": [
     "dempa",
@@ -10,43 +10,42 @@
     "nikkan",
     "nikkei_jp"
   ],
-  "input_titles": 59,
-  "events": 20,
-  "kana_residue_rows": 0,
+  "input_titles": 60,
+  "events": 23,
+  "kana_residue_rows": 1,
   "timings_seconds": {
-    "stage1_cluster": 6.6,
-    "stage2_name_score": 38.8,
-    "total": 45.4
+    "stage1_cluster": 6.9,
+    "stage2_name_score": 47.6,
+    "total": 54.5
   },
   "stories": [
     {
-      "event": "TSMC評估次世代記憶體生產",
-      "score": 75,
-      "reason": "台積電進軍記憶體改變全球供應鏈格局",
+      "event": "FDK全固態電池於150度環境穩定放電",
+      "score": 78,
+      "reason": "全固態電池技術突破，解決高溫安全問題。",
       "tags": [
-        "半導體",
-        "擴產投資"
+        "電池"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-07 07:01:17",
+      "max_crawled_at": "2026-11-07 06:30:17",
       "titles": [
-        "TSMC、次世代半導体メモリー生産を検討 米報道 7:35"
+        "「全固体電池」150℃環境で安定放電…FDK、用途拡大期待"
       ],
       "urls": [
-        "https://www.nikkei.com/article/DGXZQOGM070490X01C26A1000000/"
+        "https://newswitch.jp/p/50731"
       ],
       "sources": [
-        "nikkei_jp"
+        "newswitch"
       ]
     },
     {
-      "event": "世界首款STT-MRAM AI SoC問世",
-      "score": 70,
-      "reason": "新型記憶體技術突破助力SDV發展",
+      "event": "全球首款16nm STT-MRAM AI SoC問世",
+      "score": 72,
+      "reason": "新技術突破，推動車用電子與AI算力發展。",
       "tags": [
-        "半導體",
-        "車用電子"
+        "記憶體",
+        "半導體"
       ],
       "coherent": true,
       "size": 1,
@@ -62,12 +61,135 @@
       ]
     },
     {
-      "event": "太陽誘電AI伺服器需求大增",
-      "score": 65,
-      "reason": "村田等被動元件廠受惠AI基礎設施擴建",
+      "event": "村田量產高頻同軸聯結器，面積減40%",
+      "score": 68,
+      "reason": "村田量產新產品，提升AI伺服器供應鏈能力。",
       "tags": [
         "電子零組件",
         "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-07 00:00:43",
+      "titles": [
+        "村田製作所、高周波同軸コネクター量産化 実装面積40％減"
+      ],
+      "urls": [
+        "https://www.nikkan.co.jp/articles/view/796487"
+      ],
+      "sources": [
+        "nikkan"
+      ]
+    },
+    {
+      "event": "TOTO投入710億日圓開發半導體陶瓷",
+      "score": 65,
+      "reason": "大額投資半導體關鍵材料，具產業影響力。",
+      "tags": [
+        "半導體設備",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-07 06:30:17",
+      "titles": [
+        "半導体装置向け量産確立へ…TOTO、次世代セラミックス部品に710億円"
+      ],
+      "urls": [
+        "https://newswitch.jp/p/50734"
+      ],
+      "sources": [
+        "newswitch"
+      ]
+    },
+    {
+      "event": "豐田成立機器人部門推動移動公司轉型",
+      "score": 62,
+      "reason": "豐田重組機器人業務，影響實體AI與車用市場。",
+      "tags": [
+        "機器人",
+        "車用電子"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-08 06:33:33",
+      "titles": [
+        "トヨタ、全社直轄組織「トヨタロボティクス」を立ち上げてモビリティカンパニーへのモデルチェンジ 外販も視野にロボティクスに取り組む"
+      ],
+      "urls": [
+        "https://car.watch.impress.co.jp/docs/news/2154612.html"
+      ],
+      "sources": [
+        "impress"
+      ]
+    },
+    {
+      "event": "旭化成設立AI自主實驗室加速材料開發",
+      "score": 55,
+      "reason": "匯入AI加速研發，提升材料開發效率。",
+      "tags": [
+        "半導體材料"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-08 13:01:11",
+      "titles": [
+        "旭化成、AIで材料開発を自律化する「スマートラボラトリー」を開設へ　27年1月稼働、「パイメル」の開発実験数を約4倍に"
+      ],
+      "urls": [
+        "https://dempa-digital.com/article/729906"
+      ],
+      "sources": [
+        "dempa"
+      ]
+    },
+    {
+      "event": "理研開發AI支援之先進半導體技術",
+      "score": 50,
+      "reason": "基礎研究對長期半導體發展具戰略意義。",
+      "tags": [
+        "半導體",
+        "電子政策"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-07 06:30:17",
+      "titles": [
+        "AI支えるデバイス設計、集積技術を開発…理研「先端半導体科学プログラム」の現在地"
+      ],
+      "urls": [
+        "https://newswitch.jp/p/50732"
+      ],
+      "sources": [
+        "newswitch"
+      ]
+    },
+    {
+      "event": "TOWA上修財測，半導體投資帶動營收",
+      "score": 48,
+      "reason": "關鍵裝置供應商業績增長，顯示產業景氣。",
+      "tags": [
+        "半導體設備"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-08 06:33:33",
+      "titles": [
+        "TOWA、27年3月期業績予想を上方修正　半導体投資活況が追い風　売上高・利益とも過去最高へ"
+      ],
+      "urls": [
+        "https://dempa-digital.com/article/729829"
+      ],
+      "sources": [
+        "dempa"
+      ]
+    },
+    {
+      "event": "多間日系電子零元件廠財報優於預期",
+      "score": 45,
+      "reason": "各公司分別發布財報，非單一事件。",
+      "tags": [
+        "電子零組件"
       ],
       "coherent": false,
       "size": 9,
@@ -107,117 +229,11 @@
       ]
     },
     {
-      "event": "TOTO投資710億開發陶瓷零件",
-      "score": 65,
-      "reason": "關鍵半導體裝置材料供應商擴大產能",
+      "event": "IDEC財報優於預期，半導體訂單強勁",
+      "score": 42,
+      "reason": "單一公司財報更新，反映裝置需求。",
       "tags": [
-        "半導體設備",
-        "擴產投資"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-07 06:30:17",
-      "titles": [
-        "半導体装置向け量産確立へ…TOTO、次世代セラミックス部品に710億円"
-      ],
-      "urls": [
-        "https://newswitch.jp/p/50734"
-      ],
-      "sources": [
-        "newswitch"
-      ]
-    },
-    {
-      "event": "TOWA半導體裝置業績創新高",
-      "score": 60,
-      "reason": "日本半導體設備商受惠全球擴產潮",
-      "tags": [
-        "半導體設備",
-        "供應鏈"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-08 06:33:33",
-      "titles": [
-        "TOWA、27年3月期業績予想を上方修正　半導体投資活況が追い風　売上高・利益とも過去最高へ"
-      ],
-      "urls": [
-        "https://dempa-digital.com/article/729829"
-      ],
-      "sources": [
-        "dempa"
-      ]
-    },
-    {
-      "event": "村田量產高頻同軸聯結器",
-      "score": 60,
-      "reason": "村田推出小型化元件滿足AI伺服器需求",
-      "tags": [
-        "電子零組件",
-        "擴產投資"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-07 00:00:43",
-      "titles": [
-        "村田製作所、高周波同軸コネクター量産化 実装面積40％減"
-      ],
-      "urls": [
-        "https://www.nikkan.co.jp/articles/view/796487"
-      ],
-      "sources": [
-        "nikkan"
-      ]
-    },
-    {
-      "event": "FDK全固態電池高溫穩定放電",
-      "score": 55,
-      "reason": "全固態電池技術突破拓展應用場景",
-      "tags": [
-        "電池",
-        "擴產投資"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-07 06:30:17",
-      "titles": [
-        "「全固体電池」150℃環境で安定放電…FDK、用途拡大期待"
-      ],
-      "urls": [
-        "https://newswitch.jp/p/50731"
-      ],
-      "sources": [
-        "newswitch"
-      ]
-    },
-    {
-      "event": "豐田成立機器人直轄組織",
-      "score": 50,
-      "reason": "豐田強化機器人業務以拓展外銷市場",
-      "tags": [
-        "機器人",
-        "供應鏈"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-08 06:33:33",
-      "titles": [
-        "トヨタ、全社直轄組織「トヨタロボティクス」を立ち上げてモビリティカンパニーへのモデルチェンジ 外販も視野にロボティクスに取り組む"
-      ],
-      "urls": [
-        "https://car.watch.impress.co.jp/docs/news/2154612.html"
-      ],
-      "sources": [
-        "impress"
-      ]
-    },
-    {
-      "event": "IDEC半導體裝置訂單大增",
-      "score": 50,
-      "reason": "工業元件廠受惠半導體資本支出增加",
-      "tags": [
-        "電子零組件",
-        "供應鏈"
+        "電子零組件"
       ],
       "coherent": true,
       "size": 1,
@@ -233,30 +249,9 @@
       ]
     },
     {
-      "event": "理研開發AI支援積體技術",
-      "score": 45,
-      "reason": "基礎研究進展可能影響未來製程",
-      "tags": [
-        "半導體",
-        "AI算力"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-07 06:30:17",
-      "titles": [
-        "AI支えるデバイス設計、集積技術を開発…理研「先端半導体科学プログラム」の現在地"
-      ],
-      "urls": [
-        "https://newswitch.jp/p/50732"
-      ],
-      "sources": [
-        "newswitch"
-      ]
-    },
-    {
-      "event": "東芝廢熱發電出力增10%進場",
-      "score": 45,
-      "reason": "能源電子技術突破，切入新興市場",
+      "event": "東芝廢熱發電技術提升輸出效率至10%",
+      "score": 40,
+      "reason": "能源電子技術進步，進入新興市場。",
       "tags": [
         "太陽能"
       ],
@@ -274,53 +269,11 @@
       ]
     },
     {
-      "event": "AGC獲利因歐美成本下滑42%",
-      "score": 40,
-      "reason": "材料巨頭獲利波動反映供應鏈壓力",
-      "tags": [
-        "半導體材料",
-        "供應鏈"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-08 06:33:33",
-      "titles": [
-        "AGCの通期見通し、当期益42%減 欧米素材コスト悪化"
-      ],
-      "urls": [
-        "https://newswitch.jp/p/50740"
-      ],
-      "sources": [
-        "newswitch"
-      ]
-    },
-    {
-      "event": "旭化成設AI實驗室加速材料開發",
-      "score": 40,
-      "reason": "材料研發匯入AI，提升半導體供應鏈效率",
+      "event": "大阪產技研開發可伸縮矽基板技術",
+      "score": 35,
+      "reason": "新材料技術，但規模與商業化時程尚不明確。",
       "tags": [
         "半導體材料"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-08 13:01:11",
-      "titles": [
-        "旭化成、AIで材料開発を自律化する「スマートラボラトリー」を開設へ　27年1月稼働、「パイメル」の開発実験数を約4倍に"
-      ],
-      "urls": [
-        "https://dempa-digital.com/article/729906"
-      ],
-      "sources": [
-        "dempa"
-      ]
-    },
-    {
-      "event": "大阪產技研開發6G後光學材料",
-      "score": 35,
-      "reason": "前瞻材料研發為未來通訊鋪路",
-      "tags": [
-        "半導體材料",
-        "電子政策"
       ],
       "coherent": true,
       "size": 1,
@@ -336,29 +289,49 @@
       ]
     },
     {
-      "event": "歐姆龍增收增益需求堅穩",
-      "score": 35,
-      "reason": "主要元件廠財報佳，反映產業景氣",
+      "event": "AGC下修獲利預測，歐美成本惡化",
+      "score": 30,
+      "reason": "材料廠財測下修，反映供應鏈成本壓力。",
       "tags": [
-        "電子零組件"
+        "半導體材料"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-08 13:30:11",
+      "max_crawled_at": "2026-11-08 06:33:33",
       "titles": [
-        "オーナンバの26年1～9月期、増収増益　日本・アジアで産業機器市場の需要が堅調"
+        "AGCの通期見通し、当期益42%減 欧米素材コスト悪化"
       ],
       "urls": [
-        "https://dempa-digital.com/article/729917"
+        "https://newswitch.jp/p/50740"
       ],
       "sources": [
-        "dempa"
+        "newswitch"
       ]
     },
     {
-      "event": "OpenAI募資目標下修至1.7兆日圓",
-      "score": 30,
-      "reason": "美國AI巨頭融資變動影響全球算力投資",
+      "event": "NIKKEI專題探討印度半導體與美軍壁壘",
+      "score": 20,
+      "reason": "政策分析報導，非具體產業事件。",
+      "tags": [
+        "電子政策"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-07 08:01:17",
+      "titles": [
+        "NIKKEI Tech Foresight 「特集・インド半導体」「米陸軍で痛感した壁」 注目5本"
+      ],
+      "urls": [
+        "https://www.nikkei.com/prime/tech-foresight/article/DGXZQOUC060E80W6A101C2000000"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "OpenAI 募資目標額縮小",
+      "score": 1,
+      "reason": "純軟體融資，無硬體產業影響。",
       "tags": [
         "AI算力"
       ],
@@ -376,11 +349,11 @@
       ]
     },
     {
-      "event": "美民主黨或使AI熱潮降溫",
-      "score": 20,
-      "reason": "美國政策分析對日本產業間接影響",
+      "event": "美民主黨 AI 政策分析",
+      "score": 1,
+      "reason": "政治評論非具體產業事件。",
       "tags": [
-        "電子政策"
+        "AI算力"
       ],
       "coherent": true,
       "size": 1,
@@ -396,12 +369,106 @@
       ]
     },
     {
-      "event": "原子力機構整備宇宙試驗設施",
-      "score": 15,
-      "reason": "太空基礎建設，非核心電子元件或半導體技術",
+      "event": "東大量子計算新手法",
+      "score": 1,
+      "reason": "學術研究非產業硬體事件。",
       "tags": [
-        "防衛宇宙"
+        "AI算力"
       ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-07 10:00:58",
+      "titles": [
+        "雲粒の成長過程、量子技術で計算 東京大学が新手法 11:00"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOSG057F80V01C26A1000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "政府 AI 網路安全對策",
+      "score": 1,
+      "reason": "軟體政策非硬體產業事件。",
+      "tags": [
+        "AI算力"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-08 19:01:11",
+      "titles": [
+        "政府、多発するサイバー攻撃で緊急対策決定　AI活用や戦略的対処を柱に"
+      ],
+      "urls": [
+        "https://dempa-digital.com/article/729925"
+      ],
+      "sources": [
+        "dempa"
+      ]
+    },
+    {
+      "event": "Siri 終端 AI 處理優勢",
+      "score": 1,
+      "reason": "蘋果產品特性非日本產業。",
+      "tags": [
+        "AI算力"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-07 04:00:32",
+      "titles": [
+        "クラウドに頼らぬSiri AI、情報漏洩リスク小さく 端末内で処理 5:00"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOUC05BQZ0V01C26A1000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "TSMC、次世代半導體メモリー生產を檢討 米報道 7:35",
+      "score": 0,
+      "reason": "",
+      "tags": [],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-07 07:01:17",
+      "titles": [
+        "TSMC、次世代半導体メモリー生産を検討 米報道 7:35"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOGM070490X01C26A1000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "歐姆龍增收增益",
+      "score": 0,
+      "reason": "財報無新產能或技術突破。",
+      "tags": [],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-08 13:30:11",
+      "titles": [
+        "オーナンバの26年1～9月期、増収増益　日本・アジアで産業機器市場の需要が堅調"
+      ],
+      "urls": [
+        "https://dempa-digital.com/article/729917"
+      ],
+      "sources": [
+        "dempa"
+      ]
+    },
+    {
+      "event": "宇宙開發試驗設施整備",
+      "score": 0,
+      "reason": "基礎建設無電子元件關聯。",
+      "tags": [],
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-11-07 05:30:17",
@@ -416,40 +483,18 @@
       ]
     },
     {
-      "event": "NIKKEI專題：印度半導體與美軍",
-      "score": 10,
-      "reason": "地緣政治分析非直接產業動態",
-      "tags": [
-        "供應鏈"
-      ],
+      "event": "日本網路攻擊創新高",
+      "score": 0,
+      "reason": "安全統計無產業影響。",
+      "tags": [],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-07 08:01:17",
+      "max_crawled_at": "2026-11-08 06:33:33",
       "titles": [
-        "NIKKEI Tech Foresight 「特集・インド半導体」「米陸軍で痛感した壁」 注目5本"
+        "国内サイバー攻撃、10月は過去最多から2.4倍233件 AI利用型も確認"
       ],
       "urls": [
-        "https://www.nikkei.com/prime/tech-foresight/article/DGXZQOUC060E80W6A101C2000000"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "東大量子技術計算雲粒成長",
-      "score": 10,
-      "reason": "基礎學術研究，尚未見產業應用或硬體投資",
-      "tags": [
-        "AI算力"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-07 10:00:58",
-      "titles": [
-        "雲粒の成長過程、量子技術で計算 東京大学が新手法 11:00"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOSG057F80V01C26A1000000/"
+        "https://www.nikkei.com/article/DGXZQOUC06AEB0W6A101C2000000/"
       ],
       "sources": [
         "nikkei_jp"
