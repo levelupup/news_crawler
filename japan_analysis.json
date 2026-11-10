@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-10 19:15:11",
+  "generated": "2026-11-10 23:15:11",
   "window_days": 2,
   "sources": [
     "dempa",
@@ -10,19 +10,19 @@
     "nikkan",
     "nikkei_jp"
   ],
-  "input_titles": 406,
-  "events": 88,
-  "kana_residue_rows": 1,
+  "input_titles": 417,
+  "events": 92,
+  "kana_residue_rows": 0,
   "timings_seconds": {
-    "stage1_cluster": 10.9,
-    "stage2_name_score": 218.2,
-    "total": 229.1
+    "stage1_cluster": 12.1,
+    "stage2_name_score": 230.7,
+    "total": 242.8
   },
   "stories": [
     {
       "event": "三井化學以1.8兆日圓收購JSR",
       "score": 95,
-      "reason": "日本化學業最大併購，重塑半導體材料供應鏈格局",
+      "reason": "日本半導體材料龍頭合併，重塑供應鏈格局",
       "tags": [
         "半導體材料",
         "擴產投資",
@@ -66,12 +66,34 @@
       ]
     },
     {
-      "event": "三井化學收購JSR為日本最大併購案",
+      "event": "馬斯克極秘訪日考察Rapidus半導體廠",
+      "score": 95,
+      "reason": "全球科技巨頭介入日本先進製程，具指標性意義。",
+      "tags": [
+        "半導體",
+        "電子政策"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-09 04:01:11",
+      "titles": [
+        "生産量は｢ラピダスの40倍｣ マスク氏半導体工場、調達部隊が極秘来日"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOUC026RB0S6A101C2000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "三井化學宣佈收購JSR",
       "score": 92,
-      "reason": "確認業界最大規模M&A，深刻影響材料供應鏈結構",
+      "reason": "僅聚焦半導體材料領域最大規模併購案",
       "tags": [
         "半導體材料",
-        "擴產投資"
+        "擴產投資",
+        "供應鏈"
       ],
       "coherent": false,
       "size": 4,
@@ -96,55 +118,111 @@
       ]
     },
     {
-      "event": "Rapidus千歲設先導半導體研發中心",
+      "event": "住友金屬礦山開發世界首個12吋SiC基板",
       "score": 85,
-      "reason": "Rapidus在千歲設立先進半導體研發中心，具戰略意義。",
+      "reason": "功率半導體關鍵材料突破，解決大尺寸化瓶頸",
       "tags": [
-        "半導體",
+        "半導體材料",
         "擴產投資"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-09 06:00:11",
+      "max_crawled_at": "2026-11-09 05:30:11",
       "titles": [
-        "北海道を最先端技術の集積地に　千歳市内に先端半導体R＆D拠点を新たに形成へ"
+        "世界初「12インチ貼り合わせSiC基板」開発に成功…住友金属鉱山、サンプル出荷"
       ],
       "urls": [
-        "https://monoist.itmedia.co.jp/mn/articles/2611/09/news022.html"
+        "https://newswitch.jp/p/50751"
       ],
       "sources": [
-        "itmedia"
+        "newswitch"
       ]
     },
     {
-      "event": "住友金屬礦山開發12吋SiC基板",
-      "score": 78,
-      "reason": "世界首創12吋碳化矽基板，突破功率元件製造瓶頸",
+      "event": "古河電工將AI伺服器用銅箔產能倍增",
+      "score": 80,
+      "reason": "關鍵材料供應商大幅擴產，直接回應AI算力需求。",
       "tags": [
-        "半導體材料"
+        "半導體材料",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-11-09 16:00:11",
+      "titles": [
+        "古河電工、AIサーバー向け「HVLP4銅箔」を2029年度末に2倍へ増産",
+        "古河電工、銅箔の生産能力2倍に AIサーバー向け 13:40"
+      ],
+      "urls": [
+        "https://ai.watch.impress.co.jp/docs/news/2154860.html",
+        "https://www.nikkei.com/article/DGXZQOUC0929K0Z01C26A1000000/"
+      ],
+      "sources": [
+        "impress",
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "羅姆營業利益預期大增360%",
+      "score": 78,
+      "reason": "功率半導體龍頭財測大幅上修，反映市場強勁",
+      "tags": [
+        "半導體",
+        "擴產投資"
+      ],
+      "coherent": false,
+      "size": 4,
+      "max_crawled_at": "2026-11-10 06:00:23",
+      "titles": [
+        "AI／産機好調のローム、27年度は営業利益360％増見込む",
+        "事業環境の悪化でシャープは減収減益に　苦境の裏で白物家電やPC事業が奮闘",
+        "ローム、通期上方修正…パワー半導体統合「前に進んでいるのは確かだ」",
+        "シャープの26年4～9月期　部材高騰・円安響き減収減益　通期予想は据え置き"
+      ],
+      "urls": [
+        "https://eetimes.itmedia.co.jp/ee/articles/2611/09/news053.html",
+        "https://monoist.itmedia.co.jp/mn/articles/2611/10/news033.html",
+        "https://newswitch.jp/p/50747",
+        "https://dempa-digital.com/article/730130"
+      ],
+      "sources": [
+        "itmedia",
+        "itmedia",
+        "newswitch",
+        "dempa"
+      ]
+    },
+    {
+      "event": "三井金屬投資1900億日圓於馬來西亞建廠",
+      "score": 75,
+      "reason": "大型海外擴產，影響AI伺服器用銅箔供應鏈佈局。",
+      "tags": [
+        "半導體材料",
+        "擴產投資"
       ],
       "coherent": false,
       "size": 2,
-      "max_crawled_at": "2026-11-09 18:31:11",
+      "max_crawled_at": "2026-11-10 16:31:11",
       "titles": [
-        "世界初「12インチ貼り合わせSiC基板」開発に成功…住友金属鉱山、サンプル出荷",
-        "「世界初」300mm SiCウエハーでパワー半導体製造　Infineon"
+        "三井金属がマレーシアに銅箔新工場 1900億円投資、AI通信部品向け 17:21",
+        "ソフトバンクG、マレーシアでAIインフラ開発 初期投資1580億円 9:47"
       ],
       "urls": [
-        "https://newswitch.jp/p/50751",
-        "https://eetimes.itmedia.co.jp/ee/articles/2611/09/news079.html"
+        "https://www.nikkei.com/article/DGXZQOUC106U90Q6A111C2000000/",
+        "https://www.nikkei.com/article/DGXZQOUC09B2Y0Z01C26A1000000/"
       ],
       "sources": [
-        "newswitch",
-        "itmedia"
+        "nikkei_jp",
+        "nikkei_jp"
       ]
     },
     {
-      "event": "佳能推出半導體新式曝光裝置",
+      "event": "佳能推出處理量提升1.3倍新露光機",
       "score": 75,
-      "reason": "佳能突破曝光技術瓶頸，提升產能效率，具戰略意義",
+      "reason": "佳能先進製程裝置效能突破，影響產能擴張效率",
       "tags": [
-        "半導體設備"
+        "半導體設備",
+        "擴產投資"
       ],
       "coherent": true,
       "size": 1,
@@ -160,33 +238,12 @@
       ]
     },
     {
-      "event": "日本成長戰略會議列16領域重點投資",
+      "event": "富士軟片上修財測，半導體材料強勁",
       "score": 72,
-      "reason": "政府明確次世代半導體等領域為國家級投資重點",
-      "tags": [
-        "電子政策",
-        "半導體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 10:31:11",
-      "titles": [
-        "日本成長戦略会議、次世代半導体など重点 集中投資対象候補16領域"
-      ],
-      "urls": [
-        "https://www.nikkan.co.jp/articles/view/796622"
-      ],
-      "sources": [
-        "nikkan"
-      ]
-    },
-    {
-      "event": "富士軟片等半導體材料商財報上修",
-      "score": 70,
-      "reason": "主要材料供應商獲利增長，證實半導體製程需求強勁",
+      "reason": "關鍵材料供應商財報優於預期，顯示需求旺盛",
       "tags": [
         "半導體材料",
-        "電子零組件"
+        "擴產投資"
       ],
       "coherent": false,
       "size": 4,
@@ -211,115 +268,30 @@
       ]
     },
     {
-      "event": "古河電工AI伺服器銅箔增產二倍",
+      "event": "日本成長戰略會議選定16領域重點投資",
       "score": 70,
-      "reason": "古河電工針對AI伺服器需求倍增銅箔產能，影響供應鏈。",
+      "reason": "政府明確半導體等重點投資方向，影響資源配置",
       "tags": [
-        "半導體材料",
-        "擴產投資"
-      ],
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-11-09 16:00:11",
-      "titles": [
-        "古河電工、AIサーバー向け「HVLP4銅箔」を2029年度末に2倍へ増産",
-        "古河電工、銅箔の生産能力2倍に AIサーバー向け 13:40"
-      ],
-      "urls": [
-        "https://ai.watch.impress.co.jp/docs/news/2154860.html",
-        "https://www.nikkei.com/article/DGXZQOUC0929K0Z01C26A1000000/"
-      ],
-      "sources": [
-        "impress",
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "安川電機推出新型半導體搬運機器人",
-      "score": 70,
-      "reason": "安川電機發布新一代半導體廠用搬運機器人，提升自動化效率。",
-      "tags": [
-        "機器人",
-        "半導體設備"
+        "電子政策",
+        "半導體"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-10 17:01:11",
+      "max_crawled_at": "2026-11-10 10:31:11",
       "titles": [
-        "安川電、半導体搬送ロボ刷新 可搬質量6.5倍、メンテ容易"
+        "日本成長戦略会議、次世代半導体など重点 集中投資対象候補16領域"
       ],
       "urls": [
-        "https://www.nikkan.co.jp/articles/view/796659"
+        "https://www.nikkan.co.jp/articles/view/796622"
       ],
       "sources": [
         "nikkan"
       ]
     },
     {
-      "event": "尼康轉盈半導體裝置需求強勁",
+      "event": "JX金屬半導體材料增產50%",
       "score": 70,
-      "reason": "尼康財報反映半導體裝置市場動能。",
-      "tags": [
-        "半導體設備"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 11:31:11",
-      "titles": [
-        "半導体装置など伸長…ニコンの4-9月期、営業黒字に転換した"
-      ],
-      "urls": [
-        "https://newswitch.jp/p/50744"
-      ],
-      "sources": [
-        "newswitch"
-      ]
-    },
-    {
-      "event": "豐田稱E2E自動駕駛有望追平",
-      "score": 70,
-      "reason": "車廠自研AI駕駛技術之重大進展，挑戰傳統供應鏈。",
-      "tags": [
-        "車用電子"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 04:00:11",
-      "titles": [
-        "トヨタ皿田センター長、E2E自動運転「追いつく可能性やっと見えた」"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOUC273O40X21C26A0000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "石川製作所防衛訂單獲利大增",
-      "score": 70,
-      "reason": "防衛電子需求強勁，反映產業結構性變化。",
-      "tags": [
-        "防衛宇宙",
-        "供應鏈"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 18:31:11",
-      "titles": [
-        "石川製作所の26年4〜9月期、純利益3.7倍 防衛省向け機雷好調 19:31"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOCC096HS0Z01C26A1000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "JX金屬擴產半導體材料應對AI需求",
-      "score": 68,
-      "reason": "關鍵前驅物供應商增產，反映AI算力基礎設施擴張",
+      "reason": "關鍵電子氣體供應商大幅擴產，顯示需求確切增長",
       "tags": [
         "半導體材料",
         "擴產投資"
@@ -338,12 +310,690 @@
       ]
     },
     {
-      "event": "日本觸媒等企業財報因AI需求上修",
-      "score": 65,
-      "reason": "多家公司受惠AI與資料中心投資，顯示產業景氣復甦",
+      "event": "豐田：E2E自動駕駛有望追平",
+      "score": 70,
+      "reason": "車廠自研AI技術突破，影響軟體定義汽車格局",
       "tags": [
-        "電子零組件",
+        "車用電子"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 04:00:11",
+      "titles": [
+        "トヨタ皿田センター長、E2E自動運転「追いつく可能性やっと見えた」"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOUC273O40X21C26A0000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "三菱重工公佈兆元成長投資",
+      "score": 70,
+      "reason": "兆級投資涵蓋半導體裝置與材料，具重大產業影響力。",
+      "tags": [
+        "擴產投資",
+        "半導體設備"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 05:31:11",
+      "titles": [
+        "GTCC高温部品の能力増強など…三菱重工が計画、1兆円規模・成長投資の内訳"
+      ],
+      "urls": [
+        "https://newswitch.jp/p/50754"
+      ],
+      "sources": [
+        "newswitch"
+      ]
+    },
+    {
+      "event": "三菱電機實證GaN on GaN技術優勢",
+      "score": 65,
+      "reason": "寬能隙半導體技術驗證，有助於高頻應用小型化",
+      "tags": [
+        "半導體",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-11-10 11:00:38",
+      "titles": [
+        "高周波トランジスタにおけるGaN on GaN技術の優位性、三菱電機が実証",
+        "三菱電機、GaNトランジスタの周波数分散　結晶欠陥の影響を世界初解明　高周波機器の小型化へ"
+      ],
+      "urls": [
+        "https://monoist.itmedia.co.jp/mn/articles/2611/09/news069.html",
+        "https://dempa-digital.com/article/730167"
+      ],
+      "sources": [
+        "itmedia",
+        "dempa"
+      ]
+    },
+    {
+      "event": "千歲市將建先進半導體研發基地",
+      "score": 65,
+      "reason": "Rapidus核心基地建設進展，具戰略意義",
+      "tags": [
+        "半導體",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-09 06:00:11",
+      "titles": [
+        "北海道を最先端技術の集積地に　千歳市内に先端半導体R＆D拠点を新たに形成へ"
+      ],
+      "urls": [
+        "https://monoist.itmedia.co.jp/mn/articles/2611/09/news022.html"
+      ],
+      "sources": [
+        "itmedia"
+      ]
+    },
+    {
+      "event": "安川電機推出半導體搬運機器人新機種",
+      "score": 65,
+      "reason": "自動化裝置升級，提升半導體廠營運效率。",
+      "tags": [
+        "機器人",
+        "半導體設備"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 17:01:11",
+      "titles": [
+        "安川電、半導体搬送ロボ刷新 可搬質量6.5倍、メンテ容易"
+      ],
+      "urls": [
+        "https://www.nikkan.co.jp/articles/view/796659"
+      ],
+      "sources": [
+        "nikkan"
+      ]
+    },
+    {
+      "event": "台積電投資Anthropic最高10億美元",
+      "score": 65,
+      "reason": "台積電大額投資AI算力，影響供應鏈格局。",
+      "tags": [
+        "AI算力",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 21:01:11",
+      "titles": [
+        "TSMC、アンソロピック・オープンAIに出資へ 最大計10億ドル 21:53"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOGM10BEE0Q6A111C2000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "台積電營收創新高 AI需求強勁",
+      "score": 65,
+      "reason": "全球晶圓代工龍頭表現反映產業景氣",
+      "tags": [
+        "半導體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 14:30:11",
+      "titles": [
+        "TSMCの10月売上高59.7%増 AI需要旺盛、34カ月連続プラス成長 15:20"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOGM095QI0Z01C26A1000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "製造設備商應對美國政策變數",
+      "score": 65,
+      "reason": "出口管制對日本設備商策略的重大影響",
+      "tags": [
+        "半導體設備",
+        "電子政策"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-09 15:00:11",
+      "titles": [
+        "米国の「鶴の一声」　製造装置メーカーも勝機見いだす"
+      ],
+      "urls": [
+        "https://eetimes.itmedia.co.jp/ee/articles/2611/09/news068.html"
+      ],
+      "sources": [
+        "itmedia"
+      ]
+    },
+    {
+      "event": "島津製作所擴充半導體裝置鍍膜產能",
+      "score": 60,
+      "reason": "關鍵裝置零部件供應商擴產，反映上游需求增長",
+      "tags": [
+        "半導體設備",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-11-10 10:00:46",
+      "titles": [
+        "島津製作所が半導体製造装置向けTMPのめっきライン増設、生産能力2倍に",
+        "島津製作所、半導体装置向け部品で新生産ライン めっき能力2倍に"
+      ],
+      "urls": [
+        "https://monoist.itmedia.co.jp/mn/articles/2611/10/news043.html",
+        "https://www.nikkei.com/article/DGXZQOUF095T10Z01C26A1000000/"
+      ],
+      "sources": [
+        "itmedia",
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "Resonac與鎧俠共創半導體溶劑回收技術",
+      "score": 60,
+      "reason": "關鍵材料供應商合作，強化供應鏈韌性與永續性。",
+      "tags": [
+        "半導體材料",
         "供應鏈"
+      ],
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-11-10 10:31:11",
+      "titles": [
+        "騒音制御設計から音のデザインへ／レゾナックとキオクシアが共創",
+        "レゾナックとキオクシアが共創、半導体向け高純度溶剤をリサイクル"
+      ],
+      "urls": [
+        "https://monoist.itmedia.co.jp/mn/articles/2611/10/news045.html",
+        "https://monoist.itmedia.co.jp/mn/articles/2611/10/news006.html"
+      ],
+      "sources": [
+        "itmedia",
+        "itmedia"
+      ]
+    },
+    {
+      "event": "Google擴大AI晶片種類對抗NVIDIA",
+      "score": 60,
+      "reason": "雲端巨頭自研晶片策略調整，影響全球AI硬體格局",
+      "tags": [
+        "AI算力",
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 11:00:38",
+      "titles": [
+        "GoogleのAI半導体、4種類に拡大 NVIDIA対抗でクラウド向け外販 11:36"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOGN09B3P0Z01C26A1000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "尼康財報轉盈，半導體裝置表現亮眼",
+      "score": 60,
+      "reason": "主要設備商財務好轉，反映半導體資本支出復甦。",
+      "tags": [
+        "半導體設備"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-09 11:31:11",
+      "titles": [
+        "半導体装置など伸長…ニコンの4-9月期、営業黒字に転換した"
+      ],
+      "urls": [
+        "https://newswitch.jp/p/50744"
+      ],
+      "sources": [
+        "newswitch"
+      ]
+    },
+    {
+      "event": "法雷奧日產自動駕駛ECU在茨城造",
+      "score": 60,
+      "reason": "車用晶片製造迴流日本，具戰略意義。",
+      "tags": [
+        "車用電子",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 04:00:11",
+      "titles": [
+        "仏ヴァレオの日本担当幹部「日産向け自動運転ECU、茨城で製造」"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOUC29B8Q0Z21C26A0000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "三菱麻田鎢硬質合金工具漲價25%",
+      "score": 60,
+      "reason": "關鍵加工材料漲價，影響裝置製造成本。",
+      "tags": [
+        "半導體設備",
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-09 17:01:11",
+      "titles": [
+        "三菱マテ、タングステン使う超硬工具を最大25%値上げ 26年で2度目"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOUC091XL0Z01C26A1000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "豐田HV專利申請量五年千件",
+      "score": 60,
+      "reason": "豐田在混合動力技術的專利壁壘強化",
+      "tags": [
+        "車用電子"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-09 08:00:11",
+      "titles": [
+        "NIKKEI Mobility トヨタHV特許出願､5年1000件と突出 中国勢は方式集約"
+      ],
+      "urls": [
+        "https://www.nikkei.com/prime/mobility/article/DGXZQOUC228NL0S6A021C2000000"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "愛普生發售首款人協同機器人",
+      "score": 60,
+      "reason": "主要廠商推出新產品，拓展自動化市場",
+      "tags": [
+        "機器人"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-09 13:30:11",
+      "titles": [
+        "エプソン、初の人協働ロボット発売　研究施設や製造現場の自動化支援"
+      ],
+      "urls": [
+        "https://dempa-digital.com/article/730045"
+      ],
+      "sources": [
+        "dempa"
+      ]
+    },
+    {
+      "event": "JX金屬投資Oxide拓展量子領域",
+      "score": 55,
+      "reason": "關鍵材料供應商佈局量子技術，具前瞻性。",
+      "tags": [
+        "半導體材料",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-11-10 09:31:11",
+      "titles": [
+        "JX金属、オキサイドと資本業務提携契約を締結　量子分野などで事業拡大目指す",
+        "JX金属、光学系部品のオキサイドに7%超出資 AI・量子分野狙う 16:22 更新"
+      ],
+      "urls": [
+        "https://dempa-digital.com/article/730156",
+        "https://www.nikkei.com/article/DGXZQOUC093830Z01C26A1000000/"
+      ],
+      "sources": [
+        "dempa",
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "中村留發表新型複合加工機",
+      "score": 55,
+      "reason": "精密加工裝置更新，服務半導體與電子製造",
+      "tags": [
+        "半導體設備"
+      ],
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-11-09 10:30:11",
+      "titles": [
+        "中村留、新しいATC型複合加工機を披露　コンパクト設計と高精度加工を両立",
+        "東京駅は「先天的安全システム」の代表例／中村留の最新ATC型複合加工機"
+      ],
+      "urls": [
+        "https://monoist.itmedia.co.jp/mn/articles/2611/09/news029.html",
+        "https://monoist.itmedia.co.jp/mn/articles/2611/09/news043.html"
+      ],
+      "sources": [
+        "itmedia",
+        "itmedia"
+      ]
+    },
+    {
+      "event": "CoreWeave籌資23兆日圓強化AI算力",
+      "score": 55,
+      "reason": "龐大資金投入AI基礎設施，間接影響硬體供應鏈",
+      "tags": [
+        "AI算力",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 04:00:11",
+      "titles": [
+        "コアウィーブ、綱渡りの23兆円調達 「AIの中央銀行」NVIDIAと蜜月 5:00"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOUC306QX0Q6A031C2000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "Stanley Electric量產100mm氮化鋁基板",
+      "score": 55,
+      "reason": "新型功率半導體基板產品化，拓展應用市場。",
+      "tags": [
+        "電子零組件"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 10:31:11",
+      "titles": [
+        "スタンレー電気米子会社、100mmAlN基板を製品化"
+      ],
+      "urls": [
+        "https://eetimes.itmedia.co.jp/ee/articles/2611/10/news018.html"
+      ],
+      "sources": [
+        "itmedia"
+      ]
+    },
+    {
+      "event": "索迪克超精密射出機產能增三倍",
+      "score": 55,
+      "reason": "關鍵封裝裝置擴產，滿足AI伺服器需求。",
+      "tags": [
+        "半導體設備",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 13:01:11",
+      "titles": [
+        "ソディック、データセンター需要で生産増強　超精密射出成形機の生産能力3倍へ"
+      ],
+      "urls": [
+        "https://monoist.itmedia.co.jp/mn/articles/2611/10/news038.html"
+      ],
+      "sources": [
+        "itmedia"
+      ]
+    },
+    {
+      "event": "Robot Bank開發具身AI四足機器人",
+      "score": 55,
+      "reason": "實體AI機器人開發，屬新興硬體領域。",
+      "tags": [
+        "機器人",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-09 14:00:11",
+      "titles": [
+        "ロボットバンク、産業向け四足歩行ロボットの開発に着手 具身AIロボットの自社製品開発を始動"
+      ],
+      "urls": [
+        "https://ai.watch.impress.co.jp/docs/news/2154818.html"
+      ],
+      "sources": [
+        "impress"
+      ]
+    },
+    {
+      "event": "機器人加速全固態電池材料開發",
+      "score": 55,
+      "reason": "自動化技術應用於關鍵電池材料研發",
+      "tags": [
+        "電池",
+        "機器人"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-09 13:30:11",
+      "titles": [
+        "全固体電池材料の探索、ロボット実験システムで効率化"
+      ],
+      "urls": [
+        "https://eetimes.itmedia.co.jp/ee/articles/2611/09/news024.html"
+      ],
+      "sources": [
+        "itmedia"
+      ]
+    },
+    {
+      "event": "鴻海等進軍墨西哥電子製造基地",
+      "score": 55,
+      "reason": "全球電子製造供應鏈向北美轉移趨勢",
+      "tags": [
+        "供應鏈",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 01:01:11",
+      "titles": [
+        "メキシコのシリコンバレー、鴻海など続々進出 電子機器が輸出けん引 1:44 更新"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOGN05AV40V01C26A0000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "川崎重工強化工業機器人控制器安全",
+      "score": 50,
+      "reason": "核心控制元件升級，提升機器人可靠性。",
+      "tags": [
+        "機器人",
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-11-10 07:31:11",
+      "titles": [
+        "川崎重工、ロボット向けコントローラーでセキュリティとセーフティを強化",
+        "川崎重工、サイバーセキュリティー機能を強化　産業用ロボット向けコントローラー投入"
+      ],
+      "urls": [
+        "https://monoist.itmedia.co.jp/mn/articles/2611/10/news031.html",
+        "https://dempa-digital.com/article/730042"
+      ],
+      "sources": [
+        "itmedia",
+        "dempa"
+      ]
+    },
+    {
+      "event": "東大確認超導二極體效應並製成電晶體",
+      "score": 50,
+      "reason": "基礎科學突破，但離產業化尚遠，影響有限",
+      "tags": [
+        "半導體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-09 15:30:11",
+      "titles": [
+        "超電導ダイオード効果確認…東大、トランジスタを作製"
+      ],
+      "urls": [
+        "https://newswitch.jp/p/50750"
+      ],
+      "sources": [
+        "newswitch"
+      ]
+    },
+    {
+      "event": "加賀電子社長目標營收破兆日圓透過併購",
+      "score": 50,
+      "reason": "半導體設備商擴張策略，影響市場競爭格局。",
+      "tags": [
+        "半導體設備"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 04:00:11",
+      "titles": [
+        "加賀電子社長「売上高1兆円へM&A進める」 半導体商社首位に意欲 5:00"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOUC289870Y6A021C2000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "NEC出售股份獲利1900億投AI",
+      "score": 50,
+      "reason": "大型企業戰略轉型，資金投入AI領域。",
+      "tags": [
+        "AI算力",
+        "電子政策"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 10:00:46",
+      "titles": [
+        "NTT「電電ファミリー」に幕 NEC株売却、利益1900億円でAI投資重点 11:00"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOUC098LO0Z01C26A1000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "Harima化學捷克工廠產能翻倍",
+      "score": 50,
+      "reason": "關鍵焊接材料擴產，影響半導體製程。",
+      "tags": [
+        "半導體材料",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 05:01:11",
+      "titles": [
+        "ハリマ化成グループ、チェコ工場を拡張　はんだ付け材料の生産能力を約2倍に"
+      ],
+      "urls": [
+        "https://dempa-digital.com/article/730146"
+      ],
+      "sources": [
+        "dempa"
+      ]
+    },
+    {
+      "event": "泰國WHA開發高效能資料中心",
+      "score": 50,
+      "reason": "東南亞AI基礎設施擴張，影響區域供應鏈",
+      "tags": [
+        "AI算力"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 06:31:11",
+      "titles": [
+        "タイWHA、データセンター集積拠点開発へ 電力・水を効率よく供給 7:30"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOGS0239L0S6A101C2000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "LG等投資九州大學OLED新素材",
+      "score": 50,
+      "reason": "國際大廠投資日本新材料，強化供應鏈連結",
+      "tags": [
+        "顯示面板",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-09 04:01:11",
+      "titles": [
+        "有機EL新素材量産へ、九大発新興に韓国LGディスプレーなど追加出資 5:00"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOUC011CF0R01C26A1000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "東北大學研發鋁箔電池負極",
+      "score": 50,
+      "reason": "電池材料技術突破，具降低成本潛力",
+      "tags": [
+        "電池"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-09 04:01:11",
+      "titles": [
+        "リチウムイオン電池の負極材、アルミ箔で低コスト化 東北大学 5:00"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOSG296RJ0Z21C26A0000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "日本電波工業等五家企業財報優於預期",
+      "score": 45,
+      "reason": "多家公司財報彙整，反映AI與半導體材料需求強勁。",
+      "tags": [
+        "電子零組件"
       ],
       "coherent": false,
       "size": 10,
@@ -352,25 +1002,25 @@
         "日本電波工業の26年4～9月期、AIデータセンター関連などがけん引し大幅増収増益",
         "日本触媒、通期の売上高・営業利益予想を上方修正　26年4～9月期は販売価格上昇などで増収増益",
         "日本ケミコンの26年4～9月期、データセンター投資拡大などがけん引し、大幅増収増益",
-        "立花エレテック、通期予想を上方修正　26年4～9月期売上高は過去最高、AI関連の設備投資増で大幅伸長",
         "三洋化成、通期利益予想を上方修正　半導体・電子部品関連材料など高付加価値製品が好調　26年4～9月期は増収・営業増益",
+        "立花エレテック、通期予想を上方修正　26年4～9月期売上高は過去最高、AI関連の設備投資増で大幅伸長",
         "島津製作所、26年4～9月期の営業益18％増　計測・産業機器がけん引、通期予想は上方修正",
         "メイコーの26年4～9月期、衛星通信向けなどがけん引し、大幅増収増益　通期予想を上方修正",
-        "JX金属の26年4～9月期、増収増益　AIデータセンター関連の需要拡大で半導体材料が好調",
         "ニッタの26年4～9月期、増収増益で過去最高　半導体製造装置向けが好調",
-        "北陸電気工業の26年4～9月期、モビリティー向けなどが拡大し、2割弱の増収"
+        "JX金属の26年4～9月期、増収増益　AIデータセンター関連の需要拡大で半導体材料が好調",
+        "南陽の純利益49%増で過去最高 4〜9月、半導体需要が押し上げ 19:37"
       ],
       "urls": [
         "https://dempa-digital.com/article/730143",
         "https://dempa-digital.com/article/730144",
         "https://dempa-digital.com/article/730288",
-        "https://dempa-digital.com/article/730145",
         "https://dempa-digital.com/article/730256",
+        "https://dempa-digital.com/article/730145",
         "https://dempa-digital.com/article/730034",
         "https://dempa-digital.com/article/730282",
-        "https://dempa-digital.com/article/730138",
         "https://dempa-digital.com/article/730137",
-        "https://dempa-digital.com/article/730287"
+        "https://dempa-digital.com/article/730138",
+        "https://www.nikkei.com/article/DGXZQOJC093YG0Z01C26A1000000/"
       ],
       "sources": [
         "dempa",
@@ -382,13 +1032,13 @@
         "dempa",
         "dempa",
         "dempa",
-        "dempa"
+        "nikkei_jp"
       ]
     },
     {
-      "event": "半導體材料商財報亮眼AI需求強",
-      "score": 65,
-      "reason": "多家公司財報，聚焦半導體材料需求。",
+      "event": "三洋化成等六家企業財報優於預期",
+      "score": 45,
+      "reason": "多家公司財報彙整，顯示半導體材料市場持續熱絡。",
       "tags": [
         "半導體材料"
       ],
@@ -430,194 +1080,9 @@
       ]
     },
     {
-      "event": "島津製作所擴充半導體裝置鍍膜產能",
-      "score": 65,
-      "reason": "島津擴大半導體製造設備關鍵部件產能，屬供應鏈擴充。",
-      "tags": [
-        "半導體設備",
-        "擴產投資"
-      ],
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-11-10 10:00:46",
-      "titles": [
-        "島津製作所が半導体製造装置向けTMPのめっきライン増設、生産能力2倍に",
-        "島津製作所、半導体装置向け部品で新生産ライン めっき能力2倍に"
-      ],
-      "urls": [
-        "https://monoist.itmedia.co.jp/mn/articles/2611/10/news043.html",
-        "https://www.nikkei.com/article/DGXZQOUF095T10Z01C26A1000000/"
-      ],
-      "sources": [
-        "itmedia",
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "索迪克超精密射出機增產三倍",
-      "score": 65,
-      "reason": "索迪克擴大數據中心用超精密射出機產能，屬關鍵裝置。",
-      "tags": [
-        "半導體設備",
-        "擴產投資"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 13:01:11",
-      "titles": [
-        "ソディック、データセンター需要で生産増強　超精密射出成形機の生産能力3倍へ"
-      ],
-      "urls": [
-        "https://monoist.itmedia.co.jp/mn/articles/2611/10/news038.html"
-      ],
-      "sources": [
-        "itmedia"
-      ]
-    },
-    {
-      "event": "愛普生首發人協同機器人",
-      "score": 65,
-      "reason": "愛普生跨入具戰略意義的人形/協同機器人市場。",
-      "tags": [
-        "機器人"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 13:30:11",
-      "titles": [
-        "エプソン、初の人協働ロボット発売　研究施設や製造現場の自動化支援"
-      ],
-      "urls": [
-        "https://dempa-digital.com/article/730045"
-      ],
-      "sources": [
-        "dempa"
-      ]
-    },
-    {
-      "event": "歐姆龍印度廠擴產十倍",
-      "score": 65,
-      "reason": "全球自動化龍頭大幅擴充海外產能，影響供應鏈版圖。",
-      "tags": [
-        "電子零組件"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 13:01:11",
-      "titles": [
-        "オムロン初のインド生産拠点が稼働、2028年には生産能力10倍に"
-      ],
-      "urls": [
-        "https://monoist.itmedia.co.jp/mn/articles/2611/09/news032.html"
-      ],
-      "sources": [
-        "itmedia"
-      ]
-    },
-    {
-      "event": "三菱材料鎢工具漲價25%",
-      "score": 65,
-      "reason": "關鍵加工工具漲價，影響下游製造成本。",
-      "tags": [
-        "半導體設備",
-        "供應鏈"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 17:01:11",
-      "titles": [
-        "三菱マテ、タングステン使う超硬工具を最大25%値上げ 26年で2度目"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOUC091XL0Z01C26A1000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "羅姆預期營業利益大增，夏普減收",
-      "score": 62,
-      "reason": "羅姆功率半導體強勁表現反映車用與工業需求增長",
-      "tags": [
-        "電子零組件"
-      ],
-      "coherent": false,
-      "size": 4,
-      "max_crawled_at": "2026-11-10 06:00:23",
-      "titles": [
-        "AI／産機好調のローム、27年度は営業利益360％増見込む",
-        "事業環境の悪化でシャープは減収減益に　苦境の裏で白物家電やPC事業が奮闘",
-        "ローム、通期上方修正…パワー半導体統合「前に進んでいるのは確かだ」",
-        "シャープの26年4～9月期　部材高騰・円安響き減収減益　通期予想は据え置き"
-      ],
-      "urls": [
-        "https://eetimes.itmedia.co.jp/ee/articles/2611/09/news053.html",
-        "https://monoist.itmedia.co.jp/mn/articles/2611/10/news033.html",
-        "https://newswitch.jp/p/50747",
-        "https://dempa-digital.com/article/730130"
-      ],
-      "sources": [
-        "itmedia",
-        "itmedia",
-        "newswitch",
-        "dempa"
-      ]
-    },
-    {
-      "event": "Google發布TPU 8tx與8i Max新晶片",
-      "score": 60,
-      "reason": "AI加速器新品，影響全球算力格局。",
-      "tags": [
-        "AI算力"
-      ],
-      "coherent": true,
-      "size": 3,
-      "max_crawled_at": "2026-11-10 12:01:11",
-      "titles": [
-        "Google、第8世代TPUに「8tx」と「8i Max」を追加　機密データ処理と大規模AIエージェントに特化",
-        "グーグル、AI用「TPU 8tx／8i Max」発表　AMD製CPUで機密保護",
-        "脱GPUへ一手、Googleが独自AIチップ「TPU」に新モデル2種"
-      ],
-      "urls": [
-        "https://www.itmedia.co.jp/news/article/2611/10/2000003043/",
-        "https://k-tai.watch.impress.co.jp/docs/news/2155109.html",
-        "https://pc.watch.impress.co.jp/docs/news/2154906.html"
-      ],
-      "sources": [
-        "itmedia",
-        "impress",
-        "impress"
-      ]
-    },
-    {
-      "event": "三菱電機解明GaN高頻分散機制",
-      "score": 60,
-      "reason": "三菱電機在GaN功率半導體基礎研究有突破，有助元件最佳化。",
-      "tags": [
-        "半導體",
-        "電子零組件"
-      ],
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-11-10 11:00:38",
-      "titles": [
-        "高周波トランジスタにおけるGaN on GaN技術の優位性、三菱電機が実証",
-        "三菱電機、GaNトランジスタの周波数分散　結晶欠陥の影響を世界初解明　高周波機器の小型化へ"
-      ],
-      "urls": [
-        "https://monoist.itmedia.co.jp/mn/articles/2611/09/news069.html",
-        "https://dempa-digital.com/article/730167"
-      ],
-      "sources": [
-        "itmedia",
-        "dempa"
-      ]
-    },
-    {
-      "event": "開發AI自動化半導體感光絕緣材料",
-      "score": 60,
-      "reason": "新材料開發有助於製程自動化，但具體應用規模待觀察",
+      "event": "開發AI用半導體感光絕緣材料",
+      "score": 45,
+      "reason": "新材料研發，但缺乏具體客戶或產能資訊",
       "tags": [
         "半導體材料"
       ],
@@ -635,138 +1100,30 @@
       ]
     },
     {
-      "event": "馬斯克極秘訪日考察半導體廠",
-      "score": 60,
-      "reason": "馬斯克秘密考察日本半導體設施，顯示供應鏈重組動態。",
+      "event": "ACSL獲防衛省小型無人機訂單",
+      "score": 45,
+      "reason": "防務電子訂單，具國防供應鏈意義。",
       "tags": [
-        "半導體",
+        "防衛宇宙",
         "供應鏈"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-09 04:01:11",
+      "max_crawled_at": "2026-11-10 11:00:38",
       "titles": [
-        "生産量は｢ラピダスの40倍｣ マスク氏半導体工場、調達部隊が極秘来日"
+        "ACSL、防衛省から小型空撮用ドローン受注"
       ],
       "urls": [
-        "https://www.nikkei.com/article/DGXZQOUC026RB0S6A101C2000000/"
+        "https://www.nikkan.co.jp/articles/view/796616"
       ],
       "sources": [
-        "nikkei_jp"
+        "nikkan"
       ]
     },
     {
-      "event": "九大新創OLED量產獲LG等投資",
-      "score": 60,
-      "reason": "日本OLED材料技術獲國際大廠資金支援，具產業意義。",
-      "tags": [
-        "顯示面板"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 04:01:11",
-      "titles": [
-        "有機EL新素材量産へ、九大発新興に韓国LGディスプレーなど追加出資 5:00"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOUC011CF0R01C26A1000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "東大確認超導二極體效應",
-      "score": 60,
-      "reason": "基礎物理突破，若實用化將顛覆低功耗電子產業。",
-      "tags": [
-        "半導體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 15:30:11",
-      "titles": [
-        "超電導ダイオード効果確認…東大、トランジスタを作製"
-      ],
-      "urls": [
-        "https://newswitch.jp/p/50750"
-      ],
-      "sources": [
-        "newswitch"
-      ]
-    },
-    {
-      "event": "三星重工開發海上資料中心燃料電池",
-      "score": 60,
-      "reason": "AI資料中心能源解決方案，具產業示範效應。",
-      "tags": [
-        "電池",
-        "AI算力"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 16:00:11",
-      "titles": [
-        "サムスン重工業、洋上データセンター向け燃料電池 森村グループと 16:37"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOFD094930Z01C26A1000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "三井金屬投資馬來西亞銅箔廠",
-      "score": 55,
-      "reason": "三井金屬在馬國建廠，屬半導體材料擴產。",
-      "tags": [
-        "半導體材料",
-        "擴產投資"
-      ],
-      "coherent": false,
-      "size": 2,
-      "max_crawled_at": "2026-11-10 16:31:11",
-      "titles": [
-        "三井金属がマレーシアに銅箔新工場 1900億円投資、AI通信部品向け 17:21",
-        "ソフトバンクG、マレーシアでAIインフラ開発 初期投資1580億円 9:47"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOUC106U90Q6A111C2000000/",
-        "https://www.nikkei.com/article/DGXZQOUC09B2Y0Z01C26A1000000/"
-      ],
-      "sources": [
-        "nikkei_jp",
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "JX金屬投資量子領域新創",
-      "score": 55,
-      "reason": "關鍵材料供應商佈局量子技術，影響未來供應鏈。",
-      "tags": [
-        "半導體材料"
-      ],
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-11-10 09:31:11",
-      "titles": [
-        "JX金属、オキサイドと資本業務提携契約を締結　量子分野などで事業拡大目指す",
-        "JX金属、光学系部品のオキサイドに7%超出資 AI・量子分野狙う 16:22 更新"
-      ],
-      "urls": [
-        "https://dempa-digital.com/article/730156",
-        "https://www.nikkei.com/article/DGXZQOUC093830Z01C26A1000000/"
-      ],
-      "sources": [
-        "dempa",
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "自工會推動車用半導體穩定供應",
-      "score": 55,
-      "reason": "日本自動車工業會推動車用晶片供應鏈韌性，具政策意義。",
+      "event": "自工會倡車載半導體穩定調達",
+      "score": 45,
+      "reason": "產業協會政策倡議，影響車用晶片供應。",
       "tags": [
         "車用電子",
         "供應鏈"
@@ -785,138 +1142,160 @@
       ]
     },
     {
-      "event": "半導體人才教育全國推進",
-      "score": 55,
-      "reason": "解決半導體產業人力短缺，具長期戰略意義。",
+      "event": "NEC系AI工廠宣稱生產力增80倍",
+      "score": 45,
+      "reason": "AI製造應用示範，具技術展示意義。",
       "tags": [
-        "半導體",
-        "電子政策"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 04:31:11",
-      "titles": [
-        "【半導体人材の未来】〈54〉大学の壁を越えろ　全国7拠点で変わる半導体教育"
-      ],
-      "urls": [
-        "https://dempa-digital.com/article/729960"
-      ],
-      "sources": [
-        "dempa"
-      ]
-    },
-    {
-      "event": "NTT等五方合作建構衛星通訊網",
-      "score": 50,
-      "reason": "多家公司合作建設衛星網路，涉及太空電子與基礎設施。",
-      "tags": [
-        "防衛宇宙",
-        "電子政策"
-      ],
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-11-10 12:31:11",
-      "titles": [
-        "衛星通信の巨大網構築へ、NTTや三菱電機など5社が協業　災害・圏外対策も",
-        "三菱電、衛星利用サービス実現へ NTTなど4社と協業"
-      ],
-      "urls": [
-        "https://k-tai.watch.impress.co.jp/docs/news/2154781.html",
-        "https://www.nikkan.co.jp/articles/view/796627"
-      ],
-      "sources": [
-        "impress",
-        "nikkan"
-      ]
-    },
-    {
-      "event": "Resonac與鎧俠共創高純度溶劑",
-      "score": 50,
-      "reason": "半導體材料迴圈技術，具環保意義。",
-      "tags": [
-        "半導體材料"
-      ],
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-11-10 10:31:11",
-      "titles": [
-        "騒音制御設計から音のデザインへ／レゾナックとキオクシアが共創",
-        "レゾナックとキオクシアが共創、半導体向け高純度溶剤をリサイクル"
-      ],
-      "urls": [
-        "https://monoist.itmedia.co.jp/mn/articles/2611/10/news045.html",
-        "https://monoist.itmedia.co.jp/mn/articles/2611/10/news006.html"
-      ],
-      "sources": [
-        "itmedia",
-        "itmedia"
-      ]
-    },
-    {
-      "event": "Stanley Electric量產100mm AlN基板",
-      "score": 50,
-      "reason": "Stanley Electric推出氮化鋁基板，屬新興電子元件。",
-      "tags": [
-        "電子零組件",
-        "半導體材料"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 10:31:11",
-      "titles": [
-        "スタンレー電気米子会社、100mmAlN基板を製品化"
-      ],
-      "urls": [
-        "https://eetimes.itmedia.co.jp/ee/articles/2611/10/news018.html"
-      ],
-      "sources": [
-        "itmedia"
-      ]
-    },
-    {
-      "event": "塔式起重機物理模擬匯入機器人",
-      "score": 50,
-      "reason": "實體AI技術應用於特定工業場景，具示範效應。",
-      "tags": [
-        "機器人"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 12:31:11",
-      "titles": [
-        "ロボットの現場実装基盤にタワークレーン作業の物理シミュレーション機能を組み込み"
-      ],
-      "urls": [
-        "https://ai.watch.impress.co.jp/docs/news/2154780.html"
-      ],
-      "sources": [
-        "impress"
-      ]
-    },
-    {
-      "event": "東北大開發鋁箔電池負極材料",
-      "score": 50,
-      "reason": "電池關鍵材料之低成本化技術突破，具成本競爭力。",
-      "tags": [
-        "電池"
+        "AI算力",
+        "擴產投資"
       ],
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-11-09 04:01:11",
       "titles": [
-        "リチウムイオン電池の負極材、アルミ箔で低コスト化 東北大学 5:00"
+        "NEC系AIネイティブファクトリー社長「AIで生産性80倍、自動化推進」 5:00"
       ],
       "urls": [
-        "https://www.nikkei.com/article/DGXZQOSG296RJ0Z21C26A0000000/"
+        "https://www.nikkei.com/article/DGXZQOUC088EM0Y6A001C2000000/"
       ],
       "sources": [
         "nikkei_jp"
       ]
     },
     {
-      "event": "雙日投資越南鎢廠",
-      "score": 50,
-      "reason": "關鍵礦物供應鏈多元化，強化資源安全。",
+      "event": "藤倉摩洛哥光纖廠正式營運",
+      "score": 45,
+      "reason": "關鍵材料海外佈局，強化供應鏈韌性",
+      "tags": [
+        "電子零組件",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 11:00:38",
+      "titles": [
+        "フジクラ、モロッコの光ファイバー製造拠点が本格稼働"
+      ],
+      "urls": [
+        "https://dempa-digital.com/article/730162"
+      ],
+      "sources": [
+        "dempa"
+      ]
+    },
+    {
+      "event": "MinebeaMitsumi擴產馬達研發",
+      "score": 45,
+      "reason": "車用與工業馬達關鍵供應商擴充產能",
+      "tags": [
+        "電子零組件",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-09 05:30:11",
+      "titles": [
+        "U・Iターン人材を積極採用…ミネベアミツミ、米子にモーター開発の新棟"
+      ],
+      "urls": [
+        "https://newswitch.jp/p/50745"
+      ],
+      "sources": [
+        "newswitch"
+      ]
+    },
+    {
+      "event": "石田製作所擴廠開發航太市場",
+      "score": 45,
+      "reason": "航太電子零元件供應商擴充，具戰略意義",
+      "tags": [
+        "防衛宇宙",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 04:00:11",
+      "titles": [
+        "新潟・三条の石田製作所、6億円投じ工場増築 航空・宇宙産業を開拓"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOCC211N50R21C26A0000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "NTT與三菱電機等共建衛星通訊網路",
+      "score": 40,
+      "reason": "基礎建設合作，對半導體產業直接衝擊有限。",
+      "tags": [
+        "防衛宇宙"
+      ],
+      "coherent": false,
+      "size": 3,
+      "max_crawled_at": "2026-11-10 12:31:11",
+      "titles": [
+        "衛星通信の巨大網構築へ、NTTや三菱電機など5社が協業　災害・圏外対策も",
+        "NTT、人工衛星で三菱電機や三菱UFJ銀行と協業検討 通信や観測巡り 13:05",
+        "三菱電、衛星利用サービス実現へ NTTなど4社と協業"
+      ],
+      "urls": [
+        "https://k-tai.watch.impress.co.jp/docs/news/2154781.html",
+        "https://www.nikkei.com/article/DGXZQOUC092JV0Z01C26A1000000/",
+        "https://www.nikkan.co.jp/articles/view/796627"
+      ],
+      "sources": [
+        "impress",
+        "nikkei_jp",
+        "nikkan"
+      ]
+    },
+    {
+      "event": "利根越南工廠產能增1.3倍",
+      "score": 40,
+      "reason": "電子零元件海外擴產，強化供應鏈佈局。",
+      "tags": [
+        "擴產投資",
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 06:31:11",
+      "titles": [
+        "リケンテクノス、リケンベトナムの年間生産能力を約1.3倍に"
+      ],
+      "urls": [
+        "https://monoist.itmedia.co.jp/mn/articles/2611/10/news009.html"
+      ],
+      "sources": [
+        "itmedia"
+      ]
+    },
+    {
+      "event": "阿里巴半導體部門赴港上市申請",
+      "score": 40,
+      "reason": "中國企業資本動作，間接影響全球供應鏈。",
+      "tags": [
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 22:00:31",
+      "titles": [
+        "アリババ、半導体部門が香港で上場申請 中国でAI向けシェア3位"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOGM10BO90Q6A111C2000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "雙日投資越南鎢廠確保供應",
+      "score": 40,
+      "reason": "關鍵半導體原料的穩定採購策略",
       "tags": [
         "半導體材料",
         "供應鏈"
@@ -935,53 +1314,49 @@
       ]
     },
     {
-      "event": "富士通支援防衛新創事業化",
-      "score": 45,
-      "reason": "防衛電子供應鏈強化，符合國家安全戰略。",
+      "event": "SEMICON Japan 2026展會前瞻",
+      "score": 40,
+      "reason": "半導體裝置產業風向標，具指標性但非單一事件",
       "tags": [
-        "防衛宇宙",
-        "電子政策"
-      ],
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-11-09 16:31:11",
-      "titles": [
-        "富士通、防衛新興の事業化支援 生態系形成目指す",
-        "富士通、防衛分野の新興企業を連携支援 来春に開始 12:24"
-      ],
-      "urls": [
-        "https://www.nikkan.co.jp/articles/view/796597",
-        "https://www.nikkei.com/article/DGXZQOUC067KM0W6A101C2000000/"
-      ],
-      "sources": [
-        "nikkan",
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "NTT出售NEC股份獲利千九百億",
-      "score": 45,
-      "reason": "NTT出售NEC股份屬財務操作，對產業鏈影響有限。",
-      "tags": [
-        "供應鏈"
+        "半導體設備"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-10 10:00:46",
+      "max_crawled_at": "2026-11-09 14:30:11",
       "titles": [
-        "NTT「電電ファミリー」に幕 NEC株売却、利益1900億円でAI投資重点 11:00"
+        "「SEMICON Japan 2026」 見どころを探る――電子版2026年11月号"
       ],
       "urls": [
-        "https://www.nikkei.com/article/DGXZQOUC098LO0Z01C26A1000000/"
+        "https://eetimes.itmedia.co.jp/ee/articles/2611/09/news055.html"
+      ],
+      "sources": [
+        "itmedia"
+      ]
+    },
+    {
+      "event": "三井金屬開發氫氣製造膜",
+      "score": 40,
+      "reason": "氫能材料技術，屬能源電子相關領域",
+      "tags": [
+        "電池"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-09 16:31:11",
+      "titles": [
+        "三井金属、次世代水素の製造に使える膜 京大グループと「MOF」活用"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOMG00007_Z01C26A1000000/"
       ],
       "sources": [
         "nikkei_jp"
       ]
     },
     {
-      "event": "newmo增資208億日元加速自動駕駛",
-      "score": 45,
-      "reason": "自動駕駛技術開發資金，規模中等。",
+      "event": "newmo增資208億日圓加速自動駕駛計程車開發",
+      "score": 35,
+      "reason": "新創公司融資，非核心半導體或硬體製造事件。",
       "tags": [
         "車用電子"
       ],
@@ -999,174 +1374,49 @@
       ]
     },
     {
-      "event": "日製造設備商尋獲美國市場勝機",
-      "score": 45,
-      "reason": "反映日本設備商在地緣政治下的策略調整與機會。",
-      "tags": [
-        "半導體設備"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 15:00:11",
-      "titles": [
-        "米国の「鶴の一声」　製造装置メーカーも勝機見いだす"
-      ],
-      "urls": [
-        "https://eetimes.itmedia.co.jp/ee/articles/2611/09/news068.html"
-      ],
-      "sources": [
-        "itmedia"
-      ]
-    },
-    {
-      "event": "利根科技越南廠擴產",
-      "score": 45,
-      "reason": "被動元件廠擴產，反映供應鏈佈局調整。",
-      "tags": [
-        "電子零組件",
-        "擴產投資"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 06:31:11",
-      "titles": [
-        "リケンテクノス、リケンベトナムの年間生産能力を約1.3倍に"
-      ],
-      "urls": [
-        "https://monoist.itmedia.co.jp/mn/articles/2611/10/news009.html"
-      ],
-      "sources": [
-        "itmedia"
-      ]
-    },
-    {
-      "event": "南陽製鋼獲利創新高受惠半導體",
-      "score": 40,
-      "reason": "南陽製鋼業績增長反映半導體材料需求，屬間接影響。",
-      "tags": [
-        "半導體材料"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 19:01:11",
-      "titles": [
-        "南陽の純利益49%増で過去最高 4〜9月、半導体需要が押し上げ 19:37"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOJC093YG0Z01C26A1000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "Harima擴大捷克工廠焊料產能",
-      "score": 40,
-      "reason": "關鍵焊料擴產，影響全球供應鏈。",
-      "tags": [
-        "半導體材料"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 05:01:11",
-      "titles": [
-        "ハリマ化成グループ、チェコ工場を拡張　はんだ付け材料の生産能力を約2倍に"
-      ],
-      "urls": [
-        "https://dempa-digital.com/article/730146"
-      ],
-      "sources": [
-        "dempa"
-      ]
-    },
-    {
-      "event": "Arm在專利訴訟中對高通完敗",
-      "score": 40,
-      "reason": "ARM架構授權與專利權之重大法律判決，影響設計生態。",
-      "tags": [
-        "半導體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 15:31:11",
-      "titles": [
-        "Qualcommとの特許係争で「完敗」続きのArm　両社の狙いは何か"
-      ],
-      "urls": [
-        "https://eetimes.itmedia.co.jp/ee/articles/2611/10/news034.html"
-      ],
-      "sources": [
-        "itmedia"
-      ]
-    },
-    {
-      "event": "Epsilon S火箭進行發射演練",
-      "score": 40,
-      "reason": "太空電子與運載工具之進展，屬國防與空間電子範疇。",
-      "tags": [
-        "防衛宇宙"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 14:01:11",
-      "titles": [
-        "小型ロケット「イプシロンS」、26年度打ち上げに向けリハーサル 14:45"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOSG102VB0Q6A111C2000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "筑波市長反對民間獨攬資料中心",
-      "score": 40,
-      "reason": "地方對AI基礎建設的監管態度，影響投資環境。",
-      "tags": [
-        "AI算力",
-        "電子政策"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 18:31:11",
-      "titles": [
-        "茨城県つくば市長、市誘致データセンターの住民説明「民間任せにせず」"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOCC104VX0Q6A111C2000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "KDDI量子技術降低基地局延遲",
+      "event": "Noetra社長談脫輝達AI策略",
       "score": 35,
-      "reason": "通訊技術進展，屬電信服務層面，對硬體產業影響較小。",
+      "reason": "企業戰略言論，缺乏具體硬體投資承諾。",
       "tags": [
-        "電子政策"
+        "AI算力"
       ],
       "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-11-10 14:30:11",
+      "size": 1,
+      "max_crawled_at": "2026-11-10 01:01:11",
       "titles": [
-        "KDDI、量子技術で通信遅延8割減 基地局間の電波干渉を抑制 15:20",
-        "KDDI、量子技術で基地局の電波干渉を抑制　上り低速化を8割削減"
+        "AI開発のノエトラ社長「ガラケーの教訓生かす」 脱NVIDIAも"
       ],
       "urls": [
-        "https://www.nikkei.com/article/DGXZQOUC102H40Q6A111C2000000/",
-        "https://k-tai.watch.impress.co.jp/docs/news/2155132.html"
+        "https://www.nikkei.com/article/DGXZQOUC2652Z0W6A021C2000000/"
       ],
       "sources": [
-        "nikkei_jp",
-        "impress"
+        "nikkei_jp"
       ]
     },
     {
-      "event": "大日本印刷自動化治具安裝",
+      "event": "調理機器人技術持續進化",
       "score": 35,
-      "reason": "製程自動化應用，提升生產效率。",
+      "reason": "實體AI應用示範，但屬消費級非工業核心產能",
+      "tags": [
+        "機器人"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 13:01:11",
+      "titles": [
+        "【きょうのおはBiz 11月10日(火)】進化する調理ロボット"
+      ],
+      "urls": [
+        "https://news.web.nhk/newsweb/na/nd-20261110de73278"
+      ],
+      "sources": [
+        "nhk_jp"
+      ]
+    },
+    {
+      "event": "大日本印刷自動化治具安裝提升效率",
+      "score": 30,
+      "reason": "單一工廠自動化改善，產業影響力較小。",
       "tags": [
         "機器人"
       ],
@@ -1187,129 +1437,53 @@
       ]
     },
     {
-      "event": "三菱化學持續部分碳材料事業",
-      "score": 35,
-      "reason": "關鍵電子材料供應商之戰略調整，影響供應穩定性。",
-      "tags": [
-        "半導體材料"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 05:01:11",
-      "titles": [
-        "三菱ケミカルG、撤退公表の炭素事業を一部継続する背景事情"
-      ],
-      "urls": [
-        "https://newswitch.jp/p/50761"
-      ],
-      "sources": [
-        "newswitch"
-      ]
-    },
-    {
-      "event": "加賀電子社長目標營收破兆元",
+      "event": "KDDI量子技術降低通訊延遲",
       "score": 30,
-      "reason": "半導體經銷商擴張策略，屬一般商業動態。",
-      "tags": [
-        "供應鏈"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 04:00:11",
-      "titles": [
-        "加賀電子社長「売上高1兆円へM&A進める」 半導体商社首位に意欲 5:00"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOUC289870Y6A021C2000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "鴻海等電子廠進駐墨西哥矽谷",
-      "score": 30,
-      "reason": "臺灣供應鏈外移趨勢，影響日本設備商海外佈局。",
-      "tags": [
-        "供應鏈"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 01:01:11",
-      "titles": [
-        "メキシコのシリコンバレー、鴻海など続々進出 電子機器が輸出けん引 1:44 更新"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOGN05AV40V01C26A0000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "松下新增kinari材料品項",
-      "score": 30,
-      "reason": "新材料開發，應用範圍較窄。",
-      "tags": [
-        "電子零組件"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 16:31:11",
-      "titles": [
-        "高濃度セルロースファイバー成形材料「kinari」に3グレード追加　パナソニック"
-      ],
-      "urls": [
-        "https://dempa-digital.com/article/730077"
-      ],
-      "sources": [
-        "dempa"
-      ]
-    },
-    {
-      "event": "原子力機構探討AI放射線解析",
-      "score": 25,
-      "reason": "AI在核能領域應用，屬跨領域技術探索。",
+      "reason": "通訊基礎設施最佳化，間接支援AI運算環境",
       "tags": [
         "AI算力"
       ],
       "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 11:00:38",
+      "size": 2,
+      "max_crawled_at": "2026-11-10 14:30:11",
       "titles": [
-        "原子力機構の価値 原子力の社会実装に向けて（189）放射線挙動解析と自律型AI"
+        "KDDI、量子技術で通信遅延8割減 基地局間の電波干渉を抑制 15:20",
+        "KDDI、量子技術で基地局の電波干渉を抑制　上り低速化を8割削減"
       ],
       "urls": [
-        "https://www.nikkan.co.jp/articles/view/796571"
+        "https://www.nikkei.com/article/DGXZQOUC102H40Q6A111C2000000/",
+        "https://k-tai.watch.impress.co.jp/docs/news/2155132.html"
       ],
       "sources": [
-        "nikkan"
+        "nikkei_jp",
+        "impress"
       ]
     },
     {
-      "event": "NHK報導調理機器人技術進展",
-      "score": 20,
-      "reason": "服務型機器人發展，屬消費端應用，產業衝擊較小。",
+      "event": "AVL副總：EV技術轉用資料中心",
+      "score": 30,
+      "reason": "觀點評論，非具體產業事件或政策",
       "tags": [
-        "機器人"
+        "電池",
+        "AI算力"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-10 13:01:11",
+      "max_crawled_at": "2026-11-10 08:01:11",
       "titles": [
-        "【きょうのおはBiz 11月10日(火)】進化する調理ロボット"
+        "NIKKEI Tech Foresight 電池新潮流 「データセンターにEVのノウハウ」AVL副社長"
       ],
       "urls": [
-        "https://news.web.nhk/newsweb/na/nd-20261110de73278"
+        "https://www.nikkei.com/prime/tech-foresight/article/DGXZQOUC060T00W6A101C2000000"
       ],
       "sources": [
-        "nhk_jp"
+        "nikkei_jp"
       ]
     },
     {
-      "event": "Bluetooth新規格傳輸速度翻倍",
-      "score": 20,
-      "reason": "通訊標準更新，影響周邊裝置設計。",
+      "event": "Bluetooth新規格傳輸速度提升",
+      "score": 30,
+      "reason": "通訊標準更新，影響物聯網與連線裝置",
       "tags": [
         "電子零組件"
       ],
@@ -1327,9 +1501,32 @@
       ]
     },
     {
-      "event": "利用鰕虎魚監測水質之環境電子",
-      "score": 10,
-      "reason": "生物感測應用，屬利基市場，對核心電子產業影響有限。",
+      "event": "富士通支援防衛新興企業",
+      "score": 25,
+      "reason": "防衛電子供應鏈整合，但屬生態系建設非硬體製造",
+      "tags": [
+        "防衛宇宙"
+      ],
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-11-09 16:31:11",
+      "titles": [
+        "富士通、防衛新興の事業化支援 生態系形成目指す",
+        "富士通、防衛分野の新興企業を連携支援 来春に開始 12:24"
+      ],
+      "urls": [
+        "https://www.nikkan.co.jp/articles/view/796597",
+        "https://www.nikkei.com/article/DGXZQOUC067KM0W6A101C2000000/"
+      ],
+      "sources": [
+        "nikkan",
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "環境電子以魚類監測水質",
+      "score": 25,
+      "reason": "感測器應用案例，屬利基市場非核心擴產",
       "tags": [
         "電子零組件"
       ],
@@ -1350,173 +1547,29 @@
       ]
     },
     {
-      "event": "SEMICON Japan 2026展會前瞻報導",
-      "score": 10,
-      "reason": "屬展覽預熱資訊，非具體產業事件或技術突破",
-      "tags": [
-        "半導體設備"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 14:30:11",
-      "titles": [
-        "「SEMICON Japan 2026」 見どころを探る――電子版2026年11月号"
-      ],
-      "urls": [
-        "https://eetimes.itmedia.co.jp/ee/articles/2611/09/news055.html"
-      ],
-      "sources": [
-        "itmedia"
-      ]
-    },
-    {
-      "event": "國土交通省發布城市水災對策",
-      "score": 10,
-      "reason": "基礎設施政策，對電子產業直接影響有限。",
-      "tags": [
-        "電子政策"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 12:01:11",
-      "titles": [
-        "国交省、「都市型水害への対策方針」をとりまとめ アンダーパスでの車両冠水防止やカーナビへの大雨危険警報通知などを推進"
-      ],
-      "urls": [
-        "https://car.watch.impress.co.jp/docs/news/2155093.html"
-      ],
-      "sources": [
-        "impress"
-      ]
-    },
-    {
-      "event": "川崎重工強化機器人控制器",
-      "score": 8,
-      "reason": "核心機器人零元件升級，具產業影響。",
-      "tags": [
-        "機器人"
-      ],
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-11-10 07:31:11",
-      "titles": [
-        "川崎重工、ロボット向けコントローラーでセキュリティとセーフティを強化",
-        "川崎重工、サイバーセキュリティー機能を強化　産業用ロボット向けコントローラー投入"
-      ],
-      "urls": [
-        "https://monoist.itmedia.co.jp/mn/articles/2611/10/news031.html",
-        "https://dempa-digital.com/article/730042"
-      ],
-      "sources": [
-        "itmedia",
-        "dempa"
-      ]
-    },
-    {
-      "event": "瓦列奧日產自動駕駛ECU茨城生產",
-      "score": 8,
-      "reason": "日產自動駕駛ECU海外供應鏈佈局。",
-      "tags": [
-        "車用電子"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 04:00:11",
-      "titles": [
-        "仏ヴァレオの日本担当幹部「日産向け自動運転ECU、茨城で製造」"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOUC29B8Q0Z21C26A0000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "機器人銀行開發四足實體AI機器人",
-      "score": 8,
-      "reason": "實體AI機器人產品化，具產業意義。",
+      "event": "FOVA TECH四日市舉辦機器人展",
+      "score": 25,
+      "reason": "展覽活動，非重大技術或投資里程碑",
       "tags": [
         "機器人"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-09 14:00:11",
+      "max_crawled_at": "2026-11-10 12:31:11",
       "titles": [
-        "ロボットバンク、産業向け四足歩行ロボットの開発に着手 具身AIロボットの自社製品開発を始動"
+        "FOVAテック、四日市でロボ展示会 搬送・清掃など4分野"
       ],
       "urls": [
-        "https://ai.watch.impress.co.jp/docs/news/2154818.html"
+        "https://www.nikkan.co.jp/articles/view/796612"
       ],
       "sources": [
-        "impress"
+        "nikkan"
       ]
     },
     {
-      "event": "美蓓亞三協米子新建馬達開發大樓",
-      "score": 8,
-      "reason": "被動元件與馬達擴產，影響供應鏈。",
-      "tags": [
-        "電子零組件"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 05:30:11",
-      "titles": [
-        "U・Iターン人材を積極採用…ミネベアミツミ、米子にモーター開発の新棟"
-      ],
-      "urls": [
-        "https://newswitch.jp/p/50745"
-      ],
-      "sources": [
-        "newswitch"
-      ]
-    },
-    {
-      "event": "機器人加速全固態電池研發",
-      "score": 7,
-      "reason": "結合實體AI與電池材料，具技術價值。",
-      "tags": [
-        "電池",
-        "機器人"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 13:30:11",
-      "titles": [
-        "全固体電池材料の探索、ロボット実験システムで効率化"
-      ],
-      "urls": [
-        "https://eetimes.itmedia.co.jp/ee/articles/2611/09/news024.html"
-      ],
-      "sources": [
-        "itmedia"
-      ]
-    },
-    {
-      "event": "三井金屬開發氫製造膜",
-      "score": 7,
-      "reason": "氫能材料技術，屬能源電子相關。",
-      "tags": [
-        "電池"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 16:31:11",
-      "titles": [
-        "三井金属、次世代水素の製造に使える膜 京大グループと「MOF」活用"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOMG00007_Z01C26A1000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "鈣鈦礦太陽能電池市場預測分析",
-      "score": 6,
-      "reason": "市場預測與學術觀點，非具體事件。",
+      "event": "專家論述與市場預測：鈣鈦礦太陽能電池",
+      "score": 20,
+      "reason": "學術觀點與市場預測，非具體產業事件。",
       "tags": [
         "太陽能"
       ],
@@ -1537,141 +1590,29 @@
       ]
     },
     {
-      "event": "東北大開發e-甲烷脫碳技術",
-      "score": 6,
-      "reason": "能源技術研發，非電子核心產業。",
+      "event": "塔式起重機模擬納入機器人平臺",
+      "score": 20,
+      "reason": "特定場景模擬技術，產業影響範圍較窄",
       "tags": [
-        "太陽能"
+        "機器人"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-10 13:31:11",
+      "max_crawled_at": "2026-11-09 12:31:11",
       "titles": [
-        "東北大、日東紡・福島県浪江町と脱炭素の技術開発 「e-メタン」など 14:30"
+        "ロボットの現場実装基盤にタワークレーン作業の物理シミュレーション機能を組み込み"
       ],
       "urls": [
-        "https://www.nikkei.com/article/DGXZQOSG268NP0W6A021C2000000/"
+        "https://ai.watch.impress.co.jp/docs/news/2154780.html"
       ],
       "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "NEC系AI工廠宣稱生產力提升",
-      "score": 6,
-      "reason": "AI應用於製造，屬軟體與流程最佳化。",
-      "tags": [
-        "AI算力"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 04:01:11",
-      "titles": [
-        "NEC系AIネイティブファクトリー社長「AIで生産性80倍、自動化推進」 5:00"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOUC088EM0Y6A001C2000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "樂天成立衛星通訊新公司",
-      "score": 5,
-      "reason": "衛星通訊硬體與服務，屬太空電子。",
-      "tags": [
-        "防衛宇宙"
-      ],
-      "coherent": true,
-      "size": 5,
-      "max_crawled_at": "2026-11-10 10:31:11",
-      "titles": [
-        "楽天の衛星はテスト年内開始、新会社「Rakuten AST」も",
-        "楽天と米ASTが「Rakuten AST」設立、スマホと衛星の直接通信　29年3月末までの国内運用を目指す",
-        "楽天、米ASTと衛星通信新会社 29年3月国内運用",
-        "楽天、米ASTと衛星通信新会社 29年3月運用",
-        "楽天モバイル「Rakuten最強衛星サービス」年内開始へ、ユーザー限定せず当面無料"
-      ],
-      "urls": [
-        "https://k-tai.watch.impress.co.jp/docs/news/2154806.html",
-        "https://k-tai.watch.impress.co.jp/docs/news/2154954.html",
-        "https://www.nikkan.co.jp/articles/view/796584",
-        "https://www.nikkan.co.jp/articles/view/796634",
-        "https://k-tai.watch.impress.co.jp/docs/news/2154875.html"
-      ],
-      "sources": [
-        "impress",
-        "impress",
-        "nikkan",
-        "nikkan",
         "impress"
       ]
     },
     {
-      "event": "諾埃特拉社長談脫離NVIDIA依賴",
-      "score": 5,
-      "reason": "僅為企業家觀點發表，缺乏具體硬體或政策影響",
-      "tags": [
-        "AI算力"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 01:01:11",
-      "titles": [
-        "AI開発のノエトラ社長「ガラケーの教訓生かす」 脱NVIDIAも"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOUC2652Z0W6A021C2000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "阿克塞爾空間獲JAXA基金39億日元",
-      "score": 5,
-      "reason": "太空領域資金支援，非電子核心。",
-      "tags": [
-        "防衛宇宙"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 19:30:11",
-      "titles": [
-        "アクセルスペース、JAXA宇宙戦略基金に採択 最大約39億円支援 20:14"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOUC0982G0Z01C26A1000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "政府補助大學開發AI與宇宙裝備",
-      "score": 5,
-      "reason": "基礎研究補助，非直接產業政策。",
-      "tags": [
-        "防衛宇宙"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 15:30:11",
-      "titles": [
-        "政府、大学に防衛専門研究所 AI・宇宙など先端技術いかし装備品開発 16:15"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOUA091EZ0Z01C26A1000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "ACSL獲防衛省無人機訂單",
-      "score": 5,
-      "reason": "防衛電子硬體訂單，具產業意義。",
+      "event": "原子力機構探討AI放射線解析",
+      "score": 20,
+      "reason": "核能與AI結合，屬特定領域應用非主流電子產業",
       "tags": [
         "防衛宇宙"
       ],
@@ -1679,119 +1620,45 @@
       "size": 1,
       "max_crawled_at": "2026-11-10 11:00:38",
       "titles": [
-        "ACSL、防衛省から小型空撮用ドローン受注"
+        "原子力機構の価値 原子力の社会実装に向けて（189）放射線挙動解析と自律型AI"
       ],
       "urls": [
-        "https://www.nikkan.co.jp/articles/view/796616"
+        "https://www.nikkan.co.jp/articles/view/796571"
       ],
       "sources": [
         "nikkan"
       ]
     },
     {
-      "event": "日本公佈防衛力整備計畫",
-      "score": 5,
-      "reason": "政策預算，間接影響電子供應鏈。",
+      "event": "NVIDIA發布Agentic AI相關技術與合作",
+      "score": 15,
+      "reason": "軟體平臺與模型發布，硬體影響較間接。",
       "tags": [
-        "防衛宇宙"
+        "AI算力"
       ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 16:00:11",
+      "coherent": false,
+      "size": 3,
+      "max_crawled_at": "2026-11-10 19:31:11",
       "titles": [
-        "防衛力整備計画とは 5年間の予算水準や装備品を提示 16:45"
+        "NVIDIA「Agentic AI Day Japan 2026」講演レポート",
+        "Red HatとNVIDIA、エージェント型AIのセキュリティ強化で協業",
+        "NVIDIA、日本のエージェント型AI開発に利用できる合成ペルソナデータを公開"
       ],
       "urls": [
-        "https://www.nikkei.com/article/DGXZQOUA091NM0Z01C26A1000000/"
+        "https://ai.watch.impress.co.jp/docs/news/2155320.html",
+        "https://ai.watch.impress.co.jp/docs/news/2154784.html",
+        "https://ai.watch.impress.co.jp/docs/news/2154908.html"
       ],
       "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "ソラコム IoT・實體 AI脆弱性診斷支援",
-      "score": 3,
-      "reason": "物聯網安全服務，非核心硬體製造。",
-      "tags": [
-        "機器人"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 12:31:11",
-      "titles": [
-        "ソラコム、IoT・フィジカルAIの脆弱性診断から対策実装まで支援"
-      ],
-      "urls": [
-        "https://ai.watch.impress.co.jp/docs/news/2155127.html"
-      ],
-      "sources": [
+        "impress",
+        "impress",
         "impress"
       ]
     },
     {
-      "event": "FOVA TECH四日市舉辦機器人展",
-      "score": 3,
-      "reason": "展覽活動，非重大產業動態。",
-      "tags": [
-        "機器人"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 12:31:11",
-      "titles": [
-        "FOVAテック、四日市でロボ展示会 搬送・清掃など4分野"
-      ],
-      "urls": [
-        "https://www.nikkan.co.jp/articles/view/796612"
-      ],
-      "sources": [
-        "nikkan"
-      ]
-    },
-    {
-      "event": "臺灣漁電共生模式引關注",
-      "score": 3,
-      "reason": "報導臺灣案例，非日本產業動態。",
-      "tags": [
-        "太陽能"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 12:31:11",
-      "titles": [
-        "魚も電気も育てる？ 台湾で見た「漁電共生」"
-      ],
-      "urls": [
-        "https://eetimes.itmedia.co.jp/ee/articles/2611/09/news052.html"
-      ],
-      "sources": [
-        "itmedia"
-      ]
-    },
-    {
-      "event": "石田製作所增資擴廠",
-      "score": 3,
-      "reason": "一般工業投資，非核心電子產業。",
-      "tags": [
-        "電子零組件"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 04:00:11",
-      "titles": [
-        "新潟・三条の石田製作所、6億円投じ工場増築 航空・宇宙産業を開拓"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOCC211N50R21C26A0000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "生成AI企業Sakana AI準備上市",
-      "score": 1,
-      "reason": "軟體公司上市，非硬體產業動態。",
+      "event": "生成AI新創Sakana AI籌備上市",
+      "score": 15,
+      "reason": "軟體與平臺類產業，對硬體供應鏈影響有限",
       "tags": [
         "AI算力"
       ],
@@ -1812,146 +1679,53 @@
       ]
     },
     {
-      "event": "NVIDIA公開AI合成資料",
-      "score": 1,
-      "reason": "軟體與資料開放，硬體影響低。",
+      "event": "Solacom支援IoT與實體AI安全",
+      "score": 15,
+      "reason": "軟體服務，對硬體供應鏈影響有限",
       "tags": [
-        "AI算力"
+        "機器人"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-10 12:01:11",
+      "max_crawled_at": "2026-11-10 12:31:11",
       "titles": [
-        "NVIDIA、日本のエージェント型AI開発に利用できる合成ペルソナデータを公開"
+        "ソラコム、IoT・フィジカルAIの脆弱性診断から対策実装まで支援"
       ],
       "urls": [
-        "https://ai.watch.impress.co.jp/docs/news/2154908.html"
+        "https://ai.watch.impress.co.jp/docs/news/2155127.html"
       ],
       "sources": [
         "impress"
       ]
     },
     {
-      "event": "平將明與Anthropic幹部會談",
-      "score": 1,
-      "reason": "高層會談，無具體硬體或投資承諾。",
+      "event": "歐姆龍印度廠擴產10倍",
+      "score": 8,
+      "reason": "關鍵感測器大廠海外擴產，影響供應鏈。",
+      "tags": [
+        "電子零組件",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-09 13:01:11",
+      "titles": [
+        "オムロン初のインド生産拠点が稼働、2028年には生産能力10倍に"
+      ],
+      "urls": [
+        "https://monoist.itmedia.co.jp/mn/articles/2611/09/news032.html"
+      ],
+      "sources": [
+        "itmedia"
+      ]
+    },
+    {
+      "event": "新加坡憂資料中心供給過剩",
+      "score": 6,
+      "reason": "關注海外AI基礎設施擴張趨勢",
       "tags": [
         "AI算力"
       ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 11:31:11",
-      "titles": [
-        "平将明元デジ相、アンソロピック幹部と協議 企業への不正アクセスで"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOUA101YV0Q6A111C2000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "NVIDIA CEO涉間諜疑雲引發股價震盪",
-      "score": 0,
-      "reason": "屬美國企業高管法律爭議，非日本產業核心事件",
-      "tags": [],
-      "coherent": false,
-      "size": 3,
-      "max_crawled_at": "2026-11-10 13:01:11",
-      "titles": [
-        "NVIDIAファン氏へのスパイ疑惑、FBI・株主も追及 トランプ氏は擁護 14:00",
-        "NVIDIAファンCEOへのスパイ疑惑、トランプ氏「FBIが捜査」 9:13",
-        "NVIDIA、ファン氏スパイ関与疑惑で株価9%安 議会は超党派で追及 4:46"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOGN1009H0Q6A111C2000000/",
-        "https://www.nikkei.com/article/DGXZQOGN100850Q6A111C2000000/",
-        "https://www.nikkei.com/article/DGXZQOGN09AYN0Z01C26A1000000/"
-      ],
-      "sources": [
-        "nikkei_jp",
-        "nikkei_jp",
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "台積電10月營收創新高",
-      "score": 0,
-      "reason": "屬臺灣企業營運資料，非日本本土產業直接事件",
-      "tags": [],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 14:30:11",
-      "titles": [
-        "TSMCの10月売上高59.7%増 AI需要旺盛、34カ月連続プラス成長 15:20"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOGM095QI0Z01C26A1000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "Google擴充AI半導體產品線對標NVIDIA",
-      "score": 0,
-      "reason": "屬美國科技巨頭產品策略，非日本產業核心動態",
-      "tags": [],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 11:00:38",
-      "titles": [
-        "GoogleのAI半導体、4種類に拡大 NVIDIA対抗でクラウド向け外販 11:36"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOGN09B3P0Z01C26A1000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "AVL副社長談電池新趨勢",
-      "score": 0,
-      "reason": "觀點評論，無具體硬體或投資。",
-      "tags": [],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 08:01:11",
-      "titles": [
-        "NIKKEI Tech Foresight 電池新潮流 「データセンターにEVのノウハウ」AVL副社長"
-      ],
-      "urls": [
-        "https://www.nikkei.com/prime/tech-foresight/article/DGXZQOUC060T00W6A101C2000000"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "泰國WHA開發資料中心",
-      "score": 0,
-      "reason": "海外設施開發，非日本產業核心。",
-      "tags": [],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 06:31:11",
-      "titles": [
-        "タイWHA、データセンター集積拠点開発へ 電力・水を効率よく供給 7:30"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOGS0239L0S6A101C2000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "新加坡官員憂資料中心過剩",
-      "score": 0,
-      "reason": "海外市場觀點，非日本產業動態。",
-      "tags": [],
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-11-09 10:00:38",
@@ -1963,6 +1737,324 @@
       ],
       "sources": [
         "nikkei_jp"
+      ]
+    },
+    {
+      "event": "茨城資料中心招商引發爭議",
+      "score": 6,
+      "reason": "反映地方資料中心發展挑戰，非產業核心動態",
+      "tags": [
+        "AI算力"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 18:31:11",
+      "titles": [
+        "茨城県つくば市長、市誘致データセンターの住民説明「民間任せにせず」"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOCC104VX0Q6A111C2000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "樂天衛星服務內年啟動",
+      "score": 5,
+      "reason": "通訊衛星部署，屬基礎設施建設。",
+      "tags": [
+        "防衛宇宙"
+      ],
+      "coherent": true,
+      "size": 3,
+      "max_crawled_at": "2026-11-09 19:01:11",
+      "titles": [
+        "楽天の衛星はテスト年内開始、新会社「Rakuten AST」も",
+        "楽天と米ASTが「Rakuten AST」設立、スマホと衛星の直接通信　29年3月末までの国内運用を目指す",
+        "楽天モバイル「Rakuten最強衛星サービス」年内開始へ、ユーザー限定せず当面無料"
+      ],
+      "urls": [
+        "https://k-tai.watch.impress.co.jp/docs/news/2154806.html",
+        "https://k-tai.watch.impress.co.jp/docs/news/2154954.html",
+        "https://k-tai.watch.impress.co.jp/docs/news/2154875.html"
+      ],
+      "sources": [
+        "impress",
+        "impress",
+        "impress"
+      ]
+    },
+    {
+      "event": "政府設大學防衛研究所",
+      "score": 5,
+      "reason": "防衛電子研發政策，具戰略意義。",
+      "tags": [
+        "防衛宇宙"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-09 15:30:11",
+      "titles": [
+        "政府、大学に防衛専門研究所 AI・宇宙など先端技術いかし装備品開発 16:15"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOUA091EZ0Z01C26A1000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "Accel Space獲JAXA近39億支援",
+      "score": 5,
+      "reason": "太空硬體投資，屬防衛宇宙範疇。",
+      "tags": [
+        "防衛宇宙"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-09 19:30:11",
+      "titles": [
+        "アクセルスペース、JAXA宇宙戦略基金に採択 最大約39億円支援 20:14"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOUC0982G0Z01C26A1000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "日本公佈5年防衛力整備計畫",
+      "score": 5,
+      "reason": "純國防預算政策，無電子產業關聯性。",
+      "tags": [
+        "防衛宇宙"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-09 16:00:11",
+      "titles": [
+        "防衛力整備計画とは 5年間の予算水準や装備品を提示 16:45"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOUA091NM0Z01C26A1000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "東北大等開發e-甲烷脫碳技術",
+      "score": 3,
+      "reason": "能源技術研發，非核心電子產業。",
+      "tags": [
+        "太陽能"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 13:31:11",
+      "titles": [
+        "東北大、日東紡・福島県浪江町と脱炭素の技術開発 「e-メタン」など 14:30"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOSG268NP0W6A021C2000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "三菱化學持續部分碳事業",
+      "score": 3,
+      "reason": "材料業務調整，影響有限。",
+      "tags": [
+        "半導體材料"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 05:01:11",
+      "titles": [
+        "三菱ケミカルG、撤退公表の炭素事業を一部継続する背景事情"
+      ],
+      "urls": [
+        "https://newswitch.jp/p/50761"
+      ],
+      "sources": [
+        "newswitch"
+      ]
+    },
+    {
+      "event": "半導體人才教育體系變革",
+      "score": 3,
+      "reason": "人才培育，屬間接基礎建設。",
+      "tags": [
+        "半導體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-09 04:31:11",
+      "titles": [
+        "【半導体人材の未来】〈54〉大学の壁を越えろ　全国7拠点で変わる半導体教育"
+      ],
+      "urls": [
+        "https://dempa-digital.com/article/729960"
+      ],
+      "sources": [
+        "dempa"
+      ]
+    },
+    {
+      "event": "MarkLines推出車用AI分析服務",
+      "score": 1,
+      "reason": "軟體服務，非硬體製造或關鍵技術。",
+      "tags": [
+        "車用電子"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 05:01:11",
+      "titles": [
+        "マークラインズ、車産業特化AIモデルを活用 情報収集・分析サービス提供開始"
+      ],
+      "urls": [
+        "https://www.nikkan.co.jp/articles/view/796553"
+      ],
+      "sources": [
+        "nikkan"
+      ]
+    },
+    {
+      "event": "索尼等調查AI生成角色版權",
+      "score": 1,
+      "reason": "屬軟體與模型研究，非硬體製造或裝置投資。",
+      "tags": [
+        "AI算力"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-09 12:01:11",
+      "titles": [
+        "画像生成AIは既存のキャラクターをどれくらい出力する？　ソニーAIなどが14モデルを調査"
+      ],
+      "urls": [
+        "https://www.itmedia.co.jp/news/article/2611/09/2000002982/"
+      ],
+      "sources": [
+        "itmedia"
+      ]
+    },
+    {
+      "event": "石川製作所純利增3.7倍",
+      "score": 0,
+      "reason": "單一公司財報，無產業結構性影響。",
+      "tags": [],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-09 18:31:11",
+      "titles": [
+        "石川製作所の26年4〜9月期、純利益3.7倍 防衛省向け機雷好調 19:31"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOCC096HS0Z01C26A1000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "國際電機純利增66%",
+      "score": 0,
+      "reason": "單一公司財報，無產業結構性影響。",
+      "tags": [],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-09 17:01:11",
+      "titles": [
+        "KOKUSAI ELECTRICの4〜9月、純利益66%増 通期予想を据え置き"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOUB068UA0W6A101C2000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "Arm在專利訴訟中敗給Qualcomm",
+      "score": 0,
+      "reason": "法律訴訟，非製造或技術突破。",
+      "tags": [],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 15:31:11",
+      "titles": [
+        "Qualcommとの特許係争で「完敗」続きのArm　両社の狙いは何か"
+      ],
+      "urls": [
+        "https://eetimes.itmedia.co.jp/ee/articles/2611/10/news034.html"
+      ],
+      "sources": [
+        "itmedia"
+      ]
+    },
+    {
+      "event": "臺灣漁電共生模式觀察",
+      "score": 0,
+      "reason": "境外案例，非日本產業動態。",
+      "tags": [
+        "太陽能"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 12:31:11",
+      "titles": [
+        "魚も電気も育てる？ 台湾で見た「漁電共生」"
+      ],
+      "urls": [
+        "https://eetimes.itmedia.co.jp/ee/articles/2611/09/news052.html"
+      ],
+      "sources": [
+        "itmedia"
+      ]
+    },
+    {
+      "event": "三星重工與森村開發燃料電池",
+      "score": 0,
+      "reason": "韓國企業動態，非日本產業。",
+      "tags": [
+        "電池"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-09 16:00:11",
+      "titles": [
+        "サムスン重工業、洋上データセンター向け燃料電池 森村グループと 16:37"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOFD094930Z01C26A1000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "解釋主權AI概念",
+      "score": 0,
+      "reason": "知識普及文章，無實質產業影響。",
+      "tags": [],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-09 11:31:11",
+      "titles": [
+        "AI用語の基礎知識 【第30回】「ソブリンAI」とは――自国のデータやAI基盤を“自分たちのルール”で管理する考え方"
+      ],
+      "urls": [
+        "https://ai.watch.impress.co.jp/docs/serial/glossary/2154735.html"
+      ],
+      "sources": [
+        "impress"
       ]
     }
   ]
