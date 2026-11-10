@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-10 22:45:11",
+  "generated": "2026-11-11 02:45:11",
   "window_days": 2,
   "sources": [
     "36kr",
@@ -15,43 +15,139 @@
     "stcn",
     "yicai"
   ],
-  "input_titles": 2434,
-  "events": 78,
+  "input_titles": 1336,
+  "events": 80,
   "timings_seconds": {
     "stage1_filter": 0.0,
-    "stage2_cluster": 52.3,
-    "stage3_name_score": 325.9,
-    "total": 378.2
+    "stage2_cluster": 31.7,
+    "stage3_name_score": 220.4,
+    "total": 252.1
   },
   "stories": [
     {
-      "event": "中微公司首臺等離子切割裝置交付",
-      "score": 85,
+      "event": "長鑫儲存擬購EUV光刻機",
+      "score": 92,
       "tags": [
-        "國產替代",
-        "半導體"
+        "半導體",
+        "擴產投資",
+        "國產替代"
       ],
-      "reason": "關鍵封裝裝置實現零的突破，具里程碑意義。",
-      "coherent": true,
-      "size": 6,
-      "max_crawled_at": "2026-11-10 21:31:11",
+      "reason": "DRAM龍頭尋求極端先進製程，突破技術瓶頸",
+      "coherent": false,
+      "size": 7,
+      "max_crawled_at": "2026-11-11 02:31:11",
       "titles": [
-        "中微公司首台等离子体晶圆切割设备已交付国内集成电路封装客户",
-        "中微公司交付首台等离子体晶圆切割设备",
-        "国产再突破：中微公司首台等离子体晶圆切割设备成功交付国内重要集成电路封装客户",
-        "中微公司发布Primo Matrix晶圆切割设备 首台已付运封装客户",
-        "中微公司首台等离子体晶圆切割设备交付",
-        "中微公司首台等离子体晶圆切割设备成功交付"
+        "存储双雄争夺EUV光刻机 以支撑先进DRAM扩产 单家投资上限接近千亿",
+        "内存墙难题下，资本盯上3D DRAM，信号很明显",
+        "差距巨大！国产存储芯片份额，还只有韩国的5分之1！",
+        "长鑫存储全球份额第四，国产DRAM真的站稳脚跟了？",
+        "消息称三星电子、SK海力士均将向ASML EUV光刻机投资超10万亿韩元",
+        "从AI PC到智能穿戴，江波龙端侧AI布局全梳理",
+        "华为新型存储系统即将启动试商用，温冷数据存储成为新战场"
       ],
       "urls": [
-        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfzhw2697012.shtml",
-        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfzhx2632437.shtml",
-        "https://finance.sina.com.cn/stock/t/2026-11-10/doc-iniyfuyz2702176.shtml",
-        "https://cj.sina.cn/articles/view/1644983660/620c756c02001xwb6",
-        "https://t.cj.sina.cn/articles/view/1826017320/6cd6d02804001z1ho",
-        "https://wap.cj.sina.cn/pc/7x24/5205637"
+        "https://www.chinastarmarket.cn/detail/2529739",
+        "https://t.cj.sina.cn/articles/view/1960136440/74d54ef802708ubd2",
+        "https://k.sina.cn/article_7879996580_1d5af34a402001xd9c.html",
+        "https://cj.sina.cn/articles/view/8411466186/1f55cc9ca072053o0e",
+        "https://tech.ifeng.com/c/8xugZ5rMQGU",
+        "https://t.cj.sina.cn/articles/view/5675440730/152485a5a020028ve0",
+        "https://www.yicai.com/news/103434870.html"
       ],
       "sources": [
+        "chinastarmarket",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "ifeng",
+        "sina_finance",
+        "yicai"
+      ]
+    },
+    {
+      "event": "美國擬加強晶片出口管制",
+      "score": 85,
+      "tags": [
+        "降低外依",
+        "出口管制",
+        "政策"
+      ],
+      "reason": "出口管制升級直接衝擊供應鏈",
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-11-10 22:30:11",
+      "titles": [
+        "US lawmakers push for tougher China export controls in defence bill amid Nvidia scrutiny",
+        "‘Adding fuel to fire’: how Nvidia CEO’s troubles, US midterms may tighten China chip curbs"
+      ],
+      "urls": [
+        "https://www.scmp.com/tech/tech-war/article/3373940/us-lawmakers-push-tougher-china-export-controls-defence-bill-amid-nvidia-scrutiny",
+        "https://www.scmp.com/tech/big-tech/article/3373977/adding-fuel-fire-how-nvidia-ceos-troubles-us-midterms-may-tighten-china-chip-curbs"
+      ],
+      "sources": [
+        "scmp",
+        "scmp"
+      ]
+    },
+    {
+      "event": "中國晶片出口翻倍增長",
+      "score": 85,
+      "tags": [
+        "降低外依",
+        "半導體"
+      ],
+      "reason": "晶片出口大增，顯示國產替代成效顯著",
+      "coherent": false,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 21:01:11",
+      "titles": [
+        "31.2%的增速与芯片出口翻倍：中国外贸的韧性与变量"
+      ],
+      "urls": [
+        "https://cj.sina.cn/articles/view/1651428902/626ece2602001lk78"
+      ],
+      "sources": [
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "華特氣體氦氣產能達300萬方",
+      "score": 75,
+      "tags": [
+        "國產替代",
+        "半導體",
+        "降低外依"
+      ],
+      "reason": "關鍵半導體耗材氦氣實現規模化國產供應，突破外資壟斷。",
+      "coherent": true,
+      "size": 9,
+      "max_crawled_at": "2026-11-10 23:00:11",
+      "titles": [
+        "华特气体：氦气产品以销定产 产能可达300万方左右",
+        "华特气体：目前公司氦气产品的生产能力可达300万方左右",
+        "华特气体(688268.SH)：公司氦气产品下游客户主要包括半导体、医疗行业、科研机构及大工业制造等领域",
+        "华特气体：公司氦气产品下游客户主要包括半导体、医疗行业、科研机构等领域",
+        "华特气体：公司氦气产品是以销定产",
+        "华特气体(688268.SH)：公司的特种气体主要面向集成电路等新兴产业",
+        "华特气体(688268.SH)：目前氦气相关产品销售价格距高位已经有明显下降",
+        "华特气体：公司拥有自建仓储网络和运输车队",
+        "华特气体：已全面掌握特种气体全流程关键核心技术"
+      ],
+      "urls": [
+        "https://finance.sina.com.cn/stock/relnews/dongmiqa/2026-11-10/doc-iniyfuyw5963258.shtml",
+        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyfuyw5968368.shtml",
+        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfuyz2676411.shtml",
+        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyfuyy2708722.shtml",
+        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002mydy",
+        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyhmwu9110715.shtml",
+        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyhmwu9110714.shtml",
+        "https://finance.sina.com.cn/stock/relnews/dongmiqa/2026-11-10/doc-iniyfuyw5963267.shtml",
+        "https://finance.sina.com.cn/stock/relnews/dongmiqa/2026-11-10/doc-iniyfuyz2687801.shtml"
+      ],
+      "sources": [
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
         "sina_finance",
         "sina_finance",
         "sina_finance",
@@ -61,55 +157,86 @@
       ]
     },
     {
-      "event": "美國推動加強對華出口管制",
-      "score": 85,
+      "event": "阿里平頭哥擬赴港IPO",
+      "score": 75,
       "tags": [
-        "降低外依",
-        "出口管制"
+        "半導體",
+        "擴產投資",
+        "政策"
       ],
-      "reason": "外部壓力加劇，迫使供應鏈加速國產化。",
+      "reason": "頂級晶片設計公司獨立融資，影響深遠",
       "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 19:31:11",
+      "size": 7,
+      "max_crawled_at": "2026-11-11 01:01:11",
       "titles": [
-        "US lawmakers push for tougher China export controls in defence bill amid Nvidia scrutiny"
+        "阿里芯片平头哥拟赴港 IPO，募资 20 亿至 30 亿美元-36氪 - 36kr",
+        "确认！阿里巴巴芯片公司平头哥已递交上市申请",
+        "拟分拆平头哥独立上市，阿里巴巴在下什么棋？",
+        "阿里巴巴：拟分拆平头哥赴港独立上市 已于9月11日秘密递交上市申请",
+        "平头哥200亿美元估值，比寒武纪摩尔线程便宜吗？",
+        "一股未卖！章建平妻子坚守热门科技股，高盛、“牛散”都来助阵",
+        "港股公告精选｜智谱拟斥资最多40亿港元回购 阿里巴巴计划分拆平头哥赴港IPO"
       ],
       "urls": [
-        "https://www.scmp.com/tech/tech-war/article/3373940/us-lawmakers-push-tougher-china-export-controls-defence-bill-amid-nvidia-scrutiny"
+        "https://www.36kr.com/p/4062498867992193",
+        "https://www.chinastarmarket.cn/detail/2530675",
+        "https://www.yicai.com/news/103435110.html",
+        "https://www.chinastarmarket.cn/detail/2530633",
+        "https://cj.sina.cn/articles/view/9159627593/221f4d34907201hihu",
+        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyhmwu9094162.shtml",
+        "https://cj.sina.cn/articles/view/2868676035/aafc85c302001zk26"
       ],
       "sources": [
-        "scmp"
+        "36kr",
+        "chinastarmarket",
+        "yicai",
+        "chinastarmarket",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance"
       ]
     },
     {
-      "event": "全球首塊200mm單晶金剛石晶圓問世",
-      "score": 85,
+      "event": "瀾起科技DDR5第五子代量產",
+      "score": 75,
       "tags": [
-        "國產替代",
-        "半導體"
+        "半導體",
+        "國產替代"
       ],
-      "reason": "關鍵材料突破，重塑散熱規則",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 08:01:11",
+      "reason": "記憶體互連晶片技術突破達國際水準",
+      "coherent": false,
+      "size": 5,
+      "max_crawled_at": "2026-11-10 16:31:11",
       "titles": [
-        "全球首块200毫米单晶金刚石晶圆问世，或重塑半导体散热规则"
+        "澜起科技称AI发展将带动算力存储及高速互连芯片需求持续增长",
+        "澜起科技(688008.SH)：从更长期的角度来看内存互连芯片市场规模还将进一步增长",
+        "澜起科技(688008.SH)：PCIe 6.x Retimer芯片成功列入PCI-SIG供应商名录",
+        "澜起科技(688008.SH)：今年9月公司DDR5第五子代RCD芯片量产",
+        "澜起科技：AI发展对算力、存储及高速互连芯片的需求将持续增长"
       ],
       "urls": [
-        "https://tech.ifeng.com/c/8xusqsvwEIf"
+        "https://t.cj.sina.cn/articles/view/1644983660/620c756c02001xw4k",
+        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfuza9298282.shtml",
+        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfuyz2654017.shtml",
+        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfuyz2650090.shtml",
+        "https://wap.cj.sina.cn/pc/7x24/5205563"
       ],
       "sources": [
-        "ifeng"
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance"
       ]
     },
     {
-      "event": "五角大廈撤銷藥明康德黑名單",
-      "score": 82,
+      "event": "藥明康德獲撤黑名單股價反彈",
+      "score": 75,
       "tags": [
         "出口管制",
         "供應鏈"
       ],
-      "reason": "關鍵生物技術制裁逆轉，緩解供應鏈風險。",
+      "reason": "解除制裁利好生物製造供應鏈穩定",
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-11-10 12:01:11",
@@ -124,43 +251,1147 @@
       ]
     },
     {
-      "event": "阿里平頭哥擬赴港IPO",
-      "score": 80,
+      "event": "上海儲存龍頭收購案",
+      "score": 75,
+      "tags": [
+        "擴產投資",
+        "半導體"
+      ],
+      "reason": "儲存晶片領域併購，擴大產業規模優勢",
+      "coherent": false,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 11:31:11",
+      "titles": [
+        "上海存储芯片龙头，2.47亿出手收购"
+      ],
+      "urls": [
+        "https://cj.sina.cn/articles/view/6517029999/18471fc6f00101im8s"
+      ],
+      "sources": [
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "Momenta與上汽成立合資公司",
+      "score": 72,
+      "tags": [
+        "擴產投資",
+        "AI算力"
+      ],
+      "reason": "智駕領域重資投入，加速自動駕駛落地",
+      "coherent": false,
+      "size": 3,
+      "max_crawled_at": "2026-11-10 18:31:11",
+      "titles": [
+        "Momenta与上汽成立合资公司，3亿元投资背后，曹旭东在下一盘什么棋？-36氪 - www.36kr.com",
+        "Momenta与上汽成立合资公司，3亿元投资背后，曹旭东在下一盘什么棋？-36氪 - 36kr",
+        "上汽刚砸3亿成立智驾合资公司，核心高管杨晓东就宣布辞任引发市场关注"
+      ],
+      "urls": [
+        "http://www.36kr.com/p/4063613075723904",
+        "https://www.36kr.com/p/4063613075723904",
+        "https://nev.ofweek.com/2026-11/ART-71011-8460-30711064.html"
+      ],
+      "sources": [
+        "36kr",
+        "36kr",
+        "ofweek_nev"
+      ]
+    },
+    {
+      "event": "中科曙光等組建太空算力網公司",
+      "score": 70,
       "tags": [
         "AI算力",
         "擴產投資"
       ],
-      "reason": "國產AI晶片巨頭獨立融資，強化算力基礎。",
-      "coherent": true,
-      "size": 4,
-      "max_crawled_at": "2026-11-10 22:30:11",
+      "reason": "央企佈局前沿太空算力基礎設施",
+      "coherent": false,
+      "size": 18,
+      "max_crawled_at": "2026-11-11 00:00:15",
       "titles": [
-        "拟分拆平头哥独立上市，阿里巴巴在下什么棋？",
-        "确认！阿里巴巴芯片公司平头哥已递交上市申请",
-        "阿里芯片平头哥拟赴港 IPO，募资 20 亿至 30 亿美元-36氪 - 36kr",
-        "阿里巴巴：拟分拆平头哥赴港独立上市 已于9月11日秘密递交上市申请"
+        "注册资本达15亿元，谁在切入“太空算力网”建设？",
+        "15亿太空算力公司落地合肥，但资本到位不等于商业跑通",
+        "海光信息、中科曙光等十六方联手，合肥要组一张“太空算力网”",
+        "注册资本15亿！中科星云，落地合肥",
+        "打造太空算力网 筑牢数智化发展底座",
+        "内外共振！太空算力产业化按下快进键 行业景气度有望上行(附股)",
+        "国星宇航闯关港交所：80后博士要当“太空包工头”-36氪 - 36kr",
+        "国星宇航闯关港交所：80后博士要当“太空包工头”",
+        "688717，拟每10股派31.25元！“星云星座计划”发布，太空算力网部署传新进展（附股）",
+        "当芯片抢着上太空，半导体下一轮增量有了？",
+        "火箭尾焰、宇宙模拟、地下油藏，曙光8000正在挑战哪些计算难题",
+        "国产算力+国产气象   我国公里级数值预报迈入第一梯队"
       ],
       "urls": [
-        "https://www.yicai.com/news/103435110.html",
-        "https://www.chinastarmarket.cn/detail/2530675",
-        "https://www.36kr.com/p/4062498867992193",
-        "https://www.chinastarmarket.cn/detail/2530633"
+        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfzhy9256329.shtml",
+        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfzhy9256329.shtml",
+        "https://www.yicai.com/news/103434615.html",
+        "https://www.36kr.com/p/4062776631531397",
+        "https://www.chinastarmarket.cn/detail/2530341",
+        "https://t.cj.sina.cn/articles/view/2868676035/aafc85c302001zjts",
+        "https://t.cj.sina.cn/articles/view/2868676035/aafc85c302001zjts",
+        "https://t.cj.sina.cn/articles/view/2628314830/9ca8e6ce020024x6y",
+        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfece6007645.shtml",
+        "https://t.cj.sina.cn/articles/view/1801487174/6b60834602003b65s",
+        "https://t.cj.sina.cn/articles/view/1801487174/6b60834602003b65s",
+        "https://t.cj.sina.cn/articles/view/1801487174/6b60834602003b65s",
+        "http://www.36kr.com/p/4063798283834241",
+        "https://www.36kr.com/p/4063798283834241",
+        "https://finance.sina.com.cn/stock/zqgd/2026-11-10/doc-iniyexvm2856122.shtml",
+        "https://www.36kr.com/p/4059117223285891",
+        "https://t.cj.sina.cn/articles/view/1686203097/64816ad902701e1jw",
+        "https://t.cj.sina.cn/articles/view/1650111241/625ab30902001i2ko"
       ],
       "sources": [
+        "sina_finance",
+        "sina_finance",
         "yicai",
-        "chinastarmarket",
         "36kr",
-        "chinastarmarket"
+        "chinastarmarket",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "36kr",
+        "36kr",
+        "sina_finance",
+        "36kr",
+        "sina_finance",
+        "sina_finance"
       ]
     },
     {
-      "event": "龍芯中科3B6600預計12月回片",
-      "score": 78,
+      "event": "中微公司首臺切割裝置交付",
+      "score": 70,
+      "tags": [
+        "國產替代",
+        "半導體",
+        "擴產投資"
+      ],
+      "reason": "關鍵封測裝置國產化重大突破",
+      "coherent": true,
+      "size": 8,
+      "max_crawled_at": "2026-11-11 02:31:11",
+      "titles": [
+        "中微公司首台等离子体晶圆切割设备已交付国内集成电路封装客户",
+        "中微公司交付首台等离子体晶圆切割设备",
+        "国产再突破：中微公司首台等离子体晶圆切割设备成功交付国内重要集成电路封装客户",
+        "中微公司发布Primo Matrix晶圆切割设备 首台已付运封装客户",
+        "中微公司首台等离子体晶圆切割设备交付",
+        "中微公司首台等离子体晶圆切割设备成功交付",
+        "国产半导体设备现在真的能顶进口设备用了吗？"
+      ],
+      "urls": [
+        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfzhw2697012.shtml",
+        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfzhx2632437.shtml",
+        "https://finance.sina.com.cn/stock/t/2026-11-10/doc-iniyfuyz2702176.shtml",
+        "https://cj.sina.cn/articles/view/1644983660/620c756c02001xwb6",
+        "https://t.cj.sina.cn/articles/view/1826017320/6cd6d02804001z1ho",
+        "https://wap.cj.sina.cn/pc/7x24/5205637",
+        "https://cj.sina.cn/articles/view/9066202817/21c6346c107201qaw8",
+        "https://cj.sina.cn/articles/view/9066202817/21c6346c107201qaw8"
+      ],
+      "sources": [
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "華為星芒O1 Pro手機發布",
+      "score": 70,
+      "tags": [
+        "國產替代",
+        "科技自主"
+      ],
+      "reason": "華為新機發布，提振國產高階手機市場",
+      "coherent": false,
+      "size": 3,
+      "max_crawled_at": "2026-11-10 18:01:11",
+      "titles": [
+        "华为星芒销售渠道确认！线上线下全覆盖 首批阔直板手机备货有限",
+        "华为星芒O1 Pro确认了，就长这样",
+        "Huawei has a new strategy to boost OSTA phone series sales"
+      ],
+      "urls": [
+        "https://tech.ifeng.com/c/8xwHqL1IasL",
+        "https://tech.ifeng.com/c/8xv405McEbX",
+        "https://www.huaweicentral.com/huawei-has-a-new-strategy-to-boost-osta-phone-series-sales/"
+      ],
+      "sources": [
+        "ifeng",
+        "ifeng",
+        "huaweicentral"
+      ]
+    },
+    {
+      "event": "華虹宏力繼續負責無錫三期經營",
+      "score": 70,
+      "tags": [
+        "擴產投資",
+        "半導體"
+      ],
+      "reason": "龍頭Foundry持續擴大先進製程產能，鞏固國內製造基礎。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 20:30:11",
+      "titles": [
+        "华虹宏力：仍为无锡华虹宏力三期半导体的控股股东，将继续负责无锡三期项目的日常经营"
+      ],
+      "urls": [
+        "https://wap.cj.sina.cn/pc/7x24/5206233"
+      ],
+      "sources": [
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "復旦微電發布GREVO開發平臺",
+      "score": 68,
+      "tags": [
+        "國產替代",
+        "科技自主"
+      ],
+      "reason": "國產FPGA開發工具發布，完善生態鏈",
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-11-10 21:01:11",
+      "titles": [
+        "复旦微电正式发布可编程逻辑器件智能开发平台GREVO",
+        "复旦微电发布可编程逻辑器件智能开发平台GREVO"
+      ],
+      "urls": [
+        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfzhw2650294.shtml",
+        "https://wap.cj.sina.cn/pc/7x24/5206229"
+      ],
+      "sources": [
+        "sina_finance",
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "北方華創訂單持續高增",
+      "score": 65,
       "tags": [
         "國產替代",
         "半導體"
       ],
-      "reason": "自主CPU流片進度，強化國產算力基礎。",
+      "reason": "裝置龍頭業績反映國產化加速",
+      "coherent": false,
+      "size": 28,
+      "max_crawled_at": "2026-11-10 21:01:11",
+      "titles": [
+        "拓荆科技(688072)：先进制程设备量产成果突出 盈利能力显著增强",
+        "兆易创新(603986)：存储量价齐升 单季扣非净利润环比大幅增长",
+        "仕佳光子(688313)：业绩快速增长 定增扩产强化有源+无源一体化优势",
+        "【银河电子高峰】半导体行业周点评丨前瞻调整触底，关注国产算力链",
+        "并表首季即交超预期答卷，华虹宏力(01347)如何借AI与国产替代重再塑增长逻辑？",
+        "北方华创(002371)：订单持续高增 先进制程突破与平台化布局持续深化",
+        "电子行业周报：华虹宏力Q3产能满载量价齐升 苹果FY2026全年业绩创新高",
+        "神州半导体科创板IPO上会在即 今年前三季度业绩已超去年全年",
+        "佰维存储、德明利等净利润创新高A股存储行业高景气或将延续",
+        "赚足110亿红利后，兆易创新能否跳出存储的钟摆？",
+        "晶合集成51亿增资推进晶圆扩产 拟最高8亿回购单季扣非增近7倍",
+        "ROE几乎归零！消费电子零组件从“应收飙升”到“盈利转化失效”",
+        "神州半导体科创板IPO将上会，三年营收复合增长58.31%",
+        "中科飞测(688361)：订单增长明显提速 明暗场突破加速兑现",
+        "模拟芯片回暖，工业最先动了",
+        "存储涨价传导至终端 A股模组厂利润与现金流分化",
+        "华虹宏力：无锡三期项目投资规模大，引入其他少数股东是完成项目公司整体资本架构搭建的既定步骤",
+        "港股异动 | 华虹宏力(01347)涨超5% 第三财季业绩强劲 机构看好公司有望受益新结构性增长机会",
+        "91亿！688249加码传感器代工"
+      ],
+      "urls": [
+        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/847644897717/index.phtml",
+        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/847642941043/index.phtml",
+        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/847637520135/index.phtml",
+        "https://finance.sina.com.cn/stock/stockzmt/2026-11-10/doc-iniyexvh6092353.shtml",
+        "https://finance.sina.com.cn/stock/stockzmt/2026-11-10/doc-iniyexvh6092353.shtml",
+        "https://finance.sina.com.cn/stock/stockzmt/2026-11-10/doc-iniyexvh6092353.shtml",
+        "https://finance.sina.com.cn/stock/stockzmt/2026-11-10/doc-iniyexvh6092353.shtml",
+        "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-10/doc-iniyfuyy2647478.shtml",
+        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/847595722113/index.phtml",
+        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/847594844496/index.phtml",
+        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfkmh9410016.shtml",
+        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyepfr3044267.shtml",
+        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyepfr3044267.shtml",
+        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyepfr3044267.shtml",
+        "https://finance.sina.com.cn/stock/s/2026-11-10/doc-iniyfzhw2638868.shtml",
+        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfece5967917.shtml",
+        "https://cj.sina.cn/articles/view/1733583753/6754638902701eygs",
+        "https://cj.sina.cn/articles/view/1733583753/6754638902701eygs",
+        "https://cj.sina.cn/articles/view/1733583753/6754638902701eygs",
+        "https://cj.sina.cn/articles/view/7651844612/1c815e204020022820",
+        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/847595722071/index.phtml",
+        "https://www.36kr.com/p/4062359799714689",
+        "https://finance.sina.com.cn/stock/aigcy/2026-11-10/doc-iniyfzhu5901951.shtml",
+        "https://finance.sina.com.cn/stock/aigcy/2026-11-10/doc-iniyfzhu5901951.shtml",
+        "https://finance.sina.com.cn/stock/aigcy/2026-11-10/doc-iniyfzhu5901951.shtml",
+        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002mytg",
+        "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-10/doc-iniyfkmh9376008.shtml",
+        "https://sensor.ofweek.com/2026-11/ART-81013-8120-30711113.html"
+      ],
+      "sources": [
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "36kr",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "ofweek_sensor"
+      ]
+    },
+    {
+      "event": "算力龍頭擬募資80億IPO上會",
+      "score": 65,
+      "tags": [
+        "擴產投資"
+      ],
+      "reason": "大型算力企業融資反映產業擴張",
+      "coherent": false,
+      "size": 7,
+      "max_crawled_at": "2026-11-10 20:30:11",
+      "titles": [
+        "河南2026最猛IPO，要来了",
+        "企业低成本安全用AI怎么选：混合词元工厂的降本逻辑与选型要点",
+        "合肥武汉之后，终于轮到郑州“上桌”了？",
+        "拟募资80亿元！算力龙头IPO本周上会，冲刺创业板",
+        "词元工厂落子张家口，算力生意开始算经济账",
+        "超节点走向规模交付，算力军备升级了",
+        "联想万全混合词元工厂发布：明年建成15000P异构算力集群"
+      ],
+      "urls": [
+        "https://www.36kr.com/p/4063413147882377",
+        "https://t.cj.sina.cn/articles/view/7624285856/1c6715ea002002i8t0",
+        "https://www.36kr.com/p/4063404782719877",
+        "https://cloud.ofweek.com/news/2026-11/ART-178804-12003-30711063.html",
+        "https://www.yicai.com/news/103434836.html",
+        "https://cloud.ofweek.com/news/2026-11/ART-178804-8420-30711148.html",
+        "https://tech.ifeng.com/c/8xudyEAd94B"
+      ],
+      "sources": [
+        "36kr",
+        "sina_finance",
+        "36kr",
+        "ofweek_cloud",
+        "yicai",
+        "ofweek_cloud",
+        "ifeng"
+      ]
+    },
+    {
+      "event": "夏農芯創自主品牌海普儲存量產",
+      "score": 65,
+      "tags": [
+        "國產替代",
+        "半導體"
+      ],
+      "reason": "自主儲存品牌進入大規模銷售，推動儲存晶片國產化程序。",
+      "coherent": true,
+      "size": 5,
+      "max_crawled_at": "2026-11-10 13:01:11",
+      "titles": [
+        "香农芯创：公司自主品牌海普存储已进入大规模销售阶段",
+        "香农芯创(300475.SZ)：海普存储目前通过委外方式进行生产",
+        "V观财报｜香农芯创：自主品牌“海普存储”已进入大规模销售阶段",
+        "投资者提问：公司海普自研存储模块目前处于批量供货阶段，请问现阶段产能爬坡节...",
+        "香农芯创：公司目前客户主要系国内互联网云服务商和国内大型ODM企业"
+      ],
+      "urls": [
+        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyfeci2794438.shtml",
+        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfech2793485.shtml",
+        "https://t.cj.sina.cn/articles/view/5993531560/1653e08a802001qck6",
+        "https://finance.sina.com.cn/stock/relnews/dongmiqa/2026-11-10/doc-iniyfeck9419337.shtml",
+        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002mx2u"
+      ],
+      "sources": [
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "天域半導體入股東尼電子",
+      "score": 65,
+      "tags": [
+        "供應鏈",
+        "擴產投資"
+      ],
+      "reason": "半導體材料領域併購，強化供應鏈佈局",
+      "coherent": false,
+      "size": 4,
+      "max_crawled_at": "2026-11-10 19:31:11",
+      "titles": [
+        "半导体材料业务布局成效显著 TCL中环进入兑现期",
+        "加码、并购，TCL中环的危机解除了吗？",
+        "当政策方向与产业规律交汇：天域半导体入股东尼电子的深层考量"
+      ],
+      "urls": [
+        "https://cj.sina.cn/articles/view/7651844612/1c815e2040200228ms",
+        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfzhx2640321.shtml",
+        "https://cj.sina.cn/articles/view/7651844612/1c815e20402002275m",
+        "https://cj.sina.cn/articles/view/7651844612/1c815e20402002275m"
+      ],
+      "sources": [
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "上海天津等地硬科技崛起",
+      "score": 65,
+      "tags": [
+        "政策",
+        "擴產投資"
+      ],
+      "reason": "區域產業叢集發展，獲政策資金支援",
+      "coherent": false,
+      "size": 3,
+      "max_crawled_at": "2026-11-10 15:31:11",
+      "titles": [
+        "改革向深发力 产业向新生长上海“硬科技”军团加速崛起",
+        "资本市场“苏州板块”突破300家 硬科技与耐心资本加速同频共振",
+        "聚链成群落子有声，天津高新区藏着一个信创“引力场”"
+      ],
+      "urls": [
+        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyepfr3044271.shtml",
+        "https://cj.sina.cn/articles/view/7517400647/1c0126e4705909e90k",
+        "https://c.sina.com.cn/article/1800320207/qw3zqkcf6wx"
+      ],
+      "sources": [
+        "sina_finance",
+        "sina_finance",
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "上海合晶定增擴產12吋矽片",
+      "score": 65,
+      "tags": [
+        "半導體",
+        "擴產投資"
+      ],
+      "reason": "國內大廠擴大關鍵矽基材料產能",
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-11-10 18:01:11",
+      "titles": [
+        "上海合晶：拟定增募资不超7亿元投建半导体大硅片项目",
+        "上海合晶：回复定增审核问询 募投扩产12英寸硅片"
+      ],
+      "urls": [
+        "https://wap.cj.sina.cn/pc/7x24/5205855",
+        "https://wap.cj.sina.cn/pc/7x24/5205854"
+      ],
+      "sources": [
+        "sina_finance",
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "藍思科技收購巨騰國際獲批",
+      "score": 65,
+      "tags": [
+        "供應鏈"
+      ],
+      "reason": "電子供應鏈重大併購案，影響製造格局",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 15:31:11",
+      "titles": [
+        "港股异动 | 巨腾国际(03336)午后涨超10% 蓝思科技收购案获商务部门批准 发改委审查进行中"
+      ],
+      "urls": [
+        "https://cj.sina.cn/articles/view/5835524730/15bd30a7a02002chn0"
+      ],
+      "sources": [
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "敏芯股份啟動多款感測器研發",
+      "score": 62,
+      "tags": [
+        "國產替代",
+        "擴產投資"
+      ],
+      "reason": "新產品線佈局，拓展機器人與物聯網市場",
+      "coherent": false,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 19:31:11",
+      "titles": [
+        "敏芯股份(688286.SH)：已正式启动六维力传感器、机器人专用IMU、手套型压力与温度传感器等多款产品的研发立项工作"
+      ],
+      "urls": [
+        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfzhw2702669.shtml"
+      ],
+      "sources": [
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "國產AI晶片市場表現分析",
+      "score": 60,
+      "tags": [
+        "國產替代",
+        "AI算力"
+      ],
+      "reason": "反映國產算力規模化部署趨勢",
+      "coherent": true,
+      "size": 23,
+      "max_crawled_at": "2026-11-11 02:31:11",
+      "titles": [
+        "国产AI芯片大涨，真的能替代海外高端GPU吗？",
+        "国产AI芯片进入业绩兑现期，现在布局晚不晚？",
+        "英伟达份额下滑，是管制还是国产真的起来了？",
+        "算力板块反弹！燧原科技市值一度重返2000亿，国产芯片迈入规模化部署",
+        "国产AI芯片订单排到三年后，是真需求还是炒热度？",
+        "国产芯片从能用变好用，这话到底是不是吹出来的？",
+        "国产AI芯片出货大涨，为啥毛利率还在下滑？",
+        "摩尔线程沐曦都扭亏了，国产GPU赛道真的稳了吗？",
+        "谷歌深耕专用算力新趋势！精准匹配AI智能体发展需求，多元供应链布局，能否抢占全球芯片话语权？",
+        "手机芯片之王，战场正在转移",
+        "海外显卡被AI炒上天，国产显卡能不能顶上来？",
+        "算力祛魅之后：谁来定义下一代智驾芯片？",
+        "谷歌加速挑战英伟达？一年连发四款TPU",
+        "谷歌发布两款全新TPU芯片，半导体ETF国联安(512480)跟踪指数涨超2%，科创芯片设计ETF国联安(588780)跟踪指数涨超2%",
+        "歌尔股份(002241)：入主佛智芯布局玻璃基板 AI时代大有可为"
+      ],
+      "urls": [
+        "https://cj.sina.cn/articles/view/8377927982/1f35d092e07201d86y",
+        "https://cj.sina.cn/articles/view/8377927982/1f35d092e07201d86y",
+        "https://cj.sina.cn/articles/view/9185131959/22379fdb707201bwko",
+        "https://cj.sina.cn/articles/view/4016045819/ef5ffefb07201c9x6",
+        "https://www.chinastarmarket.cn/detail/2530682",
+        "https://cj.sina.cn/articles/view/9150169078/221647ff607201dewe",
+        "https://cj.sina.cn/articles/view/9053721674/21ba4d44a07201fc9s",
+        "https://cj.sina.cn/articles/view/9003135093/218a0f07507201it7u",
+        "https://cj.sina.cn/articles/view/9003135093/218a0f07507201it7u",
+        "https://cj.sina.cn/articles/view/8411466186/1f55cc9ca072053jv0",
+        "https://cj.sina.cn/articles/view/8411466186/1f55cc9ca072053jv0",
+        "https://cj.sina.cn/articles/view/8411466186/1f55cc9ca072053jv0",
+        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfuyy2694373.shtml",
+        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfuyy2694373.shtml",
+        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfuyy2694373.shtml",
+        "https://tech.ifeng.com/c/8xwkGJBnzf0",
+        "https://cj.sina.cn/articles/view/8246239699/1eb83a1d307203wxoq",
+        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002mz4a",
+        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002mz4a",
+        "https://www.yicai.com/news/103433310.html",
+        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyfece6054409.shtml",
+        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyfece6054409.shtml",
+        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/847594048758/index.phtml"
+      ],
+      "sources": [
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "chinastarmarket",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "ifeng",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "yicai",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "聚燦光電擬募資15億擴產紅黃光",
+      "score": 60,
+      "tags": [
+        "半導體",
+        "擴產投資"
+      ],
+      "reason": "LED晶片龍頭擴大產能與技術研發",
+      "coherent": false,
+      "size": 19,
+      "max_crawled_at": "2026-11-10 23:30:37",
+      "titles": [
+        "聚灿光电拟定增募资不超15亿元 投向红黄光扩产与研发",
+        "聚灿光电拟定增募资不超过15亿元 加码红黄光芯片扩产与前沿技术研发",
+        "聚灿光电拟15亿定增：扩产红黄光，布局光互连",
+        "聚灿光电：拟定增募资不超15.00亿元，扩产红黄光外延片及芯片",
+        "拟定增募资不超15亿元！苏州这家上市公司加码红黄光外延片及芯片",
+        "2亿元零利率资助加10亿元担保 清溢光电给佛山子公司备足弹药",
+        "15亿元！清溢光电拟加码高端半导体掩膜版三期项目",
+        "聚灿光电首创银镜高光效产品",
+        "[2026-11-10] 华灿光电：中信建投证券股份有限公司关于京东方华灿光电股份有限公司向特定对象发行股票之上市保荐书(修订稿)",
+        "清溢光电拟15亿元投建高端半导体掩膜版第三期 补齐产能缺口",
+        "清溢光电拟投 15 亿元建设高端半导体掩膜版三期项目",
+        "[2026-11-10] 华灿光电：与中信建投证券股份有限公司关于京东方华灿光电股份有限公司申请向特定对象发行股票的审核问询函之回复",
+        "[2026-11-10] 华灿光电：中信建投证券股份有限公司关于京东方华灿光电股份有限公司向特定对象发行股票之发行保荐书(修订稿)",
+        "清溢光电加码高端半导体掩膜版 三期项目拟投资不超15亿元",
+        "聚灿光电拟不超15亿定增 近5年募18亿实控人累计套现2亿",
+        "以银镜高光效拓宽应用边界，引领高光效赛道升级",
+        "华灿光电完成2026年度定增审核问询函回复 相关申请文件已更新",
+        "磷化铟行业趋势解析"
+      ],
+      "urls": [
+        "https://cj.sina.cn/articles/view/2651473020/9e0a447c00104cbzs",
+        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyfeci2816177.shtml",
+        "https://cj.sina.cn/articles/view/5213369703/136bdb56701901sy6k",
+        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfeci2805750.shtml",
+        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfece6023549.shtml",
+        "https://cj.sina.cn/articles/view/2651473020/9e0a447c00104cbzw",
+        "https://www.chinastarmarket.cn/detail/2529498",
+        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyhmws2530583.shtml",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=300323&id=12699227",
+        "https://cj.sina.cn/articles/view/2311077472/89c03e6002002q576",
+        "https://cj.sina.cn/articles/view/7998763471/1dcc371cf00101pat8",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=300323&id=12699224",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=300323&id=12699226",
+        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfzhx2583623.shtml",
+        "https://cj.sina.cn/articles/view/1663612603/6328b6bb020024x32",
+        "https://finance.sina.com.cn/stock/s/2026-11-10/doc-iniyfuza9279659.shtml",
+        "https://finance.sina.com.cn/stock/aigc/wenxun/2026-11-10/doc-iniyfzhu5900596.shtml",
+        "https://c.sina.com.cn/article/8294541084/qw5dklh2ech",
+        "https://c.sina.com.cn/article/8294541084/qw5dklh2ech"
+      ],
+      "sources": [
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "chinastarmarket",
+        "sina_finance",
+        "sina_bulletin",
+        "sina_finance",
+        "sina_finance",
+        "sina_bulletin",
+        "sina_bulletin",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "沐曦GPU新品發布與採購",
+      "score": 60,
+      "tags": [
+        "AI算力",
+        "國產替代"
+      ],
+      "reason": "國產GPU產品落地及訂單確認",
+      "coherent": false,
+      "size": 5,
+      "max_crawled_at": "2026-11-10 20:30:11",
+      "titles": [
+        "进博·江苏时刻丨2026进博会中国馆“唯一”国产GPU展新品",
+        "单季营收15亿，沐曦的“成人礼”",
+        "两连板后，北京公司突然公告9.12亿算力采购大单"
+      ],
+      "urls": [
+        "https://t.cj.sina.cn/articles/view/5675440730/152485a5a020028vj0",
+        "https://cj.sina.cn/articles/view/1193725273/4726cd5902702s3vy",
+        "https://cj.sina.cn/articles/view/1193725273/4726cd5902702s3vy",
+        "https://cj.sina.cn/articles/view/1193725273/4726cd5902702s3vy",
+        "https://www.ofweek.com/ai/2026-11/ART-201714-8120-30711183.html"
+      ],
+      "sources": [
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "ofweek_ai"
+      ]
+    },
+    {
+      "event": "芯動聯科陀螺儀樣品開發",
+      "score": 60,
+      "tags": [
+        "國產替代",
+        "半導體"
+      ],
+      "reason": "高階MEMS感測器研發進展，技術突破",
+      "coherent": false,
+      "size": 5,
+      "max_crawled_at": "2026-11-10 22:30:11",
+      "titles": [
+        "芯动联科：第三季度业绩波动，主要受终端客户因素及有关政策影响",
+        "芯动联科(688582.SH)：单片三轴陀螺仪预计年底可以出样品，但样品性能、可靠性仍有待考核",
+        "芯动联科：单片三轴陀螺仪预计年底可以出样品",
+        "芯动联科：第三季度业绩波动，主要受终端客户因素及有关政策影响，客户提货节奏波动",
+        "敏芯股份：11月3日召开分析师会议，东吴证券、东北证券等多家机构参与"
+      ],
+      "urls": [
+        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002my4y",
+        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfuza9285947.shtml",
+        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyfuyz2658182.shtml",
+        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyfuyz2647650.shtml",
+        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002myz8"
+      ],
+      "sources": [
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "高瓴智元中芯聚源投資AI材料",
+      "score": 60,
+      "tags": [
+        "國產替代",
+        "半導體"
+      ],
+      "reason": "頂尖資本投入關鍵AI材料領域",
+      "coherent": false,
+      "size": 3,
+      "max_crawled_at": "2026-11-10 18:01:11",
+      "titles": [
+        "高瓴+智元+中芯聚源，投了一家北京AI材料公司",
+        "高瓴+智元+中芯聚源，联手投了AI+材料",
+        "沐曦、知乎，入股AI投资基金！"
+      ],
+      "urls": [
+        "https://finance.sina.com.cn/stock/t/2026-11-10/doc-iniyfzhy9240410.shtml",
+        "https://www.chinastarmarket.cn/detail/2529609",
+        "https://cj.sina.cn/articles/view/6517029999/18471fc6f00101im9c"
+      ],
+      "sources": [
+        "sina_finance",
+        "chinastarmarket",
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "匯頂科技車規藍牙晶片商用",
+      "score": 60,
+      "tags": [
+        "國產替代",
+        "降低外依"
+      ],
+      "reason": "車規級晶片進入頭部主機廠供應鏈，實現汽車電子關鍵部件替代。",
+      "coherent": true,
+      "size": 2,
+      "max_crawled_at": "2026-11-10 19:01:11",
+      "titles": [
+        "汇顶科技(603160.SH)：车规级低功耗蓝牙GR5405系列已在头部主机厂及Tier1供应链的十余款车型上实现商用",
+        "汇顶科技：车规级低功耗蓝牙GR5405系列已在十余款车型商用"
+      ],
+      "urls": [
+        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfzhu5871874.shtml",
+        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002myq2"
+      ],
+      "sources": [
+        "sina_finance",
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "中國移動與智譜簽署合作協議",
+      "score": 60,
+      "tags": [
+        "AI算力",
+        "供應鏈"
+      ],
+      "reason": "運營商採購國產大模型，推動算力生態落地。",
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-11-10 12:31:11",
+      "titles": [
+        "中国移动与智谱签署合作协议 智谱(02513)早盘涨超10%",
+        "这可能是国产AI最值得重视的一笔“生意”"
+      ],
+      "urls": [
+        "https://cj.sina.cn/articles/view/7935425109/1d8fcfa5502001oxa8",
+        "https://t.cj.sina.cn/articles/view/2209772264/83b672e8001024wy2"
+      ],
+      "sources": [
+        "sina_finance",
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "地平線ES9交付破四萬輛",
+      "score": 60,
+      "tags": [
+        "AI算力"
+      ],
+      "reason": "國產AI晶片量產落地，具產業指標意義",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 12:01:11",
+      "titles": [
+        "ES9即将破4万交付，地平线特别版值得加钱吗？"
+      ],
+      "urls": [
+        "https://cj.sina.cn/articles/view/8379156093/1f36fc67d07201j37i"
+      ],
+      "sources": [
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "富創精密產能爬坡中",
+      "score": 58,
+      "tags": [
+        "擴產投資",
+        "半導體"
+      ],
+      "reason": "半導體裝置廠產能擴張，供應能力增強",
+      "coherent": false,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 20:01:11",
+      "titles": [
+        "富创精密(688409.SH)：南通及北京等各基地持续产能爬坡，前期新基地投产初期产能利用率偏低属于阶段性特征"
+      ],
+      "urls": [
+        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyhfqw9164779.shtml"
+      ],
+      "sources": [
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "美芯晟晶片進入AI眼鏡供應鏈",
+      "score": 55,
+      "tags": [
+        "國產替代",
+        "供應鏈"
+      ],
+      "reason": "國產感測器切入AI硬體核心鏈，具代表性。",
+      "coherent": false,
+      "size": 8,
+      "max_crawled_at": "2026-11-10 21:01:11",
+      "titles": [
+        "美芯晟：多款芯片产品可为端侧AI提供相关赋能",
+        "美芯晟：多款智能感知传感器芯片和电源管理芯片",
+        "美芯晟(688458.SH)：接近光传感芯片已进入国际知名耳机品牌、头部智能眼镜及手机客户供应链并批量交付",
+        "AI眼镜加速迭代  产业链竞逐高频应用",
+        "市场复合年增长率超50%！AI眼镜走强，朝阳科技午后直线封板",
+        "大模型不缺脑子，缺身体：AI 眼镜会是爆品吗？"
+      ],
+      "urls": [
+        "https://finance.sina.com.cn/stock/relnews/dongmiqa/2026-11-10/doc-iniyfzhy9233185.shtml",
+        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002myq4",
+        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfzhu5871876.shtml",
+        "https://cj.sina.cn/articles/view/5597884738/14da8f14202002aq1m",
+        "https://t.cj.sina.cn/articles/view/1651428902/626ece2602001ljuq",
+        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002my4i",
+        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002my4i",
+        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002my4i"
+      ],
+      "sources": [
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "特斯拉Optimus機器人交付",
+      "score": 55,
+      "tags": [
+        "AI算力"
+      ],
+      "reason": "人形機器人產業化程序，帶動相關供應鏈",
+      "coherent": false,
+      "size": 4,
+      "max_crawled_at": "2026-11-10 19:01:11",
+      "titles": [
+        "马斯克说Optimus机器人“大概会出租”：租是把召回权写进合同",
+        "成本3万美元顶一辆车 特斯拉人形机器人擎天柱预计明年交付",
+        "供应链媒体传闻Optimus机器人年底周产2500套：量产前夜到了？",
+        "停产赛博皮卡，马斯克到底咋想的"
+      ],
+      "urls": [
+        "https://robot.ofweek.com/2026-11/ART-8321206-8420-30711094.html",
+        "https://tech.ifeng.com/c/8xwJygHM2s0",
+        "https://robot.ofweek.com/2026-11/ART-898890-8110-30711097.html",
+        "https://www.36kr.com/p/4063286944094081"
+      ],
+      "sources": [
+        "ofweek_robot",
+        "ifeng",
+        "ofweek_robot",
+        "36kr"
+      ]
+    },
+    {
+      "event": "中國買家持續獲取Nvidia GPU",
+      "score": 55,
+      "tags": [
+        "降低外依",
+        "供應鏈"
+      ],
+      "reason": "顯示出口管制執行現狀與漏洞",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 12:01:11",
+      "titles": [
+        "Chinese traders still confident of Nvidia GPU access amid Jensen Huang scandal"
+      ],
+      "urls": [
+        "https://www.scmp.com/tech/big-tech/article/3373855/chinese-traders-still-confident-nvidia-gpu-access-amid-jensen-huang-scandal"
+      ],
+      "sources": [
+        "scmp"
+      ]
+    },
+    {
+      "event": "AI拉動PCB產業量價齊升",
+      "score": 55,
+      "tags": [
+        "擴產投資"
+      ],
+      "reason": "AI需求帶動關鍵零元件市場擴張",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 08:01:11",
+      "titles": [
+        "AI算力拉动订单高增，PCB产业链迎来量价齐升-36氪 - 36kr"
+      ],
+      "urls": [
+        "https://36kr.com/newsflashes/4063150280791172"
+      ],
+      "sources": [
+        "36kr"
+      ]
+    },
+    {
+      "event": "藥明康德移除軍工名單",
+      "score": 50,
+      "tags": [
+        "降低外依",
+        "政策"
+      ],
+      "reason": "解除實體清單利好供應鏈穩定",
+      "coherent": false,
+      "size": 4,
+      "max_crawled_at": "2026-11-10 09:01:11",
+      "titles": [
+        "药明康德：美国国防部将公司从1260H项下中国军工企业名单中移除-36氪",
+        "剑桥科技回应“砍单”传闻：与公司实际经营情况不符-36氪",
+        "财经早报丨特朗普政府寻求中国帮助，外交部回应，黄仁勋陷出轨门中方驳斥“间谍论”丨2026年11月10日",
+        "11月10日投资避雷针：特朗普称结束伊朗战争出现积极势头 布油重挫近6%"
+      ],
+      "urls": [
+        "https://36kr.com/newsflashes/4063176754156417",
+        "https://36kr.com/newsflashes/4063178875835523",
+        "https://finance.sina.com.cn/stock/y/2026-11-10/doc-iniyexvh6075147.shtml",
+        "https://cj.sina.cn/articles/view/2868676035/aafc85c302001zj3e"
+      ],
+      "sources": [
+        "36kr",
+        "36kr",
+        "sina_finance",
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "芯導科技GaN產品推廣與產能利用",
+      "score": 50,
+      "tags": [
+        "半導體"
+      ],
+      "reason": "功率半導體產品推進，屬國產替代範疇，但規模較小。",
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-11-10 20:01:11",
+      "titles": [
+        "芯导科技(688230.SH)：公司 300W~1000W 大功率电源应用的GaN产品，客户推广工作正有序推进中",
+        "芯导科技(688230.SH)：瞬雷科技自有晶圆产能利用率较高"
+      ],
+      "urls": [
+        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyhfqw9170778.shtml",
+        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyhfqs5816483.shtml"
+      ],
+      "sources": [
+        "sina_finance",
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "北京支援端側AI新技術產品",
+      "score": 50,
+      "tags": [
+        "政策",
+        "AI算力"
+      ],
+      "reason": "地方政策支援端側AI產業發展",
+      "coherent": false,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 10:31:11",
+      "titles": [
+        "北京支持超节点服务器、AI终端等新技术新产品！端侧AI概念震荡拉升，日海智能4天2板"
+      ],
+      "urls": [
+        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyfeck9478233.shtml"
+      ],
+      "sources": [
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "TCL等企業海外建供應鏈",
+      "score": 50,
+      "tags": [
+        "降低外依",
+        "供應鏈"
+      ],
+      "reason": "龍頭企業出海佈局，分散地緣政治風險",
+      "coherent": false,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 19:01:11",
+      "titles": [
+        "在海外建了完整供应链体系的中国企业：TCL、宁德时代与福耀"
+      ],
+      "urls": [
+        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfzhu5906452.shtml"
+      ],
+      "sources": [
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "康希通訊募資投入衛星載荷射頻前端",
+      "score": 50,
+      "tags": [
+        "擴產投資",
+        "降低外依"
+      ],
+      "reason": "衛星關鍵部件國產化投資，提升供應鏈自主性。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 13:01:11",
+      "titles": [
+        "募投转向NTN（非地面）：康希通信在卫星载荷射频前端上加了一笔什么投入？"
+      ],
+      "urls": [
+        "https://cj.sina.cn/articles/view/5570287027/14c03d5b302001q3fg"
+      ],
+      "sources": [
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "拓斯達合作強化機器人能力",
+      "score": 50,
+      "tags": [
+        "擴產投資"
+      ],
+      "reason": "工業機器人領域具體合作，涉及製造業升級",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 12:01:11",
+      "titles": [
+        "南斗星创始人梁胜：和拓斯达一起，让机器人变得更强"
+      ],
+      "urls": [
+        "https://www.36kr.com/p/4063366672388999"
+      ],
+      "sources": [
+        "36kr"
+      ]
+    },
+    {
+      "event": "半導體企業集中IPO動態",
+      "score": 45,
+      "tags": [
+        "擴產投資",
+        "政策"
+      ],
+      "reason": "融資活動反映行業資本熱度",
+      "coherent": false,
+      "size": 9,
+      "max_crawled_at": "2026-11-10 18:01:11",
+      "titles": [
+        "融了7轮的半导体独角兽，刚刚IPO了",
+        "刚刚，英专生干出一个半导体封测IPO，市值123亿港元",
+        "卓源亚洲再获IPO！芯德半导体登陆港股上市！",
+        "概伦电子三季报透视：并表重塑收入、结构决定拐点，“EDA+IP”平台化的首次检验",
+        "概伦电子，不想只做EDA工具",
+        "中国电子与AMD签下75亿大单"
+      ],
+      "urls": [
+        "https://www.36kr.com/p/4063565403985026",
+        "https://cj.sina.cn/articles/view/7310786248/1b3c1bec801901x0is",
+        "https://cj.sina.cn/articles/view/7310786248/1b3c1bec801901x0is",
+        "https://cj.sina.cn/articles/view/7310786248/1b3c1bec801901x0is",
+        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyfqta2744132.shtml",
+        "https://cj.sina.cn/articles/view/7514592249/1bfe793f9020020rnw",
+        "https://cj.sina.cn/articles/view/7514592249/1bfe793f9020020rnw",
+        "https://t.cj.sina.cn/articles/view/3856710564/e5e0bba401901x0f4",
+        "https://www.guancha.cn/CaiJing/2026_11_10_907789.shtml"
+      ],
+      "sources": [
+        "36kr",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "guancha"
+      ]
+    },
+    {
+      "event": "龍芯中科CPU流片進度",
+      "score": 45,
+      "tags": [
+        "國產替代",
+        "半導體"
+      ],
+      "reason": "國產CPU研發進展，影響自主可控",
       "coherent": true,
       "size": 5,
       "max_crawled_at": "2026-11-10 18:01:11",
@@ -186,93 +1417,234 @@
       ]
     },
     {
-      "event": "谷歌加速挑戰輝達並擴產封測",
-      "score": 75,
+      "event": "又一機器人專案落戶廣州",
+      "score": 45,
       "tags": [
-        "半導體",
+        "擴產投資"
+      ],
+      "reason": "機器人產業落地反映製造業升級趨勢",
+      "coherent": false,
+      "size": 4,
+      "max_crawled_at": "2026-11-11 00:31:11",
+      "titles": [
+        "从一颗螺丝钉到整机生产 京东工业携手产业伙伴打造机器人一站式服务平台",
+        "雷军秀机器人进厂，王兴兴“泼冷水”：谁在买单？",
+        "总投资2.8亿，年产值预估10亿元！又一机器人项目落户广州",
+        "一台 8.5 万的机器人，脑子只值 380 块"
+      ],
+      "urls": [
+        "https://t.cj.sina.cn/articles/view/1393100891/5309085b02001lnzo",
+        "https://robot.ofweek.com/2026-11/ART-898890-8110-30711032.html",
+        "https://robot.ofweek.com/2026-11/ART-898890-8420-30711066.html",
+        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyexvh6052887.shtml"
+      ],
+      "sources": [
+        "sina_finance",
+        "ofweek_robot",
+        "ofweek_robot",
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "富創精密在瀋陽成立半導體科技公司",
+      "score": 45,
+      "tags": [
+        "擴產投資",
+        "供應鏈"
+      ],
+      "reason": "裝置龍頭佈局新產能，強化供應鏈本地化。",
+      "coherent": false,
+      "size": 3,
+      "max_crawled_at": "2026-11-10 16:01:11",
+      "titles": [
+        "沈阳创启半导体科技有限公司成立，注册资本约1.9亿",
+        "富创精密在沈阳成立创启半导体科技公司 注册资本约1.9亿",
+        "紫光国微在无锡成立新半导体技术公司 注册资本1亿"
+      ],
+      "urls": [
+        "https://wap.cj.sina.cn/pc/7x24/5205414",
+        "https://cj.sina.cn/articles/view/7317133861/1b4229a2502001j3d8",
+        "https://cj.sina.cn/articles/view/7317133861/1b4229a2502001j3fc"
+      ],
+      "sources": [
+        "sina_finance",
+        "sina_finance",
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "燧原科技股價反彈",
+      "score": 45,
+      "tags": [
         "AI算力"
       ],
-      "reason": "全球晶片巨頭競爭與先進封測趨勢",
+      "reason": "個股波動，反映市場對AI晶片關注度",
       "coherent": false,
-      "size": 14,
-      "max_crawled_at": "2026-11-10 22:30:11",
+      "size": 2,
+      "max_crawled_at": "2026-11-10 11:00:38",
       "titles": [
-        "谷歌深耕专用算力新趋势！精准匹配AI智能体发展需求，多元供应链布局，能否抢占全球芯片话语权？",
-        "AI算力催动 国产先进封测迎来产业升级机遇",
-        "【老王看产业】从历次半导体驱动周期看AI周期的变化与发展机遇",
-        "先进封装扩产潮，还差哪些？-36氪 - www.36kr.com",
-        "先进封装扩产潮，还差哪些？",
-        "谷歌加速挑战英伟达？一年连发四款TPU",
-        "手机芯片之王，战场正在转移",
-        "谷歌推出两款新TPU芯片 加码与英伟达竞争",
-        "算力祛魅之后：谁来定义下一代智驾芯片？",
-        "AI进化速递丨谷歌推出两款新TPU芯片",
-        "AI 投资的大问题：不是泡沫破灭，但三年硬件牛市结束了"
+        "算力芯片概念延续反弹 燧原科技涨近10%"
       ],
       "urls": [
-        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfuyy2694373.shtml",
-        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfuyy2694373.shtml",
-        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfuyy2694373.shtml",
-        "https://t.cj.sina.cn/articles/view/7517400647/1c0126e4705909e55a",
-        "https://m.laoyaoba.com/newinfo?id=1137623",
-        "http://www.36kr.com/p/4060549745546116",
-        "https://www.36kr.com/p/4060549745546116",
-        "https://www.yicai.com/news/103433310.html",
-        "https://tech.ifeng.com/c/8xwkGJBnzf0",
-        "https://www.chinastarmarket.cn/detail/2529378",
-        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002mz4a",
-        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002mz4a",
-        "https://www.yicai.com/news/103433154.html",
-        "https://cj.sina.cn/articles/view/7294209083/1b2c4cc3b00101xl2y"
+        "https://wap.cj.sina.cn/pc/7x24/5204923",
+        "https://wap.cj.sina.cn/pc/7x24/5204923"
       ],
       "sources": [
         "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "laoyaoba",
-        "36kr",
-        "36kr",
-        "yicai",
-        "ifeng",
-        "chinastarmarket",
-        "sina_finance",
-        "sina_finance",
-        "yicai",
         "sina_finance"
       ]
     },
     {
-      "event": "華特氣體氦氣產能達300萬方",
-      "score": 72,
+      "event": "黃仁勳親信涉美出口管制審查",
+      "score": 45,
+      "tags": [
+        "出口管制"
+      ],
+      "reason": "涉及AI晶片出口管制政治風險",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 19:01:11",
+      "titles": [
+        "Who is Alice Huang and why is her relationship with Nvidia’s CEO under scrutiny?"
+      ],
+      "urls": [
+        "https://www.scmp.com/tech/tech-war/article/3373960/who-alice-huang-and-why-her-relationship-nvidias-ceo-under-scrutiny"
+      ],
+      "sources": [
+        "scmp"
+      ]
+    },
+    {
+      "event": "openEuler推出Agent時延最佳化方案",
+      "score": 45,
+      "tags": [
+        "科技自主"
+      ],
+      "reason": "開源系統技術突破提升算力效率",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 15:00:11",
+      "titles": [
+        "操作系统如何适配Agent时代？openEuler新方案来了，超节点OS大幅降低时延"
+      ],
+      "urls": [
+        "https://tech.ifeng.com/c/8xwGSJtA1o8"
+      ],
+      "sources": [
+        "ifeng"
+      ]
+    },
+    {
+      "event": "中國移動完成R19多UE聚合驗證",
+      "score": 45,
+      "tags": [
+        "擴產投資"
+      ],
+      "reason": "6G技術預研進展，屬電信基礎設施前沿探索。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 17:30:11",
+      "titles": [
+        "中国移动研究院联合产业完成业界首个R19多UE聚合技术端到端能力验证"
+      ],
+      "urls": [
+        "https://fiber.ofweek.com/2026-11/ART-8100-2100-30711177.html"
+      ],
+      "sources": [
+        "ofweek_fiber"
+      ]
+    },
+    {
+      "event": "希荻微電源晶片切入工業機器人供應鏈",
+      "score": 45,
       "tags": [
         "國產替代",
-        "半導體",
-        "降低外依"
+        "供應鏈"
       ],
-      "reason": "關鍵半導體材料氦氣產能提升，強化自主可控。",
+      "reason": "國產晶片進入機器人核心供應鏈，具示範效應。",
       "coherent": true,
-      "size": 7,
+      "size": 1,
       "max_crawled_at": "2026-11-10 17:01:11",
       "titles": [
-        "华特气体：氦气产品以销定产 产能可达300万方左右",
-        "华特气体：目前公司氦气产品的生产能力可达300万方左右",
-        "华特气体(688268.SH)：公司氦气产品下游客户主要包括半导体、医疗行业、科研机构及大工业制造等领域",
-        "华特气体：公司氦气产品下游客户主要包括半导体、医疗行业、科研机构等领域",
-        "华特气体：公司氦气产品是以销定产",
-        "华特气体：公司拥有自建仓储网络和运输车队",
-        "华特气体：已全面掌握特种气体全流程关键核心技术"
+        "希荻微(688173.SH)：公司电源转换芯片已成功切入工业机器人领域并实现供货"
       ],
       "urls": [
-        "https://finance.sina.com.cn/stock/relnews/dongmiqa/2026-11-10/doc-iniyfuyw5963258.shtml",
-        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyfuyw5968368.shtml",
-        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfuyz2676411.shtml",
-        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyfuyy2708722.shtml",
-        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002mydy",
-        "https://finance.sina.com.cn/stock/relnews/dongmiqa/2026-11-10/doc-iniyfuyw5963267.shtml",
-        "https://finance.sina.com.cn/stock/relnews/dongmiqa/2026-11-10/doc-iniyfuyz2687801.shtml"
+        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfuyz2684424.shtml"
       ],
       "sources": [
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "智駕行業進入技術兌現期",
+      "score": 45,
+      "tags": [
+        "AI算力"
+      ],
+      "reason": "行業趨勢分析，非具體產業事件",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 16:01:11",
+      "titles": [
+        "当世界模型不再是卖点, 智驾行业开始进入技术兑现阶段？"
+      ],
+      "urls": [
+        "https://nev.ofweek.com/2026-11/ART-77015-8140-30711165.html"
+      ],
+      "sources": [
+        "ofweek_nev"
+      ]
+    },
+    {
+      "event": "富瀚微力爭視覺晶片市場增長",
+      "score": 40,
+      "tags": [
+        "AI算力"
+      ],
+      "reason": "視覺晶片廠商拓展工業應用領域",
+      "coherent": false,
+      "size": 14,
+      "max_crawled_at": "2026-11-10 22:00:31",
+      "titles": [
+        "富瀚微：将力争在广阔的视觉芯片市场实现增长",
+        "富瀚微：公司认为未来视觉芯片市场空间广阔",
+        "富满微：严格依规信披 正从消费电子向工业应用级领域发展",
+        "富满微：相关AI类芯片目前处于研发阶段",
+        "富满微：公司产品战略发展方向从消费电子领域向工业应用级领域发展",
+        "富满微：相关芯片处于研发阶段",
+        "富瀚微：该收益来自于被投企业的估值上升，并非已兑现收益",
+        "希荻微(688173.SH)：公司对2027年业务的稳健运行保持信心",
+        "投资者提问：尊敬的董秘您好！2026年半年报提出积极向AI计算基础设施、机...",
+        "希荻微(688173.SH)：公司车规芯片产品已进入中、欧、日、韩各大汽车品牌供应链体系",
+        "希荻微(688173.SH)：公司 10-20APOL 电源芯片已通过主流信创方案商及整机厂商验证",
+        "投资者提问：尊敬的公司领导：公司三季度业绩业绩暴涨，即便是剔除公允价值变动...",
+        "希荻微(688173.SH)：公司主要产品为模拟芯片及数模混合芯片，工艺节点覆盖40-180nm",
+        "希荻微(688173.SH)：公司目前不存在对公司生产经营及财务报表产生重大不利影响的境内外重大诉讼、仲裁事项"
+      ],
+      "urls": [
+        "https://finance.sina.com.cn/stock/relnews/dongmiqa/2026-11-10/doc-iniyfkmh9398333.shtml",
+        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002mxuc",
+        "https://finance.sina.com.cn/stock/relnews/dongmiqa/2026-11-10/doc-iniyhfqs5845005.shtml",
+        "https://finance.sina.com.cn/stock/relnews/dongmiqa/2026-11-10/doc-iniyfkmf2765668.shtml",
+        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002mz44",
+        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyfkme2800483.shtml",
+        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002myhi",
+        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfuyz2679955.shtml",
+        "https://finance.sina.com.cn/stock/relnews/dongmiqa/2026-11-10/doc-iniyfkma6017165.shtml",
+        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfuyz2679956.shtml",
+        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfuza9332541.shtml",
+        "https://finance.sina.com.cn/stock/relnews/dongmiqa/2026-11-10/doc-iniyfuyw5969611.shtml",
+        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfuyw5959674.shtml",
+        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfuyz2684471.shtml"
+      ],
+      "sources": [
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
         "sina_finance",
         "sina_finance",
         "sina_finance",
@@ -283,751 +1655,78 @@
       ]
     },
     {
-      "event": "三星SK海力士爭購EUV光刻機",
-      "score": 72,
+      "event": "君正股份規劃端側大模型晶片",
+      "score": 40,
       "tags": [
-        "半導體"
+        "AI算力"
       ],
-      "reason": "國際巨頭擴產，間接影響全球裝置供需格局。",
+      "reason": "國內廠商佈局端側AI晶片研發",
       "coherent": false,
       "size": 5,
+      "max_crawled_at": "2026-11-10 22:30:11",
+      "titles": [
+        "君正股份：面向端侧大模型的算力芯片尚处研发规划阶段",
+        "公司问答丨君正股份：该产品的具体技术规格(包括CPU内核架构等)目前尚处于研发规划阶段",
+        "君正股份：公司正在规划面向端侧大模型的算力芯片产品",
+        "君正股份：正在规划面向端侧大模型的算力芯片产品，目前尚处于研发规划阶段",
+        "全志科技：A735及6nm旗舰SOC相关情况说明"
+      ],
+      "urls": [
+        "https://finance.sina.com.cn/stock/relnews/dongmiqa/2026-11-10/doc-iniyfuyz2655285.shtml",
+        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfuza9332666.shtml",
+        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002mydq",
+        "https://wap.cj.sina.cn/pc/7x24/5205591",
+        "https://finance.sina.com.cn/stock/relnews/dongmiqa/2026-11-10/doc-iniyhfqu2619022.shtml"
+      ],
+      "sources": [
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "Terafab與日本裝置商接洽",
+      "score": 40,
+      "tags": [
+        "半導體",
+        "擴產投資"
+      ],
+      "reason": "日方先進製程進展，間接影響競爭",
+      "coherent": false,
+      "size": 2,
       "max_crawled_at": "2026-11-10 15:31:11",
       "titles": [
-        "存储双雄争夺EUV光刻机 以支撑先进DRAM扩产 单家投资上限接近千亿",
-        "都在抢EUV光刻机 - 36Kr",
-        "消息称三星电子、SK海力士均将向ASML EUV光刻机投资超10万亿韩元",
         "Terafab已与日本设备制造商接洽 目标六年内实现100万片芯片月产能",
         "日本芯片企业Rapidus或无法按期实现2纳米芯片量产目标-36氪"
       ],
       "urls": [
-        "https://www.chinastarmarket.cn/detail/2529739",
-        "https://www.36kr.com/p/4062066766189696",
-        "https://tech.ifeng.com/c/8xugZ5rMQGU",
         "https://www.chinastarmarket.cn/detail/2530176",
         "https://36kr.com/newsflashes/4063435493856131?f=rss"
       ],
       "sources": [
         "chinastarmarket",
-        "36kr",
-        "ifeng",
-        "chinastarmarket",
         "36kr"
       ]
     },
     {
-      "event": "清溢光電投15億建掩膜版三期",
-      "score": 70,
-      "tags": [
-        "擴產投資",
-        "半導體"
-      ],
-      "reason": "關鍵半導體上游材料擴產，技術門檻高。",
-      "coherent": true,
-      "size": 28,
-      "max_crawled_at": "2026-11-10 22:00:31",
-      "titles": [
-        "清溢光电加码15亿元，投建先进制程掩膜版三期",
-        "清溢光电披露15亿元高端半导体掩膜版生产基地三期投资计划 加码28nm-14nm先进制程产能布局",
-        "清溢光电：子公司拟投资不超15亿元建设高端半导体掩膜版生产基地建设项目三期",
-        "清溢光电拟投 15 亿元建设高端半导体掩膜版三期项目",
-        "清溢光电加码高端半导体掩膜版 三期项目拟投资不超15亿元",
-        "2亿元零利率资助加10亿元担保 清溢光电给佛山子公司备足弹药",
-        "15亿元！清溢光电拟加码高端半导体掩膜版三期项目",
-        "清溢光电拟15亿元投建高端半导体掩膜版第三期 补齐产能缺口",
-        "清溢光电：控股子公司拟不超15亿元投建高端半导体掩膜版生产基地建设项目三期",
-        "清溢光电子公司拟投不超15亿元建高端半导体掩膜版三期项目",
-        "清溢光电：关于控股子公司投资建设项目的公告",
-        "上海合晶(688584.SH)：拟定增募资不超7亿元用于12英寸半导体大硅片产业化项目",
-        "上海合晶定增募资上限下调至7亿元 募投聚焦12英寸硅片",
-        "上海合晶披露定增问询函回复 拟募资7亿元全部用于12英寸大硅片产业化设备购置",
-        "上海合晶：调整2026年度定增方案 募资总额下调至不超7亿元",
-        "上海合晶：部分国际客户已达成涨价协议，与国际大厂合作通常签订长期供货协议",
-        "上海合晶(688584.SH)：郑州合晶12英寸大硅片研发暨产业化项目已于2026年6月产线启用",
-        "上海合晶：郑州合晶二期项目聚焦CIS图像传感器、逻辑芯片等高端应用",
-        "晶合集成51亿增资推进晶圆扩产 拟最高8亿回购单季扣非增近7倍",
-        "清溢光电：控股子公司拟投资不超15亿元建设高端半导体掩膜版三期项目",
-        "上海合晶：拟定增募资不超7亿元投建半导体大硅片项目",
-        "91亿元！千亿龙头，入局",
-        "上海合晶：调整2026年度向特定对象发行A股股票方案的公告",
-        "上海合晶完成2026年度向特定对象发行A股股票审核问询函回复 相关申请文件已更新披露",
-        "91亿！688249加码传感器代工",
-        "上海合晶：回复定增审核问询 募投扩产12英寸硅片"
-      ],
-      "urls": [
-        "https://cj.sina.cn/articles/view/1651428902/626ece2602001lj4k",
-        "https://finance.sina.com.cn/stock/aigc/tzxm/2026-11-09/doc-iniycrzw6552996.shtml",
-        "https://finance.sina.com.cn/roll/2026-11-09/doc-iniycrzy3315200.shtml",
-        "https://cj.sina.cn/articles/view/7998763471/1dcc371cf00101pat8",
-        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfzhx2583623.shtml",
-        "https://cj.sina.cn/articles/view/2651473020/9e0a447c00104cbzw",
-        "https://www.chinastarmarket.cn/detail/2529498",
-        "https://cj.sina.cn/articles/view/2311077472/89c03e6002002q576",
-        "https://cj.sina.cn/articles/view/2868676035/aafc85c302001zie4",
-        "https://finance.sina.com.cn/stock/estate/integration/2026-11-09/doc-iniycwiu6461075.shtml",
-        "https://cj.sina.cn/articles/view/2311077472/89c03e6002002q3g6",
-        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfzhw2658027.shtml",
-        "https://cj.sina.cn/articles/view/1644983660/620c756c02001xwho",
-        "https://finance.sina.com.cn/stock/aigc/wenxun/2026-11-10/doc-iniyfzhy9288552.shtml",
-        "https://finance.sina.com.cn/stock/aigc/wenxun/2026-11-10/doc-iniyfzhy9288552.shtml",
-        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyfzhw2671851.shtml",
-        "https://finance.sina.com.cn/jjxw/2026-11-09/doc-iniycrzy3326279.shtml",
-        "https://finance.sina.com.cn/stock/bxjj/2026-11-09/doc-iniycrzw6532583.shtml",
-        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002mvzk",
-        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfece5967917.shtml",
-        "https://wap.cj.sina.cn/pc/7x24/5203194",
-        "https://wap.cj.sina.cn/pc/7x24/5205855",
-        "https://cj.sina.cn/articles/view/6517029999/18471fc6f00101ikyc",
-        "https://cj.sina.cn/articles/view/6517029999/18471fc6f00101ikyc",
-        "https://cj.sina.cn/articles/view/2311077472/89c03e6002002q5bw",
-        "https://finance.sina.com.cn/stock/aigc/wenxun/2026-11-10/doc-iniyfzhu5931075.shtml",
-        "https://sensor.ofweek.com/2026-11/ART-81013-8120-30711113.html",
-        "https://wap.cj.sina.cn/pc/7x24/5205854"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "chinastarmarket",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "ofweek_sensor",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "希荻微電源晶片通過信創驗證",
-      "score": 70,
-      "tags": [
-        "國產替代",
-        "半導體"
-      ],
-      "reason": "模擬晶片進入信創供應鏈關鍵突破",
-      "coherent": true,
-      "size": 6,
-      "max_crawled_at": "2026-11-10 17:01:11",
-      "titles": [
-        "希荻微(688173.SH)：公司 10-20APOL 电源芯片已通过主流信创方案商及整机厂商验证",
-        "希荻微(688173.SH)：公司主要产品为模拟芯片及数模混合芯片，工艺节点覆盖40-180nm",
-        "希荻微(688173.SH)：公司对2027年业务的稳健运行保持信心",
-        "希荻微(688173.SH)：公司车规芯片产品已进入中、欧、日、韩各大汽车品牌供应链体系",
-        "希荻微(688173.SH)：公司目前不存在对公司生产经营及财务报表产生重大不利影响的境内外重大诉讼、仲裁事项",
-        "希荻微(688173.SH)：公司电源转换芯片已成功切入工业机器人领域并实现供货"
-      ],
-      "urls": [
-        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfuza9332541.shtml",
-        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfuyw5959674.shtml",
-        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfuyz2679955.shtml",
-        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfuyz2679956.shtml",
-        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfuyz2684471.shtml",
-        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfuyz2684424.shtml"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "中國晶片出口翻倍展現貿易韌性",
-      "score": 70,
-      "tags": [
-        "降低外依",
-        "供應鏈"
-      ],
-      "reason": "資料證實國產替代成效，打破制裁預期。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 21:01:11",
-      "titles": [
-        "31.2%的增速与芯片出口翻倍：中国外贸的韧性与变量"
-      ],
-      "urls": [
-        "https://cj.sina.cn/articles/view/1651428902/626ece2602001lk78"
-      ],
-      "sources": [
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "光刻機巨頭缺席進博會",
-      "score": 70,
-      "tags": [
-        "出口管制",
-        "降低外依"
-      ],
-      "reason": "反映地緣政治對裝置供應鏈影響",
-      "coherent": false,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 14:00:11",
-      "titles": [
-        "与内部会议冲突，光刻机巨头缺席进博"
-      ],
-      "urls": [
-        "https://www.guancha.cn/CaiJing/2026_11_09_907562.shtml"
-      ],
-      "sources": [
-        "guancha"
-      ]
-    },
-    {
-      "event": "半導體裝置商業績高增",
-      "score": 68,
-      "tags": [
-        "國產替代",
-        "擴產投資"
-      ],
-      "reason": "多家公司業績增長，反映國產裝置滲透率提升。",
-      "coherent": false,
-      "size": 57,
-      "max_crawled_at": "2026-11-10 21:31:11",
-      "titles": [
-        "沐曦股份-U(688802)：单季收入超上半年 经营杠杆兑现扣非高增",
-        "长电科技(600584)：产品结构优化推动盈利高增 全年资本开支上调",
-        "华海清科(688120)：新产品研发迭代&市场拓展推进顺畅 营收&利润同环比双双齐升",
-        "仕佳光子(688313)：业绩快速增长 定增扩产强化有源+无源一体化优势",
-        "拓荆科技(688072)：先进制程设备量产成果突出 盈利能力显著增强",
-        "源杰科技(688498)：芯片放量扣非高增 产能布局夯实成长基础",
-        "艾森股份(688720)：业绩稳健增长 公司毛利率稳步提升",
-        "华润微(688396)：行业景气度向好 在手订单充足",
-        "电子行业周报：华虹宏力Q3产能满载量价齐升 苹果FY2026全年业绩创新高",
-        "【银河电子高峰】半导体行业周点评丨前瞻调整触底，关注国产算力链",
-        "并表首季即交超预期答卷，华虹宏力(01347)如何借AI与国产替代重再塑增长逻辑？",
-        "兆易创新(603986)：存储量价齐升 单季扣非净利润环比大幅增长",
-        "北方华创(002371)：订单持续高增 先进制程突破与平台化布局持续深化",
-        "通富微电(002156)：业绩高增延续 中高端封测量价景气向上",
-        "国产AI芯片进入业绩兑现期，现在布局晚不晚？",
-        "华虹宏力前三季盈利16亿翻倍增长 行业景气预计四季度毛利率超25%",
-        "芯原股份在手订单185.7亿增49.2% 营收涨41%预计2027年经调整净利转正",
-        "批量飙涨！5000亿大单催化！",
-        "ROE几乎归零！消费电子零组件从“应收飙升”到“盈利转化失效”",
-        "半导体材料业务布局成效显著 TCL中环进入兑现期",
-        "算力板块反弹！燧原科技市值一度重返2000亿，国产芯片迈入规模化部署",
-        "硅片进入新一轮上行周期，TCL中环停牌加码收购中环领先",
-        "兆易创新：存储景气，大赚110亿，繁荣之下藏着一道硬考题",
-        "赚足110亿红利后，兆易创新能否跳出存储的钟摆？",
-        "台积电：十月营收增六成，环比还在加速",
-        "中科飞测(688361)：订单增长明显提速 明暗场突破加速兑现",
-        "国产AI芯片大涨，真的能替代海外高端GPU吗？",
-        "模拟芯片回暖，工业最先动了",
-        "三环集团豪掷10亿再回购！MLCC量价齐升，AI带火电子陶瓷",
-        "敏芯股份：11月3日召开分析师会议，东吴证券、东北证券等多家机构参与",
-        "摩尔线程沐曦都扭亏了，国产GPU赛道真的稳了吗？",
-        "多重因素共振“果链”三巨头三季度业绩出现分化",
-        "国产AI芯片出货大涨，为啥毛利率还在下滑？",
-        "燧原科技和寒武纪比，谁的长期发展潜力更大呀？",
-        "领益智造：回购均价12.9，现价11.6，这中间差的是什么？",
-        "利润表里的“新”主角：  高技术制造撑起A股盈利增长",
-        "英伟达份额下滑，是管制还是国产真的起来了？",
-        "威胜信息(688100)2026年三季报点评：Q3业绩经营回暖 在手订单储备充足+重视股东回报",
-        "单季营收15亿，沐曦的“成人礼”",
-        "进博·江苏时刻丨2026进博会中国馆“唯一”国产GPU展新品",
-        "华虹宏力：无锡三期项目投资规模大，引入其他少数股东是完成项目公司整体资本架构搭建的既定步骤",
-        "周期底部的两笔账：通威股份的单季减亏与48亿并购",
-        "加码、并购，TCL中环的危机解除了吗？",
-        "中移动千亿算力投资规划出炉！算力芯片板块获催化，寒武纪等大涨",
-        "港股异动 | 华虹宏力(01347)午后涨超3% 量价齐升叠加华力微并表 三季度业绩显著超指引",
-        "港股异动 | 华虹宏力(01347)涨超5% 第三财季业绩强劲 机构看好公司有望受益新结构性增长机会"
-      ],
-      "urls": [
-        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/847492290233/index.phtml",
-        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/847488798765/index.phtml",
-        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/847561921364/index.phtml",
-        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/847637520135/index.phtml",
-        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/847644897717/index.phtml",
-        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/847569158744/index.phtml",
-        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/847535246694/index.phtml",
-        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/847549911687/index.phtml",
-        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/847594844496/index.phtml",
-        "https://finance.sina.com.cn/stock/stockzmt/2026-11-10/doc-iniyexvh6092353.shtml",
-        "https://finance.sina.com.cn/stock/stockzmt/2026-11-10/doc-iniyexvh6092353.shtml",
-        "https://finance.sina.com.cn/stock/stockzmt/2026-11-10/doc-iniyexvh6092353.shtml",
-        "https://finance.sina.com.cn/stock/stockzmt/2026-11-10/doc-iniyexvh6092353.shtml",
-        "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-10/doc-iniyfuyy2647478.shtml",
-        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/847642941043/index.phtml",
-        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/847595722113/index.phtml",
-        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/847592186607/index.phtml",
-        "https://cj.sina.cn/articles/view/9185131959/22379fdb707201bwko",
-        "https://finance.sina.com.cn/roll/2026-11-09/doc-iniyauwe3082075.shtml",
-        "https://finance.sina.com.cn/roll/2026-11-09/doc-iniyauwa6433863.shtml",
-        "https://t.cj.sina.cn/articles/view/6724296984/190cca11801901ervw",
-        "https://cj.sina.cn/articles/view/1733583753/6754638902701eygs",
-        "https://cj.sina.cn/articles/view/1733583753/6754638902701eygs",
-        "https://cj.sina.cn/articles/view/1733583753/6754638902701eygs",
-        "https://cj.sina.cn/articles/view/7651844612/1c815e2040200228ms",
-        "https://www.chinastarmarket.cn/detail/2530682",
-        "https://cj.sina.cn/articles/view/7651844612/1c815e2040200225x4",
-        "https://cj.sina.cn/articles/view/5307552992/13c5ad4e000102s31u",
-        "https://finance.sina.com.cn/stock/s/2026-11-10/doc-iniyfzhw2638868.shtml",
-        "https://www.36kr.com/p/4063527523734665",
-        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/847595722071/index.phtml",
-        "https://cj.sina.cn/articles/view/8377927982/1f35d092e07201d86y",
-        "https://cj.sina.cn/articles/view/8377927982/1f35d092e07201d86y",
-        "https://www.36kr.com/p/4062359799714689",
-        "https://fiber.ofweek.com/2026-11/ART-210001-12003-30710962.html",
-        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002myz8",
-        "https://cj.sina.cn/articles/view/8411466186/1f55cc9ca072053jv0",
-        "https://cj.sina.cn/articles/view/8411466186/1f55cc9ca072053jv0",
-        "https://cj.sina.cn/articles/view/8411466186/1f55cc9ca072053jv0",
-        "https://cj.sina.cn/articles/view/7517400647/1c0126e4705909e7fq",
-        "https://cj.sina.cn/articles/view/9003135093/218a0f07507201it7u",
-        "https://cj.sina.cn/articles/view/9003135093/218a0f07507201it7u",
-        "https://cj.sina.cn/articles/view/8312916113/1ef7d089107201pgkw",
-        "https://robot.ofweek.com/2026-11/ART-8321201-12003-30710828.html",
-        "https://cj.sina.cn/articles/view/7517400647/1c0126e4705909e768",
-        "https://cj.sina.cn/articles/view/4016045819/ef5ffefb07201c9x6",
-        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/847530129376/index.phtml",
-        "https://cj.sina.cn/articles/view/1193725273/4726cd5902702s3vy",
-        "https://cj.sina.cn/articles/view/1193725273/4726cd5902702s3vy",
-        "https://cj.sina.cn/articles/view/1193725273/4726cd5902702s3vy",
-        "https://t.cj.sina.cn/articles/view/5675440730/152485a5a020028vj0",
-        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002mytg",
-        "https://cj.sina.cn/articles/view/7981264327/1dbb86dc7001016n8w",
-        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfzhx2640321.shtml",
-        "https://finance.sina.com.cn/jjxw/2026-11-09/doc-iniycfna6615245.shtml",
-        "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-09/doc-iniycmtw2922976.shtml",
-        "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-10/doc-iniyfkmh9376008.shtml"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "chinastarmarket",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "36kr",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "36kr",
-        "ofweek_fiber",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "ofweek_robot",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "全球儲存三季報業績創新高",
-      "score": 65,
-      "tags": [
-        "半導體"
-      ],
-      "reason": "行業景氣度高漲，長鑫等國產廠商受益。",
-      "coherent": false,
-      "size": 24,
-      "max_crawled_at": "2026-11-10 20:30:11",
-      "titles": [
-        "高景气度持续 全球存储三季报业绩再创新高",
-        "佰维存储、德明利等净利润创新高A股存储行业高景气或将延续",
-        "长鑫产能陆续放量，会直接终结存储超级周期吗？",
-        "澜起科技(688008)：DDR5高子代放量驱动业绩高增 CXL内存池化打开成长空间",
-        "长鑫科技市值回调，存储超级周期不香了吗？",
-        "存储股，怎么就成了最先被抛弃的AI资产？|【经纬低调分享】",
-        "长鑫科技(688825)：制程节点及产品结构优化 国产替代空间广阔*张天",
-        "内存厂商增产是做HBM还是普通DRAM啊有人知道不？",
-        "定焦数码曝部分内存厂商将增产，DDR5明年能降价不？",
-        "2028年9家DRAM供应商并存，三巨头格局要破了？",
-        "存储涨价传导至终端 A股模组厂利润与现金流分化",
-        "澜起科技(688008.SH)：从更长期的角度来看内存互连芯片市场规模还将进一步增长",
-        "内存墙难题下，资本盯上3D DRAM，信号很明显",
-        "存储股市盈率才个位数，超级周期是假的吗？",
-        "华为新型存储系统即将启动试商用，温冷数据存储成为新战场",
-        "从AI PC到智能穿戴，江波龙端侧AI布局全梳理",
-        "台积电BEOL内存杀到！0.017平方微米单元面积硬刚3D DRAM：官方否认背后暗藏玄机",
-        "澜起科技(688008.SH)：今年9月公司DDR5第五子代RCD芯片量产",
-        "澜起科技(688008.SH)：PCIe 6.x Retimer芯片成功列入PCI-SIG供应商名录"
-      ],
-      "urls": [
-        "https://cj.sina.cn/articles/view/7517400647/1c0126e4705909e7g8",
-        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyepfr3044267.shtml",
-        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyepfr3044267.shtml",
-        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyepfr3044267.shtml",
-        "https://cj.sina.cn/articles/view/8375502426/1f338065a07201xpje",
-        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/847559032589/index.phtml",
-        "https://cj.sina.cn/articles/view/4019130018/ef8f0ea207201ob0a",
-        "https://finance.sina.com.cn/tech/csj/2026-11-09/doc-iniycfmy2989371.shtml",
-        "https://finance.sina.com.cn/tech/csj/2026-11-09/doc-iniycfmy2989371.shtml",
-        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/847551660108/index.phtml",
-        "https://cj.sina.cn/articles/view/4020192822/ef9f46360720181dq",
-        "https://cj.sina.cn/articles/view/9106373080/21ec839d807201iw2g",
-        "https://cj.sina.cn/articles/view/9003135093/218a0f07507201irci",
-        "https://finance.sina.com.cn/stock/aigcy/2026-11-10/doc-iniyfzhu5901951.shtml",
-        "https://finance.sina.com.cn/stock/aigcy/2026-11-10/doc-iniyfzhu5901951.shtml",
-        "https://finance.sina.com.cn/stock/aigcy/2026-11-10/doc-iniyfzhu5901951.shtml",
-        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfuza9298282.shtml",
-        "https://t.cj.sina.cn/articles/view/1960136440/74d54ef802708ubd2",
-        "https://cj.sina.cn/articles/view/8312916113/1ef7d089107201pgxq",
-        "https://www.yicai.com/news/103434870.html",
-        "https://t.cj.sina.cn/articles/view/5675440730/152485a5a020028ve0",
-        "https://tech.ifeng.com/c/8xrQJdoqQy8",
-        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfuyz2650090.shtml",
-        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfuyz2654017.shtml"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "yicai",
-        "sina_finance",
-        "ifeng",
-        "sina_finance",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "中科曙光首款無線纜箱式超節點量產",
-      "score": 65,
-      "tags": [
-        "AI算力",
-        "擴產投資"
-      ],
-      "reason": "核心亮點為新產品量產，推動算力基礎設施創新。",
-      "coherent": false,
-      "size": 6,
-      "max_crawled_at": "2026-11-10 09:01:11",
-      "titles": [
-        "中科曙光(603019.SH)：公司算力运营服务目前尚处于发展初期",
-        "中科曙光(603019.SH)：公司高端计算机产品具备一定通用性，可适配不同的芯片平台",
-        "中科曙光：11月5日进行路演，新华资产管理股份有限公司、太平洋资产管理有限责任公司等多家机构参与",
-        "中科曙光(603019.SH)：公司存储业务涵盖存储服务器等相关产品",
-        "中科曙光(603019.SH)：首款无线缆箱式超节点产品scaleX40自下半年起已进入逐步量产阶段",
-        "【会员资讯】全国首个海上算力联盟成立！中科曙光担任组长单位"
-      ],
-      "urls": [
-        "https://finance.sina.com.cn/stock/bxjj/2026-11-09/doc-iniycwiw3279797.shtml",
-        "https://finance.sina.com.cn/stock/bxjj/2026-11-09/doc-iniycwiu6500524.shtml",
-        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002mwdi",
-        "https://finance.sina.com.cn/stock/bxjj/2026-11-09/doc-iniycwiw3279804.shtml",
-        "https://finance.sina.com.cn/stock/bxjj/2026-11-09/doc-iniycwiw3276483.shtml",
-        "https://finance.sina.com.cn/roll/2026-11-09/doc-iniycfmy2979039.shtml"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "國常會首提完善資本市場穩市機制",
-      "score": 65,
-      "tags": [
-        "政策"
-      ],
-      "reason": "宏觀政策定調，影響科技股估值與融資環境。",
-      "coherent": false,
-      "size": 5,
-      "max_crawled_at": "2026-11-10 11:00:38",
-      "titles": [
-        "投行齐呼AI股跌过头！亚洲科技股强势反弹 韩股涨至熔断",
-        "财经早报丨国常会首提“完善资本市场稳市机制” ，黄仁勋承认出轨发布致英伟达全员信丨2026年11月9日",
-        "11月10日投资避雷针：特朗普称结束伊朗战争出现积极势头 布油重挫近6%",
-        "财经早报丨特朗普政府寻求中国帮助，外交部回应，黄仁勋陷出轨门中方驳斥“间谍论”丨2026年11月10日",
-        "韩股涨到熔断！长鑫科技大幅高开"
-      ],
-      "urls": [
-        "https://www.chinastarmarket.cn/detail/2529789",
-        "https://finance.sina.com.cn/stock/y/2026-11-09/doc-iniyauwk3415932.shtml",
-        "https://cj.sina.cn/articles/view/2868676035/aafc85c302001zj3e",
-        "https://finance.sina.com.cn/stock/y/2026-11-10/doc-iniyexvh6075147.shtml",
-        "https://cj.sina.cn/articles/view/1905628462/7195952e01901rmw0"
-      ],
-      "sources": [
-        "chinastarmarket",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "中國成功發射低軌衛星網",
-      "score": 65,
-      "tags": [
-        "擴產投資"
-      ],
-      "reason": "衛星網際網路基礎設施建設里程碑",
-      "coherent": true,
-      "size": 3,
-      "max_crawled_at": "2026-11-10 18:31:11",
-      "titles": [
-        "低轨29组卫星成功发射！卫星互联网概念获杠杆资金青睐(名单)",
-        "全中国造的卫星，为何没有美国SpaceX一家多？",
-        "我国成功发射卫星互联网低轨29组卫星-36氪"
-      ],
-      "urls": [
-        "https://cj.sina.cn/articles/view/1801487174/6b60834602003b4m4",
-        "https://www.36kr.com/p/4063427211842433",
-        "https://36kr.com/newsflashes/4061709955355520?f=rss"
-      ],
-      "sources": [
-        "sina_finance",
-        "36kr",
-        "36kr"
-      ]
-    },
-    {
-      "event": "高瓴智元中芯聚源合資投AI材料",
-      "score": 65,
-      "tags": [
-        "擴產投資",
-        "半導體"
-      ],
-      "reason": "頭部資本與半導體巨頭聯合投資關鍵材料。",
-      "coherent": true,
-      "size": 3,
-      "max_crawled_at": "2026-11-10 18:01:11",
-      "titles": [
-        "高瓴+智元+中芯聚源，投了一家北京AI材料公司",
-        "高瓴+智元+中芯聚源，联手投了AI+材料",
-        "算力需求驱动电子树脂走俏 技术迭代能力关乎业绩兑现成色"
-      ],
-      "urls": [
-        "https://finance.sina.com.cn/stock/t/2026-11-10/doc-iniyfzhy9240410.shtml",
-        "https://www.chinastarmarket.cn/detail/2529609",
-        "https://epaper.stcn.com/con/202611/09/content_2994162.html"
-      ],
-      "sources": [
-        "sina_finance",
-        "chinastarmarket",
-        "stcn"
-      ]
-    },
-    {
-      "event": "南大電ArF光刻膠業務順利推進",
-      "score": 65,
-      "tags": [
-        "國產替代",
-        "半導體"
-      ],
-      "reason": "關鍵材料突破，推動國產替代程序",
-      "coherent": true,
-      "size": 3,
-      "max_crawled_at": "2026-11-09 21:31:11",
-      "titles": [
-        "南大光电：ArF光刻胶业务正处于顺利推进中",
-        "南大光电：ArF光刻胶业务目前正处于顺利推进中",
-        "南大光电：ArF光刻胶业务顺利推进请关注相关披露"
-      ],
-      "urls": [
-        "https://finance.sina.com.cn/stock/relnews/dongmiqa/2026-11-09/doc-iniyears6385429.shtml",
-        "https://finance.sina.com.cn/stock/relnews/dongmiqa/2026-11-09/doc-iniyearu3161410.shtml",
-        "https://finance.sina.com.cn/stock/relnews/dongmiqa/2026-11-09/doc-iniyearu3161401.shtml"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "輝達設新門檻監控東南亞GPU",
-      "score": 65,
-      "tags": [
-        "出口管制",
-        "降低外依"
-      ],
-      "reason": "美國出口管制手段延伸至東南亞",
-      "coherent": false,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 10:00:38",
-      "titles": [
-        "英伟达被曝设新门槛！东南亚云厂商获认证需加入GPU监测"
-      ],
-      "urls": [
-        "https://cloud.ofweek.com/news/2026-11/ART-178804-8460-30710776.html"
-      ],
-      "sources": [
-        "ofweek_cloud"
-      ]
-    },
-    {
-      "event": "中國移動與智譜簽署合作協議",
-      "score": 60,
-      "tags": [
-        "AI算力",
-        "國產替代"
-      ],
-      "reason": "主線為央企與大模型公司合作，推動國產算力落地。",
-      "coherent": false,
-      "size": 14,
-      "max_crawled_at": "2026-11-10 14:01:11",
-      "titles": [
-        "全球主要云厂商收入总体保持增长，AI算力正在加速重构，创业板算力ETF嘉实(158056)聚焦AI算力基础设施产业链",
-        "中国移动与智谱签署合作协议 智谱(02513)早盘涨超10%",
-        "智谱午前涨逾4% 中国移动与智谱达成合作加速国产大模型规模化落地",
-        "全球AI算力侧投资加码有望驱动光通信板块延续高增长，通信ETF嘉实(159695)布局AI变革下的光通信投资机遇",
-        "机构：长期看好北美算力和国产AI算力产业链，通信ETF嘉实(159695)一键布局光通信产业链",
-        "国产算力需求持续增长，中国移动与智谱签署合作协议，关注云计算50ETF东方红",
-        "硬科技早报｜我国通信网技术新突破；姚顺雨称大模型护城河在产品层",
-        "海外光通信需求延续增长，创业板算力ETF嘉实(158056)一键布局算力硬件核心环节",
-        "这可能是国产AI最值得重视的一笔“生意”",
-        "港股异动 | 智谱(02513)早盘涨超6% 中国移动与智谱达成合作 加速国产大模型规模化落地",
-        "智谱的算力底牌，可能比模型更值钱",
-        "小K播早报|RTX 50系列显卡价格连涨后急跌 英伟达超7600万元货物离奇失踪",
-        "硬科技早报｜我国太空云迈向产业化；优必选瞄准百万台；谷歌推出新TPU"
-      ],
-      "urls": [
-        "https://cj.sina.cn/articles/view/5182171545/134e1a99902002le2w",
-        "https://cj.sina.cn/articles/view/7935425109/1d8fcfa5502001oxa8",
-        "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-09/doc-iniycfne3326745.shtml",
-        "https://cj.sina.cn/articles/view/6192937794/17120bb4202002wag0",
-        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyfkmh9405012.shtml",
-        "https://cj.sina.cn/articles/view/7651844612/1c815e2040200228l2",
-        "https://www.guancha.cn/CaiJing/2026_11_09_907576.shtml",
-        "https://cj.sina.cn/articles/view/5182171545/134e1a99902002lcpe",
-        "https://t.cj.sina.cn/articles/view/2209772264/83b672e8001024wy2",
-        "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-09/doc-iniyazcy6388350.shtml",
-        "https://t.cj.sina.cn/articles/view/5975018679/164238cb700103svaa",
-        "https://cj.sina.cn/articles/view/2868676035/aafc85c302001zhqy",
-        "https://cj.sina.cn/articles/view/2868676035/aafc85c302001zhqy",
-        "https://www.guancha.cn/CaiJing/2026_11_10_907703.shtml"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "guancha",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "guancha"
-      ]
-    },
-    {
-      "event": "聯想發布混合詞元工廠與算力叢集",
-      "score": 60,
+      "event": "螞蟻靈波機器人通用大腦學會共享手感",
+      "score": 40,
       "tags": [
         "AI算力"
       ],
-      "reason": "核心為聯想算力基礎設施發布，具產業影響力。",
-      "coherent": false,
-      "size": 4,
-      "max_crawled_at": "2026-11-10 20:30:11",
-      "titles": [
-        "词元工厂落子张家口，算力生意开始算经济账",
-        "企业低成本安全用AI怎么选：混合词元工厂的降本逻辑与选型要点",
-        "联想万全混合词元工厂发布：明年建成15000P异构算力集群",
-        "刘庆峰交出科大讯飞半张AI答卷"
-      ],
-      "urls": [
-        "https://www.yicai.com/news/103434836.html",
-        "https://t.cj.sina.cn/articles/view/7624285856/1c6715ea002002i8t0",
-        "https://tech.ifeng.com/c/8xudyEAd94B",
-        "https://cloud.ofweek.com/news/2026-11/ART-178803-12003-30710882.html"
-      ],
-      "sources": [
-        "yicai",
-        "sina_finance",
-        "ifeng",
-        "ofweek_cloud"
-      ]
-    },
-    {
-      "event": "黃仁勛反對全面限制對華AI晶片出口",
-      "score": 60,
-      "tags": [
-        "降低外依"
-      ],
-      "reason": "美方內部爭議，短期內政策不確定性增加。",
+      "reason": "AI演算法突破，提升機器人產業技術上限。",
       "coherent": false,
       "size": 2,
-      "max_crawled_at": "2026-11-10 14:01:11",
+      "max_crawled_at": "2026-11-10 18:31:11",
       "titles": [
-        "领先中国数年！黄仁勋反对全面限制对华AI芯片出口：美国应以竞争而非退出市场取胜",
-        "爆买48亿美元，黄乐到底怎么做到的？"
+        "蚂蚁灵波又放大招！机器人通用大脑学会共享“手感”",
+        "Fable 5.2睁眼拼魔方，中国AI闭眼搓麻将！人类“手感”首次Token化"
       ],
       "urls": [
-        "https://tech.ifeng.com/c/8xscDIQFBSi",
-        "https://tech.ifeng.com/c/8xudyEAd94T"
+        "https://tech.ifeng.com/c/8xwWHjCqfXY",
+        "https://tech.ifeng.com/c/8xugZ5rMQGr"
       ],
       "sources": [
         "ifeng",
@@ -1035,248 +1734,52 @@
       ]
     },
     {
-      "event": "北京公司斥資9億購算力",
-      "score": 60,
+      "event": "中國晶片IPO市場表現兩極",
+      "score": 40,
       "tags": [
-        "擴產投資",
-        "AI算力"
-      ],
-      "reason": "具體大額算力基礎設施採購",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 18:01:11",
-      "titles": [
-        "两连板后，北京公司突然公告9.12亿算力采购大单"
-      ],
-      "urls": [
-        "https://www.ofweek.com/ai/2026-11/ART-201714-8120-30711183.html"
-      ],
-      "sources": [
-        "ofweek_ai"
-      ]
-    },
-    {
-      "event": "光晶片公司出貨量全球第二擬IPO",
-      "score": 60,
-      "tags": [
-        "半導體",
-        "擴產投資"
-      ],
-      "reason": "車載光晶片領域龍頭上市融資",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 18:01:11",
-      "titles": [
-        "出货9亿颗、车载全球第二！这家光芯片公司要IPO了"
-      ],
-      "urls": [
-        "https://fiber.ofweek.com/2026-11/ART-8100-2100-30710992.html"
-      ],
-      "sources": [
-        "ofweek_fiber"
-      ]
-    },
-    {
-      "event": "富創精密各基地產能持續爬坡",
-      "score": 60,
-      "tags": [
-        "擴產投資",
         "半導體"
       ],
-      "reason": "裝置廠產能擴張，支撐國產製造鏈",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 20:01:11",
-      "titles": [
-        "富创精密(688409.SH)：南通及北京等各基地持续产能爬坡，前期新基地投产初期产能利用率偏低属于阶段性特征"
-      ],
-      "urls": [
-        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyhfqw9164779.shtml"
-      ],
-      "sources": [
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "華虹宏力繼續負責無錫三期",
-      "score": 60,
-      "tags": [
-        "擴產投資"
-      ],
-      "reason": "確認無錫三期專案經營權，涉及半導體擴產。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 20:30:11",
-      "titles": [
-        "华虹宏力：仍为无锡华虹宏力三期半导体的控股股东，将继续负责无锡三期项目的日常经营"
-      ],
-      "urls": [
-        "https://wap.cj.sina.cn/pc/7x24/5206233"
-      ],
-      "sources": [
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "寶馬新增三星LG為電池供應商",
-      "score": 58,
-      "tags": [
-        "降低外依"
-      ],
-      "reason": "車企供應鏈多元化，衝擊國產電池份額。",
-      "coherent": false,
-      "size": 18,
-      "max_crawled_at": "2026-11-10 21:31:11",
-      "titles": [
-        "韩系电池抢宝马欧美订单，国产电池厂还有机会吗？",
-        "宝马拉三星LG供欧美电芯，是想降低对华电池依赖？",
-        "宝马欧美新增三星LG供应商，会冲击宁德时代的份额吗？",
-        "宝马欧洲新增三星SDI供货，亿纬锂能订单会缩水吗？",
-        "宝马扩大电池采购布局，新增三星与LG为供应商",
-        "超11GWh、81亿大单落袋！多家储能大厂密集签约",
-        "储能行业的繁荣，为什么没有带来普遍的高利润？",
-        "所谓“锂电限产”，到底卡住了谁？从三季报看动力电池供给侧的“冰与火”",
-        "宝马电芯供应商变多了，后期维修会不会更麻烦？",
-        "有产线开工率不足3成，设备商转行AI，储能的苦日子来了",
-        "亿纬206GWh大单背后, 国轩、比亚迪也在中东市场掘金, 储能出海是否形成“供应商名单固化”？",
-        "锂电巨头再度斩获大众定点！",
-        "市场放量，钠电储能终于迈进\"明算账\"时代",
-        "芯报丨金刚光伏：子公司签署不超15.36亿元算力云服务合同",
-        "储能企业加速入局AIDC赛道"
-      ],
-      "urls": [
-        "https://cj.sina.cn/articles/view/8379156093/1f36fc67d07201j3ds",
-        "https://cj.sina.cn/articles/view/8268554532/1ecd8212407201xw0s",
-        "https://cj.sina.cn/articles/view/9100016833/21e673cc107201oi1q",
-        "https://cj.sina.cn/articles/view/9052953228/21b991a8c07201ucna",
-        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfkmh9434416.shtml",
-        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfzhy9262464.shtml",
-        "https://cj.sina.cn/articles/view/7294209083/1b2c4cc3b00101xm0c",
-        "https://cj.sina.cn/articles/view/7294209083/1b2c4cc3b00101xm0c",
-        "https://cj.sina.cn/articles/view/7294209083/1b2c4cc3b00101xm0c",
-        "https://libattery.ofweek.com/2026-11/ART-36008-8500-30711072.html",
-        "https://cj.sina.cn/articles/view/8268554532/1ecd8212407201xw0y",
-        "https://www.36kr.com/p/4062468447540357",
-        "https://libattery.ofweek.com/2026-11/ART-36001-12003-30710787.html",
-        "https://chuneng.ofweek.com/news/2026-11/ART-180220-12003-30710840.html",
-        "https://libattery.ofweek.com/2026-11/ART-36002-8120-30710832.html",
-        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyhfqw9204620.shtml",
-        "https://libattery.ofweek.com/2026-11/ART-36001-8440-30710764.html",
-        "https://cj.sina.cn/articles/view/2311077472/89c03e6002002q3vs"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "ofweek_battery",
-        "sina_finance",
-        "36kr",
-        "ofweek_battery",
-        "ofweek_energy_storage",
-        "ofweek_battery",
-        "sina_finance",
-        "ofweek_battery",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "惠科H7專案踩剎車",
-      "score": 55,
-      "tags": [
-        "降低外依"
-      ],
-      "reason": "面板產能擴張受阻，反映裝置獲取難題。",
-      "coherent": false,
-      "size": 2,
-      "max_crawled_at": "2026-11-10 18:01:11",
-      "titles": [
-        "千亿韩元级设备订单卡住，惠科H7踩刹车",
-        "京东方撬开苹果OLED门缝，第二供应商能走多远？"
-      ],
-      "urls": [
-        "https://display.ofweek.com/2026-11/ART-8100-2300-30711179.html",
-        "https://display.ofweek.com/2026-11/ART-8100-2300-30710993.html"
-      ],
-      "sources": [
-        "ofweek_display",
-        "ofweek_display"
-      ]
-    },
-    {
-      "event": "中國AI轉向工業系統應用",
-      "score": 55,
-      "tags": [
-        "AI算力"
-      ],
-      "reason": "AI產業化路徑的重要戰略調整",
+      "reason": "資本市場波動，反映行業投資情緒分化",
       "coherent": false,
       "size": 1,
-      "max_crawled_at": "2026-11-09 20:01:11",
+      "max_crawled_at": "2026-11-10 13:01:11",
       "titles": [
-        "Beyond LLMs? China forges new path for AI with focus on industrial systems"
+        "As 1 mainland Chinese chip IPO soars, another stumbles in busy Hong Kong week"
       ],
       "urls": [
-        "https://www.scmp.com/tech/tech-trends/article/3373822/beyond-llms-china-forges-new-path-ai-focus-industrial-systems"
+        "https://www.scmp.com/business/companies/article/3373886/1-mainland-chinese-chip-ipo-soars-another-stumbles-busy-hong-kong-week"
       ],
       "sources": [
         "scmp"
       ]
     },
     {
-      "event": "海光資訊客戶銷售雙軌擴張",
-      "score": 55,
+      "event": "15萬噸新型鋰鹽專案落地江西",
+      "score": 40,
       "tags": [
-        "國產替代",
-        "AI算力"
+        "擴產投資"
       ],
-      "reason": "國產CPU/DCU龍頭銷售增長，反映自主可控成效。",
+      "reason": "電池材料擴產，屬新能源供應鏈環節。",
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-09 18:01:11",
+      "max_crawled_at": "2026-11-10 12:01:11",
       "titles": [
-        "海光信息客户销售呈双轨扩张：头部采购贡献主要增量，其他收入持续增长"
+        "15万吨新型锂盐LiFSI原料项目落地江西"
       ],
       "urls": [
-        "https://finance.sina.com.cn/stock/observe/2026-11-09/doc-iniycrzw6522889.shtml"
+        "https://libattery.ofweek.com/2026-11/ART-36002-8110-30711073.html"
       ],
       "sources": [
-        "sina_finance"
+        "ofweek_battery"
       ]
     },
     {
-      "event": "北京支援超節點伺服器等新技術",
-      "score": 55,
-      "tags": [
-        "政策",
-        "擴產投資"
-      ],
-      "reason": "地方產業政策，推動AI基礎設施建設",
-      "coherent": false,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 10:31:11",
-      "titles": [
-        "北京支持超节点服务器、AI终端等新技术新产品！端侧AI概念震荡拉升，日海智能4天2板"
-      ],
-      "urls": [
-        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyfeck9478233.shtml"
-      ],
-      "sources": [
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "立訊精密成立光通訊技術公司",
-      "score": 55,
+      "event": "立訊精密成立含光通訊裝置製造公司",
+      "score": 40,
       "tags": [
         "擴產投資"
       ],
-      "reason": "EMS龍頭佈局光通訊，屬供應鏈擴充套件與投資。",
+      "reason": "龍頭擴產，但屬常規業務延伸。",
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-11-10 11:00:38",
@@ -1291,489 +1794,33 @@
       ]
     },
     {
-      "event": "艾為電子擬收購鈺泰股份控股權",
-      "score": 50,
-      "tags": [
-        "擴產投資"
-      ],
-      "reason": "模擬晶片領域併購，整合產業資源。",
-      "coherent": true,
-      "size": 23,
-      "max_crawled_at": "2026-11-10 21:01:11",
-      "titles": [
-        "艾为电子：筹划发行股份及支付现金购买钰泰股份控股权，股票自2026年11月10日起停牌",
-        "艾为电子(688798.SH)筹划购买钰泰股份股权 股票停牌",
-        "艾为电子：筹划购买钰泰股份的股权 10日起停牌",
-        "艾为电子：关于筹划发行股份及支付现金购买资产并募集配套资金事项的停牌公告",
-        "艾为电子：筹划购买钰泰股份股权 股票停牌",
-        "艾为电子(688798.SH)：拟收购钰泰股份的全部或部分股权 股票停牌",
-        "艾为电子筹划收购钰泰股份 11月10日起停牌",
-        "艾为电子：筹划购买钰泰半导体控股权 股票和可转债10日起停牌",
-        "艾为电子筹划收购钰泰半导体股权  11月10日起停牌",
-        "筹划重大资产重组，艾为电子拟收购钰泰股份控股权，明起停牌",
-        "拟重大资产重组，加码半导体芯片，艾为电子明日停牌",
-        "明日停牌！688798公告：拟重大资产重组",
-        "688798停牌重组！看中拟IPO公司",
-        "重大资产重组！688798，拟收购半导体公司，明起停牌",
-        "艾为电子，拟收购钰泰",
-        "艾为电子筹划收购钰泰股份股权 标的二股东为圣邦股份 SK海力士、传音曾参投",
-        "圣邦股份收购未果、两次IPO折戟，钰泰股份拟“卖身”艾为电子",
-        "艾为电子：筹划发行股份及支付现金购买钰泰股份控股权，股票自2026年11月10日...",
-        "拓荆科技一日双重磅：3亿元回购落地，25亿元并购获受理",
-        "拓荆科技收购无锡尚积申请获上交所受理 3亿元回购方案实施完毕"
-      ],
-      "urls": [
-        "https://finance.sina.com.cn/jjxw/2026-11-09/doc-iniycwiu6460263.shtml",
-        "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-09/doc-iniycwiu6505160.shtml",
-        "https://finance.sina.com.cn/roll/2026-11-09/doc-iniycwiu6498613.shtml",
-        "https://cj.sina.cn/articles/view/2311077472/89c03e6002002q3ow",
-        "https://cj.sina.cn/articles/view/2868676035/aafc85c302001zij0",
-        "https://finance.sina.com.cn/stock/bxjj/2026-11-09/doc-iniycwiw3233125.shtml",
-        "https://cj.sina.cn/articles/view/7935425109/1d8fcfa5502001owe0",
-        "https://finance.sina.com.cn/jjxw/2026-11-09/doc-iniycwiw3246190.shtml",
-        "https://cj.sina.cn/articles/view/2311077472/89c03e6002002q3j8",
-        "https://finance.sina.com.cn/roll/2026-11-09/doc-iniycwiw3257943.shtml",
-        "https://finance.sina.com.cn/jjxw/2026-11-09/doc-iniyears6427837.shtml",
-        "https://finance.sina.com.cn/jjxw/2026-11-09/doc-iniyehxt3125987.shtml",
-        "https://cj.sina.cn/articles/view/1905628462/7195952e01901rmsc",
-        "https://finance.sina.com.cn/stock/zqgd/2026-11-09/doc-iniycwiw3274217.shtml",
-        "https://finance.sina.com.cn/roll/2026-11-09/doc-iniyears6401656.shtml",
-        "https://www.chinastarmarket.cn/detail/2529479",
-        "https://cj.sina.cn/articles/view/2868676035/aafc85c302001zipu",
-        "https://cj.sina.cn/articles/view/2868676035/aafc85c302001zipu",
-        "https://cj.sina.cn/articles/view/5617041192/14ecd3f2802001rjuw",
-        "https://cj.sina.cn/articles/view/5617041192/14ecd3f2802001rjuw",
-        "https://wap.cj.sina.cn/pc/7x24/5203439",
-        "https://finance.sina.com.cn/roll/2026-11-09/doc-iniycwiu6438683.shtml",
-        "https://finance.sina.com.cn/roll/2026-11-09/doc-iniycfmw6366258.shtml"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "chinastarmarket",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "啟元機器人破萬臺",
-      "score": 50,
-      "tags": [
-        "擴產投資"
-      ],
-      "reason": "個人機器人量產突破，具產業指標性。",
-      "coherent": false,
-      "size": 13,
-      "max_crawled_at": "2026-11-10 20:30:11",
-      "titles": [
-        "消防员扛着“救火机器人”躲雨，机器人闹的笑话不能只当笑话看",
-        "当机器人遇上中国制造：49天造出10000台个人机器人",
-        "14天从5000到10000台 启元机器人叩开“个人机器人时代”大门",
-        "上纬新材启元机器人破万台：98%月活率，消费级跑通了？",
-        "中美具身大脑对决: 身体已经赢了，大脑还在赛跑",
-        "机器人大泡沫正在破裂：IPO关了，借壳堵死",
-        "不造机器人的公司, 先赚到了具身智能的数据钱",
-        "机器人“大脑”进化的拐点，可能比想象中更近",
-        "宇树跟红杉都不想自己“努力”了？",
-        "具身智能迎来第一个资本寒冬",
-        "883亿上纬新材拿下机器人“大结果”，但前三季度由盈转亏",
-        "机器人行业卸下租赁“缓冲垫”",
-        "两星期下线5000台机器人 “昆山造”叩响家庭大门"
-      ],
-      "urls": [
-        "https://www.36kr.com/p/4063719311184772",
-        "https://t.cj.sina.cn/articles/view/5685329651/152df3ef300101nvbu",
-        "https://finance.sina.com.cn/roll/2026-11-09/doc-iniycfne3327522.shtml",
-        "https://robot.ofweek.com/2026-11/ART-898890-8420-30711096.html",
-        "https://robot.ofweek.com/2026-11/ART-8321205-8420-30710843.html",
-        "https://robot.ofweek.com/2026-11/ART-898890-8420-30710923.html",
-        "https://robot.ofweek.com/2026-11/ART-8321206-8420-30710892.html",
-        "https://epaper.stcn.com/con/202611/09/content_2994178.html",
-        "https://www.36kr.com/p/4060413725611654",
-        "https://www.36kr.com/p/4063422390227845",
-        "https://finance.sina.com.cn/stock/s/2026-11-10/doc-iniyhfqv2534444.shtml",
-        "https://robot.ofweek.com/2026-11/ART-8321206-8420-30710852.html",
-        "https://finance.sina.com.cn/jjxw/2026-11-09/doc-iniyazcy6402848.shtml"
-      ],
-      "sources": [
-        "36kr",
-        "sina_finance",
-        "sina_finance",
-        "ofweek_robot",
-        "ofweek_robot",
-        "ofweek_robot",
-        "ofweek_robot",
-        "stcn",
-        "36kr",
-        "36kr",
-        "sina_finance",
-        "ofweek_robot",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "夏農芯創自主品牌海普儲存量產",
-      "score": 50,
-      "tags": [
-        "國產替代"
-      ],
-      "reason": "自主儲存品牌進入規模銷售，具替代意義。",
-      "coherent": true,
-      "size": 6,
-      "max_crawled_at": "2026-11-10 13:01:11",
-      "titles": [
-        "香农芯创：公司自主品牌海普存储已进入大规模销售阶段",
-        "香农芯创(300475.SZ)：海普存储目前通过委外方式进行生产",
-        "投资者提问：公司海普自研存储模块目前处于批量供货阶段，请问现阶段产能爬坡节...",
-        "V观财报｜香农芯创：自主品牌“海普存储”已进入大规模销售阶段",
-        "香农芯创：公司目前客户主要系国内互联网云服务商和国内大型ODM企业",
-        "晶丰明源：高性能计算电源芯片产品线收入增长"
-      ],
-      "urls": [
-        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyfeci2794438.shtml",
-        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfech2793485.shtml",
-        "https://finance.sina.com.cn/stock/relnews/dongmiqa/2026-11-10/doc-iniyfeck9419337.shtml",
-        "https://t.cj.sina.cn/articles/view/5993531560/1653e08a802001qck6",
-        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002mx2u",
-        "https://finance.sina.com.cn/stock/relnews/dongmiqa/2026-11-09/doc-iniycmty6557059.shtml"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "富創精密在沈陽成立半導體公司",
-      "score": 50,
-      "tags": [
-        "擴產投資",
-        "半導體"
-      ],
-      "reason": "裝置廠佈局新基地，增強區域供應能力",
-      "coherent": false,
-      "size": 4,
-      "max_crawled_at": "2026-11-10 16:01:11",
-      "titles": [
-        "沈阳创启半导体科技有限公司成立，注册资本约1.9亿",
-        "富创精密在沈阳成立创启半导体科技公司 注册资本约1.9亿",
-        "紫光国微在无锡成立新半导体技术公司 注册资本1亿",
-        "紫光国微在无锡新设半导体技术公司"
-      ],
-      "urls": [
-        "https://wap.cj.sina.cn/pc/7x24/5205414",
-        "https://cj.sina.cn/articles/view/7317133861/1b4229a2502001j3d8",
-        "https://cj.sina.cn/articles/view/7317133861/1b4229a2502001j3fc",
-        "https://finance.sina.com.cn/jjxw/2026-11-09/doc-iniycrzu2878464.shtml"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "中國晶片廠商獲全球青睞",
-      "score": 50,
-      "tags": [
-        "國產替代"
-      ],
-      "reason": "反映國產晶片競爭力提升",
-      "coherent": false,
-      "size": 2,
-      "max_crawled_at": "2026-11-10 00:00:11",
-      "titles": [
-        "当年只能仰仗进口，十几年后，全球芯片大厂排队买他们造的"
-      ],
-      "urls": [
-        "https://t.cj.sina.cn/articles/view/7879923934/1d5ae18de02001ps6s",
-        "https://t.cj.sina.cn/articles/view/7879923934/1d5ae18de02001ps6s"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "復旦微電發布GREVO開發平臺",
-      "score": 50,
+      "event": "上海推進海洋感測器及智慧機器人研發",
+      "score": 40,
       "tags": [
         "科技自主",
-        "半導體"
+        "擴產投資"
       ],
-      "reason": "EDA工具自主化，提升設計效率",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-11-10 21:01:11",
-      "titles": [
-        "复旦微电正式发布可编程逻辑器件智能开发平台GREVO",
-        "复旦微电发布可编程逻辑器件智能开发平台GREVO"
-      ],
-      "urls": [
-        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfzhw2650294.shtml",
-        "https://wap.cj.sina.cn/pc/7x24/5206229"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "兆易創新與安波福戰略合作",
-      "score": 50,
-      "tags": [
-        "供應鏈"
-      ],
-      "reason": "國內晶片龍頭與國際Tier1合作，強化供應鏈連結。",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-11-09 09:31:11",
-      "titles": [
-        "兆易创新与安波福达成战略合作",
-        "安波福与兆易创新达成战略合作 推动汽车芯片产业链协同发展"
-      ],
-      "urls": [
-        "https://t.cj.sina.cn/articles/view/5182171545/134e1a99902002lc5e",
-        "https://finance.sina.com.cn/jjxw/2026-11-09/doc-iniyauwe3096542.shtml"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "立訊比亞迪承接富士康印度訂單",
-      "score": 50,
-      "tags": [
-        "供應鏈"
-      ],
-      "reason": "全球電子製造供應鏈重組例項",
+      "reason": "地方政策引導高階裝備研發，具戰略意義。",
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-09 15:30:11",
+      "max_crawled_at": "2026-11-10 17:30:11",
       "titles": [
-        "富士康印度工厂受阻，立讯比亚迪承接订单"
+        "上海：推进海洋传感器、海洋智能机器人、潜水器等关键装备研发应用"
       ],
       "urls": [
-        "https://t.cj.sina.cn/articles/view/1584526667/5e71f54b04003d3fy"
+        "https://www.chinastarmarket.cn/detail/2530373"
       ],
       "sources": [
-        "sina_finance"
+        "chinastarmarket"
       ]
     },
     {
-      "event": "AI算力帶動PCB量價齊升",
-      "score": 50,
-      "tags": [
-        "AI算力",
-        "供應鏈"
-      ],
-      "reason": "明確指出AI需求對上游PCB產業的實質推動。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 08:01:11",
-      "titles": [
-        "AI算力拉动订单高增，PCB产业链迎来量价齐升-36氪 - 36kr"
-      ],
-      "urls": [
-        "https://36kr.com/newsflashes/4063150280791172"
-      ],
-      "sources": [
-        "36kr"
-      ]
-    },
-    {
-      "event": "FD-SOI技術挑戰7nm製程優勢",
-      "score": 50,
-      "tags": [
-        "半導體",
-        "科技自主"
-      ],
-      "reason": "特色工藝技術探討，影響節點選擇策略",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 09:01:11",
-      "titles": [
-        "FD-SOI，挑战7nm，凭啥？"
-      ],
-      "urls": [
-        "https://www.36kr.com/p/4060442678957190"
-      ],
-      "sources": [
-        "36kr"
-      ]
-    },
-    {
-      "event": "神州半導體科創板IPO將上會",
-      "score": 45,
+      "event": "湖北楚能10月全球儲能電芯出貨增勢",
+      "score": 35,
       "tags": [
         "擴產投資"
       ],
-      "reason": "單一企業融資，對產業鏈影響有限。",
-      "coherent": false,
-      "size": 15,
-      "max_crawled_at": "2026-11-10 18:01:11",
-      "titles": [
-        "融了7轮的半导体独角兽，刚刚IPO了",
-        "刚刚，英专生干出一个半导体封测IPO，市值123亿港元",
-        "神州半导体科创板IPO上会在即 今年前三季度业绩已超去年全年",
-        "卓源亚洲再获IPO！芯德半导体登陆港股上市！",
-        "神州半导体科创板IPO将上会，三年营收复合增长58.31%",
-        "概伦电子三季报透视：并表重塑收入、结构决定拐点，“EDA+IP”平台化的首次检验",
-        "概伦电子，不想只做EDA工具",
-        "IPO雷达｜合同负债连降，冠礼科技的成长红利期还在吗？",
-        "山东城市观察 | 三子连落西海岸：青岛“强芯”进入补链时间",
-        "中国电子与AMD签下75亿大单",
-        "概伦电子(688206.SH)：公司持续推进 NanoDesigner 一体化定制芯片与 IP 设计平台建设",
-        "聚链成群落子有声，天津高新区藏着一个信创“引力场”"
-      ],
-      "urls": [
-        "https://www.36kr.com/p/4063565403985026",
-        "https://cj.sina.cn/articles/view/7310786248/1b3c1bec801901x0is",
-        "https://cj.sina.cn/articles/view/7310786248/1b3c1bec801901x0is",
-        "https://cj.sina.cn/articles/view/7310786248/1b3c1bec801901x0is",
-        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfkmh9410016.shtml",
-        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyfqta2744132.shtml",
-        "https://cj.sina.cn/articles/view/7651844612/1c815e204020022820",
-        "https://cj.sina.cn/articles/view/7514592249/1bfe793f9020020rnw",
-        "https://cj.sina.cn/articles/view/7514592249/1bfe793f9020020rnw",
-        "https://t.cj.sina.cn/articles/view/3856710564/e5e0bba401901x0f4",
-        "https://cj.sina.cn/articles/view/6192937794/17120bb4202002wa3i",
-        "https://t.cj.sina.cn/articles/view/6192937794/17120bb4202002was0",
-        "https://www.guancha.cn/CaiJing/2026_11_10_907789.shtml",
-        "https://finance.sina.com.cn/stock/bxjj/2026-11-09/doc-iniycrzy3239393.shtml",
-        "https://c.sina.com.cn/article/1800320207/qw3zqkcf6wx"
-      ],
-      "sources": [
-        "36kr",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "guancha",
-        "sina_finance",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "AI眼鏡產業鏈與歌爾佈局玻璃基板",
-      "score": 45,
-      "tags": [
-        "供應鏈"
-      ],
-      "reason": "涵蓋消費電子趨勢與單一公司佈局，非單一事件。",
-      "coherent": false,
-      "size": 6,
-      "max_crawled_at": "2026-11-10 21:01:11",
-      "titles": [
-        "AI眼镜加速迭代  产业链竞逐高频应用",
-        "市场复合年增长率超50%！AI眼镜走强，朝阳科技午后直线封板",
-        "大模型不缺脑子，缺身体：AI 眼镜会是爆品吗？",
-        "歌尔股份(002241)：入主佛智芯布局玻璃基板 AI时代大有可为"
-      ],
-      "urls": [
-        "https://cj.sina.cn/articles/view/5597884738/14da8f14202002aq1m",
-        "https://t.cj.sina.cn/articles/view/1651428902/626ece2602001ljuq",
-        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002my4i",
-        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002my4i",
-        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002my4i",
-        "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/847594048758/index.phtml"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "江豐電子獲深交所創業故事推介",
-      "score": 45,
-      "tags": [
-        "國產替代",
-        "半導體"
-      ],
-      "reason": "靶材龍頭獲認可，彰顯國產材料實力",
-      "coherent": true,
-      "size": 3,
-      "max_crawled_at": "2026-11-09 18:31:11",
-      "titles": [
-        "一块靶材的“争气”之路——江丰电子从“带鱼”厂房走向世界一流",
-        "创业故事丨从初创期8年亏损，到走向世界一流！江丰电子：一块靶材的“争气”之路",
-        "从“带鱼”厂房走向世界一流！江丰电子获深交所创业故事首批重磅推介"
-      ],
-      "urls": [
-        "https://finance.sina.com.cn/roll/2026-11-09/doc-iniyacys3739479.shtml",
-        "https://cj.sina.cn/articles/view/1664176597/633151d501901ntbo",
-        "https://finance.sina.com.cn/stock/s/2026-11-09/doc-iniycwiu6430085.shtml"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "瀾起科技看好AI互連需求",
-      "score": 45,
-      "tags": [
-        "半導體"
-      ],
-      "reason": "關鍵互連晶片市場前景明確",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-11-10 16:31:11",
-      "titles": [
-        "澜起科技称AI发展将带动算力存储及高速互连芯片需求持续增长",
-        "澜起科技：AI发展对算力、存储及高速互连芯片的需求将持续增长"
-      ],
-      "urls": [
-        "https://t.cj.sina.cn/articles/view/1644983660/620c756c02001xw4k",
-        "https://wap.cj.sina.cn/pc/7x24/5205563"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "湖北楚能10月儲能電芯出貨量升",
-      "score": 45,
-      "tags": [
-        "擴產投資"
-      ],
-      "reason": "市場份額變化，反映產業競爭格局",
+      "reason": "市場份額資料，反映行業地位但非重大事件。",
       "coherent": true,
       "size": 2,
       "max_crawled_at": "2026-11-10 19:01:11",
@@ -1790,341 +1837,235 @@
       ]
     },
     {
-      "event": "匯頂科技車規藍牙晶片商用",
-      "score": 45,
-      "tags": [
-        "國產替代"
-      ],
-      "reason": "車規級晶片實現商用，屬國產替代進展。",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-11-10 19:01:11",
-      "titles": [
-        "汇顶科技(603160.SH)：车规级低功耗蓝牙GR5405系列已在头部主机厂及Tier1供应链的十余款车型上实现商用",
-        "汇顶科技：车规级低功耗蓝牙GR5405系列已在十余款车型商用"
-      ],
-      "urls": [
-        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfzhu5871874.shtml",
-        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002myq2"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "上海儲存龍頭收購案引關注",
-      "score": 45,
+      "event": "200mm單晶金剛石晶圓問世",
+      "score": 35,
       "tags": [
         "半導體"
       ],
-      "reason": "儲存龍頭併購，涉及產業整合，但細節不足。",
+      "reason": "新材料技術突破，屬前沿探索",
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-10 11:31:11",
+      "max_crawled_at": "2026-11-10 08:01:11",
       "titles": [
-        "上海存储芯片龙头，2.47亿出手收购"
+        "全球首块200毫米单晶金刚石晶圆问世，或重塑半导体散热规则"
       ],
       "urls": [
-        "https://cj.sina.cn/articles/view/6517029999/18471fc6f00101im8s"
-      ],
-      "sources": [
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "字節跳動算力供應商擬IPO",
-      "score": 45,
-      "tags": [
-        "擴產投資"
-      ],
-      "reason": "AI算力供應鏈企業資本化，反映需求旺盛",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 19:01:11",
-      "titles": [
-        "字节的算力供应商，要IPO了"
-      ],
-      "urls": [
-        "https://tech.ifeng.com/c/8xusye8HgXv"
+        "https://tech.ifeng.com/c/8xusqsvwEIf"
       ],
       "sources": [
         "ifeng"
       ]
     },
     {
-      "event": "傑普特獲批13.73億定增",
-      "score": 45,
+      "event": "惠科面板裝置訂單受阻踩煞車",
+      "score": 35,
       "tags": [
-        "擴產投資"
+        "供應鏈"
       ],
-      "reason": "明確金額的定增融資，用於光通訊業務擴張。",
+      "reason": "顯示面板產線擴建受裝置影響",
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-09 18:01:11",
+      "max_crawled_at": "2026-11-10 18:01:11",
       "titles": [
-        "证监会批复落地！杰普特13．73亿元定增光通信"
+        "千亿韩元级设备订单卡住，惠科H7踩刹车"
       ],
       "urls": [
-        "https://fiber.ofweek.com/2026-11/ART-8100-2100-30710991.html"
+        "https://display.ofweek.com/2026-11/ART-8100-2300-30711179.html"
       ],
       "sources": [
-        "ofweek_fiber"
+        "ofweek_display"
       ]
     },
     {
-      "event": "寧德時代入股靈動佳芯",
-      "score": 45,
+      "event": "日本AI銅箔龍頭擴充HVLP4產能",
+      "score": 35,
       "tags": [
         "擴產投資"
       ],
-      "reason": "電池龍頭投資檢測技術，完善供應鏈佈局。",
+      "reason": "日商擴產，屬供應鏈外資動態，非國產替代。",
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-09 15:00:11",
+      "max_crawled_at": "2026-11-10 13:31:11",
       "titles": [
-        "宁德时代旗下问鼎投资入股灵动佳芯，后者已申请圆柱电芯无损检测专利"
+        "日本AI铜箔龙头加码高端产线 提出HVLP4产能翻倍计划"
       ],
       "urls": [
-        "https://cj.sina.cn/articles/view/7317133861/1b4229a2502001j2dq"
+        "https://www.chinastarmarket.cn/detail/2529895"
+      ],
+      "sources": [
+        "chinastarmarket"
+      ]
+    },
+    {
+      "event": "上海貝嶺推出內建ESD保護IGBT",
+      "score": 35,
+      "tags": [
+        "半導體"
+      ],
+      "reason": "產品迭代，屬常規技術更新，產業影響有限。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 16:31:11",
+      "titles": [
+        "从板级防护到器件级防护：上海贝岭推出内置 ESD 保护 IGBT"
+      ],
+      "urls": [
+        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfuyz2667654.shtml"
       ],
       "sources": [
         "sina_finance"
       ]
     },
     {
-      "event": "一塊屏的世界級突圍",
-      "score": 45,
-      "tags": [
-        "擴產投資"
-      ],
-      "reason": "顯示面板產業動態，具製造意義。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 07:31:11",
-      "titles": [
-        "一块屏的“世界级”突围"
-      ],
-      "urls": [
-        "https://t.cj.sina.cn/articles/view/7517400647/1c0126e4705909e6ly"
-      ],
-      "sources": [
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "聚燦光電擬15億定增擴產紅黃光",
-      "score": 40,
-      "tags": [
-        "擴產投資"
-      ],
-      "reason": "LED外延片擴產，屬電子製造但非半導體核心。",
-      "coherent": true,
-      "size": 28,
-      "max_crawled_at": "2026-11-10 17:30:11",
-      "titles": [
-        "聚灿光电拟定增募资不超15亿元 投向红黄光扩产与研发",
-        "聚灿光电拟定增募资不超过15亿元 加码红黄光芯片扩产与前沿技术研发",
-        "聚灿光电：拟定增募资不超15.00亿元，扩产红黄光外延片及芯片",
-        "聚灿光电拟15亿定增：扩产红黄光，布局光互连",
-        "聚灿光电(300708.SZ)拟定增募资不超15亿元 用于红黄光外延片及芯片扩产升级项目等",
-        "聚灿光电：拟定增募资不超过15亿元 用于红黄光外延片及芯片扩产升级项目等",
-        "聚灿光电拟定增募资不超15亿元 投向红黄光外延片扩产等项目",
-        "聚灿光电(300708.SZ)：拟定增募资不超过15亿元",
-        "[2026-11-10] 聚灿光电：2026年度向特定对象发行股票募集资金投资项目可行性分析报告",
-        "聚灿光电：拟定增募资不超15亿元 用于红黄光外延片及芯片扩产升级项目等",
-        "聚灿光电：拟定增募资不超15亿元",
-        "聚灿光电：拟定增募资不超过15亿元，用于高性能红黄光外延片及芯片扩产升级等项目",
-        "拟定增募资不超15亿元！苏州这家上市公司加码红黄光外延片及芯片",
-        "[2026-11-10] 聚灿光电：关于2026年度向特定对象发行股票不存在直接或通过利益相关方向参与认购的投资者提供财务资助或补偿的公告",
-        "[2026-11-10] 聚灿光电：关于2026年度向特定对象发行股票预案的提示性公告",
-        "[2026-11-10] 聚灿光电：关于公司2026年度向特定对象发行股票摊薄即期回报及采取填补回报措施的公告",
-        "[2026-11-10] 聚灿光电：2026年度向特定对象发行股票方案论证分析报告",
-        "聚灿光电拟不超15亿定增 近5年募18亿实控人累计套现2亿",
-        "[2026-11-10] 聚灿光电：关于最近五年不存在被证券监管部门和交易所处罚或采取监管措施情况的公告",
-        "聚灿光电：拟定增募资不超过15亿元用于年产300万片高性能红黄光外延片及芯片扩产...",
-        "[2026-11-10] 聚灿光电：关于公司未来三年(2026年-2028年)股东分红回报规划的公告",
-        "[2026-11-10] 聚灿光电：前次募集资金使用情况鉴证报告",
-        "[2026-11-10] 聚灿光电：前次募集资金使用情况专项报告",
-        "富瀚微：将力争在广阔的视觉芯片市场实现增长",
-        "富瀚微：公司认为未来视觉芯片市场空间广阔",
-        "富瀚微：该收益来自于被投企业的估值上升，并非已兑现收益",
-        "富瀚微：重视投资者回报 相关计划将依规及时披露",
-        "投资者提问：尊敬的公司领导：公司三季度业绩业绩暴涨，即便是剔除公允价值变动..."
-      ],
-      "urls": [
-        "https://cj.sina.cn/articles/view/2651473020/9e0a447c00104cbzs",
-        "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyfeci2816177.shtml",
-        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfeci2805750.shtml",
-        "https://cj.sina.cn/articles/view/5213369703/136bdb56701901sy6k",
-        "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-09/doc-iniyearv3233613.shtml",
-        "https://finance.sina.com.cn/roll/2026-11-09/doc-iniycwiw3253446.shtml",
-        "https://finance.sina.com.cn/stock/relnews/cn/2026-11-09/doc-iniyearv3214719.shtml",
-        "https://finance.sina.com.cn/stock/bxjj/2026-11-09/doc-iniycwix3289878.shtml",
-        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=300708&id=12698370",
-        "https://cj.sina.cn/articles/view/2868676035/aafc85c302001zik0",
-        "https://finance.sina.com.cn/roll/2026-11-09/doc-iniyearu3210256.shtml",
-        "https://cj.sina.cn/articles/view/7651844612/1c815e20402002273c",
-        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfece6023549.shtml",
-        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=300708&id=12698369",
-        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=300708&id=12698371",
-        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=300708&id=12698368",
-        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=300708&id=12698372",
-        "https://cj.sina.cn/articles/view/1663612603/6328b6bb020024x32",
-        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=300708&id=12698366",
-        "https://wap.cj.sina.cn/pc/7x24/5203522",
-        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=300708&id=12698367",
-        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=300708&id=12698365",
-        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=300708&id=12698364",
-        "https://finance.sina.com.cn/stock/relnews/dongmiqa/2026-11-10/doc-iniyfkmh9398333.shtml",
-        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002mxuc",
-        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002myhi",
-        "https://finance.sina.com.cn/stock/relnews/dongmiqa/2026-11-09/doc-iniyazee6677237.shtml",
-        "https://finance.sina.com.cn/stock/relnews/dongmiqa/2026-11-10/doc-iniyfuyw5969611.shtml"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_bulletin",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_bulletin",
-        "sina_bulletin",
-        "sina_bulletin",
-        "sina_bulletin",
-        "sina_finance",
-        "sina_bulletin",
-        "sina_finance",
-        "sina_bulletin",
-        "sina_bulletin",
-        "sina_bulletin",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "歐美AI基建面臨挑戰中國獲機遇",
-      "score": 40,
-      "tags": [
-        "降低外依"
-      ],
-      "reason": "宏觀競爭格局分析，非具體產業事件",
-      "coherent": false,
-      "size": 10,
-      "max_crawled_at": "2026-11-10 19:01:11",
-      "titles": [
-        "当美国无法建设数据中心，会对AI产生怎样的冲击",
-        "OpenAI 封号只是冰山一角：AI算力的“清算”正在华盛顿与华尔街同时展开",
-        "欧美AI基建大崩盘：算力之争转向成本战，中国AI的机会来了？",
-        "只看事实，不讲情绪，AI到底崩了没？",
-        "中美AI竞争胜负已分：多个州宣布停建数据中心",
-        "美国人正在反抗，用史无前例的行动抵制AI-36氪 - 36kr",
-        "“蓝潮”拖累AI基建扩张速度？知名科技分析师：这些存量算力巨头将受益！",
-        "超节点走向规模交付，算力军备升级了"
-      ],
-      "urls": [
-        "https://tech.ifeng.com/c/8xwXrLw7B9j",
-        "https://cloud.ofweek.com/news/2026-11/ART-178802-12003-30710939.html",
-        "https://www.36kr.com/p/4061936150582914",
-        "https://cloud.ofweek.com/news/2026-11/ART-178801-12003-30710998.html",
-        "https://cloud.ofweek.com/news/2026-11/ART-178801-8110-30710929.html",
-        "https://www.36kr.com/p/4061782055752836",
-        "https://tech.ifeng.com/c/8xugZ5rMQGo",
-        "https://www.chinastarmarket.cn/detail/2529825",
-        "https://cloud.ofweek.com/news/2026-11/ART-178804-8420-30711148.html",
-        "https://www.36kr.com/p/4062351932085382"
-      ],
-      "sources": [
-        "ifeng",
-        "ofweek_cloud",
-        "36kr",
-        "ofweek_cloud",
-        "ofweek_cloud",
-        "36kr",
-        "ifeng",
-        "chinastarmarket",
-        "ofweek_cloud",
-        "36kr"
-      ]
-    },
-    {
-      "event": "全志科技說明A735及6nm SOC情況",
-      "score": 40,
-      "tags": [
-        "國產替代"
-      ],
-      "reason": "旗艦SOC進展，但僅為公司說明，非重大擴產。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 21:01:11",
-      "titles": [
-        "全志科技：A735及6nm旗舰SOC相关情况说明"
-      ],
-      "urls": [
-        "https://finance.sina.com.cn/stock/relnews/dongmiqa/2026-11-10/doc-iniyhfqu2619022.shtml"
-      ],
-      "sources": [
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "openEuler推出Agent時延最佳化方案",
-      "score": 40,
+      "event": "安培龍獲壓電MEMS陀螺專利證書",
+      "score": 30,
       "tags": [
         "科技自主"
       ],
-      "reason": "作業系統技術迭代，服務AI應用場景",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 15:00:11",
+      "reason": "單一專利授權，技術壁壘體現但影響有限。",
+      "coherent": false,
+      "size": 8,
+      "max_crawled_at": "2026-11-10 17:01:11",
       "titles": [
-        "操作系统如何适配Agent时代？openEuler新方案来了，超节点OS大幅降低时延"
+        "安培龙：“压电MEMS陀螺正交解耦信号处理电路及方法”获发明专利证书",
+        "安培龙(301413.SZ)：获得压电MEMS陀螺相关发明专利证书",
+        "[2026-11-10] 安培龙：关于公司获得发明专利证书的公告",
+        "安培龙获压电MEMS陀螺正交解耦信号处理电路及方法专利",
+        "安培龙：获得压电MEMS陀螺相关发明专利证书",
+        "中微公司获得实用新型专利授权：“一种控制权限切换装置及多屏显示系统”",
+        "长川科技获得实用新型专利授权：“一种测试机”",
+        "拓荆科技获得实用新型专利授权：“一种气体传输组件和半导体器件的加工设备”"
       ],
       "urls": [
-        "https://tech.ifeng.com/c/8xwGSJtA1o8"
+        "https://cj.sina.cn/articles/view/7935425109/1d8fcfa5502001oydu",
+        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfuyy2739711.shtml",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=301413&id=12699007",
+        "https://cj.sina.cn/articles/view/7317133861/1b4229a2502001j3h6",
+        "https://wap.cj.sina.cn/pc/7x24/5205654",
+        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002mxma",
+        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002mxmc",
+        "https://cj.sina.cn/articles/view/1850649324/6e4eaaec02002mxqc"
       ],
       "sources": [
-        "ifeng"
+        "sina_finance",
+        "sina_finance",
+        "sina_bulletin",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance"
       ]
     },
     {
-      "event": "大疆供應商北交所成功過會",
-      "score": 40,
+      "event": "安波福簽約上海電氣與它石智航",
+      "score": 30,
       "tags": [
         "擴產投資"
       ],
-      "reason": "供應鏈企業上市，擴大融資渠道",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 11:00:23",
+      "reason": "汽車零部件企業跨界合作，屬一般商業行為。",
+      "coherent": false,
+      "size": 3,
+      "max_crawled_at": "2026-11-10 12:01:11",
       "titles": [
-        "大疆供应商，北交所成功过会！"
+        "工业智能体规模化，要学会让“AI”管理“AI”",
+        "既买又卖！安波福，同日签约上海电气和它石智航！",
+        "2.45亿控股！603289跨界入局AI传感器封测"
       ],
       "urls": [
-        "https://robot.ofweek.com/2026-11/ART-8321201-8120-30710811.html"
+        "https://www.ofweek.com/im/2026-11/ART-201900-8100-30711047.html",
+        "https://www.ofweek.com/im/2026-11/ART-201900-8400-30711048.html",
+        "https://sensor.ofweek.com/2026-11/ART-81013-8120-30711112.html"
       ],
       "sources": [
-        "ofweek_robot"
+        "ofweek_manufacturing",
+        "ofweek_manufacturing",
+        "ofweek_sensor"
       ]
     },
     {
-      "event": "香港舉辦鴻蒙生態峰會",
-      "score": 40,
-      "tags": [
-        "AI算力"
+      "event": "摩根士丹利下調信驊與瀾起評級",
+      "score": 30,
+      "tags": [],
+      "reason": "券商調評級，屬市場情緒面，非實質產業變動。",
+      "coherent": false,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 18:01:11",
+      "titles": [
+        "摩根士丹利：云半导体增长见顶，下调信骅与澜起至均配"
       ],
-      "reason": "鴻蒙生態擴充套件，涉及軟體與硬體協同發展。",
+      "urls": [
+        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfzhw2648294.shtml"
+      ],
+      "sources": [
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "晶雪節能參與長鑫科技基建專案",
+      "score": 30,
+      "tags": [
+        "擴產投資"
+      ],
+      "reason": "上游配套企業獲大廠訂單，間接反映擴產。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 18:01:11",
+      "titles": [
+        "晶雪节能：参与了阿里巴巴、抖音、长鑫科技相关基建项目"
+      ],
+      "urls": [
+        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfzhw2646436.shtml"
+      ],
+      "sources": [
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "九洲賦能華陽AI與機器人賽道",
+      "score": 25,
+      "tags": [
+        "供應鏈"
+      ],
+      "reason": "企業間合作，具體產業影響尚不明確。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 23:30:37",
+      "titles": [
+        "从资本联姻到产业共振：看九洲如何赋能华阳AI与机器人赛道"
+      ],
+      "urls": [
+        "https://t.cj.sina.cn/articles/view/7780674857/1cfc3ad2900101obk8"
+      ],
+      "sources": [
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "前康佳總裁創立企業衝IPO獲入股",
+      "score": 20,
+      "tags": [],
+      "reason": "一般企業融資事件，無重大產業鏈意義。",
+      "coherent": false,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 09:01:11",
+      "titles": [
+        "67岁前康佳总裁再冲IPO：小城干出百亿独角兽，小米OPPO抢着入股"
+      ],
+      "urls": [
+        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfech2749331.shtml"
+      ],
+      "sources": [
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "香港舉辦鴻蒙生態高管峰會",
+      "score": 20,
+      "tags": [
+        "政策"
+      ],
+      "reason": "行業會議與生態推廣，無實質產業變動。",
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-11-10 14:30:11",
@@ -2139,336 +2080,180 @@
       ]
     },
     {
-      "event": "寧德時代申請磷酸鐵鋰專利",
-      "score": 40,
-      "tags": [
-        "科技自主"
-      ],
-      "reason": "電池龍頭申請國際專利，強化技術壁壘。",
+      "event": "探討AI晶片安全嵌入環節",
+      "score": 20,
+      "tags": [],
+      "reason": "技術討論，無具體產業動態或投資",
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-09 15:00:11",
+      "max_crawled_at": "2026-11-10 15:00:11",
       "titles": [
-        "宁德时代联手湖南裕能，申请磷酸铁锂国际专利！"
+        "AI时代的芯片内生安全，要从哪些环节嵌入能力？"
       ],
       "urls": [
-        "https://libattery.ofweek.com/2026-11/ART-36002-8120-30710833.html"
+        "https://cj.sina.cn/articles/view/8330648469/1f08b9b9507201d8po"
       ],
       "sources": [
-        "ofweek_battery"
+        "sina_finance"
       ]
     },
     {
-      "event": "中國企業供應鏈出海與產業升級",
-      "score": 35,
-      "tags": [
-        "供應鏈"
-      ],
-      "reason": "涵蓋多個不同企業出海案例，非單一事件。",
+      "event": "蘋果加碼AI並推出訂閱挽留功能",
+      "score": 15,
+      "tags": [],
+      "reason": "海外科技巨頭產品策略，對國內製造業影響有限。",
       "coherent": false,
-      "size": 4,
+      "size": 5,
       "max_crawled_at": "2026-11-10 19:01:11",
       "titles": [
-        "从产品出海到工业能力，中国企业把供应链建到海外",
-        "在海外建了完整供应链体系的中国企业：TCL、宁德时代与福耀",
-        "成功转型为科技企业：世界经济论坛AI名单上的家电企业",
-        "“十五五”开局“向实发力”：灯塔工厂“照亮”先进制造之路"
+        "特纳斯“坐不住”了，最抗跌的苹果，开始加码AI",
+        "特纳斯“坐不住”了，最抗跌的苹果，开始加码AI-36氪 - www.36kr.com",
+        "特努斯施压Siri掌门人，苹果AI不能再等了",
+        "求求你别走，App Store上线“订阅挽留”功能"
       ],
       "urls": [
-        "https://t.cj.sina.cn/articles/view/5675440730/152485a5a020028us4",
-        "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfzhu5906452.shtml",
-        "https://t.cj.sina.cn/articles/view/2975249095/b156b2c700101div0",
-        "https://finance.sina.com.cn/roll/2026-11-09/doc-iniyazee6630181.shtml"
+        "https://www.36kr.com/p/4063553932989568",
+        "https://www.chinastarmarket.cn/detail/2530038",
+        "https://www.36kr.com/p/4063553932989568",
+        "https://tech.ifeng.com/c/8xwWD0uGgB8",
+        "https://www.36kr.com/p/4062429416575876"
       ],
       "sources": [
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance"
+        "36kr",
+        "chinastarmarket",
+        "36kr",
+        "ifeng",
+        "36kr"
       ]
     },
     {
-      "event": "華為星芒O1 Pro手機形態確認",
-      "score": 35,
-      "tags": [
-        "擴產投資"
-      ],
-      "reason": "消費電子產品發布，屬終端市場動態",
+      "event": "印度自研AI模型遭嘲諷",
+      "score": 10,
+      "tags": [],
+      "reason": "外國科技新聞，對中國產業影響極小",
       "coherent": false,
-      "size": 3,
-      "max_crawled_at": "2026-11-10 15:31:11",
-      "titles": [
-        "华为星芒O1 Pro确认了，就长这样",
-        "华为星芒销售渠道确认！线上线下全覆盖 首批阔直板手机备货有限",
-        "手机形态之争升级！OPPO、vivo集体跟进，阔直板将成下一种主流形态？"
-      ],
-      "urls": [
-        "https://tech.ifeng.com/c/8xv405McEbX",
-        "https://tech.ifeng.com/c/8xwHqL1IasL",
-        "https://display.ofweek.com/2026-11/ART-8321307-8420-30710761.html"
-      ],
-      "sources": [
-        "ifeng",
-        "ifeng",
-        "ofweek_display"
-      ]
-    },
-    {
-      "event": "康希通訊募資投入衛星射頻",
-      "score": 35,
-      "tags": [
-        "擴產投資"
-      ],
-      "reason": "企業融資投向衛星載荷，屬特定公司業務擴充套件。",
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-11-10 13:01:11",
-      "titles": [
-        "从卫星毫米波到6G：为什么T/R芯片是跨代通用的技术资产？",
-        "募投转向NTN（非地面）：康希通信在卫星载荷射频前端上加了一笔什么投入？"
-      ],
-      "urls": [
-        "https://cj.sina.cn/articles/view/5570287027/14c03d5b302001q2xs",
-        "https://cj.sina.cn/articles/view/5570287027/14c03d5b302001q3fg"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "外交部表態美國輸華晶片立場",
-      "score": 35,
-      "tags": [
-        "出口管制"
-      ],
-      "reason": "外交宣告影響貿易預期，但無具體措施",
-      "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-09 16:31:11",
+      "max_crawled_at": "2026-11-10 01:01:11",
       "titles": [
-        "外交部：中方在美国输华芯片问题上的立场是一贯的"
+        "印度自研模型社死，照搬千问，仅塞提示词硬充印度造"
       ],
       "urls": [
-        "https://www.chinastarmarket.cn/detail/2528966"
-      ],
-      "sources": [
-        "chinastarmarket"
-      ]
-    },
-    {
-      "event": "產業併購成微芯CVC戰略核心",
-      "score": 35,
-      "tags": [
-        "供應鏈"
-      ],
-      "reason": "探討併購趨勢，屬行業動態分析而非具體事件。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 16:00:11",
-      "titles": [
-        "从重庆万国出发：产业并购如何成为新微CVC战略核心引擎"
-      ],
-      "urls": [
-        "https://www.36kr.com/zh/p/4062166844642184"
+        "https://www.36kr.com/p/4062389213533056"
       ],
       "sources": [
         "36kr"
       ]
     },
     {
-      "event": "黃仁勳受查 Nvidia股價波動",
-      "score": 30,
-      "tags": [
-        "供應鏈"
-      ],
-      "reason": "市場情緒與個股風險，非產業結構性事件",
-      "coherent": false,
-      "size": 2,
-      "max_crawled_at": "2026-11-10 06:00:23",
-      "titles": [
-        "Nvidia faces defining test as Jensen Huang probe adds to chip stock turbulence",
-        "China’s tech funding divide faces test as fears of an AI bubble rattle markets"
-      ],
-      "urls": [
-        "https://www.scmp.com/tech/big-tech/article/3373825/nvidia-faces-defining-test-jensen-huang-probe-adds-chip-stock-turbulence",
-        "https://www.scmp.com/tech/tech-trends/article/3373746/chinas-tech-funding-divide-faces-test-fears-ai-bubble-rattle-markets"
-      ],
-      "sources": [
-        "scmp",
-        "scmp"
-      ]
-    },
-    {
-      "event": "市場對輝達GPU信心未減",
-      "score": 30,
-      "tags": [
-        "降低外依"
-      ],
-      "reason": "反映供應鏈依賴與出口管制影響",
-      "coherent": false,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 12:01:11",
-      "titles": [
-        "Chinese traders still confident of Nvidia GPU access amid Jensen Huang scandal"
-      ],
-      "urls": [
-        "https://www.scmp.com/tech/big-tech/article/3373855/chinese-traders-still-confident-nvidia-gpu-access-amid-jensen-huang-scandal"
-      ],
-      "sources": [
-        "scmp"
-      ]
-    },
-    {
-      "event": "芯導科技推進GaN產品推廣",
-      "score": 30,
-      "tags": [
-        "國產替代"
-      ],
-      "reason": "寬禁帶半導體產品推廣，屬技術進展但規模有限。",
+      "event": "分析稱AI硬體牛市結束",
+      "score": 10,
+      "tags": [],
+      "reason": "市場觀點評論，非實質產業動態。",
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-10 20:01:11",
+      "max_crawled_at": "2026-11-10 00:00:11",
       "titles": [
-        "芯导科技(688230.SH)：公司 300W~1000W 大功率电源应用的GaN产品，客户推广工作正有序推进中"
+        "AI 投资的大问题：不是泡沫破灭，但三年硬件牛市结束了"
       ],
       "urls": [
-        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyhfqw9170778.shtml"
+        "https://cj.sina.cn/articles/view/7294209083/1b2c4cc3b00101xl2y"
       ],
       "sources": [
         "sina_finance"
       ]
     },
     {
-      "event": "群聯CEO預測2027 NAND需求",
-      "score": 30,
-      "tags": [
-        "供應鏈"
-      ],
-      "reason": "市場預測與觀點，非具體產業事件或政策。",
+      "event": "中國科技融資面臨AI泡沫擔憂考驗",
+      "score": 10,
+      "tags": [],
+      "reason": "宏觀市場情緒分析，非具體產業事件。",
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-09 12:01:11",
+      "max_crawled_at": "2026-11-10 06:00:23",
       "titles": [
-        "NAND价格僵持只是暂时！群联CEO潘健成：2027春节后需求要大爆发"
+        "China’s tech funding divide faces test as fears of an AI bubble rattle markets"
       ],
       "urls": [
-        "https://tech.ifeng.com/c/8xuNurhHW1x"
+        "https://www.scmp.com/tech/tech-trends/article/3373746/chinas-tech-funding-divide-faces-test-fears-ai-bubble-rattle-markets"
+      ],
+      "sources": [
+        "scmp"
+      ]
+    },
+    {
+      "event": "MiniMax開源H3 Image生圖模型",
+      "score": 5,
+      "tags": [],
+      "reason": "AI應用層開源，屬軟體領域，無硬體製造影響。",
+      "coherent": true,
+      "size": 5,
+      "max_crawled_at": "2026-11-11 02:31:11",
+      "titles": [
+        "MiniMax开源H3 Image：4K图像生成仅10秒，支持多达16张参考图，首周五折优惠",
+        "实测 MiniMax H3 Image：GPT 的效果加上 MJ 的审美，居然被它开源了",
+        "突发！「源神」 MiniMax 开源H3 Image，最强开源模型中国造",
+        "MiniMax开源H3-Image生图模型，10秒生成4K图像",
+        "MiniMax H3-Image正式发布"
+      ],
+      "urls": [
+        "https://finance.sina.com.cn/stock/t/2026-11-11/doc-iniyhwnk5554078.shtml",
+        "https://finance.sina.com.cn/tech/roll/2026-11-11/doc-iniyhsen5661761.shtml",
+        "https://finance.sina.com.cn/stock/t/2026-11-11/doc-iniyhwnn2330200.shtml",
+        "https://t.cj.sina.cn/articles/view/1826017320/6cd6d02804001z21g",
+        "https://wap.cj.sina.cn/pc/7x24/5206597"
+      ],
+      "sources": [
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance",
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "Meta發布低成本AI模型追平Claude",
+      "score": 5,
+      "tags": [],
+      "reason": "純消費級AI產品，無半導體產業鏈影響。",
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-10 19:01:11",
+      "titles": [
+        "便宜得离谱！Meta甩出“最省钱模型”，1/3成本追平Claude Haiku 5.5"
+      ],
+      "urls": [
+        "https://tech.ifeng.com/c/8xwYcY1Ejs4"
       ],
       "sources": [
         "ifeng"
       ]
     },
     {
-      "event": "AI算力概念股反彈",
-      "score": 25,
-      "tags": [],
-      "reason": "股市波動非產業實質事件",
-      "coherent": true,
-      "size": 4,
-      "max_crawled_at": "2026-11-10 11:00:38",
-      "titles": [
-        "算力芯片概念震荡反弹 燧原科技涨近15%",
-        "算力芯片概念延续反弹 燧原科技涨近10%",
-        "AI芯片概念午后震荡走高 寒武纪、沐曦股份涨超8%"
-      ],
-      "urls": [
-        "https://wap.cj.sina.cn/pc/7x24/5202752",
-        "https://wap.cj.sina.cn/pc/7x24/5204923",
-        "https://wap.cj.sina.cn/pc/7x24/5204923",
-        "https://finance.sina.com.cn/roll/2026-11-09/doc-iniycfmy3020723.shtml"
-      ],
-      "sources": [
-        "sina_finance",
-        "sina_finance",
-        "sina_finance",
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "敏芯股份啟動多款感測器研發",
-      "score": 25,
-      "tags": [
-        "擴產投資"
-      ],
-      "reason": "新產品研發立項，屬早期階段，產業影響較小。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 19:31:11",
-      "titles": [
-        "敏芯股份(688286.SH)：已正式启动六维力传感器、机器人专用IMU、手套型压力与温度传感器等多款产品的研发立项工作"
-      ],
-      "urls": [
-        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfzhw2702669.shtml"
-      ],
-      "sources": [
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "摩根士丹利下調信驊與瀾起評級",
-      "score": 20,
-      "tags": [],
-      "reason": "外資分析師觀點，非產業實質變動。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-10 18:01:11",
-      "titles": [
-        "摩根士丹利：云半导体增长见顶，下调信骅与澜起至均配"
-      ],
-      "urls": [
-        "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfzhw2648294.shtml"
-      ],
-      "sources": [
-        "sina_finance"
-      ]
-    },
-    {
-      "event": "輝達貨物離奇失蹤引關注",
-      "score": 20,
-      "tags": [
-        "供應鏈"
-      ],
-      "reason": "物流異常事件，對產業影響有限",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 08:00:11",
-      "titles": [
-        "英伟达超7600万元货物离奇失踪"
-      ],
-      "urls": [
-        "https://www.chinastarmarket.cn/detail/2528247"
-      ],
-      "sources": [
-        "chinastarmarket"
-      ]
-    },
-    {
-      "event": "雲南鍺業拓展業務路徑",
-      "score": 20,
-      "tags": [
-        "降低外依"
-      ],
-      "reason": "關鍵礦物企業動態，但缺乏具體產業影響細節。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 14:00:11",
-      "titles": [
-        "云南锗业把路子走宽了"
-      ],
-      "urls": [
-        "https://fiber.ofweek.com/2026-11/ART-210001-12003-30710875.html"
-      ],
-      "sources": [
-        "ofweek_fiber"
-      ]
-    },
-    {
-      "event": "國產光刻機出海潮！海思光刻機11月集中交付：12寸/8寸/6寸齊發日本等國",
+      "event": "全球晶片大廠採購國產裝置",
       "score": 0,
       "tags": [],
-      "reason": "",
-      "coherent": true,
+      "reason": "標題模糊且缺乏具體事實支撐",
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-11-10 00:00:11",
+      "titles": [
+        "当年只能仰仗进口，十几年后，全球芯片大厂排队买他们造的"
+      ],
+      "urls": [
+        "https://t.cj.sina.cn/articles/view/7879923934/1d5ae18de02001ps6s",
+        "https://t.cj.sina.cn/articles/view/7879923934/1d5ae18de02001ps6s"
+      ],
+      "sources": [
+        "sina_finance",
+        "sina_finance"
+      ]
+    },
+    {
+      "event": "海思光刻機交付傳聞",
+      "score": 0,
+      "tags": [],
+      "reason": "標題內容嚴重失實，屬謠言",
+      "coherent": false,
       "size": 1,
       "max_crawled_at": "2026-11-10 07:31:11",
       "titles": [
@@ -2479,24 +2264,6 @@
       ],
       "sources": [
         "ifeng"
-      ]
-    },
-    {
-      "event": "中美AI治理範式對比分析",
-      "score": 0,
-      "tags": [],
-      "reason": "政治與治理議題，無直接產業鏈影響。",
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-09 10:30:11",
-      "titles": [
-        "从《禁止人工超级智能法案》与乌镇峰会看中美两种治理范式"
-      ],
-      "urls": [
-        "https://cloud.ofweek.com/news/2026-11/ART-178801-8420-30710791.html"
-      ],
-      "sources": [
-        "ofweek_cloud"
       ]
     }
   ]
