@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-14 09:15:11",
+  "generated": "2026-11-14 21:15:11",
   "window_days": 2,
   "sources": [
     "businesskorea",
@@ -9,18 +9,18 @@
     "yonhap",
     "zdkorea"
   ],
-  "input_titles": 288,
-  "events": 42,
+  "input_titles": 325,
+  "events": 44,
   "timings_seconds": {
-    "stage1_cluster": 17.0,
-    "stage2_name_score": 116.2,
-    "total": 133.2
+    "stage1_cluster": 13.7,
+    "stage2_name_score": 120.2,
+    "total": 133.9
   },
   "stories": [
     {
-      "event": "三星擬投144兆韓元於忠清道",
-      "score": 85,
-      "reason": "三星大規模擴產，帶動裝置與材料需求。",
+      "event": "三星電子宣佈144兆韓元投資",
+      "score": 95,
+      "reason": "韓國史上最大規模單一投資，確立產業擴張方向。",
       "tags": [
         "擴產投資",
         "半導體設備"
@@ -42,12 +42,32 @@
       ]
     },
     {
-      "event": "韓政府擬放寬半導體工時限制",
+      "event": "ISC松島廠動工",
       "score": 85,
-      "reason": "關鍵勞務法規鬆綁，直接影響製造成本與產能擴張可行性。",
+      "reason": "新廠動工屬重大擴產，影響供應鏈佈局。",
       "tags": [
-        "電子政策",
+        "擴產投資",
         "半導體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-13 16:31:11",
+      "titles": [
+        "ISC Breaks Ground on Songdo Fab, Targets Q1 2028 Opening"
+      ],
+      "urls": [
+        "https://www.thelec.net/news/articleView.html?idxno=15586"
+      ],
+      "sources": [
+        "thelec"
+      ]
+    },
+    {
+      "event": "Govt Consults on Semiconductor Work Hour Exemption",
+      "score": 85,
+      "reason": "半導體業工時豁免政策，直接影響製造成本與產能。",
+      "tags": [
+        "電子政策"
       ],
       "coherent": true,
       "size": 1,
@@ -63,9 +83,30 @@
       ]
     },
     {
-      "event": "三星洽購Modine擴充套件資料中心冷卻",
+      "event": "HIMS挑戰Lasertec光罩檢測機壟斷",
+      "score": 80,
+      "reason": "關鍵檢測裝置國產化突破，打破外資壟斷。",
+      "tags": [
+        "半導體設備",
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-13 20:01:11",
+      "titles": [
+        "HIMS Challenges Lasertec’s Dominance With Domestic Photomask Inspector"
+      ],
+      "urls": [
+        "https://www.thelec.net/news/articleView.html?idxno=15601"
+      ],
+      "sources": [
+        "thelec"
+      ]
+    },
+    {
+      "event": "三星電子擬收購美資料中心冷卻廠",
       "score": 75,
-      "reason": "切入AI基礎設施關鍵環節，具戰略價值。",
+      "reason": "跨足AI基礎設施關鍵環節，展現硬體擴張決心。",
       "tags": [
         "擴產投資",
         "半導體設備"
@@ -90,33 +131,54 @@
       ]
     },
     {
-      "event": "ISC動工松島廠，目標2028年開業",
-      "score": 75,
-      "reason": "本土裝置商建廠，強化國產供應鏈。",
+      "event": "半導體廠進駐引發龍仁等地電力危機",
+      "score": 70,
+      "reason": "基礎設施瓶頸直接威脅擴產進度與成本。",
       "tags": [
-        "擴產投資",
-        "半導體設備"
+        "電子政策",
+        "擴產投資"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-13 16:31:11",
+      "max_crawled_at": "2026-11-14 05:01:11",
       "titles": [
-        "ISC Breaks Ground on Songdo Fab, Targets Q1 2028 Opening"
+        "반도체 공장 들어서는데 전력망은 언제…용인·호남권 공급 비상[전력 확보 전쟁①]"
       ],
       "urls": [
-        "https://www.thelec.net/news/articleView.html?idxno=15586"
+        "https://www.newsis.com/view/NISX20261113_0003866483"
       ],
       "sources": [
-        "thelec"
+        "newsis"
       ]
     },
     {
-      "event": "OpenAI支援美國收緊對華AI晶片出口管制",
+      "event": "韓國向WTO抗議歐盟電池技術法規",
       "score": 70,
-      "reason": "政策變動影響韓國半導體出口環境。",
+      "reason": "直接影響韓國電池出口，屬重大貿易政策幹預。",
       "tags": [
         "電子政策",
-        "AI算力"
+        "電池材料"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-13 05:01:11",
+      "titles": [
+        "정부, WTO서 EU 배터리·철강 등 기술규제에 우려 제기"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261112_0003865959"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "OpenAI支援美國收緊對華晶片出口",
+      "score": 65,
+      "reason": "影響全球半導體貿易規則，間接衝擊韓國出口策略。",
+      "tags": [
+        "電子政策",
+        "供應鏈"
       ],
       "coherent": true,
       "size": 1,
@@ -132,33 +194,32 @@
       ]
     },
     {
-      "event": "HIMS挑戰Lasertec光罩檢測機壟斷",
-      "score": 70,
-      "reason": "國產裝置突破技術壁壘，具戰略意義。",
+      "event": "Qualitas Expands SK hynix IP Deal to 3.9B Won",
+      "score": 65,
+      "reason": "SK海力士供應鏈訂單，涉及關鍵材料技術授權。",
       "tags": [
-        "半導體設備",
-        "擴產投資"
+        "半導體材料"
       ],
       "coherent": true,
       "size": 1,
       "max_crawled_at": "2026-11-13 20:01:11",
       "titles": [
-        "HIMS Challenges Lasertec’s Dominance With Domestic Photomask Inspector"
+        "Qualitas Semiconductor Expands SK hynix IP Deal to 3.9 Billion Won"
       ],
       "urls": [
-        "https://www.thelec.net/news/articleView.html?idxno=15601"
+        "https://www.thelec.net/news/articleView.html?idxno=15599"
       ],
       "sources": [
         "thelec"
       ]
     },
     {
-      "event": "SFC·SK JNC供應CSOT噴墨OLED材料",
-      "score": 65,
-      "reason": "韓國材料商切入中國面板供應鏈。",
+      "event": "SK JNC供應CSOT噴墨OLED材料",
+      "score": 60,
+      "reason": "關鍵顯示材料國產化突破，確立供應鏈關係。",
       "tags": [
         "半導體材料",
-        "顯示面板"
+        "供應鏈"
       ],
       "coherent": true,
       "size": 3,
@@ -180,12 +241,235 @@
       ]
     },
     {
-      "event": "SFA半導體訂單創季新高達57%",
+      "event": "臺灣DRAM廠匯入EUV改變供應格局",
       "score": 60,
-      "reason": "裝置商業績亮眼，反映AI需求強勁。",
+      "reason": "競爭對手技術升級，影響全球記憶體市場動態。",
       "tags": [
-        "半導體設備",
-        "供應鏈"
+        "記憶體",
+        "半導體設備"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-13 05:31:11",
+      "titles": [
+        "Taiwan DRAM makers to adopt EUV as memory boom shifts supply dynamics"
+      ],
+      "urls": [
+        "https://biz.chosun.com/en/en-it/2026/11/13/R246PGDEGRGZROXRGNCGU5FTQY/"
+      ],
+      "sources": [
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "韓國迎來100GW電力需求時代",
+      "score": 55,
+      "reason": "宏觀能源趨勢，反映產業擴張帶來的基礎設施壓力。",
+      "tags": [
+        "電子政策"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-14 15:31:11",
+      "titles": [
+        "전력수요 100GW 시대, 싸고 빠른 발전소는 수요 속에 있다"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261114143059"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "超微推出搭載AMD EPYC的伺服器",
+      "score": 50,
+      "reason": "硬體更新換代，反映AI基礎設施供應鏈變化。",
+      "tags": [
+        "AI算力"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-14 05:31:11",
+      "titles": [
+        "슈퍼마이크로, 클라우드, HPC, 에이전틱 AI 워크로드용 6세대 AMD EPYC™ 9006 Series CPU 탑재 차세대 서버 출하 개시"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261114011002"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "Samsung Medison Completes Hongcheon Factory",
+      "score": 50,
+      "reason": "三星醫療產能擴張，屬電子製造業重要投資。",
+      "tags": [
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-13 17:01:11",
+      "titles": [
+        "삼성메디슨, 홍천에 초음파 진단기기 제조동 준공…\"2030년 생산능력 2배 확대\""
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261113145030"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "輝達CEO黃仁勳因醜聞辭職",
+      "score": 45,
+      "reason": "全球AI龍頭領導人更迭，影響供應鏈信心。",
+      "tags": [
+        "AI算力"
+      ],
+      "coherent": true,
+      "size": 42,
+      "max_crawled_at": "2026-11-14 16:31:11",
+      "titles": [
+        "젠슨 황, 엔비디아 CEO 사임…불륜 스캔들로 33년만 불명예 퇴진(종합2보)",
+        "'AI 황제' 젠슨 황 불명예 퇴진…흔들리는 '엔비디아 제국'과 AI 거품론",
+        "젠슨 황 없는 엔비디아, 어쩌나…외신 \"AI 업계 전반 충격파\"",
+        "\"젠슨 황 사임 받아들인 건 실수, 슬픈 날\"…美 실리콘밸리 술렁",
+        "[젠슨 황 스캔들④] 'AI 황제'의 퇴장…'포스트' 엔비디아 시험대",
+        "젠슨 황, 엔비디아와 33년 만 결별…불륜 의혹 속 불명예 퇴진(종합)",
+        "젠슨 황 없는 엔비디아 괜찮을까…월가 \"향후 3년은 끄떡없다\"",
+        "미·중 사이 '완충지대' 젠슨 황 퇴장…AI 패권 경쟁 더 거세지나",
+        "젠슨 황 퇴진에 새판 짜는 엔비디아…삼전·닉스 HBM 공급전 변수",
+        "\"창업자는 누가 견제하나\"…젠슨 황 몰락이 드러낸 실리콘밸리 민낯",
+        "엔비디아 젠슨 황 CEO 사임... \"콜렛 크레스 CFO가 대행\"",
+        "젠슨 황 빈자리 메우는 콜렛 크레스, 엔비디아 리더십 재편 시작",
+        "엔비디아 성장세 이어질까... 국내 반도체 공급망도 주목",
+        "젠슨 황 떠난 엔비디아, 장중 시총 801조원 날아갔다",
+        "직원 60명이 직접 보고한 젠슨 황 떠났다…엔비디아에 남긴 과제는?",
+        "엔비디아 임시 CEO \"극도로 어려운 시기\" 첫 메시지…경영진 소집도",
+        "젠슨 황 떠난 엔비디아…이제 누가 백악관 설득하나",
+        "젠슨 황 퇴진…AI 붐에는 어떤 후폭풍",
+        "[안광섭 AI 진테제] 젠슨 황 사태로 엔비디아가 잃은 것",
+        "차기 CEO 인선 시급한 엔비디아, 무성한 하마평",
+        "'AI 중앙은행' 된 엔비디아…'순환 금융'에 연쇄 충격 촉각",
+        "\"난 쓰레기…\" 젠슨 황, 사임 직전 극심한 자책감 토로",
+        "젠슨 황 사임에 'CEO 사생활' 재조명…인텔·맥도날드도 불명예 퇴진",
+        "젠슨 황, 엔비디아 CEO 퇴진…앞으로 현대차 자율주행·AI 협력 향배는",
+        "\"사임 후폭풍\"…미중 AI 패권 재편에 韓반도체 '촉각' [젠슨황 스캔들⑤·끝]",
+        "세계 최고 AI 기업 엔비디아에 '2인자'가 없었다... 왜",
+        "Jensen Huang Resigns as Nvidia CEO, Ending 33-Year Leadership",
+        "\"엔비디아 지금 빠져나와라\"…'빅쇼트' 버리가 주주들에게 외친 경고",
+        "엔비디아 칩 탑재한 현대차그룹 '아틀라스'…젠슨 황 퇴진에도 \"단기 영향 적어\"",
+        "美상무, 젠슨 황 파문에 상원 출석키로…엔비디아 中 수출 감독 도마",
+        "Nvidia CEO Jensen Huang Resigns, CFO Named Interim Successor",
+        "트럼프, 차기 엔비디아 CEO 추천…\"젠슨 황 이을 사람은 애플 팀 쿡뿐\"",
+        "美상무부 차관, '스캔들 퇴진' 젠슨 황 연사 초청 추진 논란…정경유착 의혹 확산",
+        "배경훈 부총리 \"젠슨 황 사임에도 GPU 26만 장 예정대로 공급\"",
+        "Huang resigns as Nvidia CEO as third affair allegation emerges",
+        "국가AI전략위, '젠슨 황 사퇴' 긴급회의…GPU 공급 점검",
+        "Nvidia reels as Jensen Huang resigns, exposing one-man leadership risks",
+        "[속보] 트럼프 \"젠슨 황 이을 사람은 단 한 명…애플 팀 쿡\"",
+        "\"아내는 젠슨 황 비서\"라던 남편…엔비디아 칩 中 반출 '공조' 의혹",
+        "Reuters: Jensen Huang told Nvidia leaders ties to Alice Huang were routine",
+        "Nvidia’s Forward P/E Hits 14-Year Low as Huang’s Exit Sends Shares Tumbling",
+        "Nvidia scandal spotlights Korea chaebol governance and weak board checks"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261113_0003866355",
+        "https://www.newsis.com/view/NISX20261113_0003866427",
+        "https://www.newsis.com/view/NISX20261113_0003866509",
+        "https://www.newsis.com/view/NISX20261113_0003866998",
+        "https://www.newsis.com/view/NISX20261113_0003867164",
+        "https://www.newsis.com/view/NISX20261113_0003866344",
+        "https://www.newsis.com/view/NISX20261113_0003866799",
+        "https://www.newsis.com/view/NISX20261113_0003866933",
+        "https://www.newsis.com/view/NISX20261113_0003866774",
+        "https://www.newsis.com/view/NISX20261113_0003867153",
+        "https://zdnet.co.kr/view/?no=20261112233500",
+        "https://zdnet.co.kr/view/?no=20261113073253",
+        "https://zdnet.co.kr/view/?no=20261113073707",
+        "https://www.newsis.com/view/NISX20261113_0003866401",
+        "https://www.newsis.com/view/NISX20261113_0003867502",
+        "https://www.newsis.com/view/NISX20261113_0003866353",
+        "https://www.newsis.com/view/NISX20261113_0003867117",
+        "https://zdnet.co.kr/view/?no=20261113133935",
+        "https://zdnet.co.kr/view/?no=20261114102419",
+        "https://zdnet.co.kr/view/?no=20261113074116",
+        "https://www.newsis.com/view/NISX20261113_0003866784",
+        "https://zdnet.co.kr/view/?no=20261113132517",
+        "https://www.newsis.com/view/NISX20261113_0003866356",
+        "https://www.newsis.com/view/NISX20261112_0003865069",
+        "https://www.newsis.com/view/NISX20261113_0003867468",
+        "https://zdnet.co.kr/view/?no=20261114020337",
+        "https://www.businesskorea.co.kr/news/articleView.html?idxno=281218",
+        "https://www.newsis.com/view/NISX20261113_0003867579",
+        "https://www.newsis.com/view/NISX20261113_0003866918",
+        "https://www.newsis.com/view/NISX20261113_0003867638",
+        "https://www.thelec.net/news/articleView.html?idxno=15584",
+        "https://www.newsis.com/view/NISX20261113_0003866346",
+        "https://zdnet.co.kr/view/?no=20261114132902",
+        "https://zdnet.co.kr/view/?no=20261113172804",
+        "https://biz.chosun.com/en/en-it/2026/11/13/IVH642R76BAU5JX5K4SHW5PNHM/",
+        "https://zdnet.co.kr/view/?no=20261113152653",
+        "https://biz.chosun.com/en/en-it/2026/11/13/4UILAFUZ2NFQZPDXUOQ7IUP2UE/",
+        "https://www.newsis.com/view/NISX20261113_0003866345",
+        "https://www.newsis.com/view/NISX20261113_0003866581",
+        "https://biz.chosun.com/en/en-it/2026/11/14/XW23GHAVAVAV3M2YDS6VD3KN2I/",
+        "https://www.businesskorea.co.kr/news/articleView.html?idxno=281207",
+        "https://biz.chosun.com/en/en-it/2026/11/13/YYV3WAMDBNHDRPNKBD4BL5BKMU/"
+      ],
+      "sources": [
+        "newsis",
+        "newsis",
+        "newsis",
+        "newsis",
+        "newsis",
+        "newsis",
+        "newsis",
+        "newsis",
+        "newsis",
+        "newsis",
+        "zdkorea",
+        "zdkorea",
+        "zdkorea",
+        "newsis",
+        "newsis",
+        "newsis",
+        "newsis",
+        "zdkorea",
+        "zdkorea",
+        "zdkorea",
+        "newsis",
+        "zdkorea",
+        "newsis",
+        "newsis",
+        "newsis",
+        "zdkorea",
+        "businesskorea",
+        "newsis",
+        "newsis",
+        "newsis",
+        "thelec",
+        "newsis",
+        "zdkorea",
+        "zdkorea",
+        "chosunbiz",
+        "zdkorea",
+        "chosunbiz",
+        "newsis",
+        "newsis",
+        "chosunbiz",
+        "businesskorea",
+        "chosunbiz"
+      ]
+    },
+    {
+      "event": "Semifive創季營收新高",
+      "score": 45,
+      "reason": "半導體裝置商業績亮眼，反映需求強勁。",
+      "tags": [
+        "半導體設備"
       ],
       "coherent": false,
       "size": 9,
@@ -225,53 +509,55 @@
       ]
     },
     {
-      "event": "韓國向WTO抗議歐盟電池技術監管",
-      "score": 60,
-      "reason": "直接影響韓國電池出口，具政策衝擊。",
+      "event": "Elice推出基於Nvidia B300的資料中心",
+      "score": 45,
+      "reason": "特定企業基礎設施建設，產業影響力有限。",
       "tags": [
-        "電子政策",
-        "電池"
+        "AI算力"
       ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-13 05:01:11",
+      "coherent": false,
+      "size": 2,
+      "max_crawled_at": "2026-11-13 16:31:11",
       "titles": [
-        "정부, WTO서 EU 배터리·철강 등 기술규제에 우려 제기"
+        "Elice launches eco-friendly modular AI data center with Nvidia B300",
+        "Shinsung E&G Showcases Data Center Cooling Solutions"
       ],
       "urls": [
-        "https://www.newsis.com/view/NISX20261112_0003865959"
+        "https://biz.chosun.com/en/en-it/2026/11/13/TEDULEXJYBH35FCJM2FCJX6VZU/",
+        "https://www.thelec.net/news/articleView.html?idxno=15587"
       ],
       "sources": [
-        "newsis"
+        "chosunbiz",
+        "thelec"
       ]
     },
     {
-      "event": "龍仁等地區半導體廠電力供應緊張",
-      "score": 55,
-      "reason": "基礎設施瓶頸影響擴產進度。",
+      "event": "NICE Holdings Seeks Funding for ITM Semiconductor",
+      "score": 45,
+      "reason": "國產裝置商融資，影響供應鏈自主化程序。",
       "tags": [
-        "電子政策"
+        "半導體設備"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-14 05:01:11",
+      "max_crawled_at": "2026-11-13 16:31:11",
       "titles": [
-        "반도체 공장 들어서는데 전력망은 언제…용인·호남권 공급 비상[전력 확보 전쟁①]"
+        "NICE Holdings Seeks Funding for ITM Semiconductor, H PE in Talks"
       ],
       "urls": [
-        "https://www.newsis.com/view/NISX20261113_0003866483"
+        "https://www.thelec.net/news/articleView.html?idxno=15593"
       ],
       "sources": [
-        "newsis"
+        "thelec"
       ]
     },
     {
-      "event": "DeepX與英特爾韓國擴充套件AI生態系",
-      "score": 50,
-      "reason": "本土業者與國際大廠合作，具戰略意義。",
+      "event": "DeepX與Intel合作",
+      "score": 40,
+      "reason": "異構運算合作，影響AI硬體生態。",
       "tags": [
         "AI算力",
-        "半導體設備"
+        "半導體"
       ],
       "coherent": false,
       "size": 4,
@@ -296,38 +582,100 @@
       ]
     },
     {
-      "event": "DB HiTek產能滿載獲利增長",
-      "score": 50,
-      "reason": "國產材料商業績好轉，供應鏈穩固。",
+      "event": "三星舉辦半導體技術研討會強化合作",
+      "score": 40,
+      "reason": "常規產業交流活動，缺乏具體投資或政策約束力。",
       "tags": [
-        "半導體設備"
+        "供應鏈"
       ],
       "coherent": false,
-      "size": 3,
-      "max_crawled_at": "2026-11-13 20:01:11",
+      "size": 2,
+      "max_crawled_at": "2026-11-14 19:31:11",
       "titles": [
-        "Telechips Swings to Third-Quarter Operating Profit as Revenue Rises 26%",
-        "텔레칩스, 3분기 매출 633억원...4개 분기 연속 흑자",
-        "DB HiTek’s Nine-Month Operating Profit Rises 24% as Fabs Run at Full Capacity"
+        "\"소·부·장 핵심기술 협업필요\" 삼성전자, 협력사 1000명과 '반도체 테크 세미나'",
+        "VKAISS 2026, 베트남과 한국의 AI 및 반도체 협력 강화"
       ],
       "urls": [
-        "https://www.thelec.net/news/articleView.html?idxno=15603",
-        "https://zdnet.co.kr/view/?no=20261112170052",
-        "https://www.thelec.net/news/articleView.html?idxno=15585"
+        "https://www.newsis.com/view/NISX20261113_0003866576",
+        "https://zdnet.co.kr/view/?no=20261114191001"
       ],
       "sources": [
-        "thelec",
-        "zdkorea",
-        "thelec"
+        "newsis",
+        "zdkorea"
       ]
     },
     {
-      "event": "ITCEN AI需求營收創新高",
-      "score": 45,
-      "reason": "多家公司財報，取主體ITCEN材料表現。",
+      "event": "LG Uplus Links Korean Mfrs to Global Data Hubs",
+      "score": 35,
+      "reason": "LG Uplus推動製造業資料連結，影響供應鏈數位化。",
       "tags": [
-        "半導體材料",
         "供應鏈"
+      ],
+      "coherent": true,
+      "size": 3,
+      "max_crawled_at": "2026-11-13 17:30:11",
+      "titles": [
+        "LG Uplus partners with Catena-X to link Korean manufacturers to global data hubs",
+        "LG Uplus to Link Korean Auto Parts Suppliers With Overseas Carmakers",
+        "LGU+, 한국 제조 기업 글로벌 공급망 진출 지원"
+      ],
+      "urls": [
+        "https://biz.chosun.com/en/en-it/2026/11/13/RPUSXL7EJBBQ5LHSAP5SKNULOY/",
+        "https://www.thelec.net/news/articleView.html?idxno=15597",
+        "https://zdnet.co.kr/view/?no=20261113170904"
+      ],
+      "sources": [
+        "chosunbiz",
+        "thelec",
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "三星發布搭載Gemini的AI眼鏡",
+      "score": 35,
+      "reason": "終端產品創新，對上游製造業影響較小。",
+      "tags": [
+        "顯示面板"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-13 12:01:11",
+      "titles": [
+        "Samsung Unveils 41g AI Glasses Powered by Google Gemini"
+      ],
+      "urls": [
+        "https://www.businesskorea.co.kr/news/articleView.html?idxno=281242"
+      ],
+      "sources": [
+        "businesskorea"
+      ]
+    },
+    {
+      "event": "Jestem季獲利激增",
+      "score": 35,
+      "reason": "裝置商業績大增，顯示市場需求。",
+      "tags": [
+        "半導體設備"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-13 11:00:30",
+      "titles": [
+        "저스템, 3분기 누적 영업익 204억…전년비 361% 급증"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261113100220"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "ITCEN營收創新高",
+      "score": 30,
+      "reason": "材料商業績增長，反映市場需求。",
+      "tags": [
+        "半導體材料"
       ],
       "coherent": false,
       "size": 4,
@@ -352,180 +700,77 @@
       ]
     },
     {
-      "event": "三星電子迎來第7個工會成立",
-      "score": 45,
-      "reason": "龍頭廠勞資關係變化，影響生產穩定性與成本結構。",
+      "event": "Telechips季獲利回升",
+      "score": 30,
+      "reason": "晶片設計商業績，反映市場復甦。",
       "tags": [
-        "半導體"
+        "電子政策"
       ],
-      "coherent": true,
-      "size": 2,
-      "max_crawled_at": "2026-11-13 18:31:11",
-      "titles": [
-        "Samsung Electronics Sees Seventh Union Forming",
-        "삼성전자 7번째 노조 설립 추진…동행노조 \"노조만 연이어 늘어 안타까워\""
-      ],
-      "urls": [
-        "https://www.businesskorea.co.kr/news/articleView.html?idxno=281297",
-        "https://www.newsis.com/view/NISX20261113_0003867305"
-      ],
-      "sources": [
-        "businesskorea",
-        "newsis"
-      ]
-    },
-    {
-      "event": "臺灣DRAM廠匯入EUV改變供應動態",
-      "score": 45,
-      "reason": "競爭對手技術升級，影響市場格局。",
-      "tags": [
-        "記憶體",
-        "半導體設備"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-13 05:31:11",
-      "titles": [
-        "Taiwan DRAM makers to adopt EUV as memory boom shifts supply dynamics"
-      ],
-      "urls": [
-        "https://biz.chosun.com/en/en-it/2026/11/13/R246PGDEGRGZROXRGNCGU5FTQY/"
-      ],
-      "sources": [
-        "chosunbiz"
-      ]
-    },
-    {
-      "event": "中國半導體景氣指標創新高",
-      "score": 45,
-      "reason": "反映競爭對手動態，影響韓國供應鏈預期。",
-      "tags": [
-        "半導體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-13 05:01:11",
-      "titles": [
-        "반도체 호황 속 中企 경기지표 약 4년 만에 최고…전망은 '흐림', 왜?"
-      ],
-      "urls": [
-        "https://www.newsis.com/view/NISX20261112_0003865746"
-      ],
-      "sources": [
-        "newsis"
-      ]
-    },
-    {
-      "event": "三星辦半導體技術研討會強化協作",
-      "score": 40,
-      "reason": "強化供應鏈合作，但無具體投資承諾。",
-      "tags": [
-        "供應鏈"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-13 09:00:11",
-      "titles": [
-        "\"소·부·장 핵심기술 협업필요\" 삼성전자, 협력사 1000명과 '반도체 테크 세미나'"
-      ],
-      "urls": [
-        "https://www.newsis.com/view/NISX20261113_0003866576"
-      ],
-      "sources": [
-        "newsis"
-      ]
-    },
-    {
-      "event": "Qualitas SK海力士IP合約擴增",
-      "score": 40,
-      "reason": "記憶體大廠供應鏈合約，具實質產業意義。",
-      "tags": [
-        "半導體",
-        "供應鏈"
-      ],
-      "coherent": true,
-      "size": 1,
+      "coherent": false,
+      "size": 3,
       "max_crawled_at": "2026-11-13 20:01:11",
       "titles": [
-        "Qualitas Semiconductor Expands SK hynix IP Deal to 3.9 Billion Won"
+        "Telechips Swings to Third-Quarter Operating Profit as Revenue Rises 26%",
+        "텔레칩스, 3분기 매출 633억원...4개 분기 연속 흑자",
+        "DB HiTek’s Nine-Month Operating Profit Rises 24% as Fabs Run at Full Capacity"
       ],
       "urls": [
-        "https://www.thelec.net/news/articleView.html?idxno=15599"
+        "https://www.thelec.net/news/articleView.html?idxno=15603",
+        "https://zdnet.co.kr/view/?no=20261112170052",
+        "https://www.thelec.net/news/articleView.html?idxno=15585"
       ],
       "sources": [
+        "thelec",
+        "zdkorea",
         "thelec"
       ]
     },
     {
-      "event": "Supermicro AMD EPYC伺服器出貨",
-      "score": 40,
-      "reason": "AI伺服器硬體更新，影響資料中心建設。",
-      "tags": [
-        "AI算力"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-14 05:31:11",
-      "titles": [
-        "슈퍼마이크로, 클라우드, HPC, 에이전틱 AI 워크로드용 6세대 AMD EPYC™ 9006 Series CPU 탑재 차세대 서버 출하 개시"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261114011002"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "Elice Nvidia B300資料中心",
-      "score": 35,
-      "reason": "AI基礎設施建設，具一定硬體影響力。",
+      "event": "黃仁勳辭職引發韓企合作動向關注",
+      "score": 30,
+      "reason": "關注重點在於人事變動後的商業影響，非具體產業事件。",
       "tags": [
         "AI算力"
       ],
       "coherent": false,
-      "size": 2,
-      "max_crawled_at": "2026-11-13 16:31:11",
+      "size": 1,
+      "max_crawled_at": "2026-11-13 11:31:11",
       "titles": [
-        "Elice launches eco-friendly modular AI data center with Nvidia B300",
-        "Shinsung E&G Showcases Data Center Cooling Solutions"
+        "'깐부' 젠슨 황, 전격 사임…두산·엔비디아 피지컬 AI 동맹 향방은?"
       ],
       "urls": [
-        "https://biz.chosun.com/en/en-it/2026/11/13/TEDULEXJYBH35FCJM2FCJX6VZU/",
-        "https://www.thelec.net/news/articleView.html?idxno=15587"
+        "https://www.newsis.com/view/NISX20261113_0003866845"
       ],
       "sources": [
-        "chosunbiz",
-        "thelec"
+        "newsis"
       ]
     },
     {
-      "event": "Enlighten技術評估通過",
-      "score": 35,
-      "reason": "材料商上市，反映供應鏈本土化進展。",
+      "event": "CoAsiaCM季獲利增",
+      "score": 30,
+      "reason": "材料商業績增長，反映供應鏈狀況。",
       "tags": [
         "半導體材料"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-13 09:31:11",
+      "max_crawled_at": "2026-11-13 11:00:30",
       "titles": [
-        "엔라이튼, 기술성평가 통과…내년 코스닥 상장 예고"
+        "코아시아씨엠, 3분기 영업익 27억…전년比 145% 증가"
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20261113094155"
+        "https://zdnet.co.kr/view/?no=20261113085638"
       ],
       "sources": [
         "zdkorea"
       ]
     },
     {
-      "event": "電動車補助後電池制度改革",
-      "score": 35,
-      "reason": "政策方向討論，影響電池產業長期佈局。",
+      "event": "電動車補助後充電基建",
+      "score": 25,
+      "reason": "涉及電動車基礎設施與政策調整。",
       "tags": [
-        "電池",
-        "電子政策"
+        "電池"
       ],
       "coherent": true,
       "size": 1,
@@ -541,9 +786,29 @@
       ]
     },
     {
-      "event": "Naver AI新引擎啟動",
-      "score": 30,
-      "reason": "多家公司財報，僅取主體Naver AI佈局。",
+      "event": "Enlighten預告上市",
+      "score": 25,
+      "reason": "新創上市，反映裝置領域活力。",
+      "tags": [
+        "半導體設備"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-13 09:31:11",
+      "titles": [
+        "엔라이튼, 기술성평가 통과…내년 코스닥 상장 예고"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261113094155"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "Naver啟動AI新引擎",
+      "score": 20,
+      "reason": "平臺企業戰略調整，影響有限。",
       "tags": [
         "AI軟體"
       ],
@@ -570,92 +835,29 @@
       ]
     },
     {
-      "event": "三星發布搭載Gemini的41g AI眼鏡",
-      "score": 30,
-      "reason": "終端產品創新，對上游影響較小。",
+      "event": "中國半導體景氣指標",
+      "score": 20,
+      "reason": "競爭對手動態，間接影響韓國產業。",
       "tags": [
-        "AI軟體"
+        "供應鏈"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-13 12:01:11",
+      "max_crawled_at": "2026-11-13 05:01:11",
       "titles": [
-        "Samsung Unveils 41g AI Glasses Powered by Google Gemini"
+        "반도체 호황 속 中企 경기지표 약 4년 만에 최고…전망은 '흐림', 왜?"
       ],
       "urls": [
-        "https://www.businesskorea.co.kr/news/articleView.html?idxno=281242"
+        "https://www.newsis.com/view/NISX20261112_0003865746"
       ],
       "sources": [
-        "businesskorea"
+        "newsis"
       ]
     },
     {
-      "event": "NICE Holdings ITM融資談判",
-      "score": 30,
-      "reason": "裝置商融資動態，影響擴產能力。",
-      "tags": [
-        "半導體設備"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-13 16:31:11",
-      "titles": [
-        "NICE Holdings Seeks Funding for ITM Semiconductor, H PE in Talks"
-      ],
-      "urls": [
-        "https://www.thelec.net/news/articleView.html?idxno=15593"
-      ],
-      "sources": [
-        "thelec"
-      ]
-    },
-    {
-      "event": "PIOLINK HCI營收激增",
-      "score": 30,
-      "reason": "軟體遷移帶動硬體銷售，屬間接影響。",
-      "tags": [
-        "電子政策"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-13 08:01:10",
-      "titles": [
-        "PIOLINK HCI Sales Surge 78% Amid VMware Exodus"
-      ],
-      "urls": [
-        "https://www.thelec.net/news/articleView.html?idxno=15577"
-      ],
-      "sources": [
-        "thelec"
-      ]
-    },
-    {
-      "event": "韓國AI戰略委國防分會動向",
-      "score": 25,
-      "reason": "政策討論階段，無具體產業約束力。",
-      "tags": [
-        "電子政策"
-      ],
-      "coherent": false,
-      "size": 2,
-      "max_crawled_at": "2026-11-13 13:31:11",
-      "titles": [
-        "심승배 국가AI전략위 국방안보분과장 \"독파모, 군에서도 쓰게 해야\"",
-        "프랑스, 국방 AI 자립 나선다…국제센터 설립 추진"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261113111056",
-        "https://zdnet.co.kr/view/?no=20261113093506"
-      ],
-      "sources": [
-        "zdkorea",
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "KMesLab AI全棧出海",
-      "score": 25,
-      "reason": "中小企業AI應用，產業影響有限。",
+      "event": "KMS Lab拓展海外AI",
+      "score": 20,
+      "reason": "企業出海，屬一般商業動態。",
       "tags": [
         "AI軟體"
       ],
@@ -673,9 +875,9 @@
       ]
     },
     {
-      "event": "Intel GPU用於韓國身份認證",
+      "event": "Mesaquar & NH Bank Build Intel GPU ID System",
       "score": 20,
-      "reason": "特定領域應用，產業鏈影響較小。",
+      "reason": "使用英特爾GPU，非韓國本土硬體製造或投資。",
       "tags": [
         "AI算力"
       ],
@@ -693,9 +895,58 @@
       ]
     },
     {
-      "event": "韓國成立AI網路韌性工作組",
-      "score": 20,
-      "reason": "軟性政策機制建立，硬體影響微弱。",
+      "event": "Korea Unveils 'Conan' Defense AI",
+      "score": 15,
+      "reason": "國防AI應用，屬軟體層面，產業鏈影響有限。",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": false,
+      "size": 4,
+      "max_crawled_at": "2026-11-13 15:31:11",
+      "titles": [
+        "\"국방 AI 최대 숙제는 데이터\"...코난, 정보분석 AI 첫 공개",
+        "심승배 국가AI전략위 국방안보분과장 \"독파모, 군에서도 쓰게 해야\"",
+        "북한 미사일 쏠까 묻자…코난 'AI 참모' 추리 시작됐다",
+        "프랑스, 국방 AI 자립 나선다…국제센터 설립 추진"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261113102516",
+        "https://zdnet.co.kr/view/?no=20261113111056",
+        "https://zdnet.co.kr/view/?no=20261113144328",
+        "https://zdnet.co.kr/view/?no=20261113093506"
+      ],
+      "sources": [
+        "zdkorea",
+        "zdkorea",
+        "zdkorea",
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "AI監管框架擴散",
+      "score": 15,
+      "reason": "政策監管影響產業，但非直接製造。",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-14 14:00:11",
+      "titles": [
+        "프런티어 AI, 규제 틀 안으로…안전관리 의무화 확산"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261113211708"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "Korea AI Strategy Committee Launches Cyber Task Force",
+      "score": 15,
+      "reason": "網路安全任務編組，屬軟體與基礎設施層面。",
       "tags": [
         "電子政策"
       ],
@@ -713,205 +964,9 @@
       ]
     },
     {
-      "event": "Google Gemini 4 Hydrogen發布",
-      "score": 15,
-      "reason": "外資模型更新，對韓國硬體產業直接影響低。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-13 13:31:11",
-      "titles": [
-        "구글, '제미나이 4 하이드로젠' 공개…검색·코딩 속도 높여"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261113131244"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "黃仁勳因醜聞辭去輝達CEO",
+      "event": "Infocz開發工業圖紙AI",
       "score": 10,
-      "reason": "屬個人醜聞，對產業結構影響有限。",
-      "tags": [
-        "AI算力"
-      ],
-      "coherent": true,
-      "size": 31,
-      "max_crawled_at": "2026-11-14 07:01:11",
-      "titles": [
-        "'AI 황제' 젠슨 황 불명예 퇴진…흔들리는 '엔비디아 제국'과 AI 거품론",
-        "젠슨 황 없는 엔비디아, 어쩌나…외신 \"AI 업계 전반 충격파\"",
-        "젠슨 황, 엔비디아 CEO 사임…불륜 스캔들로 33년만 불명예 퇴진(종합2보)",
-        "\"젠슨 황 사임 받아들인 건 실수, 슬픈 날\"…美 실리콘밸리 술렁",
-        "젠슨 황, 엔비디아와 33년 만 결별…불륜 의혹 속 불명예 퇴진(종합)",
-        "젠슨 황 없는 엔비디아 괜찮을까…월가 \"향후 3년은 끄떡없다\"",
-        "미·중 사이 '완충지대' 젠슨 황 퇴장…AI 패권 경쟁 더 거세지나",
-        "젠슨 황 퇴진에 새판 짜는 엔비디아…삼전·닉스 HBM 공급전 변수",
-        "젠슨 황 빈자리 메우는 콜렛 크레스, 엔비디아 리더십 재편 시작",
-        "엔비디아 젠슨 황 CEO 사임... \"콜렛 크레스 CFO가 대행\"",
-        "직원 60명이 직접 보고한 젠슨 황 떠났다…엔비디아에 남긴 과제는?",
-        "\"창업자는 누가 견제하나\"…젠슨 황 몰락이 드러낸 실리콘밸리 민낯",
-        "엔비디아 성장세 이어질까... 국내 반도체 공급망도 주목",
-        "젠슨 황 떠난 엔비디아, 장중 시총 801조원 날아갔다",
-        "젠슨 황 떠난 엔비디아…이제 누가 백악관 설득하나",
-        "젠슨 황 퇴진…AI 붐에는 어떤 후폭풍",
-        "'AI 중앙은행' 된 엔비디아…'순환 금융'에 연쇄 충격 촉각",
-        "엔비디아 임시 CEO \"극도로 어려운 시기\" 첫 메시지…경영진 소집도",
-        "차기 CEO 인선 시급한 엔비디아, 무성한 하마평",
-        "\"난 쓰레기…\" 젠슨 황, 사임 직전 극심한 자책감 토로",
-        "젠슨 황, 엔비디아 CEO 퇴진…앞으로 현대차 자율주행·AI 협력 향배는",
-        "젠슨 황 사임에 'CEO 사생활' 재조명…인텔·맥도날드도 불명예 퇴진",
-        "\"엔비디아 지금 빠져나와라\"…'빅쇼트' 버리가 주주들에게 외친 경고",
-        "엔비디아 칩 탑재한 현대차그룹 '아틀라스'…젠슨 황 퇴진에도 \"단기 영향 적어\"",
-        "트럼프, 차기 엔비디아 CEO 추천…\"젠슨 황 이을 사람은 애플 팀 쿡뿐\"",
-        "美상무, 젠슨 황 파문에 상원 출석키로…엔비디아 中 수출 감독 도마",
-        "배경훈 부총리 \"젠슨 황 사임에도 GPU 26만 장 예정대로 공급\"",
-        "국가AI전략위, '젠슨 황 사퇴' 긴급회의…GPU 공급 점검",
-        "[속보] 트럼프 \"젠슨 황 이을 사람은 단 한 명…애플 팀 쿡\"",
-        "\"아내는 젠슨 황 비서\"라던 남편…엔비디아 칩 中 반출 '공조' 의혹",
-        "'깐부' 젠슨 황, 전격 사임…두산·엔비디아 피지컬 AI 동맹 향방은?"
-      ],
-      "urls": [
-        "https://www.newsis.com/view/NISX20261113_0003866427",
-        "https://www.newsis.com/view/NISX20261113_0003866509",
-        "https://www.newsis.com/view/NISX20261113_0003866355",
-        "https://www.newsis.com/view/NISX20261113_0003866998",
-        "https://www.newsis.com/view/NISX20261113_0003866344",
-        "https://www.newsis.com/view/NISX20261113_0003866799",
-        "https://www.newsis.com/view/NISX20261113_0003866933",
-        "https://www.newsis.com/view/NISX20261113_0003866774",
-        "https://zdnet.co.kr/view/?no=20261113073253",
-        "https://zdnet.co.kr/view/?no=20261112233500",
-        "https://www.newsis.com/view/NISX20261113_0003867502",
-        "https://www.newsis.com/view/NISX20261113_0003867153",
-        "https://zdnet.co.kr/view/?no=20261113073707",
-        "https://www.newsis.com/view/NISX20261113_0003866401",
-        "https://www.newsis.com/view/NISX20261113_0003867117",
-        "https://zdnet.co.kr/view/?no=20261113133935",
-        "https://www.newsis.com/view/NISX20261113_0003866784",
-        "https://www.newsis.com/view/NISX20261113_0003866353",
-        "https://zdnet.co.kr/view/?no=20261113074116",
-        "https://zdnet.co.kr/view/?no=20261113132517",
-        "https://www.newsis.com/view/NISX20261112_0003865069",
-        "https://www.newsis.com/view/NISX20261113_0003866356",
-        "https://www.newsis.com/view/NISX20261113_0003867579",
-        "https://www.newsis.com/view/NISX20261113_0003866918",
-        "https://www.newsis.com/view/NISX20261113_0003866346",
-        "https://www.newsis.com/view/NISX20261113_0003867638",
-        "https://zdnet.co.kr/view/?no=20261113172804",
-        "https://zdnet.co.kr/view/?no=20261113152653",
-        "https://www.newsis.com/view/NISX20261113_0003866345",
-        "https://www.newsis.com/view/NISX20261113_0003866581",
-        "https://www.newsis.com/view/NISX20261113_0003866845"
-      ],
-      "sources": [
-        "newsis",
-        "newsis",
-        "newsis",
-        "newsis",
-        "newsis",
-        "newsis",
-        "newsis",
-        "newsis",
-        "zdkorea",
-        "zdkorea",
-        "newsis",
-        "newsis",
-        "zdkorea",
-        "newsis",
-        "newsis",
-        "zdkorea",
-        "newsis",
-        "newsis",
-        "zdkorea",
-        "zdkorea",
-        "newsis",
-        "newsis",
-        "newsis",
-        "newsis",
-        "newsis",
-        "newsis",
-        "zdkorea",
-        "zdkorea",
-        "newsis",
-        "newsis",
-        "newsis"
-      ]
-    },
-    {
-      "event": "저스템 3분기 영업익 204억 원",
-      "score": 5,
-      "reason": "半導體裝置商財報，反映市場需求。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-13 11:00:30",
-      "titles": [
-        "저스템, 3분기 누적 영업익 204억…전년비 361% 급증"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261113100220"
-      ],
-      "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "Genians營業利潤激增2.7倍",
-      "score": 5,
-      "reason": "資安軟體商財報，屬一般商業動態。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-13 08:01:10",
-      "titles": [
-        "Genians Operating Profit Surges 2.7-Fold on NAC, EDR Growth"
-      ],
-      "urls": [
-        "https://www.thelec.net/news/articleView.html?idxno=15562"
-      ],
-      "sources": [
-        "thelec"
-      ]
-    },
-    {
-      "event": "LG Uplus連結韓企與全球供應鏈",
-      "score": 3,
-      "reason": "通訊商數位服務，對硬體製造影響有限。",
-      "tags": [
-        "供應鏈"
-      ],
-      "coherent": true,
-      "size": 3,
-      "max_crawled_at": "2026-11-13 17:30:11",
-      "titles": [
-        "LG Uplus partners with Catena-X to link Korean manufacturers to global data hubs",
-        "LG Uplus to Link Korean Auto Parts Suppliers With Overseas Carmakers",
-        "LGU+, 한국 제조 기업 글로벌 공급망 진출 지원"
-      ],
-      "urls": [
-        "https://biz.chosun.com/en/en-it/2026/11/13/RPUSXL7EJBBQ5LHSAP5SKNULOY/",
-        "https://www.thelec.net/news/articleView.html?idxno=15597",
-        "https://zdnet.co.kr/view/?no=20261113170904"
-      ],
-      "sources": [
-        "chosunbiz",
-        "thelec",
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "Infocz與首爾大開發工業圖紙AI",
-      "score": 2,
-      "reason": "學術合作研發，尚未見商業化或產業級影響。",
+      "reason": "特定領域AI應用，產業影響有限。",
       "tags": [
         "AI軟體"
       ],
@@ -929,9 +984,9 @@
       ]
     },
     {
-      "event": "SiJen展示AI基礎設施解決方案",
-      "score": 2,
-      "reason": "基礎設施商技術展示，屬一般業務推廣。",
+      "event": "SiJian展示AI解決方案",
+      "score": 10,
+      "reason": "產品發布，屬一般科技新聞。",
       "tags": [
         "AI軟體"
       ],
@@ -949,39 +1004,53 @@
       ]
     },
     {
-      "event": "KT獲國務總理獎表彰AI創新",
-      "score": 1,
-      "reason": "企業獲獎，屬榮譽性質，無實質產業衝擊。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": false,
-      "size": 3,
-      "max_crawled_at": "2026-11-13 17:01:11",
-      "titles": [
-        "KT, 인터넷대상 국무총리상 수상...AI로 통신 시설 안전관리 혁신",
-        "KTNET, ‘대한민국 디지털 이노베이션 어워드’ 부총리 표창 수상",
-        "더픽트, AI 드론 철도 점검 통해 '초격차 개방형 혁신' 최우수상"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261113172152",
-        "https://zdnet.co.kr/view/?no=20261113163920",
-        "https://zdnet.co.kr/view/?no=20261113094137"
-      ],
-      "sources": [
-        "zdkorea",
-        "zdkorea",
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "NC AI擴充套件遊戲製作AI工具",
-      "score": 1,
-      "reason": "娛樂軟體開發，屬非核心電子產業範疇。",
+      "event": "Google Unveils Gemini 4 Hydrogen",
+      "score": 10,
+      "reason": "純軟體模型發布，對韓國硬體產業無直接影響。",
       "tags": [
         "AI軟體"
       ],
       "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-13 13:31:11",
+      "titles": [
+        "구글, '제미나이 4 하이드로젠' 공개…검색·코딩 속도 높여"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261113131244"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "ThePict Wins Award for AI Drone Inspection",
+      "score": 10,
+      "reason": "獲獎與技術展示，非重大產能或投資事件。",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-13 09:31:11",
+      "titles": [
+        "더픽트, AI 드론 철도 점검 통해 '초격차 개방형 혁신' 최우수상"
+      ],
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20261113094137"
+      ],
+      "sources": [
+        "zdkorea"
+      ]
+    },
+    {
+      "event": "NC AI Expands 'Barco' for Game Development",
+      "score": 5,
+      "reason": "遊戲開發工具，屬軟體應用層，無硬體產業影響。",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": false,
       "size": 2,
       "max_crawled_at": "2026-11-13 13:31:11",
       "titles": [
@@ -998,9 +1067,29 @@
       ]
     },
     {
-      "event": "배민公開27種外食業AI工具",
-      "score": 1,
-      "reason": "平臺應用發布，對產業鏈影響微弱。",
+      "event": "National Tax Service Advances AI System",
+      "score": 5,
+      "reason": "政府行政AI系統，無半導體或硬體產業關聯。",
+      "tags": [
+        "AI軟體"
+      ],
+      "coherent": false,
+      "size": 1,
+      "max_crawled_at": "2026-11-13 15:31:11",
+      "titles": [
+        "국세청 AI 시스템·백령도 공항 타당성 확보…후속 절차 추진"
+      ],
+      "urls": [
+        "https://www.newsis.com/view/NISX20261113_0003867550"
+      ],
+      "sources": [
+        "newsis"
+      ]
+    },
+    {
+      "event": "Baemin Launches 27 AI Tools for Restaurants",
+      "score": 5,
+      "reason": "外賣平臺軟體服務，無硬體產業關聯。",
       "tags": [
         "AI軟體"
       ],
@@ -1018,43 +1107,21 @@
       ]
     },
     {
-      "event": "Buzzni提供免費網頁應用製作",
-      "score": 1,
-      "reason": "開發工具推廣，對硬體供應鏈無影響。",
-      "tags": [
-        "AI軟體"
-      ],
+      "event": "Hacker Sells TSMC Employee Records",
+      "score": 0,
+      "reason": "資安事件，無韓國產業鏈直接影響。",
+      "tags": [],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-13 11:00:30",
+      "max_crawled_at": "2026-11-13 17:30:11",
       "titles": [
-        "비개발자도 사내 도구 뚝딱…버즈니, 웹 앱 무료 제작 지원"
+        "Hacker advertises 46,000 TSMC employee records for sale after cloud leak"
       ],
       "urls": [
-        "https://zdnet.co.kr/view/?no=20261113104038"
+        "https://biz.chosun.com/en/en-it/2026/11/13/TFZ2AOZ7DBCMBJY7YFXSPWAYKI/"
       ],
       "sources": [
-        "zdkorea"
-      ]
-    },
-    {
-      "event": "Abluen提出物理AI組織策略",
-      "score": 1,
-      "reason": "諮詢建議，無具體產業行動或投資。",
-      "tags": [
-        "AI軟體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-13 17:01:11",
-      "titles": [
-        "에이블런, 피지컬 AI 시대 조직 준비 전략 알려준다"
-      ],
-      "urls": [
-        "https://zdnet.co.kr/view/?no=20261113162711"
-      ],
-      "sources": [
-        "zdkorea"
+        "chosunbiz"
       ]
     }
   ]
