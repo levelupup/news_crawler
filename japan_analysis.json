@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22 03:15:11",
+  "generated": "2026-11-22 07:15:11",
   "window_days": 2,
   "sources": [
     "dempa",
@@ -10,13 +10,13 @@
     "nikkan",
     "nikkei_jp"
   ],
-  "input_titles": 45,
-  "events": 16,
+  "input_titles": 56,
+  "events": 18,
   "kana_residue_rows": 0,
   "timings_seconds": {
-    "stage1_cluster": 10.5,
-    "stage2_name_score": 31.2,
-    "total": 41.7
+    "stage1_cluster": 10.7,
+    "stage2_name_score": 36.3,
+    "total": 46.9
   },
   "stories": [
     {
@@ -41,51 +41,51 @@
       ]
     },
     {
-      "event": "三菱電機探討功率半導體整合",
-      "score": 65,
-      "reason": "功率半導體整合關乎汽車供應鏈安全",
+      "event": "imec於北海道設立新研發據點",
+      "score": 72,
+      "reason": "國際頂尖機構落戶日本，強化研發鏈結",
       "tags": [
-        "車用電子",
+        "半導體",
         "擴產投資"
       ],
-      "coherent": false,
+      "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-21 08:01:11",
+      "max_crawled_at": "2026-11-21 09:00:11",
       "titles": [
-        "NIKKEI Tech Foresight 「三菱、パワー半導体統合語る」「ロボが実験」 注目5本"
+        "AI時代の技術基盤が次段階へ　imecは北海道に新拠点、IOWNは宇宙に"
       ],
       "urls": [
-        "https://www.nikkei.com/prime/tech-foresight/article/DGXZQOUC2001O0Q6A121C2000000"
+        "https://eetimes.itmedia.co.jp/ee/articles/2611/21/news004.html"
+      ],
+      "sources": [
+        "itmedia"
+      ]
+    },
+    {
+      "event": "日立提案資料中心自備燃料電池電源",
+      "score": 68,
+      "reason": "解決AI資料中心能源痛點，具商業潛力",
+      "tags": [
+        "AI算力",
+        "電池"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-21 04:01:11",
+      "titles": [
+        "国内データセンター、日立が自前電源を提案 米燃料電池大手と"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOUC200WO0Q6A121C2000000/"
       ],
       "sources": [
         "nikkei_jp"
       ]
     },
     {
-      "event": "小松與Tier IV協作自駕卡車",
-      "score": 60,
-      "reason": "商用車自動駕駛技術落地之重要進展",
-      "tags": [
-        "車用電子",
-        "機器人"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-21 05:31:11",
-      "titles": [
-        "ダンプトラック自動運転化…コマツ・ティアフォーが協業、27年導入へ"
-      ],
-      "urls": [
-        "https://newswitch.jp/p/50846"
-      ],
-      "sources": [
-        "newswitch"
-      ]
-    },
-    {
       "event": "AI需求引發PCB短缺警訊",
-      "score": 55,
-      "reason": "AI算力擴張帶動基礎元件供需失衡",
+      "score": 65,
+      "reason": "AI帶動基礎元件供需失衡，影響製造業",
       "tags": [
         "電子零組件",
         "供應鏈"
@@ -104,9 +104,50 @@
       ]
     },
     {
+      "event": "三菱電機探討功率半導體整合",
+      "score": 62,
+      "reason": "功率半導體結構調整具產業戰略意義",
+      "tags": [
+        "電子政策"
+      ],
+      "coherent": false,
+      "size": 1,
+      "max_crawled_at": "2026-11-21 08:01:11",
+      "titles": [
+        "NIKKEI Tech Foresight 「三菱、パワー半導体統合語る」「ロボが実験」 注目5本"
+      ],
+      "urls": [
+        "https://www.nikkei.com/prime/tech-foresight/article/DGXZQOUC2001O0Q6A121C2000000"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "SCREEN、歐姆龍進軍印度市場",
+      "score": 58,
+      "reason": "日本裝置與感測器大廠拓展海外版圖",
+      "tags": [
+        "半導體設備",
+        "電子零組件"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-22 07:00:11",
+      "titles": [
+        "SCREENやオムロン、インド市場続々進出 半導体関連や医療に商機 5:00"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOUF102V80Q6A111C2000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
       "event": "GS Yuasa推進太空電池量產自動化",
       "score": 55,
-      "reason": "太空能源供應鏈之關鍵製造升級",
+      "reason": "太空級電池製造技術升級，拓展應用領域",
       "tags": [
         "電池",
         "擴產投資"
@@ -125,14 +166,14 @@
       ]
     },
     {
-      "event": "三菱電機e-F@ctory助力本田減碳",
-      "score": 50,
-      "reason": "工業自動化應用達成車廠關鍵目標",
+      "event": "三菱電機e-F@ctory技術持續進化",
+      "score": 52,
+      "reason": "工業自動化平臺升級，具製造業示範效應",
       "tags": [
         "機器人",
-        "擴產投資"
+        "電子政策"
       ],
-      "coherent": true,
+      "coherent": false,
       "size": 1,
       "max_crawled_at": "2026-11-21 07:01:11",
       "titles": [
@@ -146,151 +187,74 @@
       ]
     },
     {
-      "event": "日立提案資料中心自備電源",
-      "score": 45,
-      "reason": "解決AI資料中心能源瓶頸之關鍵方案",
+      "event": "小松實證兆瓦級超快充系統",
+      "score": 48,
+      "reason": "電動車基礎設施與自動駕駛技術進展",
       "tags": [
-        "AI算力",
-        "擴產投資"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-21 04:01:11",
-      "titles": [
-        "国内データセンター、日立が自前電源を提案 米燃料電池大手と"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOUC200WO0Q6A121C2000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "東大解四色問題助半導體設計",
-      "score": 45,
-      "reason": "基礎數學突破有望最佳化晶片佈局效率",
-      "tags": [
-        "半導體"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-21 04:01:11",
-      "titles": [
-        "数学「四色問題」で東大などが新解法 計算量激減、半導体にも応用可能 5:00"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOSG0292W0S6A900C2000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "imec於北海道設立新研發據點",
-      "score": 40,
-      "reason": "國際研機構建反映日本半導體生態系變化",
-      "tags": [
-        "半導體",
-        "擴產投資"
+        "電池",
+        "機器人"
       ],
       "coherent": false,
-      "size": 1,
-      "max_crawled_at": "2026-11-21 09:00:11",
+      "size": 2,
+      "max_crawled_at": "2026-11-22 05:31:11",
       "titles": [
-        "AI時代の技術基盤が次段階へ　imecは北海道に新拠点、IOWNは宇宙に"
+        "メガワット級の超急速充電システム、コマツが実証実験",
+        "ダンプトラック自動運転化…コマツ・ティアフォーが協業、27年導入へ"
       ],
       "urls": [
-        "https://eetimes.itmedia.co.jp/ee/articles/2611/21/news004.html"
+        "https://newswitch.jp/p/50853",
+        "https://newswitch.jp/p/50846"
       ],
       "sources": [
-        "itmedia"
+        "newswitch",
+        "newswitch"
       ]
     },
     {
-      "event": "防衛省壓縮裝備預算影響企業",
-      "score": 35,
-      "reason": "國防預算變動影響相關電子產業投資",
+      "event": "日本自動駕駛車普及面臨挑戰",
+      "score": 45,
+      "reason": "探討技術落地與市場接受度之產業現況",
       "tags": [
-        "電子政策"
+        "車用電子"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-21 16:01:11",
+      "max_crawled_at": "2026-11-22 04:00:11",
       "titles": [
-        "防衛省の装備計画に圧縮案 企業に伝達、投資縮小の可能性 17:00"
+        "自動運転の自家用車、日本で普及するか 中国では機能搭載「当たり前」"
       ],
       "urls": [
-        "https://www.nikkei.com/article/DGXZQOUA176E70X11C26A1000000/"
+        "https://www.nikkei.com/article/DGXZQOCD181AE0Y6A111C2000000/"
       ],
       "sources": [
         "nikkei_jp"
       ]
     },
     {
-      "event": "愛斯佩克開發衛星環境試驗器",
-      "score": 35,
-      "reason": "太空基礎設施測試設備之技術進展",
+      "event": "產總研開發微藻來源電池正極材料",
+      "score": 42,
+      "reason": "新材料研發具長期潛力，但尚處早期階段",
       "tags": [
-        "防衛宇宙"
+        "電池",
+        "半導體材料"
       ],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-21 04:01:11",
+      "max_crawled_at": "2026-11-22 04:00:11",
       "titles": [
-        "過酷な温度変化・振動を再現 エスペック 低軌道衛星の環境試験器"
+        "ミドリムシからリチウムイオン電池の正極材料を開発 産総研 5:00"
       ],
       "urls": [
-        "https://www.nikkan.co.jp/articles/view/797742"
-      ],
-      "sources": [
-        "nikkan"
-      ]
-    },
-    {
-      "event": "西門子併購強化半導體驗證",
-      "score": 30,
-      "reason": "海外設備商整合，間接影響日本供應鏈",
-      "tags": [
-        "半導體設備"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-21 13:01:11",
-      "titles": [
-        "シーメンス、半導体検証強化へ　米独2社買収　AI時代の開発効率向上狙う"
-      ],
-      "urls": [
-        "https://dempa-digital.com/article/731441"
-      ],
-      "sources": [
-        "dempa"
-      ]
-    },
-    {
-      "event": "京都企業佈局宇宙電子領域",
-      "score": 30,
-      "reason": "地方產業轉型探索新興市場",
-      "tags": [
-        "防衛宇宙"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-21 04:01:11",
-      "titles": [
-        "目指せ次代の収益源、京都企業が宇宙分野に種まき 5:00"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOUF121690S6A111C2000000/"
+        "https://www.nikkei.com/article/DGXZQOSG097740Z01C26A1000000/"
       ],
       "sources": [
         "nikkei_jp"
       ]
     },
     {
-      "event": "越南與石川縣合作低空經濟",
-      "score": 25,
-      "reason": "地方產業政策拓展新應用領域",
+      "event": "加賀特區與越南合作發展低空經濟",
+      "score": 40,
+      "reason": "區域產業合作，涉及次世代移動載具基礎",
       "tags": [
         "電子政策"
       ],
@@ -308,11 +272,112 @@
       ]
     },
     {
-      "event": "國際高研推動AI人才全國模式",
-      "score": 20,
-      "reason": "人才培育政策影響產業長期發展動能",
+      "event": "愛斯佩克開發衛星環境試驗裝置",
+      "score": 38,
+      "reason": "太空電子元件測試設備，屬利基型市場",
       "tags": [
-        "電子政策"
+        "防衛宇宙",
+        "半導體設備"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-21 04:01:11",
+      "titles": [
+        "過酷な温度変化・振動を再現 エスペック 低軌道衛星の環境試験器"
+      ],
+      "urls": [
+        "https://www.nikkan.co.jp/articles/view/797742"
+      ],
+      "sources": [
+        "nikkan"
+      ]
+    },
+    {
+      "event": "西門子收購兩公司強化半導體驗證",
+      "score": 35,
+      "reason": "非日本企業動態，對日本產業直接影響有限",
+      "tags": [
+        "半導體設備"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-21 13:01:11",
+      "titles": [
+        "シーメンス、半導体検証強化へ　米独2社買収　AI時代の開発効率向上狙う"
+      ],
+      "urls": [
+        "https://dempa-digital.com/article/731441"
+      ],
+      "sources": [
+        "dempa"
+      ]
+    },
+    {
+      "event": "東大解四色問題並應用於半導體",
+      "score": 30,
+      "reason": "基礎數學突破，對產業影響間接且長期",
+      "tags": [
+        "半導體"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-21 04:01:11",
+      "titles": [
+        "数学「四色問題」で東大などが新解法 計算量激減、半導体にも応用可能 5:00"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOSG0292W0S6A900C2000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "防衛省裝備計畫壓縮案傳達企業",
+      "score": 5,
+      "reason": "純國防預算程式，無電子硬體內容",
+      "tags": [
+        "防衛宇宙"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-21 16:01:11",
+      "titles": [
+        "防衛省の装備計画に圧縮案 企業に伝達、投資縮小の可能性 17:00"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOUA176E70X11C26A1000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "京都企業佈局宇宙領域新收益",
+      "score": 3,
+      "reason": "一般性產業投資，缺乏具體電子硬體細節",
+      "tags": [
+        "防衛宇宙"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-21 04:01:11",
+      "titles": [
+        "目指せ次代の収益源、京都企業が宇宙分野に種まき 5:00"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOUF121690S6A111C2000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "國際高等研推動AI人才全國模型",
+      "score": 1,
+      "reason": "純軟體與教育政策，無硬體製造影響",
+      "tags": [
+        "AI算力"
       ],
       "coherent": true,
       "size": 1,
@@ -325,26 +390,6 @@
       ],
       "sources": [
         "nikkei_jp"
-      ]
-    },
-    {
-      "event": "JAXA H3火箭發射業務移交三菱重工",
-      "score": 5,
-      "reason": "涉及太空硬體與無人載具技術，屬防衛宇宙電子範疇。",
-      "tags": [
-        "防衛宇宙"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-21 04:01:11",
-      "titles": [
-        "JAXA、「H3」打ち上げ業務を三菱重工に移管"
-      ],
-      "urls": [
-        "https://www.nikkan.co.jp/articles/view/797776"
-      ],
-      "sources": [
-        "nikkan"
       ]
     }
   ]
