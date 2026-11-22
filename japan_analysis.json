@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22 11:15:11",
+  "generated": "2026-11-22 15:15:00",
   "window_days": 2,
   "sources": [
     "dempa",
@@ -10,17 +10,17 @@
     "nikkan",
     "nikkei_jp"
   ],
-  "input_titles": 58,
-  "events": 20,
-  "kana_residue_rows": 1,
+  "input_titles": 59,
+  "events": 19,
+  "kana_residue_rows": 0,
   "timings_seconds": {
-    "stage1_cluster": 8.7,
-    "stage2_name_score": 37.5,
-    "total": 46.2
+    "stage1_cluster": 7.3,
+    "stage2_name_score": 42.4,
+    "total": 49.7
   },
   "stories": [
     {
-      "event": "三井化學擬以1.8兆日圓收購JSR",
+      "event": "三井化學擬1.8兆日圓收購JSR",
       "score": 92,
       "reason": "半導體材料巨頭併購，影響供應鏈格局",
       "tags": [
@@ -41,12 +41,12 @@
       ]
     },
     {
-      "event": "三菱電機強化功率半導體與機器人",
+      "event": "三菱電機探討功率半導體整合",
       "score": 70,
-      "reason": "整合功率半導體與機器人戰略佈局",
+      "reason": "功率半導體戰略調整，影響競爭格局",
       "tags": [
         "半導體",
-        "機器人"
+        "電子政策"
       ],
       "coherent": false,
       "size": 1,
@@ -56,27 +56,6 @@
       ],
       "urls": [
         "https://www.nikkei.com/prime/tech-foresight/article/DGXZQOUC2001O0Q6A121C2000000"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "日立提案資料中心自備燃料電池",
-      "score": 68,
-      "reason": "解決AI資料中心能源痛點，關鍵基礎設施",
-      "tags": [
-        "AI算力",
-        "太陽能"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-21 04:01:11",
-      "titles": [
-        "国内データセンター、日立が自前電源を提案 米燃料電池大手と"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOUC200WO0Q6A121C2000000/"
       ],
       "sources": [
         "nikkei_jp"
@@ -104,32 +83,12 @@
       ]
     },
     {
-      "event": "SCREEN與歐姆龍進軍印度市場",
-      "score": 62,
-      "reason": "關鍵設備商拓展新興市場，分散風險",
-      "tags": [
-        "半導體設備",
-        "供應鏈"
-      ],
-      "coherent": false,
-      "size": 1,
-      "max_crawled_at": "2026-11-22 07:00:11",
-      "titles": [
-        "SCREENやオムロン、インド市場続々進出 半導体関連や医療に商機 5:00"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOUF102V80Q6A111C2000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
       "event": "小松實證兆瓦級超快充系統",
       "score": 60,
-      "reason": "重型機械充電基礎設施，關聯電動車鏈",
+      "reason": "電動車基礎設施技術驗證，推動充電標準",
       "tags": [
-        "電池"
+        "電池",
+        "車用電子"
       ],
       "coherent": false,
       "size": 2,
@@ -148,9 +107,51 @@
       ]
     },
     {
-      "event": "GS Yuasa推進太空電池自動化",
-      "score": 58,
-      "reason": "太空電池量產自動化，提升良率與產能",
+      "event": "日立提案資料中心自備燃料電池",
+      "score": 60,
+      "reason": "解決AI資料中心能源問題，具商業潛力",
+      "tags": [
+        "AI算力",
+        "電池"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-21 04:01:11",
+      "titles": [
+        "国内データセンター、日立が自前電源を提案 米燃料電池大手と"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOUC200WO0Q6A121C2000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "SCREEN與歐姆龍進軍印度市場",
+      "score": 55,
+      "reason": "日本設備商拓展新興市場，分散風險",
+      "tags": [
+        "半導體設備",
+        "供應鏈"
+      ],
+      "coherent": false,
+      "size": 1,
+      "max_crawled_at": "2026-11-22 07:00:11",
+      "titles": [
+        "SCREENやオムロン、インド市場続々進出 半導体関連や医療に商機 5:00"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOUF102V80Q6A111C2000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "GS Yuasa推進太空電池量產自動化",
+      "score": 55,
+      "reason": "太空電池量產關鍵步驟，技術門檻高",
       "tags": [
         "電池",
         "擴產投資"
@@ -169,52 +170,12 @@
       ]
     },
     {
-      "event": "產總研開發微藻正極材料技術",
-      "score": 55,
-      "reason": "電池關鍵材料新突破，具產業潛力",
-      "tags": [
-        "電池"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-22 04:00:11",
-      "titles": [
-        "ミドリムシからリチウムイオン電池の正極材料を開発 産総研 5:00"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOSG097740Z01C26A1000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "三菱e-F@ctory助力本田達碳中和",
-      "score": 52,
-      "reason": "工廠自動化解決方案應用案例",
-      "tags": [
-        "機器人"
-      ],
-      "coherent": false,
-      "size": 1,
-      "max_crawled_at": "2026-11-21 07:01:11",
-      "titles": [
-        "23年続いた三菱電機の「e-F@ctory」が進化　ホンダがカーボンニュートラル化達成"
-      ],
-      "urls": [
-        "https://monoist.itmedia.co.jp/mn/articles/2611/21/news006.html"
-      ],
-      "sources": [
-        "itmedia"
-      ]
-    },
-    {
-      "event": "imec於北海道設新據點推動IOWN",
+      "event": "imec於北海道設立新據點",
       "score": 50,
-      "reason": "國際研發機構設立，影響長期技術佈局",
+      "reason": "國際研發機構進駐，強化日本研發鏈結",
       "tags": [
-        "AI算力",
-        "電子政策"
+        "半導體",
+        "擴產投資"
       ],
       "coherent": false,
       "size": 1,
@@ -230,11 +191,137 @@
       ]
     },
     {
-      "event": "愛斯佩克開發衛星環境試驗裝置",
-      "score": 48,
-      "reason": "太空電子元件測試設備，支援國防航天",
+      "event": "三菱電機e-F@ctory技術進化",
+      "score": 50,
+      "reason": "工廠自動化技術升級，提升製造效率",
       "tags": [
-        "防衛宇宙"
+        "機器人",
+        "電子政策"
+      ],
+      "coherent": false,
+      "size": 1,
+      "max_crawled_at": "2026-11-21 07:01:11",
+      "titles": [
+        "23年続いた三菱電機の「e-F@ctory」が進化　ホンダがカーボンニュートラル化達成"
+      ],
+      "urls": [
+        "https://monoist.itmedia.co.jp/mn/articles/2611/21/news006.html"
+      ],
+      "sources": [
+        "itmedia"
+      ]
+    },
+    {
+      "event": "產總研開發微藻正極材料",
+      "score": 45,
+      "reason": "電池材料技術突破，具潛在產業應用價值",
+      "tags": [
+        "電池",
+        "擴產投資"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-22 04:00:11",
+      "titles": [
+        "ミドリムシからリチウムイオン電池の正極材料を開発 産総研 5:00"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOSG097740Z01C26A1000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "日本自動駕駛車普及面臨挑戰",
+      "score": 40,
+      "reason": "法規與社會接受度影響技術落地進度",
+      "tags": [
+        "車用電子",
+        "電子政策"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-22 04:00:11",
+      "titles": [
+        "自動運転の自家用車、日本で普及するか 中国では機能搭載「当たり前」"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOCD181AE0Y6A111C2000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "防衛省壓縮裝備計畫縮減投資",
+      "score": 35,
+      "reason": "國防預算調整影響相關電子產業需求",
+      "tags": [
+        "防衛宇宙",
+        "電子政策"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-21 16:01:11",
+      "titles": [
+        "防衛省の装備計画に圧縮案 企業に伝達、投資縮小の可能性 17:00"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOUA176E70X11C26A1000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "越南與石川縣合作低空經濟",
+      "score": 30,
+      "reason": "國際區域合作，涉及次世代移動載具產業",
+      "tags": [
+        "電子政策",
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-21 13:30:11",
+      "titles": [
+        "ベトナムLAEPと石川県の加賀国家戦略特区推進機構、低空経済・次世代エアモビリティー産業育成で連携"
+      ],
+      "urls": [
+        "https://dempa-digital.com/article/731463"
+      ],
+      "sources": [
+        "dempa"
+      ]
+    },
+    {
+      "event": "國際高研推動全國AI人才培育",
+      "score": 25,
+      "reason": "基礎人才建設，長期影響產業發展",
+      "tags": [
+        "電子政策",
+        "供應鏈"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-21 17:00:11",
+      "titles": [
+        "国際高等研の西尾所長「産学官公住でAI人材育成、全国モデル構築へ」 17:00"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOUF293R50Z21C26A0000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "愛斯培低軌道衛星環境試驗器",
+      "score": 5,
+      "reason": "衛星用測試設備，屬電子零元件應用。",
+      "tags": [
+        "電子零組件"
       ],
       "coherent": true,
       "size": 1,
@@ -250,9 +337,29 @@
       ]
     },
     {
-      "event": "東大解四色問題，應用於半導體",
-      "score": 45,
-      "reason": "基礎數學突破，潛在製程最佳化應用",
+      "event": "京都企業拓展宇宙領域業務",
+      "score": 3,
+      "reason": "一般性產業佈局，缺乏具體硬體或政策細節。",
+      "tags": [
+        "防衛宇宙"
+      ],
+      "coherent": true,
+      "size": 1,
+      "max_crawled_at": "2026-11-21 04:01:11",
+      "titles": [
+        "目指せ次代の収益源、京都企業が宇宙分野に種まき 5:00"
+      ],
+      "urls": [
+        "https://www.nikkei.com/article/DGXZQOUF121690S6A111C2000000/"
+      ],
+      "sources": [
+        "nikkei_jp"
+      ]
+    },
+    {
+      "event": "東大解四色問題擬應用於半導體",
+      "score": 1,
+      "reason": "純數學理論突破，僅提潛在應用，無實際硬體進展。",
       "tags": [
         "半導體"
       ],
@@ -270,89 +377,9 @@
       ]
     },
     {
-      "event": "西門子收購美德兩公司強化半導體驗證",
-      "score": 45,
-      "reason": "非日本企業，僅間接影響供應鏈效率。",
-      "tags": [
-        "半導體設備"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-21 13:01:11",
-      "titles": [
-        "シーメンス、半導体検証強化へ　米独2社買収　AI時代の開発効率向上狙う"
-      ],
-      "urls": [
-        "https://dempa-digital.com/article/731441"
-      ],
-      "sources": [
-        "dempa"
-      ]
-    },
-    {
-      "event": "防衛省壓縮裝備預算影響企業投資",
-      "score": 40,
-      "reason": "國防預算縮減間接影響相關電子產業",
-      "tags": [
-        "電子政策"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-21 16:01:11",
-      "titles": [
-        "防衛省の装備計画に圧縮案 企業に伝達、投資縮小の可能性 17:00"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOUA176E70X11C26A1000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "NVIDIA股價急落因會計調查",
-      "score": 25,
-      "reason": "美股波動，非日本產業核心事件",
-      "tags": [
-        "AI算力"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-21 05:00:11",
-      "titles": [
-        "NVIDIA、株価一時13%急落 米SECが会計処理を調査とロイター報道 5:42"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOGN210130R21C26A1000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "日本家用車自動駕駛普及落後中國",
-      "score": 25,
-      "reason": "僅為趨勢比較，無具體產業動作或政策影響。",
-      "tags": [
-        "車用電子"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-22 04:00:11",
-      "titles": [
-        "自動運転の自家用車、日本で普及するか 中国では機能搭載「当たり前」"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOCD181AE0Y6A111C2000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "生成式AI競爭軸轉向代理執行力",
-      "score": 15,
-      "reason": "軟體應用趨勢，硬體影響有限",
+      "event": "生成式AI競爭軸轉向代理能力",
+      "score": 1,
+      "reason": "軟體與服務趨勢分析，非硬體或基礎設施投資。",
       "tags": [
         "AI算力"
       ],
@@ -370,58 +397,18 @@
       ]
     },
     {
-      "event": "越南與石川縣合作發展低空經濟",
-      "score": 15,
-      "reason": "區域性產業合作，對日本整體電子產業影響有限。",
-      "tags": [
-        "供應鏈"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-21 13:30:11",
-      "titles": [
-        "ベトナムLAEPと石川県の加賀国家戦略特区推進機構、低空経済・次世代エアモビリティー産業育成で連携"
-      ],
-      "urls": [
-        "https://dempa-digital.com/article/731463"
-      ],
-      "sources": [
-        "dempa"
-      ]
-    },
-    {
-      "event": "國際高等研推動AI人才培育全國模式",
-      "score": 10,
-      "reason": "屬教育與軟體層面，對硬體製造與供應鏈無直接影響。",
-      "tags": [
-        "AI算力"
-      ],
-      "coherent": true,
-      "size": 1,
-      "max_crawled_at": "2026-11-21 17:00:11",
-      "titles": [
-        "国際高等研の西尾所長「産学官公住でAI人材育成、全国モデル構築へ」 17:00"
-      ],
-      "urls": [
-        "https://www.nikkei.com/article/DGXZQOUF293R50Z21C26A0000000/"
-      ],
-      "sources": [
-        "nikkei_jp"
-      ]
-    },
-    {
-      "event": "目指せ次代の收益源、京都企業が宇宙分野に種まき 5:00",
+      "event": "NVIDIA股價因SEC調查急跌",
       "score": 0,
-      "reason": "",
+      "reason": "純金融市場波動，非日本電子產業事件",
       "tags": [],
       "coherent": true,
       "size": 1,
-      "max_crawled_at": "2026-11-21 04:01:11",
+      "max_crawled_at": "2026-11-21 05:00:11",
       "titles": [
-        "目指せ次代の収益源、京都企業が宇宙分野に種まき 5:00"
+        "NVIDIA、株価一時13%急落 米SECが会計処理を調査とロイター報道 5:42"
       ],
       "urls": [
-        "https://www.nikkei.com/article/DGXZQOUF121690S6A111C2000000/"
+        "https://www.nikkei.com/article/DGXZQOGN210130R21C26A1000000/"
       ],
       "sources": [
         "nikkei_jp"
